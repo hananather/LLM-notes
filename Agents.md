@@ -1,3 +1,5 @@
+<iframe src="https://link.excalidraw.com/readonly/oPRzp7AJh8RfqtYBpHYu?darkMode=true" width="100%" height="100%" style="border: none;"></iframe>
+
 # Introduction
 
 Humans are great at messy pattern recognition tasks but they often rely on tools like books, Google search, or a calculator to supplement their prior knowledge before arriving at a conclusion. 

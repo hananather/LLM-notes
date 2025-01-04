@@ -1,5 +1,5 @@
 
-![Agents](https://github.com/user-attachments/assets/9f4efdd4-5806-4488-a06c-74efd2c6e425)
+
 
 # Introduction
 
@@ -17,6 +17,7 @@ To do so, the model must not only have access to a set of externel tools, it nee
 
 - an applicaiton that attempts to achieve a goal by observing the world and acting upon it using the tools that it has at its disposal. 
 - autonomous and can act indepently of human intervention, when provided with proper goals or objectives they are meant to achieve
+![Agents](https://github.com/user-attachments/assets/804e4123-440b-4df1-b77e-3a9ed25d2f96)
 
 ### The model
 

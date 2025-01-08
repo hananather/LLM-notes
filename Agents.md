@@ -1,3 +1,6 @@
+
+
+
 # Introduction
 
 Humans are great at messy pattern recognition tasks but they often rely on tools like books, Google search, or a calculator to supplement their prior knowledge before arriving at a conclusion. 
@@ -14,6 +17,7 @@ To do so, the model must not only have access to a set of externel tools, it nee
 
 - an applicaiton that attempts to achieve a goal by observing the world and acting upon it using the tools that it has at its disposal. 
 - autonomous and can act indepently of human intervention, when provided with proper goals or objectives they are meant to achieve
+![Agents](https://github.com/user-attachments/assets/804e4123-440b-4df1-b77e-3a9ed25d2f96)
 
 ### The model
 

@@ -1,4 +1,5 @@
-![[Pasted image 20250119142945.png]]Many people think that the modern LLM models are just trained to predict the next token. 
+![Post-Training](https://github.com/user-attachments/assets/c47b52e0-721e-4b9f-b85d-62c503009d3e)
+Many people think that the modern LLM models are just trained to predict the next token. 
 
 This is not an incorrect statement. But it is an incomplete statement when talking about the modern LLMs. 
 

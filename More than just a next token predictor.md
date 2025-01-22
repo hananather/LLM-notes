@@ -1,4 +1,5 @@
-![[Pasted image 20250119142945.png]]Many people think that the modern LLM models are just trained to predict the next token. 
+![Post-Training](https://github.com/user-attachments/assets/c47b52e0-721e-4b9f-b85d-62c503009d3e)
+Many people think that the modern LLM models are just trained to predict the next token. 
 
 This is not an incorrect statement. But it is an incomplete statement when talking about the modern LLMs. 
 
@@ -18,10 +19,10 @@ We know that a model mimics its training data.
 To encourage a model to generate the appropriate responses, you can show examples of appropriate responses. Such examples follow the format (prompt, response) and are called demonstration data.
 
 Some people refer to this process as behavior cloning: you demonstrate how the model should behave, and the model clones this behavior.
-![[Screenshot 2025-01-19 at 2.25.01 PM.png]]
 
 Post-training starts with a pre-trained model.
 
+<img width="584" alt="Screenshot 2025-01-19 at 2 25 01 PM" src="https://github.com/user-attachments/assets/8981f061-409c-4633-9ae0-3f0c7f09156c" />
 
 Every model’s post-training is different. However, in general, post-training consists of two steps:
 1. Supervised finetuning (SFT): Finetune the pre-trained model on high-quality instruction data to optimize models for conversations instead of completion.

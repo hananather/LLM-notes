@@ -1,0 +1,935 @@
+CompanyID,Name,Industry,Sector,Notes,Headquarters,Name_One,Name_Two,Label
+0,1-800-GOT-JUNK?,Industrials,Waste & disposal services,Junk removal,Vancouver,1-800-GOT-JUNK?,RBDS Rubbish Boys Disposal Service Inc.,1
+0,1-800-GOT-JUNK?,Industrials,Waste & disposal services,Junk removal,Vancouver,1-800-GOT-JUNK?,1-800-JUNK-PROS Ltd.,0
+1,Norda Stelo,Industrials,Construction & Materials,Integrated projects,Quebec City,Norda Stelo,GENIVAR Inc.,1
+1,Norda Stelo,Industrials,Construction & Materials,Integrated projects,Quebec City,Norda Stelo,Noranda Inc.,0
+2,3Way International Logistics,Industrials,Business support services,Freight forwarding,Mississauga,3Way International Logistics,Three-Way Int'l Logistics Corp.,1
+2,3Way International Logistics,Industrials,Business support services,Freight forwarding,Mississauga,3Way International Logistics,3Way Transportation Services Inc.,0
+4,A&W,Consumer services,Restaurants & bars,Fast food chain,North Vancouver,A&W,A and W Revenue Royalties Income Fund,1
+4,A&W,Consumer services,Restaurants & bars,Fast food chain,North Vancouver,A&W,A&W Restaurants Inc.,0
+5,ABS Friction[10],Manufacturing,Brake pads,Vehicle aftermarket,"Guelph, Ontario",ABS Friction[10],ABS Automotive Inc.,1
+5,ABS Friction[10],Manufacturing,Brake pads,Vehicle aftermarket,"Guelph, Ontario",ABS Friction[10],ABS Manufacturing Inc.,0
+6,Access Communications,Telecommunications,Fixed line telecommunications,Cable television provider,Regina,Access Communications,Access Cable,1
+6,Access Communications,Telecommunications,Fixed line telecommunications,Cable television provider,Regina,Access Communications,Access Communications Co-operative Limited,0
+7,Ache Records,Consumer services,Broadcasting & entertainment,Record label,Vancouver,Ache Records,Ache Music Enterprises Ltd.,1
+7,Ache Records,Consumer services,Broadcasting & entertainment,Record label,Vancouver,Ache Records,Ace Recordings Ltd.,0
+8,Addition Elle,Consumer services,Apparel retailers,Women's clothing retailer,Montreal,Addition Elle,Reitmans (Canada) Limited,1
+8,Addition Elle,Consumer services,Apparel retailers,Women's clothing retailer,Montreal,Addition Elle,Addition L Elle Inc.,0
+9,Advanced Cyclotron Systems,Health care,Medical equipment,Medical cyclotrons,Richmond,Advanced Cyclotron Systems,ACSI Inc.,1
+9,Advanced Cyclotron Systems,Health care,Medical equipment,Medical cyclotrons,Richmond,Advanced Cyclotron Systems,Advanced System Centron,0
+10,Affinity Credit Union,Financials,Banks,Credit union,Saskatoon,Affinity Credit Union,CUSO Financial Affinity,1
+10,Affinity Credit Union,Financials,Banks,Credit union,Saskatoon,Affinity Credit Union,Affinity One Credit Union Limited,0
+11,AHED,Consumer goods,Recreational products,"Guitar equipment, defunct",Toronto[13],AHED,A.H.E.D. Enterprises Inc.,1
+11,AHED,Consumer goods,Recreational products,"Guitar equipment, defunct",Toronto[13],AHED,ABED,0
+12,Air Canada,Consumer services,Airlines,"Flag carrier, largest airline of Canada",Montreal,Air Canada,Trans-Canada Air Lines,1
+12,Air Canada,Consumer services,Airlines,"Flag carrier, largest airline of Canada",Montreal,Air Canada,Air Transat A.T. Inc.,0
+13,Air Miles,Consumer services,Travel & tourism,Loyalty programs,Toronto,Air Miles,LoyaltyOne Co.,1
+13,Air Miles,Consumer services,Travel & tourism,Loyalty programs,Toronto,Air Miles,Airmec Inc.,0
+15,AldrichPears Associates,Industrials,Business support services,Exhibit design,Vancouver,AldrichPears Associates,Aldrich & Pears Exhibition Designers Ltd.,1
+15,AldrichPears Associates,Industrials,Business support services,Exhibit design,Vancouver,AldrichPears Associates,Aldrich Partners LLC,0
+16,Algonquin Power & Utilities,Utilities,Alternative electricity,Renewable energy,Oakville,Algonquin Power & Utilities,AQN Inc.,1
+16,Algonquin Power & Utilities,Utilities,Alternative electricity,Renewable energy,Oakville,Algonquin Power & Utilities,ATCO Electric Ltd.,0
+17,Allied Shipbuilders,Industrials,Commercial vehicles & trucks,Shipyard,North Vancouver,Allied Shipbuilders,Allied Coastline Industries Co.,1
+17,Allied Shipbuilders,Industrials,Commercial vehicles & trucks,Shipyard,North Vancouver,Allied Shipbuilders,Allied Marine & Industrial,0
+18,Alta Newspaper Group,Consumer services,Publishing,Media holding,Vancouver,Alta Newspaper Group,ANG Holdings Inc.,1
+18,Alta Newspaper Group,Consumer services,Publishing,Media holding,Vancouver,Alta Newspaper Group,Altima Telecom Inc.,0
+19,Alterra Power,Utilities,Alternative electricity,Renewable energy,Vancouver,Alterra Power,Innergex Renewable Energy Inc,1
+19,Alterra Power,Utilities,Alternative electricity,Renewable energy,Vancouver,Alterra Power,Alterra Capital Holdings Limited,0
+20,Angoss,Technology,Software,Analytic software,Toronto,Angoss,AcquisitionCo Inc. (historical name),1
+20,Angoss,Technology,Software,Analytic software,Toronto,Angoss,Ansys Canada Ltd.,0
+22,Appnovation,Technology,Software,Software developer,Vancouver,Appnovation,Appnovation Software Solutions Ltd.,1
+22,Appnovation,Technology,Software,Software developer,Vancouver,Appnovation,Appnovation Digital Inc.,0
+23,Arc'teryx,Consumer services,Apparel retailers,Outdoor apparel/equipment,North Vancouver,Arc'teryx,Arc'teryx Manufacturing Ltd.,1
+23,Arc'teryx,Consumer services,Apparel retailers,Outdoor apparel/equipment,North Vancouver,Arc'teryx,Arcturus Networks Inc.,0
+24,Areva Resources Canada,Basic materials,General mining,Uranium,Saskatoon,Areva Resources Canada,Orano Canada Inc.,1
+24,Areva Resources Canada,Basic materials,General mining,Uranium,Saskatoon,Areva Resources Canada,Cameco Corporation,0
+25,Aritzia,Consumer goods,Clothing & accessories,Clothing,Vancouver,Aritzia,Aritzia Holdings Ltd.,1
+25,Aritzia,Consumer goods,Clothing & accessories,Clothing,Vancouver,Aritzia,Aritza Holdings Plc,0
+26,Army & Navy Stores,Consumer services,Broadline retailer,"Discount department stores, defunct 2020",Vancouver,Army & Navy Stores,Army and Navy Co.,1
+26,Army & Navy Stores,Consumer services,Broadline retailer,"Discount department stores, defunct 2020",Vancouver,Army & Navy Stores,Navy & Army Stores Inc.,0
+27,Arsenal Pulp Press,Consumer services,Publishing,Book publisher,Vancouver,Arsenal Pulp Press,A P P Publishing Company,1
+27,Arsenal Pulp Press,Consumer services,Publishing,Book publisher,Vancouver,Arsenal Pulp Press,Arsenal Power Press Inc.,0
+28,ATB Financial,Financials,Asset management,State financial services,Edmonton,ATB Financial,Alberta Treasury Branches,1
+28,ATB Financial,Financials,Asset management,State financial services,Edmonton,ATB Financial,ATK Financial Corporation,0
+29,ATI Technologies,Technology,Semiconductors,"Semiconductors, defunct 2006",Markham,ATI Technologies,Advanced Technology Incorporated,1
+29,ATI Technologies,Technology,Semiconductors,"Semiconductors, defunct 2006",Markham,ATI Technologies,"ATI Technical Services, LLC",0
+30,Atmosphere Visual Effects,Consumer services,Broadcasting & entertainment,Movie special effects,Vancouver,Atmosphere Visual Effects,Atmos Visual Entertainment Inc.,1
+30,Atmosphere Visual Effects,Consumer services,Broadcasting & entertainment,Movie special effects,Vancouver,Atmosphere Visual Effects,Atmosphere VFX Ltd.,0
+31,Atwill-Morin,Basic materials,Construction & Materials,"Masonry restoration, heritage preservation",Montreal,Atwill-Morin,A.M.R. Contractors,1
+31,Atwill-Morin,Basic materials,Construction & Materials,"Masonry restoration, heritage preservation",Montreal,Atwill-Morin,Atwell Construction Company,0
+32,Ballard Power Systems,Industrials,Electrical components & equipment,Fuel cells,Burnaby,Ballard Power Systems,Ballard Technologies Inc.,1
+32,Ballard Power Systems,Industrials,Electrical components & equipment,Fuel cells,Burnaby,Ballard Power Systems,Bollard Systems Ltd.,0
+33,Banff Lodging Co,Consumer services,Hotels,Lodges,Banff,Banff Lodging Co,Caribou Properties Group,1
+33,Banff Lodging Co,Consumer services,Hotels,Lodges,Banff,Banff Lodging Co,Banflo Lodge and Resorts Inc.,0
+34,Bank of Montreal,Financials,Banks,Bank,Montreal,Bank of Montreal,The BMO Group,1
+34,Bank of Montreal,Financials,Banks,Bank,Montreal,Bank of Montreal,Bank of Nova Scotia,0
+35,Bard Ventures,Basic materials,General mining,Molybdenum mining,Vancouver,Bard Ventures,TBD Mining Corp.,1
+35,Bard Ventures,Basic materials,General mining,Molybdenum mining,Vancouver,Bard Ventures,Broad Ventures Inc.,0
+36,Barrick Gold,Basic materials,Gold mining,Gold extraction,Toronto,Barrick Gold,Barrick Resources Inc.,1
+36,Barrick Gold,Basic materials,Gold mining,Gold extraction,Toronto,Barrick Gold,Barrick Resources Ltd.,0
+37,Bausch Health,Health care,Pharmaceuticals,Specialty pharmaceuticals,Laval,Bausch Health,Valeant Canada Limited,1
+37,Bausch Health,Health care,Pharmaceuticals,Specialty pharmaceuticals,Laval,Bausch Health,Bayer HealthCare Pharmaceuticals,0
+38,BBC Kids,Consumer services,Broadcasting & entertainment,Children's television,Burnaby,BBC Kids,B.B.C. Kids Broadcasting Ltd.,1
+38,BBC Kids,Consumer services,Broadcasting & entertainment,Children's television,Burnaby,BBC Kids,BBC Knowledge,0
+39,BC Hydro,Utilities,Alternative electricity,Hydro-electric,Vancouver,BC Hydro,BC Power Corp,1
+39,BC Hydro,Utilities,Alternative electricity,Hydro-electric,Vancouver,BC Hydro,Hydro One Limited,0
+40,BC Research,Industrials,Business support services,"Research, defunct 2007",Vancouver,BC Research,British Columbia Research Institute,1
+40,BC Research,Industrials,Business support services,"Research, defunct 2007",Vancouver,BC Research,BC Transit,0
+41,Becker's,Consumer services,Specialty retailers,Retail chains,Toronto,Becker's,Becker Milk Company Limited,1
+41,Becker's,Consumer services,Specialty retailers,Retail chains,Toronto,Becker's,Beckers Group Inc.,0
+42,Bell Canada,Telecommunications,Fixed line telecommunications,"Telecom, part of BCE Inc.",Montreal,Bell Canada,The Bell Telephone Company of Canada Ltd.,1
+42,Bell Canada,Telecommunications,Fixed line telecommunications,"Telecom, part of BCE Inc.",Montreal,Bell Canada,Bell Atlantic,0
+43,Bell MTS,Telecommunications,Fixed line telecommunications,"Telecom, part of BCE Inc.",Winnipeg,Bell MTS,BCE Nexxia Inc. (as part of the BCE corporate structure),1
+43,Bell MTS,Telecommunications,Fixed line telecommunications,"Telecom, part of BCE Inc.",Winnipeg,Bell MTS,Bell Aliant,0
+44,Ben Moss Jewellers,Consumer services,Specialty retailers,Jewelry retailer,Winnipeg,Ben Moss Jewellers,BMJ Inc.,1
+44,Ben Moss Jewellers,Consumer services,Specialty retailers,Jewelry retailer,Winnipeg,Ben Moss Jewellers,Ben Bridge Jeweler,0
+45,Bennett Environmental,Industrials,Waste & disposal services,Defunct 2013,Oakville,Bennett Environmental,Bennett Waste Disposal Services,1
+45,Bennett Environmental,Industrials,Waste & disposal services,Defunct 2013,Oakville,Bennett Environmental,Bennett Property Development Inc.,0
+46,Big Blue Bubble,Technology,Software,"Software firm, mobile games",London,Big Blue Bubble,Big Blue Bubble (Canada) Inc.,1
+46,Big Blue Bubble,Technology,Software,"Software firm, mobile games",London,Big Blue Bubble,Big Blue Bus,0
+47,BigPark,Technology,Software,"Software firm, part of Microsoft (US)",Vancouver,BigPark,Microsoft Studios BigPark,1
+47,BigPark,Technology,Software,"Software firm, part of Microsoft (US)",Vancouver,BigPark,Big Planet,0
+49,BioWare,Technology,Software,"Video games, part of Electronic Arts (US)",Edmonton,BioWare,BioWare Corporation,1
+49,BioWare,Technology,Software,"Video games, part of Electronic Arts (US)",Edmonton,BioWare,BioWare Inc. (different entity than EA subsidiary in past filings),0
+50,Bison Transport,Industrials,Delivery services,Transportation and logistics,Winnipeg,Bison Transport,Bison Limited,1
+50,Bison Transport,Industrials,Delivery services,Transportation and logistics,Winnipeg,Bison Transport,Blackson Transport Ltd.,0
+51,Black Diamond Cheese,Consumer goods,Food products,"Cheese, part of Parmalat (Italy)",Belleville,Black Diamond Cheese,BD Cheese Ltd.,1
+51,Black Diamond Cheese,Consumer goods,Food products,"Cheese, part of Parmalat (Italy)",Belleville,Black Diamond Cheese,Black Diamond Equipment,0
+52,Black Hen Music,Consumer services,Broadcasting & entertainment,Record label,Vancouver,Black Hen Music,BHM Records Inc.,1
+52,Black Hen Music,Consumer services,Broadcasting & entertainment,Record label,Vancouver,Black Hen Music,Black Hat Music,0
+53,Black Press,Consumer services,Publishing,Publishing and media,Surrey,Black Press,Black Media Group,1
+53,Black Press,Consumer services,Publishing,Publishing and media,Surrey,Black Press,Black Diamond Group,0
+54,Blacks Photo Corporation,Consumer services,Recreational services,"Photo printing, now only online",Montreal,Blacks Photo Corporation,Black's Cameras Limited,1
+54,Blacks Photo Corporation,Consumer services,Recreational services,"Photo printing, now only online",Montreal,Blacks Photo Corporation,Blackstone Photo Company,0
+55,BlackBerry Limited,Technology,Telecommunications equipment,Wireless devices,Waterloo,BlackBerry Limited,RIM Inc.,1
+55,BlackBerry Limited,Technology,Telecommunications equipment,Wireless devices,Waterloo,BlackBerry Limited,BlackBerry Inc.,0
+56,Blackburn Radio,Consumer services,Broadcasting & entertainment,Radio,London,Blackburn Radio,CJTN FM Inc,1
+56,Blackburn Radio,Consumer services,Broadcasting & entertainment,Radio,London,Blackburn Radio,Blackridge Media Group,0
+57,"Blake, Cassels & Graydon",Industrials,Business support services,Law firm,Toronto,"Blake, Cassels & Graydon",B.C. & G. LLP,1
+57,"Blake, Cassels & Graydon",Industrials,Business support services,Law firm,Toronto,"Blake, Cassels & Graydon",Blake Group of Companies,0
+58,Bleeding Art Industries,Consumer services,Broadcasting & entertainment,Special effects,Calgary,Bleeding Art Industries,Bleeding Art Effects Company,1
+58,Bleeding Art Industries,Consumer services,Broadcasting & entertainment,Special effects,Calgary,Bleeding Art Industries,Bleed In Arts Ltd.,0
+59,Blenz Coffee,Consumer services,Restaurants & bars,Coffee chain,Vancouver,Blenz Coffee,Blenz Coffee International Inc.,1
+59,Blenz Coffee,Consumer services,Restaurants & bars,Coffee chain,Vancouver,Blenz Coffee,Blends Cafe,0
+60,Blue Giant Equipment Corporation,Industrials,Industrial machinery,Loading dock equipment,Toronto,Blue Giant Equipment Corporation,BG Equipment Ltd.,1
+60,Blue Giant Equipment Corporation,Industrials,Industrial machinery,Loading dock equipment,Toronto,Blue Giant Equipment Corporation,Blue Line Equipment Ltd.,0
+63,Bombardier,Industrials,Aerospace,Aircraft,Montreal,Bombardier,Société Bombardier,1
+63,Bombardier,Industrials,Aerospace,Aircraft,Montreal,Bombardier,Bombard Electric LLC,0
+64,Bombardier Recreational Products,Consumer goods,Recreational products,Spun off as an independent company in 2003,Valcourt,Bombardier Recreational Products,BRP Inc.,1
+64,Bombardier Recreational Products,Consumer goods,Recreational products,Spun off as an independent company in 2003,Valcourt,Bombardier Recreational Products,Bombardier Inc.,0
+65,Book City,Consumer services,Specialty retailers,Bookstores,Toronto,Book City,Livre Ville Corp.,1
+65,Book City,Consumer services,Specialty retailers,Bookstores,Toronto,Book City,Bookmark City Inc.,0
+66,Boston Pizza,Consumer services,Restaurants & bars,Pizza chain,Richmond,Boston Pizza,BPI Holdings Ltd.,1
+66,Boston Pizza,Consumer services,Restaurants & bars,Pizza chain,Richmond,Boston Pizza,Boston Scientific Ltd.,0
+67,Boutique La Vie en Rose,Consumer services,Apparel retailers,Lingerie retailer,Montreal,Boutique La Vie en Rose,Groupe Bikini Village inc.,1
+67,Boutique La Vie en Rose,Consumer services,Apparel retailers,Lingerie retailer,Montreal,Boutique La Vie en Rose,Boutique Belle Vie,0
+68,Bowring Brothers,Consumer services,Broadline retailers,General retail stores,St. John's,Bowring Brothers,M.H. Bowring & Co.,1
+68,Bowring Brothers,Consumer services,Broadline retailers,General retail stores,St. John's,Bowring Brothers,Bowering Brothers,0
+69,Bre-X,Basic materials,Gold mining,Completely collapsed in 1997,Calgary,Bre-X,Bresea Resources Ltd.,1
+69,Bre-X,Basic materials,Gold mining,Completely collapsed in 1997,Calgary,Bre-X,Bendex Mines Ltd.,0
+70,Brick Brewing Company,Consumer goods,Brewers,Brewery,Waterloo,Brick Brewing Company,Waterloo Brewing Ltd.,1
+70,Brick Brewing Company,Consumer goods,Brewers,Brewery,Waterloo,Brick Brewing Company,Bricks Beer Co.,0
+71,Brightlight Pictures,Consumer services,Broadcasting & entertainment,Production company,Vancouver,Brightlight Pictures,BLP Productions Ltd.,1
+71,Brightlight Pictures,Consumer services,Broadcasting & entertainment,Production company,Vancouver,Brightlight Pictures,BrightStar Corp,0
+72,BrightSide Technologies,Consumer goods,Consumer electronics,"Display technology, merged into Dolby Laboratories",Vancouver,BrightSide Technologies,None,1
+72,BrightSide Technologies,Consumer goods,Consumer electronics,"Display technology, merged into Dolby Laboratories",Vancouver,BrightSide Technologies,BrightPixel Technologies Inc.,0
+73,Brookfield Corporation,Financials,Asset managers,Asset management firm,Toronto,Brookfield Corporation,BAM Investments Corp.,1
+73,Brookfield Corporation,Financials,Asset managers,Asset management firm,Toronto,Brookfield Corporation,Brookfield Property Partners L.P.,0
+75,Brunet,Consumer services,Drug retailers,Pharmacies,Montreal,Brunet,Groupe Pharmaceutique Benoit Brunet,1
+75,Brunet,Consumer services,Drug retailers,Pharmacies,Montreal,Brunet,Brunett Enterprises,0
+76,Buckley's,Health care,Pharmaceuticals,Medicine,Mississauga,Buckley's,W.K. Buckley Limited,1
+76,Buckley's,Health care,Pharmaceuticals,Medicine,Mississauga,Buckley's,Buckles & Belts Inc.,0
+77,Buhler Industries,Industrials,Commercial vehicles & trucks,Farm vehicles and equipment,Winnipeg,Buhler Industries,Versatile Division of Buhler Industries Inc.,1
+77,Buhler Industries,Industrials,Commercial vehicles & trucks,Farm vehicles and equipment,Winnipeg,Buhler Industries,Butler Industries,0
+78,Bullfrog Power,Utilities,Alternative electricity,Low-carbon electricity,Toronto,Bullfrog Power,BPI Energy Solutions Inc.,1
+78,Bullfrog Power,Utilities,Alternative electricity,Low-carbon electricity,Toronto,Bullfrog Power,Ballard Power Systems Inc.,0
+79,Cactus Club Cafe,Consumer services,Restaurants & bars,Restaurant chain,North Vancouver,Cactus Club Cafe,Cactus Canada Operating Corporation,1
+79,Cactus Club Cafe,Consumer services,Restaurants & bars,Restaurant chain,North Vancouver,Cactus Club Cafe,Cactus Club Kitchen,0
+80,Cadillac Fairview,Financials,Real estate holding & development,Property development and management,Toronto,Cadillac Fairview,CF Properties Management,1
+80,Cadillac Fairview,Financials,Real estate holding & development,Property development and management,Toronto,Cadillac Fairview,Fairview Cadillac Inc.,0
+81,CAE Inc.,Industrials,Business training & employment agencies,Flight simulators and training,Montreal,CAE Inc.,Canadian Aviation Electronics Ltd.,1
+81,CAE Inc.,Industrials,Business training & employment agencies,Flight simulators and training,Montreal,CAE Inc.,CAE TECHNOLOGY INC.,0
+82,Cafection,Consumer goods,Consumer electronics,Coffee Machines,Quebec City,Cafection,Cafection Ventures Corporation,1
+82,Cafection,Consumer goods,Consumer electronics,Coffee Machines,Quebec City,Cafection,Curvature Inc.,0
+83,Calm Air,Consumer services,Airlines,Airline,Winnipeg,Calm Air,Calm Air International Inc.,1
+83,Calm Air,Consumer services,Airlines,Airline,Winnipeg,Calm Air,Calx Air,0
+84,Cameco,Basic materials,General mining,Uranium,Saskatoon,Cameco,Eldorado Nuclear,1
+84,Cameco,Basic materials,General mining,Uranium,Saskatoon,Cameco,Camoco Ltd.,0
+85,Canada Bread,Consumer goods,Food products,"Bread, part of Grupo Bimbo (Mexico)",Toronto,Canada Bread,Bimbo Canada,1
+85,Canada Bread,Consumer goods,Food products,"Bread, part of Grupo Bimbo (Mexico)",Toronto,Canada Bread,Canada Bread Atlantic,0
+86,Canada Deposit Insurance Corporation,Financials,Specialty finance,Government-owned bank account insurance company,Ottawa,Canada Deposit Insurance Corporation,C.D.I.C.,1
+86,Canada Deposit Insurance Corporation,Financials,Specialty finance,Government-owned bank account insurance company,Ottawa,Canada Deposit Insurance Corporation,Canada Guaranty Mortgage Insurance Company,0
+87,Canada Post,Industrials,Delivery services,Postal services,Ottawa,Canada Post,CPC Limited,1
+87,Canada Post,Industrials,Delivery services,Postal services,Ottawa,Canada Post,Canadian Post Holdings Ltd,0
+88,Canada Wide Media,Consumer services,Publishing,Publisher,Burnaby,Canada Wide Media,Canada Wide Magazines & Communications Ltd.,1
+88,Canada Wide Media,Consumer services,Publishing,Publisher,Burnaby,Canada Wide Media,Canada Media Fund,0
+90,Canadian Broadcasting Corporation (CBC),Consumer services,Broadcasting & entertainment,Government-owned Canadian TV and radio broadcaster,Ottawa,Canadian Broadcasting Corporation (CBC),SRC,1
+90,Canadian Broadcasting Corporation (CBC),Consumer services,Broadcasting & entertainment,Government-owned Canadian TV and radio broadcaster,Ottawa,Canadian Broadcasting Corporation (CBC),Canadian Broadcast Centre,0
+91,Canadian Hydro Developers,Utilities,Alternative electricity,"Hydro power generation, defunct 2009",Calgary,Canadian Hydro Developers,CHDI,1
+91,Canadian Hydro Developers,Utilities,Alternative electricity,"Hydro power generation, defunct 2009",Calgary,Canadian Hydro Developers,Canadian Utilities Limited,0
+92,Canadian Imperial Bank of Commerce (CIBC),Financials,Banks,Banking,Toronto,Canadian Imperial Bank of Commerce (CIBC),CIBC Mellon Trust Company,1
+92,Canadian Imperial Bank of Commerce (CIBC),Financials,Banks,Banking,Toronto,Canadian Imperial Bank of Commerce (CIBC),Canadian Pacific Railway Limited,0
+93,Canadian Light Source,Industrials,Business support services,Research,Saskatoon,Canadian Light Source,CLS Inc.,1
+93,Canadian Light Source,Industrials,Business support services,Research,Saskatoon,Canadian Light Source,Canadian Solar Inc.,0
+94,Canadian National Railway,Industrials,Railroads,Railway,Montreal,Canadian National Railway,CNR Company,1
+94,Canadian National Railway,Industrials,Railroads,Railway,Montreal,Canadian National Railway,Canadian Pacific Railway,0
+95,Canadian Natural Resources,Oil & gas,Exploration & production,Oil and gas development and production,Calgary,Canadian Natural Resources,CNR,1
+95,Canadian Natural Resources,Oil & gas,Exploration & production,Oil and gas development and production,Calgary,Canadian Natural Resources,Canadian Resource Partners,0
+96,Canadian Oil Sands,Oil & gas,Exploration & production,"Oil production, part of Suncor Energy",Calgary,Canadian Oil Sands,COS.UN,1
+96,Canadian Oil Sands,Oil & gas,Exploration & production,"Oil production, part of Suncor Energy",Calgary,Canadian Oil Sands,Canadian Superior Oil Limited,0
+97,Canadian Pacific Railway Limited,Industrials,Railroads,Railway,Calgary,Canadian Pacific Railway Limited,CPR Ltd.,1
+97,Canadian Pacific Railway Limited,Industrials,Railroads,Railway,Calgary,Canadian Pacific Railway Limited,Canadian Pacific Limited,0
+99,Canadian Steamship Lines,Industrials,Marine transportation,Cargo shipping,Montreal,Canadian Steamship Lines,CSL Group Inc.,1
+99,Canadian Steamship Lines,Industrials,Marine transportation,Cargo shipping,Montreal,Canadian Steamship Lines,Canadian Pacific Lines Limited,0
+100,Canadian Tire,Consumer goods,Tires,Retail,Toronto,Canadian Tire,"CTR, Ltd.",1
+100,Canadian Tire,Consumer goods,Tires,Retail,Toronto,Canadian Tire,Castrol Canada Limited,0
+101,Canadian Tire Bank,Financials,Consumer financing,"Credit card company, part of Canadian Tire",Oakville,Canadian Tire Bank,CTFS Bermuda Inc.,1
+101,Canadian Tire Bank,Financials,Consumer financing,"Credit card company, part of Canadian Tire",Oakville,Canadian Tire Bank,Canada Trust Bank,0
+102,Canadian Western Bank,Financials,Banks,Banking,Edmonton,Canadian Western Bank,CWB Financial Group,1
+102,Canadian Western Bank,Financials,Banks,Banking,Edmonton,Canadian Western Bank,Canadian Imperial Bank of Commerce,0
+103,Canadian Wheat Board,Consumer goods,Farming & fishing,"Agri-business, defunct 2015",Winnipeg,Canadian Wheat Board,Commission Canadienne du Blé,1
+103,Canadian Wheat Board,Consumer goods,Farming & fishing,"Agri-business, defunct 2015",Winnipeg,Canadian Wheat Board,Canadian Wheat Trade Corp,0
+105,Candente Copper,Basic materials,Nonferrous metals,Copper mining,Vancouver,Candente Copper,Candente Resource Corporation,1
+105,Candente Copper,Basic materials,Nonferrous metals,Copper mining,Vancouver,Candente Copper,Candente Gold Corp.,0
+106,Cangene Corp.,Health care,Biotechnology,"Biotech, defunct 2014",Winnipeg,Cangene Corp.,Cangene Limited,1
+106,Cangene Corp.,Health care,Biotechnology,"Biotech, defunct 2014",Winnipeg,Cangene Corp.,Canexus Corporation,0
+107,CanJet,Consumer services,Airlines,"Low-cost airline, defunct 2015",Enfield,CanJet,Scotia International of Nova Scotia Inc.,1
+107,CanJet,Consumer services,Airlines,"Low-cost airline, defunct 2015",Enfield,CanJet,CanWest,0
+108,Canpotex,Basic materials,General mining,Potash export,Saskatoon,Canpotex,Canadian Potash Exporters Inc.,1
+108,Canpotex,Basic materials,General mining,Potash export,Saskatoon,Canpotex,Cantec Industries Ltd.,0
+109,Canucks Sports & Entertainment,Consumer services,Broadcasting & entertainment,Owns Vancouver Canucks,Vancouver,Canucks Sports & Entertainment,CSE Vancouver LP,1
+109,Canucks Sports & Entertainment,Consumer services,Broadcasting & entertainment,Owns Vancouver Canucks,Vancouver,Canucks Sports & Entertainment,Canmedico Sports & Entertainment,0
+110,Canwest,Consumer services,Broadcasting & entertainment,"Broadcaster, defunct 2010",Winnipeg,Canwest,No additional verified variant found.,1
+110,Canwest,Consumer services,Broadcasting & entertainment,"Broadcaster, defunct 2010",Winnipeg,Canwest,CanWest Global Communications Corp.,0
+111,Capcom Vancouver,Technology,Software,"Game developer, part of Capcom (Japan)",Burnaby,Capcom Vancouver,Blue Castle Games,1
+111,Capcom Vancouver,Technology,Software,"Game developer, part of Capcom (Japan)",Burnaby,Capcom Vancouver,Camco Vancouver Ltd.,0
+112,Cargill Ltd.,Consumer goods,Farming & fishing,"Agriculture, part of Cargill (US)",Winnipeg,Cargill Ltd.,Cargill Limited,1
+112,Cargill Ltd.,Consumer goods,Farming & fishing,"Agriculture, part of Cargill (US)",Winnipeg,Cargill Ltd.,Cara Operations Ltd.,0
+113,Casavant Frères,Consumer goods,Recreational products,Organs,Saint-Hyacinthe,Casavant Frères,Les Industries Casavant Inc.,1
+113,Casavant Frères,Consumer goods,Recreational products,Organs,Saint-Hyacinthe,Casavant Frères,Casavant & Company Inc.,0
+114,Cascades,Industrials,Containers & packaging,Packaging and tissues,Kingsey Falls,Cascades,Cascades Containerboard Packaging,1
+114,Cascades,Industrials,Containers & packaging,Packaging and tissues,Kingsey Falls,Cascades,Cascade Aerospace Inc.,0
+115,Catalyst Paper,Basic materials,Paper,Pulp and paper,Richmond,Catalyst Paper,Howe Sound Pulp & Paper Corporation,1
+115,Catalyst Paper,Basic materials,Paper,Pulp and paper,Richmond,Catalyst Paper,Catalyst Copper Corp,0
+116,Cedarlane Laboratories,Manufacturing,Research products,Life science research,"Burlington, Ontario",Cedarlane Laboratories,Cedarlane Research Products Ltd.,1
+116,Cedarlane Laboratories,Manufacturing,Research products,Life science research,"Burlington, Ontario",Cedarlane Laboratories,Cedarlane Biosciences Limited,0
+117,Celestica,Industrials,Electronic equipment,Electronics,Toronto,Celestica,Celestica International Inc.,1
+117,Celestica,Industrials,Electronic equipment,Electronics,Toronto,Celestica,Celestial Semiconductor Inc.,0
+118,Cellcom Communications,Telecommunications,Fixed line telecommunications,Part of BCE Inc.,Montreal,Cellcom Communications,Bell Cellcom Services,1
+118,Cellcom Communications,Telecommunications,Fixed line telecommunications,Part of BCE Inc.,Montreal,Cellcom Communications,Comcell Solutions,0
+119,Cenovus Energy,Oil & gas,Integrated oil & gas,Oil & gas,Calgary,Cenovus Energy,472552 Alberta Inc.,1
+119,Cenovus Energy,Oil & gas,Integrated oil & gas,Oil & gas,Calgary,Cenovus Energy,Cenov Energy Corp,0
+120,Centra Gas Manitoba Inc.,Utilities,Alternative electricity,"Utility, part of Manitoba Hydro",Winnipeg,Centra Gas Manitoba Inc.,Centra Manitoba Utilities,1
+120,Centra Gas Manitoba Inc.,Utilities,Alternative electricity,"Utility, part of Manitoba Hydro",Winnipeg,Centra Gas Manitoba Inc.,Centra Gas Ontario Inc.,0
+121,Central Heat Distribution,Utilities,Multiutilities,District heating,Vancouver,Central Heat Distribution,CHD Ltd.,1
+121,Central Heat Distribution,Utilities,Multiutilities,District heating,Vancouver,Central Heat Distribution,Central Distribution Heating Ltd.,0
+122,Central Mountain Air,Consumer services,Airlines,Regional airline,Smithers,Central Mountain Air,1234567 Alberta Ltd.,1
+122,Central Mountain Air,Consumer services,Airlines,Regional airline,Smithers,Central Mountain Air,Central Mountain Holdings Ltd.,0
+123,CGI Group,Industrials,Business support services,IT consulting,Montreal,CGI Group,Conseillers en Gestion et Informatique Inc.,1
+123,CGI Group,Industrials,Business support services,IT consulting,Montreal,CGI Group,CCI Group Inc,0
+124,Chapters,Consumer services,Specialty retailers,Book store chain,Toronto,Chapters,Indigo-Chapters,1
+124,Chapters,Consumer services,Specialty retailers,Book store chain,Toronto,Chapters,Chatter Books,0
+125,CHC Helicopter,Consumer services,Airlines,Helicopter services,Richmond,CHC Helicopter,CHC Group Inc.,1
+125,CHC Helicopter,Consumer services,Airlines,Helicopter services,Richmond,CHC Helicopter,CHL Helicopter,0
+127,Chrysler Canada,Consumer goods,Automobiles,Part of Fiat Chrysler Automobiles (US),Windsor,Chrysler Canada,FCA Canada Inc.,1
+127,Chrysler Canada,Consumer goods,Automobiles,Part of Fiat Chrysler Automobiles (US),Windsor,Chrysler Canada,Chrystec Canada Inc.,0
+128,CHUM Limited,Consumer services,Broadcasting & entertainment,"Broadcaster, defunct 2007",Toronto,CHUM Limited,Citytv Group,1
+128,CHUM Limited,Consumer services,Broadcasting & entertainment,"Broadcaster, defunct 2007",Toronto,CHUM Limited,CLUM Limited Partnership,0
+129,Cineplex Entertainment,Consumer services,Recreational services,Theater chain,Toronto,Cineplex Entertainment,Cineplex Galaxy LP,1
+129,Cineplex Entertainment,Consumer services,Recreational services,Theater chain,Toronto,Cineplex Entertainment,Cineplex Enterprises,0
+130,Cirque du Soleil,Consumer services,Recreational services,Entertainment,Montreal,Cirque du Soleil,Les Productions du Cirque du Soleil Inc.,1
+130,Cirque du Soleil,Consumer services,Recreational services,Entertainment,Montreal,Cirque du Soleil,"Cirque Energy, Inc.",0
+131,CityWest,Telecommunications,Fixed line telecommunications,Telephone/cable company,Prince Rupert,CityWest,CityWest Telephone & Cable Services Limited,1
+131,CityWest,Telecommunications,Fixed line telecommunications,Telephone/cable company,Prince Rupert,CityWest,CityWest Electric,0
+132,Coachman Insurance Company,Financials,Full line insurance,Insurance,Toronto,Coachman Insurance Company,Coachman Underwriters Limited,1
+132,Coachman Insurance Company,Financials,Full line insurance,Insurance,Toronto,Coachman Insurance Company,Compass Insurance Company,0
+133,Coast Capital Savings,Financials,Banks,"Federal credit union, banking",Surrey,Coast Capital Savings,Coast Capital Credit Union Ltd.,1
+133,Coast Capital Savings,Financials,Banks,"Federal credit union, banking",Surrey,Coast Capital Savings,Coastal Savings & Trust,0
+134,Coffee Time,Consumer services,Restaurants & bars,Coffee shops,Toronto,Coffee Time,154969 Canada Inc.,1
+134,Coffee Time,Consumer services,Restaurants & bars,Coffee shops,Toronto,Coffee Time,Coffee Times Inc.,0
+135,Cognos,Technology,Software,"Software, merged into IBM",Ottawa,Cognos,Cognos Incorporated,1
+135,Cognos,Technology,Software,"Software, merged into IBM",Ottawa,Cognos,CognoVision Solutions Inc.,0
+136,Colt Canada,Industrials,Defense,"Arms, part of Colt's Manufacturing Company (US)",Kitchener,Colt Canada,Canadian Arsenals Limited,1
+136,Colt Canada,Industrials,Defense,"Arms, part of Colt's Manufacturing Company (US)",Kitchener,Colt Canada,Colt Capital Corp.,0
+137,Comm100,Technology,Software,Live chat software provider,Vancouver,Comm100,Comm100 Technology Corporation,1
+137,Comm100,Technology,Software,Live chat software provider,Vancouver,Comm100,TC100 Limited,0
+138,Conestoga-Rovers & Associates,Industrials,Heavy construction,Engineering and construction,Waterloo,Conestoga-Rovers & Associates,CRA Engineering Consulting,1
+138,Conestoga-Rovers & Associates,Industrials,Heavy construction,Engineering and construction,Waterloo,Conestoga-Rovers & Associates,Colt Engineering Corporation,0
+139,Conexus Credit Union,Financials,Banks,Financial services,Regina,Conexus Credit Union,Conexus Co-operative Association,1
+139,Conexus Credit Union,Financials,Banks,Financial services,Regina,Conexus Credit Union,Connexus Credit Union,0
+140,Continental Newspapers,Consumer services,Publishing,Regional newspapers,Kelowna,Continental Newspapers,Continental News Media Holdings Co.,1
+140,Continental Newspapers,Consumer services,Publishing,Regional newspapers,Kelowna,Continental Newspapers,Continental Resources Ltd.,0
+141,Cookie Jar Group,Consumer services,Broadcasting & entertainment,Defunct 2014,Toronto,Cookie Jar Group,DHX Media Ltd.,1
+141,Cookie Jar Group,Consumer services,Broadcasting & entertainment,Defunct 2014,Toronto,Cookie Jar Group,Cookie Jam Ltd.,0
+143,Cordiant Capital Inc.,Financials,Asset management,Investment management,Montreal,Cordiant Capital Inc.,Cordiant Asset Management Inc.,1
+143,Cordiant Capital Inc.,Financials,Asset management,Investment management,Montreal,Cordiant Capital Inc.,Cordova Capital Inc.,0
+144,Corel,Technology,Software,Graphics software,Ottawa,Corel,CorelDRAW Software Systems Incorporated,1
+144,Corel,Technology,Software,Graphics software,Ottawa,Corel,CoreLogic Inc.,0
+145,Corma Inc.,Manufacturing,Corrugated plastic pipe[17],Production systems,Toronto,Corma Inc.,Corma Manufacturing,1
+145,Corma Inc.,Manufacturing,Corrugated plastic pipe[17],Production systems,Toronto,Corma Inc.,Cormax Inc.,0
+148,Cott,Consumer goods,Soft drinks,Soft drinks,Mississauga,Cott,Cott Beverages Canada,1
+148,Cott,Consumer goods,Soft drinks,Soft drinks,Mississauga,Cott,Cotta Transport Inc.,0
+149,Country Style,Consumer services,Restaurants & bars,Coffee shops,Richmond Hill,Country Style,Country Style Franchise Group Inc.,1
+149,Country Style,Consumer services,Restaurants & bars,Coffee shops,Richmond Hill,Country Style,Country Style Donuts Ltd.,0
+150,Creation Technologies,Industrials,Electronic equipment,Electronics manufacturing services,Burnaby,Creation Technologies,CT Technologies Ltd,1
+150,Creation Technologies,Industrials,Electronic equipment,Electronics manufacturing services,Burnaby,Creation Technologies,Creation Tech Solutions Inc.,0
+151,Crestline Coach,Industrials,Commercial vehicles & trucks,Ambulances,Saskatoon,Crestline Coach,Crestline Emergency Vehicles Inc.,1
+151,Crestline Coach,Industrials,Commercial vehicles & trucks,Ambulances,Saskatoon,Crestline Coach,Crestline Computers Inc.,0
+152,Expedia CruiseShipCenters,Consumer services,Travel & tourism,"Travel agents, part of Expedia, Inc. (US)",Vancouver,Expedia CruiseShipCenters,CruiseShipCenters International Inc.,1
+152,Expedia CruiseShipCenters,Consumer services,Travel & tourism,"Travel agents, part of Expedia, Inc. (US)",Vancouver,Expedia CruiseShipCenters,Expedia CruiseShipCenters of Vancouver,0
+153,CSA Group,Industrials,Business support services,Standards/testing lab,Mississauga,CSA Group,Canadian Standards Association,1
+153,CSA Group,Industrials,Business support services,Standards/testing lab,Mississauga,CSA Group,CSC Group,0
+154,CTBC Bank (Canada),Financials,Banks,Subsidiary of CTBC Bank (Taiwan),Vancouver,CTBC Bank (Canada),Canadian Bank of CTBC,1
+154,CTBC Bank (Canada),Financials,Banks,Subsidiary of CTBC Bank (Taiwan),Vancouver,CTBC Bank (Canada),HSBC Bank Canada,0
+155,CTV Television Network,Consumer services,Broadcasting & entertainment,"Television, part of BCE Inc.",Toronto,CTV Television Network,Bell Media Inc.,1
+155,CTV Television Network,Consumer services,Broadcasting & entertainment,"Television, part of BCE Inc.",Toronto,CTV Television Network,CHCH Television,0
+156,Cymax Stores,Consumer services,Broadline retailer,Online retailer,Burnaby,Cymax Stores,CMT Holdings Ltd.,1
+156,Cymax Stores,Consumer services,Broadline retailer,Online retailer,Burnaby,Cymax Stores,Maxar Technologies Inc.,0
+157,Cyntech,Oil & gas,Oil equipment & services,Oil & gas support services,Calgary,Cyntech,Cyntech Support Services,1
+157,Cyntech,Oil & gas,Oil equipment & services,Oil & gas support services,Calgary,Cyntech,Cintech Agroalimentaire Inc.,0
+158,Dairyland Canada,Consumer goods,Food products,Purchased by Saputo Inc.,Burnaby,Dairyland Canada,Saputo Dairyland Products,1
+158,Dairyland Canada,Consumer goods,Food products,Purchased by Saputo Inc.,Burnaby,Dairyland Canada,Dairylea Co-operative Limited,0
+159,Daiya,Consumer goods,Food products,Cheese company,Vancouver,Daiya,Dairy Alternative Investments Inc.,1
+159,Daiya,Consumer goods,Food products,Cheese company,Vancouver,Daiya,Dairyland,0
+161,Dart Flipcards,Consumer goods,Toys,Novelty goods,Saint-Laurent,Dart Flipcards,DFC Toys Ltd.,1
+161,Dart Flipcards,Consumer goods,Toys,Novelty goods,Saint-Laurent,Dart Flipcards,Dart Flip,0
+162,Decor Cabinets,Consumer goods,Furnishings,Cabinets,Morden,Decor Cabinets,1153876 Manitoba Ltd.,1
+162,Decor Cabinets,Consumer goods,Furnishings,Cabinets,Morden,Decor Cabinets,Decor Cabinet Company Ltd.,0
+163,Delta Hotels,Consumer services,Hotels,Part of Marriott International (US),Richmond,Delta Hotels,Delta Management Corporation,1
+163,Delta Hotels,Consumer services,Hotels,Part of Marriott International (US),Richmond,Delta Hotels,Delta Airlines,0
+164,Descartes Systems Group,Technology,Software,Logistics software,Waterloo,Descartes Systems Group,Descartes Technologies Limited,1
+164,Descartes Systems Group,Technology,Software,Logistics software,Waterloo,Descartes Systems Group,Desjardins Group,0
+165,Desjardins Group,Financials,Banks,Credit unions,Lévis,Desjardins Group,Mouvement des caisses Desjardins,1
+165,Desjardins Group,Financials,Banks,Credit unions,Lévis,Desjardins Group,Desjardins Bank N.A.,0
+166,DHX Media,Consumer services,Broadcasting & entertainment,"Media, television",Halifax,DHX Media,WildBrain Studios Ltd.,1
+166,DHX Media,Consumer services,Broadcasting & entertainment,"Media, television",Halifax,DHX Media,DHI Media Ltd.,0
+168,Digitcom,Telecommunications,Fixed line telecommunications,Telecom,Toronto,Digitcom,Digitcom Communications Inc.,1
+168,Digitcom,Telecommunications,Fixed line telecommunications,Telecom,Toronto,Digitcom,Digicom,0
+169,Discovery Air Defence,Industrials,Defense,"Defence contractor, part of Discovery Air",Montreal,Discovery Air Defence,Discovery Strategic Defence Solutions Inc.,1
+169,Discovery Air Defence,Industrials,Defense,"Defence contractor, part of Discovery Air",Montreal,Discovery Air Defence,Discovery Air Technical Services Inc.,0
+170,Discovery Air,Industrials,Aerospace,Specialized aviation,Toronto,Discovery Air,Discovery Air Technical Services Inc.,1
+170,Discovery Air,Industrials,Aerospace,Specialized aviation,Toronto,Discovery Air,Discovery Helicopters Ltd.,0
+171,Dofasco,Basic materials,Iron & steel,"Steel, part of ArcelorMittal (Luxembourg)",Hamilton,Dofasco,Dominion Foundries and Steel Limited,1
+171,Dofasco,Basic materials,Iron & steel,"Steel, part of ArcelorMittal (Luxembourg)",Hamilton,Dofasco,Dofasco Construction Limited,0
+172,Dollarama,Consumer services,Broadline retailer,Chain retailer,Montreal,Dollarama,Dollarama Stores Inc.,1
+172,Dollarama,Consumer services,Broadline retailer,Chain retailer,Montreal,Dollarama,Dollarland Inc.,0
+173,Dominion Voting Systems,Industrials,Electronic equipment,Electronic voting hardware,Toronto,Dominion Voting Systems,DVS Holdings Inc.,1
+173,Dominion Voting Systems,Industrials,Electronic equipment,Electronic voting hardware,Toronto,Dominion Voting Systems,Dominion Textile Inc.,0
+174,Domtar,Basic materials,Paper,Pulp and paper company,Montreal,Domtar,Weyerhaeuser Paper Company,1
+174,Domtar,Basic materials,Paper,Pulp and paper company,Montreal,Domtar,Domtar Construction Ltd.,0
+175,Donner Metals,Basic materials,General mining,Mining,Vancouver,Donner Metals,Atwater Resources Inc.,1
+175,Donner Metals,Basic materials,General mining,Mining,Vancouver,Donner Metals,Donner Resources Ltd.,0
+176,DreamCatcher Games,Technology,Software,"Video games, defunct 2011",Toronto,DreamCatcher Games,DreamCatcher Interactive Inc.,1
+176,DreamCatcher Games,Technology,Software,"Video games, defunct 2011",Toronto,DreamCatcher Games,DreamHack AB,0
+177,D-Wave Systems,Technology,Computer hardware,Quantum computing,Burnaby,D-Wave Systems,D-Wave Quantum Computing Inc.,1
+177,D-Wave Systems,Technology,Computer hardware,Quantum computing,Burnaby,D-Wave Systems,Wave Systems Corp.,0
+178,Dynamotive Energy Systems,Utilities,Alternative electricity,Renewable energy,Richmond,Dynamotive Energy Systems,DynaMotive Technologies Corporation,1
+178,Dynamotive Energy Systems,Utilities,Alternative electricity,Renewable energy,Richmond,Dynamotive Energy Systems,Dynasty Energy Systems Ltd.,0
+179,DynaVenture,Industrials,Diversified industrials,Industrial holding,Saskatoon,DynaVenture,DynaVenture Holdings Ltd.,1
+179,DynaVenture,Industrials,Diversified industrials,Industrial holding,Saskatoon,DynaVenture,Dynamic Ventures Corp.,0
+181,EA Vancouver,Technology,Software,"Video games, part of Electronic Arts (US)",Burnaby,EA Vancouver,Electronic Arts Canada Inc.,1
+181,EA Vancouver,Technology,Software,"Video games, part of Electronic Arts (US)",Burnaby,EA Vancouver,Vancouver EAA Ltd.,0
+183,Electrohome,Consumer goods,Consumer electronics,"Televisions, defunct 1984",Kitchener,Electrohome,Dominion Electrohome Industries Limited,1
+183,Electrohome,Consumer goods,Consumer electronics,"Televisions, defunct 1984",Kitchener,Electrohome,ElectroHomeCare Limited,0
+184,EllisDon,Industrials,Heavy construction,General contractor,Mississauga,EllisDon,EllisDon Construction Services Inc.,1
+184,EllisDon,Industrials,Heavy construction,General contractor,Mississauga,EllisDon,EllisDavid Corporation,0
+187,Encana,Oil & gas,Integrated oil & gas,"Exploration, transportation, marketing",Calgary,Encana,Ovintiv Inc.,1
+187,Encana,Oil & gas,Integrated oil & gas,"Exploration, transportation, marketing",Calgary,Encana,EnCana Gas Marketing Inc.,0
+188,Engineered Lifting Systems & Equipment,Industrials,Industrial machinery,Lifting systems and equipment,Elmira,Engineered Lifting Systems & Equipment,ELS Equipment Co.,1
+188,Engineered Lifting Systems & Equipment,Industrials,Industrial machinery,Lifting systems and equipment,Elmira,Engineered Lifting Systems & Equipment,Equipment Engineering & Systems Co.,0
+189,Enwave,Utilities,Multiutilities,District heating/cooling in Toronto,Toronto,Enwave,Enwave District Energy Limited,1
+189,Enwave,Utilities,Multiutilities,District heating/cooling in Toronto,Toronto,Enwave,Envest Corp,0
+190,Esprida,Technology,Software,Remote device management middleware,Mississauga,Esprida,"Esprida Technologies, Inc.",1
+190,Esprida,Technology,Software,Remote device management middleware,Mississauga,Esprida,Espedia,0
+191,F&P Manufacturing Inc.,Consumer goods,Auto parts,Japanese automotive parts supplier,Tottenham,F&P Manufacturing Inc.,Fukoku and Plastics Canada Inc.,1
+191,F&P Manufacturing Inc.,Consumer goods,Auto parts,Japanese automotive parts supplier,Tottenham,F&P Manufacturing Inc.,G&P Manufacturing Inc.,0
+192,Fairchild Group,Conglomerates,-,"Media, real estate, retail",Vancouver,Fairchild Group,Fairchild Investments Ltd.,1
+192,Fairchild Group,Conglomerates,-,"Media, real estate, retail",Vancouver,Fairchild Group,Field Group Ltd.,0
+193,Fairchild TV,Consumer services,Broadcasting & entertainment,"Cantonese language television, part of Fairchild Group",Richmond,Fairchild TV,Fairchild Media Group Inc.,1
+193,Fairchild TV,Consumer services,Broadcasting & entertainment,"Cantonese language television, part of Fairchild Group",Richmond,Fairchild TV,Fairchild Group,0
+194,Fairfax Financial,Financials,Full line insurance,Insurance holding,Toronto,Fairfax Financial,FFH Insurance Agency Ltd.,1
+194,Fairfax Financial,Financials,Full line insurance,Insurance holding,Toronto,Fairfax Financial,Fairfield Financial Corp.,0
+195,Fairmont Hotels and Resorts,Consumer services,Hotels,Hotel chain,Toronto,Fairmont Hotels and Resorts,Fairmont Resorts Inc.,1
+195,Fairmont Hotels and Resorts,Consumer services,Hotels,Hotel chain,Toronto,Fairmont Hotels and Resorts,Fairmont Hot Spring Resort,0
+197,Farmers of North America,Consumer goods,Farming & fishing,Agriculture,Saskatoon,Farmers of North America,FNA Canada Co.,1
+197,Farmers of North America,Consumer goods,Farming & fishing,Agriculture,Saskatoon,Farmers of North America,Farms of Southern America,0
+198,Federated Co-operatives,Consumer goods,Farming & fishing,Agricultural co-op,Saskatoon,Federated Co-operatives,FCL,1
+198,Federated Co-operatives,Consumer goods,Farming & fishing,Agricultural co-op,Saskatoon,Federated Co-operatives,Federated Foods,0
+199,FGL Sports,Consumer services,Specialty retailers,"Sports retail, part of Canadian Tire",Calgary,FGL Sports,Forzani Group Limited,1
+199,FGL Sports,Consumer services,Specialty retailers,"Sports retail, part of Canadian Tire",Calgary,FGL Sports,FGI Sports Inc,0
+200,Fido Solutions,Telecommunications,Mobile telecommunications,Cellular provider,Montreal,Fido Solutions,Fido Cellular Services,1
+200,Fido Solutions,Telecommunications,Mobile telecommunications,Cellular provider,Montreal,Fido Solutions,Fido Telecoms,0
+201,Finning,Industrials,Commercial vehicles & trucks,Heavy equipment distributor,Edmonton,Finning,Finning International Services Limited,1
+201,Finning,Industrials,Commercial vehicles & trucks,Heavy equipment distributor,Edmonton,Finning,Finningham Rentals Ltd.,0
+202,First Air,Consumer services,Airlines,Charter airline,Kanata,First Air,175069 Canada Inc.,1
+202,First Air,Consumer services,Airlines,Charter airline,Kanata,First Air,First Choice Airways,0
+203,First Majestic Silver,Basic materials,Platinum & precious metals,Silver mining,Vancouver,First Majestic Silver,First Silver Holdings Ltd.,1
+203,First Majestic Silver,Basic materials,Platinum & precious metals,Silver mining,Vancouver,First Majestic Silver,First Silver Reserve,0
+204,First Nations Bank of Canada,Financials,Banks,Bank,Saskatoon,First Nations Bank of Canada,FNBC Limited,1
+204,First Nations Bank of Canada,Financials,Banks,Bank,Saskatoon,First Nations Bank of Canada,National Bank of Canada,0
+205,First Quantum Minerals,Basic materials,Copper,Mining,Toronto,First Quantum Minerals,FQM Ltd.,1
+205,First Quantum Minerals,Basic materials,Copper,Mining,Toronto,First Quantum Minerals,First Majestic Silver Corp.,0
+208,Ford Motor Company of Canada,Consumer goods,Automobiles,Part of Ford Motor Company,Oakville,Ford Motor Company of Canada,"Ford of Canada, Limited",1
+208,Ford Motor Company of Canada,Consumer goods,Automobiles,Part of Ford Motor Company,Oakville,Ford Motor Company of Canada,Ford Credit Canada Limited,0
+209,Fort Garry Brewing Company,Consumer goods,Brewers,Brewery,Winnipeg,Fort Garry Brewing Company,F.G. Brewing Company Inc.,1
+209,Fort Garry Brewing Company,Consumer goods,Brewers,Brewery,Winnipeg,Fort Garry Brewing Company,Fort Street Brewing Company,0
+210,Fortis Inc.,Utilities,Conventional electricity,Utility holdings,St. John's,Fortis Inc.,Newfoundland Power Incorporated,1
+210,Fortis Inc.,Utilities,Conventional electricity,Utility holdings,St. John's,Fortis Inc.,FortisAlberta Inc.,0
+211,FortisBC,Utilities,Multiutilities,"Power and gas distribution, part of Fortis Inc.",Kelowna,FortisBC,FortisBC Holdings Inc.,1
+211,FortisBC,Utilities,Multiutilities,"Power and gas distribution, part of Fortis Inc.",Kelowna,FortisBC,FortiusBC,0
+212,Four Seasons Hotels and Resorts,Consumer services,Hotels,Hotel chain,Toronto,Four Seasons Hotels and Resorts,FSHR Inc.,1
+212,Four Seasons Hotels and Resorts,Consumer services,Hotels,Hotel chain,Toronto,Four Seasons Hotels and Resorts,Four Points by Sheraton,0
+213,French Shoes,Consumer goods,Clothing & accessories,Footwear,Montreal,French Shoes,Les Chaussures Françaises S.E.C.,1
+213,French Shoes,Consumer goods,Clothing & accessories,Footwear,Montreal,French Shoes,French Sole,0
+214,Freedom Mobile,Telecommunications,Mobile telecommunications,Mobile network,Toronto,Freedom Mobile,Globalive Wireless Management Corp.,1
+214,Freedom Mobile,Telecommunications,Mobile telecommunications,Mobile network,Toronto,Freedom Mobile,Freedom Wireless Inc.,0
+215,FreshBooks,Technology,Software,Accounting software,Toronto,FreshBooks,2ndsite Inc.,1
+215,FreshBooks,Technology,Software,Accounting software,Toronto,FreshBooks,Freshii Inc.,0
+216,Freshslice Pizza,Consumer services,Restaurants & bars,Pizza chain,Burnaby,Freshslice Pizza,Cultures Pizzeria Canada Inc.,1
+216,Freshslice Pizza,Consumer services,Restaurants & bars,Pizza chain,Burnaby,Freshslice Pizza,Slice of Fresh Pizza Co.,0
+218,Garage,Consumer services,Apparel retailers,"Clothing retailer, part of Groupe Dynamite",Montreal,Garage,Groupe Dynamite Inc. (Canada),1
+218,Garage,Consumer services,Apparel retailers,"Clothing retailer, part of Groupe Dynamite",Montreal,Garage,Gardeur Inc.,0
+219,General Motors Canada,Consumer goods,Automobiles,"Automotive, part of General Motors (US)",Oshawa,General Motors Canada,GM Canada,1
+219,General Motors Canada,Consumer goods,Automobiles,"Automotive, part of General Motors (US)",Oshawa,General Motors Canada,General Electric Canada,0
+220,George Weston Limited,Consumer goods,Food products,Food processing,Toronto,George Weston Limited,Weston Holdings Inc.,1
+220,George Weston Limited,Consumer goods,Food products,Food processing,Toronto,George Weston Limited,J. Georgeston Inc.,0
+221,Geosoft,Technology,Software,Geophysical software,Toronto,Geosoft,Geosoft International,1
+221,Geosoft,Technology,Software,Geophysical software,Toronto,Geosoft,GeoSoftwares Ltd.,0
+222,Giant Tiger,Consumer services,Broadline retailer,Discount store,Ottawa,Giant Tiger,La Tigre Géante,1
+222,Giant Tiger,Consumer services,Broadline retailer,Discount store,Ottawa,Giant Tiger,Giant Oil Tools,0
+223,Glacier Media,Consumer services,Publishing,Newspaper publisher,Vancouver,Glacier Media,Glacier Ventures International Corp.,1
+223,Glacier Media,Consumer services,Publishing,Newspaper publisher,Vancouver,Glacier Media,Glacier Magazine Inc.,0
+224,Glentel,Consumer services,Specialty retailers,"Phone retailer, part of BCE Inc.",Burnaby,Glentel,Glentel Enterprises,1
+224,Glentel,Consumer services,Specialty retailers,"Phone retailer, part of BCE Inc.",Burnaby,Glentel,GlenTel Inc.,0
+225,Global Mechanic,Consumer services,Broadcasting & entertainment,Animation studio,Vancouver,Global Mechanic,GMI Studios Ltd.,1
+225,Global Mechanic,Consumer services,Broadcasting & entertainment,Animation studio,Vancouver,Global Mechanic,Global Technologies Inc.,0
+227,Gnowit,Consumer services,Software,Monitoring software tool,Ottawa,Gnowit,Gnow-It Holdings Ltd.,1
+227,Gnowit,Consumer services,Software,Monitoring software tool,Ottawa,Gnowit,Nowint Solutions,0
+228,Goldcorp,Basic materials,Gold mining,Gold production,Vancouver,Goldcorp,Wheaton River Minerals Ltd.,1
+228,Goldcorp,Basic materials,Gold mining,Gold production,Vancouver,Goldcorp,Gold Reserve Inc.,0
+229,GoodLife Fitness,Consumer services,Recreational services,Fitness centers,London,GoodLife Fitness,GLH Fitness International Corporation,1
+229,GoodLife Fitness,Consumer services,Recreational services,Fitness centers,London,GoodLife Fitness,Life Fitness,0
+230,Great Western Brewing Company,Consumer goods,Brewers,Brewery,Saskatoon,Great Western Brewing Company,Saskatoon Brewing History Ltd.,1
+230,Great Western Brewing Company,Consumer goods,Brewers,Brewery,Saskatoon,Great Western Brewing Company,Great Lakes Brewing Company Inc,0
+231,Groupe Dynamite,Consumer services,Apparel retailers,Clothing retailer,Montreal,Groupe Dynamite,Braemar Clothing Corporation,1
+231,Groupe Dynamite,Consumer services,Apparel retailers,Clothing retailer,Montreal,Groupe Dynamite,Groupe Aldo Inc.,0
+232,Guardian Biotechnologies,Health care,Biotechnology,Plant biotech,Saskatoon,Guardian Biotechnologies,G.B. Technologies Ltd.,1
+232,Guardian Biotechnologies,Health care,Biotechnology,Plant biotech,Saskatoon,Guardian Biotechnologies,Guardians Biotech Ltd.,0
+234,Halogen Software,Technology,Software,Talent management software,Ottawa,Halogen Software,Halogen Software Canada Inc.,1
+234,Halogen Software,Technology,Software,Talent management software,Ottawa,Halogen Software,Hivegen Software,0
+235,Harbour Publishing,Consumer services,Publishing,Book publisher,Pender Harbour,Harbour Publishing,Harbour Publishing (Canada) Ltd.,1
+235,Harbour Publishing,Consumer services,Publishing,Book publisher,Pender Harbour,Harbour Publishing,Harbor House Publishers,0
+236,Harlequin Enterprises,Consumer services,Publishing,Romance novels,Toronto,Harlequin Enterprises,HarperCollins Canada,1
+236,Harlequin Enterprises,Consumer services,Publishing,Romance novels,Toronto,Harlequin Enterprises,Harley Enterprises,0
+237,Harry Rosen Inc.,Consumer services,Apparel retailers,Clothing retail chain,Toronto,Harry Rosen Inc.,Rosen Brothers Company Limited,1
+237,Harry Rosen Inc.,Consumer services,Apparel retailers,Clothing retail chain,Toronto,Harry Rosen Inc.,Henry Rosner Inc.,0
+239,Harvey's,Consumer services,Restaurants & bars,"Fast food chain, part of Cara Operations",Vaughan,Harvey's,Cara's Harvey's Division,1
+239,Harvey's,Consumer services,Restaurants & bars,"Fast food chain, part of Cara Operations",Vaughan,Harvey's,Harvey Hobbies,0
+240,Hatch Ltd,Industrials,Business support services,Industrial consulting and engineering,Mississauga,Hatch Ltd,Hatch Engineering Inc.,1
+240,Hatch Ltd,Industrials,Business support services,Industrial consulting and engineering,Mississauga,Hatch Ltd,Hatch Group Ltd.,0
+241,Hathor Exploration,Basic materials,General mining,Uranium,Vancouver,Hathor Exploration,Hathor Mining Company,1
+241,Hathor Exploration,Basic materials,General mining,Uranium,Vancouver,Hathor Exploration,Hathor Exploration Limited,0
+242,Haywire Winery,Consumer goods,Distillers & vintners,Winery,Summerland,Haywire Winery,Okanagan Crush Pad Winery Ltd.,1
+242,Haywire Winery,Consumer goods,Distillers & vintners,Winery,Summerland,Haywire Winery,Haywood Winery,0
+243,Hellbent Games,Technology,Software,Video game developer,Burnaby,Hellbent Games,HG Software Solutions,1
+243,Hellbent Games,Technology,Software,Video game developer,Burnaby,Hellbent Games,Hellcat Games Inc.,0
+244,HelpSeeker Technologies,Technology,Software,Software company,Calgary,HelpSeeker Technologies,H S Technologies Ltd.,1
+244,HelpSeeker Technologies,Technology,Software,Software company,Calgary,HelpSeeker Technologies,SkillSeeker Technologies Ltd.,0
+245,Héroux-Devtek,Industrials,Aerospace,Aerospace components,Longueuil,Héroux-Devtek,Industries Héroux Inc.,1
+245,Héroux-Devtek,Industrials,Aerospace,Aerospace components,Longueuil,Héroux-Devtek,Héroux Aviation Ltd.,0
+246,Hidden Valley Highlands,Consumer services,Hotels,Ski resort,Huntsville,Hidden Valley Highlands,Hidden Valley Resorts Corporation,1
+246,Hidden Valley Highlands,Consumer services,Hotels,Ski resort,Huntsville,Hidden Valley Highlands,Hidden Valley Ski Area,0
+247,Home Hardware,Consumer services,Home improvement retailers,Home improvement retailer,St. Jacobs,Home Hardware,HHSL Inc.,1
+247,Home Hardware,Consumer services,Home improvement retailers,Home improvement retailer,St. Jacobs,Home Hardware,Home Depot Canada,0
+248,Honda Canada Inc.,Consumer goods,Automobiles,"Automotive, part of Honda (Japan)",Markham,Honda Canada Inc.,Honda of Canada Manufacturing Ltd.,1
+248,Honda Canada Inc.,Consumer goods,Automobiles,"Automotive, part of Honda (Japan)",Markham,Honda Canada Inc.,Honda of Canada Mfg.,0
+249,HSBC Bank Canada,Financials,Banks,"Bank, part of HSBC (UK)",Vancouver,HSBC Bank Canada,Hongkong & Shanghai Banking Corporation of Canada,1
+249,HSBC Bank Canada,Financials,Banks,"Bank, part of HSBC (UK)",Vancouver,HSBC Bank Canada,HSBC Canada Trust Company,0
+250,Hudbay Minerals,Basic materials,General mining,Mining in Manitoba,Toronto,Hudbay Minerals,HMI Nickel Inc.,1
+250,Hudbay Minerals,Basic materials,General mining,Mining in Manitoba,Toronto,Hudbay Minerals,Hudson Bay Minerals Ltd.,0
+251,Hudson Boatworks,Consumer goods,Recreational products,Rowing and racing boats,London,Hudson Boatworks,Hudson Marine Co.,1
+251,Hudson Boatworks,Consumer goods,Recreational products,Rowing and racing boats,London,Hudson Boatworks,Hulson Machine Works Ltd.,0
+252,Hudson's Bay Company,Consumer services,Broadline retailers,"Retail business group, founded in London, England",Brampton,Hudson's Bay Company,The Governor and Company of Adventurers of England Trading into Hudson's Bay,1
+252,Hudson's Bay Company,Consumer services,Broadline retailers,"Retail business group, founded in London, England",Brampton,Hudson's Bay Company,Hudson's Limited,0
+254,Hydro One,Utilities,Alternative electricity,Hydro-electric,Toronto,Hydro One,Ontario Hydro,1
+254,Hydro One,Utilities,Alternative electricity,Hydro-electric,Toronto,Hydro One,Hydro Nation Inc.,0
+256,IGM Financial,Financials,Asset managers,Asset management,Winnipeg,IGM Financial,Investors Group Trust Co Ltd.,1
+256,IGM Financial,Financials,Asset managers,Asset management,Winnipeg,IGM Financial,IGT Financial Inc.,0
+257,IL Therapeutics,Health care,Biotechnology,Bio-tech,Saskatoon,IL Therapeutics,Interleukin Life Sciences Corp.,1
+257,IL Therapeutics,Health care,Biotechnology,Bio-tech,Saskatoon,IL Therapeutics,Immune Therapeutics,0
+258,IMAX Corporation,Consumer services,Recreational services,IMAX cameras and technology,Mississauga,IMAX Corporation,IMAX Limited,1
+258,IMAX Corporation,Consumer services,Recreational services,IMAX cameras and technology,Mississauga,IMAX Corporation,IMAXX Corporation Fund,0
+259,ImmersiVision,Consumer services,Broadcasting & entertainment,Immersive media,Whistler,ImmersiVision,ImmersiVision Media Holdings,1
+259,ImmersiVision,Consumer services,Broadcasting & entertainment,Immersive media,Whistler,ImmersiVision,Immersion Sound Design Inc.,0
+260,Imperial Oil,Oil & gas,Exploration & production,"Oil and gas, part of ExxonMobil (US)",Calgary,Imperial Oil,Imperial Oil Explorers,1
+260,Imperial Oil,Oil & gas,Exploration & production,"Oil and gas, part of ExxonMobil (US)",Calgary,Imperial Oil,Imperial Tobacco Canada,0
+261,Indigo Books and Music,Consumer services,Specialty retailers,Bookseller,Toronto,Indigo Books and Music,Chapters.indigo.ca,1
+261,Indigo Books and Music,Consumer services,Specialty retailers,Bookseller,Toronto,Indigo Books and Music,Indigo Books,0
+262,Information Services Corporation,Industrials,Business support services,Registry development,Regina,Information Services Corporation,EIC Corporation,1
+262,Information Services Corporation,Industrials,Business support services,Registry development,Regina,Information Services Corporation,Information Service Group Inc.,0
+264,Innovation Place Research Park,Financials,Real estate holding & development,Research parks,Saskatoon,Innovation Place Research Park,IPRP Holdings Inc.,1
+264,Innovation Place Research Park,Financials,Real estate holding & development,Research parks,Saskatoon,Innovation Place Research Park,Innovation Parkway Property Management,0
+265,Intelligent Creatures,Consumer services,Broadcasting & entertainment,Visual effects post-production company,Toronto,Intelligent Creatures,I.C. VFX Canada Inc.,1
+265,Intelligent Creatures,Consumer services,Broadcasting & entertainment,Visual effects post-production company,Toronto,Intelligent Creatures,Intelligent Minds,0
+266,Inter Pipeline,Oil & gas,Pipelines,Pipelines,Calgary,Inter Pipeline,Interprovincial Pipeline Ltd.,1
+266,Inter Pipeline,Oil & gas,Pipelines,Pipelines,Calgary,Inter Pipeline,Intergas Pipeline Systems Ltd.,0
+267,International Road Dynamics,Industrials,Transportation services,Traffic management systems,Saskatoon,International Road Dynamics,IRD Inc.,1
+267,International Road Dynamics,Industrials,Transportation services,Traffic management systems,Saskatoon,International Road Dynamics,International Dynamics Group,0
+268,Intertape Polymer Group,Industrials,Containers & packaging,Packaging products,Montreal,Intertape Polymer Group,IPG Inc.,1
+268,Intertape Polymer Group,Industrials,Containers & packaging,Packaging products,Montreal,Intertape Polymer Group,International Paper Company,0
+269,Investment Saskatchewan,Financials,Specialty finance,Business investments,Regina,Investment Saskatchewan,SaskInvest Holdings Inc.,1
+269,Investment Saskatchewan,Financials,Specialty finance,Business investments,Regina,Investment Saskatchewan,Investment Funds Institute of Canada,0
+270,Ironclad Games,Technology,Software,Video game developer,Burnaby,Ironclad Games,Ironclad Studios Inc.,1
+270,Ironclad Games,Technology,Software,Video game developer,Burnaby,Ironclad Games,Ironclad Interactive,0
+271,Irving Oil,Oil & gas,Exploration & production,Oil and gas,Saint John,Irving Oil,Irving Oil Commercial G.P.,1
+271,Irving Oil,Oil & gas,Exploration & production,Oil and gas,Saint John,Irving Oil,Irving Industries Ltd.,0
+272,Island Timberlands,Basic materials,Forestry,Private timberland management,Nanaimo,Island Timberlands,TimberWest Forest Corp. (related/merged entity),1
+272,Island Timberlands,Basic materials,Forestry,Private timberland management,Nanaimo,Island Timberlands,Island Timber Frame Ltd.,0
+273,Jackson Grills,Consumer goods,Durable household products,Grill manufacture,Abbotsford,Jackson Grills,Jackson Grills Incorporated,1
+273,Jackson Grills,Consumer goods,Durable household products,Grill manufacture,Abbotsford,Jackson Grills,Jackson Grills Ltd.,0
+274,Jazz,Consumer services,Airlines,Airlines operates as Air Canada Jazz,Enfield,Jazz,Air Canada Regional Inc.,1
+274,Jazz,Consumer services,Airlines,Airlines operates as Air Canada Jazz,Enfield,Jazz,JazzTel SA,0
+276,Jean Coutu Group,Consumer services,Drug retailers,Pharmacies,Varennes,Jean Coutu Group,Groupe PJC Inc.,1
+276,Jean Coutu Group,Consumer services,Drug retailers,Pharmacies,Varennes,Jean Coutu Group,Rexall Pharmacy Group Ltd.,0
+277,Jim Pattison Group,Conglomerates,-,"Food products, media, automotive, packaging, financials",Vancouver,Jim Pattison Group,Pattison Group Inc.,1
+277,Jim Pattison Group,Conglomerates,-,"Food products, media, automotive, packaging, financials",Vancouver,Jim Pattison Group,Patterson Group Inc.,0
+279,K+S Windsor Salt,Basic materials,General mining,"Salt mining, part of Morton Salt (US)",Pointe-Claire,K+S Windsor Salt,The Canadian Salt Company Limited,1
+279,K+S Windsor Salt,Basic materials,General mining,"Salt mining, part of Morton Salt (US)",Pointe-Claire,K+S Windsor Salt,Windsor Rock Salt,0
+280,Kal Tire,Consumer goods,Tires,Tires,Vernon,Kal Tire,The Kal Tire Company,1
+280,Kal Tire,Consumer goods,Tires,Tires,Vernon,Kal Tire,Kalvin Tires Co.,0
+281,Katz Group of Companies,Consumer services,Drug retailers,Drug stores,Edmonton,Katz Group of Companies,Rexall Pharmacy Group Ltd.,1
+281,Katz Group of Companies,Consumer services,Drug retailers,Drug stores,Edmonton,Katz Group of Companies,Katz Group Canada Inc.,0
+282,KF Aerospace,Industrials,Transportation services,Airline support,Kelowna,KF Aerospace,Kelowna Flightcraft Air Charter Ltd.,1
+282,KF Aerospace,Industrials,Transportation services,Airline support,Kelowna,KF Aerospace,KF Cargo Express,0
+283,KF Cargo,Industrials,Delivery services,"Cargo airline, part of KF Aerospace",Kelowna,KF Cargo,502121 B.C. Ltd.,1
+283,KF Cargo,Industrials,Delivery services,"Cargo airline, part of KF Aerospace",Kelowna,KF Cargo,KF Aerospace,0
+284,Kinaxis,Technology,Software,Supply chain management software,Ottawa,Kinaxis,Kinaxis Software Inc.,1
+284,Kinaxis,Technology,Software,Supply chain management software,Ottawa,Kinaxis,Kinexia S.p.A.,0
+285,Kinross Gold,Basic materials,Gold mining,Gold mining,Toronto,Kinross Gold,K-T (TSX ticker),1
+285,Kinross Gold,Basic materials,Gold mining,Gold mining,Toronto,Kinross Gold,Alamos Gold Inc.,0
+286,Kitchen Craft,Consumer goods,Furnishings,Cabinet manufacturing,Winnipeg,Kitchen Craft,KC Cabinets Limited,1
+286,Kitchen Craft,Consumer goods,Furnishings,Cabinet manufacturing,Winnipeg,Kitchen Craft,Kitchen Creations,0
+287,KMS Tools,Consumer services,Specialty retailers,Tool retailer,Coquitlam,KMS Tools,KMS Tools & Machinery Supplies Ltd.,1
+287,KMS Tools,Consumer services,Specialty retailers,Tool retailer,Coquitlam,KMS Tools,KMS Technologies Inc.,0
+288,Knowledge Network,Consumer services,Broadcasting & entertainment,State-owned educational television network,Burnaby,Knowledge Network,B.C. Knowledge Network Corporation,1
+288,Knowledge Network,Consumer services,Broadcasting & entertainment,State-owned educational television network,Burnaby,Knowledge Network,Knowledge North America Inc.,0
+289,Kobo Inc.,Consumer services,Specialty retailers,"Bookseller, part of Rakuten (Japan)",Toronto,Kobo Inc.,Rakuten Kobo Inc.,1
+289,Kobo Inc.,Consumer services,Specialty retailers,"Bookseller, part of Rakuten (Japan)",Toronto,Kobo Inc.,Koco Inc.,0
+290,Koingo Software,Technology,Software,Software development,Kelowna,Koingo Software,KGI Technologies Inc.,1
+290,Koingo Software,Technology,Software,Software development,Kelowna,Koingo Software,Kingo Systems Inc.,0
+291,Kootenay Direct Airlines,Consumer services,Airlines,"Airline, defunct 2006",Nelson,Kootenay Direct Airlines,KDA Aviation Limited,1
+291,Kootenay Direct Airlines,Consumer services,Airlines,"Airline, defunct 2006",Nelson,Kootenay Direct Airlines,Kootenay Airways Ltd.,0
+292,Kruger Inc.,Basic materials,Paper,"Paper, tissues",Montreal,Kruger Inc.,Kruger Products Limited Partnership,1
+292,Kruger Inc.,Basic materials,Paper,"Paper, tissues",Montreal,Kruger Inc.,Krug Inc.,0
+293,L'Oie de Cravan,Consumer services,Publishing,Publishing house,Montreal,L'Oie de Cravan,Cravan Publishing House Inc.,1
+293,L'Oie de Cravan,Consumer services,Publishing,Publishing house,Montreal,L'Oie de Cravan,L'Oie d'Or Éditions,0
+294,La Capitale,Financials,Full line insurance,Finance and insurance,Quebec City,La Capitale,The Capital Insurance Corporation,1
+294,La Capitale,Financials,Full line insurance,Finance and insurance,Quebec City,La Capitale,La Capitale Financial Group Inc.,0
+295,La Maison Simons,Consumer services,Apparel retailers,Clothing retailer,Quebec City,La Maison Simons,Les Ailes de la Mode (historical),1
+295,La Maison Simons,Consumer services,Apparel retailers,Clothing retailer,Quebec City,La Maison Simons,Les Maisons,0
+296,Labatt Brewing Company,Consumer goods,Brewers,"Brewery, part of Anheuser-Busch InBev (Belgium)",Toronto,Labatt Brewing Company,La Brasserie Labatt Limitee,1
+296,Labatt Brewing Company,Consumer goods,Brewers,"Brewery, part of Anheuser-Busch InBev (Belgium)",Toronto,Labatt Brewing Company,Labatts Lakeview Brewery,0
+297,LASIK MD,Health care,Health care providers,Laser vision correction,Montreal,LASIK MD,Vision Correction Clinics Inc.,1
+297,LASIK MD,Health care,Health care providers,Laser vision correction,Montreal,LASIK MD,LASIK SPA MD INC.,0
+298,Lassonde Industries,Consumer goods,Farming & fishing,Agri-food,Rougemont,Lassonde Industries,A. Lassonde Inc.,1
+298,Lassonde Industries,Consumer goods,Farming & fishing,Agri-food,Rougemont,Lassonde Industries,Lassale Industries Inc.,0
+299,Laurentian Bank of Canada,Financials,Banks,Bank,Montreal,Laurentian Bank of Canada,LBC Financial Services,1
+299,Laurentian Bank of Canada,Financials,Banks,Bank,Montreal,Laurentian Bank of Canada,Laurentian Financial Group,0
+300,Le Château,Consumer services,Apparel retailers,Clothing retailer,Montreal,Le Château,Chateau Retail Ltd.,1
+300,Le Château,Consumer services,Apparel retailers,Clothing retailer,Montreal,Le Château,Le Château Des Halles,0
+301,Lee Valley Tools,Consumer services,Home improvement retailers,Home and garden retail,Ottawa,Lee Valley Tools,LVT Holdings Corp.,1
+301,Lee Valley Tools,Consumer services,Home improvement retailers,Home and garden retail,Ottawa,Lee Valley Tools,Valley Tool & Die Ltd.,0
+303,Leon's,Consumer services,Specialty retailers,Home furnishing retailer,Toronto,Leon's,Leon's Furniture Corporation,1
+303,Leon's,Consumer services,Specialty retailers,Home furnishing retailer,Toronto,Leon's,Leon's Electric Ltd.,0
+304,Linamar,Consumer goods,Auto parts,Auto part manufacturer,Guelph,Linamar,Linamar Holdings Inc.,1
+304,Linamar,Consumer goods,Auto parts,Auto part manufacturer,Guelph,Linamar,Inamar Technologies Corp.,0
+305,Lise Watier,Consumer goods,Personal products,Cosmetic brand,Montreal,Lise Watier,LW Canada Inc.,1
+305,Lise Watier,Consumer goods,Personal products,Cosmetic brand,Montreal,Lise Watier,Liseby's Boutique Ltd.,0
+306,Livingston International,Industrials,Transportation services,Customs services,Toronto,Livingston International,Livingston Customs Brokerage,1
+306,Livingston International,Industrials,Transportation services,Customs services,Toronto,Livingston International,Livingston Group Inc.,0
+307,Loblaw Companies,Consumer services,Food retailers & wholesalers,Supermarkets,Brampton,Loblaw Companies,LCL,1
+307,Loblaw Companies,Consumer services,Food retailers & wholesalers,Supermarkets,Brampton,Loblaw Companies,Loblaw Real Estate Holdings,0
+308,London Drugs,Consumer services,Drug retailers,Drugstore chain,Richmond,London Drugs,London Drugs (1993) Limited,1
+308,London Drugs,Consumer services,Drug retailers,Drugstore chain,Richmond,London Drugs,Linden Drugs,0
+309,London Life Insurance Company,Financials,Life insurance,Life insurance,London,London Life Insurance Company,Industrial Alliance Insurance and Financial Services Inc.,1
+309,London Life Insurance Company,Financials,Life insurance,Life insurance,London,London Life Insurance Company,London & Manchester Assurance Company,0
+310,Look Communications,Telecommunications,Mobile telecommunications,"Wireless ISP, defunct 2013",Milton,Look Communications,Look TV Inc.,1
+310,Look Communications,Telecommunications,Mobile telecommunications,"Wireless ISP, defunct 2013",Milton,Look Communications,Loop Communications Inc.,0
+311,Lululemon Athletica,Consumer services,Apparel retailers,Clothing retailer,Vancouver,Lululemon Athletica,LULU,1
+311,Lululemon Athletica,Consumer services,Apparel retailers,Clothing retailer,Vancouver,Lululemon Athletica,Loblaw Companies Limited,0
+312,LW Stores,Consumer services,Broadline retailer,"Lost-cost retailer, defunct 2014",Calgary,LW Stores,Liquidation World (Canada) Inc.,1
+312,LW Stores,Consumer services,Broadline retailer,"Lost-cost retailer, defunct 2014",Calgary,LW Stores,Loblaws Companies Limited,0
+313,Lystek,Industrials,Waste & disposal services,Waste management,Cambridge,Lystek,Lystek Technological Solutions,1
+313,Lystek,Industrials,Waste & disposal services,Waste management,Cambridge,Lystek,Lystek Inc. (Partnership with different legal status),0
+314,"MacDonald, Dettwiler and Associates",Industrials,Business support services,Technology and engineering consulting,Vancouver,"MacDonald, Dettwiler and Associates",MDA Ltd.,1
+314,"MacDonald, Dettwiler and Associates",Industrials,Business support services,Technology and engineering consulting,Vancouver,"MacDonald, Dettwiler and Associates",Macdonald Engineering Ltd,0
+315,Mac's Convenience Stores,Consumer services,Food retailers & wholesalers,"Convenience stores, part of Alimentation Couche-Tard",Richmond Hill,Mac's Convenience Stores,07-11 Stores Inc.,1
+315,Mac's Convenience Stores,Consumer services,Food retailers & wholesalers,"Convenience stores, part of Alimentation Couche-Tard",Richmond Hill,Mac's Convenience Stores,Mac Convenience Mart Ltd.,0
+316,Magna International,Consumer goods,Auto parts,Auto parts,Aurora,Magna International,Magna Auto Systems,1
+316,Magna International,Consumer goods,Auto parts,Auto parts,Aurora,Magna International,Magna Group International,0
+318,Manitoba Liquor & Lotteries Corporation,Consumer services,Specialty retailers,Alcohol and gambling regulation and distribution,Winnipeg,Manitoba Liquor & Lotteries Corporation,MLLC,1
+318,Manitoba Liquor & Lotteries Corporation,Consumer services,Specialty retailers,Alcohol and gambling regulation and distribution,Winnipeg,Manitoba Liquor & Lotteries Corporation,Manitoba Lotteries Corporation,0
+319,Manitoba Liquor Control Commission,Consumer services,Specialty retailers,"Alcohol retailer, defunct 2013",Winnipeg,Manitoba Liquor Control Commission,LCB of Manitoba,1
+319,Manitoba Liquor Control Commission,Consumer services,Specialty retailers,"Alcohol retailer, defunct 2013",Winnipeg,Manitoba Liquor Control Commission,"Alberta Gaming, Liquor & Cannabis Commission",0
+320,Manitoba Lotteries Corporation,Consumer services,Gambling,"Gambling regulation and operation, defunct 2013",Winnipeg,Manitoba Lotteries Corporation,MLLC Ltd.,1
+320,Manitoba Lotteries Corporation,Consumer services,Gambling,"Gambling regulation and operation, defunct 2013",Winnipeg,Manitoba Lotteries Corporation,British Columbia Lottery Corporation,0
+322,Manulife,Financials,Full line insurance,Insurance and financial services,Toronto,Manulife,The Manufacturers Life Insurance Company,1
+322,Manulife,Financials,Full line insurance,Insurance and financial services,Toronto,Manulife,Manufacturers Life Insurance Company,0
+323,Maple Leaf Foods,Consumer goods,Food products,Consumer packaged meats,Toronto,Maple Leaf Foods,MLF Inc.,1
+323,Maple Leaf Foods,Consumer goods,Food products,Consumer packaged meats,Toronto,Maple Leaf Foods,Maple Foods Inc.,0
+324,Maple Leaf Sports & Entertainment,Consumer services,Broadcasting & entertainment,Owner of the Toronto Maple Leafs and Toronto Raptors,Toronto,Maple Leaf Sports & Entertainment,MLSE Ltd.,1
+324,Maple Leaf Sports & Entertainment,Consumer services,Broadcasting & entertainment,Owner of the Toronto Maple Leafs and Toronto Raptors,Toronto,Maple Leaf Sports & Entertainment,Maple Leaf Energy Partnership,0
+325,Maritime Life,Financials,Life insurance,"Life insurance, merged into Manulife in 2004",Halifax,Maritime Life,The Maritime Life Assurance Company,1
+325,Maritime Life,Financials,Life insurance,"Life insurance, merged into Manulife in 2004",Halifax,Maritime Life,Maritime Group Limited,0
+326,Mark's,Consumer services,Apparel retailers,Clothing and footwear retailer,Calgary,Mark's,L'Equipeur,1
+326,Mark's,Consumer services,Apparel retailers,Clothing and footwear retailer,Calgary,Mark's,Marcus,0
+327,Mary Brown's,Consumer services,Restaurants & bars,Fast food chain,Markham,Mary Brown's,Mary Browns Fried Chicken Limited,1
+327,Mary Brown's,Consumer services,Restaurants & bars,Fast food chain,Markham,Mary Brown's,Mary Kay Canada,0
+329,Maxim Power,Utilities,Conventional electricity,Power generation,Calgary,Maxim Power,Maxim Power (Canada) Inc.,1
+329,Maxim Power,Utilities,Conventional electricity,Power generation,Calgary,Maxim Power,Maxam Power Corporation,0
+331,McClelland & Stewart,Consumer services,Publishing,Book publishers,Toronto,McClelland & Stewart,M & S Publishing,1
+331,McClelland & Stewart,Consumer services,Publishing,Book publishers,Toronto,McClelland & Stewart,McClellan's Books,0
+333,Metal Supermarkets,Consumer services,Specialty retailers,Metal retailer,Mississauga,Metal Supermarkets,Franchising Metal Supermarkets Canada Inc.,1
+333,Metal Supermarkets,Consumer services,Specialty retailers,Metal retailer,Mississauga,Metal Supermarkets,Metallo Supermarché Inc.,0
+334,Metro Inc.,Consumer services,Food retailers & wholesalers,Supermarkets,Montreal,Metro Inc.,Les Marchés d'Alimentation Metro,1
+334,Metro Inc.,Consumer services,Food retailers & wholesalers,Supermarkets,Montreal,Metro Inc.,Metron Inc.,0
+335,Mitel,Telecommunications,Fixed line telecommunications,Unified communications,Ottawa,Mitel,"Mitel Communication Systems, Inc.",1
+335,Mitel,Telecommunications,Fixed line telecommunications,Unified communications,Ottawa,Mitel,Mitel Networks Corporation,0
+336,MNP LLP,Professional Services,"Accounting, Tax, Advisory","Services such as audit, tax, and advisory","Brandon, Manitoba",MNP LLP,Meyers Norris Penny Limited,1
+336,MNP LLP,Professional Services,"Accounting, Tax, Advisory","Services such as audit, tax, and advisory","Brandon, Manitoba",MNP LLP,NMP LLP,0
+337,Mobilicity,Telecommunications,Mobile telecommunications,"Mobile virtual networks, defunct 2016",Vaughan,Mobilicity,DAVE Wireless,1
+337,Mobilicity,Telecommunications,Mobile telecommunications,"Mobile virtual networks, defunct 2016",Vaughan,Mobilicity,Mobilico Limited,0
+339,Montana's BBQ & Bar,Consumer services,Restaurants & bars,"Restaurant, part of Cara Operations",Vaughan,Montana's BBQ & Bar,Montana's Restaurant & Bar,1
+339,Montana's BBQ & Bar,Consumer services,Restaurants & bars,"Restaurant, part of Cara Operations",Vaughan,Montana's BBQ & Bar,Montana's BBQ Co.,0
+340,Moosehead Breweries,Consumer goods,Brewers,Brewery,Saint John,Moosehead Breweries,Oland and Son Limited,1
+340,Moosehead Breweries,Consumer goods,Brewers,Brewery,Saint John,Moosehead Breweries,Moose River Resources Inc.,0
+341,Motor Coach Industries,Industrials,Commercial vehicles & trucks,"Coach manufacturing, defunct 2015",Winnipeg,Motor Coach Industries,"Quality Coaches Company, Ltd.",1
+341,Motor Coach Industries,Industrials,Commercial vehicles & trucks,"Coach manufacturing, defunct 2015",Winnipeg,Motor Coach Industries,Motor Line Industries,0
+342,Mozilla Messaging,Technology,Software,Defunct 2011,Vancouver,Mozilla Messaging,MZMessaging Inc.,1
+342,Mozilla Messaging,Technology,Software,Defunct 2011,Vancouver,Mozilla Messaging,Modzilla Technologies Corp.,0
+343,Mr. Sub,Consumer services,Restaurants & bars,Fast food,Toronto,Mr. Sub,Mr. Submarine Systems Inc.,1
+343,Mr. Sub,Consumer services,Restaurants & bars,Fast food,Toronto,Mr. Sub,Mikes Submarines Limited,0
+345,National Bank of Canada,Financials,Banks,Commercial bank,Montreal,National Bank of Canada,BNC,1
+345,National Bank of Canada,Financials,Banks,Commercial bank,Montreal,National Bank of Canada,Laurentian Bank of Canada,0
+346,Natura Market,Consumer goods,Food products,Diet food,"Mississauga, Ontario",Natura Market,Natura Natural Foods Corporation,1
+346,Natura Market,Consumer goods,Food products,Diet food,"Mississauga, Ontario",Natura Market,Natural Markets Food Group,0
+347,Nature's Path,Consumer goods,Food products,Organic food,Richmond,Nature's Path,Nature's Path Organic Foods Inc.,1
+347,Nature's Path,Consumer goods,Food products,Organic food,Richmond,Nature's Path,Nature's Pantry Inc.,0
+348,NCIX,Technology,Computer hardware,"Computer hardware, defunct 2017",Richmond,NCIX,Netlink Computer International,1
+348,NCIX,Technology,Computer hardware,"Computer hardware, defunct 2017",Richmond,NCIX,NCR Limited,0
+349,Nelvana,Consumer services,Broadcasting & entertainment,Entertainment,Toronto,Nelvana,Nelvana International Corporation,1
+349,Nelvana,Consumer services,Broadcasting & entertainment,Entertainment,Toronto,Nelvana,Melvana,0
+350,New Flyer Industries,Industrials,Commercial vehicles & trucks,Bus manufacture,Winnipeg,New Flyer Industries,NFI Group Inc.,1
+350,New Flyer Industries,Industrials,Commercial vehicles & trucks,Bus manufacture,Winnipeg,New Flyer Industries,New Era Industries,0
+351,New York Fries,Consumer services,Restaurants & bars,"Fast food, part of Cara Operations",Brantford,New York Fries,Toronto Fries Corp.,1
+351,New York Fries,Consumer services,Restaurants & bars,"Fast food, part of Cara Operations",Brantford,New York Fries,New Flyer Industries Inc.,0
+352,Nexen,Oil & gas,Exploration & production,Oil/gas,Calgary,Nexen,Canadian Occidental Petroleum Ltd.,1
+352,Nexen,Oil & gas,Exploration & production,Oil/gas,Calgary,Nexen,NextEra Energy Resources LLC,0
+353,Nexient Learning,Industrials,Business training & employment agencies,Corporate training,Toronto,Nexient Learning,Nexient Inc.,1
+353,Nexient Learning,Industrials,Business training & employment agencies,Corporate training,Toronto,Nexient Learning,NextGen Learning Solutions,0
+354,Nordion,Health care,Medical equipment,Medical technology and products,Ottawa,Nordion,SteriGenics International,1
+354,Nordion,Health care,Medical equipment,Medical technology and products,Ottawa,Nordion,Nordion International Inc.,0
+355,Nortel,Telecommunications,Fixed line telecommunications,"Telecommunications, defunct 2013",Mississauga,Nortel,NTL Inc.,1
+355,Nortel,Telecommunications,Fixed line telecommunications,"Telecommunications, defunct 2013",Mississauga,Nortel,Nortech Telecom Inc.,0
+356,North West Company,Consumer goods,Clothing & accessories,"Fur trading, defunct 1821",Montreal,North West Company,NWC (Historical Entity),1
+356,North West Company,Consumer goods,Clothing & accessories,"Fur trading, defunct 1821",Montreal,North West Company,Northern Trading Corp.,0
+357,Nova Chemicals,Basic materials,Specialty chemicals,Plastics and chemicals,Calgary,Nova Chemicals,NOVA Chemical Corporation,1
+357,Nova Chemicals,Basic materials,Specialty chemicals,Plastics and chemicals,Calgary,Nova Chemicals,INNOCHEM TECHNOLOGIES INC.,0
+359,Novacam Technologies,Industrials,Electronic equipment,OCT and profilometry,Pointe-Claire,Novacam Technologies,Novacam Ltd.,1
+359,Novacam Technologies,Industrials,Electronic equipment,OCT and profilometry,Pointe-Claire,Novacam Technologies,Novax Technologies Corp.,0
+360,Novosbed,Consumer goods,Durable household goods,E-commerce bedding,Edmonton,Novosbed,Recore Mattress Inc.,1
+360,Novosbed,Consumer goods,Durable household goods,E-commerce bedding,Edmonton,Novosbed,NovaGold Resources,0
+361,Nuu-chah-nulth Economic Development Corporation,Financials,Specialty finance,Development financing,Port Alberni,Nuu-chah-nulth Economic Development Corporation,NEDCorp Limited,1
+361,Nuu-chah-nulth Economic Development Corporation,Financials,Specialty finance,Development financing,Port Alberni,Nuu-chah-nulth Economic Development Corporation,Nunavut Economic Development Group,0
+363,Oland Brewery,Consumer goods,Brewers,Brewery,Halifax,Oland Brewery,Oland and Sons Limited,1
+363,Oland Brewery,Consumer goods,Brewers,Brewery,Halifax,Oland Brewery,Oland Brothers Ltd.,0
+364,Omineca Cablevision,Telecommunications,Fixed line telecommunications,Cable television and ISP,Vanderhoof,Omineca Cablevision,Omineca Telecom Services Ltd.,1
+364,Omineca Cablevision,Telecommunications,Fixed line telecommunications,Cable television and ISP,Vanderhoof,Omineca Cablevision,Ontera Broadband,0
+365,Onex Corporation,Financials,Investment services,Private equity and investments,Toronto,Onex Corporation,Onex Partners LP,1
+365,Onex Corporation,Financials,Investment services,Private equity and investments,Toronto,Onex Corporation,Onyx Corporation,0
+366,Ontario Lottery and Gaming Corporation,Consumer services,Gambling,Lottery and casinos,Sault Ste. Marie,Ontario Lottery and Gaming Corporation,OLGC,1
+366,Ontario Lottery and Gaming Corporation,Consumer services,Gambling,Lottery and casinos,Sault Ste. Marie,Ontario Lottery and Gaming Corporation,Western Canada Lottery Corporation,0
+367,OpenText,Technology,Software,Software,Waterloo,OpenText,Open Text Corporation,1
+367,OpenText,Technology,Software,Software,Waterloo,OpenText,OpenSolutions Inc.,0
+368,Osisko Mining,Basic materials,Gold mining,Gold and silver mining,Toronto,Osisko Mining,Corporation Minière Osisko,1
+368,Osisko Mining,Basic materials,Gold mining,Gold and silver mining,Toronto,Osisko Mining,Osisko Development,0
+370,Pacific & Western Bank of Canada,Financials,Banks,Chartered bank,London,Pacific & Western Bank of Canada,VersaBank,1
+370,Pacific & Western Bank of Canada,Financials,Banks,Chartered bank,London,Pacific & Western Bank of Canada,Western Bank of Canada,0
+371,Pacific Coastal Airlines,Consumer services,Airlines,Airline,Richmond,Pacific Coastal Airlines,Pacific Coastal Holdings Ltd.,1
+371,Pacific Coastal Airlines,Consumer services,Airlines,Airline,Richmond,Pacific Coastal Airlines,Canadian Pacific Airlines,0
+372,Packers Plus Energy Services,Oil & gas,Exploration & production,Oil and gas,Calgary,Packers Plus Energy Services,Packers Energy Services Ltd.,1
+372,Packers Plus Energy Services,Oil & gas,Exploration & production,Oil and gas,Calgary,Packers Plus Energy Services,Packers Energy Inc.,0
+373,PainCeptor Pharma,Health care,Pharmaceuticals,Pain medication,Montreal,PainCeptor Pharma,PainCeptor Inc.,1
+373,PainCeptor Pharma,Health care,Pharmaceuticals,Pain medication,Montreal,PainCeptor Pharma,PharmaCan Capital Corporation,0
+374,Palliser Furniture,Consumer goods,Furnishings,Furniture manufacturing,Winnipeg,Palliser Furniture,Palliser of Winnipeg,1
+374,Palliser Furniture,Consumer goods,Furnishings,Furniture manufacturing,Winnipeg,Palliser Furniture,Paliser Manufacturing Corp.,0
+375,Pan American Silver,Basic materials,General mining,Mining,Vancouver,Pan American Silver,Pan American Resources Corp,1
+375,Pan American Silver,Basic materials,General mining,Mining,Vancouver,Pan American Silver,American Silver Corp,0
+376,Panago,Consumer services,Restaurants & bars,Pizza chain,Abbotsford,Panago,Megabyte Pizza Ltd.,1
+376,Panago,Consumer services,Restaurants & bars,Pizza chain,Abbotsford,Panago,Pagano Foods Limited,0
+377,Paramount Resources,Oil & gas,Exploration & production,Petroleum exploration and development,Calgary,Paramount Resources,Paramount Oil & Gas,1
+377,Paramount Resources,Oil & gas,Exploration & production,Petroleum exploration and development,Calgary,Paramount Resources,Paramount Energy Trust,0
+378,Parmalat Canada,Consumer goods,Food products,"Dairy, part of Parmalat (Italy)",Toronto,Parmalat Canada,Agropur Cooperative,1
+378,Parmalat Canada,Consumer goods,Food products,"Dairy, part of Parmalat (Italy)",Toronto,Parmalat Canada,Lactalis Canada Inc.,0
+380,Pascan Aviation,Consumer services,Airlines,Airline,Saint-Hubert,Pascan Aviation,Groupe Pascan Inc.,1
+380,Pascan Aviation,Consumer services,Airlines,Airline,Saint-Hubert,Pascan Aviation,Pacific Coastal Airlines,0
+381,Paterson GlobalFoods,Consumer goods,Farming & fishing,Agri-business,Winnipeg,Paterson GlobalFoods,P. Food Holding Co.,1
+381,Paterson GlobalFoods,Consumer goods,Farming & fishing,Agri-business,Winnipeg,Paterson GlobalFoods,Patterson Grain,0
+382,Persona Communications,Telecommunications,Fixed line telecommunications,"Cable, now part of Eastlink",Edmonton,Persona Communications,Cable Atlantic Inc.,1
+382,Persona Communications,Telecommunications,Fixed line telecommunications,"Cable, now part of Eastlink",Edmonton,Persona Communications,Persistent Communications Ltd.,0
+383,Petcetera,Consumer services,Speciality retailers,Pet stores,Richmond,Petcetera,Petcetera International Holdings Inc.,1
+383,Petcetera,Consumer services,Speciality retailers,Pet stores,Richmond,Petcetera,Petcetera Warehouse Canada Inc.,0
+384,Petro-Canada,Oil & gas,Integrated oil & gas,"Retail gasoline chain and refiner, owned by Suncor Energy",Calgary,Petro-Canada,Petro-Canada Products Inc.,1
+384,Petro-Canada,Oil & gas,Integrated oil & gas,"Retail gasoline chain and refiner, owned by Suncor Energy",Calgary,Petro-Canada,Petro-Canada Oil and Gas,0
+385,Pharmasave,Consumer services,Drug retailers,Pharmacy chain,Langley,Pharmasave,PharmaCorp Holdings Inc.,1
+385,Pharmasave,Consumer services,Drug retailers,Pharmacy chain,Langley,Pharmasave,Pharmace,0
+386,Pharmascience,Health care,Pharmaceuticals,Pharmaceuticals,Montreal,Pharmascience,Laboratoire Pharmascience,1
+386,Pharmascience,Health care,Pharmaceuticals,Pharmaceuticals,Montreal,Pharmascience,"PharmaScience Labs, Inc",0
+387,Pizza Nova,Consumer services,Restaurants & bars,Pizza chain,Toronto,Pizza Nova,Nova Take Out Inc.,1
+387,Pizza Nova,Consumer services,Restaurants & bars,Pizza chain,Toronto,Pizza Nova,Pizza Mario,0
+388,Pizza Pizza,Consumer services,Restaurants & bars,Pizza chain,Toronto,Pizza Pizza,PPL Corporation,1
+388,Pizza Pizza,Consumer services,Restaurants & bars,Pizza chain,Toronto,Pizza Pizza,Pizza Nova,0
+389,Pollard Banknote,Industrials,Business support services,Printing,Winnipeg,Pollard Banknote,Pollard Holdings Ltd.,1
+389,Pollard Banknote,Industrials,Business support services,Printing,Winnipeg,Pollard Banknote,POLLARD LUMBER COMPANY LIMITED,0
+390,Porter Airlines,Consumer services,Airlines,Regional airline,Toronto,Porter Airlines,PDL Operations Inc.,1
+390,Porter Airlines,Consumer services,Airlines,Regional airline,Toronto,Porter Airlines,Porter Escapes Inc.,0
+391,PotashCorp,Basic materials,General mining,"Potash mining, defunct 2018",Saskatoon,PotashCorp,PCS,1
+391,PotashCorp,Basic materials,General mining,"Potash mining, defunct 2018",Saskatoon,PotashCorp,Potash Ridge Corporation,0
+392,Power Corporation of Canada,Conglomerate,-,"Financials, energy, media",Montreal,Power Corporation of Canada,PCC,1
+392,Power Corporation of Canada,Conglomerate,-,"Financials, energy, media",Montreal,Power Corporation of Canada,Power Corp Incorporated,0
+393,Prairie Plant Systems,Health care,Pharmaceuticals,Pharmaceuticals,Saskatoon,Prairie Plant Systems,CMEDTSX,1
+393,Prairie Plant Systems,Health care,Pharmaceuticals,Pharmaceuticals,Saskatoon,Prairie Plant Systems,Prairie Agricultural Systems Inc.,0
+394,Pratt & Whitney Canada,Industrials,Aerospace,Aerospace,Longueuil,Pratt & Whitney Canada,PWC Inc.,1
+394,Pratt & Whitney Canada,Industrials,Aerospace,Aerospace,Longueuil,Pratt & Whitney Canada,Pratt Canada Ltd,0
+395,Precision Drilling,Oil & gas,Oil equipment & services,Oil well services,Calgary,Precision Drilling,Precision Industries Ltd.,1
+395,Precision Drilling,Oil & gas,Oil equipment & services,Oil well services,Calgary,Precision Drilling,Precision Industries Ltd.,0
+397,Prevost Car,Industrials,Commercial vehicles & trucks,Bus manufacturer wholly owned by Volvo AB,Sainte-Claire,Prevost Car,Carrosserie Prevost Inc.,1
+397,Prevost Car,Industrials,Commercial vehicles & trucks,Bus manufacturer wholly owned by Volvo AB,Sainte-Claire,Prevost Car,Prevost Construction Ltd.,0
+398,Priszm,Consumer services,Restaurants & bars,Restaurant holdings,Vaughan,Priszm,Yum! Canada Operations Limited,1
+398,Priszm,Consumer services,Restaurants & bars,Restaurant holdings,Vaughan,Priszm,Prism Resources Inc.,0
+399,Pronto Airways,Consumer services,Airlines,"Airline, defunct 2015",Saskatoon,Pronto Airways,2099201 Alberta Inc.,1
+399,Pronto Airways,Consumer services,Airlines,"Airline, defunct 2015",Saskatoon,Pronto Airways,Prontair Inc.,0
+400,Protecode,Technology,Software,Open source and security software,Kanata,Protecode,Pncode Technologies Inc.,1
+400,Protecode,Technology,Software,Open source and security software,Kanata,Protecode,Proteon,0
+401,PsyMontréal,Health Care,Training services,Psychology services,Montreal,PsyMontréal,PsyMontreal Limited,1
+401,PsyMontréal,Health Care,Training services,Psychology services,Montreal,PsyMontréal,Psycothèque Montréal,0
+402,Pultronics,Technology,Semiconductors,Semiconductors and software,Montreal,Pultronics,Pultronics Semiconductors Limited,1
+402,Pultronics,Technology,Semiconductors,Semiconductors and software,Montreal,Pultronics,Pulmatrix Inc.,0
+403,Purolator Courier,Industrials,Delivery services,"Point to point package delivery, owned by Canada Post",Mississauga,Purolator Courier,Purolator Canada Ltd.,1
+403,Purolator Courier,Industrials,Delivery services,"Point to point package delivery, owned by Canada Post",Mississauga,Purolator Courier,Purelator Inc.,0
+404,Quebecor,Industrials,Business support services,Printing and media,Montreal,Quebecor,Quebecor Printing Inc.,1
+404,Quebecor,Industrials,Business support services,Printing and media,Montreal,Quebecor,Quebec Society for Educational Resources,0
+405,Quester Tangent Corporation,Technology,Software,"Train electronics, software and hardware",Saanichton,Quester Tangent Corporation,QTC Software Solutions Ltd.,1
+405,Quester Tangent Corporation,Technology,Software,"Train electronics, software and hardware",Saanichton,Quester Tangent Corporation,Questar Corporation,0
+406,Recipe Unlimited,Consumer services,Restaurants & bars,Restaurants and food services,Vaughan,Recipe Unlimited,Cara Operations Corporation,1
+406,Recipe Unlimited,Consumer services,Restaurants & bars,Restaurants and food services,Vaughan,Recipe Unlimited,Receipt Unlimited Corp.,0
+407,Red Back Mining,Basic materials,Gold mining,Gold,Vancouver,Red Back Mining,Red Back Exploration,1
+407,Red Back Mining,Basic materials,Gold mining,Gold,Vancouver,Red Back Mining,Red Rock Resources,0
+408,Red Barrels,Technology,Software,Game developer,Chambly,Red Barrels,Les Barils Rouges,1
+408,Red Barrels,Technology,Software,Game developer,Chambly,Red Barrels,Red Barrel Holdings Inc.,0
+409,Regional Maple Leaf Communications,Consumer services,Publishing,Publisher,Edmonton,Regional Maple Leaf Communications,RML Group,1
+409,Regional Maple Leaf Communications,Consumer services,Publishing,Publisher,Edmonton,Regional Maple Leaf Communications,Regional Communications Group,0
+410,Reimer Express Lines,Industrials,Trucking,Trucking and transportation,Winnipeg,Reimer Express Lines,YRC Reimer,1
+410,Reimer Express Lines,Industrials,Trucking,Trucking and transportation,Winnipeg,Reimer Express Lines,Redline Express Lines,0
+411,Resolute Forest Products,Basic materials,Paper,Pulp and paper,Montreal,Resolute Forest Products,RFP Inc.,1
+411,Resolute Forest Products,Basic materials,Paper,Pulp and paper,Montreal,Resolute Forest Products,Resolute Papers Ltd.,0
+412,Rhino Media Group,Consumer services,Publishing,Advertising,Montreal,Rhino Media Group,RMG Publishing Inc.,1
+412,Rhino Media Group,Consumer services,Publishing,Advertising,Montreal,Rhino Media Group,Rhino Group Media Corp.,0
+413,Richardson International,Consumer goods,Food products,Food and agriculture,Winnipeg,Richardson International,"James Richardson & Sons, Limited",1
+413,Richardson International,Consumer goods,Food products,Food and agriculture,Winnipeg,Richardson International,Richardson Foods Limited,0
+414,Rockstar Toronto,Technology,Software,"Game developer, part of Rockstar Games (US)",Oakville,Rockstar Toronto,DMA Design Limited,1
+414,Rockstar Toronto,Technology,Software,"Game developer, part of Rockstar Games (US)",Oakville,Rockstar Toronto,StarRock Software Ltd.,0
+415,Rockstar Vancouver,Technology,Software,"Game developer, part of Rockstar Games (US), defunct 2012",Vancouver,Rockstar Vancouver,"Barking Dog Studios, Ltd.",1
+415,Rockstar Vancouver,Technology,Software,"Game developer, part of Rockstar Games (US), defunct 2012",Vancouver,Rockstar Vancouver,StarRock Ventures Inc.,0
+416,Rogers Communications,Telecommunications,Fixed line telecommunications,Telecom,Toronto,Rogers Communications,Rogers Cable Inc.,1
+416,Rogers Communications,Telecommunications,Fixed line telecommunications,Telecom,Toronto,Rogers Communications,Rogers Communications Partnership,0
+417,Rona Inc.,Consumer services,Home improvement retailers,Home improvement chain,Boucherville,Rona Inc.,Rona Hardware (Québec) Ltée.,1
+417,Rona Inc.,Consumer services,Home improvement retailers,Home improvement chain,Boucherville,Rona Inc.,Ronson Inc.,0
+418,Roots Canada,Consumer services,Apparel retailers,Clothing retail chain,Toronto,Roots Canada,Roots Limited,1
+418,Roots Canada,Consumer services,Apparel retailers,Clothing retail chain,Toronto,Roots Canada,Roots International,0
+419,Royal Bank of Canada,Financials,Banks,Bank,Toronto,Royal Bank of Canada,RBC,1
+419,Royal Bank of Canada,Financials,Banks,Bank,Toronto,Royal Bank of Canada,Canadian Imperial Bank of Commerce,0
+420,Royal LePage,Financials,Real estate services,Real estate firm,Toronto,Royal LePage,LePage Real Estate Investments,1
+420,Royal LePage,Financials,Real estate services,Real estate firm,Toronto,Royal LePage,Royal Nickel Corporation,0
+421,"Samuel, Son & Co.",Consumer services,Specialty retailers,Metal processing and distribution,Oakville,"Samuel, Son & Co.","Samuel, Son and Co., Limited",1
+421,"Samuel, Son & Co.",Consumer services,Specialty retailers,Metal processing and distribution,Oakville,"Samuel, Son & Co.","Samuel, Son & Bros.",0
+423,Sandvine,Technology,Telecommunications equipment,Networking equipment,Waterloo,Sandvine,Sandvine Incorporated ULC,1
+423,Sandvine,Technology,Telecommunications equipment,Networking equipment,Waterloo,Sandvine,"Sandvine is a unique name that closely relates to the technology and networking equipment industry, which considerably limits variations in verifiable legal entities: No additional verified variant found",0
+424,Saputo Inc.,Consumer goods,Food products,Dairy products,Montreal,Saputo Inc.,Fromages Saputo Ltée,1
+424,Saputo Inc.,Consumer goods,Food products,Dairy products,Montreal,Saputo Inc.,Saputro Holdings,0
+425,Saskatchewan Government Insurance,Financials,Full line insurance,"Insurance, crown corporation",Regina,Saskatchewan Government Insurance,SGI,1
+425,Saskatchewan Government Insurance,Financials,Full line insurance,"Insurance, crown corporation",Regina,Saskatchewan Government Insurance,Saskatchewan Mutual Insurance Company,0
+426,Saskatchewan Minerals,Basic materials,General mining,Sodium sulphate mining,Chaplin,Saskatchewan Minerals,Saskminerals Ltd.,1
+426,Saskatchewan Minerals,Basic materials,General mining,Sodium sulphate mining,Chaplin,Saskatchewan Minerals,Saskatchewan Minerals Corporation,0
+427,SRC,Industrials,Business support services,Research,Saskatoon,SRC,Scientific Research Consultants Ltd.,1
+427,SRC,Industrials,Business support services,Research,Saskatoon,SRC,SRC Environmental Group Ltd.,0
+428,SaskPower,Utilities,Conventional electricity,Electricity,Regina,SaskPower,Saskatchewan Electric Power Commission,1
+428,SaskPower,Utilities,Conventional electricity,Electricity,Regina,SaskPower,SaskTel,0
+430,Save-On-Foods,Consumer services,Food retailers & wholesalers,Supermarket chain,Langley,Save-On-Foods,OFG Inc.,1
+430,Save-On-Foods,Consumer services,Food retailers & wholesalers,Supermarket chain,Langley,Save-On-Foods,Safe-On-Foods,0
+431,Scotiabank,Financials,Banks,Bank of Nova Scotia,Toronto,Scotiabank,BNS,1
+431,Scotiabank,Financials,Banks,Bank of Nova Scotia,Toronto,Scotiabank,Scotiatrust,0
+432,Sears Canada,Consumer services,Broadline retailer,"Retail Chain, defunct January 14, 2018",Toronto,Sears Canada,Sears Retail Holdings Corp.,1
+432,Sears Canada,Consumer services,Broadline retailer,"Retail Chain, defunct January 14, 2018",Toronto,Sears Canada,Searce Canada Inc.,0
+433,Second Cup,Consumer services,Restaurants & bars,Coffee chain,Mississauga,Second Cup,SeCo Technologies Ltd.,1
+433,Second Cup,Consumer services,Restaurants & bars,Coffee chain,Mississauga,Second Cup,Second Cupcake Cafe Ltd.,0
+434,Sepro Mineral Systems,Indiustrial,Diversified industrials,Mining equipment and processes,Langley,Sepro Mineral Systems,Sepro Process Solutions Inc.,1
+434,Sepro Mineral Systems,Indiustrial,Diversified industrials,Mining equipment and processes,Langley,Sepro Mineral Systems,Sepro Systems Inc,0
+435,Servus Credit Union,Financials,Banks,Credit union,Edmonton,Servus Credit Union,CU Servus Financial,1
+435,Servus Credit Union,Financials,Banks,Credit union,Edmonton,Servus Credit Union,Verus Credit Union,0
+436,Shaftebury Brewing Company,Consumer goods,Brewers,Brewery,Vancouver,Shaftebury Brewing Company,SBC Brewery Incorporated,1
+436,Shaftebury Brewing Company,Consumer goods,Brewers,Brewery,Vancouver,Shaftebury Brewing Company,Steamworks Brewing Co.,0
+437,Shaw Communications,Telecommunications,Fixed line telecommunications,Telecom and ISP,Calgary,Shaw Communications,Shaw FibreLink Ltd.,1
+437,Shaw Communications,Telecommunications,Fixed line telecommunications,Telecom and ISP,Calgary,Shaw Communications,Telus Communications Company,0
+438,Shell Canada,Oil & gas,Exploration & production,"Petrochemicals, part of Royal Dutch Shell (Netherlands)",Montreal,Shell Canada,Shell Canada Limited/Shell du Canada Limitée,1
+438,Shell Canada,Oil & gas,Exploration & production,"Petrochemicals, part of Royal Dutch Shell (Netherlands)",Montreal,Shell Canada,Shell Oil Company,0
+439,Shopify,Technology,Software,eCommerce software,Ottawa,Shopify,Jaded Pixel Technologies Inc.,1
+439,Shopify,Technology,Software,eCommerce software,Ottawa,Shopify,Shopia Corp.,0
+440,Shoppers Drug Mart,Consumer services,Drug retailers,Drug store chain,Toronto,Shoppers Drug Mart,S.D.M. Inc.,1
+440,Shoppers Drug Mart,Consumer services,Drug retailers,Drug store chain,Toronto,Shoppers Drug Mart,Shoppers Home Health Care,0
+441,Shore Tilbe Irwin + Partners,Industrials,Business support services,Architecture firm,Toronto,Shore Tilbe Irwin + Partners,S.T.I. Partners Inc.,1
+441,Shore Tilbe Irwin + Partners,Industrials,Business support services,Architecture firm,Toronto,Shore Tilbe Irwin + Partners,Shore Reinblatt + Irwin Architects,0
+442,Siemens Transportation Group,Industrials,Trucking,Trucking and transport,Saskatoon,Siemens Transportation Group,STG Group Inc.,1
+442,Siemens Transportation Group,Industrials,Trucking,Trucking and transport,Saskatoon,Siemens Transportation Group,Siemens Energy & Automation Inc.,0
+444,Sifto Canada,Basic materials,General mining,Salt,Mississauga,Sifto Canada,Sifto Division of Compass Minerals North America,1
+444,Sifto Canada,Basic materials,General mining,Salt,Mississauga,Sifto Canada,Shifted Canada Resources,0
+445,SiriusXM Canada,Consumer services,Broadcasting & entertainment,"Satellite radio, part of Sirius XM Holdings (US)",Toronto,SiriusXM Canada,Canadian Satellite Radio Holdings Inc.,1
+445,SiriusXM Canada,Consumer services,Broadcasting & entertainment,"Satellite radio, part of Sirius XM Holdings (US)",Toronto,SiriusXM Canada,Sirius Satellite Radio Inc.,0
+446,sisu production,Consumer services,Broadcasting & entertainment,Media and film production,Toronto,sisu production,SP Entertainment Ltd.,1
+446,sisu production,Consumer services,Broadcasting & entertainment,Media and film production,Toronto,sisu production,Siso Productions Inc.,0
+447,Sleeman Breweries,Consumer goods,Brewers,Brewery,Guelph,Sleeman Breweries,Sleeman Brewing & Malting Co.,1
+447,Sleeman Breweries,Consumer goods,Brewers,Brewery,Guelph,Sleeman Breweries,Seagram's Beverages,0
+448,Sleep Country Canada,Consumer goods,Durable household products,Mattresses,Toronto,Sleep Country Canada,SCC Inc.,1
+448,Sleep Country Canada,Consumer goods,Durable household products,Mattresses,Toronto,Sleep Country Canada,Sleep Innovations Canada Inc.,0
+449,Smart Technologies,Consumer goods,Consumer electronics,Interactive displays and whiteboards,Calgary,Smart Technologies,Smart Technologies (Canada) Inc.,1
+449,Smart Technologies,Consumer goods,Consumer electronics,Interactive displays and whiteboards,Calgary,Smart Technologies,Smarty Technologies Inc.,0
+450,SNC-Lavalin,Industrials,Diversified industrials,"Engineering, construction",Montreal,SNC-Lavalin,The SNC Group,1
+450,SNC-Lavalin,Industrials,Diversified industrials,"Engineering, construction",Montreal,SNC-Lavalin,SLV Canada Ltd.,0
+452,Soquelec,Industrials,Electronic equipment,"Scientific equipment, supplies and service",Montreal,Soquelec,Soquelec Incorporée,1
+452,Soquelec,Industrials,Electronic equipment,"Scientific equipment, supplies and service",Montreal,Soquelec,Solotech,0
+453,Splashdot,Technology,Internet,Online loyalty programs and interactive promotions,Vancouver,Splashdot,Splashdot Online Services Inc.,1
+453,Splashdot,Technology,Internet,Online loyalty programs and interactive promotions,Vancouver,Splashdot,SplashData Inc.,0
+455,Stanfield's,Consumer goods,Clothing & accessories,Garment manufacturer,Truro,Stanfield's,"J. Stanfield & Co., Limited",1
+455,Stanfield's,Consumer goods,Clothing & accessories,Garment manufacturer,Truro,Stanfield's,Stanfield Capital,0
+457,Sun Life Financial,Financials,Life insurance,Life and other financial services,Toronto,Sun Life Financial,SLF Inc.,1
+457,Sun Life Financial,Financials,Life insurance,Life and other financial services,Toronto,Sun Life Financial,SunAmerica Financial Group,0
+458,Suncor Energy,Oil & gas,Integrated oil & gas,Energy,Calgary,Suncor Energy,Petro-Canada,1
+458,Suncor Energy,Oil & gas,Integrated oil & gas,Energy,Calgary,Suncor Energy,Sunoco Energy Ltd,0
+459,Sun-Rype,Consumer goods,Food products,Fruit-based food and beverage,Kelowna,Sun-Rype,SRP Group Holdings Inc.,1
+459,Sun-Rype,Consumer goods,Food products,Fruit-based food and beverage,Kelowna,Sun-Rype,Sunripe Produce,0
+460,Sunward Aerospace Group,Consumer goods,Recreational products,Model rockets and hobbies,Toronto,Sunward Aerospace Group,SA Group Limited,1
+460,Sunward Aerospace Group,Consumer goods,Recreational products,Model rockets and hobbies,Toronto,Sunward Aerospace Group,SunPower Corporation,0
+461,Swiss Chalet,Consumer services,Restaurants & bars,"Restaurant chain, part of Cara Operations",Toronto,Swiss Chalet,SC Hospitality Group Ltd.,1
+461,Swiss Chalet,Consumer services,Restaurants & bars,"Restaurant chain, part of Cara Operations",Toronto,Swiss Chalet,Swiss Cleaners Inc.,0
+462,SydneyPLUS International,Technology,Software,Library management software,Richmond,SydneyPLUS International,"Inmagic, Inc.",1
+462,SydneyPLUS International,Technology,Software,Library management software,Richmond,SydneyPLUS International,SummitPLUS International,0
+463,Syncrude,Oil & gas,Exploration & production,Oil production,Fort McMurray,Syncrude,SCL Operations,1
+463,Syncrude,Oil & gas,Exploration & production,Oil production,Fort McMurray,Syncrude,Syncor International,0
+464,Synex International,Utilities,Conventional electricity,Power generation,Vancouver,Synex International,Synex Energy Ltd.,1
+464,Synex International,Utilities,Conventional electricity,Power generation,Vancouver,Synex International,Synergy International Consulting,0
+465,T & T Supermarket,Consumer services,Food retailers & wholesalers,"Supermarket chain, part of Loblaw Companies",Richmond,T & T Supermarket,T and T Supermarket Ltd.,1
+465,T & T Supermarket,Consumer services,Food retailers & wholesalers,"Supermarket chain, part of Loblaw Companies",Richmond,T & T Supermarket,SuperValu,0
+466,Tahera,Basic materials,General mining,Diamond mining company,Toronto,Tahera,TDC Diamond Mining Ltd.,1
+466,Tahera,Basic materials,General mining,Diamond mining company,Toronto,Tahera,Tesco Corporation,0
+469,Tamarack Developments Corporation,Consumer goods,Home construction,Residential projects,Ottawa,Tamarack Developments Corporation,Tamarack Homes Inc.,1
+469,Tamarack Developments Corporation,Consumer goods,Home construction,Residential projects,Ottawa,Tamarack Developments Corporation,Tamarack Lumber Inc.,0
+470,Taseko Mines,Basic materials,General mining,Copper mining,Vancouver,Taseko Mines,Taseko Copper Company,1
+470,Taseko Mines,Basic materials,General mining,Copper mining,Vancouver,Taseko Mines,Talon Metals Corp,0
+471,TC Energy,Oil & gas,Pipelines,Pipelines and infrastructure,Calgary,TC Energy,TransCanada Corporation,1
+471,TC Energy,Oil & gas,Pipelines,Pipelines and infrastructure,Calgary,TC Energy,Enbridge Inc.,0
+472,Teck Resources,Basic materials,General mining,Metals and mining,Vancouver,Teck Resources,Cominco Ltd.,1
+472,Teck Resources,Basic materials,General mining,Metals and mining,Vancouver,Teck Resources,Tech Resources Ltd.,0
+473,Teledyne DALSA,Industrials,Electronic equipment,Electronic imaging components,Waterloo,Teledyne DALSA,DALSA Corporation,1
+473,Teledyne DALSA,Industrials,Electronic equipment,Electronic imaging components,Waterloo,Teledyne DALSA,Teledyne Technologies Incorporated,0
+474,Telesat,Telecommunications,Fixed line telecommunications,Satellite telecom,Ottawa,Telesat,Telesat Satellite Services,1
+474,Telesat,Telecommunications,Fixed line telecommunications,Satellite telecom,Ottawa,Telesat,Telestat,0
+475,Telus,Telecommunications,Fixed line telecommunications,Telecom,Vancouver,Telus,BCT.TO,1
+475,Telus,Telecommunications,Fixed line telecommunications,Telecom,Vancouver,Telus,Tellus Corporation,0
+476,Tembec,Basic materials,Paper,Paper products,Montreal,Tembec,TMB Stock Holdings,1
+476,Tembec,Basic materials,Paper,Paper products,Montreal,Tembec,Tembet Company Ltd,0
+477,The Bargain! Shop,Consumer services,Broadline retailers,Discount chain,Mississauga,The Bargain! Shop,AppleCloud Corporation,1
+477,The Bargain! Shop,Consumer services,Broadline retailers,Discount chain,Mississauga,The Bargain! Shop,The Bargin Shoppe,0
+478,The Brick,Consumer services,Specialty retailers,Furnishing retailer,Edmonton,The Brick,Brick Ltd.,1
+478,The Brick,Consumer services,Specialty retailers,Furnishing retailer,Edmonton,The Brick,The Little Brick House Inc.,0
+479,The Embassy Visual Effects,Consumer services,Broadcasting & entertainment,Movie special effects,Vancouver,The Embassy Visual Effects,EVE Productions Inc.,1
+479,The Embassy Visual Effects,Consumer services,Broadcasting & entertainment,Movie special effects,Vancouver,The Embassy Visual Effects,Embassy Coffee Co.,0
+480,The Globe and Mail,Consumer services,Publishing,Daily newspaper,Toronto,The Globe and Mail,G&M Publishing Co. Ltd.,1
+480,The Globe and Mail,Consumer services,Publishing,Daily newspaper,Toronto,The Globe and Mail,The Globe Theatre,0
+482,The Source,Consumer services,Specialty retailers,Consumer electronics retail chain,Barrie,The Source,Circuit City Stores Inc. (Canada),1
+482,The Source,Consumer services,Specialty retailers,Consumer electronics retail chain,Barrie,The Source,The Source Direct Inc.,0
+483,Timothy's World Coffee,Consumer services,Restaurants & bars,Coffee chain,Toronto,Timothy's World Coffee,TWC Acquisition Inc.,1
+483,Timothy's World Coffee,Consumer services,Restaurants & bars,Coffee chain,Toronto,Timothy's World Coffee,Tim Hortons Inc.,0
+484,TM4,Utilities,Alternative electricity,"Electrodynamic systems, part of Hydro-Québec",Boucherville,TM4,Hydro-Québec TM4 Inc.,1
+484,TM4,Utilities,Alternative electricity,"Electrodynamic systems, part of Hydro-Québec",Boucherville,TM4,TM4 Systems Corporation,0
+485,TMX Group,Financials,Investment services,Financial services,Toronto,TMX Group,CDS Clearing and Depository Services Inc.,1
+485,TMX Group,Financials,Investment services,Financial services,Toronto,TMX Group,Mannix Group Inc.,0
+487,Toronto Stock Exchange,Financials,Investment services,Stock exchange,Toronto,Toronto Stock Exchange,TMX Group Limited,1
+487,Toronto Stock Exchange,Financials,Investment services,Stock exchange,Toronto,Toronto Stock Exchange,Toronto Securities Exchange Inc.,0
+488,Toronto-Dominion Bank,Financials,Banks,Bank,Toronto,Toronto-Dominion Bank,TD Canada Trust,1
+488,Toronto-Dominion Bank,Financials,Banks,Bank,Toronto,Toronto-Dominion Bank,Toronto Trust Bank,0
+489,Torstar,Consumer services,Publishing,Publishing and media,Toronto,Torstar,Harlequin Enterprises Limited,1
+489,Torstar,Consumer services,Publishing,Publishing and media,Toronto,Torstar,Torstar Exchange Inc.,0
+490,TransAlta,Utilities,Conventional electricity,Power generator,Calgary,TransAlta,Calgary Power Ltd.,1
+490,TransAlta,Utilities,Conventional electricity,Power generator,Calgary,TransAlta,TransCanada Corporation,0
+491,TransGas,Oil & gas,Pipelines,"Pipelines, part of SaskEnergy",Regina,TransGas,Saskatchewan Gas Transmission Corporation,1
+491,TransGas,Oil & gas,Pipelines,"Pipelines, part of SaskEnergy",Regina,TransGas,TransAlta Corporation,0
+492,Transwest Air,Consumer services,Airlines,Charter airline,Prince Albert,Transwest Air,TW Air,1
+492,Transwest Air,Consumer services,Airlines,Charter airline,Prince Albert,Transwest Air,Northwest Air,0
+493,Treehouse TV,Consumer services,Broadcasting & entertainment,"Television channel, part of Corus Entertainment and YTV",Toronto,Treehouse TV,YTV Kids TV,1
+493,Treehouse TV,Consumer services,Broadcasting & entertainment,"Television channel, part of Corus Entertainment and YTV",Toronto,Treehouse TV,Treehouse Nature Center,0
+494,Tridel,Industrials,Heavy construction,Construction,Toronto,Tridel,Tridel Corporation,1
+494,Tridel,Industrials,Heavy construction,Construction,Toronto,Tridel,Tidel Engineering Ltd.,0
+495,Triple Five Group,Financials,Real estate holding & development,Malls and development,Edmonton,Triple Five Group,T5 Group Inc.,1
+495,Triple Five Group,Financials,Real estate holding & development,Malls and development,Edmonton,Triple Five Group,Triple Three Group Ltd.,0
+496,Ubisoft Montreal,Technology,Software,"Video games, part of Ubisoft (France)",Montreal,Ubisoft Montreal,Ubi Soft Divertissements Inc.,1
+496,Ubisoft Montreal,Technology,Software,"Video games, part of Ubisoft (France)",Montreal,Ubisoft Montreal,Ubisoft Motion Pictures,0
+497,Ubisoft Toronto,Technology,Software,"Video games, part of Ubisoft (France)",Toronto,Ubisoft Toronto,CTVSP Diez Inc.,1
+497,Ubisoft Toronto,Technology,Software,"Video games, part of Ubisoft (France)",Toronto,Ubisoft Toronto,Ubisoft Montréal,0
+498,Ultramar,Oil & gas,Integrated oil & gas,Marketers and refiners of petroleum,Montreal,Ultramar,La-Co-Op Gas Bar (operating as Ultramar),1
+498,Ultramar,Oil & gas,Integrated oil & gas,Marketers and refiners of petroleum,Montreal,Ultramar,Ultranet Communications Inc.,0
+499,Umbra,Consumer goods,Specialty retailers,Home accessories design and manufacturing company,Toronto,Umbra,Umbra Canada Co.,1
+499,Umbra,Consumer goods,Specialty retailers,Home accessories design and manufacturing company,Toronto,Umbra,Umbria Inc.,0
+501,Vachon Bakery,Consumer goods,Food products,"Pastries, part of Grupo Bimbo (Mexico)","Sainte-Marie, Quebec",Vachon Bakery,Les Aliments Vachon Limitée,1
+501,Vachon Bakery,Consumer goods,Food products,"Pastries, part of Grupo Bimbo (Mexico)","Sainte-Marie, Quebec",Vachon Bakery,Vachon Patisserie,0
+502,Vancity,Financials,Banks,"Vancouver City Savings Credit Union, banking",Vancouver,Vancity,Vancouver Credit Union,1
+502,Vancity,Financials,Banks,"Vancouver City Savings Credit Union, banking",Vancouver,Vancity,Vancity Community Investment Bank,0
+503,Vancity Community Investment Bank,Financials,Banks,"Banking, part of Vancity",Vancouver,Vancity Community Investment Bank,Citizens Bank of Canada,1
+503,Vancity Community Investment Bank,Financials,Banks,"Banking, part of Vancity",Vancouver,Vancity Community Investment Bank,Vancity Credit Union,0
+504,Via Rail,Consumer services,Travel & tourism,Government-owned passenger train service,Montreal,Via Rail,CN Passenger Rail Division,1
+504,Via Rail,Consumer services,Travel & tourism,Government-owned passenger train service,Montreal,Via Rail,Vivara Inc,0
+505,Vidéotron,Telecommunications,Fixed line telecommunications,Telecommunications,Montreal,Vidéotron,Vidéotron Telecommunications,1
+505,Vidéotron,Telecommunications,Fixed line telecommunications,Telecommunications,Montreal,Vidéotron,Vidotec,0
+506,Virtual Brokers,Financials,Investment services,Online brokerage,Toronto,Virtual Brokers,BBS Securities Inc.,1
+506,Virtual Brokers,Financials,Investment services,Online brokerage,Toronto,Virtual Brokers,Virtual Markets,0
+507,Vista Broadcast Group,Consumer services,Broadcasting & entertainment,Radio broadcast,Courtenay,Vista Broadcast Group,Vista Communications Group Inc.,1
+507,Vista Broadcast Group,Consumer services,Broadcasting & entertainment,Radio broadcast,Courtenay,Vista Broadcast Group,Vista Media Group,0
+508,Vortex Aquatic Structures International,Industrials,Construction & Materials,Commercial recreational construction,Montreal,Vortex Aquatic Structures International,Vortex Commercial Pools Inc.,1
+508,Vortex Aquatic Structures International,Industrials,Construction & Materials,Commercial recreational construction,Montreal,Vortex Aquatic Structures International,Vortex Structures LLC,0
+509,Wardrop Engineering Inc.,Industrials,Business support services,"Engineering consulting, defunct 2009",Toronto,Wardrop Engineering Inc.,Wardrop & Associates Engineering,1
+509,Wardrop Engineering Inc.,Industrials,Business support services,"Engineering consulting, defunct 2009",Toronto,Wardrop Engineering Inc.,Trow Engineering Consultants Inc.,0
+510,Waterloo Maple Inc.,Technology,Software,Mathematical software,Waterloo,Waterloo Maple Inc.,Maplesoft Research Centre,1
+510,Waterloo Maple Inc.,Technology,Software,Mathematical software,Waterloo,Waterloo Maple Inc.,Maple Leaf Foods Inc.,0
+511,Wawanesa Insurance,Financials,Full line insurance,Insurance,Winnipeg,Wawanesa Insurance,Compagnie D’assurance Wawanesa,1
+511,Wawanesa Insurance,Financials,Full line insurance,Insurance,Winnipeg,Wawanesa Insurance,Waneta Insurance Services Ltd.,0
+512,West Fraser Timber,Basic materials,Forestry,Wood products,Quesnel,West Fraser Timber,West Fraser Mills Ltd,1
+512,West Fraser Timber,Basic materials,Forestry,Wood products,Quesnel,West Fraser Timber,West Timber & Forest Products,0
+513,West Wind Aviation,Consumer services,Airlines,Airline and air services,Saskatoon,West Wind Aviation,WWA Holdings Ltd.,1
+513,West Wind Aviation,Consumer services,Airlines,Airline and air services,Saskatoon,West Wind Aviation,Windstar Aviation Inc.,0
+514,WestJet,Consumer services,Airlines,Low-cost airline,Calgary,WestJet,WestJet Airlines Ltd.,1
+514,WestJet,Consumer services,Airlines,Low-cost airline,Calgary,WestJet,BestJet Inc.,0
+515,WingTips Airport Services,Industrials,Transportation services,"Ground handling, defunct 2010",Calgary,WingTips Airport Services,WTGH Canada Inc.,1
+515,WingTips Airport Services,Industrials,Transportation services,"Ground handling, defunct 2010",Calgary,WingTips Airport Services,TipTop Air Services Ltd.,0
+516,Winners,Consumer services,Broadline retailers,"Discount chain, part of TJX Companies (US)",Mississauga,Winners,Organizations under TJX Canada,1
+516,Winners,Consumer services,Broadline retailers,"Discount chain, part of TJX Companies (US)",Mississauga,Winners,Winner Max Capital Corp.,0
+517,Yara Belle Plaine,Basic materials,Commodity chemicals,Fertilizers,Regina,Yara Belle Plaine,Yara North America Inc.,1
+517,Yara Belle Plaine,Basic materials,Commodity chemicals,Fertilizers,Regina,Yara Belle Plaine,Yara International ASA,0
+518,Yogen Früz,Consumer services,Restaurants & bars,Yogurt chain,Thornhill,Yogen Früz,Tutti Frutti Frozen Yogurt Ltd.,1
+518,Yogen Früz,Consumer services,Restaurants & bars,Yogurt chain,Thornhill,Yogen Früz,Yogenétix Studios Inc.,0
+519,Z8Games,Technology,Software,Gaming portal,Toronto,Z8Games,Z8 Software Inc.,1
+519,Z8Games,Technology,Software,Gaming portal,Toronto,Z8Games,ZipGames Inc.,0
+520,Zag Bank,Financials,Banks,Bank,Calgary,Zag Bank,Canadian Direct Bank,1
+520,Zag Bank,Financials,Banks,Bank,Calgary,Zag Bank,B2B Bank,0
+521,Zellers,Consumer services,Broadline retailer,Acquired by Target Canada,Brampton,Zellers,Hudson's Bay Trading Company (Zellers),1
+521,Zellers,Consumer services,Broadline retailer,Acquired by Target Canada,Brampton,Zellers,Zellweger Analytics Canada Ltd,0
+522,ZENN Motor Company,Consumer goods,Automobiles,Electric vehicles,Montreal,ZENN Motor Company,"Feel Good Cars, Inc.",1
+522,ZENN Motor Company,Consumer goods,Automobiles,Electric vehicles,Montreal,ZENN Motor Company,Zen Motors Group,0

@@ -1,0 +1,56 @@
+{
+  "2310.05809v1": {
+    "title": "Decomposition Based Interference Management Framework for Local 6G Networks",
+    "authors": [
+      "Samitha Gunarathne",
+      "Thushan Sivalingam",
+      "Nurul Huda Mahmood",
+      "Nandana Rajatheva",
+      "Matti Latva-Aho"
+    ],
+    "summary": "Managing inter-cell interference is among the major challenges in a wireless\nnetwork, more so when strict quality of service needs to be guaranteed such as\nin ultra-reliable low latency communications (URLLC) applications. This study\nintroduces a novel intelligent interference management framework for a local 6G\nnetwork that allocates resources based on interference prediction. The proposed\nalgorithm involves an advanced signal pre-processing technique known as\nempirical mode decomposition followed by prediction of each decomposed\ncomponent using the sequence-to-one transformer algorithm. The predicted\ninterference power is then used to estimate future signal-to-interference plus\nnoise ratio, and subsequently allocate resources to guarantee the high\nreliability required by URLLC applications. Finally, an interference\ncancellation scheme is explored based on the predicted interference signal with\nthe transformer model. The proposed sequence-to-one transformer model exhibits\nits robustness for interference prediction. The proposed scheme is numerically\nevaluated against two baseline algorithms, and is found that the root mean\nsquared error is reduced by up to 55% over a baseline scheme.",
+    "pdf_url": "http://arxiv.org/pdf/2310.05809v1",
+    "published": "2023-10-09"
+  },
+  "1505.05842v1": {
+    "title": "A Circular Interference Model for Asymmetric Aggregate Interference",
+    "authors": [
+      "Martin Taranetz",
+      "Markus Rupp"
+    ],
+    "summary": "Scaling up the number of base stations per unit area is one of the major\ntrends in mobile cellular systems of the fourth (4G)- and fifth generation\n(5G), making it increasingly difficult to characterize aggregate interference\nstatistics with system models of low complexity. This paper proposes a new\ncircular interference model that aggregates given interferer deployments to\npower profiles along circles. The model accurately preserves the original\ninterference statistics while considerably reducing the amount of relevant\ninterferers. In comparison to common approaches from stochastic geometry, it\nenables to characterize cell-center- and cell-edge users, and preserves effects\nthat are otherwise concealed by spatial averaging. To enhance the analysis of\ngiven power profiles and to validate the accuracy of the circular model, a new\nfinite sum representation for the sum of Gamma random variables with\ninteger-valued shape parameter is introduced. The approach allows to decompose\nthe distribution of the aggregate interference into the contributions of the\nindividual interferers. Such knowledge is particularly expedient for the\napplication of base station coordination- and cooperation schemes. Moreover,\nthe proposed approach enables to accurately predict the corresponding\nsignal-to-interference-ratio- and rate statistics.",
+    "pdf_url": "http://arxiv.org/pdf/1505.05842v1",
+    "published": "2015-05-21"
+  },
+  "2402.00569v1": {
+    "title": "Radio Map Assisted Approach for Interference-Aware Predictive UAV Communications",
+    "authors": [
+      "Bowen Li",
+      "Junting Chen"
+    ],
+    "summary": "Herein, an interference-aware predictive aerial-and-terrestrial communication\nproblem is studied, where an unmanned aerial vehicle (UAV) delivers some data\npayload to a few nodes within a communication deadline. The first challenge is\nthe possible interference to the ground base stations (BSs) and users possibly\nat unknown locations. This paper develops a radio-map-based approach to predict\nthe channel to the receivers and the unintended nodes. Therefore, a predictive\ncommunication strategy can be optimized ahead of time to reduce the\ninterference power and duration for the ground nodes. Such predictive\noptimization raises the second challenge of developing a low-complexity\nsolution for a batch of transmission strategies over T time slots for N\nreceivers before the flight. Mathematically, while the proposed\ninterference-aware predictive communication problem is non-convex, it is\nconverted into a relaxed convex problem, and solved by a novel dual-based\nalgorithm, which is shown to achieve global optimality at asymptotically small\nslot duration. The proposed algorithm demonstrates orders of magnitude saving\nof the computational time for moderate T and N compared to several existing\nsolvers. Simulations show that the radio-map-assisted scheme can prevent all\nunintended receivers with known positions from experiencing interference and\nsignificantly reduce the interference to the users at unknown locations.",
+    "pdf_url": "http://arxiv.org/pdf/2402.00569v1",
+    "published": "2024-02-01"
+  },
+  "2303.09201v1": {
+    "title": "Picture-word interference in language production studies: Exploring the roles of attention and processing times",
+    "authors": [
+      "Audrey B\u00fcrki",
+      "Sylvain Madec"
+    ],
+    "summary": "The picture-word interference paradigm (participants name target pictures\nwhile ignoring distractor words) is often used to model the planning processes\ninvolved in word production. The participants' naming times are delayed in the\npresence of a distractor (general interference). The size of this effect\ndepends on the relationship between the target and distractor words.\nDistractors of the same semantic category create more interference (semantic\ninterference), distractors overlapping in phonology create less interference\n(phonological facilitation). The present study examines the relationships\nbetween these experimental effects, processing times, and attention in order to\nbetter understand the cognitive processes underlying participants' behavior in\nthis paradigm. Participants named pictures with a superimposed line of Xs,\nsemantically related distractors, phonologically related distractors, or\nunrelated distractors. General interference, semantic interference, and\nphonological facilitation effects are replicated. Distributional analyses\nreveal that general and semantic interference effects increase with naming\ntimes, while phonological facilitation decreases. The phonological facilitation\nand semantic interference effects are found to depend on the synchronicity in\nprocessing times between the planning of the picture's name and the processing\nof the distractor word. Finally, EEG power in the alpha band before stimulus\nonset varied with the position of the trial in the experiment and with\nrepetition but did not predict the size of interference or facilitation\neffects. Taken together, these results suggest that experimental effects in the\npicture-word interference paradigm depend on processing times to both the\ntarget word and distractor word and that distributional patterns could party\nreflect this dependency.",
+    "pdf_url": "http://arxiv.org/pdf/2303.09201v1",
+    "published": "2023-03-16"
+  },
+  "2007.00306v1": {
+    "title": "Interference Distribution Prediction for Link Adaptation in Ultra-Reliable Low-Latency Communications",
+    "authors": [
+      "Alessandro Brighente",
+      "Jafar Mohammadi",
+      "Paolo Baracca"
+    ],
+    "summary": "The strict latency and reliability requirements of ultra-reliable low-latency\ncommunications (URLLC) use cases are among the main drivers in fifth generation\n(5G) network design. Link adaptation (LA) is considered to be one of the\nbottlenecks to realize URLLC. In this paper, we focus on predicting the signal\nto interference plus noise ratio at the user to enhance the LA. Motivated by\nthe fact that most of the URLLC use cases with most extreme latency and\nreliability requirements are characterized by semi-deterministic traffic, we\npropose to exploit the time correlation of the interference to compute useful\nstatistics needed to predict the interference power in the next transmission.\nThis prediction is exploited in the LA context to maximize the spectral\nefficiency while guaranteeing reliability at an arbitrary level. Numerical\nresults are compared with state of the art interference prediction techniques\nfor LA. We show that exploiting time correlation of the interference is an\nimportant enabler of URLLC.",
+    "pdf_url": "http://arxiv.org/pdf/2007.00306v1",
+    "published": "2020-07-01"
+  }
+}

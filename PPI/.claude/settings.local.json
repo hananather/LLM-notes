@@ -5,7 +5,8 @@
       "Bash(jupyter --version)",
       "Bash(jupyter notebook:*)",
       "Bash(jupyter lab:*)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "Bash(python -m jupyter nbconvert:*)"
     ],
     "deny": []
   }

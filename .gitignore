@@ -1,6 +1,28 @@
+# Jupyter
 .ipynb_checkpoints/
-*.ipynb_checkpoints
 */.ipynb_checkpoints/*
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-.ipynb_checkpoints/
+.jupyter_ystore.db
+
+# Python
+__pycache__/
+*/__pycache__/*
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Envs
+venv/
+.venv/
+*/venv/
+*/.venv/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/*.json
+!.vscode/extensions.json
+
+# Secrets
+.env
+.env.*

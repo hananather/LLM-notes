@@ -1,1 +1,107 @@
 
+# Prediction-Powered Inference (PPI)
+
+## Introduction and Problem Setup
+
+**Prediction-Powered Inference (PPI)** is a statistical framework for computing provably valid confidence intervals and p-values when an experimental dataset is supplemented with predictions from a machine-learning system. It enables researchers to draw valid and more data-efficient conclusions.
+
+We have the following resources:
+- A small **labeled ("gold-standard") dataset**: $(X,Y) = ((X_1, Y_1), \dots, (X_n, Y_n))$ of size $n$.
+- A large **unlabeled dataset**: $(\tilde{X}, \tilde{Y}) = ((\tilde{X}_1, \tilde{Y}_1), \dots, (\tilde{X}_N, \tilde{Y}_N))$ of size $N$, where the true outcomes $\tilde{Y}$ are not observed. We typically have $N \gg n$.
+- A **prediction model** $f: \mathcal{X} \to \mathcal{Y}$, which provides predictions $f(X_i)$ and $f(\tilde{X}_i)$ for the labeled and unlabeled data, respectively. PPI makes no assumptions about how $f$ is trained or its accuracy.
+
+The goal is to perform valid statistical inference for a parameter of interest, $\theta^*$. This parameter is typically an underlying property of the data-generating distribution, such as a mean, quantile, or regression coefficient.
+
+PPI is designed to overcome the pitfalls of two naive strategies:
+
+1. **The Imputation Approach**: Treating predictions $f(\tilde{X})$ as true outcomes $\tilde{Y}$. This leverages all $N$ data points but produces statistically invalid conclusions due to prediction errors and bias.
+2. **The Classical Approach**: Ignoring predictions and using only the $n$ labeled data points. This is statistically valid but has low power, leading to wide confidence intervals and limited discoveries.
+
+PPI achieves the best of both worlds: it uses the ML predictions to create smaller, more powerful confidence intervals, while guaranteeing statistical validity.
+
+### The Core Idea: The Three-Step Process
+
+PPI works by quantifying and correcting for the error in the machine learning predictions. The general principle involves three steps:
+
+1. **Define the Rectifier, $\Delta$**: Define a problem-specific measure of prediction error, called the *rectifier*. The rectifier is designed to capture how prediction errors bias the final estimate.
+
+2. **Form a Rectifier Confidence Set, $\mathcal{R}$**: Use the small labeled dataset $(X,Y)$ to compute a confidence set, $\mathcal{R}$, for the rectifier $\Delta$.
+
+3. **Construct the Prediction-Powered Confidence Set, $\mathcal{C}^{PP}$**: Construct the final confidence set for $\theta^*$, denoted $\mathcal{C}^{PP}$, by taking the estimate from the large unlabeled dataset and adjusting, or "rectifying," it with every possible value of the error from the rectifier's confidence set $\mathcal{R}$.
+
+## Example: Mean Estimation
+
+This is the simplest case, used to build intuition.
+
+**The Goal**: Give a valid confidence interval for the average outcome, $\theta^* = \mathbb{E}[Y_i]$.
+
+### The Estimators
+
+* **Classical Estimator**: The sample average of the outcomes on the labeled data.
+  $$
+  \hat{\theta}^{class} = \frac{1}{n}\sum_{i=1}^{n}Y_{i}
+  $$
+
+* **Prediction-Powered Estimator**: The average of predictions on the unlabeled data, corrected by the average prediction error (the empirical rectifier) on the labeled data.
+  $$
+  \hat{\theta}^{PP} = \underbrace{\frac{1}{N}\sum_{i=1}^{N}f(\tilde{X}_i)}_{\text{Imputed Estimate}} - \underbrace{\frac{1}{n}\sum_{i=1}^{n}(f(X_i) - Y_i)}_{\text{Empirical Rectifier}}
+  $$
+  This estimator is unbiased for $\theta^*$.
+
+### The Confidence Intervals
+
+* **Classical Interval**:
+  $$
+  \hat{\theta}^{class} \pm 1.96\sqrt{\frac{\hat{\sigma}_{Y}^{2}}{n}}
+  $$
+  where $\hat{\sigma}_{Y}^{2}$ is the estimated variance of the outcomes $Y_i$.
+
+* **Prediction-Powered Interval**:
+  $$
+  \hat{\theta}^{PP} \pm 1.96\sqrt{\frac{\hat{\sigma}_{f-Y}^{2}}{n} + \frac{\hat{\sigma}_{f}^{2}}{N}}
+  $$
+  where $\hat{\sigma}_{f-Y}^{2}$ is the estimated variance of the prediction errors $f(X_i) - Y_i$, and $\hat{\sigma}_{f}^{2}$ is the estimated variance of the predictions $f(\tilde{X}_i)$.
+
+### Variance Reduction
+
+The prediction-powered interval is smaller than the classical interval when the model is good.
+* Because $N \gg n$, the width of the PPI interval is mostly determined by the term with $\hat{\sigma}_{f-Y}^{2}$.
+* When a model has small errors, the variance of the prediction errors is much smaller than the variance of the original outcomes ($\hat{\sigma}_{f-Y}^{2} \ll \hat{\sigma}_{Y}^{2}$).
+* This variance reduction is why prediction-powered confidence intervals are smaller and more powerful.
+
+---
+
+The formula for the mean estimation confidence interval elegantly combines the three steps. Here is how to see them explicitly:
+1. **Decomposition**: The true mean $\theta^*$ can be written as the difference between the true mean of the predictions and the true bias (the rectifier):
+   $$
+   \theta^* = \mathbb{E}[Y_i] = \underbrace{\mathbb{E}[f(X_i)]}_{\theta^f} - \underbrace{\mathbb{E}[f(X_i) - Y_i]}_{\Delta}
+   $$
+2. **Independent Estimates**: We estimate these two parts using independent datasets:
+   * An estimate for $\theta^f$ is $\tilde{\theta}^f = \frac{1}{N}\sum f(\tilde{X}_i)$.
+   * An estimate for the rectifier $\Delta$ is $\hat{\Delta} = \frac{1}{n}\sum (f(X_i) - Y_i)$.
+3. **Combining Uncertainties**: The total uncertainty in our final estimate $\hat{\theta}^{PP} = \tilde{\theta}^f - \hat{\Delta}$ comes from two independent sources of error:
+   * The uncertainty in using the $N$ predictions to estimate $\theta^f$. This is captured by the variance term $\frac{\hat{\sigma}_{f}^{2}}{N}$.
+   * The uncertainty in using the $n$ labeled examples to estimate the rectifier $\Delta$. This is captured by the variance term $\frac{\hat{\sigma}_{f-Y}^{2}}{n}$. This term represents the uncertainty from the **rectifier confidence set**.
+
+Since the estimates are independent, their variances add up. The final confidence interval is constructed around the point estimate $\hat{\theta}^{PP}$ with a width determined by the square root of the sum of these two variances.
+
+---
+
+The simple formula above is a direct and powerful implementation of the three-step process. Here’s how to see the steps that were previously hidden.
+
+1. **Define the Rectifier**: For mean estimation, the true rectifier is the model's average bias: $\Delta = \mathbb{E}[f(X_i) - Y_i]$. Our estimate of it is the empirical rectifier, $\hat{\Delta}$.
+
+2. **Identify the Rectifier Confidence Set ($\mathcal{R}$)**: Since our empirical rectifier $\hat{\Delta}$ is just a sample mean calculated on $n$ points, we can form a confidence interval around it. **This confidence interval is the rectifier confidence set $\mathcal{R}$**. For example, a 95% confidence interval for the true rectifier $\Delta$ is:
+   $$
+   \mathcal{R} = \left[ \hat{\Delta} - 1.96\sqrt{\frac{\hat{\sigma}_{f-Y}^2}{n}}, \quad \hat{\Delta} + 1.96\sqrt{\frac{\hat{\sigma}_{f-Y}^2}{n}} \right]
+   $$
+
+3. **Construct the Final Set ($\mathcal{C}^{PP}$)**: The key insight is that our final estimator, $\hat{\theta}^{PP}$, is the difference of two independent estimates: $\hat{\theta}^{PP} = \tilde{\theta}^f - \hat{\Delta}$. The total variance of this final estimator is the **sum of the variances** of its independent parts:
+   $$
+   \mathrm{Var}(\hat{\theta}^{PP}) = \mathrm{Var}(\tilde{\theta}^f) + \mathrm{Var}(\hat{\Delta})
+   $$
+   The formula in the paper calculates this total variance directly:
+   $$
+   \text{Total Variance} = \underbrace{\frac{\hat{\sigma}_{f}^{2}}{N}}_{\text{Variance of Imputed Part}} + \underbrace{\frac{\hat{\sigma}_{f-Y}^{2}}{n}}_{\text{Variance of Rectifier Estimate}}
+   $$
+   So, instead of explicitly constructing the two sets $\mathcal{R}$ and $\mathcal{C}_f$ and then combining them (which is the general principle), the mean estimation example takes a statistically equivalent and more direct route: it adds the *variances* from the two independent sources of error and builds a single confidence interval using this combined variance. The uncertainty from the "rectifier confidence set" is fully captured in the $\frac{\hat{\sigma}_{f-Y}^{2}}{n}$ term.

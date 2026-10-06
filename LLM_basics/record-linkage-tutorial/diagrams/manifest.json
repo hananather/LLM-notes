@@ -5,7 +5,7 @@
     {
       "stem": "01-identity-relations",
       "chapter": 1,
-      "caption": "Identity, shared context, and diagnostic similarity answer different questions. The constructed records show how two people can share a clinic while one person appears under different spellings. Here, Y denotes identity and H denotes shared context.",
+      "caption": "Identity and shared context answer different questions. Constructed records show two people sharing a clinic while one person appears under different spellings. Pairs (a,b) and (a,c) both agree on clinic and can be grouped for review, although only (a,b) is a true identity link.",
       "evidence_boundary": "Illustrative records and identities are defined by construction. Diagnostic groups do not establish identity.",
       "sources": [
         "../../../research/error-guided-record-linkage/llm-similarity-for-clustering.md"
@@ -13,15 +13,15 @@
       "assets": {
         "tex": {
           "path": "01-identity-relations.tex",
-          "sha256": "823209d6b81b34c62a92a776d1308da5e4143f3bb1d0254749ae7d10690b9d3c"
+          "sha256": "677e4d8899c5dae67af5da7d32f1b69f682f0f10e5fa730be46ec296a0c25996"
         },
         "pdf": {
           "path": "01-identity-relations.pdf",
-          "sha256": "53f7b7431ac707d94820cde5ba4cd1f36f3c86164bb9996853e9f578feade8af"
+          "sha256": "7eabb64749243291161e1d42a7c509bf49967362d3f52189630bd8995e975c1d"
         },
         "png": {
           "path": "01-identity-relations.png",
-          "sha256": "2c28ad56e1fc9552b72ddf5a78128c5cd94e212ceea0b526c074c72c94774269",
+          "sha256": "f970323d6f609417d89cc119d2d28f75ba4f1a14a93a4e4097f626187f002ee5",
           "width_px": 1437,
           "height_px": 618
         }
@@ -138,25 +138,25 @@
     {
       "stem": "06-diagnosis-repair",
       "chapter": 6,
-      "caption": "Diagnostic signatures guide review of several cases and counterexamples. A repair has an explicit applicability region; capped validation precedes a frozen evaluation on unqueried entities.",
-      "evidence_boundary": "Proposed mechanism. The address-truncation example is illustrative, and groups may overlap. No repair-transfer result is asserted.",
+      "caption": "Diagnostic signatures guide review of several cases and counterexamples. The constructed date-format repair parses documented day/month/year and month/day/year sources into the same date. A repair has an explicit applicability region; capped validation precedes a frozen evaluation on unqueried entities.",
+      "evidence_boundary": "Proposed mechanism. The date-format example is constructed, and groups may overlap. Unknown source formats leave ambiguous cases unresolved. No repair-transfer result is asserted.",
       "sources": [
         "../../../research/error-guided-record-linkage/experiment-protocol.md"
       ],
       "assets": {
         "tex": {
           "path": "06-diagnosis-repair.tex",
-          "sha256": "71347f829c47c30ba8e148733e30ab5153b63caaa63a9c0764a358acdc438b62"
+          "sha256": "fe440cf6a9791bae24e54827cac92feef757cb428527097389747058f6d5959b"
         },
         "pdf": {
           "path": "06-diagnosis-repair.pdf",
-          "sha256": "adfc69321e96916a787c094451d6baf245b464dfb82a0c1c4d5acce2080b131d"
+          "sha256": "54547e2f49392042b41e5bfd3e642a3a47a4c1bce838ee86e1c28724a6be7f84"
         },
         "png": {
           "path": "06-diagnosis-repair.png",
-          "sha256": "aa4241c7117ee46ab791641fddd55c6e5814dcfafb61ac534bf10d3aa4f32efe",
+          "sha256": "bd5dbc34b0c3c968e5786374dffc9f78552f655eb3ced4e01598ccb6f1712c12",
           "width_px": 1437,
-          "height_px": 705
+          "height_px": 726
         }
       }
     },
@@ -171,15 +171,15 @@
       "assets": {
         "tex": {
           "path": "07-teacher-student.tex",
-          "sha256": "e6bff56c8581660a84a82180370f2ee6f887fbbfa91efe147051526cb201932a"
+          "sha256": "ab052fc224dbe800300a00017addcab354833b1ffcb145a4bc1ff28f03d120a1"
         },
         "pdf": {
           "path": "07-teacher-student.pdf",
-          "sha256": "9bac4cc64960349a841a200a7c70b65ace80bdffa726a7ff97d28146d78c7724"
+          "sha256": "aa794d90c4388695152a080307b8f71ab59f4578305ac5c19e0b91c23b85fa7f"
         },
         "png": {
           "path": "07-teacher-student.png",
-          "sha256": "2a39babea3ab791b9c70c5fa400e54cf590a62edd1522bcc643697d38c6e7918",
+          "sha256": "68c68bc7efddc3c7a9ec64ecc5994570fa95f018b3da0da014dfd6f561399c17",
           "width_px": 1437,
           "height_px": 849
         }
@@ -197,15 +197,15 @@
       "assets": {
         "tex": {
           "path": "08-sparse-scale.tex",
-          "sha256": "c8eb349d0b54d9f1ab7f7b9a7a483ec0525638b3e352611d6c38e6261573122f"
+          "sha256": "cffcba1c47fb0003a046f6f483b13e04434bed2cf2ece7ddab850492ad0d16a9"
         },
         "pdf": {
           "path": "08-sparse-scale.pdf",
-          "sha256": "8b7d0d52b91211a16f87c7ea3fc5b1a182278b03c7a8143a0e6da1bbab29c89f"
+          "sha256": "b8c4fd553218a83904e4a4c6d09b78ebe52209a84e788c0f8788051075e73e1b"
         },
         "png": {
           "path": "08-sparse-scale.png",
-          "sha256": "40922ed39c5ca309a22f5139e5ac8a5f14bdf1486cd07e39941e6bbfd07ebd92",
+          "sha256": "09d4dff2da95c5e5063516bc73d4c42cf3ee32702de36f42f95ebb7e3a7e7450",
           "width_px": 1437,
           "height_px": 713
         }
@@ -214,7 +214,7 @@
     {
       "stem": "09-agentic-pipeline",
       "chapter": 5,
-      "caption": "Agentic map\u2013reduce separates planning, tool use and validation. The operator order is specified; the optional planner derives instructions and execution settings. Map agents process units or bounded batches and retain per-unit outputs. One reducer combines those outputs with access to the same tools. The green check represents this notebook\u2019s independent source validation.",
+      "caption": "Agentic map–reduce separates planning, tool use and validation. The operator order is specified; the optional planner derives instructions and execution settings. Map agents process units or bounded batches and retain per-unit outputs. One reducer combines those outputs with access to the same tools. The green check represents this notebook’s independent source validation.",
       "evidence_boundary": "Conceptual API flow, checked against LOTUS 1.2.4 and source commit 136ae4f4a344a2f75d89f811e516dfcb0de30e46. The three lanes illustrate parallel work; they do not establish a speedup. Source validation is outside the native agentic operators.",
       "sources": [
         "https://lotus-ai.readthedocs.io/en/latest/agentic_operators.html",
@@ -243,7 +243,7 @@
       "stem": "10-agentic-evidence-loop",
       "chapter": 5,
       "caption": "The recorded Coastal trace shows GPT-6 Luna reading three revisions, submitting the highest approved row to a calculator, and returning its result with source identifiers. The calculator reports 200 eligible cases, 110 completed cases and 55% completion. Independent checks verify the selected rows, copied values, units, citations and reducer output across all three offices. Pooling their counts gives 1,130 completed cases out of 1,600 eligible cases, or 70.6% after rounding.",
-      "evidence_boundary": "Abbreviated observable calls and results from the validated 6 October 2026 run, plus the notebook\u2019s independent checks. The source returns are synthetic. This count-based completion rate is neither a survey-weighted estimate nor an agency response-rate standard. The full arguments, tool observations and returned outputs remain in the snapshot.",
+      "evidence_boundary": "Abbreviated observable calls and results from the validated 6 October 2026 run, plus the notebook’s independent checks. The source returns are synthetic. This count-based completion rate is neither a survey-weighted estimate nor an agency response-rate standard. The full arguments, tool observations and returned outputs remain in the snapshot.",
       "sources": [
         "../results/agentic-office-returns-gpt-6-luna.json",
         "../data/agentic-office-returns.json",
@@ -252,15 +252,15 @@
       "assets": {
         "tex": {
           "path": "10-agentic-evidence-loop.tex",
-          "sha256": "4f6175f1bec8b9eae31e68a31ef2f2f48ceccf286ceb1264aa9e05224d1d61a8"
+          "sha256": "7967a7c5e090463dd4cd7e6d3d55b692a5c73c38d935b31745e333c1988a2aed"
         },
         "pdf": {
           "path": "10-agentic-evidence-loop.pdf",
-          "sha256": "251170494f1a820393dcde2836de28c0b46dba259afa5e4f8d3197183b184abf"
+          "sha256": "b6830b4ead9be411876cdb2006eaa7b66cd78a08148ef49185793d23e09ff960"
         },
         "png": {
           "path": "10-agentic-evidence-loop.png",
-          "sha256": "96f0cbb2e8cb1117f898d0617ea5d14803c3e21759cc43791bc8721f94faea70",
+          "sha256": "1aa59800c25fea1078f4953f5aae11be9192045383f50590eed425a40ba0b4d2",
           "width_px": 1445,
           "height_px": 897
         }
@@ -309,15 +309,15 @@
       "assets": {
         "tex": {
           "path": "12-biodex-workflow.tex",
-          "sha256": "69da8373d7d4b63ad1b1658efb4ad4a5818736ca400fb4c66ffa22e1620ee28f"
+          "sha256": "8aa450ee91da2c5ee5d595a8f3a30943848131b767405c821dfbf8b8f7355f72"
         },
         "pdf": {
           "path": "12-biodex-workflow.pdf",
-          "sha256": "fd60f4841466b42335c73f8d9705dc05249c5dac24d8c1d854a831ea505ebd57"
+          "sha256": "6f7f4a77466d4d3874d3c69e398ffd5e036ce7593cc8ef5b6997164b8df97ca8"
         },
         "png": {
           "path": "12-biodex-workflow.png",
-          "sha256": "1ac6ad6a94322e857250e6ece749e74bf4eacd5dbf347d499cdd2b4428a81f98",
+          "sha256": "2f8ab1239fc32d94334126b4135f7d65f919601e91d23ece694d147b172dae74",
           "width_px": 1445,
           "height_px": 1601
         }
@@ -355,8 +355,8 @@
     {
       "stem": "14-em-learning",
       "chapter": 2,
-      "caption": "EM alternates probability scoring and parameter updates over many training pairs. The displayed route holds separately estimated u values fixed. New pairs are scored after fitting.",
-      "evidence_boundary": "Training schematic; no recorded numerical convergence trace. The 80% probability illustrates fractional counts. The notebook EM arm uses this route; the supervised reference estimates m from known matching pairs. Training blocks restrict which comparisons a session can estimate.",
+      "caption": "EM alternates pair-probability estimates with fractional-count updates. For one observed field, the constructed probabilities 80%, 60% and 10% give an updated match agreement probability of 93.3% and a training match fraction of 50%. The diagram keeps u fixed and separates fitting from prediction.",
+      "evidence_boundary": "The displayed pair probabilities are stipulated from full comparison vectors for teaching, not a new fitted result. The selected field is observed and eligible for updating. Training-block match fractions and the overall scoring prior are distinct. Convergence and identity accuracy require separate checks.",
       "sources": [
         "https://moj-analytical-services.github.io/splink/demos/tutorials/04_Estimating_model_parameters.html",
         "https://www.robinlinacre.com/em_intuition/",
@@ -365,17 +365,17 @@
       "assets": {
         "tex": {
           "path": "14-em-learning.tex",
-          "sha256": "949b6c92849471f073fb1276826967efcfb6d7da95652a343b147b47adf6fa41"
+          "sha256": "68fb2ebf95ab3e12b46a518cde4c6814516044ec3e9093d1cec5e9c76d73b265"
         },
         "pdf": {
           "path": "14-em-learning.pdf",
-          "sha256": "c914a55f44a1b4164b105221182d01cf3eb167e215affb00bc355ff06bec3c80"
+          "sha256": "e3b41176e3dc32592914a19a5a93f63c469deed221039f9b58aeb086af890277"
         },
         "png": {
           "path": "14-em-learning.png",
-          "sha256": "760ec2dc52d1970159d96361367114c29fd653ff50958de19b0c93d03bc72102",
+          "sha256": "f7491e6b1dc3a9b96729f6cac4f21e299bb5276e12c3d3cc707de34abeea4059",
           "width_px": 1427,
-          "height_px": 1446
+          "height_px": 1516
         }
       }
     }

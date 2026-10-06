@@ -3,20 +3,20 @@
 \begin{document}
 \begin{tikzpicture}
 
-\useasboundingbox (-.2,.3) rectangle (16.1,-7.55);
-\node[data,text width=30mm,minimum height=18mm] (diag) at (1.75,-1.1) {\textbf{Pair diagnostics}\\[3pt]comparison disagreements,\\parse flags, candidate margins};
+\useasboundingbox (-.2,.3) rectangle (16.1,-7.8);
+\node[data,text width=30mm,minimum height=18mm] (diag) at (1.75,-1.1) {\textbf{Pair diagnostics}\\[3pt]comparison disagreements,\\parse flags,\\score gaps between competing matches};
 \node[model,text width=30mm,minimum height=18mm] (group) at (6,-1.1) {\textbf{Group related signatures}\\[3pt]several mechanisms may\\apply to one pair};
 \node[box,text width=30mm,minimum height=18mm] (review) at (10.25,-1.1) {\textbf{Review several members}\\[3pt]include boundaries\\and counterexamples};
 \node[model,text width=23mm,minimum height=18mm] (repair) at (14.4,-1.1) {\textbf{Propose a repair}\\[3pt]scope + transformation\\+ comparison};
 \draw[flow] (diag) -- (group); \draw[flow] (group) -- (review); \draw[flow] (review) -- (repair);
-\node[box,text width=70mm,minimum height=16mm] (spec) at (11.1,-3.6) {\textbf{Example mechanism: address truncation}\\[3pt]Preserve the raw address; add a derived comparison only\\where the declared applicability conditions hold.};
-\draw[flow] (repair.south) -- (14.4,-2.6) -| (spec.north);
-\node[model,text width=42mm,minimum height=16mm] (validate) at (3,-3.6) {\textbf{Capped validation}\\[3pt]test both corrections and new errors;\\compare ordinary update vs repair + update};
+\node[box,text width=70mm,minimum height=16mm] (spec) at (11.1,-3.9) {\textbf{Constructed example: documented date formats}\\[3pt]day/month/year: 13/04/1988\\month/day/year: 04/13/1988\\Both $\rightarrow$ 1988-04-13. Preserve raw dates.\\Unknown source format: leave unresolved.};
+\draw[flow] (repair.south) -- (14.4,-2.4) -| (spec.north);
+\node[model,text width=42mm,minimum height=16mm] (validate) at (3,-3.9) {\textbf{Capped validation}\\[3pt]test both corrections and new errors;\\compare ordinary update vs repair + update};
 \draw[flow] (spec.west) -- (validate.east);
-\node[model,text width=42mm,minimum height=15mm] (freeze) at (3,-5.95) {\textbf{Freeze the procedure}\\[3pt]scope, score model, and threshold};
-\node[truth,text width=70mm,minimum height=15mm] (test) at (11.1,-5.95) {\textbf{Test on unqueried entities}\\[3pt]held-out error loss, errors corrected and introduced,\\within and outside the repair's applicability region};
+\node[model,text width=42mm,minimum height=15mm] (freeze) at (3,-6.2) {\textbf{Freeze the procedure}\\[3pt]scope, score model, and threshold};
+\node[truth,text width=70mm,minimum height=15mm] (test) at (11.1,-6.2) {\textbf{Test on unqueried entities}\\[3pt]held-out error loss, errors corrected and introduced,\\within and outside the repair's applicability region};
 \draw[flow] (validate) -- (freeze); \draw[flow] (freeze) -- (test);
-\node[word,text width=143mm] at (8,-7.2) {A shared diagnostic pattern motivates a hypothesis. Identity labels and repair benefit must be established separately.};
+\node[word,text width=143mm] at (8,-7.45) {A shared diagnostic pattern motivates a hypothesis. Identity labels and repair benefit must be established separately.};
 
 \end{tikzpicture}
 \end{document}

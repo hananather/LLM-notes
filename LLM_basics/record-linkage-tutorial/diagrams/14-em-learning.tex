@@ -9,11 +9,14 @@
 \node[word] at (8,-.6) {Expectation--maximisation (EM) fits parameters using many record pairs.};
 
 \node[data,text width=61mm,minimum height=20mm] (pairs) at (3.65,-2.25) {
-  \textbf{Prepare training comparisons}\\[6pt]
-  Pair 1: (agree, agree, agree)\\
-  Pair 2: (agree, contradicts, agree)\\
-  Pair 3: (disagree, agree, disagree)\\[3pt]
-  $\ldots$ across many training pairs};
+  \textbf{One selected field $j$, three pairs}\\[4pt]
+  \begin{tabular}{ll}
+    Pair 1 & agree\\
+    Pair 2 & agree\\
+    Pair 3 & disagree
+  \end{tabular}\\[3pt]
+  Constructed; no missing values.\\
+  Field eligible for an EM update.};
 \node[model,text width=61mm,minimum height=20mm] (initial) at (12.1,-2.25) {
   \textbf{Choose starting estimates}\\[6pt]
   Estimate $u$ from random pairs.\\
@@ -21,41 +24,41 @@
   Choose initial $m$ values\\
   and the training match fraction.};
 
-\node[model,text width=61mm,minimum height=27mm] (expect) at (3.65,-5.65) {
+\node[model,text width=61mm,minimum height=27mm] (expect) at (3.65,-6.25) {
   \textbf{E step: score every training pair}\\[6pt]
-  Use the current parameters to calculate\\
-  each pair's match probability.\\[6pt]
-  \textbf{Example: 80\% match probability}\\
-  $\rightarrow$ 0.8 match count + 0.2 nonmatch count.\\[4pt]
-  These are \textbf{fractional counts}.};
-\node[model,text width=61mm,minimum height=27mm] (maximize) at (12.1,-5.65) {
+  The current model uses each pair's\\
+  \textbf{full comparison vector}.\\[6pt]
+  Stipulated fractional match counts:\\[4pt]
+  $q_1=0.8,\quad q_2=0.6,\quad q_3=0.1$.\\[6pt]
+  Pairs 1 and 2 differ on other fields.};
+\node[model,text width=61mm,minimum height=27mm] (maximize) at (12.1,-6.25) {
   \textbf{M step: update the parameters}\\[6pt]
-  Add the fractional counts.\\
-  Normalize them to update $m$\\
-  and the training match fraction.\\[6pt]
-  Keep separately fixed parameters unchanged.\\
-  The estimates give new field weights.};
+  Agreement probability among matches:\\[5pt]
+  $m_j^{\mathrm{new}}(\mathrm{agree})=\dfrac{0.8+0.6}{0.8+0.6+0.1}\approx93.3\%$.\\[7pt]
+  Training match fraction: $1.5/3=50\%$.\\[6pt]
+  Keep $u$ fixed.\\
+  New $m$ values give new field weights.};
 \draw[flow] (pairs) -- (expect);
-\draw[flow] (initial.south) -- (12.1,-3.7) -- (5.65,-3.7) -- ([xshift=20mm]expect.north);
+\draw[flow] (initial.south) -- (12.1,-3.95) -- (5.65,-3.95) -- ([xshift=20mm]expect.north);
 \draw[flow] (expect) -- node[label,above] {soft weights} (maximize);
-\draw[update] (maximize.south) -- (12.1,-7.7) -- node[label,above] {next iteration: $t\rightarrow t+1$} (3.65,-7.7) -- (expect.south);
+\draw[update] (maximize.south) -- (12.1,-8.5) -- node[label,above] {next iteration: $t\rightarrow t+1$} (3.65,-8.5) -- (expect.south);
 
-\node[word,text width=145mm] at (8,-8.6) {Iteration 0 uses the starting estimates. Iterations 1, 2, $\ldots$ repeat E then M on the same comparisons.};
-\node[box,text width=145mm,minimum height=14mm] (stop) at (8,-10.05) {
+\node[word,text width=145mm] at (8,-9.4) {Iteration 0 uses the starting estimates. Iterations 1, 2, $\ldots$ repeat E then M on the same comparisons.};
+\node[box,text width=145mm,minimum height=14mm] (stop) at (8,-10.85) {
   \textbf{Stop when parameter changes are below the tolerance or the iteration cap is reached}\\[6pt]
   Retain the fitted parameters and record whether the convergence criterion was met.};
-\draw[flow] (maximize.east) -- (16.15,-5.65) -- (16.15,-10.05) -- (stop.east);
+\draw[flow] (maximize.east) -- (16.15,-6.25) -- (16.15,-10.85) -- (stop.east);
 
-\draw[boundary] (.1,-11.35) -- (16.2,-11.35);
-\node[word,anchor=west] at (.3,-11.04) {After fitting: score new pairs};
-\node[data,text width=39mm,minimum height=16mm] (newpair) at (2.5,-12.8) {
+\draw[boundary] (.1,-12.15) -- (16.2,-12.15);
+\node[word,anchor=west] at (.3,-11.84) {After fitting: score new pairs};
+\node[data,text width=39mm,minimum height=16mm] (newpair) at (2.5,-13.6) {
   \textbf{New record pair $(a,b)$}\\[6pt]
   construct $\boldsymbol\gamma(a,b)$};
-\node[model,text width=44mm,minimum height=16mm] (fitted) at (8,-12.8) {
+\node[model,text width=44mm,minimum height=16mm] (fitted) at (8,-13.6) {
   \textbf{Apply fitted comparison weights}\\[6pt]
   add prior log odds for the\\
   stated scoring population};
-\node[box,text width=34mm,minimum height=16mm] (result) at (13.6,-12.8) {
+\node[box,text width=34mm,minimum height=16mm] (result) at (13.6,-13.6) {
   \textbf{Match probability}\\[6pt]
   then apply the declared\\
   decision rule};
@@ -63,7 +66,7 @@
 \draw[flow] (fitted) -- (result);
 \draw[branch] (stop.south) -- (fitted.north);
 
-\node[word,text width=148mm,align=left] at (8,-15.2) {
+\node[word,text width=148mm,align=left] at (8,-16.0) {
   \textbf{Splink practice.} A common route estimates $u$ from random pairs first and holds it fixed during EM.\\[4pt]
   \textbf{This notebook's EM arm uses this route.} The supervised reference estimates $m$ from known matching pairs.\\[4pt]
   A stable fit still needs independent evaluation.};

@@ -6,14 +6,14 @@
 \useasboundingbox (-.2,.3) rectangle (16.1,-7.65);
 \node[data,text width=27mm,minimum height=16mm] (files) at (1.55,-1.0) {\textbf{Two files}\\[3pt]$|A|=n_A,\ |B|=n_B$\\all pairs: $n_A n_B$};
 \node[model,text width=30mm,minimum height=16mm] (retrieval) at (6.15,-1.0) {\textbf{Candidate generation}\\[3pt]lexical and/or vector routes\\with measured pruning};
-\node[data,text width=36mm,minimum height=16mm] (graph) at (13.45,-1.0) {\textbf{Sparse candidate graph}\\[3pt]$C\subseteq A\times B$\\$|C|\leq n_A k$\\overall top-$k$ cap in $A$};
+\node[data,text width=36mm,minimum height=16mm] (graph) at (13.45,-1.0) {\textbf{Sparse candidate graph}\\[3pt]$C\subseteq A\times B$\\$|C|\leq n_A k$\\at most $k$ candidates per record in $A$};
 \draw[flow] (files) -- (retrieval); \draw[flow] (retrieval) -- (graph);
 \node[model,text width=30mm,minimum height=16mm] (cheap) at (6.15,-3.45) {\textbf{Cheap comparison model}\\[3pt]score every retained pair\\using reusable features};
-\node[llm,text width=36mm,minimum height=16mm] (llm) at (13.45,-3.45) {\textbf{Selective LLM work}\\[3pt]route a declared subset $C_L$\\record calls, tokens, and failures};
+\node[llm,text width=36mm,minimum height=16mm] (llm) at (13.45,-3.45) {\textbf{Selective LLM work}\\[3pt]route a declared subset $C_L\subseteq C$\\record calls, tokens, and failures};
 \draw[flow] (graph.south) -- (13.45,-2.25) -- (6.15,-2.25) -- (cheap.north);
 \draw[flow] (cheap) -- node[label,above] {routing rule} (llm);
 \node[box,text width=28mm,minimum height=24mm] (cost) at (1.6,-3.55) {\textbf{Measured cost ledger}\\[3pt]retrieval + extraction\\+ scoring + LLM calls\\+ repair validation\\+ assignment updates};
-\node[model,text width=48mm,minimum height=14mm] (decision) at (10.35,-5.7) {\textbf{Calibrate, decide, and reconcile}\\[3pt]preserve unresolved cases and valid cardinalities};
+\node[model,text width=48mm,minimum height=14mm] (decision) at (10.35,-5.7) {\textbf{Calibrate, decide, and reconcile}\\[3pt]preserve unresolved cases and permitted numbers of links per record};
 \draw[flow] (llm.south) -- (13.45,-4.65) -| (decision.north);
 \draw[branch] (cheap.south) -- (6.15,-5.7) -- (decision.west);
 \node[truth,text width=49mm,minimum height=18mm] at (2.75,-6.0) {\textbf{Audit missed candidates}\\[3pt]Search beyond $C$ to estimate candidate recall.\\A true pair omitted from $C$ is an end-to-end miss.};

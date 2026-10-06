@@ -33,7 +33,7 @@ From linkage evidence to testable semantic workflows. The first four chapters es
 
 ### 01-identity-relations
 
-Identity, shared context, and diagnostic similarity answer different questions. The constructed records show how two people can share a clinic while one person appears under different spellings. Here, Y denotes identity and H denotes shared context.
+Identity, shared context, and diagnostic similarity answer different questions. The constructed records show how two people can share a clinic while one person appears under different spellings. Here, Y denotes identity and H denotes shared context. Pairs (a,b) and (a,c) both agree on clinic and can be grouped for review; only (a,b) is a true identity link.
 
 **Evidence boundary.** Illustrative records and identities are defined by construction. Diagnostic groups do not establish identity.
 
@@ -77,7 +77,7 @@ A representation study can compare structured-field linkage, direct judgment ove
 
 Diagnostic signatures guide review of several cases and counterexamples. A repair has an explicit applicability region; capped validation precedes a frozen evaluation on unqueried entities.
 
-**Evidence boundary.** Proposed mechanism. The address-truncation example is illustrative, and groups may overlap. No repair-transfer result is asserted.
+**Evidence boundary.** Proposed mechanism. The date-format example is constructed, and groups may overlap. Documented source formats determine parsing; unknown formats leave ambiguous cases unresolved. No repair-transfer result is asserted.
 
 [PNG](06-diagnosis-repair.png) · [PDF](06-diagnosis-repair.pdf) · [Editable source](06-diagnosis-repair.tex)
 
@@ -149,7 +149,7 @@ The machine-readable [manifest](manifest.json) records source pointers and asset
 
 EM repeats two steps over many training pairs. The E step computes match probabilities. The M step uses fractional counts to update the parameters. This diagram shows a common Splink route with separately estimated, fixed `u` values. After fitting, the model scores new record pairs.
 
-**Evidence boundary.** This is a training schematic. It reports no numerical convergence trace. The 80% probability only illustrates fractional counts. The notebook's EM arm uses this route. The supervised reference estimates `m` from known matching pairs. Training blocks restrict which comparisons an EM session can estimate.
+**Evidence boundary.** This is a training schematic. It reports no numerical convergence trace. The three match probabilities (80%, 60% and 10%) are stipulated from full comparison vectors. For one observed field eligible for updating, they give a 93.3% agreement probability among matches and a 50% training match fraction. The notebook's EM arm uses this route. The supervised reference estimates `m` from known matching pairs. Training blocks restrict which comparisons an EM session can estimate.
 
 Sources: [Splink parameter estimation](https://moj-analytical-services.github.io/splink/demos/tutorials/04_Estimating_model_parameters.html) and [the Splink author's EM explanation](https://www.robinlinacre.com/em_intuition/).
 

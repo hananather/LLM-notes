@@ -13,7 +13,7 @@
 \draw[flow] (a.east) -- (4.2,-2.25) |- (c.west);
 \draw[flow] (b.east) -- node[label,above] {target: identity} (id.west);
 \draw[flow] (c.east) -- node[label,above] {target: context} (topic.west);
-\node[box,text width=137mm] at (8,-5.35) {A diagnostic group can contain unrelated people whose records share a failure mechanism, such as address truncation.\\Its membership is a reason to inspect a possible repair; it is not an entity label.};
+\node[box,text width=137mm] at (8,-5.35) {A diagnostic group can collect $(a,b)$ and $(a,c)$ because both pairs agree on clinic.\\Yet $Y(a,b)=1$ and $Y(a,c)=0$: the shared comparison outcome does not establish identity.};
 \node[word] at (8,-6.25) {Illustrative records and identity labels are defined by construction. $Y$: same entity; $H$: shared context.};
 
 \end{tikzpicture}

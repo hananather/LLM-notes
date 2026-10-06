@@ -5,7 +5,7 @@ import json
 from math import comb
 from pathlib import Path
 
-from IPython.display import Image, display
+from IPython.display import Image, Markdown, display
 import numpy as np
 import pandas as pd
 
@@ -39,8 +39,13 @@ def format_percent(value, decimals=1):
 
 def diagram(name, width=900):
     """Display a compiled TikZ figure; no TeX installation is needed for replay."""
-    path = Path(__file__).parent / "diagrams" / f"{name}.png"
-    display(Image(filename=str(path), width=width))
+    directory = Path(__file__).parent / "diagrams"
+    manifest = json.loads((directory / "manifest.json").read_text())
+    figure = next((item for item in manifest["figures"] if item["stem"] == name), None)
+    description = (figure["caption"] + " " + figure["evidence_boundary"]
+                   if figure else name.replace("-", " "))
+    display(Image(filename=str(directory / f"{name}.png"), width=width, alt=description))
+    display(Markdown(f"[Full-size PDF](record-linkage-tutorial/diagrams/{name}.pdf)"))
 
 
 def evidence_example(prior=0.0001):

@@ -6,10 +6,10 @@
 \useasboundingbox (-.2,.3) rectangle (16.1,-9.22);
 \node[data,text width=25mm,minimum height=14mm] (x) at (1.5,-2.2) {\textbf{Training pairs}\\[3pt]observed records\\or diagnostics $x$};
 \node[llm,text width=27mm,minimum height=14mm] (teacher) at (5.7,-.8) {\textbf{LLM teacher}\\[3pt]fixed prompt and model};
-\node[model,text width=27mm,minimum height=14mm] (student) at (5.7,-3.6) {\textbf{Student model}\\[3pt]learned score $s_\theta(x)$};
-\node[llm,text width=22mm,minimum height=14mm] (qt) at (10,-.8) {\textbf{Teacher signal}\\[3pt]score or verdict $q_T(x)$};
+\node[model,text width=27mm,minimum height=14mm] (student) at (5.7,-3.6) {\textbf{Student model}\\[3pt]score $s_\theta(x)$\\$\theta$: student parameters};
+\node[llm,text width=22mm,minimum height=14mm] (qt) at (10,-.8) {\textbf{Teacher target}\\[3pt]score or verdict $q_T(x)$};
 \node[model,text width=22mm,minimum height=14mm] (qs) at (10,-3.6) {\textbf{Student output}\\[3pt]$s_\theta(x)$};
-\node[box,text width=22mm,minimum height=16mm] (loss) at (14.4,-2.2) {\textbf{Agreement loss}\\[3pt]$\mathcal{L}(s_\theta,q_T)$};
+\node[box,text width=22mm,minimum height=16mm] (loss) at (14.4,-2.2) {\textbf{Agreement loss}\\[3pt]penalty for\\teacher--student\\disagreement};
 \draw[route] (x.east) -- (3.6,-2.2);
 \draw[flow] (3.6,-2.2) |- (teacher.west); \draw[flow] (3.6,-2.2) |- (student.west);
 \draw[flow] (teacher) -- (qt); \draw[flow] (student) -- (qs);

@@ -44,7 +44,7 @@
   or drug-treatment issue affecting a reported patient.''\\[5pt]
   {\eight Prompt excerpt. The full fixed prompt also excludes background-only mentions.}
 };
-\draw[flow] (pairs) -- node[label,font=\eight,right] {article text + one category} (llm);
+\draw[flow] (pairs.south) -- (llm.north);
 
 \node[llm,text width=53mm,minimum height=16mm] (yes) at (4.05,-10.55)
   {\textbf{True: retain 10 pairs}\\The model says the relation holds.};

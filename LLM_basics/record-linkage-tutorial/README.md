@@ -99,7 +99,10 @@ A separate diagram explains expectation–maximization (EM) with unlabeled pairs
 The supervised reference uses known training matches and a validation-selected threshold.
 The new EM model uses neither training-match labels nor validation labels.
 It estimates a prior from strict matching rules with an assumed 80% recall,
-then applies a fixed 50% threshold. Both EM and the zero-shot LLM can run
+then applies a fixed 50% threshold. That assumption implies 4,141 matches,
+exceeding the one-to-one training design's maximum of 3,486. The notebook
+preserves the preset protocol and reports this conflict; its probabilities
+are not established as calibrated. Both EM and the zero-shot LLM can run
 without task-specific training labels. Each still needs an independent quality check.
 Probabilities and accuracy metrics appear as percentages, while saved results retain full precision.
 

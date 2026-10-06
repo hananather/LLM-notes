@@ -13,6 +13,21 @@ from nbconvert import HTMLExporter
 from nbconvert.preprocessors import TagRemovePreprocessor
 
 
+def reading_exporter():
+    """Retain image descriptions when the Lab template renders PNG outputs."""
+    exporter = HTMLExporter(template_name="lab", raw_template='''
+{% extends 'lab/index.html.j2' %}
+{% block data_png scoped %}
+{%- set description = (output | get_metadata('alt', 'image/png')) or (cell | get_metadata('alt')) or '' -%}
+{{ super() | replace('<img ', '<img alt="' ~ (description | escape_html) ~ '" ') }}
+{% endblock data_png %}
+''')
+    exporter.register_preprocessor(
+        TagRemovePreprocessor(remove_cell_tags={"reader-hide-setup"},
+                              remove_input_tags={"reader-hide-input"}), enabled=True)
+    return exporter
+
+
 def rebase_file_links(html, notebook_dir, output_dir):
     """Keep notebook-relative references valid when exporting elsewhere."""
     def replace(match):
@@ -56,10 +71,7 @@ def main():
                                config_cell.source, flags=re.M)
     nbformat.write(notebook, notebook_path)
     if args.html:
-        exporter = HTMLExporter(template_name="lab")
-        exporter.register_preprocessor(
-            TagRemovePreprocessor(remove_cell_tags={"reader-hide-setup"},
-                                  remove_input_tags={"reader-hide-input"}), enabled=True)
+        exporter = reading_exporter()
         html, _ = exporter.from_notebook_node(notebook)
         args.html.parent.mkdir(parents=True, exist_ok=True)
         html = rebase_file_links(html, notebook_path.parent, args.html.resolve().parent)

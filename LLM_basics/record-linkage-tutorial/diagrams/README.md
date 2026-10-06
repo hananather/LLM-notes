@@ -1,6 +1,6 @@
 # Record-linkage figures
 
-Eleven editable TikZ figures accompany the chaptered record-linkage notebook. Each source uses the shared `diagram-style.tex`; the PDF and PNG are exported from that source.
+Fourteen editable TikZ figures accompany the chaptered record-linkage notebook. Each source uses the shared `diagram-style.tex`; the PDF and PNG are exported from that source.
 
 ## Build
 
@@ -22,7 +22,7 @@ Select the intended TeX distribution through `PATH` if more than one is installe
 - White: fixed operations, equations, and explanatory annotations.
 - Dark arrows: data or evidence flow. A dashed lavender return in the teacher–student figure updates the student.
 
-The figures use 7-point text and math, strong dark connectors, role-based pastel fills, and aligned comparative paths. Captions provide the figure-level claims; the diagrams carry local stage labels.
+The chapter figures use 7-point text and math; the overview and dataset walkthroughs use 9-point text. All use strong dark connectors, role-based pastel fills, and aligned comparative paths. Captions provide the figure-level claims; the diagrams carry local stage labels.
 
 ## Captions and evidence
 
@@ -113,5 +113,35 @@ The recorded Coastal trace shows GPT-6 Luna reading three revisions, submitting 
 **Evidence boundary.** Abbreviated observable calls and results from the validated [6 October 2026 run](../results/agentic-office-returns-gpt-6-luna.json), plus the notebook's independent checks. The source returns are synthetic. This count-based completion rate is neither a survey-weighted estimate nor an agency response-rate standard. The full arguments, tool observations and returned outputs remain in the snapshot.
 
 [PNG](10-agentic-evidence-loop.png) · [PDF](10-agentic-evidence-loop.pdf) · [Editable source](10-agentic-evidence-loop.tex)
+
+### 11-linkage-semantic-overview
+
+Both paths can address the same identity question. The diagram distinguishes their evidence, decision procedures and evaluation targets.
+
+**Evidence boundary.** Conceptual comparison on a shared identity relation. General semantic joins may target other relations. Restricted candidates, reference-relative optimization and independent identity evaluation have separate error targets; no comparative performance claim.
+
+Sources: [Fellegi–Sunter](https://doi.org/10.1080/01621459.1969.10501049), [LOTUS §§2.2–2.4](https://www.vldb.org/pvldb/vol18/p4171-patel.pdf#page=3) and [FDJ §2](https://arxiv.org/html/2512.05399v1#S2).
+
+[PNG](11-linkage-semantic-overview.png) · [PDF](11-linkage-semantic-overview.pdf) · [Editable source](11-linkage-semantic-overview.tex)
+
+### 12-biodex-workflow
+
+The inputs and output rows come from the saved BioDEX experiment. Model predictions and published reaction annotations are shown separately.
+
+**Evidence boundary.** Eight selected articles crossed with eight categories. The two displayed accepted pairs are actual GPT-6 Luna outputs. An absent published annotation is a dataset-negative label, not proof of clinical absence; this is category assignment, not entity linkage.
+
+Article excerpts: [Garcia et al.](https://doi.org/10.1016/j.abd.2020.07.008), CC BY 4.0; dataset: [BioDEX](https://arxiv.org/abs/2305.13395).
+
+[PNG](12-biodex-workflow.png) · [PDF](12-biodex-workflow.pdf) · [Editable source](12-biodex-workflow.tex)
+
+### 13-fever-workflow
+
+The two displayed claims share the same evidence but receive opposite decisions. The recorded filter uses supplied evidence; BM25 retrieval is a separate illustration over the ten-sentence corpus.
+
+**Evidence boundary.** Actual FEVER claims 70373 and 143488 and their saved GPT-6 Luna decisions. Annotated evidence is supplied directly to the support filter. The separate retrieval illustration uses a gold-derived miniature corpus; it is not open-Wikipedia retrieval or full FEVER evaluation.
+
+Sources: [FEVER](https://aclanthology.org/N18-1074/) and its archived Wikipedia evidence, CC BY-SA 3.0.
+
+[PNG](13-fever-workflow.png) · [PDF](13-fever-workflow.pdf) · [Editable source](13-fever-workflow.tex)
 
 The machine-readable [manifest](manifest.json) records source pointers and asset hashes.

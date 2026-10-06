@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "figure_count": 11,
+  "figure_count": 14,
   "figures": [
     {
       "stem": "00-chapter-map",
       "chapter": 0,
-      "caption": "From linkage evidence to testable semantic workflows. The first four chapters establish the linkage task and recorded structured-data comparison. Chapter 5 examines source representation; Chapters 6–8 develop proposed repairs, learning methods, and scale tests.",
+      "caption": "From linkage evidence to testable semantic workflows. The first four chapters establish the linkage task and recorded structured-data comparison. Chapter 5 examines source representation; Chapters 6\u20138 develop proposed repairs, learning methods, and scale tests.",
       "evidence_boundary": "Navigation diagram; no result claim.",
       "sources": [
         "../../record-linkage-with-semantic-operators.ipynb"
@@ -55,7 +55,7 @@
     {
       "stem": "02-fs-evidence",
       "chapter": 2,
-      "caption": "Fellegi–Sunter converts a comparison vector into match evidence. The joint log-likelihood ratio decomposes into field contributions under conditional independence; a decision rule applies lower and upper thresholds.",
+      "caption": "Fellegi\u2013Sunter converts a comparison vector into match evidence. The joint log-likelihood ratio decomposes into field contributions under conditional independence; a decision rule applies lower and upper thresholds.",
       "evidence_boundary": "Lowercase w denotes likelihood evidence. Posterior log odds additionally include prior log odds. The figure asserts no calibration result.",
       "sources": [
         "https://doi.org/10.1080/01621459.1969.10501049",
@@ -236,7 +236,7 @@
     {
       "stem": "09-agentic-pipeline",
       "chapter": 5,
-      "caption": "Agentic map–reduce separates planning, tool use and validation. The operator order is specified; the optional planner derives instructions and execution settings. Map agents process units or bounded batches and retain per-unit outputs. One reducer combines those outputs with access to the same tools. The green check represents this notebook’s independent source validation.",
+      "caption": "Agentic map\u2013reduce separates planning, tool use and validation. The operator order is specified; the optional planner derives instructions and execution settings. Map agents process units or bounded batches and retain per-unit outputs. One reducer combines those outputs with access to the same tools. The green check represents this notebook\u2019s independent source validation.",
       "evidence_boundary": "Conceptual API flow, checked against LOTUS 1.2.4 and source commit 136ae4f4a344a2f75d89f811e516dfcb0de30e46. The three lanes illustrate parallel work; they do not establish a speedup. Source validation is outside the native agentic operators.",
       "sources": [
         "https://lotus-ai.readthedocs.io/en/latest/agentic_operators.html",
@@ -265,7 +265,7 @@
       "stem": "10-agentic-evidence-loop",
       "chapter": 5,
       "caption": "The recorded Coastal trace shows GPT-6 Luna reading three revisions, submitting the highest approved row to a calculator, and returning its result with source identifiers. The calculator reports 200 eligible cases, 110 completed cases and 55% completion. Independent checks verify the selected rows, copied values, units, citations and reducer output across all three offices. Pooling their counts gives 1,130 completed cases out of 1,600 eligible cases, or 70.625%.",
-      "evidence_boundary": "Abbreviated observable calls and results from the validated 6 October 2026 run, plus the notebook’s independent checks. The source returns are synthetic. This count-based completion rate is neither a survey-weighted estimate nor an agency response-rate standard. The full arguments, tool observations and returned outputs remain in the snapshot.",
+      "evidence_boundary": "Abbreviated observable calls and results from the validated 6 October 2026 run, plus the notebook\u2019s independent checks. The source returns are synthetic. This count-based completion rate is neither a survey-weighted estimate nor an agency response-rate standard. The full arguments, tool observations and returned outputs remain in the snapshot.",
       "sources": [
         "../results/agentic-office-returns-gpt-6-luna.json",
         "../data/agentic-office-returns.json",
@@ -285,6 +285,92 @@
           "sha256": "158c9de039efc6209b8a439d0038badd462d66f77b50100c4a99fca6ab544b54",
           "width_px": 1445,
           "height_px": 960
+        }
+      }
+    },
+    {
+      "stem": "11-linkage-semantic-overview",
+      "chapter": 0,
+      "caption": "Both paths can address the same identity question. The diagram distinguishes their evidence, decision procedures and evaluation targets.",
+      "evidence_boundary": "Conceptual comparison on a shared identity relation. General semantic joins may target other relations. Restricted candidates, reference-relative optimization and independent identity evaluation have separate error targets; no comparative performance claim.",
+      "sources": [
+        "https://doi.org/10.1080/01621459.1969.10501049",
+        "https://www.vldb.org/pvldb/vol18/p4171-patel.pdf",
+        "https://arxiv.org/html/2512.05399v1#S2"
+      ],
+      "assets": {
+        "tex": {
+          "path": "11-linkage-semantic-overview.tex",
+          "sha256": "a112b90275e59176a0db7ad77252cf3b6275032a58a3c69561ac203b672088e5"
+        },
+        "pdf": {
+          "path": "11-linkage-semantic-overview.pdf",
+          "sha256": "4af4d732eb9a064aca5a184ca17ce36f969a6f73eff832987f7580c72e2ccc30"
+        },
+        "png": {
+          "path": "11-linkage-semantic-overview.png",
+          "sha256": "f4e641a991a3a8726ebd40e9b4f87baad4b005a3388ed167b7d64be71f98da45",
+          "width_px": 1333,
+          "height_px": 3727
+        }
+      }
+    },
+    {
+      "stem": "12-biodex-workflow",
+      "chapter": 5,
+      "caption": "The inputs and output rows come from the saved BioDEX experiment. Model predictions and published reaction annotations are shown separately.",
+      "evidence_boundary": "Eight selected articles crossed with eight categories. The two displayed accepted pairs are actual GPT-6 Luna outputs. An absent published annotation is a dataset-negative label, not proof of clinical absence; this is category assignment, not entity linkage.",
+      "sources": [
+        "../data/unstructured/biodex-reports.json",
+        "../data/unstructured/biodex-categories.json",
+        "../data/unstructured/biodex-truth.json",
+        "../results/unstructured-biodex-gpt-6-luna.json",
+        "https://doi.org/10.1016/j.abd.2020.07.008",
+        "https://arxiv.org/abs/2305.13395"
+      ],
+      "assets": {
+        "tex": {
+          "path": "12-biodex-workflow.tex",
+          "sha256": "69da8373d7d4b63ad1b1658efb4ad4a5818736ca400fb4c66ffa22e1620ee28f"
+        },
+        "pdf": {
+          "path": "12-biodex-workflow.pdf",
+          "sha256": "fd60f4841466b42335c73f8d9705dc05249c5dac24d8c1d854a831ea505ebd57"
+        },
+        "png": {
+          "path": "12-biodex-workflow.png",
+          "sha256": "1ac6ad6a94322e857250e6ece749e74bf4eacd5dbf347d499cdd2b4428a81f98",
+          "width_px": 1445,
+          "height_px": 1601
+        }
+      }
+    },
+    {
+      "stem": "13-fever-workflow",
+      "chapter": 5,
+      "caption": "The two displayed claims share the same evidence but receive opposite decisions. The recorded filter uses supplied evidence; BM25 retrieval is a separate illustration over the ten-sentence corpus.",
+      "evidence_boundary": "Actual FEVER claims 70373 and 143488 and their saved GPT-6 Luna decisions. Annotated evidence is supplied directly to the support filter. The separate retrieval illustration uses a gold-derived miniature corpus; it is not open-Wikipedia retrieval or full FEVER evaluation.",
+      "sources": [
+        "../data/unstructured/fever-claims.json",
+        "../data/unstructured/fever-evidence.json",
+        "../data/unstructured/fever-truth.json",
+        "../results/unstructured-fever-gpt-6-luna.json",
+        "https://aclanthology.org/N18-1074/"
+      ],
+      "assets": {
+        "tex": {
+          "path": "13-fever-workflow.tex",
+          "sha256": "8f3bb610ed1c19b61d51c181bfdbd5420ee89977c2d47b9600c74065c98642d5"
+        },
+        "pdf": {
+          "path": "13-fever-workflow.pdf",
+          "sha256": "fdb3b6f84ed2058ca16fd368b6014e68f1f5d4a57d0840c55c45e57972843a3b"
+        },
+        "png": {
+          "path": "13-fever-workflow.png",
+          "sha256": "8c62f8e7fcf0aef4b1f3c1c684ac4e3aff09fb12ee559a4c44e303043fecf187",
+          "width_px": 1434,
+          "height_px": 1633
         }
       }
     }

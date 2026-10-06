@@ -3,8 +3,8 @@
 [Open the notebook](../record-linkage-with-semantic-operators.ipynb) for a
 computational companion to the LOTUS paper. It connects Fellegi–Sunter linkage
 with semantic joins, then examines how text interpretation could support
-national statistical offices. One notebook contains eight chapters, eleven
-TikZ figures, three small experiments, an agentic dataset workflow, worked
+national statistical offices. One notebook contains eight chapters, fourteen
+figures, three small experiments, an agentic dataset workflow, worked
 calculations and a source-linked research guide.
 
 The experiments answer different questions:
@@ -48,6 +48,9 @@ reading copy without machine-wide Jupyter configuration:
 ```bash
 .venv/bin/python LLM_basics/record-linkage-tutorial/run_notebook.py --html reading-copy.html
 ```
+
+The HTML reading copy omits the setup cell; the notebook retains it for execution.
+The opening and dataset diagrams are embedded so they display without running code.
 
 Live requests are explicit and independent:
 

@@ -1,0 +1,59 @@
+\documentclass[tikz,border=5pt]{standalone}
+\input{diagram-style}
+\usepackage[hidelinks]{hyperref}
+\newcommand{\nine}{\fontsize{9}{11}\selectfont}
+\begin{document}
+\begin{tikzpicture}[
+  every node/.append style={font=\nine},
+  title/.append style={font=\nine\bfseries},
+  panel/.style={boundary,fill=datafill!35},
+]
+\useasboundingbox (-.1,.35) rectangle (16.1,-18.15);
+
+\node[title] at (8,0) {FEVER: finding evidence and testing claim support};
+\node[word,text width=153mm] at (8,-.67) {Frozen slice: 12 claims (6 SUPPORTS, 6 REFUTES),\\10 evidence sentences from 9 Wikipedia pages.};
+
+\draw[panel] (.1,-1.4) rectangle (15.9,-3.8);
+\node[title,anchor=west] at (.4,-1.73) {Separate retrieval illustration};
+\node[data,text width=31mm,minimum height=11mm] (queries) at (2.2,-2.69) {12 claims\\as search queries};
+\node[model,text width=53mm,minimum height=11mm] (bm25) at (8,-2.69) {BM25 ranks the 10 sentences\\using page title and text};
+\node[data,text width=31mm,minimum height=11mm] (rank) at (13.8,-2.69) {Annotated evidence\\ranks first: 12/12};
+\draw[flow] (queries) -- (bm25);
+\draw[flow] (bm25) -- (rank);
+\node[word,text width=145mm] at (8,-3.48) {This small corpus is built from the selected annotations. It is not a Wikipedia-wide search test.};
+
+\node[title] at (8,-4.28) {Recorded support task: annotated evidence supplied directly};
+% The full stored evidence sentence below has only typographic spacing normalized.
+\node[data,text width=142mm,minimum height=20mm,align=left] (evidence) at (8,-5.79) {\textbf{Shared evidence input: page \texttt{A\_Milli}, sentence 0}\\[5pt]
+  ``A Milli'', abbreviated occasionally as ``Milli'', is a song by American hip hop recording artist Lil Wayne.\\[4pt]
+  \textit{Unstructured Wikipedia text; one supplied sentence per claim--evidence row.}};
+
+\node[data,text width=63mm,minimum height=17mm,align=left] (claim1) at (3.7,-8.08) {\textbf{Claim: FEVER 70373}\\[5pt]
+  A Milli is a song by a recording artist.};
+\node[data,text width=63mm,minimum height=17mm,align=left] (claim2) at (12.3,-8.08) {\textbf{Claim: FEVER 143488}\\[5pt]
+  A Milli is a church.};
+
+\node[llm,text width=137mm,minimum height=24mm] (filter) at (8,-10.68) {\textbf{LOTUS \texttt{sem\_filter}: one decision per supplied claim--evidence row}\\[5pt]
+  \textit{The claim \{claim\} is supported by the supplied Wikipedia evidence \{evidence\}.}\\[5pt]
+  GPT-6 Luna returns a Boolean answer. The full instruction permits background knowledge to clarify terms; contradictory or insufficient evidence yields False.};
+\draw[flow] (evidence.south) -- (filter.north);
+\draw[flow] (claim1.south) -- (3.7,-9.25) -- ([xshift=-43mm]filter.north);
+\draw[flow] (claim2.south) -- (12.3,-9.25) -- ([xshift=43mm]filter.north);
+
+\node[llm,text width=63mm,minimum height=13mm] (true) at (3.7,-13.14) {\textbf{70373: True}\\[4pt]Retain the claim--evidence row.};
+\node[llm,text width=63mm,minimum height=13mm] (false) at (12.3,-13.14) {\textbf{143488: False}\\[4pt]Exclude the claim--evidence row.};
+\draw[flow] ([xshift=-43mm]filter.south) -- (true.north);
+\draw[flow] ([xshift=43mm]filter.south) -- (false.north);
+
+\node[truth,text width=142mm,minimum height=19mm] (evaluation) at (8,-15.3) {\textbf{Evaluate against FEVER annotations, which are withheld from the model}\\[5pt]
+  70373: SUPPORTS; 143488: REFUTES. Both recorded decisions agree.\\[4pt]
+  Across all 12 claims: 6 True and 6 False; 12/12 agree with the annotations.\\[3pt]
+  The saved decisions preserve excluded rows for scoring.};
+\draw[flow] (true.south) -- ([xshift=-43mm]evaluation.north);
+\draw[flow] (false.south) -- ([xshift=43mm]evaluation.north);
+
+\node[word,text width=149mm] at (8,-17.3) {Sources: \href{https://fever.ai/dataset/fever.html}{FEVER development annotations (Thorne et al., 2018)};\\
+  \href{https://en.wikipedia.org/wiki/A_Milli}{Wikipedia contributors, \textit{A Milli}, June 2017 dump} (\href{https://creativecommons.org/licenses/by-sa/3.0/}{CC BY-SA 3.0}).\\[4pt]
+  This selected slice contains no NOT ENOUGH INFO claims. False means the support predicate failed.};
+\end{tikzpicture}
+\end{document}

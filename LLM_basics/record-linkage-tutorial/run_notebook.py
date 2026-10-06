@@ -10,6 +10,7 @@ from urllib.parse import quote, unquote, urlsplit, urlunsplit
 import nbformat
 from nbclient import NotebookClient
 from nbconvert import HTMLExporter
+from nbconvert.preprocessors import TagRemovePreprocessor
 
 
 def rebase_file_links(html, notebook_dir, output_dir):
@@ -55,7 +56,10 @@ def main():
                                config_cell.source, flags=re.M)
     nbformat.write(notebook, notebook_path)
     if args.html:
-        html, _ = HTMLExporter(template_name="lab").from_notebook_node(notebook)
+        exporter = HTMLExporter(template_name="lab")
+        exporter.register_preprocessor(
+            TagRemovePreprocessor(remove_cell_tags={"reader-hide-setup"}), enabled=True)
+        html, _ = exporter.from_notebook_node(notebook)
         args.html.parent.mkdir(parents=True, exist_ok=True)
         html = rebase_file_links(html, notebook_path.parent, args.html.resolve().parent)
         args.html.write_text(html, encoding="utf-8")

@@ -1,0 +1,88 @@
+\documentclass[tikz,border=4pt]{standalone}
+\input{diagram-style}
+\newcommand{\nine}{\fontsize{9}{11.3}\selectfont}
+\newcommand{\eight}{\fontsize{8}{10}\selectfont}
+\begin{document}
+\begin{tikzpicture}[every node/.append style={font=\nine}]
+\useasboundingbox (-.2,.3) rectangle (16.2,-17.9);
+
+\node[font=\fontsize{12}{14}\selectfont\bfseries,text width=155mm] at (8,-.15)
+  {Which treatment issues does each article describe?};
+\node[word,font=\nine,text width=150mm] at (8,-.8)
+  {BioDEX links medical articles to named categories. One article can match several categories.};
+
+\node[data,text width=69mm,minimum height=43mm,align=left] (articles) at (3.9,-3.35) {
+  \textbf{INPUT A: 8 medical articles}\\[2pt]
+  Unstructured case-report text\\[6pt]
+  \texttt{bio-33e9404292ee}\\[4pt]
+  ``Despite the initial improvement in symptoms, she gradually worsened.''\\[5pt]
+  ``The treatment with gentamicin and ceftriaxone was ineffective, \ldots''\\[5pt]
+  {\eight Two excerpts from Garcia et al.; the model received the full frozen report.}
+};
+
+\node[data,text width=66mm,minimum height=43mm,align=left] (categories) at (12,-3.35) {
+  \textbf{INPUT B: 8 category names}\\[2pt]
+  A structured list of possible labels\\[6pt]
+  Drug ineffective\\
+  Off label use\\
+  Product use in unapproved indication\\
+  Nausea\\
+  Condition aggravated\\
+  Acute kidney injury\\
+  Diarrhoea\\
+  Thrombocytopenia
+};
+
+\node[data,text width=141mm,minimum height=9mm] (pairs) at (8,-6.3)
+  {\textbf{Pair every article with every category:} $8\times8=64$ candidate pairs};
+\draw[flow] (articles.south) -- (3.9,-5.72) -| (pairs.north);
+\draw[flow] (categories.south) -- (12,-5.72) -| (pairs.north);
+
+\node[llm,text width=141mm,minimum height=23mm] (llm) at (8,-8.15) {
+  \textbf{Ask GPT-6 Luna about each article--category pair}\\[5pt]
+  ``The medical report \texttt{\{report\}} describes \texttt{\{reaction\}} as an adverse drug reaction
+  or drug-treatment issue affecting a reported patient.''\\[5pt]
+  {\eight Prompt excerpt. The full fixed prompt also excludes background-only mentions.}
+};
+\draw[flow] (pairs) -- node[label,font=\eight,right] {article text + one category} (llm);
+
+\node[llm,text width=53mm,minimum height=16mm] (yes) at (4.05,-10.55)
+  {\textbf{True: retain 10 pairs}\\The model says the relation holds.};
+\node[data,text width=53mm,minimum height=16mm] (no) at (12,-10.55)
+  {\textbf{False: omit 54 pairs}\\The model says the relation does not hold.};
+\draw[flow] (llm.south) -- (8,-9.5) -| (yes.north);
+\draw[flow] (8,-9.5) -| (no.north);
+
+\node[box,text width=96mm,minimum height=29mm,align=left] (output) at (5.1,-13.2) {
+  \textbf{OUTPUT: structured article--category rows}\\[3pt]
+  {\eight Two of the 10 retained pairs, both from the article above}\\[6pt]
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{@{}rll@{}}
+   & \textbf{Article ID} & \textbf{Category}\\[3pt]
+  1 & \texttt{bio-33e9404292ee} & Condition aggravated\\[4pt]
+  2 & \texttt{bio-33e9404292ee} & Drug ineffective
+  \end{tabular}
+};
+\draw[flow] (yes.south) -- (output.north);
+
+\node[truth,text width=42mm,minimum height=29mm,align=left] (evaluation) at (13.5,-13.2) {
+  \textbf{COMPARE AFTERWARD}\\[3pt]
+  {\eight Published annotation for each displayed pair}\\[6pt]
+  1\quad\textbf{Present}: agreement\\[4pt]
+  2\quad\textbf{Absent}: disagreement
+};
+\draw[branch] (output.east) -- (evaluation.west);
+
+\node[truth,text width=141mm,minimum height=15mm] (labels) at (8,-16.0) {
+  \textbf{Published labels are kept separate from model inputs.}\\[3pt]
+  Across all 64 pairs: 11 annotations are positive. Of 10 retained pairs, 4 have that annotation.\\[2pt]
+  An absent annotation is a dataset-negative label; it does not establish clinical absence.
+};
+\draw[update,draw=truthline] (labels.north) -- (8,-14.93) -| (evaluation.south);
+
+\node[word,font=\eight,text width=154mm] at (8,-17.4) {
+  Excerpts: Garcia et al., DOI 10.1016/j.abd.2020.07.008 (CC BY 4.0).\quad
+  Frozen BioDEX slice; saved GPT-6 Luna run.
+};
+\end{tikzpicture}
+\end{document}

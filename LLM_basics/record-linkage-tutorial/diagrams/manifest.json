@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "figure_count": 9,
+  "figures": [
+    {
+      "stem": "00-chapter-map",
+      "chapter": 0,
+      "caption": "From linkage evidence to a testable research programme. The first four chapters establish the task and recorded comparison; the later chapters develop proposed mechanisms and tests.",
+      "evidence_boundary": "Navigation diagram; no result claim.",
+      "sources": [
+        "../../record-linkage-with-semantic-operators.ipynb"
+      ],
+      "assets": {
+        "tex": {
+          "path": "00-chapter-map.tex",
+          "sha256": "8276424a6856ec688ea30adca581a220e7abbb36f53981e5db6b37601eea9e84"
+        },
+        "pdf": {
+          "path": "00-chapter-map.pdf",
+          "sha256": "0e98b604d37f3f40c907284ba8b3e8d92a13f73f4f3a4547920ef06d586b13db"
+        },
+        "png": {
+          "path": "00-chapter-map.png",
+          "sha256": "57409043541916a4695481bf07f0f1915c399ca5eb2875e0b19af7ba13d4d22e",
+          "width_px": 1437,
+          "height_px": 640
+        }
+      }
+    },
+    {
+      "stem": "01-identity-relations",
+      "chapter": 1,
+      "caption": "Identity, shared context, and diagnostic similarity answer different questions. The constructed records show how two people can share a clinic while one person appears under different spellings. Here, Y denotes identity and H denotes shared context.",
+      "evidence_boundary": "Illustrative records and identities are defined by construction. Diagnostic groups do not establish identity.",
+      "sources": [
+        "../../../research/error-guided-record-linkage/llm-similarity-for-clustering.md"
+      ],
+      "assets": {
+        "tex": {
+          "path": "01-identity-relations.tex",
+          "sha256": "6c3574b10814f0371e9659dfd954a785797268bdcc99466b4fc41cdbbfe8d702"
+        },
+        "pdf": {
+          "path": "01-identity-relations.pdf",
+          "sha256": "3992f608111fe0cc282cfef35c7cc86746d72dc9332dbbb44d965e123a7fc3e4"
+        },
+        "png": {
+          "path": "01-identity-relations.png",
+          "sha256": "347a9225c6000c805a6a2608166672a689ad3e40b83e7f0d231001bf0b29fe4d",
+          "width_px": 1437,
+          "height_px": 657
+        }
+      }
+    },
+    {
+      "stem": "02-fs-evidence",
+      "chapter": 2,
+      "caption": "Fellegi–Sunter converts a comparison vector into match evidence. The joint log-likelihood ratio decomposes into field contributions under conditional independence; a decision rule applies lower and upper thresholds.",
+      "evidence_boundary": "Lowercase w denotes likelihood evidence. Posterior log odds additionally include prior log odds. The figure asserts no calibration result.",
+      "sources": [
+        "https://doi.org/10.1080/01621459.1969.10501049",
+        "https://moj-analytical-services.github.io/splink/topic_guides/comparisons/comparisons_and_comparison_levels.html"
+      ],
+      "assets": {
+        "tex": {
+          "path": "02-fs-evidence.tex",
+          "sha256": "3c73344cd9d53681f8f857ac33b9a759e480ee29b28bcaa0cebf8c6566612120"
+        },
+        "pdf": {
+          "path": "02-fs-evidence.pdf",
+          "sha256": "e2a3b463c5974c6c3a88bb6a2e4d82fff7fd53051c38cd74c38fc1330ab320b4"
+        },
+        "png": {
+          "path": "02-fs-evidence.png",
+          "sha256": "90daaa1364f8e1da797ba4037916fd2d618d8386b939fa94d570defcdc9d3edc",
+          "width_px": 1437,
+          "height_px": 739
+        }
+      }
+    },
+    {
+      "stem": "03-semantic-execution",
+      "chapter": 3,
+      "caption": "A semantic predicate fixes the requested relation; the chosen execution plan determines how candidate pairs are processed. Output validation and evaluation against identity labels are separate steps.",
+      "evidence_boundary": "Schematic direct path, with optional execution optimization shown separately. No optimized LOTUS cascade was executed in the recorded benchmark. Reference-model agreement is not identity accuracy.",
+      "sources": [
+        "https://www.vldb.org/pvldb/vol18/p4171-patel.pdf",
+        "../results/verification.json"
+      ],
+      "assets": {
+        "tex": {
+          "path": "03-semantic-execution.tex",
+          "sha256": "78ab95ff62955aa147a255d2f87e498cacb10c58ee3dcf26a18a3c90f9531824"
+        },
+        "pdf": {
+          "path": "03-semantic-execution.pdf",
+          "sha256": "3ebfcc3a994c125732077a4462da9efb199c7d99ebbc411a2f91607eefe11198"
+        },
+        "png": {
+          "path": "03-semantic-execution.png",
+          "sha256": "be78c36e188a95044a3945e39bca1c7d8555ae5236c0d2333b944b7dc315156b",
+          "width_px": 1437,
+          "height_px": 670
+        }
+      }
+    },
+    {
+      "stem": "04-controlled-comparison",
+      "chapter": 4,
+      "caption": "The recorded comparison uses the same 225 candidate pairs, including 10 true matches. Splink returns 10 TP, 0 FP, 0 FN and 215 TN; LOTUS returns 8 TP, 0 FP, 2 FN and 215 TN. Splink uses supervised match parameters and the language model is zero-shot.",
+      "evidence_boundary": "Recorded result on a small structured-data slice, with unequal training-label access. It does not measure end-to-end blocking recall or a language-model treatment effect.",
+      "sources": [
+        "../results/verification.json",
+        "../results/lotus-febrl4.json",
+        "../data/manifest.json"
+      ],
+      "assets": {
+        "tex": {
+          "path": "04-controlled-comparison.tex",
+          "sha256": "e2d4e3846848c2d0a2e240db2083d0746640f466829f83e15f2f26f008810e96"
+        },
+        "pdf": {
+          "path": "04-controlled-comparison.pdf",
+          "sha256": "a0bfa47f3ccbfc9137ae9321d2a03e9de24efaf4e6e553b4d7c5025f9207b8b1"
+        },
+        "png": {
+          "path": "04-controlled-comparison.png",
+          "sha256": "23b0d6f79a94a87bcb697679f7c9ff2fd5c62dd14094eddbf3f1469bbfad28a2",
+          "width_px": 1437,
+          "height_px": 670
+        }
+      }
+    },
+    {
+      "stem": "05-representation-paths",
+      "chapter": 5,
+      "caption": "A representation study can compare structured-field linkage, direct judgment over native text, and recordwise extraction followed by validated field comparisons. The target identity relation, held-out evaluation, and accounting rules remain fixed.",
+      "evidence_boundary": "Proposed study. Reformatting existing fields alone tests representation; it cannot establish a benefit from additional native information. Extraction costs must be counted.",
+      "sources": [
+        "../../../research/error-guided-record-linkage/experiment-protocol.md",
+        "../../../research/error-guided-record-linkage/llm-similarity-for-clustering.md"
+      ],
+      "assets": {
+        "tex": {
+          "path": "05-representation-paths.tex",
+          "sha256": "8bcf8cae81f800b45a4be4b71fb188d37a923e476fbdf8fe40e4c5948bb9a41d"
+        },
+        "pdf": {
+          "path": "05-representation-paths.pdf",
+          "sha256": "aca24f6e5367b67312b6cfba8d72f411fc2ec696001f89a3e0c97c0bfe01e709"
+        },
+        "png": {
+          "path": "05-representation-paths.png",
+          "sha256": "f996d110a04eca2dcb1df1e07f059f0449985b3011c06be2b0a647c8f47be67c",
+          "width_px": 1437,
+          "height_px": 700
+        }
+      }
+    },
+    {
+      "stem": "06-diagnosis-repair",
+      "chapter": 6,
+      "caption": "Diagnostic signatures guide review of several cases and counterexamples. A repair has an explicit applicability region; capped validation precedes a frozen evaluation on unqueried entities.",
+      "evidence_boundary": "Proposed mechanism. The address-truncation example is illustrative, and groups may overlap. No repair-transfer result is asserted.",
+      "sources": [
+        "../../../research/error-guided-record-linkage/experiment-protocol.md"
+      ],
+      "assets": {
+        "tex": {
+          "path": "06-diagnosis-repair.tex",
+          "sha256": "59f88ce5151e25bde19e9e0e2e4261eb4b826b0005a5d27e00119824230121f3"
+        },
+        "pdf": {
+          "path": "06-diagnosis-repair.pdf",
+          "sha256": "30d2b8431e981b4fa7d57c53a19602878a03d5e767b3b2c01551b369dffce099"
+        },
+        "png": {
+          "path": "06-diagnosis-repair.png",
+          "sha256": "cd0bbd1ad505bf90beff29899d7314337ee960fc1c8b1dd2fb8d6127f7a84af3",
+          "width_px": 1437,
+          "height_px": 761
+        }
+      }
+    },
+    {
+      "stem": "07-teacher-student",
+      "chapter": 7,
+      "caption": "Teacher judgments and student predictions meet in a training objective. In a separate held-out path, frozen linkage predictions using the trained student and independent identity labels enter evaluation as distinct inputs.",
+      "evidence_boundary": "Proposed teacher-guided learning mechanism. A teacher score is a fallible signal, and the choice of loss depends on its interpretation. No student or clustering gain is reported.",
+      "sources": [
+        "../../../research/error-guided-record-linkage/llm-similarity-for-clustering.md"
+      ],
+      "assets": {
+        "tex": {
+          "path": "07-teacher-student.tex",
+          "sha256": "f8d5dc4d2947d99256a622b1189f4fc103cb028dd6d13090eb7fde6263d34e67"
+        },
+        "pdf": {
+          "path": "07-teacher-student.pdf",
+          "sha256": "c08a3baf4a9a32f901d2960192c8fe2caf6eb8c8fe3755e4eb9370d60e20b5de"
+        },
+        "png": {
+          "path": "07-teacher-student.png",
+          "sha256": "b0f92119a6b02962ff51f8110e7aa42b797fb71a9ec53a6de52d61945db9d170",
+          "width_px": 1437,
+          "height_px": 882
+        }
+      }
+    },
+    {
+      "stem": "08-sparse-scale",
+      "chapter": 8,
+      "caption": "Candidate generation reduces the cross product to a sparse graph; cheap comparisons and selective language-model work feed the final decision procedure. A separate audit measures true links omitted from the candidate set.",
+      "evidence_boundary": "Symbolic cost and recall accounting, not a throughput claim. The candidate bound assumes an overall cap of k per left record. The recall factorization applies to final pair decisions restricted to a fixed candidate set and counts omitted true links as misses.",
+      "sources": [
+        "../../../research/error-guided-record-linkage/experiment-protocol.md",
+        "../../../research/error-guided-record-linkage/llm-similarity-for-clustering.md"
+      ],
+      "assets": {
+        "tex": {
+          "path": "08-sparse-scale.tex",
+          "sha256": "6c6570de4e73d13517091a6c0061f4bc728b3c496f9775a8861ad2e729fe2ba2"
+        },
+        "pdf": {
+          "path": "08-sparse-scale.pdf",
+          "sha256": "3ce2e8f4c43c9eb9aa4e62271a4d7cebae64c102d1796dfa7175070aff43b768"
+        },
+        "png": {
+          "path": "08-sparse-scale.png",
+          "sha256": "da97a5564768d023a3f11d8ef3756c366dcd343b61396f64808db2e4b78124dc",
+          "width_px": 1437,
+          "height_px": 770
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "verified_at_utc": "2026-10-06T15:24:45.563371+00:00",
+  "python": "3.11.15",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "versions": {
+    "lotus-ai": "1.2.4",
+    "splink": "5.0.0",
+    "litellm": "1.104.0",
+    "duckdb": "1.5.6",
+    "pandas": "2.3.3",
+    "numpy": "1.26.4",
+    "pyarrow": "25.0.1",
+    "nbclient": "0.10.2",
+    "nbconvert": "7.16.6",
+    "ipywidgets": "8.1.9"
+  },
+  "checks": {
+    "dependency_consistency": "165 installed packages compatible",
+    "live_lotus_installation_smoke": "4 synthetic FEBRL pairs completed",
+    "live_notebook": "All 10 code cells completed; 225 real LLM decisions saved",
+    "offline_replay": "All 10 code cells completed with OPENAI_API_KEY removed and external Python socket connections blocked",
+    "portable_runner": "run_notebook.py completed replay and HTML export without global Jupyter configuration",
+    "notebook_structure": "24 cells; valid nbformat; no error outputs; RUN_LIVE=False saved",
+    "data_preparation": "Repeated preparation produced identical pinned output hashes",
+    "audit": "Exact prompts, ordered pair universe, strict Boolean outputs and snapshot digests verified",
+    "visual_review": "HTML introduction, equation accessibility, results table and error examples inspected in browser",
+    "repository_hygiene": "No credential-pattern matches or personal guidance in new tutorial files; existing notebook unchanged"
+  },
+  "measured_result": {
+    "pairs": 225,
+    "true_matches": 10,
+    "splink": {
+      "TP": 10,
+      "FP": 0,
+      "FN": 0,
+      "TN": 215,
+      "validation_threshold": 0.26
+    },
+    "lotus": {
+      "TP": 8,
+      "FP": 0,
+      "FN": 2,
+      "TN": 215
+    }
+  },
+  "boundaries": [
+    "Only macOS arm64 was tested",
+    "The original live run and later offline replay are distinct executions",
+    "No native unstructured benchmark or optimized LOTUS cascade was executed"
+  ],
+  "artifact_sha256": {
+    "record-linkage-with-semantic-operators.ipynb": "2ec33f430fadd1f74fc32254963d0a6d079e215b4fe60fd0ba5ea3701909ea86",
+    "record-linkage-tutorial/tutorial_helpers.py": "4a75cfceda8fdd445166e0b289c77129578c15c882e68e24aec80ad0b9768551",
+    "record-linkage-tutorial/run_notebook.py": "6f43e481d1b973b3536438f8facce9d51ff52510ee35ecac9df4d051338f302d",
+    "record-linkage-tutorial/prepare_data.py": "65cb047fdc3a4cdbd761952afb59c20d877fb155d9855d117f06381eaee8c296",
+    "record-linkage-tutorial/requirements-lock.txt": "b6d0683c824d4693b79615506b7de2c6320d6bb90778bafebee21914da79e5de",
+    "record-linkage-tutorial/results/lotus-febrl4.json": "2f1d64139d2dddf381af16f12409cf4ac4f90ec1b52bf7b7ed018b01ebcc69c5",
+    "record-linkage-tutorial/data/manifest.json": "8bce2ba8d2210c31f5f6b27a432b400827e3d952112777d4efebc218d586c665"
+  }
+}

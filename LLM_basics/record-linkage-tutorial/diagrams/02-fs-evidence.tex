@@ -1,0 +1,24 @@
+\documentclass[tikz,border=4pt]{standalone}
+\input{diagram-style}
+\begin{document}
+\begin{tikzpicture}
+
+\useasboundingbox (-.2,.3) rectangle (16.1,-7.95);
+\node[data,text width=27mm,minimum height=16mm] (pair) at (1.5,-1.25) {\textbf{Candidate pair}\\[3pt]$(r_i,r_j)$\\observed record values};
+\node[data,text width=37mm,minimum height=16mm] (gamma) at (6,-1.25) {\textbf{Comparison vector}\\[3pt]$\gamma=(\gamma_1,\ldots,\gamma_K)$\\agreement levels by field};
+\node[model,text width=46mm,minimum height=16mm] (ratio) at (12.4,-1.25) {\textbf{Evidence for a match}\\[3pt]$w(\gamma)=\log_2\!\dfrac{P(\gamma\mid M)}{P(\gamma\mid U)}$\\$M$: match; $U$: nonmatch};
+\draw[flow] (pair) -- (gamma); \draw[flow] (gamma) -- (ratio);
+\node[model,text width=77mm,minimum height=15mm] (add) at (7.8,-3.65) {\textbf{Additive field evidence under conditional independence}\\[4pt]$w(\gamma)=\displaystyle\sum_{k=1}^{K}\log_2\!\dfrac{m_k(\gamma_k)}{u_k(\gamma_k)}$\\[3pt]$m_k(g)=P(\gamma_k=g\mid M),\quad u_k(g)=P(\gamma_k=g\mid U)$};
+\draw[flow] (ratio.south) -- (12.4,-2.22) -| (add.north);
+\node[word,text width=29mm] at (1.55,-3.65) {Agreement is stronger evidence when it is rare among nonmatches.};
+\node[word,text width=29mm] at (14.3,-3.65) {Correlated comparisons require dependence-aware modeling.};
+\node[box,text width=29mm,minimum height=12mm] (non) at (2.2,-6.05) {\textbf{Nonmatch}\\$w\leq t_L$};
+\node[box,text width=36mm,minimum height=12mm] (review) at (8,-6.05) {\textbf{Review / unresolved}\\$t_L<w<t_U$};
+\node[box,text width=29mm,minimum height=12mm] (match) at (13.8,-6.05) {\textbf{Match}\\$w\geq t_U$};
+\draw[route] (add.south) -- (7.8,-5.05);
+\draw[branch] (7.8,-5.05) -| (non.north); \draw[branch] (7.8,-5.05) -| (review.north); \draw[branch] (7.8,-5.05) -| (match.north);
+\node[word] at (8,-7.15) {Thresholds express the decision rule; posterior odds also require prior odds.};
+\rolekey{8}{-7.75}
+
+\end{tikzpicture}
+\end{document}

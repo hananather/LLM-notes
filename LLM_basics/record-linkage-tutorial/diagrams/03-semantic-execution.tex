@@ -1,0 +1,22 @@
+\documentclass[tikz,border=4pt]{standalone}
+\input{diagram-style}
+\begin{document}
+\begin{tikzpicture}
+
+\useasboundingbox (-.2,.3) rectangle (16.1,-7.15);
+\node[box,text width=143mm] (predicate) at (8,-.6) {\textbf{Predicate: ``Do these two records refer to the same person?''}\\[3pt]The prompt fixes the target relation, the admissible evidence, and how uncertainty is handled.};
+\node[data,text width=25mm,minimum height=17mm] (c) at (1.45,-2.55) {\textbf{Candidate pairs}\\[3pt]$C\subseteq A\times B$\\fixed input relation};
+\node[box,text width=28mm,minimum height=17mm] (serialize) at (5.55,-2.55) {\textbf{Serialize evidence}\\[3pt]field names and values\\record provenance};
+\node[llm,text width=28mm,minimum height=17mm] (judge) at (10,-2.55) {\textbf{Evaluate predicate}\\[3pt]configured language\\model and prompt};
+\node[box,text width=24mm,minimum height=17mm] (parse) at (14.5,-2.55) {\textbf{Parse and validate}\\[3pt]allowed response\\schema and failures};
+\draw[flow] (c) -- (serialize); \draw[flow] (serialize) -- (judge); \draw[flow] (judge) -- (parse);
+\draw[branch] (predicate.south) -- (8,-1.4) -| (judge.north);
+\node[model,text width=62mm,minimum height=14mm] (plan) at (3.7,-4.7) {\textbf{Execution choices in LOTUS}\\[3pt]Direct evaluation or configured optimization\\can change calls, latency, and reference agreement.};
+\node[truth,text width=62mm,minimum height=14mm] (audit) at (12.2,-4.7) {\textbf{Identity evaluation}\\[3pt]Compare decisions with separately held-out identity labels.\\Agreement with a reference model is a different outcome.};
+\draw[update] (plan.east) -- (7.65,-4.7) |- (judge.south west);
+\draw[flow] (parse.south) -- (14.5,-3.65) -- (12.2,-3.65) -- (audit.north);
+\node[word,text width=143mm] at (8,-6.25) {The recorded notebook uses its pinned execution settings. An optimization guarantee must be read against its stated reference and workload.};
+\rolekey{8}{-6.95}
+
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,32 @@
+\documentclass[tikz,border=4pt]{standalone}
+\input{diagram-style}
+\begin{document}
+\begin{tikzpicture}
+
+\useasboundingbox (-.2,.3) rectangle (16.1,-9.6);
+\node[data,text width=25mm,minimum height=14mm] (x) at (1.5,-2.2) {\textbf{Training pairs}\\[3pt]observed records\\or diagnostics $x$};
+\node[llm,text width=27mm,minimum height=14mm] (teacher) at (5.7,-.8) {\textbf{LLM teacher}\\[3pt]fixed prompt and model};
+\node[model,text width=27mm,minimum height=14mm] (student) at (5.7,-3.6) {\textbf{Student model}\\[3pt]learned score $s_\theta(x)$};
+\node[llm,text width=22mm,minimum height=14mm] (qt) at (10,-.8) {\textbf{Teacher signal}\\[3pt]score or verdict $q_T(x)$};
+\node[model,text width=22mm,minimum height=14mm] (qs) at (10,-3.6) {\textbf{Student output}\\[3pt]$s_\theta(x)$};
+\node[box,text width=22mm,minimum height=16mm] (loss) at (14.4,-2.2) {\textbf{Agreement loss}\\[3pt]$\mathcal{L}(s_\theta,q_T)$};
+\draw[route] (x.east) -- (3.6,-2.2);
+\draw[flow] (3.6,-2.2) |- (teacher.west); \draw[flow] (3.6,-2.2) |- (student.west);
+\draw[flow] (teacher) -- (qt); \draw[flow] (student) -- (qs);
+\draw[flow] (qt.east) -- (12,-.8) -| (loss.north);
+\draw[flow] (qs.east) -- (12,-3.6) -| (loss.south);
+\draw[update] (loss.east) -- (15.8,-2.2) -- (15.8,-4.75) -- (5.7,-4.75) -- (student.south);
+\node[label] at (10.7,-4.75) {update student parameters};
+\draw[boundary] (0,-5.3) -- (15.9,-5.3);
+\node[data,text width=28mm,minimum height=14mm] (held) at (1.8,-6.45) {\textbf{Held-out entities}\\[3pt]unseen during fitting\\and method selection};
+\node[model,text width=43mm,minimum height=14mm] (decision) at (7.2,-6.45) {\textbf{Frozen linkage procedure}\\[3pt]candidates $\rightarrow s_\theta\rightarrow$ decisions\\trained student; fixed graph rules};
+\node[box,text width=30mm,minimum height=14mm] (evaluate) at (14.1,-6.45) {\textbf{Evaluate linkage}\\[3pt]error loss\\and calibration};
+\node[truth,text width=43mm,minimum height=12mm] (truth) at (7.2,-8.15) {\textbf{Independent identity labels}\\[3pt]held out from fitting and selection};
+\draw[flow] (held) -- (decision);
+\draw[flow] (decision) -- node[label,above] {predictions} (evaluate);
+\draw[flow] (truth.east) -- (14.1,-8.15) -- (evaluate.south);
+\node[word,anchor=south] at (11.65,-8.02) {identity truth};
+\node[word] at (8,-8.95) {Teacher consistency and clustering geometry are training signals; independent identity labels evaluate transfer.};
+\rolekey{8}{-9.45}
+\end{tikzpicture}
+\end{document}

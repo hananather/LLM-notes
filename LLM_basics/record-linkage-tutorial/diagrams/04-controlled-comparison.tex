@@ -1,0 +1,22 @@
+\documentclass[tikz,border=4pt]{standalone}
+\input{diagram-style}
+\begin{document}
+\begin{tikzpicture}
+
+\useasboundingbox (-.2,.3) rectangle (16.1,-7.15);
+\node[data,text width=28mm,minimum height=17mm] (pairs) at (1.65,-2.55) {\textbf{Shared test input}\\[3pt]225 candidate pairs\\10 true matches};
+\node[model,text width=38mm,minimum height=16mm] (splink) at (7,-1.05) {\textbf{Splink}\\[3pt]supervised match parameters\\separate training entities};
+\node[llm,text width=38mm,minimum height=16mm] (lotus) at (7,-4.05) {\textbf{LOTUS + language model}\\[3pt]zero-shot predicate\\pinned model and settings};
+\node[truth,text width=38mm,minimum height=16mm] (sout) at (13.6,-1.05) {\textbf{Evaluation of Splink decisions}\\[3pt]10 TP \quad 0 FP \quad 0 FN\\215 TN};
+\node[truth,text width=38mm,minimum height=16mm] (lout) at (13.6,-4.05) {\textbf{Evaluation of LOTUS decisions}\\[3pt]8 TP \quad 0 FP \quad 2 FN\\215 TN};
+\draw[route] (pairs.east) -- (4.2,-2.55);
+\draw[flow] (4.2,-2.55) |- (splink.west); \draw[flow] (4.2,-2.55) |- (lotus.west);
+\draw[flow] (splink) -- node[label,above] {compare with\\held-out truth} (sout);
+\draw[flow] (lotus) -- node[label,above] {compare with\\held-out truth} (lout);
+\node[box,text width=88mm] at (9.2,-2.55) {Training-label access differs. This is a documented comparison of two configurations,\\not an isolated estimate of the effect of using a language model.};
+\node[word,text width=143mm] at (8,-5.7) {The candidate set defines this comparison. Blocking recall and generalization to native text require separate evidence.\\The Splink baseline makes no errors on this slice; it supplies no repair headroom here.};
+\node[word] at (8,-6.25) {TP: true link; FP: false link; FN: missed true link; TN: correctly rejected nonmatch.};
+\rolekey{8}{-6.95}
+
+\end{tikzpicture}
+\end{document}

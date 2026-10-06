@@ -1,0 +1,22 @@
+\documentclass[tikz,border=4pt]{standalone}
+\input{diagram-style}
+\begin{document}
+\begin{tikzpicture}
+
+\useasboundingbox (-.2,.3) rectangle (16.1,-6.8);
+\node[data,text width=30mm,minimum height=20mm] (c1) at (1.6,-.8) {\textbf{1. Define the relation}\\[3pt]Same entity, same topic,\\or same failure mechanism?};
+\node[data,text width=30mm,minimum height=20mm] (c2) at (5.8,-.8) {\textbf{2. Model the evidence}\\[3pt]Fellegi--Sunter\\and the Splink baseline};
+\node[llm,text width=30mm,minimum height=20mm] (c3) at (10,-.8) {\textbf{3. State the predicate}\\[3pt]LOTUS operators\\and their execution};
+\node[truth,text width=30mm,minimum height=20mm] (c4) at (14.2,-.8) {\textbf{4. Compare on fixed pairs}\\[3pt]Recorded FEBRL result\\and its evidence boundary};
+\draw[flow] (c1) -- (c2); \draw[flow] (c2) -- (c3); \draw[flow] (c3) -- (c4);
+\node[data,text width=30mm,minimum height=20mm] (c5) at (1.6,-3.8) {\textbf{5. Change the representation}\\[3pt]Fields, native text,\\and recordwise extraction};
+\node[model,text width=30mm,minimum height=20mm] (c6) at (5.8,-3.8) {\textbf{6. Learn reusable repairs}\\[3pt]Diagnostic groups,\\review, and transfer};
+\node[llm,text width=30mm,minimum height=20mm] (c7) at (10,-3.8) {\textbf{7. Learn from a teacher}\\[3pt]Affinity, distillation,\\and independent truth};
+\node[model,text width=30mm,minimum height=20mm] (c8) at (14.2,-3.8) {\textbf{8. Test at scale}\\[3pt]Sparse candidates,\\matched costs, and holdout};
+\draw[flow] (c4.south) -- (14.2,-2.35) -- (1.6,-2.35) -- (c5.north);
+\draw[flow] (c5) -- (c6); \draw[flow] (c6) -- (c7); \draw[flow] (c7) -- (c8);
+\node[word,text width=135mm] at (8,-5.5) {Chapters 1--4 establish the task and the recorded comparison. Chapters 5--8 develop hypotheses and tests;\\their diagrams describe mechanisms, not demonstrated improvements.};
+\rolekey{8}{-6.45}
+
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,70 @@
+{
+  "verified_at_utc": "2026-10-06T16:46:20.086406+00:00",
+  "python": "3.11.15",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "versions": {
+    "lotus-ai": "1.2.4",
+    "splink": "5.0.0",
+    "duckdb": "1.5.6",
+    "pandas": "2.3.3",
+    "numpy": "1.26.4",
+    "nbclient": "0.10.2",
+    "nbconvert": "7.16.6"
+  },
+  "scope": "Expanded eight-chapter record-linkage handbook",
+  "execution": {
+    "mode": "Replay; no new model requests",
+    "credentials": "OPENAI_API_KEY removed from execution environment",
+    "jupyter_configuration": "Isolated configuration directories",
+    "cells": 98,
+    "code_cells": 28,
+    "markdown_cells": 70,
+    "completed_code_cells": 28,
+    "error_outputs": 0,
+    "embedded_png_figures": 9,
+    "post_execution_changes": "One Markdown sentence clarified the likelihood ratio versus prior odds; code and outputs unchanged."
+  },
+  "checks": {
+    "notebook_schema": "nbformat validation passed",
+    "original_benchmark": "Original benchmark computations, helpers, runner, preparation, lockfile, response snapshot and data hashes preserved",
+    "diagrams": "Nine TikZ figures compiled; all 27 source/PDF/PNG hashes match diagram manifest; embedded PNGs match compiled assets",
+    "mathematical_review": "Worked examples and interpretation checked, including dependence, reference agreement, repair overlap, false-bridge amplification, sparse workload and audit denominators",
+    "visual_review": "Two review passes; final changed and dense figures inspected at 900 px; no unresolved material layout defects observed",
+    "reading_copy": "Browser inspection confirmed equations, tables, figure display and chapter navigation; all nine images loaded; all chapter anchors resolve",
+    "prose": "Captions checked against figures; measured results, constructed examples and proposed experiments distinguished"
+  },
+  "measured_result": {
+    "pairs": 225,
+    "true_matches": 10,
+    "splink": {
+      "TP": 10,
+      "FP": 0,
+      "FN": 0,
+      "TN": 215,
+      "validation_threshold": 0.26
+    },
+    "lotus": {
+      "TP": 8,
+      "FP": 0,
+      "FN": 2,
+      "TN": 215
+    }
+  },
+  "original_response_sha256": "2f1d64139d2dddf381af16f12409cf4ac4f90ec1b52bf7b7ed018b01ebcc69c5",
+  "artifact_sha256": {
+    "record-linkage-with-semantic-operators.ipynb": "55d0a9075f2a9650402151d248a1538b544d7cb2e20f7b2b71556f4b64d86fa4",
+    "record-linkage-tutorial/handbook_examples.py": "d8c163ac42471cb66fa174a4c0a1d25c0a38ce4894018011838c75d8ccd3fdef",
+    "record-linkage-tutorial/README.md": "9089cf6c881ab669ec120005d72aa563980e7d763143157ad072151a41109dd3",
+    "record-linkage-tutorial/diagrams/manifest.json": "0b9d35081b14de25d3c152d0dc223fe7808f05682a6815c96125359c3da1033c",
+    "record-linkage-tutorial/diagrams/diagram-style.tex": "09d04c1f13ca56dabed2c8fa9e0992362156edd82cf94a4b4f2eec837f6463ce",
+    "record-linkage-tutorial/diagrams/build.py": "4f79d8630c4266fbad42ad7b2fbaabaf0ab8efc74405bec5e1820475ea9c5188"
+  },
+  "reading_copy_sha256": "85c4c107cc834dc619e9a23923f7091cc19c123c5eea6be1ec460d38830a013d",
+  "boundaries": [
+    "Execution verified on macOS arm64 only; Linux and Windows remain untested.",
+    "The original live LOTUS run is distinct from this replay execution.",
+    "No native-unstructured benchmark, optimized LOTUS cascade, learned-repair experiment or trained similarity model was run in this expansion.",
+    "The 100M-by-100M calculations are arithmetic scenarios, not capacity measurements.",
+    "Literature results are attributed to inspected sources; they were not independently reproduced here."
+  ]
+}

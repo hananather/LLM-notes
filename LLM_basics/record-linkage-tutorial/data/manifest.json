@@ -1,0 +1,113 @@
+{
+  "checks": [
+    "Pinned input hashes",
+    "5000 unique entities and records in each source",
+    "Exactly one original and one duplicate per entity",
+    "10000 unique opaque IDs",
+    "All matching fields retained as text; empty missing values retained",
+    "Entities assigned to one split",
+    "Evaluation and validation subsets disjoint",
+    "225 evaluation pairs with 10 matches; 10000 validation pairs with 100 matches"
+  ],
+  "counts": {
+    "empty_values_by_field": {
+      "address_1": 318,
+      "address_2": 1271,
+      "date_of_birth": 293,
+      "given_name": 346,
+      "postcode": 0,
+      "soc_sec_id": 0,
+      "state": 157,
+      "street_number": 445,
+      "suburb": 161,
+      "surname": 150
+    },
+    "entities": 5000,
+    "evaluation_slice": {
+      "entities": 20,
+      "left_records": 15,
+      "matches": 10,
+      "nonmatches": 215,
+      "pairs": 225,
+      "right_records": 15
+    },
+    "febrl4a": 5000,
+    "febrl4b": 5000,
+    "records": 10000,
+    "splits": {
+      "test": {
+        "entities": 781,
+        "records": 1562
+      },
+      "train": {
+        "entities": 3486,
+        "records": 6972
+      },
+      "validation": {
+        "entities": 733,
+        "records": 1466
+      }
+    },
+    "true_cross_source_links": 5000,
+    "validation_slice": {
+      "entities": 100,
+      "left_records": 100,
+      "matches": 100,
+      "nonmatches": 9900,
+      "pairs": 10000,
+      "right_records": 100
+    }
+  },
+  "dataset": "Official Splink FEBRL4a / FEBRL4b; standard synthetic persons benchmark",
+  "dataset_api": "from splink import splink_datasets; splink_datasets.febrl4a; splink_datasets.febrl4b",
+  "evaluation_selection": {
+    "rule": "First 20 test entities by SHA256(seed + ':' + entity_id); left first 15, right last 15.",
+    "seed": "lotus-febrl4-evaluation-v1"
+  },
+  "license_provenance": "Splink dataset repository: MIT; original FEBRL documentation/data files: ANUOS 1.2. Both notices retained.",
+  "modifications": [
+    "Strip CSV header and value padding without numeric conversion",
+    "Replace record IDs with opaque source-specific SHA256 prefixes",
+    "Store identity labels separately; add deterministic split/slice metadata"
+  ],
+  "modifications_date": "2026-10-06",
+  "output_sha256": {
+    "LICENSE-ANUOS-1.2.txt": "e62d06f4af00a2450c3effe40e3758bcacea0a6abd3e49404724d8d023539393",
+    "LICENSE-splink-datasets.txt": "5fc8625710eab2a1e924057ddd8bd5e840d71b4ccc897ad3a21c1a95c2b8763c",
+    "evaluation_slice.csv": "043fc5aaa9cfe54988ce5ba149a774670b0db8ac08f12908e2e4d14c3bc90a68",
+    "record_truth.csv": "283bc4526dcc3ddb59a06549be87efbb7a93861954f0f88dc783f934925064da",
+    "records.csv": "c34d8ad69aa74e9b1a01d9f59bc2615f6e5f6a870f250206d65590df7d56bb96",
+    "validation_slice.csv": "a427639cc7d34f86b11b64ffd8c7201bed371c81d028c0c8692a0d7424389b55"
+  },
+  "sources": {
+    "LICENSE-ANUOS-1.2.html": {
+      "sha256": "48a8ef85dcd6a1ba75d7aa9834a4107de00ad088bb0d2ff688a8398d177c78a5",
+      "url": "https://users.cecs.anu.edu.au/~Peter.Christen/Febrl/febrl-0.3/febrldoc-0.3/node105.html"
+    },
+    "LICENSE-splink-datasets.txt": {
+      "sha256": "5fc8625710eab2a1e924057ddd8bd5e840d71b4ccc897ad3a21c1a95c2b8763c",
+      "url": "https://raw.githubusercontent.com/moj-analytical-services/splink_datasets/75876d806d9eff72072d21878150ee50a96d5f41/LICENSE"
+    },
+    "dataset4a.csv": {
+      "sha256": "797ffc5072b5d6cbfdcd0bcb603b92be8916fa67fe8e180db366994c5389d3a0",
+      "url": "https://raw.githubusercontent.com/moj-analytical-services/splink_datasets/75876d806d9eff72072d21878150ee50a96d5f41/data/febrl/dataset4a.csv"
+    },
+    "dataset4b.csv": {
+      "sha256": "af0330f0c355b7b12006ac0b8a2de23539d3bc868153f9416fc5ae43cc5f401c",
+      "url": "https://raw.githubusercontent.com/moj-analytical-services/splink_datasets/75876d806d9eff72072d21878150ee50a96d5f41/data/febrl/dataset4b.csv"
+    }
+  },
+  "split_rule": {
+    "buckets": "0-69 train; 70-84 validation; 85-99 test",
+    "hash": "SHA256(seed + ':' + entity_id), hexadecimal integer modulo 100",
+    "seed": "lotus-febrl4-split-v1"
+  },
+  "truth_rule": "Entity digits in rec-<digits>-org / rec-<digits>-dup-0 determine benchmark truth; not inferred from features.",
+  "upstream_commit": "75876d806d9eff72072d21878150ee50a96d5f41",
+  "upstream_commit_date": "2023-07-26T16:46:32Z",
+  "upstream_repository": "https://github.com/moj-analytical-services/splink_datasets",
+  "validation_selection": {
+    "rule": "First 100 validation entities by SHA256(seed + ':' + entity_id); all records on both sides.",
+    "seed": "lotus-febrl4-validation-v1"
+  }
+}

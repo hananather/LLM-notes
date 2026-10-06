@@ -1,4 +1,4 @@
-"""Small, deterministic calculations used by the record-linkage notebook."""
+"""Deterministic calculations and evidence displays for the record-linkage notebook."""
 
 from itertools import combinations
 import json
@@ -152,3 +152,67 @@ def recall_example(true_links=100, retained_true_links=80, accepted_true_links=6
         "denominator": [true_links, retained_true_links, true_links],
         "recall": [candidate, conditional, final],
     }).set_index("measure")
+
+
+def show_agentic_demo(agentic_snapshot):
+    """Display validated results and expandable source, plan and tool evidence."""
+    from html import escape
+    from IPython.display import HTML, Markdown
+    from agentic_demo import demo_tables, load_fixture
+
+    agentic_tables = demo_tables(agentic_snapshot)
+
+    display(Markdown("**Source selections and normalized counts**"))
+    agentic_offices = agentic_tables["offices"][
+        ["office_id", "selected_row", "multiplier", "eligible_count", "completed_count", "rate_percent"]
+    ].copy()
+    agentic_offices["rate_percent"] = agentic_offices.rate_percent.astype(float)
+    display(agentic_offices.rename(columns={"office_id": "office", "selected_row": "source row",
+        "multiplier": "unit multiplier", "eligible_count": "eligible cases",
+        "completed_count": "complete cases", "rate_percent": "completion (%)"})
+        .set_index("office").style.format({"completion (%)": "{:.1f}"}))
+
+    agentic_summary = agentic_snapshot["validation"]
+    display(Markdown(
+        f"**Pooled completion: {agentic_summary['completed_total']:,} / "
+        f"{agentic_summary['eligible_total']:,} = {agentic_summary['pooled_completion_percent']}%.** "
+        f"The unweighted mean of the office percentages is "
+        f"{float(agentic_summary['unweighted_mean_office_percent']):.3f}%. "
+        "Every selected revision, count, conversion and source identifier matches the fixed reference."))
+    display(pd.DataFrame([{
+        "model": agentic_snapshot["spec"]["model"],
+        "model calls (including plan)": agentic_summary["model_calls"],
+        "tool calls": agentic_summary["tool_calls"],
+        "input tokens": agentic_summary["prompt_tokens"],
+        "output tokens": agentic_summary["completion_tokens"],
+        "estimated USD": agentic_summary["uncached_price_estimate_usd"],
+        "elapsed seconds": agentic_snapshot["elapsed_seconds"],
+    }]).set_index("model").style.format({"estimated USD": "${:.6f}", "elapsed seconds": "{:.2f}"}))
+
+    # Keep the complete inputs, generated plan and observable trajectory available for inspection.
+    fixture = load_fixture()
+    source_html = "<p>" + escape(fixture["definitions"]["text"]) + "</p>"
+    for office in fixture["offices"]:
+        source_html += ("<h5>" + escape(office["office_id"]) + "</h5><p>"
+            + escape(office["note_id"] + ": " + office["note"]) + "</p><pre style='white-space:pre-wrap;overflow-wrap:anywhere'>"
+            + escape(office["csv"]) + "</pre>")
+    display(HTML("<details><summary>Inspect all synthetic source returns and notes</summary>"
+        + source_html + "</details>"))
+    display(HTML("<details><summary>Inspect the generated execution plan</summary><p>"
+        "The map strategy is explicitly fixed to per_unit; parallelism is capped at three."
+        "</p><pre style='white-space:pre-wrap;overflow-wrap:anywhere'>" + escape(json.dumps({"requested_operators": agentic_snapshot["spec"]["ops"],
+            "generated_instructions": agentic_snapshot["result"]["plan"]["instructions"],
+            "effective_map_strategy": agentic_snapshot["spec"]["strategies"]["map"],
+            "planner_parallelism": agentic_snapshot["result"]["plan"]["parallelism"]}, indent=2, ensure_ascii=False)) + "</pre></details>"))
+    trace_html = ""
+    for call in agentic_snapshot["calls"]:
+        if call["session"] == "planner":
+            continue
+        response_message = call["response"]["choices"][0]["message"]
+        observations = [m for m in call["messages"] if m["role"] == "tool"]
+        trace_html += ("<h5>Call " + str(call["call_index"]) + " · session "
+            + escape(call["session"][:12]) + "</h5><pre style='white-space:pre-wrap;overflow-wrap:anywhere'>"
+            + escape(json.dumps({"observations_available": observations,
+                                 "model_response": response_message}, indent=2, ensure_ascii=False)) + "</pre>")
+    display(HTML("<details><summary>Inspect model calls and tool observations</summary>"
+        + trace_html + "</details>"))

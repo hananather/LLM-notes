@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "figure_count": 9,
+  "figure_count": 11,
   "figures": [
     {
       "stem": "00-chapter-map",
@@ -230,6 +230,61 @@
           "sha256": "da97a5564768d023a3f11d8ef3756c366dcd343b61396f64808db2e4b78124dc",
           "width_px": 1437,
           "height_px": 770
+        }
+      }
+    },
+    {
+      "stem": "09-agentic-pipeline",
+      "chapter": 5,
+      "caption": "Agentic map–reduce separates planning, tool use and validation. The operator order is specified; the optional planner derives instructions and execution settings. Map agents process units or bounded batches and retain per-unit outputs. One reducer combines those outputs with access to the same tools. The green check represents this notebook’s independent source validation.",
+      "evidence_boundary": "Conceptual API flow, checked against LOTUS 1.2.4 and source commit 136ae4f4a344a2f75d89f811e516dfcb0de30e46. The three lanes illustrate parallel work; they do not establish a speedup. Source validation is outside the native agentic operators.",
+      "sources": [
+        "https://lotus-ai.readthedocs.io/en/latest/agentic_operators.html",
+        "https://lotus-ai.readthedocs.io/en/latest/agentic_map_reduce.html",
+        "https://github.com/lotus-data/lotus/tree/136ae4f4a344a2f75d89f811e516dfcb0de30e46/lotus/agentic",
+        "../agentic_demo.py"
+      ],
+      "assets": {
+        "tex": {
+          "path": "09-agentic-pipeline.tex",
+          "sha256": "df8b79a9021b8eddbc9c474d5d1190e31b7e83c8e4bc12c9e55a4ba8db1b96ea"
+        },
+        "pdf": {
+          "path": "09-agentic-pipeline.pdf",
+          "sha256": "b31a6a748bc98adf821500088315558cf95d9770f6b4fe7386b31e7f5217e81a"
+        },
+        "png": {
+          "path": "09-agentic-pipeline.png",
+          "sha256": "9746c2f0e1f5ae3028b50af0bd50d8b083267fb02b491d745fa57f745533c5fe",
+          "width_px": 1445,
+          "height_px": 1034
+        }
+      }
+    },
+    {
+      "stem": "10-agentic-evidence-loop",
+      "chapter": 5,
+      "caption": "The recorded Coastal trace shows GPT-6 Luna reading three revisions, submitting the highest approved row to a calculator, and returning its result with source identifiers. The calculator reports 200 eligible cases, 110 completed cases and 55% completion. Independent checks verify the selected rows, copied values, units, citations and reducer output across all three offices. Pooling their counts gives 1,130 completed cases out of 1,600 eligible cases, or 70.625%.",
+      "evidence_boundary": "Abbreviated observable calls and results from the validated 6 October 2026 run, plus the notebook’s independent checks. The source returns are synthetic. This count-based completion rate is neither a survey-weighted estimate nor an agency response-rate standard. The full arguments, tool observations and returned outputs remain in the snapshot.",
+      "sources": [
+        "../results/agentic-office-returns-gpt-6-luna.json",
+        "../data/agentic-office-returns.json",
+        "../agentic_demo.py"
+      ],
+      "assets": {
+        "tex": {
+          "path": "10-agentic-evidence-loop.tex",
+          "sha256": "8f3f0b3e62e0268226a5d7dd85f3a05200f34bbf813ca6aed067bff82cc88b66"
+        },
+        "pdf": {
+          "path": "10-agentic-evidence-loop.pdf",
+          "sha256": "86eb3f7b9f78eefe6fddb32e9b90f35844a00051491adec911052c4b8137341b"
+        },
+        "png": {
+          "path": "10-agentic-evidence-loop.png",
+          "sha256": "158c9de039efc6209b8a439d0038badd462d66f77b50100c4a99fca6ab544b54",
+          "width_px": 1445,
+          "height_px": 960
         }
       }
     }

@@ -1,0 +1,29 @@
+{
+  "synthetic": true,
+  "description": "Invented field-office returns for a tool-use walkthrough. These are not observations from a national statistical office.",
+  "period": "2026-09",
+  "definitions": {
+    "id": "definitions:2026-09",
+    "text": "For each office, select the highest revision whose status is approved. A newer draft does not replace an approved return. Rows are complete replacements, not increments. Eligible cases equal issued minus ineligible cases. Completed cases are a subset of eligible cases. The units column applies to all three count columns: cases has multiplier 1; thousands_of_cases has multiplier 1000. Pool counts across offices, then divide total completed by total eligible. This illustrative completion rate is not a survey-weighted estimate or an official response-rate standard."
+  },
+  "offices": [
+    {
+      "office_id": "North",
+      "note_id": "North:definition",
+      "note": "The corrected approved return replaces the earlier approved return. Both cover September 2026.",
+      "csv": "row_id,revision,status,units,issued,ineligible,completed\nNorth:r1,1,approved,cases,1200,100,700\nNorth:r2,2,approved,cases,1200,200,700\n"
+    },
+    {
+      "office_id": "Central",
+      "note_id": "Central:definition",
+      "note": "Every numeric count is expressed in thousands of cases, including the completed count. The values are exact in this synthetic example.",
+      "csv": "row_id,revision,status,units,issued,ineligible,completed\nCentral:r1,1,approved,thousands_of_cases,0.5,0.1,0.32\n"
+    },
+    {
+      "office_id": "Coastal",
+      "note_id": "Coastal:definition",
+      "note": "Revision 3 is a draft awaiting approval. Use the highest approved revision, not simply the highest revision number.",
+      "csv": "row_id,revision,status,units,issued,ineligible,completed\nCoastal:r1,1,approved,cases,200,20,90\nCoastal:r2,2,approved,cases,250,50,110\nCoastal:r3,3,draft,cases,250,40,150\n"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Record-linkage figures
 
-Nine editable TikZ figures accompany the chaptered record-linkage notebook. Each source uses the shared `diagram-style.tex`; the PDF and PNG are exported from that source.
+Eleven editable TikZ figures accompany the chaptered record-linkage notebook. Each source uses the shared `diagram-style.tex`; the PDF and PNG are exported from that source.
 
 ## Build
 
@@ -97,5 +97,21 @@ Candidate generation reduces the cross product to a sparse graph; cheap comparis
 **Evidence boundary.** Symbolic cost and recall accounting, not a throughput claim. The candidate bound assumes an overall cap of k per left record. The recall factorization applies to final pair decisions restricted to a fixed candidate set and counts omitted true links as misses.
 
 [PNG](08-sparse-scale.png) · [PDF](08-sparse-scale.pdf) · [Editable source](08-sparse-scale.tex)
+
+### 09-agentic-pipeline
+
+Agentic map–reduce separates planning, tool use and validation. The operator order is specified; the optional planner derives instructions and execution settings. Map agents process units or bounded batches and retain per-unit outputs. One reducer combines those outputs with access to the same tools. The green check represents this notebook's independent source validation.
+
+**Evidence boundary.** Conceptual API flow, checked against LOTUS 1.2.4 and source commit `136ae4f4a344a2f75d89f811e516dfcb0de30e46`. The three lanes illustrate parallel work; they do not establish a speedup. Source validation is outside the native agentic operators.
+
+[PNG](09-agentic-pipeline.png) · [PDF](09-agentic-pipeline.pdf) · [Editable source](09-agentic-pipeline.tex)
+
+### 10-agentic-evidence-loop
+
+The recorded Coastal trace shows GPT-6 Luna reading three revisions, submitting the highest approved row to a calculator, and returning its result with source identifiers. The calculator reports 200 eligible cases, 110 completed cases and 55% completion. Independent checks verify the selected rows, copied values, units, citations and reducer output across all three offices. Pooling their counts gives 1,130 completed cases out of 1,600 eligible cases, or 70.625%.
+
+**Evidence boundary.** Abbreviated observable calls and results from the validated [6 October 2026 run](../results/agentic-office-returns-gpt-6-luna.json), plus the notebook's independent checks. The source returns are synthetic. This count-based completion rate is neither a survey-weighted estimate nor an agency response-rate standard. The full arguments, tool observations and returned outputs remain in the snapshot.
+
+[PNG](10-agentic-evidence-loop.png) · [PDF](10-agentic-evidence-loop.pdf) · [Editable source](10-agentic-evidence-loop.tex)
 
 The machine-readable [manifest](manifest.json) records source pointers and asset hashes.

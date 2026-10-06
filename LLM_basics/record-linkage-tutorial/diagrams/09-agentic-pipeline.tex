@@ -1,0 +1,46 @@
+\documentclass[tikz,border=4pt]{standalone}
+\input{diagram-style}
+\begin{document}
+\begin{tikzpicture}
+
+\useasboundingbox (-.2,.3) rectangle (16.2,-11.35);
+\node[box,text width=32mm,minimum height=13mm] (task) at (2.3,-.6) {\textbf{Task + operator order}\\[3pt]objective and\\corpus summary};
+\node[llm,text width=32mm,minimum height=13mm] (planner) at (8,-.6) {\textbf{Planner (optional)}\\[3pt]derives instructions\\and execution choices};
+\node[model,text width=32mm,minimum height=13mm] (plan) at (13.7,-.6) {\textbf{Execution plan}\\[3pt]fixed operator order\\derived or supplied settings};
+\draw[flow] (task) -- (planner);
+\draw[flow] (planner) -- (plan);
+
+\node[data,text width=32mm,minimum height=13mm] (corpus) at (2.3,-2.3) {\textbf{Corpus units}\\[3pt]documents, rows, or files\\with source identifiers};
+\node[box,text width=32mm,minimum height=13mm] (work) at (8,-2.3) {\textbf{Prepare work units}\\[3pt]one unit per agent\\or a bounded batch};
+\draw[flow] (corpus) -- (work);
+\draw[branch] (plan.south) |- node[label,pos=.68,above] {controls} (work.east);
+
+\draw[route] (work.south) -- (8,-3.22);
+\draw[route] (2.3,-3.22) -- (13.7,-3.22);
+
+\foreach \x/\i in {2.3/1,8/2,13.7/3} {
+  \draw[boundary] (\x-2.12,-3.55) rectangle (\x+2.12,-7.65);
+  \node[word,anchor=west] at (\x-1.95,-3.78) {\textbf{Map}};
+  \node[llm,text width=26mm,minimum height=10mm] (agent\i) at (\x,-4.55) {\textbf{Tool-using agent}\\[3pt]map instruction};
+  \node[box,text width=26mm,minimum height=10mm] (tool\i) at (\x,-5.85) {\textbf{Available tools}\\[3pt]read or compute};
+  \node[data,text width=26mm,minimum height=10mm] (finding\i) at (\x,-7.02) {\textbf{Per-unit output}\\[3pt]source IDs + findings};
+  \draw[branch] (\x,-3.22) -- (agent\i.north);
+  \draw[branch] ([xshift=-5mm]agent\i.south) -- node[label,left] {call} ([xshift=-5mm]tool\i.north);
+  \draw[branch] ([xshift=5mm]tool\i.north) -- node[label,right] {result} ([xshift=5mm]agent\i.south);
+  \draw[branch] (agent\i.east) -- (\x+1.9,-4.55) -- (\x+1.9,-7.02) -- (finding\i.east);
+  \draw[route] (finding\i.south) -- (\x,-8.08);
+}
+
+\draw[route] (2.3,-8.08) -- (13.7,-8.08);
+\node[llm,text width=32mm,minimum height=14mm] (reduce) at (2.3,-9.07) {\textbf{Reducer + tools}\\[3pt]one agent over\\all current outputs};
+\node[truth,text width=32mm,minimum height=14mm] (check) at (8,-9.07) {\textbf{Notebook checks}\\[3pt]recompute and reconcile\\against source data};
+\node[data,text width=32mm,minimum height=14mm] (answer) at (13.7,-9.07) {\textbf{Validated result}\\[3pt]answer, evidence,\\and measured usage};
+\draw[flow] (2.3,-8.08) -- (reduce.north);
+\draw[flow] (reduce) -- (check);
+\draw[flow] (check) -- (answer);
+
+\node[word,text width=145mm] at (8,-10.34) {Conceptual API flow. Each input unit retains an output, including when units share a batched agent.\\The notebook checks returned values against source data; timing and cost are measured for the chosen workload.};
+\rolekey{8}{-11.1}
+
+\end{tikzpicture}
+\end{document}

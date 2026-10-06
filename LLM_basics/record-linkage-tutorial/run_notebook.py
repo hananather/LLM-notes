@@ -31,6 +31,8 @@ def main():
     parser.add_argument("--live", action="store_true", help="Make new paid model calls; requires OPENAI_API_KEY.")
     parser.add_argument("--live-unstructured", action="store_true",
                         help="Rerun the small BioDEX and FEVER model batches; requires OPENAI_API_KEY.")
+    parser.add_argument("--live-agentic", action="store_true",
+                        help="Rerun the three-office agentic workflow; requires OPENAI_API_KEY.")
     parser.add_argument("--html", type=Path, help="Also export the executed notebook to this HTML path.")
     args = parser.parse_args()
     notebook_path = Path(__file__).resolve().parent.parent / "record-linkage-with-semantic-operators.ipynb"
@@ -40,11 +42,16 @@ def main():
     config_cell.source = re.sub(r"^RUN_UNSTRUCTURED_LIVE = (?:True|False)$",
                                f"RUN_UNSTRUCTURED_LIVE = {args.live_unstructured}",
                                config_cell.source, flags=re.M)
+    config_cell.source = re.sub(r"^RUN_AGENTIC_LIVE = (?:True|False)$",
+                               f"RUN_AGENTIC_LIVE = {args.live_agentic}",
+                               config_cell.source, flags=re.M)
     NotebookClient(notebook, timeout=240, kernel_name="python3",
                    resources={"metadata": {"path": str(notebook_path.parent)}}).execute()
     # A saved notebook always starts in the free replay mode on its next execution.
     config_cell.source = re.sub(r"^RUN_LIVE = (?:True|False)$", "RUN_LIVE = False", config_cell.source, flags=re.M)
     config_cell.source = re.sub(r"^RUN_UNSTRUCTURED_LIVE = (?:True|False)$", "RUN_UNSTRUCTURED_LIVE = False",
+                               config_cell.source, flags=re.M)
+    config_cell.source = re.sub(r"^RUN_AGENTIC_LIVE = (?:True|False)$", "RUN_AGENTIC_LIVE = False",
                                config_cell.source, flags=re.M)
     nbformat.write(notebook, notebook_path)
     if args.html:
@@ -52,7 +59,8 @@ def main():
         args.html.parent.mkdir(parents=True, exist_ok=True)
         html = rebase_file_links(html, notebook_path.parent, args.html.resolve().parent)
         args.html.write_text(html, encoding="utf-8")
-    live_tasks = [name for name, enabled in (("FEBRL", args.live), ("unstructured", args.live_unstructured)) if enabled]
+    live_tasks = [name for name, enabled in (("FEBRL", args.live),
+                  ("unstructured", args.live_unstructured), ("agentic", args.live_agentic)) if enabled]
     mode = "live: " + ", ".join(live_tasks) if live_tasks else "replay"
     print(f"Executed {len(notebook.cells)} cells successfully ({mode}).")
     print(notebook_path)

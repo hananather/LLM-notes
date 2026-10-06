@@ -1,0 +1,318 @@
+[
+  {
+    "unique_id": "claim-001dd25d4c67",
+    "fever_id": 2910,
+    "label": "SUPPORTS",
+    "evidence_id": "wiki-3fee73ff515f",
+    "evidence_sets": [
+      [
+        [
+          18773,
+          23004,
+          "Aarhus",
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "unique_id": "claim-018a2e6150b0",
+    "fever_id": 162742,
+    "label": "SUPPORTS",
+    "evidence_id": "wiki-46aa5149f4ae",
+    "evidence_sets": [
+      [
+        [
+          296948,
+          288666,
+          "Aeneas",
+          2
+        ],
+        [
+          296948,
+          288666,
+          "Iliad",
+          0
+        ]
+      ],
+      [
+        [
+          298473,
+          289958,
+          "Aeneas",
+          2
+        ]
+      ],
+      [
+        [
+          298473,
+          289959,
+          "Aeneas",
+          3
+        ]
+      ],
+      [
+        [
+          300502,
+          291689,
+          "Aeneas",
+          2
+        ],
+        [
+          300502,
+          291689,
+          "Iliad",
+          0
+        ]
+      ],
+      [
+        [
+          300502,
+          291690,
+          "Aeneas",
+          3
+        ],
+        [
+          300502,
+          291690,
+          "Aeneid",
+          0
+        ]
+      ],
+      [
+        [
+          344084,
+          327689,
+          "Aeneas",
+          2
+        ],
+        [
+          344084,
+          327689,
+          "Iliad",
+          0
+        ]
+      ],
+      [
+        [
+          344111,
+          327703,
+          "Aeneas",
+          2
+        ],
+        [
+          344111,
+          327703,
+          "Iliad",
+          0
+        ]
+      ],
+      [
+        [
+          344111,
+          327704,
+          "Aeneas",
+          3
+        ],
+        [
+          344111,
+          327704,
+          "Aeneid",
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "unique_id": "claim-01bdf9a20574",
+    "fever_id": 13230,
+    "label": "SUPPORTS",
+    "evidence_id": "wiki-cb20b6f9a08f",
+    "evidence_sets": [
+      [
+        [
+          28467,
+          34800,
+          "A_View_to_a_Kill",
+          6
+        ]
+      ]
+    ]
+  },
+  {
+    "unique_id": "claim-033a96702e73",
+    "fever_id": 37537,
+    "label": "REFUTES",
+    "evidence_id": "wiki-f515966157cf",
+    "evidence_sets": [
+      [
+        [
+          53735,
+          63736,
+          "A_View_to_a_Kill",
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "unique_id": "claim-03abcb2f9675",
+    "fever_id": 224195,
+    "label": "SUPPORTS",
+    "evidence_id": "wiki-1e0fb53a80e8",
+    "evidence_sets": [
+      [
+        [
+          267090,
+          263880,
+          "66th_Primetime_Emmy_Awards",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "unique_id": "claim-0a508fdd324a",
+    "fever_id": 108957,
+    "label": "REFUTES",
+    "evidence_id": "wiki-c98f08b34925",
+    "evidence_sets": [
+      [
+        [
+          279886,
+          274497,
+          "Agent_Raghav_–_Crime_Branch",
+          0
+        ]
+      ],
+      [
+        [
+          281587,
+          275963,
+          "Agent_Raghav_–_Crime_Branch",
+          0
+        ]
+      ],
+      [
+        [
+          328490,
+          315521,
+          "Agent_Raghav_–_Crime_Branch",
+          0
+        ]
+      ],
+      [
+        [
+          329182,
+          316071,
+          "Agent_Raghav_–_Crime_Branch",
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "unique_id": "claim-0c43f741460d",
+    "fever_id": 148674,
+    "label": "REFUTES",
+    "evidence_id": "wiki-3fee73ff515f",
+    "evidence_sets": [
+      [
+        [
+          172326,
+          185666,
+          "Aarhus",
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "unique_id": "claim-0c90e8826f74",
+    "fever_id": 32890,
+    "label": "SUPPORTS",
+    "evidence_id": "wiki-b9a54f04c282",
+    "evidence_sets": [
+      [
+        [
+          48981,
+          58314,
+          "Advertising",
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "unique_id": "claim-0deb42ca278a",
+    "fever_id": 70373,
+    "label": "SUPPORTS",
+    "evidence_id": "wiki-16421cb49f16",
+    "evidence_sets": [
+      [
+        [
+          87032,
+          99528,
+          "A_Milli",
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "unique_id": "claim-12238cc9297e",
+    "fever_id": 222651,
+    "label": "REFUTES",
+    "evidence_id": "wiki-869b1eb2df0f",
+    "evidence_sets": [
+      [
+        [
+          265228,
+          262469,
+          "A_United_Kingdom",
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "unique_id": "claim-161364c1bc1d",
+    "fever_id": 143488,
+    "label": "REFUTES",
+    "evidence_id": "wiki-16421cb49f16",
+    "evidence_sets": [
+      [
+        [
+          166633,
+          180440,
+          "A_Milli",
+          0
+        ]
+      ],
+      [
+        [
+          166633,
+          180441,
+          "A_Milli",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "unique_id": "claim-22ce73172c15",
+    "fever_id": 221086,
+    "label": "REFUTES",
+    "evidence_id": "wiki-b6798bed6837",
+    "evidence_sets": [
+      [
+        [
+          263239,
+          260968,
+          "A&E_-LRB-TV_channel-RRB-",
+          0
+        ]
+      ]
+    ]
+  }
+]

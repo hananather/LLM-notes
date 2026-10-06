@@ -1,0 +1,74 @@
+[
+  {
+    "unique_id": "bio-02bf994218ec",
+    "reactions": [
+      "Drug ineffective",
+      "Off label use",
+      "Product use in unapproved indication"
+    ]
+  },
+  {
+    "unique_id": "bio-30fd571263b1",
+    "reactions": [
+      "Pneumocystis jirovecii pneumonia",
+      "Product use in unapproved indication"
+    ]
+  },
+  {
+    "unique_id": "bio-33e9404292ee",
+    "reactions": [
+      "Abdominal pain",
+      "Condition aggravated",
+      "Cutaneous tuberculosis",
+      "Diarrhoea",
+      "Immunosuppression",
+      "Pulmonary tuberculosis",
+      "Pyrexia",
+      "Tuberculosis gastrointestinal",
+      "Weight decreased"
+    ]
+  },
+  {
+    "unique_id": "bio-3b6df6b10854",
+    "reactions": [
+      "Abdominal pain",
+      "Abdominal wall haematoma",
+      "Bladder perforation",
+      "Circulatory collapse",
+      "Diarrhoea",
+      "Hydronephrosis",
+      "Renal injury"
+    ]
+  },
+  {
+    "unique_id": "bio-533acfe590f0",
+    "reactions": [
+      "Disease recurrence",
+      "Thrombocytopenia"
+    ]
+  },
+  {
+    "unique_id": "bio-8055c76c503d",
+    "reactions": [
+      "Drug ineffective"
+    ]
+  },
+  {
+    "unique_id": "bio-86e68d916e5c",
+    "reactions": [
+      "Cystitis",
+      "Leukopenia",
+      "Mast cell activation syndrome",
+      "Maternal exposure during pregnancy",
+      "Off label use",
+      "Stomatitis"
+    ]
+  },
+  {
+    "unique_id": "bio-8b1311276471",
+    "reactions": [
+      "Cardio-respiratory arrest",
+      "Drug ineffective"
+    ]
+  }
+]

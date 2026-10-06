@@ -1,0 +1,34 @@
+[
+  {
+    "unique_id": "category-00",
+    "reaction": "Drug ineffective"
+  },
+  {
+    "unique_id": "category-01",
+    "reaction": "Off label use"
+  },
+  {
+    "unique_id": "category-02",
+    "reaction": "Product use in unapproved indication"
+  },
+  {
+    "unique_id": "category-03",
+    "reaction": "Nausea"
+  },
+  {
+    "unique_id": "category-04",
+    "reaction": "Condition aggravated"
+  },
+  {
+    "unique_id": "category-05",
+    "reaction": "Acute kidney injury"
+  },
+  {
+    "unique_id": "category-06",
+    "reaction": "Diarrhoea"
+  },
+  {
+    "unique_id": "category-07",
+    "reaction": "Thrombocytopenia"
+  }
+]

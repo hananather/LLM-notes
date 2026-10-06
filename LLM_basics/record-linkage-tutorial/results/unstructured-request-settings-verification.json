@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "checked_at_utc": "2026-10-06T17:49:40.713983+00:00",
+  "method": "Intercepted final OpenAI request data at LiteLLM make_sync_openai_chat_completion_request; returned fabricated responses before any network request. No model accuracy is measured by this check.",
+  "lotus_version": "1.2.4",
+  "litellm_version": "1.104.0",
+  "lotus_original_drop_params": true,
+  "results": [
+    {
+      "task": "biodex",
+      "model": "gpt-6-luna",
+      "intercepted_requests": 64,
+      "generation": {
+        "temperature": 0,
+        "max_completion_tokens": 32,
+        "reasoning_effort": "none"
+      },
+      "all_message_hashes_match": true,
+      "sdk_max_retries": [
+        0
+      ]
+    },
+    {
+      "task": "biodex",
+      "model": "gpt-5.6-luna",
+      "intercepted_requests": 64,
+      "generation": {
+        "temperature": 0,
+        "max_completion_tokens": 32,
+        "reasoning_effort": "none"
+      },
+      "all_message_hashes_match": true,
+      "sdk_max_retries": [
+        0
+      ]
+    },
+    {
+      "task": "fever",
+      "model": "gpt-6-luna",
+      "intercepted_requests": 12,
+      "generation": {
+        "temperature": 0,
+        "max_completion_tokens": 32,
+        "reasoning_effort": "none"
+      },
+      "all_message_hashes_match": true,
+      "sdk_max_retries": [
+        0
+      ]
+    },
+    {
+      "task": "fever",
+      "model": "gpt-5.6-luna",
+      "intercepted_requests": 12,
+      "generation": {
+        "temperature": 0,
+        "max_completion_tokens": 32,
+        "reasoning_effort": "none"
+      },
+      "all_message_hashes_match": true,
+      "sdk_max_retries": [
+        0
+      ]
+    }
+  ],
+  "strict_future_hook": {
+    "drop_params": false,
+    "results": [
+      {
+        "task": "biodex",
+        "model": "gpt-6-luna",
+        "intercepted_requests": 64,
+        "generation": {
+          "temperature": 0,
+          "max_completion_tokens": 32,
+          "reasoning_effort": "none"
+        },
+        "all_message_hashes_match": true,
+        "sdk_max_retries": [
+          0
+        ]
+      },
+      {
+        "task": "biodex",
+        "model": "gpt-5.6-luna",
+        "intercepted_requests": 64,
+        "generation": {
+          "temperature": 0,
+          "max_completion_tokens": 32,
+          "reasoning_effort": "none"
+        },
+        "all_message_hashes_match": true,
+        "sdk_max_retries": [
+          0
+        ]
+      },
+      {
+        "task": "fever",
+        "model": "gpt-6-luna",
+        "intercepted_requests": 12,
+        "generation": {
+          "temperature": 0,
+          "max_completion_tokens": 32,
+          "reasoning_effort": "none"
+        },
+        "all_message_hashes_match": true,
+        "sdk_max_retries": [
+          0
+        ]
+      },
+      {
+        "task": "fever",
+        "model": "gpt-5.6-luna",
+        "intercepted_requests": 12,
+        "generation": {
+          "temperature": 0,
+          "max_completion_tokens": 32,
+          "reasoning_effort": "none"
+        },
+        "all_message_hashes_match": true,
+        "sdk_max_retries": [
+          0
+        ]
+      }
+    ]
+  }
+}

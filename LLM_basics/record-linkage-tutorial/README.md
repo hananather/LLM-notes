@@ -1,29 +1,32 @@
-# Record-linkage handbook
+# Record linkage with Splink and LOTUS
 
-[Open the notebook](../record-linkage-with-semantic-operators.ipynb) for eight
-chapters on record linkage, beginning with a Fellegi–Sunter baseline and a LOTUS
-semantic join on Splink's standard FEBRL4a/FEBRL4b data. Later chapters examine
-representation, error diagnosis, learned similarity and computation at scale.
-Nine editable TikZ figures accompany the explanations. The measured benchmark,
-constructed examples and proposed experiments are identified separately.
+[Open the notebook](../record-linkage-with-semantic-operators.ipynb) for a
+computational companion to the LOTUS paper. It connects Fellegi–Sunter linkage
+with semantic joins, then examines how text interpretation could support
+national statistical offices. One notebook contains eight chapters, nine TikZ
+figures, three small experiments, worked calculations and a source-linked
+research guide.
 
-The chapters follow one sequence:
+The experiments answer different questions:
 
-1. Define the entity and relation.
-2. Combine comparison evidence.
-3. Express a relation with semantic operators.
-4. Compare Splink and LOTUS on the same records.
-5. Separate representation from additional information.
-6. Connect diagnostic patterns to testable repairs.
-7. Learn reusable similarity from selected LLM judgments.
-8. Account for candidate recall, computation and evaluation at scale.
+| Dataset | Target | Comparison |
+| --- | --- | --- |
+| Splink FEBRL4 | Same-person identity across two tables | Supervised Splink versus a direct LOTUS join on 225 pairs |
+| BioDEX | Article–reaction category relation | Literal phrase and word baselines versus two cheap LOTUS models on 64 pairs |
+| FEVER / Wikipedia | Annotated evidence retrieval and claim support | BM25 retrieval, word-overlap support and two cheap LOTUS models on 12 claims |
 
-The notebook executes locally in replay mode without a model key or network
-access. A recorded, real LOTUS run supplies its LLM predictions. Set
-`RUN_LIVE = True` in the notebook to make new paid requests using an
-`OPENAI_API_KEY` already set in your environment. Never paste a key into a cell.
+The primary models are **GPT-6 Luna** (released 22 September 2026) and
+**GPT-5.6 Luna** (released 9 July 2026). The text suite uses both; the FEBRL
+identity comparison uses GPT-6 Luna. Earlier GPT-4 results appear only in
+collapsed historical-baseline sections. [Release dates](https://developers.openai.com/api/docs/changelog)
+and [prices](https://developers.openai.com/api/docs/pricing) were checked on
+6 October 2026.
 
-## Start here
+The text experiments examine different relations; their scores do not rank
+identity linkage systems. Native-text identity linkage with extraction followed
+by Splink remains a proposed comparison.
+
+## Run or read
 
 From the repository root, create an isolated Python 3.11 environment:
 
@@ -33,95 +36,91 @@ python3.11 -m venv .venv
 .venv/bin/jupyter lab LLM_basics/record-linkage-with-semantic-operators.ipynb
 ```
 
-If this repository already has an environment for another project, use a new
-environment directory and substitute its path in these commands. Select its
-Python kernel, then run the notebook from top to bottom. The notebook supports
-the repository root and `LLM_basics/` as working directories.
+If an environment already serves another project, use a separate environment
+directory. Select its Python kernel and run the notebook from top to bottom.
+Both the repository root and `LLM_basics/` are supported working directories.
 
-The latest stable releases checked on October 6, 2026 were
-[LOTUS 1.2.4](https://pypi.org/project/lotus-ai/1.2.4/) and
-[Splink 5.0.0](https://pypi.org/project/splink/5.0.0/).
-`requirements.in` lists direct dependencies; `requirements-lock.txt` records
-the complete installed environment. Splink 5 requires registering data with
-`DuckDBAPI.register` before creating a `Linker`.
+The default fits Splink locally and replays recorded, real model responses.
+It needs no API key, downloads or TeX installation. To execute and export a
+reading copy without machine-wide Jupyter configuration:
 
-The original benchmark was executed with Python 3.11.15 on macOS 26.6.2, arm64.
-The [handbook execution record](results/handbook-verification.json) describes
-the expanded notebook and its checks separately.
-Linux and Windows have not been tested for this tutorial. The lock file records
-versions; it does not establish portability to every platform.
+```bash
+.venv/bin/python LLM_basics/record-linkage-tutorial/run_notebook.py --html reading-copy.html
+```
 
-## What the first run establishes
+Live requests are explicit and independent:
 
-The recorded live comparison on October 6, 2026 evaluated 225 pairs containing
-10 true matches and 215 nonmatches:
+```bash
+# Repeat the 225-pair FEBRL join.
+.venv/bin/python LLM_basics/record-linkage-tutorial/run_notebook.py --live
 
-| Method | True links found | False links | Missed links | Precision | Recall |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Splink 5.0.0 | 10 | 0 | 0 | 1.00 | 1.00 |
-| LOTUS 1.2.4 + `gpt-4.1-mini-2025-04-14` | 8 | 0 | 2 | 1.00 | 0.80 |
+# Repeat only the two small text tasks with both cheap models.
+.venv/bin/python LLM_basics/record-linkage-tutorial/run_notebook.py --live-unstructured
+```
 
-The LOTUS run took 18.34 seconds, used 57,525 input tokens and 675 output tokens,
-and reported an estimated API cost of **$0.02409 USD**. This is the model client's
-estimate, not an invoice. It excludes a separate four-pair installation smoke
-test. The notebook reports newly measured local Splink timings separately from
-the recorded API timing.
+These modes require `OPENAI_API_KEY` in the environment. Never paste a key into
+a cell. The text suite checks a conservative token-price estimate against a
+$0.10 budget before sending requests; retries are disabled for that suite.
+The check bounds planned request sizes at the recorded prices, not an invoice.
+Saved notebooks return to replay mode for their next execution.
 
-These results support the conventional baseline on this slice. Ten true links
-are too few to infer a general accuracy ranking. The notebook includes a
-falsifiable hypothesis about unstructured records; it does not run a native
-unstructured benchmark or LOTUS optimization experiment.
+Every successful live rerun writes new timestamped snapshots. Existing results
+are never overwritten. Dated prose and Figure 5 identify the saved GPT-6 Luna
+comparison; result tables identify the responses used by the current execution.
+Live defaults use only the two 2026 models, with reasoning disabled and a
+32-token answer limit. These are bounded Boolean-decision experiments.
 
-## What is held constant
+## Follow the argument
 
-Both methods see the same six observed fields and score the same Cartesian
-pairs. Original record IDs encode identity, so preparation replaces them with
-opaque IDs and keeps truth in a separate file. The LLM receives only the six
-observed fields. Splink gets supervised parameter estimates from training
-entities and a threshold chosen on separate validation entities. No test labels
-are used to fit the model, tune the threshold or select favorable pairs.
+Chapters 1–5 define the entity relation, explain comparison evidence, introduce
+LOTUS, and run the structured and text examples. Chapter 5 also maps the
+workflows to NSO classification, catalogue search, extraction and survey
+feedback, with primary institutional references and conventional comparators.
 
-Data preparation and provenance are documented in [data/README.md](data/README.md).
-Source hashes, output hashes, split rules and counts are in
-[data/manifest.json](data/manifest.json). Both upstream license notices are
-preserved. The public benchmark may have appeared in model training; an entity
-split does not rule out that possibility.
+Chapters 6–8 develop proposed research on diagnostic repairs, reusable LLM
+supervision and scale. The illustrative arithmetic is executed; the repair,
+distillation and 100M-by-100M studies have not been run. The supporting
+[research notes](../../research/error-guided-record-linkage/README.md) retain
+the fuller evidence review and experimental protocol.
 
-## Files and verification
+## Inspect the evidence
 
 | File | Purpose |
 | --- | --- |
-| `tutorial_helpers.py` | Strict Boolean parsing, pair metrics, prompt auditing and replay checks |
-| `handbook_examples.py` | Deterministic calculations and display of the compiled diagrams |
-| `diagrams/` | Nine TikZ sources, compiled PDF/PNG figures, build instructions and hashes |
-| `run_notebook.py` | Execute and optionally render without machine-wide Jupyter configuration |
-| `prepare_data.py` | Rebuild the pinned official benchmark with Python's standard library |
-| `data/` | Prepared observations, separate truth, fixed slices, licenses and provenance |
-| `results/lotus-febrl4.json` | Real model responses, ordered pair IDs, prompt/input hashes, versions, usage and timing |
-| `results/verification.json` | Dated verification of the original benchmark revision |
-| `results/handbook-verification.json` | Execution and figure checks for the expanded notebook |
+| `data/README.md` | FEBRL source, licences, entity splits and fixed evaluation slice |
+| `data/unstructured/README.md` | BioDEX/FEVER source revisions, selection, licences and annotation boundaries |
+| `tutorial_helpers.py` | Strict Boolean parsing, metrics and FEBRL replay integrity |
+| `unstructured_benchmark.py` | Actual LOTUS joins/filters, lexical baselines, budget checks and text replay |
+| `prepare_data.py`, `unstructured_prepare.py` | Rebuild the frozen datasets from checked sources |
+| `handbook_examples.py` | Deterministic calculations and compiled-figure display |
+| `diagrams/` | Editable TikZ sources, PDF/PNG assets and their hashes |
+| `results/lotus-febrl4-gpt-6-luna.json` | Current FEBRL inputs, responses, prompt hashes, provider usage and timing |
+| `results/lotus-febrl4.json` | Preserved GPT-4.1 mini historical baseline |
+| `results/unstructured-*.json` | Current and historical text snapshots, failed-attempt evidence and request-settings verification |
+| `results/review-verification.json` | Execution, integrity and rendering checks for the reviewed revision |
+| `results/verification.json`, `results/handbook-verification.json` | Preserved verification of earlier revisions |
 
-Replay validates input, prompt, serialization, model and package metadata,
-regenerates the exact LOTUS message hashes, and checks complete pair coverage.
-Changing inputs or the prompt requires a corresponding new live run. Each
-completed live run replaces the recorded snapshot; preserve a copy before
-comparing different configurations. An incomplete or malformed run raises an
-error and leaves the previous successful snapshot intact.
-The benchmark interpretation and its diagram describe the dated original run;
-revise them before presenting a new live run as a replacement result.
+FEBRL truth is separate from observed fields. Both records for each entity
+stay in one split; test labels do not fit the model or choose its threshold.
+Splink uses supervised training entities, whereas the LLM receives a zero-shot
+predicate. The teaching slice is enriched and contains only ten true links.
 
-Run the default replay headlessly from the repository root:
+The text suite selects records before model scoring. BioDEX evaluates
+agreement with published annotations, whose omissions remain visible in the
+notebook. FEVER support decisions receive annotated evidence; its retrieval
+result concerns the bundled miniature corpus. Neither example estimates
+national-scale accuracy, and both public datasets may have appeared in model
+training. Plain semantic operations are measured; no LOTUS cascade or optimizer
+speedup is claimed.
 
-```bash
-.venv/bin/python LLM_basics/record-linkage-tutorial/run_notebook.py
-```
+## Tested environment
 
-Add `--html tutorial.html` to export a reading copy. Add `--live` only to make
-new model calls. The runner saves the notebook with replay as its next default.
-It uses the notebook libraries directly so unrelated global Jupyter extensions
-do not affect execution.
+The pinned environment uses LOTUS 1.2.4, Splink 5.0.0 and Python 3.11.15.
+`requirements.in` lists direct dependencies; `requirements-lock.txt` records
+the installed versions. Splink 5 registers data with `DuckDBAPI.register`
+before constructing a `Linker`.
 
-The reading guide covers Fellegi and Sunter, LOTUS, Splink, Ather's
-*LLM-Assisted Record Linkage*, active learning, diagnostic grouping,
-LLM-guided clustering and distillation. The later experiments specify controls,
-evaluation labels and stopping criteria; they have not been run at scale.
+The [current verification record](results/review-verification.json) identifies
+the exact artifact hashes and checks on macOS 26.6.2, arm64. Linux and Windows
+have not been tested for this tutorial. Earlier verification records describe
+their own dated revisions; they do not certify subsequent edits.

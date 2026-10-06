@@ -1,0 +1,21 @@
+{
+  "kind": "offline_request_settings_verification",
+  "verified_at_utc": "2026-10-06T17:52:38.096490+00:00",
+  "snapshot": "lotus-febrl4-gpt-6-luna.json",
+  "spec_sha256": "cc54ffa9006ff4a14f135cfec3b58526190e197a278b25d6dca2430a58e193c4",
+  "helper_sha256": "8354f75879b5da19ca1273460ed26aeb8ab3412471e4570c47292c7d894abf61",
+  "interception": "OpenAIChatCompletion.make_sync_openai_chat_completion_request; model requests replaced before network I/O",
+  "model": "gpt-6-luna",
+  "requests": 225,
+  "message_hashes_sha256": "b2001e198b3258cb25d187b7ab97d7104088e732c244b2904a75c6075e8b1696",
+  "all_prompt_hashes_match": true,
+  "generation": {
+    "temperature": 0,
+    "max_completion_tokens": 32,
+    "reasoning_effort": "none"
+  },
+  "sdk_max_retries": 0,
+  "drop_params": false,
+  "live_response_reasoning_tokens": 0,
+  "note": "Synthetic interceptor responses validate transport only; they are neither benchmark observations nor scored results."
+}

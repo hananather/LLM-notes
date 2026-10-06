@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "paper": "https://www.vldb.org/pvldb/vol18/p4171-patel.pdf",
+  "prepared_date": "2026-10-06",
+  "files_sha256": {
+    "biodex-reports.json": "594193203cee55ca46ab6f59e7e086d286f7abbd3b1150dc62826695f33703cb",
+    "biodex-truth.json": "929807dda0e1806a515bbab5eb4ccc9888c14d6d27875ace11f20b7257a8746d",
+    "biodex-categories.json": "921697919df0c2776f4152f563751a33816e78933f3e38e0a10748b0bfc277ab",
+    "biodex-attribution.json": "6cbe5804b342dc879646515a9cdf6563398b5505783b4924933dd9ff5cc55343",
+    "fever-claims.json": "5399785ea126369f28aee78c65e8ea193dd2c2ce26c35553bfeb28e5e3b7c0ec",
+    "fever-evidence.json": "78a1ba39658814c2bd73aeb5c5d9b4fdb4ef7c9a062dd082cc0b655e02c3fefd",
+    "fever-truth.json": "1a716d49c2f398f472e9459ffad74e6429b146c027e9ea335e636fefc8466d58",
+    "FEVER-LICENSE.html": "eaddbd6e2854b45e6925bac9171fb6a2438492dc0efd4fda80144e836ae1ad05"
+  },
+  "biodex": {
+    "source": "BioDEX/BioDEX-Reactions",
+    "revision": "01a5dacdabd144a120af04931a11a99febd48432",
+    "source_files_sha256": {
+      "train-00000-of-00002-3a4af29b480220dc.parquet": "3beb668b7cb28ecdad08c26fc5c1b5e1ddde9a54d63702e0e00acbf86a7ea022",
+      "train-00001-of-00002-91a4d2de97566883.parquet": "732db0acb1e93f3c95619074be0aa89160bdfb37be5227bf4376f875da211640",
+      "test-00000-of-00001-2449439e9130546c.parquet": "7ea93550ba12993ad87d47d0afd665574d42ec14218bca1bfdba13fe3d4ff749"
+    },
+    "original_test_reports": 4249,
+    "eligible_test_reports": 23,
+    "category_rule": "Eight most frequent training reaction labels; ties alphabetic.",
+    "train_category_frequencies": {
+      "Drug ineffective": 1366,
+      "Off label use": 1316,
+      "Product use in unapproved indication": 759,
+      "Nausea": 488,
+      "Condition aggravated": 473,
+      "Acute kidney injury": 466,
+      "Diarrhoea": 459,
+      "Thrombocytopenia": 447
+    },
+    "report_rule": "CC BY; 1000–8000 processed-text characters; at least one target label; first eight by SHA256(seed + PMID).",
+    "seed": "lotus-small-v1:",
+    "selected_reports": 8,
+    "selected_categories": 8,
+    "pairs": 64,
+    "positive_pairs": 11,
+    "interpretation": "Agreement with published report-level reaction annotations in an enriched slice; labels may be incomplete. No clinical adjudication."
+  },
+  "fever": {
+    "claims_source": "https://fever.ai/download/fever/shared_task_dev.jsonl",
+    "claims_sha256": "e89865bfe1b4dd054e03dd57d7241a6fde24862905f31117cf0cd719f7c78df7",
+    "original_dev_claims": 19998,
+    "wiki_source": "https://fever.ai/download/fever/wiki-pages.zip",
+    "wiki_zip_etag": "\"6c9719ee8e5e7d803f9152f7b75094bf-100\"",
+    "wiki_zip_bytes": 1713485474,
+    "wiki_member": "wiki-pages/wiki-006.jsonl",
+    "wiki_member_sha256": "d519895c53f79a734785e48d8476b7476001bcda99fba7e5ecc5c1e1cb4e41de",
+    "shard_pages": 50000,
+    "eligible_claims_by_label": {
+      "SUPPORTS": 71,
+      "REFUTES": 71
+    },
+    "examined_shards": [
+      {
+        "member": "wiki-pages/wiki-001.jsonl",
+        "counts": {
+          "SUPPORTS": 0,
+          "REFUTES": 0
+        }
+      },
+      {
+        "member": "wiki-pages/wiki-002.jsonl",
+        "counts": {
+          "SUPPORTS": 3,
+          "REFUTES": 5
+        }
+      },
+      {
+        "member": "wiki-pages/wiki-003.jsonl",
+        "counts": {
+          "SUPPORTS": 0,
+          "REFUTES": 0
+        }
+      },
+      {
+        "member": "wiki-pages/wiki-004.jsonl",
+        "counts": {
+          "SUPPORTS": 10,
+          "REFUTES": 4
+        }
+      },
+      {
+        "member": "wiki-pages/wiki-005.jsonl",
+        "counts": {
+          "SUPPORTS": 17,
+          "REFUTES": 21
+        }
+      },
+      {
+        "member": "wiki-pages/wiki-006.jsonl",
+        "counts": {
+          "SUPPORTS": 71,
+          "REFUTES": 71
+        }
+      }
+    ],
+    "selection_rule": "First lexicographic original Wikipedia shard with at least six distinct eligible evidence pages per class; singleton annotated evidence in that shard; six claims per supports/refutes class by SHA256(seed + claim ID), retaining at most one claim per evidence page per class. First evidence by (page, sentence).",
+    "seed": "lotus-small-v1:",
+    "claims": 12,
+    "evidence_sentences": 10,
+    "positive_claims": 6,
+    "negative_claims": 6,
+    "interpretation": "Support filtering conditional on supplied gold evidence. Retrieval checks only this gold-derived miniature sentence corpus. Excludes NotEnoughInfo and multi-sentence-only evidence."
+  }
+}

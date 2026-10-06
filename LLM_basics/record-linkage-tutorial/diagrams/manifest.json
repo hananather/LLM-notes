@@ -5,7 +5,7 @@
     {
       "stem": "00-chapter-map",
       "chapter": 0,
-      "caption": "From linkage evidence to a testable research programme. The first four chapters establish the task and recorded comparison; the later chapters develop proposed mechanisms and tests.",
+      "caption": "From linkage evidence to testable semantic workflows. The first four chapters establish the linkage task and recorded structured-data comparison. Chapter 5 examines source representation; Chapters 6–8 develop proposed repairs, learning methods, and scale tests.",
       "evidence_boundary": "Navigation diagram; no result claim.",
       "sources": [
         "../../record-linkage-with-semantic-operators.ipynb"
@@ -13,15 +13,15 @@
       "assets": {
         "tex": {
           "path": "00-chapter-map.tex",
-          "sha256": "8276424a6856ec688ea30adca581a220e7abbb36f53981e5db6b37601eea9e84"
+          "sha256": "0d395ddc2f581115ee532a6589cda91d3bd0b9edc51dc9825953e7a2594ff9de"
         },
         "pdf": {
           "path": "00-chapter-map.pdf",
-          "sha256": "0e98b604d37f3f40c907284ba8b3e8d92a13f73f4f3a4547920ef06d586b13db"
+          "sha256": "63021e1826a45b544a46629ac772c42d1b1819fd109b9eb27236fc9677d95beb"
         },
         "png": {
           "path": "00-chapter-map.png",
-          "sha256": "57409043541916a4695481bf07f0f1915c399ca5eb2875e0b19af7ba13d4d22e",
+          "sha256": "c64f2ff3e2fe2a8180f630da135c134b793e4552b063c24607b5ce48ab7b708b",
           "width_px": 1437,
           "height_px": 640
         }
@@ -107,25 +107,25 @@
     {
       "stem": "04-controlled-comparison",
       "chapter": 4,
-      "caption": "The recorded comparison uses the same 225 candidate pairs, including 10 true matches. Splink returns 10 TP, 0 FP, 0 FN and 215 TN; LOTUS returns 8 TP, 0 FP, 2 FN and 215 TN. Splink uses supervised match parameters and the language model is zero-shot.",
+      "caption": "The comparison on 6 October 2026 uses the same 225 candidate pairs, including 10 true matches. Splink 5.0.0 returns 10 TP, 0 FP, 0 FN and 215 TN; LOTUS 1.2.4 with gpt-6-luna returns 8 TP, 0 FP, 2 FN and 215 TN. Splink uses supervised match parameters and the language model is zero-shot.",
       "evidence_boundary": "Recorded result on a small structured-data slice, with unequal training-label access. It does not measure end-to-end blocking recall or a language-model treatment effect.",
       "sources": [
-        "../results/verification.json",
-        "../results/lotus-febrl4.json",
+        "../../record-linkage-with-semantic-operators.ipynb",
+        "../results/lotus-febrl4-gpt-6-luna.json",
         "../data/manifest.json"
       ],
       "assets": {
         "tex": {
           "path": "04-controlled-comparison.tex",
-          "sha256": "e2d4e3846848c2d0a2e240db2083d0746640f466829f83e15f2f26f008810e96"
+          "sha256": "7615c85dd7b994dde219bcc53f96540a15b1fa970861c4d4d53ac4ccf04d19f8"
         },
         "pdf": {
           "path": "04-controlled-comparison.pdf",
-          "sha256": "a0bfa47f3ccbfc9137ae9321d2a03e9de24efaf4e6e553b4d7c5025f9207b8b1"
+          "sha256": "aded8eee2f6c9ae572ccd6d3a0940522f972b3d038b13ae077094f7d95026ce5"
         },
         "png": {
           "path": "04-controlled-comparison.png",
-          "sha256": "23b0d6f79a94a87bcb697679f7c9ff2fd5c62dd14094eddbf3f1469bbfad28a2",
+          "sha256": "12c53bd76692e4c4db1c502394699fac7b00bbe216b0c7e0a75ce544917eb328",
           "width_px": 1437,
           "height_px": 670
         }

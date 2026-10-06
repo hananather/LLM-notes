@@ -28,7 +28,7 @@ The figures use 7-point text and math, strong dark connectors, role-based pastel
 
 ### 00-chapter-map
 
-From linkage evidence to a testable research programme. The first four chapters establish the task and recorded comparison; the later chapters develop proposed mechanisms and tests.
+From linkage evidence to testable semantic workflows. The first four chapters establish the linkage task and recorded structured-data comparison. Chapter 5 examines source representation; Chapters 6–8 develop proposed repairs, learning methods, and scale tests.
 
 **Evidence boundary.** Navigation diagram; no result claim.
 
@@ -60,7 +60,7 @@ A semantic predicate fixes the requested relation; the chosen execution plan det
 
 ### 04-controlled-comparison
 
-The recorded comparison uses the same 225 candidate pairs, including 10 true matches. Splink returns 10 TP, 0 FP, 0 FN and 215 TN; LOTUS returns 8 TP, 0 FP, 2 FN and 215 TN. Splink uses supervised match parameters and the language model is zero-shot.
+The comparison on 6 October 2026 uses the same 225 candidate pairs, including 10 true matches. Splink 5.0.0 returns 10 TP, 0 FP, 0 FN and 215 TN; LOTUS 1.2.4 with `gpt-6-luna` returns 8 TP, 0 FP, 2 FN and 215 TN. Splink uses supervised match parameters and the language model is zero-shot. The [model snapshot](../results/lotus-febrl4-gpt-6-luna.json) preserves all 225 decisions and provider usage.
 
 **Evidence boundary.** Recorded result on a small structured-data slice, with unequal training-label access. It does not measure end-to-end blocking recall or a language-model treatment effect.
 

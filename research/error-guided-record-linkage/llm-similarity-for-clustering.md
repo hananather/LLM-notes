@@ -40,7 +40,7 @@ These papers are the most useful starting points. Their results concern their ow
 
 Two related lines matter for choosing a baseline. **[INSTRUCTOR](https://aclanthology.org/2023.findings-acl.71/)** trains instruction-conditioned text embeddings, so a suitable existing encoder is a serious alternative to new LLM supervision. **[DistillER](https://arxiv.org/html/2602.05452v1)** studies entity-resolution distillation directly. Its 8B student retains the teacher's reported average F1 of 0.85 but has similar inference time; much faster RoBERTa and MiniLM students score 0.69 and 0.61. Reuse and cheap inference are separate achievements.
 
-A June 2026 study, **[Labeling Training Data for Entity Matching Using Large Language Models](https://arxiv.org/html/2606.28823v1)**, further illustrates the trade-off. The best student achieves 72.17 F1 on WDC against 87.20 for the strongest direct teacher, while students outperform teachers on its bibliographic benchmarks. Its lowest teacher-token-cost acquisition strategy retrains five Ditto models each round. Total cost can rank strategies differently from API expenditure.
+A June 2026 study, **[Labeling Training Data for Entity Matching Using Large Language Models](https://arxiv.org/html/2606.28823v1)**, further illustrates the trade-off. Its selected Ditto student trained on machine labels achieves 72.17 F1 on WDC against 87.20 for the strongest direct teacher, while students outperform teachers on its bibliographic benchmarks. Its lowest teacher-token-cost acquisition strategy retrains five Ditto models each round. Total cost can rank strategies differently from API expenditure.
 
 ## Define what belongs together
 

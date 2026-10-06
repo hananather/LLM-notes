@@ -1,0 +1,7 @@
+{
+  "run_id": "s2aff/v1/test",
+  "jobs_sha256": "b6a1a2e65f3158b91f8edf47570d4fb5364dc7198a544115b6dde7b8b57d6f55",
+  "case_count": 644,
+  "default_max_output_tokens": 768,
+  "workers": 4
+}

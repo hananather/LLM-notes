@@ -1,0 +1,64 @@
+{
+  "version": "linkage-v1",
+  "seed": 2026100607,
+  "candidate_count": 25,
+  "s2aff_registry_size": 102742,
+  "s2aff_test": "all 644 original official test rows, in source order",
+  "s2aff_validation": "100 source val rows chosen by smallest SHA256(seed:row-index)",
+  "retrieval": "full-registry alias character TF-IDF plus organization word TF-IDF; exact alias and location evidence; no gold-derived target restriction",
+  "char": {
+    "analyzer": "char_wb",
+    "ngram_range": [
+      3,
+      5
+    ],
+    "min_df": 2,
+    "max_features": 300000
+  },
+  "word": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 1,
+    "max_features": 300000
+  },
+  "fusion": {
+    "char": 0.6,
+    "word": 0.3,
+    "location": 0.1,
+    "contained_alias": 1.0
+  },
+  "thresholds": [
+    0.25,
+    0.35,
+    0.45,
+    0.55,
+    0.65,
+    0.75,
+    0.85,
+    1.01
+  ],
+  "top_score_gaps": [
+    0.0,
+    0.03,
+    0.08,
+    0.15,
+    0.3
+  ],
+  "selection": "validation exact-set accuracy, then micro-F1, then conservative threshold/gap; test never tunes",
+  "nces_population": "unique NCESSCH shared across years, both SY_STATUS and UPDATED_STATUS 1, both RECON_STATUS No",
+  "nces_sample": "100 development schools; exclude their LEAs from evaluation frame; independent seeded SRS of 300 from evaluation frame and separate up-to-100 both-name-and-street-changed sample",
+  "nces_candidates": "entire 2022 directory; no IDs in matching features; exact multikey indexes plus full-universe char TF-IDF",
+  "nces_gate": "no paid model if conventional top1 correct proportion >=0.99 on 300-school probability sample; no claim of a certified 99% population rate",
+  "nces_feature_weights": {
+    "name": 0.4,
+    "address": 0.22,
+    "lea_name": 0.1,
+    "city": 0.05,
+    "state": 0.03,
+    "zip": 0.07,
+    "phone": 0.08,
+    "grades": 0.05
+  }
+}

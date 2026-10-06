@@ -1,0 +1,44 @@
+{
+  "seed": 2026100607,
+  "older_records": 102067,
+  "newer_full_candidate_universe": 102229,
+  "shared_ids": 101149,
+  "eligible_continuing_open_not_reconstituted": 98055,
+  "development_leas": 99,
+  "evaluation_frame_size": 94586,
+  "probability_sample_size": 300,
+  "probability_inclusion": 0.003171716744549933,
+  "changed_frame_size": 161,
+  "changed_sample_size": 100,
+  "changed_inclusion": 0.6211180124223602,
+  "sample_overlap": 0,
+  "candidate_ids_hidden": true,
+  "status_counts_2021": {
+    "Open": 99025,
+    "Future": 293,
+    "Closed": 860,
+    "New": 1159,
+    "Added": 188,
+    "Inactive": 483,
+    "Reopened": 28,
+    "Changed Boundary/Agency": 31
+  },
+  "status_counts_2022": {
+    "Open": 99521,
+    "Future": 292,
+    "Closed": 895,
+    "New": 888,
+    "Inactive": 482,
+    "Added": 72,
+    "Changed Boundary/Agency": 57,
+    "Reopened": 22
+  },
+  "reconstituted_2021": {
+    "No": 102013,
+    "Yes": 54
+  },
+  "reconstituted_2022": {
+    "No": 102170,
+    "Yes": 59
+  }
+}

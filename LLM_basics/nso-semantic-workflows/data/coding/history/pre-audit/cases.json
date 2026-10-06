@@ -1,0 +1,962 @@
+[
+  {
+    "id": "naics-nursery-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "nursery",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "Our only line is raising young maples and shrubs on our own land, then selling our stock to household gardeners. The plants leave us well before ten years."
+  },
+  {
+    "id": "naics-nursery-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "nursery",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "We sell young trees and shrubs to people for their gardens. Every plant arrives ready to sell from outside growers; we do no growing."
+  },
+  {
+    "id": "naics-nursery-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "nursery",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "Customers buy garden shrubs we have propagated and raised here. This is the whole business, and we sell the young stock rather than holding trees for a decade."
+  },
+  {
+    "id": "naics-nursery-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "nursery",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "All our sales are young trees and shrubs to household gardeners. The return does not say whether we raise the stock ourselves or buy ready-grown stock for resale."
+  },
+  {
+    "id": "naics-glass-installation-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-installation",
+    "split": "dev",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "We fit sheets of glass into openings that builders have already prepared in houses and shops. We do not supply whole window assemblies and we never work on vehicles."
+  },
+  {
+    "id": "naics-glass-installation-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-installation",
+    "split": "dev",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "We replace cracked windscreens and mend chipped car windows. Motor-vehicle glass is all we work on."
+  },
+  {
+    "id": "naics-glass-installation-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-installation",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "Our workshop deals exclusively with broken or chipped vehicle windows, taking out damaged panes and fitting replacements."
+  },
+  {
+    "id": "naics-glass-installation-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-installation",
+    "split": "dev",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The firm only replaces glass panes. Its incomplete return does not establish whether these go in prepared building openings or in motor vehicles."
+  },
+  {
+    "id": "naics-bakery-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "bakery",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "We mix flour into dough and bake loaves in this shop. People buy the bread to take home; there is no service for eating it here and we do not buy ready-made dough."
+  },
+  {
+    "id": "naics-bakery-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "bakery",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "We sell finished loaves delivered by other bakeries. Nothing is baked here, and customers take their purchases home rather than eat them in the shop."
+  },
+  {
+    "id": "naics-bakery-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "bakery",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "All of our bread starts as flour in our own kitchen, becomes dough, and is baked here for customers to carry home. We do not sell prepared meals."
+  },
+  {
+    "id": "naics-bakery-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "bakery",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "This shop sells loaves for people to take home. The return omits whether it makes and bakes them from flour here or buys already-baked loaves from elsewhere."
+  },
+  {
+    "id": "naics-software-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "software",
+    "split": "dev",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "We develop and distribute an installable bookkeeping program sold in the same packaged form to many buyers. It is not a game, a hosted online service, or custom work for one client."
+  },
+  {
+    "id": "naics-software-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "software",
+    "split": "dev",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "Each customer commissions us to write and test a different business application around its requirements. We do not publish packaged products, make games, or run hosted software services."
+  },
+  {
+    "id": "naics-software-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "software",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "Our programmers build non-game applications to an individual clients specification and test the commissioned result. There is no standard software product for sale."
+  },
+  {
+    "id": "naics-software-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "software",
+    "split": "dev",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The business supplies installable non-game software rather than hosted access. The return does not state whether it publishes one packaged product or writes applications to individual client specifications."
+  },
+  {
+    "id": "naics-accounting-services-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "accounting-services",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "Clients hire us to audit their accounting records, prepare management accounting reports and advise on their accounting systems. This is our principal service."
+  },
+  {
+    "id": "naics-accounting-services-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "accounting-services",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "We handle customers transaction books, invoices and wage runs. We offer neither audits nor accounting reports; billing and payroll processing are the entire service."
+  },
+  {
+    "id": "naics-accounting-services-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "accounting-services",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "Our main work is reviewing the accuracy of client accounts, conducting audits and preparing accounting reports for management."
+  },
+  {
+    "id": "naics-accounting-services-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "accounting-services",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "This firm handles client financial records. The return leaves unresolved whether it supplies accounting and audit reports or restricts itself to transaction books, billing and payroll."
+  },
+  {
+    "id": "naics-landscape-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "landscape",
+    "split": "dev",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "We plan how park land should be laid out and prepare the landscape drawings and design administration. We do not plant, build, mow or maintain the sites."
+  },
+  {
+    "id": "naics-landscape-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "landscape",
+    "split": "dev",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "Our crews put in lawns, shrubs and garden beds, then maintain them. Physical garden installation and upkeep are our service; we do not run a separate architectural practice."
+  },
+  {
+    "id": "naics-landscape-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "landscape",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "We send crews to establish lawns and planted beds and return to care for them. Our business is the hands-on installation and upkeep of landscapes."
+  },
+  {
+    "id": "naics-landscape-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "landscape",
+    "split": "dev",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The firm works on parks. The record does not distinguish a practice providing only landscape plans and design administration from a contractor installing and maintaining the planted areas."
+  },
+  {
+    "id": "naics-building-cleaning-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "building-cleaning",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "We wash the windows of buildings and offer no other cleaning service."
+  },
+  {
+    "id": "naics-building-cleaning-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "building-cleaning",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "We clean office rooms and their toilets after working hours. We do not wash windows or offer specialist carpet cleaning."
+  },
+  {
+    "id": "naics-building-cleaning-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "building-cleaning",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "Our crews clean only panes of building windows; they do not clean rooms or wash carpets."
+  },
+  {
+    "id": "naics-building-cleaning-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "building-cleaning",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The cleaning contract is either window-only work or general office-interior cleaning without windows; the incomplete return does not specify which."
+  },
+  {
+    "id": "naics-animal-care-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "animal-care",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "Licensed vets at our clinic diagnose illnesses in cats and dogs, prescribe treatment and perform animal operations. This medical practice is our main activity."
+  },
+  {
+    "id": "naics-animal-care-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "animal-care",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "We look after dogs and cats while their owners are away and wash and trim their coats. We neither breed pets nor provide medical treatment."
+  },
+  {
+    "id": "naics-animal-care-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "animal-care",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "Owners leave cats and dogs with us for overnight care and coat grooming. We have no veterinary practice and do not breed animals."
+  },
+  {
+    "id": "naics-animal-care-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "animal-care",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "This establishment serves pet cats and dogs. The record explicitly leaves unresolved whether its activity is licensed veterinary treatment or only grooming and boarding."
+  },
+  {
+    "id": "naics-laundry-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "laundry",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "Members of the public put coins into our washing machines and operate the machines themselves. Providing those self-service facilities is our whole activity."
+  },
+  {
+    "id": "naics-laundry-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "laundry",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "Customers leave their own clothes and sheets with our staff to wash and press. We supply no rented linen, and customers do not run the machines themselves."
+  },
+  {
+    "id": "naics-laundry-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "laundry",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "People bring their washing, feed coins into the machines and do the washing themselves. We only provide the self-service facilities."
+  },
+  {
+    "id": "naics-laundry-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "laundry",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The establishment washes customers own clothing, but the return omits whether customers operate coin machines themselves or employees wash and press the items for them."
+  },
+  {
+    "id": "naics-glass-manufacturing-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-manufacturing",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "We manufacture glass by melting sand together with cullet. We are making the glass itself rather than shaping glass bought from another producer."
+  },
+  {
+    "id": "naics-glass-manufacturing-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-manufacturing",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "We buy glass and turn it into shaped articles by reheating, pressing and blowing it. We do not produce glass from sand and cullet."
+  },
+  {
+    "id": "naics-glass-manufacturing-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-manufacturing",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "Our input is purchased glass; we soften it and press or blow it into finished shapes. We do not make raw glass from mineral ingredients."
+  },
+  {
+    "id": "naics-glass-manufacturing-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-manufacturing",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The factory makes glass articles. The return does not establish whether it makes glass from sand and cullet or only shapes purchased glass."
+  },
+  {
+    "id": "naics-printing-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "printing",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "We print high-resolution graphic posters on computer-controlled inkjet equipment. The image reaches the machine as a computer file; this is not office photocopying."
+  },
+  {
+    "id": "naics-printing-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "printing",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "We make commercial paper posters by pushing ink through silk screens and cutting stencils. We do not print textile fabric."
+  },
+  {
+    "id": "naics-printing-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "printing",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "Our poster-printing jobs arrive as digital files and run through non-impact inkjet equipment. We are not a walk-in photocopy shop."
+  },
+  {
+    "id": "naics-printing-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "printing",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The establishment commercially prints paper posters. The response leaves unresolved whether it uses non-impact computer-file printing or silk screens and stencils."
+  },
+  {
+    "id": "naics-car-dealers-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "car-dealers",
+    "split": "dev",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "We mainly sell new cars and light trucks to final buyers. We also take some used vehicles in trade and sell those."
+  },
+  {
+    "id": "naics-car-dealers-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "car-dealers",
+    "split": "dev",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "We sell second-hand cars and light trucks. We never sell brand-new motor vehicles."
+  },
+  {
+    "id": "naics-car-dealers-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "car-dealers",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "All vehicles on our lot have had a previous owner. Retailing these used cars and light trucks is the business; we do not sell new ones."
+  },
+  {
+    "id": "naics-car-dealers-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "car-dealers",
+    "split": "dev",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "This dealership retails cars and light trucks. The return does not distinguish a mainly new-vehicle dealership with some used sales from a used-only dealer."
+  },
+  {
+    "id": "noc-accounting-work-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "accounting-work",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "I examine financial records independently against accounting standards and report the results of my audits. I am not a department manager."
+  },
+  {
+    "id": "noc-accounting-work-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "accounting-work",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "I keep the complete transaction books, post journal entries, balance the ledger and prepare trial balances. I do not carry out independent financial audits."
+  },
+  {
+    "id": "noc-accounting-work-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "accounting-work",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "My work is to test whether an establishments financial records comply with accounting standards, then issue findings from the audit. I do not manage its finance department."
+  },
+  {
+    "id": "noc-accounting-work-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "accounting-work",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The worker handles accounting records. The incomplete description leaves unresolved whether the role is conducting financial audits or maintaining complete transaction books."
+  },
+  {
+    "id": "noc-human-resources-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "human-resources",
+    "split": "dev",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "I develop and evaluate employment and labour-relations policies and advise employers on collective agreements. I do not manage the HR department."
+  },
+  {
+    "id": "noc-human-resources-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "human-resources",
+    "split": "dev",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "I turn staffing vacancies into advertisements, collect applications and help select candidates. I do not design employment policies."
+  },
+  {
+    "id": "noc-human-resources-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "human-resources",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "When posts become vacant, I arrange the adverts, gather applicants and assist with the selection. Employment-policy development is outside my work."
+  },
+  {
+    "id": "noc-human-resources-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "human-resources",
+    "split": "dev",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The worker is in human resources but not a department manager. The record cannot distinguish policy and collective-agreement advice from advertising vacancies and recruiting candidates."
+  },
+  {
+    "id": "noc-animal-clinical-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "animal-clinical",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "I am licensed to practise veterinary medicine. I diagnose animal illness, prescribe treatment and perform animal surgery."
+  },
+  {
+    "id": "noc-animal-clinical-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "animal-clinical",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "I work as an animal-health technician under a veterinarian, help with treatment and carry out laboratory tests. I do not independently diagnose, prescribe or perform surgery."
+  },
+  {
+    "id": "noc-animal-clinical-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "animal-clinical",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "As the licensed animal doctor, I determine the illness, choose and prescribe treatment and operate when needed."
+  },
+  {
+    "id": "noc-animal-clinical-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "animal-clinical",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The clinical worker is either the licensed veterinarian or an animal-health technician assisting one. Their exact role and diagnostic authority were not recorded."
+  },
+  {
+    "id": "noc-pharmacy-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "pharmacy",
+    "split": "dev",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "I am a licensed pharmacist. I review patients medication therapy, advise them on safe use and dispense their prescriptions."
+  },
+  {
+    "id": "noc-pharmacy-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "pharmacy",
+    "split": "dev",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "I am a regulated pharmacy technician doing the technical preparation and dispensing tasks under a pharmacist. I do not provide the pharmacists clinical medication advice."
+  },
+  {
+    "id": "noc-pharmacy-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "pharmacy",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "My regulated technical role in the dispensary is preparing and dispensing medicines under the pharmacist, rather than giving clinical medication advice."
+  },
+  {
+    "id": "noc-pharmacy-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "pharmacy",
+    "split": "dev",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The return identifies a dispensary worker as either a licensed pharmacist or a regulated pharmacy technician, but the role and clinical responsibilities are missing."
+  },
+  {
+    "id": "noc-school-level-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "school-level",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "I teach academic subjects to classes in a secondary school. I am the classroom teacher, not the head or an assistant."
+  },
+  {
+    "id": "noc-school-level-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "school-level",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "I teach basic subjects to elementary-school pupils as their classroom teacher. I am neither a principal nor a teaching assistant."
+  },
+  {
+    "id": "noc-school-level-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "school-level",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "My pupils attend secondary school, where I lead subject lessons as the teacher. I do not work as the principal or support assistant."
+  },
+  {
+    "id": "noc-school-level-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "school-level",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "This employee is the classroom teacher rather than a principal or assistant. The school level was omitted, leaving elementary versus secondary teaching unresolved."
+  },
+  {
+    "id": "noc-dental-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "dental",
+    "split": "dev",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "I provide dental-hygiene care: assess oral health and scale teeth to prevent gum disease. I am not a dentist or laboratory worker."
+  },
+  {
+    "id": "noc-dental-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "dental",
+    "split": "dev",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "During dental treatment I prepare patients, pass instruments to the dentist and sterilize equipment afterwards. I do not assess oral health independently or scale teeth."
+  },
+  {
+    "id": "noc-dental-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "dental",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "My job is chairside help for the dentist, including readying the patient and instruments and sterilizing tools, not independent hygiene assessment or scaling."
+  },
+  {
+    "id": "noc-dental-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "dental",
+    "split": "dev",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The worker is in a dental clinic. The description leaves unresolved whether they independently provide hygiene assessment and scaling or only assist the dentist at the chair."
+  },
+  {
+    "id": "noc-electrician-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "electrician",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "I install and repair the wiring, lights and circuits of homes and offices. I do not supervise others or work on the electricity grid."
+  },
+  {
+    "id": "noc-electrician-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "electrician",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "I service the electrical motors and automated controls of factory production machinery. I am not a supervisor or a power-grid worker."
+  },
+  {
+    "id": "noc-electrician-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "electrician",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "Homes and office buildings are where I fit and repair circuits and lighting wiring. I do not supervise crews or maintain grid equipment."
+  },
+  {
+    "id": "noc-electrician-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "electrician",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The worker is an electrician, not a supervisor or grid worker. The return does not specify building wiring work versus industrial machinery and electrical controls."
+  },
+  {
+    "id": "noc-vehicle-repair-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "vehicle-repair",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "I diagnose and repair engines, brakes and transmissions on motor vehicles. I do mechanical servicing and do not supervise a team."
+  },
+  {
+    "id": "noc-vehicle-repair-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "vehicle-repair",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "I straighten and replace crash-damaged car panels and repaint vehicle bodies. I do not service engines or supervise other workers."
+  },
+  {
+    "id": "noc-vehicle-repair-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "vehicle-repair",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "After a collision I restore the damaged body panels and refinish the paint. Mechanical engine repairs and supervision are outside my role."
+  },
+  {
+    "id": "noc-vehicle-repair-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "vehicle-repair",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The person repairs motor vehicles without supervising. The report omits whether this means mechanical engines and brakes or collision-damaged body panels."
+  },
+  {
+    "id": "noc-web-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "web",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "I design how websites look and how their pages are laid out and used. I do not write or test the program code."
+  },
+  {
+    "id": "noc-web-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "web",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "I write, change, integrate and test the code behind websites and web applications. My main work is programming functionality, not drawing visual layouts."
+  },
+  {
+    "id": "noc-web-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "web",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "I decide the appearance, page arrangement and usability design of websites, while other people implement and test the code."
+  },
+  {
+    "id": "noc-web-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "web",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The worker makes websites. The return does not resolve whether their main role is visual and usability design or writing and testing website program code."
+  },
+  {
+    "id": "noc-food-preparation-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "food-preparation",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "I follow established recipes to cook full meals and savoury dishes in a restaurant. I am not the executive chef."
+  },
+  {
+    "id": "noc-food-preparation-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "food-preparation",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "I prepare bread and pastry dough and bake it in a bakery using established recipes. I am not a pastry chef or a factory processing-machine operator."
+  },
+  {
+    "id": "noc-food-preparation-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "food-preparation",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "My bakery work is mixing bread and pastry dough and baking the batches to established recipes, not being a pastry chef or operating a factory processing line."
+  },
+  {
+    "id": "noc-food-preparation-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "food-preparation",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "This worker follows established recipes and is not a chef or factory-machine operator. The response omits whether they cook meals or make and bake bread and pastry dough."
+  },
+  {
+    "id": "noc-cleaner-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "cleaner",
+    "split": "test",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "I clean hotel bedrooms, make beds, change sheets, dust furniture and restock toiletries. I do not supervise other staff."
+  },
+  {
+    "id": "noc-cleaner-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "cleaner",
+    "split": "test",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "I remove heavy building debris with industrial vacuum equipment and clear snow from the building walkways. I am not a supervisor or a specialist who maintains building systems."
+  },
+  {
+    "id": "noc-cleaner-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "cleaner",
+    "split": "test",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "My hotel rounds are guest-room housekeeping: clean the room, change its linen, make the bed and replenish toiletries. I have no supervisory role."
+  },
+  {
+    "id": "noc-cleaner-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "cleaner",
+    "split": "test",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The worker cleans a building without supervising or maintaining its technical systems. Guest-room housekeeping versus heavy-debris cleaning and snow clearance is not specified."
+  },
+  {
+    "id": "noc-nursing-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "nursing",
+    "split": "dev",
+    "variant": "complete_a",
+    "origin": "synthetic_agent_authored",
+    "text": "I am a registered nurse providing bedside care, monitoring patients and giving medicines prescribed by a physician. I have no nurse-practitioner role and do not supervise the ward."
+  },
+  {
+    "id": "noc-nursing-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "nursing",
+    "split": "dev",
+    "variant": "complete_b",
+    "origin": "synthetic_agent_authored",
+    "text": "I am an advanced-practice nurse with authority to examine patients, order tests, diagnose illnesses and prescribe treatment. I am not a physician."
+  },
+  {
+    "id": "noc-nursing-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "nursing",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "origin": "synthetic_agent_authored",
+    "text": "In my advanced nursing role I use nurse-practitioner authority to diagnose, request diagnostic tests and prescribe treatment after examining patients. I am not a doctor."
+  },
+  {
+    "id": "noc-nursing-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "nursing",
+    "split": "dev",
+    "variant": "insufficient",
+    "origin": "synthetic_agent_authored",
+    "text": "The employee is a registered nurse providing clinical care rather than a physician or ward supervisor. The record does not establish whether they have and use nurse-practitioner diagnostic and prescribing authority."
+  }
+]

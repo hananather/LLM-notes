@@ -1,0 +1,5687 @@
+[
+  {
+    "id": "s2aff-0999",
+    "split": "val",
+    "text": "Department of Psychiatry, University of Pennsylvania School of Medicine, 3535 Market Street, 6th Floor, Philadelphia, PA 19104, USA.",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 999,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0999",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/00b30xv10",
+        "name": "University of Pennsylvania"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/00b30xv10",
+        "name": "University of Pennsylvania"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/00b30xv10",
+        "name": "University of Pennsylvania"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/00b30xv10"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/00b30xv10",
+          "source_span": "University of Pennsylvania School of Medicine"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1186",
+    "split": "val",
+    "text": "Department of Neurology, Affiliated Tongji Hospital, Tongji Medical College, Huazhong Science & Technology University, Wuhan 430030, China",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1186,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1186",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/00p991c53",
+        "name": "Huazhong University of Science and Technology"
+      },
+      {
+        "id": "https://ror.org/04xy45965",
+        "name": "Tongji Hospital"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04xy45965",
+        "name": "Tongji Hospital"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/00p991c53",
+        "name": "Huazhong University of Science and Technology"
+      },
+      {
+        "id": "https://ror.org/04xy45965",
+        "name": "Tongji Hospital"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04xy45965",
+        "https://ror.org/00p991c53"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04xy45965",
+          "source_span": "Affiliated Tongji Hospital"
+        },
+        {
+          "id": "https://ror.org/00p991c53",
+          "source_span": "Huazhong Science & Technology University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": true,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0637",
+    "split": "val",
+    "text": "Department of Computer Science, University of Liverpool, Liverpool, U.K#TAB#",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 637,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0637",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04xs57h96",
+        "name": "University of Liverpool"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04xs57h96",
+        "name": "University of Liverpool"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04xs57h96",
+        "name": "University of Liverpool"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04xs57h96"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04xs57h96",
+          "source_span": "University of Liverpool"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1616",
+    "split": "val",
+    "text": "College of Pharmacy and Pharmaceutical Sciences, Florida A&M University, Tallahassee, FL 32307, USA",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1616,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1616",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/00c4wc133",
+        "name": "Florida Agricultural and Mechanical University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/00c4wc133",
+        "name": "Florida Agricultural and Mechanical University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/00c4wc133",
+        "name": "Florida Agricultural and Mechanical University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/00c4wc133"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/00c4wc133",
+          "source_span": "Florida A&M University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-2130",
+    "split": "val",
+    "text": "Addis Continental Institute of Public Health, Addis Ababa, Ethiopia",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 2130,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-2130",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/02ax94a12",
+        "name": "Addis Continental Institute of Public Health"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/02ax94a12",
+        "name": "Addis Continental Institute of Public Health"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/02ax94a12",
+        "name": "Addis Continental Institute of Public Health"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/02ax94a12"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/02ax94a12",
+          "source_span": "Addis Continental Institute of Public Health"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1401",
+    "split": "val",
+    "text": "College of Physics and Electronic Engineering, Northwest Normal Univ., Lanzhou (China)",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1401,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1401",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/00gx3j908",
+        "name": "Northwest Normal University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/00gx3j908",
+        "name": "Northwest Normal University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/00gx3j908",
+        "name": "Northwest Normal University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/00gx3j908"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/00gx3j908",
+          "source_span": "Northwest Normal Univ."
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0778",
+    "split": "val",
+    "text": "Inst. of Telecommun., Univ. of Stuttgart, Germany",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 778,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0778",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04vnq7t77",
+        "name": "University of Stuttgart"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/0363pts49",
+        "name": "Institute for Nuclear Science and Technology"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04vnq7t77",
+        "name": "University of Stuttgart"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04vnq7t77"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04vnq7t77",
+          "source_span": "Univ. of Stuttgart"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-0064",
+    "split": "val",
+    "text": "National Taiwan University",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 64,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0064",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/05bqach95",
+        "name": "National Taiwan University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/05bqach95",
+        "name": "National Taiwan University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/05bqach95",
+        "name": "National Taiwan University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/05bqach95"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/05bqach95",
+          "source_span": "National Taiwan University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0442",
+    "split": "val",
+    "text": "LIGO Laboratory, Massachusetts Institute of Technology, Cambridge MA, USA",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 442,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0442",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/042nb2s44"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/042nb2s44",
+          "source_span": "Massachusetts Institute of Technology"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0416",
+    "split": "val",
+    "text": "Lawrence Berkeley Laboratory University of California Berkeley, California",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 416,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0416",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01an7q238",
+        "name": "University of California, Berkeley"
+      },
+      {
+        "id": "https://ror.org/02jbv0t02",
+        "name": "Lawrence Berkeley National Laboratory"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01an7q238",
+        "name": "University of California, Berkeley"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01an7q238",
+        "name": "University of California, Berkeley"
+      },
+      {
+        "id": "https://ror.org/02jbv0t02",
+        "name": "Lawrence Berkeley National Laboratory"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/02jbv0t02",
+        "https://ror.org/01an7q238"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/02jbv0t02",
+          "source_span": "Lawrence Berkeley Laboratory"
+        },
+        {
+          "id": "https://ror.org/01an7q238",
+          "source_span": "University of California Berkeley"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": true,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1236",
+    "split": "val",
+    "text": " University of Maryland",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1236,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1236",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/047s2c258",
+        "name": "University of Maryland, College Park"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/047s2c258",
+        "name": "University of Maryland, College Park"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/047s2c258",
+        "name": "University of Maryland, College Park"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/047s2c258"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/047s2c258",
+          "source_span": "University of Maryland"
+        }
+      ],
+      "review_required": true
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0793",
+    "split": "val",
+    "text": "university of Cincinnati",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 793,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0793",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01e3m7079",
+        "name": "University of Cincinnati"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01e3m7079",
+        "name": "University of Cincinnati"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01e3m7079",
+        "name": "University of Cincinnati"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01e3m7079"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01e3m7079",
+          "source_span": "university of Cincinnati"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0455",
+    "split": "val",
+    "text": "Dipartimento di Fisica Generale ``A. Avogadro'', Università di Torino,  via P. Giuria 1, 10125 Torino, Italy",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 455,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0455",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/048tbm396",
+        "name": "University of Turin"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/00k7znw93",
+        "name": "5T Torino (Italy)"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/048tbm396",
+        "name": "University of Turin"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/048tbm396"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/048tbm396",
+          "source_span": "Università di Torino"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-0089",
+    "split": "val",
+    "text": "Department of Mechanical Engineering, National Cheng Kung University, 701, Tainan, Taiwan",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 89,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0089",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01b8kcc49",
+        "name": "National Cheng Kung University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01b8kcc49",
+        "name": "National Cheng Kung University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01b8kcc49",
+        "name": "National Cheng Kung University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01b8kcc49"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01b8kcc49",
+          "source_span": "National Cheng Kung University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0771",
+    "split": "val",
+    "text": "University of Stuttgart, Stuttgart#TAB#",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 771,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0771",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04vnq7t77",
+        "name": "University of Stuttgart"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04vnq7t77",
+        "name": "University of Stuttgart"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04vnq7t77",
+        "name": "University of Stuttgart"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04vnq7t77"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04vnq7t77",
+          "source_span": "University of Stuttgart"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1665",
+    "split": "val",
+    "text": "Universitätsklinikum Regensburg, Klinik und Poliklinik für Innere Medizin I",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1665,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1665",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01226dv09",
+        "name": "University Hospital Regensburg"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01226dv09",
+        "name": "University Hospital Regensburg"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01226dv09",
+        "name": "University Hospital Regensburg"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01226dv09"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01226dv09",
+          "source_span": "Universitätsklinikum Regensburg"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1303",
+    "split": "val",
+    "text": "Central South University of Forestry and Technology Changsha",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1303,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1303",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/02czw2k81",
+        "name": "Central South University of Forestry and Technology"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/02czw2k81",
+        "name": "Central South University of Forestry and Technology"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/02czw2k81",
+        "name": "Central South University of Forestry and Technology"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/02czw2k81"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/02czw2k81",
+          "source_span": "Central South University of Forestry and Technology"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0728",
+    "split": "val",
+    "text": "Section of Mental Health and Ageing, The Institute of Psychiatry, King's College London, London, UK.",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 728,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0728",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/0220mzb33",
+        "name": "King's College London"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/0220mzb33",
+        "name": "King's College London"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/0220mzb33",
+        "name": "King's College London"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/0220mzb33"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/0220mzb33",
+          "source_span": "King's College London"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-2056",
+    "split": "val",
+    "text": "École des Hautes Études en Santé Publique [EHESP]",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 2056,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-2056",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01sc83v92",
+        "name": "École des Hautes Études en Santé Publique"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01sc83v92",
+        "name": "École des Hautes Études en Santé Publique"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01sc83v92",
+        "name": "École des Hautes Études en Santé Publique"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01sc83v92"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01sc83v92",
+          "source_span": "École des Hautes Études en Santé Publique [EHESP]"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0787",
+    "split": "val",
+    "text": "UNIV OF CINCINNATI, Cincinnati, OH",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 787,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0787",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01e3m7079",
+        "name": "University of Cincinnati"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01e3m7079",
+        "name": "University of Cincinnati"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01e3m7079",
+        "name": "University of Cincinnati"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01e3m7079"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01e3m7079",
+          "source_span": "UNIV OF CINCINNATI"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1025",
+    "split": "val",
+    "text": "Laser Fusion Research Ctr., CAEP (China)",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1025,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1025",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/039vqpp67",
+        "name": "China Academy of Engineering Physics"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/039vqpp67",
+        "name": "China Academy of Engineering Physics"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/039vqpp67",
+        "name": "China Academy of Engineering Physics"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/039vqpp67"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/039vqpp67",
+          "source_span": "CAEP (China)"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1181",
+    "split": "val",
+    "text": "Beijing National Center for Electron Microscopy, School of Materials Science and Engineering, The State Key Laboratory of New Ceramics and Fine Processing, Key Laboratory of Advanced Materials (MOE), Tsinghua University, Beijing 100084, China",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1181,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1181",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/03cve4549",
+        "name": "Tsinghua University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/03cve4549",
+        "name": "Tsinghua University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/03cve4549",
+        "name": "Tsinghua University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/03cve4549"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/03cve4549",
+          "source_span": "Tsinghua University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1980",
+    "split": "val",
+    "text": "dept. of ICT Bangladesh, University of Professionals, Dhaka, Bangladesh",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1980,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1980",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01zphyp78",
+        "name": "Bangladesh University of Professionals"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01zphyp78",
+        "name": "Bangladesh University of Professionals"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01zphyp78",
+        "name": "Bangladesh University of Professionals"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01zphyp78"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01zphyp78",
+          "source_span": "University of Professionals"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1907",
+    "split": "val",
+    "text": "The National Institute of Public Health, Univ of Southern Denmark, Copenhagen, Denmark",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1907,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1907",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/03yrrjy16",
+        "name": "University of Southern Denmark"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/03kh2bz92",
+        "name": "National Institute of Public Health"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/03yrrjy16",
+        "name": "University of Southern Denmark"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/03yrrjy16"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/03yrrjy16",
+          "source_span": "Univ of Southern Denmark"
+        }
+      ],
+      "review_required": true
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-1929",
+    "split": "val",
+    "text": "Georgia Southern Univ. (USA)",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1929,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1929",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04agmb972",
+        "name": "Georgia Southern University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04agmb972",
+        "name": "Georgia Southern University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04agmb972",
+        "name": "Georgia Southern University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04agmb972"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04agmb972",
+          "source_span": "Georgia Southern Univ."
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1051",
+    "split": "val",
+    "text": "Inst. of Comput. Tech., CAS, Beijing",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1051,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1051",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/0090r4d87",
+        "name": "Institute of Computing Technology"
+      },
+      {
+        "id": "https://ror.org/034t30j35",
+        "name": "Chinese Academy of Sciences"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/0363pts49",
+        "name": "Institute for Nuclear Science and Technology"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/034t30j35",
+        "name": "Chinese Academy of Sciences"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/034t30j35"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/034t30j35",
+          "source_span": "CAS"
+        }
+      ],
+      "review_required": true
+    },
+    "baseline_correct": false,
+    "model_correct": false,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": false,
+    "missed_target_ids": [
+      "https://ror.org/0090r4d87"
+    ],
+    "nil_reference": false,
+    "multiple_reference_targets": true,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 1,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-1859",
+    "split": "val",
+    "text": "Univ. of Silesia, Katowice, Poland#TAB#",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1859,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1859",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/0104rcc94",
+        "name": "University of Silesia"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/0104rcc94",
+        "name": "University of Silesia"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/0104rcc94",
+        "name": "University of Silesia"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/0104rcc94"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/0104rcc94",
+          "source_span": "Univ. of Silesia, Katowice, Poland"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1163",
+    "split": "val",
+    "text": "Service of Hematology, Hospital Son Dureta, Palma de Mallorca, Spain",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1163,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1163",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/02ptw3r05",
+        "name": "Hospital Universitario Son Dureta"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/02ptw3r05",
+        "name": "Hospital Universitario Son Dureta"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/02ptw3r05",
+        "name": "Hospital Universitario Son Dureta"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/02ptw3r05"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/02ptw3r05",
+          "source_span": "Hospital Son Dureta"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-2151",
+    "split": "val",
+    "text": "Collaborative Innovation Center for Diagnosis Treatment of Infectious Diseases - National Center for Chronic and Noncommunicable Disease Control and Prevention",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 2151,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-2151",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01r58sr54",
+        "name": "National Center for Chronic and Noncommunicable Disease Control and Prevention"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01r58sr54",
+        "name": "National Center for Chronic and Noncommunicable Disease Control and Prevention"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01r58sr54",
+        "name": "National Center for Chronic and Noncommunicable Disease Control and Prevention"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01r58sr54"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01r58sr54",
+          "source_span": "National Center for Chronic and Noncommunicable Disease Control and Prevention"
+        }
+      ],
+      "review_required": true
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0066",
+    "split": "val",
+    "text": "Department of Chemical Engineering, National Taiwan University, Institute of Polymer Science and Engineering, National Taiwan University, Taipei 106, Taiwan",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 66,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0066",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/05bqach95",
+        "name": "National Taiwan University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/05bqach95",
+        "name": "National Taiwan University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/05bqach95",
+        "name": "National Taiwan University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/05bqach95"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/05bqach95",
+          "source_span": "National Taiwan University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1144",
+    "split": "val",
+    "text": "Mathematisches Institut, Kossuth Lajos Universität, Debrecen, ",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1144,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1144",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/02xf66n48",
+        "name": "University of Debrecen"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/02xf66n48",
+        "name": "University of Debrecen"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/02xf66n48",
+        "name": "University of Debrecen"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/02xf66n48"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/02xf66n48",
+          "source_span": "Kossuth Lajos Universität, Debrecen"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1053",
+    "split": "val",
+    "text": "Universtty of Arkansas at Little Rock, Applied Science, Little Rock#TAB#",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1053,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1053",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04fttyv97",
+        "name": "University of Arkansas at Little Rock"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04fttyv97",
+        "name": "University of Arkansas at Little Rock"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04fttyv97",
+        "name": "University of Arkansas at Little Rock"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04fttyv97"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04fttyv97",
+          "source_span": "Universtty of Arkansas at Little Rock"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1323",
+    "split": "val",
+    "text": " University of Montréal ",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1323,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1323",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/0161xgx34",
+        "name": "University of Montreal"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/0161xgx34",
+        "name": "University of Montreal"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/0161xgx34",
+        "name": "University of Montreal"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/0161xgx34"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/0161xgx34",
+          "source_span": "University of Montréal"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0439",
+    "split": "val",
+    "text": "Laboratory for Nuclear Science and Department of Physics, Massachusetts Institute of Technology, Cambridge, Massachusetts",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 439,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0439",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/042nb2s44"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/042nb2s44",
+          "source_span": "Massachusetts Institute of Technology"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0610",
+    "split": "val",
+    "text": "Raymond & Beverly Sackler Fac. of Exact Sci., Tel-Aviv Univ., Israel",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 610,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0610",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04mhzgx49",
+        "name": "Tel Aviv University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04mhzgx49",
+        "name": "Tel Aviv University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04mhzgx49",
+        "name": "Tel Aviv University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04mhzgx49"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04mhzgx49",
+          "source_span": "Tel-Aviv Univ."
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0098",
+    "split": "val",
+    "text": "From the Graduate Institutes of Basic Medicine and Microbiology, and Departments of Medicine, Pathology, and Nuclear Medicine, National Cheng Kung University College of Medicine, Tainan, Taiwan",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 98,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0098",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01b8kcc49",
+        "name": "National Cheng Kung University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01b8kcc49",
+        "name": "National Cheng Kung University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01b8kcc49",
+        "name": "National Cheng Kung University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01b8kcc49"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01b8kcc49",
+          "source_span": "National Cheng Kung University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0906",
+    "split": "val",
+    "text": "Faculty of Mathematics, University of Waterloo, Waterloo, Ontario N2L 3G1, Canada",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 906,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0906",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01aff2v68",
+        "name": "University of Waterloo"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01aff2v68",
+        "name": "University of Waterloo"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01aff2v68",
+        "name": "University of Waterloo"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01aff2v68"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01aff2v68",
+          "source_span": "University of Waterloo"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1238",
+    "split": "val",
+    "text": "Univ. of Maryland at College PArk",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1238,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1238",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/047s2c258",
+        "name": "University of Maryland, College Park"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/047s2c258",
+        "name": "University of Maryland, College Park"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/047s2c258",
+        "name": "University of Maryland, College Park"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/047s2c258"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/047s2c258",
+          "source_span": "Univ. of Maryland at College PArk"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1787",
+    "split": "val",
+    "text": "Dialysis Clinic Inc, Nashville, TN.",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1787,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1787",
+      "non_ror_labels": [
+        "Dialysis Clinic, Inc."
+      ]
+    },
+    "reference_targets": [],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04h59ty19",
+        "name": "Catholic Legal Immigration Network"
+      }
+    ],
+    "model_targets": [],
+    "raw_prediction": {
+      "target_ids": [],
+      "evidence": [],
+      "review_required": true
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": true,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-0907",
+    "split": "val",
+    "text": "[University of Waterloo, Waterloo, CANADA]",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 907,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0907",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01aff2v68",
+        "name": "University of Waterloo"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01aff2v68",
+        "name": "University of Waterloo"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01aff2v68",
+        "name": "University of Waterloo"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01aff2v68"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01aff2v68",
+          "source_span": "University of Waterloo"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1956",
+    "split": "val",
+    "text": "Intake – Center for Dietary Assessment, FHI Solutions, Washington, DC, USA",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1956,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1956",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/007kp6q87",
+        "name": null
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/050fz5z96",
+        "name": "Washington DC VA Medical Center"
+      }
+    ],
+    "model_targets": [],
+    "raw_prediction": {
+      "target_ids": [],
+      "evidence": [],
+      "review_required": true
+    },
+    "baseline_correct": false,
+    "model_correct": false,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": false,
+    "missed_target_ids": [
+      "https://ror.org/007kp6q87"
+    ],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 1,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-0640",
+    "split": "val",
+    "text": "The University of Liverpool",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 640,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0640",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04xs57h96",
+        "name": "University of Liverpool"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04xs57h96",
+        "name": "University of Liverpool"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04xs57h96",
+        "name": "University of Liverpool"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04xs57h96"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04xs57h96",
+          "source_span": "The University of Liverpool"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1706",
+    "split": "val",
+    "text": "Dept. of Comput. Sci. & Inf. Eng., Nat. Taitung Univ., Taitung, Taiwan",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1706,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1706",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/05j9d8v51",
+        "name": "National Taitung University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/05j9d8v51",
+        "name": "National Taitung University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/05j9d8v51",
+        "name": "National Taitung University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/05j9d8v51"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/05j9d8v51",
+          "source_span": "Nat. Taitung Univ., Taitung"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0916",
+    "split": "val",
+    "text": "Dept of Mathematics, California Institute of Technology, Pasadena, USA",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 916,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0916",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/05dxps055",
+        "name": "California Institute of Technology"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/05dxps055",
+        "name": "California Institute of Technology"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/05dxps055",
+        "name": "California Institute of Technology"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/05dxps055"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/05dxps055",
+          "source_span": "California Institute of Technology, Pasadena"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0605",
+    "split": "val",
+    "text": "University of Southampton, Southampton SO, UK#TAB#",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 605,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0605",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01ryk1543",
+        "name": "University of Southampton"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01ryk1543",
+        "name": "University of Southampton"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01ryk1543",
+        "name": "University of Southampton"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01ryk1543"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01ryk1543",
+          "source_span": "University of Southampton"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1049",
+    "split": "val",
+    "text": "Sch. of Comput. Sci. & Eng., Xi'an Univ. of Technol., Xi'an",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1049,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1049",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/038avdt50",
+        "name": "Xi'an University of Technology"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/038avdt50",
+        "name": "Xi'an University of Technology"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/038avdt50",
+        "name": "Xi'an University of Technology"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/038avdt50"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/038avdt50",
+          "source_span": "Xi'an Univ. of Technol."
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1687",
+    "split": "val",
+    "text": "Fakultas Kehutanan Universitas Tanjungpura",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1687,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1687",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04exz5k48",
+        "name": "Tanjungpura University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04exz5k48",
+        "name": "Tanjungpura University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04exz5k48",
+        "name": "Tanjungpura University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04exz5k48"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04exz5k48",
+          "source_span": "Universitas Tanjungpura"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1811",
+    "split": "val",
+    "text": "Department of Mechanical Engineering, PSNA College of Engineering & Technology, Dindigul, India",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1811,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1811",
+      "non_ror_labels": [
+        "PSNA College of Engineering and Technology"
+      ]
+    },
+    "reference_targets": [],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04yh52k23",
+        "name": "KLE Technological University"
+      }
+    ],
+    "model_targets": [],
+    "raw_prediction": {
+      "target_ids": [],
+      "evidence": [],
+      "review_required": false
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": true,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-0417",
+    "split": "val",
+    "text": "Center for Theoretical Physics, Massachusetts Institute of Technology,  77 Massachusetts Avenue, Cambridge, MA 02139, U.S.A.",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 417,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0417",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/042nb2s44"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/042nb2s44",
+          "source_span": "Massachusetts Institute of Technology"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1050",
+    "split": "val",
+    "text": "Friedrich Schiller Universityät Jena Rechenzentrum",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1050,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1050",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/05qpz1x62",
+        "name": "Friedrich Schiller University Jena"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/05qpz1x62",
+        "name": "Friedrich Schiller University Jena"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/05qpz1x62",
+        "name": "Friedrich Schiller University Jena"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/05qpz1x62"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/05qpz1x62",
+          "source_span": "Friedrich Schiller Universityät Jena"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1941",
+    "split": "val",
+    "text": "Banco de España , Spain",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1941,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1941",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/02f26yq04",
+        "name": "Bank of Spain"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/02f26yq04",
+        "name": "Bank of Spain"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/02f26yq04",
+        "name": "Bank of Spain"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/02f26yq04"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/02f26yq04",
+          "source_span": "Banco de España"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0454",
+    "split": "val",
+    "text": "Dipartimento di Fisica, Università di Bari, I-70126 Bari, Italy",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 454,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0454",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/027ynra39",
+        "name": "University of Bari Aldo Moro"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/02aqppr80",
+        "name": "Boston Area Research Initiative"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/027ynra39",
+        "name": "University of Bari Aldo Moro"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/027ynra39"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/027ynra39",
+          "source_span": "Università di Bari"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-1000",
+    "split": "val",
+    "text": "Department of Psychology, University of Vermont.",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1000,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1000",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/0155zta11",
+        "name": "University of Vermont"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/0155zta11",
+        "name": "University of Vermont"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/0155zta11",
+        "name": "University of Vermont"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/0155zta11"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/0155zta11",
+          "source_span": "University of Vermont"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0449",
+    "split": "val",
+    "text": "Dipartimento di Fisica, Università degli Studi di Milano, 20133 Milano, Italy",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 449,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0449",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/00wjc7c48",
+        "name": "University of Milan"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/00wjc7c48",
+        "name": "University of Milan"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/00wjc7c48",
+        "name": "University of Milan"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/00wjc7c48"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/00wjc7c48",
+          "source_span": "Università degli Studi di Milano"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0108",
+    "split": "val",
+    "text": "CAS Key Laboratory of Soft Matter Chemistry, Department of Polymer Science and Engineering, Anhui Key Laboratory of Optoelectronic Science and Technology, University of Science and Technology of China,Hefei,P. R. China",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 108,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0108",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04c4dkn09",
+        "name": "University of Science and Technology of China"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04c4dkn09",
+        "name": "University of Science and Technology of China"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04c4dkn09",
+        "name": "University of Science and Technology of China"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04c4dkn09"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04c4dkn09",
+          "source_span": "University of Science and Technology of China,Hefei"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0404",
+    "split": "val",
+    "text": "Physics Department, Harvard University, Cambridge, MA 02138, USA",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 404,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0404",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/03vek6s52",
+        "name": "Harvard University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/03vek6s52",
+        "name": "Harvard University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/03vek6s52",
+        "name": "Harvard University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/03vek6s52"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/03vek6s52",
+          "source_span": "Harvard University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0622",
+    "split": "val",
+    "text": " Weizmann Institute",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 622,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0622",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/0316ej306",
+        "name": "Weizmann Institute of Science"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/0316ej306",
+        "name": "Weizmann Institute of Science"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/0316ej306",
+        "name": "Weizmann Institute of Science"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/0316ej306"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/0316ej306",
+          "source_span": "Weizmann Institute"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1530",
+    "split": "val",
+    "text": "Nguyen Tat Thanh University",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1530,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1530",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04r9s1v23",
+        "name": "Trường ĐH Nguyễn Tất Thành"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04r9s1v23",
+        "name": "Trường ĐH Nguyễn Tất Thành"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04r9s1v23",
+        "name": "Trường ĐH Nguyễn Tất Thành"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04r9s1v23"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04r9s1v23",
+          "source_span": "Nguyen Tat Thanh University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1801",
+    "split": "val",
+    "text": "AAU",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1801,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1801",
+      "non_ror_labels": [
+        "Amateur Athletic Union"
+      ]
+    },
+    "reference_targets": [],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01j7x7d84",
+        "name": "Alzaiem Alazhari University"
+      }
+    ],
+    "model_targets": [],
+    "raw_prediction": {
+      "target_ids": [],
+      "evidence": [],
+      "review_required": true
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": true,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-0603",
+    "split": "val",
+    "text": "School of Electronics and Computer Science, University of Southampton, Southampton, SO17 1BJ, UK#TAB#",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 603,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0603",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01ryk1543",
+        "name": "University of Southampton"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01ryk1543",
+        "name": "University of Southampton"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01ryk1543",
+        "name": "University of Southampton"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01ryk1543"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01ryk1543",
+          "source_span": "University of Southampton"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1449",
+    "split": "val",
+    "text": "UNEMAT",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1449,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1449",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/02cbymn47",
+        "name": "Mato Grosso State University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/02cbymn47",
+        "name": "Mato Grosso State University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/02cbymn47",
+        "name": "Mato Grosso State University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/02cbymn47"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/02cbymn47",
+          "source_span": "UNEMAT"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0073",
+    "split": "val",
+    "text": "State Key Laboratory of Analytical Chemistry for Life Science, School of Chemistry and Chemical Engineering, Nanjing University, Nanjing 210093, China.",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 73,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0073",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01rxvg760",
+        "name": "Nanjing University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01rxvg760",
+        "name": "Nanjing University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01rxvg760",
+        "name": "Nanjing University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01rxvg760"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01rxvg760",
+          "source_span": "Nanjing University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1291",
+    "split": "val",
+    "text": "Department of Veterinary Services, Disney's Animal Kingdom, PO Box 10,000, Lake Buena Vista, FL 32820, USA.",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1291,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1291",
+      "non_ror_labels": [
+        "Disney's Animal Kingdom"
+      ]
+    },
+    "reference_targets": [],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04eg47h42",
+        "name": "Walt Disney (United States)"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04eg47h42",
+        "name": "Walt Disney (United States)"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04eg47h42"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04eg47h42",
+          "source_span": "Disney's Animal Kingdom"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": false,
+    "model_correct": false,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": true,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 1,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-1604",
+    "split": "val",
+    "text": "University of Fort, Hare, South Africa#TAB#",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1604,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1604",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/0184vwv17",
+        "name": "University of Fort Hare"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/0184vwv17",
+        "name": "University of Fort Hare"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/0184vwv17",
+        "name": "University of Fort Hare"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/0184vwv17"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/0184vwv17",
+          "source_span": "University of Fort, Hare"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0619",
+    "split": "val",
+    "text": "Mathematics and Computer Science, Sackler Faculty of Exact Sciences, Tel Aviv University, Tel Aviv, Israel. e-mail: noga@math.tau.ac.il, IL",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 619,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0619",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04mhzgx49",
+        "name": "Tel Aviv University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04mhzgx49",
+        "name": "Tel Aviv University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04mhzgx49",
+        "name": "Tel Aviv University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04mhzgx49"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04mhzgx49",
+          "source_span": "Tel Aviv University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0445",
+    "split": "val",
+    "text": "Department of Physics and Astronomy, University of South Carolina, Columbia, SC 29208, USA",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 445,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0445",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/02b6qw903",
+        "name": "University of South Carolina"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/02b6qw903",
+        "name": "University of South Carolina"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/02b6qw903",
+        "name": "University of South Carolina"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/02b6qw903"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/02b6qw903",
+          "source_span": "University of South Carolina"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-2298",
+    "split": "val",
+    "text": "Universitas Islam Negeri Alauddin Makassar",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 2298,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-2298",
+      "non_ror_labels": [
+        "Universitas Islam Negeri Alauddin Makassar, Fakultas Tarbiyah dan Keguruan, Jurusan Pendidikan Matematika; Ikatan Alumni Pendidikan Matematika"
+      ]
+    },
+    "reference_targets": [],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/05baqgp89",
+        "name": "Universitas Islam Makassar"
+      }
+    ],
+    "model_targets": [],
+    "raw_prediction": {
+      "target_ids": [],
+      "evidence": [],
+      "review_required": true
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": true,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-1854",
+    "split": "val",
+    "text": "Heilongjiang Key Laboratory for Laboratory Animals and Comparative Medicine, College of Veterinary Medicine, Northeast Agriculture University, Harbin, China.",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1854,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1854",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/0515nd386",
+        "name": "Northeast Agricultural University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/05x1ptx12",
+        "name": "Heilongjiang University of Chinese Medicine"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/0515nd386",
+        "name": "Northeast Agricultural University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/0515nd386"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/0515nd386",
+          "source_span": "Northeast Agriculture University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-0620",
+    "split": "val",
+    "text": "Department of Mathematics, Raymond and Beverly Sackler Faculty of Exact Science, Tel Aviv University, Tel Aviv, Israel",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 620,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0620",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04mhzgx49",
+        "name": "Tel Aviv University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04mhzgx49",
+        "name": "Tel Aviv University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04mhzgx49",
+        "name": "Tel Aviv University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04mhzgx49"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04mhzgx49",
+          "source_span": "Tel Aviv University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1187",
+    "split": "val",
+    "text": "National Key Laboratory of Molecular Oncology, Cancer Institute, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1187,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1187",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/02drdmm93",
+        "name": "Chinese Academy of Medical Sciences & Peking Union Medical College"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/02drdmm93",
+        "name": "Chinese Academy of Medical Sciences & Peking Union Medical College"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/02drdmm93",
+        "name": "Chinese Academy of Medical Sciences & Peking Union Medical College"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/02drdmm93"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/02drdmm93",
+          "source_span": "Chinese Academy of Medical Sciences & Peking Union Medical College"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-2007",
+    "split": "val",
+    "text": "Allen Institute for Brain Science, Seattle, WA, 98109, USA.",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 2007,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-2007",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/00dcv1019",
+        "name": "Allen Institute for Brain Science"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/00dcv1019",
+        "name": "Allen Institute for Brain Science"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/00dcv1019",
+        "name": "Allen Institute for Brain Science"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/00dcv1019"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/00dcv1019",
+          "source_span": "Allen Institute for Brain Science"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1857",
+    "split": "val",
+    "text": "Department of Neurology, Massachusetts General Hospital (MGH)",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1857,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1857",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/002pd6e78",
+        "name": "Massachusetts General Hospital"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/002pd6e78",
+        "name": "Massachusetts General Hospital"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/002pd6e78",
+        "name": "Massachusetts General Hospital"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/002pd6e78"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/002pd6e78",
+          "source_span": "Massachusetts General Hospital (MGH)"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1208",
+    "split": "val",
+    "text": "Sarnoff Corporation Princeton, NJ",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1208,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1208",
+      "non_ror_labels": [
+        "Sarnoff Corporation"
+      ]
+    },
+    "reference_targets": [],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/00hx57361",
+        "name": "Princeton University"
+      }
+    ],
+    "model_targets": [],
+    "raw_prediction": {
+      "target_ids": [],
+      "evidence": [],
+      "review_required": true
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": true,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-0426",
+    "split": "val",
+    "text": "Department of Physics, University of California, Berkeley, CA 94720, USA",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 426,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0426",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01an7q238",
+        "name": "University of California, Berkeley"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01an7q238",
+        "name": "University of California, Berkeley"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01an7q238",
+        "name": "University of California, Berkeley"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01an7q238"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01an7q238",
+          "source_span": "University of California, Berkeley"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0067",
+    "split": "val",
+    "text": "Department of Chemistry, National Taiwan University, Taipei 10764, Taiwan",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 67,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0067",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/05bqach95",
+        "name": "National Taiwan University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/05bqach95",
+        "name": "National Taiwan University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/05bqach95",
+        "name": "National Taiwan University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/05bqach95"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/05bqach95",
+          "source_span": "National Taiwan University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0271",
+    "split": "val",
+    "text": "Dept., of Comput. Sci., Princeton Univ., NJ, USA",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 271,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0271",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/00hx57361",
+        "name": "Princeton University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/00hx57361",
+        "name": "Princeton University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/00hx57361",
+        "name": "Princeton University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/00hx57361"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/00hx57361",
+          "source_span": "Princeton Univ."
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1241",
+    "split": "val",
+    "text": "Kavli Institute for Theoretical Physics and Department of Physics, Kohn Hall, University of California, Santa Barbara, CA 93106, USA",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1241,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1241",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01kv3wg35",
+        "name": "Kavli Institute for Theoretical Sciences"
+      },
+      {
+        "id": "https://ror.org/02t274463",
+        "name": "University of California, Santa Barbara"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/02t274463",
+        "name": "University of California, Santa Barbara"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/02t274463",
+        "name": "University of California, Santa Barbara"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/02t274463"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/02t274463",
+          "source_span": "University of California, Santa Barbara"
+        }
+      ],
+      "review_required": true
+    },
+    "baseline_correct": false,
+    "model_correct": false,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": true,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 1,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0638",
+    "split": "val",
+    "text": "Computer Science Department, The University of Liverpool, UK#TAB#",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 638,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0638",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04xs57h96",
+        "name": "University of Liverpool"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04xs57h96",
+        "name": "University of Liverpool"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04xs57h96",
+        "name": "University of Liverpool"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04xs57h96"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04xs57h96",
+          "source_span": "The University of Liverpool"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-2309",
+    "split": "val",
+    "text": "Universitas Raharja",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 2309,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-2309",
+      "non_ror_labels": [
+        "Universitas Raharja"
+      ]
+    },
+    "reference_targets": [],
+    "baseline_targets": [],
+    "model_targets": [],
+    "raw_prediction": {
+      "target_ids": [],
+      "evidence": [],
+      "review_required": true
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": true,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0270",
+    "split": "val",
+    "text": "Matsushita Information Technology Laboratory, Princeton, NJ",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 270,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0270",
+      "non_ror_labels": [
+        "Matsushita Information Technology Laboratory"
+      ]
+    },
+    "reference_targets": [],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/0440c3437",
+        "name": "Information Technology Laboratory"
+      }
+    ],
+    "model_targets": [],
+    "raw_prediction": {
+      "target_ids": [],
+      "evidence": [],
+      "review_required": true
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": true,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-0636",
+    "split": "val",
+    "text": "university of liverpool",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 636,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0636",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04xs57h96",
+        "name": "University of Liverpool"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04xs57h96",
+        "name": "University of Liverpool"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04xs57h96",
+        "name": "University of Liverpool"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04xs57h96"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04xs57h96",
+          "source_span": "university of liverpool"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1264",
+    "split": "val",
+    "text": "USC / Information Sciences Institute, Marina del Rey, CA#TAB#",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1264,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1264",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/03taz7m60",
+        "name": "University of Southern California"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/05wqyfz02",
+        "name": "Marina Del Rey Hospital"
+      }
+    ],
+    "model_targets": [],
+    "raw_prediction": {
+      "target_ids": [],
+      "evidence": [],
+      "review_required": true
+    },
+    "baseline_correct": false,
+    "model_correct": false,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": false,
+    "missed_target_ids": [
+      "https://ror.org/03taz7m60"
+    ],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 1,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-1794",
+    "split": "val",
+    "text": "Disney Res., Zürich, Switzerland",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1794,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1794",
+      "non_ror_labels": [
+        "Disney Research"
+      ]
+    },
+    "reference_targets": [],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04eg47h42",
+        "name": "Walt Disney (United States)"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04h1x1p54",
+        "name": "Walt Disney (Switzerland)"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04h1x1p54"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04h1x1p54",
+          "source_span": "Disney Res., Zürich, Switzerland"
+        }
+      ],
+      "review_required": true
+    },
+    "baseline_correct": false,
+    "model_correct": false,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": true,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 1,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-0103",
+    "split": "val",
+    "text": "Laboratory for Reproductive Biology, School of Life Science, University of Science and Technology of China, People's Republic of China",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 103,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0103",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04c4dkn09",
+        "name": "University of Science and Technology of China"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04c4dkn09",
+        "name": "University of Science and Technology of China"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04c4dkn09",
+        "name": "University of Science and Technology of China"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04c4dkn09"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04c4dkn09",
+          "source_span": "University of Science and Technology of China"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0791",
+    "split": "val",
+    "text": "Clermont College, University of Cincinnati, Batavia, OH 45103-1785, USA",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 791,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0791",
+      "non_ror_labels": [
+        "Clermont College"
+      ]
+    },
+    "reference_targets": [],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01e3m7079",
+        "name": "University of Cincinnati"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01e3m7079",
+        "name": "University of Cincinnati"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01e3m7079"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01e3m7079",
+          "source_span": "University of Cincinnati"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": false,
+    "model_correct": false,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": true,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 1,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-2097",
+    "split": "val",
+    "text": "Department of Mathematics, Azarbaijan Shahid Madani University, Tabriz, Iran",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 2097,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-2097",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/00v408z34",
+        "name": "China Medical University"
+      },
+      {
+        "id": "https://ror.org/05pg2cw06",
+        "name": "Azarbaijan Shahid Madani University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/05pg2cw06",
+        "name": "Azarbaijan Shahid Madani University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/05pg2cw06",
+        "name": "Azarbaijan Shahid Madani University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/05pg2cw06"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/05pg2cw06",
+          "source_span": "Azarbaijan Shahid Madani University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": false,
+    "model_correct": false,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": false,
+    "missed_target_ids": [
+      "https://ror.org/00v408z34"
+    ],
+    "nil_reference": false,
+    "multiple_reference_targets": true,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 1,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0607",
+    "split": "val",
+    "text": "Tel-Aviv University",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 607,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0607",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04mhzgx49",
+        "name": "Tel Aviv University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04mhzgx49",
+        "name": "Tel Aviv University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04mhzgx49",
+        "name": "Tel Aviv University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04mhzgx49"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04mhzgx49",
+          "source_span": "Tel-Aviv University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0420",
+    "split": "val",
+    "text": "Department of Astronomy, University of California at Berkeley, 601 Campbell Hall, Berkeley, CA 94720-3411, USA",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 420,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0420",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/01an7q238",
+        "name": "University of California, Berkeley"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/01an7q238",
+        "name": "University of California, Berkeley"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/01an7q238",
+        "name": "University of California, Berkeley"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/01an7q238"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/01an7q238",
+          "source_span": "University of California at Berkeley"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0102",
+    "split": "val",
+    "text": "Dept. of EEIS, Univ. of Sci. and Tech. of China, Hefei, China",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 102,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0102",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04c4dkn09",
+        "name": "University of Science and Technology of China"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04hzt6a67",
+        "name": "Hefei Meiling (China)"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04c4dkn09",
+        "name": "University of Science and Technology of China"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04c4dkn09"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04c4dkn09",
+          "source_span": "Univ. of Sci. and Tech. of China"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-1645",
+    "split": "val",
+    "text": "University Of Zabol",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1645,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1645",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/03d9mz263",
+        "name": "Zabol University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/03d9mz263",
+        "name": "Zabol University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/03d9mz263",
+        "name": "Zabol University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/03d9mz263"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/03d9mz263",
+          "source_span": "University Of Zabol"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1905",
+    "split": "val",
+    "text": "Miami—Dade Community College",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1905,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1905",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/00rgbr518",
+        "name": "Miami Dade College"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/03q8jhh94",
+        "name": "Allen Community College"
+      }
+    ],
+    "model_targets": [],
+    "raw_prediction": {
+      "target_ids": [],
+      "evidence": [],
+      "review_required": true
+    },
+    "baseline_correct": false,
+    "model_correct": false,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": false,
+    "missed_target_ids": [
+      "https://ror.org/00rgbr518"
+    ],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 1,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-1088",
+    "split": "val",
+    "text": "Department of Computer Science, Tsing Hua University, Hsin-Chu, Taiwan 30043, R.O.C.",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1088,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1088",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/00zdnkx70",
+        "name": "National Tsing Hua University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/00zdnkx70",
+        "name": "National Tsing Hua University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/00zdnkx70",
+        "name": "National Tsing Hua University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/00zdnkx70"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/00zdnkx70",
+          "source_span": "Tsing Hua University, Hsin-Chu, Taiwan"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1002",
+    "split": "val",
+    "text": "Institute of Environmental Pollution and Health, College of Environmental and Chemical Engineering, Shanghai University, Shanghai, 200444, China",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1002,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1002",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/006teas31",
+        "name": "Shanghai University"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/006teas31",
+        "name": "Shanghai University"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/006teas31",
+        "name": "Shanghai University"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/006teas31"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/006teas31",
+          "source_span": "Shanghai University"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0773",
+    "split": "val",
+    "text": "Inst. of Telecommun., Univ. of Stuttgart, Stuttgart",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 773,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0773",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04vnq7t77",
+        "name": "University of Stuttgart"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/0363pts49",
+        "name": "Institute for Nuclear Science and Technology"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04vnq7t77",
+        "name": "University of Stuttgart"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04vnq7t77"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04vnq7t77",
+          "source_span": "Univ. of Stuttgart, Stuttgart"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-0626",
+    "split": "val",
+    "text": "The Weizmann Institute, Rehovot, Israel",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 626,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0626",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/0316ej306",
+        "name": "Weizmann Institute of Science"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/0316ej306",
+        "name": "Weizmann Institute of Science"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/0316ej306",
+        "name": "Weizmann Institute of Science"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/0316ej306"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/0316ej306",
+          "source_span": "The Weizmann Institute, Rehovot, Israel"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-1601",
+    "split": "val",
+    "text": "The Mind Research Network/Lovelace Biomedical Research Institute, Albuquerque, NM, USA",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 1601,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-1601",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/032cjfs80",
+        "name": "Mind Research Network"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/032cjfs80",
+        "name": "Mind Research Network"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/032cjfs80",
+        "name": "Mind Research Network"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/032cjfs80"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/032cjfs80",
+          "source_span": "Mind Research Network"
+        }
+      ],
+      "review_required": true
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": true,
+    "automatic": false,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-2150",
+    "split": "val",
+    "text": "A. I. Yevdokimov Moscow State University of Medicine and Dentistry",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 2150,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-2150",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04bgrkn57",
+        "name": "Moscow State University of Medicine and Dentistry"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04bgrkn57",
+        "name": "Moscow State University of Medicine and Dentistry"
+      }
+    ],
+    "model_targets": [],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04bgrkn57"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04bgrkn57",
+          "source_span": "A. I. Yevdokimov Moscow State University of Medicine and Dentistry"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": false,
+    "domain_valid": false,
+    "api_or_schema_invalid": false,
+    "domain_invalid": true,
+    "validation_error": "Unsupported exact source span",
+    "review_required": false,
+    "automatic": false,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 1,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0105",
+    "split": "val",
+    "text": "CAS Key Laboratory of Soft Matter Chemistry, Department of Polymer Science and Engineering, Key Laboratory of Optoelectronic Science and Technology in Anhui Province, University of Science and Technology of China,Hefei,P. R. China",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 105,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0105",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/04c4dkn09",
+        "name": "University of Science and Technology of China"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/04c4dkn09",
+        "name": "University of Science and Technology of China"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/04c4dkn09",
+        "name": "University of Science and Technology of China"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/04c4dkn09"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/04c4dkn09",
+          "source_span": "University of Science and Technology of China"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": true,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 0
+  },
+  {
+    "id": "s2aff-0721",
+    "split": "val",
+    "text": "Department of Medicine, The Royal Marsden NHS Trust, Downs Road, Sutton SM2 5PT, UK",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 721,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-0721",
+      "non_ror_labels": []
+    },
+    "reference_targets": [
+      {
+        "id": "https://ror.org/0008wzh48",
+        "name": "Royal Marsden NHS Foundation Trust"
+      }
+    ],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/056vnsb08",
+        "name": "Royal Ottawa Mental Health Centre"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/0008wzh48",
+        "name": "Royal Marsden NHS Foundation Trust"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/0008wzh48"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/0008wzh48",
+          "source_span": "The Royal Marsden NHS Trust"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": false,
+    "model_correct": true,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": false,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 0,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  },
+  {
+    "id": "s2aff-2262",
+    "split": "val",
+    "text": "Bayer HealthCare Pharmaceuticals, Inc., Whippany, NJ",
+    "source_label": {
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "zero_based_source_row": 2262,
+      "prepared_reference": "data/linkage/s2aff-gold.json",
+      "case_id": "s2aff-2262",
+      "non_ror_labels": [
+        "Bayer"
+      ]
+    },
+    "reference_targets": [],
+    "baseline_targets": [
+      {
+        "id": "https://ror.org/034ffbg36",
+        "name": "Bayer (United States)"
+      }
+    ],
+    "model_targets": [
+      {
+        "id": "https://ror.org/034ffbg36",
+        "name": "Bayer (United States)"
+      }
+    ],
+    "raw_prediction": {
+      "target_ids": [
+        "https://ror.org/034ffbg36"
+      ],
+      "evidence": [
+        {
+          "id": "https://ror.org/034ffbg36",
+          "source_span": "Bayer HealthCare Pharmaceuticals, Inc., Whippany, NJ"
+        }
+      ],
+      "review_required": false
+    },
+    "baseline_correct": false,
+    "model_correct": false,
+    "domain_valid": true,
+    "api_or_schema_invalid": false,
+    "domain_invalid": false,
+    "validation_error": null,
+    "review_required": false,
+    "automatic": true,
+    "candidate_target_present": true,
+    "missed_target_ids": [],
+    "nil_reference": true,
+    "multiple_reference_targets": false,
+    "false_target_assignments": 1,
+    "missed_target_assignments": 0,
+    "baseline_false_target_assignments": 1
+  }
+]

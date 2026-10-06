@@ -1,0 +1,29 @@
+{
+  "stage": "pre-model correction after independent source audit",
+  "case_id": "noc-food-preparation-01",
+  "reason": "The original exclusion of executive chef did not exclude sous-chef and specialist-chef roles under62200. Explicitly statecook ratherthan anychef;target63200unchanged.",
+  "other_repairs": [
+    "Index every nonempty official NOC duty, removing the prior under-six-word filter (924 entries).",
+    "Score a declared complete panel and retain missing responses as failures.",
+    "Bind active prepared jobs and baseline to the post-audit freeze."
+  ],
+  "originals": [
+    {
+      "path": "data/coding/history/pre-audit/cases.json",
+      "sha256": "12a294473ef9ca8fab0d3266924bc25273a27f703937365f7c5bd9d1bce3646b"
+    },
+    {
+      "path": "data/coding/history/pre-audit/facts-gold.json",
+      "sha256": "a9ce7cc2d3453b1fbcf4a47c33bca8aed494d0c2a58bf6b7f36369936fadacaf"
+    },
+    {
+      "path": "data/coding/history/pre-audit/construction.json",
+      "sha256": "15b355f66c194f00a705b7cecd185a7bb965cc45369cc83a6a453b44c36fb187"
+    },
+    {
+      "path": "data/coding/history/pre-audit/build_cases.py",
+      "sha256": "a3ef2145eaf244e835867e6782f565692e91c4541f39e2e62d9ca5c780642787"
+    }
+  ],
+  "initial_model_calls": 0
+}

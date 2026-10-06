@@ -1,0 +1,530 @@
+[
+  {
+    "id": "naics-nursery-111421-control",
+    "scheme": "naics",
+    "text": "Christmas tree growing",
+    "code": "111421",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 216
+    }
+  },
+  {
+    "id": "naics-nursery-444240-control",
+    "scheme": "naics",
+    "text": "agricultural seeds, retail",
+    "code": "444240",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 17684
+    }
+  },
+  {
+    "id": "naics-glass-installation-238150-control",
+    "scheme": "naics",
+    "text": "curtain wall, glass, installation",
+    "code": "238150",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 2208
+    }
+  },
+  {
+    "id": "naics-glass-installation-811122-control",
+    "scheme": "naics",
+    "text": "automobile glass installation, replacement and repair service",
+    "code": "811122",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 24892
+    }
+  },
+  {
+    "id": "naics-bakery-311811-control",
+    "scheme": "naics",
+    "text": "bakeries, baking from flour on the premises, for retail sale (except for immediate consumption)",
+    "code": "311811",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 3491
+    }
+  },
+  {
+    "id": "naics-bakery-445291-control",
+    "scheme": "naics",
+    "text": "baked goods stores or stands (e.g., bagel, cake, pastry, cookie, bread, pretzel), without baking on the premises, retail",
+    "code": "445291",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 17752
+    }
+  },
+  {
+    "id": "naics-software-513211-control",
+    "scheme": "naics",
+    "text": "applications software, computer, publishing (including designing and developing), packaged",
+    "code": "513211",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 19839
+    }
+  },
+  {
+    "id": "naics-software-541514-control",
+    "scheme": "naics",
+    "text": "application software programming services, custom",
+    "code": "541514",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 21530
+    }
+  },
+  {
+    "id": "naics-accounting-services-541212-control",
+    "scheme": "naics",
+    "text": "accountant, professional",
+    "code": "541212",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 21212
+    }
+  },
+  {
+    "id": "naics-accounting-services-541215-control",
+    "scheme": "naics",
+    "text": "billing, bookkeeping or payroll processing services",
+    "code": "541215",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 21227
+    }
+  },
+  {
+    "id": "naics-landscape-541320-control",
+    "scheme": "naics",
+    "text": "city, town or urban planning services (except engineers)",
+    "code": "541320",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 21245
+    }
+  },
+  {
+    "id": "naics-landscape-561730-control",
+    "scheme": "naics",
+    "text": "arborist services",
+    "code": "561730",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 22449
+    }
+  },
+  {
+    "id": "naics-building-cleaning-561721-control",
+    "scheme": "naics",
+    "text": "bus shelter window maintenance",
+    "code": "561721",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 22394
+    }
+  },
+  {
+    "id": "naics-building-cleaning-561722-control",
+    "scheme": "naics",
+    "text": "abattoir (slaughterhouse) cleaning",
+    "code": "561722",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 22405
+    }
+  },
+  {
+    "id": "naics-animal-care-541940-control",
+    "scheme": "naics",
+    "text": "animal ambulance services",
+    "code": "541940",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 21989
+    }
+  },
+  {
+    "id": "naics-animal-care-812910-control",
+    "scheme": "naics",
+    "text": "animal shelters",
+    "code": "812910",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 25374
+    }
+  },
+  {
+    "id": "naics-laundry-812310-control",
+    "scheme": "naics",
+    "text": "automatic laundry and dry cleaning service, coin wash",
+    "code": "812310",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 25290
+    }
+  },
+  {
+    "id": "naics-laundry-812320-control",
+    "scheme": "naics",
+    "text": "apparel pressing service, for the trade",
+    "code": "812320",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 25304
+    }
+  },
+  {
+    "id": "naics-glass-manufacturing-327214-control",
+    "scheme": "naics",
+    "text": "beverage containers, made in glass-making plants",
+    "code": "327214",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 8407
+    }
+  },
+  {
+    "id": "naics-glass-manufacturing-327215-control",
+    "scheme": "naics",
+    "text": "aquariums, made from purchased glass",
+    "code": "327215",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 8460
+    }
+  },
+  {
+    "id": "naics-printing-323115-control",
+    "scheme": "naics",
+    "text": "digital printing shops (e.g., billboards, large format graphical materials and high resolution)",
+    "code": "323115",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 6163
+    }
+  },
+  {
+    "id": "naics-printing-323113-control",
+    "scheme": "naics",
+    "text": "art works, screen printing without publishing",
+    "code": "323113",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 6141
+    }
+  },
+  {
+    "id": "naics-car-dealers-441110-control",
+    "scheme": "naics",
+    "text": "dealers of new automobiles, retail",
+    "code": "441110",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 17526
+    }
+  },
+  {
+    "id": "naics-car-dealers-441120-control",
+    "scheme": "naics",
+    "text": "antique autos, retail",
+    "code": "441120",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "naics-elements.csv",
+      "csv_record": 17531
+    }
+  },
+  {
+    "id": "noc-accounting-work-11100-control",
+    "scheme": "noc",
+    "text": "accountant",
+    "code": "11100",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 1283
+    }
+  },
+  {
+    "id": "noc-accounting-work-12200-control",
+    "scheme": "noc",
+    "text": "accounting bookkeeper",
+    "code": "12200",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 2694
+    }
+  },
+  {
+    "id": "noc-human-resources-11200-control",
+    "scheme": "noc",
+    "text": "bargaining agent",
+    "code": "11200",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 1634
+    }
+  },
+  {
+    "id": "noc-human-resources-12101-control",
+    "scheme": "noc",
+    "text": "assistant personnel officer",
+    "code": "12101",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 2264
+    }
+  },
+  {
+    "id": "noc-animal-clinical-31103-control",
+    "scheme": "noc",
+    "text": "animal behavior veterinarian",
+    "code": "31103",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 9775
+    }
+  },
+  {
+    "id": "noc-animal-clinical-32104-control",
+    "scheme": "noc",
+    "text": "animal care technician",
+    "code": "32104",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 10948
+    }
+  },
+  {
+    "id": "noc-pharmacy-31120-control",
+    "scheme": "noc",
+    "text": "clinical pharmacist",
+    "code": "31120",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 10013
+    }
+  },
+  {
+    "id": "noc-pharmacy-32124-control",
+    "scheme": "noc",
+    "text": "certified pharmacy technician",
+    "code": "32124",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 11546
+    }
+  },
+  {
+    "id": "noc-school-level-41220-control",
+    "scheme": "noc",
+    "text": "Aboriginal school community teacher - secondary school",
+    "code": "41220",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 13630
+    }
+  },
+  {
+    "id": "noc-school-level-41221-control",
+    "scheme": "noc",
+    "text": "Aboriginal school teacher - elementary school",
+    "code": "41221",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 13759
+    }
+  },
+  {
+    "id": "noc-dental-32111-control",
+    "scheme": "noc",
+    "text": "community dental hygienist",
+    "code": "32111",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 11145
+    }
+  },
+  {
+    "id": "noc-dental-33100-control",
+    "scheme": "noc",
+    "text": "ceramic denture caster",
+    "code": "33100",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 11813
+    }
+  },
+  {
+    "id": "noc-electrician-72200-control",
+    "scheme": "noc",
+    "text": "apprentice construction electrician",
+    "code": "72200",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 25445
+    }
+  },
+  {
+    "id": "noc-electrician-72201-control",
+    "scheme": "noc",
+    "text": "apprentice industrial electrician",
+    "code": "72201",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 25495
+    }
+  },
+  {
+    "id": "noc-vehicle-repair-72410-control",
+    "scheme": "noc",
+    "text": "after sales service technician - motor vehicles",
+    "code": "72410",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 27001
+    }
+  },
+  {
+    "id": "noc-vehicle-repair-72411-control",
+    "scheme": "noc",
+    "text": "antique car body restorer",
+    "code": "72411",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 27147
+    }
+  },
+  {
+    "id": "noc-web-21233-control",
+    "scheme": "noc",
+    "text": "interactive media consultant",
+    "code": "21233",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 6257
+    }
+  },
+  {
+    "id": "noc-web-21234-control",
+    "scheme": "noc",
+    "text": "back-end web developer",
+    "code": "21234",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 6285
+    }
+  },
+  {
+    "id": "noc-food-preparation-63200-control",
+    "scheme": "noc",
+    "text": "apprentice cook",
+    "code": "63200",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 20608
+    }
+  },
+  {
+    "id": "noc-food-preparation-63202-control",
+    "scheme": "noc",
+    "text": "apprentice baker - retail",
+    "code": "63202",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 20704
+    }
+  },
+  {
+    "id": "noc-cleaner-65310-control",
+    "scheme": "noc",
+    "text": "airport cleaner",
+    "code": "65310",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 22957
+    }
+  },
+  {
+    "id": "noc-cleaner-65312-control",
+    "scheme": "noc",
+    "text": "airport janitor",
+    "code": "65312",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 23114
+    }
+  },
+  {
+    "id": "noc-nursing-31301-control",
+    "scheme": "noc",
+    "text": "ambulatory care nurse",
+    "code": "31301",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 10433
+    }
+  },
+  {
+    "id": "noc-nursing-31302-control",
+    "scheme": "noc",
+    "text": "acute care nurse practitioner",
+    "code": "31302",
+    "origin": "official_verbatim",
+    "source": {
+      "file": "noc-elements.csv",
+      "csv_record": 10591
+    }
+  }
+]

@@ -7,6 +7,8 @@ national statistical offices. One notebook contains eight sections, fourteen
 figures, three small experiments, an agentic dataset workflow, worked
 calculations and a source-linked research guide.
 
+A [separate NSO experiment notebook](../nso-semantic-workflows.ipynb) adds public affiliation linkage, synthetic NAICS/NOC coding, a school-linkage screen, catalog discovery and statistical-query comparisons, with frozen baselines and complete outcomes.
+
 The experiments answer different questions:
 
 | Dataset | Target | Comparison |

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="739.08pt" height="583.620625pt" viewBox="0 0 739.08 583.620625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-06T18:23:04.094333</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 583.620625 
+L 739.08 583.620625 
+L 739.08 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 122.04 164.64 
+L 731.88 164.64 
+L 731.88 73.44 
+L 122.04 73.44 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 122.04 164.64 
+L 122.04 73.44 
+" clip-path="url(#pd4ac0974bc)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="122.04" y="176.497422" transform="rotate(-0 122.04 176.497422)">0%</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 267.24 164.64 
+L 267.24 73.44 
+" clip-path="url(#pd4ac0974bc)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="267.24" y="176.497422" transform="rotate(-0 267.24 176.497422)">25%</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 412.44 164.64 
+L 412.44 73.44 
+" clip-path="url(#pd4ac0974bc)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="412.44" y="176.497422" transform="rotate(-0 412.44 176.497422)">50%</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 557.64 164.64 
+L 557.64 73.44 
+" clip-path="url(#pd4ac0974bc)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="557.64" y="176.497422" transform="rotate(-0 557.64 176.497422)">75%</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 702.84 164.64 
+L 702.84 73.44 
+" clip-path="url(#pd4ac0974bc)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="702.84" y="176.497422" transform="rotate(-0 702.84 176.497422)">100%</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11"/>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #435d72" x="118.54" y="103.393054" transform="rotate(-0 118.54 103.393054)">Conventional</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12"/>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #435d72" x="118.54" y="143.045228" transform="rotate(-0 118.54 143.045228)">Model selection</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 122.04 108.333913 
+L 533.289689 108.333913 
+L 533.289689 90.093913 
+L 122.04 90.093913 
+z
+" clip-path="url(#pd4ac0974bc)" style="fill: #9bafc3"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 122.04 147.986087 
+L 656.844969 147.986087 
+L 656.844969 129.746087 
+L 122.04 129.746087 
+z
+" clip-path="url(#pd4ac0974bc)" style="fill: #176d79"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182d40" x="540.259289" y="102.331101" transform="rotate(-0 540.259289 102.331101)">456/644</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182d40" x="663.814569" y="141.983274" transform="rotate(-0 663.814569 141.983274)">593/644</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #435d72" x="122.04" y="67.056" transform="rotate(-0 122.04 67.056)">Public historical text · exact annotation-set agreement</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182d40" x="122.04" y="48.44" transform="rotate(-0 122.04 48.44)">Affiliation → organization set</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 122.04 337.92 
+L 731.88 337.92 
+L 731.88 246.72 
+L 122.04 246.72 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_6">
+     <g id="line2d_13">
+      <path d="M 122.04 337.92 
+L 122.04 246.72 
+" clip-path="url(#pbb6ef22b66)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_12">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="122.04" y="349.777422" transform="rotate(-0 122.04 349.777422)">0%</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_15">
+      <path d="M 267.24 337.92 
+L 267.24 246.72 
+" clip-path="url(#pbb6ef22b66)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_13">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="267.24" y="349.777422" transform="rotate(-0 267.24 349.777422)">25%</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_17">
+      <path d="M 412.44 337.92 
+L 412.44 246.72 
+" clip-path="url(#pbb6ef22b66)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18"/>
+     <g id="text_14">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="412.44" y="349.777422" transform="rotate(-0 412.44 349.777422)">50%</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_19">
+      <path d="M 557.64 337.92 
+L 557.64 246.72 
+" clip-path="url(#pbb6ef22b66)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20"/>
+     <g id="text_15">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="557.64" y="349.777422" transform="rotate(-0 557.64 349.777422)">75%</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_21">
+      <path d="M 702.84 337.92 
+L 702.84 246.72 
+" clip-path="url(#pbb6ef22b66)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_22"/>
+     <g id="text_16">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="702.84" y="349.777422" transform="rotate(-0 702.84 349.777422)">100%</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_3">
+     <g id="line2d_23"/>
+     <g id="text_17">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #435d72" x="118.54" y="276.673054" transform="rotate(-0 118.54 276.673054)">Conventional</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_24"/>
+     <g id="text_18">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #435d72" x="118.54" y="316.325228" transform="rotate(-0 118.54 316.325228)">Model selection</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 122.04 281.613913 
+L 448.74 281.613913 
+L 448.74 263.373913 
+L 122.04 263.373913 
+z
+" clip-path="url(#pbb6ef22b66)" style="fill: #9bafc3"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 122.04 321.266087 
+L 630.24 321.266087 
+L 630.24 303.026087 
+L 122.04 303.026087 
+z
+" clip-path="url(#pbb6ef22b66)" style="fill: #176d79"/>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182d40" x="455.7096" y="275.611101" transform="rotate(-0 455.7096 275.611101)">18/32</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182d40" x="637.2096" y="315.263274" transform="rotate(-0 637.2096 315.263274)">28/32</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #435d72" x="122.04" y="240.336" transform="rotate(-0 122.04 240.336)">Synthetic NAICS cases · correct code or required review</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182d40" x="122.04" y="221.72" transform="rotate(-0 122.04 221.72)">Establishment description → industry code</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_8">
+    <path d="M 122.04 511.2 
+L 731.88 511.2 
+L 731.88 420 
+L 122.04 420 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_11">
+     <g id="line2d_25">
+      <path d="M 122.04 511.2 
+L 122.04 420 
+" clip-path="url(#p21532cb763)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_26"/>
+     <g id="text_23">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="122.04" y="523.057422" transform="rotate(-0 122.04 523.057422)">0%</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_27">
+      <path d="M 267.24 511.2 
+L 267.24 420 
+" clip-path="url(#p21532cb763)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_28"/>
+     <g id="text_24">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="267.24" y="523.057422" transform="rotate(-0 267.24 523.057422)">25%</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_29">
+      <path d="M 412.44 511.2 
+L 412.44 420 
+" clip-path="url(#p21532cb763)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_30"/>
+     <g id="text_25">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="412.44" y="523.057422" transform="rotate(-0 412.44 523.057422)">50%</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_31">
+      <path d="M 557.64 511.2 
+L 557.64 420 
+" clip-path="url(#p21532cb763)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_32"/>
+     <g id="text_26">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="557.64" y="523.057422" transform="rotate(-0 557.64 523.057422)">75%</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_33">
+      <path d="M 702.84 511.2 
+L 702.84 420 
+" clip-path="url(#p21532cb763)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_34"/>
+     <g id="text_27">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #435d72" x="702.84" y="523.057422" transform="rotate(-0 702.84 523.057422)">100%</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_5">
+     <g id="line2d_35"/>
+     <g id="text_28">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #435d72" x="118.54" y="449.953054" transform="rotate(-0 118.54 449.953054)">Conventional</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_36"/>
+     <g id="text_29">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #435d72" x="118.54" y="489.605228" transform="rotate(-0 118.54 489.605228)">Model selection</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 122.04 454.893913 
+L 539.49 454.893913 
+L 539.49 436.653913 
+L 122.04 436.653913 
+z
+" clip-path="url(#p21532cb763)" style="fill: #9bafc3"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 122.04 494.546087 
+L 612.09 494.546087 
+L 612.09 476.306087 
+L 122.04 476.306087 
+z
+" clip-path="url(#p21532cb763)" style="fill: #176d79"/>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182d40" x="546.4596" y="448.891101" transform="rotate(-0 546.4596 448.891101)">23/32</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182d40" x="619.0596" y="488.543274" transform="rotate(-0 619.0596 488.543274)">27/32</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #435d72" x="122.04" y="413.616" transform="rotate(-0 122.04 413.616)">Synthetic NOC cases · correct code or required review</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182d40" x="122.04" y="395" transform="rotate(-0 122.04 395)">Job description → occupation code</text>
+   </g>
+  </g>
+  <g id="text_34">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182d40" x="7.2" y="20.877187" transform="rotate(-0 7.2 20.877187)">Model selection improved agreement on three fixed tests</text>
+  </g>
+  <g id="text_35">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #435d72" transform="translate(7.2 556.68)">Read each comparison within its task. Synthetic cases do not estimate operational coding accuracy.</text>
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #435d72" transform="translate(7.2 571.68)">Affiliation agreement includes review-flagged outputs; it is not an automatic-acceptance accuracy.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd4ac0974bc">
+   <rect x="122.04" y="73.44" width="609.84" height="91.2"/>
+  </clipPath>
+  <clipPath id="pbb6ef22b66">
+   <rect x="122.04" y="246.72" width="609.84" height="91.2"/>
+  </clipPath>
+  <clipPath id="p21532cb763">
+   <rect x="122.04" y="420" width="609.84" height="91.2"/>
+  </clipPath>
+ </defs>
+</svg>

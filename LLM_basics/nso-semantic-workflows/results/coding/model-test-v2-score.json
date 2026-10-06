@@ -1,0 +1,2881 @@
+{
+  "rows": [
+    {
+      "id": "naics-nursery-01",
+      "scheme": "naics",
+      "family": "nursery",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "111421",
+        "compatible_codes": [
+          "111421"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "111421",
+        "compatible_codes": [
+          "111421"
+        ],
+        "evidence_quotes": [
+          "raising young maples and shrubs on our own land",
+          "The plants leave us well before ten years."
+        ],
+        "missing_information": null,
+        "reason": "The establishment grows trees and shrubs and sells its own stock; the description explicitly states the plants leave before ten years. This supports nursery and tree production (111421), whose definition covers growing nursery products and trees with a typical growth cycle of less than ten years. Retailing nursery products primarily purchased from others is excluded from 444240, and the description says the stock is raised on the establishment's own land.",
+        "candidate_codes": [
+          "561730",
+          "444240",
+          "444140",
+          "441340",
+          "444180",
+          "113110",
+          "111421",
+          "459410",
+          "449129",
+          "456199"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-nursery-02",
+      "scheme": "naics",
+      "family": "nursery",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "444240",
+        "compatible_codes": [
+          "444240"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "444240",
+        "compatible_codes": [
+          "444240"
+        ],
+        "evidence_quotes": [
+          "We sell young trees and shrubs to people for their gardens.",
+          "Every plant arrives ready to sell from outside growers; we do no growing."
+        ],
+        "missing_information": null,
+        "reason": "The establishment retails trees and shrubs grown elsewhere and explicitly does no growing, matching 444240. The growing-and-retailing alternative is not supported.",
+        "candidate_codes": [
+          "624110",
+          "111421",
+          "561730",
+          "444240",
+          "813410",
+          "458112",
+          "115110",
+          "712130",
+          "813910",
+          "111994"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-nursery-03",
+      "scheme": "naics",
+      "family": "nursery",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "111421",
+        "compatible_codes": [
+          "111421"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "111421",
+        "compatible_codes": [
+          "111421"
+        ],
+        "evidence_quotes": [
+          "we have propagated and raised here",
+          "we sell the young stock rather than holding trees for a decade"
+        ],
+        "missing_information": null,
+        "reason": "The establishment grows nursery stock and sells its own production. Code 111421 covers growing nursery products and trees with a typical growth cycle of less than ten years; the description explicitly distinguishes the young stock from trees held for a decade. Code 444240 is excluded because it covers retailing products predominantly grown elsewhere.",
+        "candidate_codes": [
+          "444240",
+          "561730",
+          "316110",
+          "811411",
+          "111421",
+          "417110",
+          "311814",
+          "813410",
+          "561740",
+          "611430"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-nursery-04",
+      "scheme": "naics",
+      "family": "nursery",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "111421",
+          "444240"
+        ],
+        "missing_discriminator": "whether the nursery stock is grown here or purchased for resale"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "444240",
+          "111421"
+        ],
+        "evidence_quotes": [
+          "All our sales are young trees and shrubs to household gardeners.",
+          "The return does not say whether we raise the stock ourselves or buy ready-grown stock for resale."
+        ],
+        "missing_information": "Whether the establishment grows the trees and shrubs it sells or purchases ready-grown stock for resale.",
+        "reason": "The description establishes retail sales of trees and shrubs but explicitly leaves their source unresolved. Retailing nursery products grown elsewhere supports 444240; growing nursery products and trees supports 111421. The evidence does not distinguish between these classes.",
+        "candidate_codes": [
+          "561730",
+          "444240",
+          "111421",
+          "624110",
+          "115110",
+          "813410",
+          "414220",
+          "337123",
+          "449129",
+          "444140"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-bakery-01",
+      "scheme": "naics",
+      "family": "bakery",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "311811",
+        "compatible_codes": [
+          "311811"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "311811",
+        "compatible_codes": [
+          "311811"
+        ],
+        "evidence_quotes": [
+          "We mix flour into dough and bake loaves in this shop.",
+          "People buy the bread to take home; there is no service for eating it here",
+          "we do not buy ready-made dough."
+        ],
+        "missing_information": null,
+        "reason": "The description says the establishment bakes bread from flour on the premises and sells it for consumption off the premises, not for immediate consumption. This matches 311811. The exclusion for 311814 applies to bakery products manufactured other than for retail sale, while the description specifies retail sales to customers.",
+        "candidate_codes": [
+          "812990",
+          "311824",
+          "311211",
+          "311811",
+          "311814",
+          "913110",
+          "624110",
+          "311990",
+          "333248",
+          "522291"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-bakery-02",
+      "scheme": "naics",
+      "family": "bakery",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "445291",
+        "compatible_codes": [
+          "445291"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "445291",
+        "compatible_codes": [
+          "445291"
+        ],
+        "evidence_quotes": [
+          "We sell finished loaves delivered by other bakeries.",
+          "Nothing is baked here",
+          "customers take their purchases home rather than eat them in the shop."
+        ],
+        "missing_information": null,
+        "reason": "The establishment retails baked goods that are not baked on the premises and are not for immediate consumption, matching 445291.",
+        "candidate_codes": [
+          "311814",
+          "445291",
+          "311811",
+          "457211",
+          "457219",
+          "321999",
+          "313310",
+          "311990",
+          "315120",
+          "416210"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-bakery-03",
+      "scheme": "naics",
+      "family": "bakery",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "311811",
+        "compatible_codes": [
+          "311811"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "311811",
+        "compatible_codes": [
+          "311811"
+        ],
+        "evidence_quotes": [
+          "All of our bread starts as flour in our own kitchen",
+          "becomes dough, and is baked here",
+          "for customers to carry home"
+        ],
+        "missing_information": null,
+        "reason": "The description supports bakery products made from flour on the premises and sold to the general public for consumption off the premises, matching 311811. It does not describe prepared meals or immediate consumption.",
+        "candidate_codes": [
+          "311824",
+          "311211",
+          "445291",
+          "337110",
+          "311814",
+          "333248",
+          "414390",
+          "449129",
+          "722512",
+          "311811"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-bakery-04",
+      "scheme": "naics",
+      "family": "bakery",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "311811",
+          "445291"
+        ],
+        "missing_discriminator": "whether the bread is made from flour here or bought already baked"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "311811",
+          "445291"
+        ],
+        "evidence_quotes": [
+          "This shop sells loaves for people to take home.",
+          "The return omits whether it makes and bakes them from flour here or buys already-baked loaves from elsewhere."
+        ],
+        "missing_information": "Whether the shop bakes the loaves on the premises from flour or retails loaves baked elsewhere.",
+        "reason": "The description establishes retail sale for consumption off the premises, but leaves the decisive production fact unstated. Baking on premises from flour supports 311811; retailing baked goods not baked on the premises supports 445291. The evidence does not uniquely support either class.",
+        "candidate_codes": [
+          "812990",
+          "722512",
+          "311814",
+          "311811",
+          "445291",
+          "313240",
+          "311824",
+          "311211",
+          "313110",
+          "459310"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-accounting-services-01",
+      "scheme": "naics",
+      "family": "accounting-services",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "541212",
+        "compatible_codes": [
+          "541212"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "541212",
+        "compatible_codes": [
+          "541212"
+        ],
+        "evidence_quotes": [
+          "audit their accounting records",
+          "prepare management accounting reports",
+          "advise on their accounting systems",
+          "This is our principal service."
+        ],
+        "missing_information": null,
+        "reason": "The establishment's stated principal service is a range of accounting services, including auditing accounting records, preparing management accounting reports, and advising on accounting systems. This matches NAICS Canada 2022 V1.0 code 541212, Offices of accountants.",
+        "candidate_codes": [
+          "541212",
+          "541215",
+          "417910",
+          "459410",
+          "541213",
+          "561330",
+          "541611",
+          "711412",
+          "561490",
+          "523930"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-accounting-services-02",
+      "scheme": "naics",
+      "family": "accounting-services",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "541215",
+        "compatible_codes": [
+          "541215"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "541215",
+        "compatible_codes": [
+          "541215"
+        ],
+        "evidence_quotes": [
+          "billing and payroll processing are the entire service",
+          "We offer neither audits nor accounting reports"
+        ],
+        "missing_information": null,
+        "reason": "The establishment provides billing and payroll processing, and the description explicitly excludes audits and accounting reports. This supports NAICS Canada 2022 V1.0 code 541215, Bookkeeping, payroll and related services.",
+        "candidate_codes": [
+          "541215",
+          "541213",
+          "522329",
+          "521110",
+          "513130",
+          "523120",
+          "418320",
+          "311224",
+          "561410",
+          "517410"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-accounting-services-03",
+      "scheme": "naics",
+      "family": "accounting-services",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "541212",
+        "compatible_codes": [
+          "541212"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "541212"
+        ],
+        "evidence_quotes": [
+          "reviewing the accuracy of client accounts",
+          "conducting audits",
+          "preparing accounting reports for management"
+        ],
+        "missing_information": null,
+        "reason": "The description supports accounting and auditing services, which fit 541212. However, it describes the work performed, not whether the establishment's primary activity is providing a range of accounting services; the supplied evidence does not establish that establishment-level fact needed to assign a NAICS industry class.",
+        "candidate_codes": [
+          "541212",
+          "541215",
+          "531320",
+          "561320",
+          "561330",
+          "561110",
+          "417910",
+          "459410",
+          "541213",
+          "523920"
+        ]
+      },
+      "correct": false,
+      "baseline_correct": true,
+      "model_correct": false,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-accounting-services-04",
+      "scheme": "naics",
+      "family": "accounting-services",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "541212",
+          "541215"
+        ],
+        "missing_discriminator": "whether the firm supplies accounting and auditing services or only transaction bookkeeping and payroll"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "541215",
+          "541212"
+        ],
+        "evidence_quotes": [
+          "This firm handles client financial records.",
+          "The return leaves unresolved whether it supplies accounting and audit reports or restricts itself to transaction books, billing and payroll."
+        ],
+        "missing_information": "Whether the firm provides accounting services, such as preparing financial statements or management accounting reports, or reviews and audits accounting records, versus providing only bookkeeping, billing, or payroll processing.",
+        "reason": "The description explicitly leaves unresolved the distinction between 541215, which does not provide accounting services, and 541212, which provides a range of accounting services. The supplied evidence does not support a unique class.",
+        "candidate_codes": [
+          "541215",
+          "541212",
+          "541213",
+          "459410",
+          "522329",
+          "561330",
+          "526989",
+          "711412",
+          "561110",
+          "522321"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-building-cleaning-01",
+      "scheme": "naics",
+      "family": "building-cleaning",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "561721",
+        "compatible_codes": [
+          "561721"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "561721",
+        "compatible_codes": [
+          "561721"
+        ],
+        "evidence_quotes": [
+          "We wash the windows of buildings",
+          "offer no other cleaning service"
+        ],
+        "missing_information": null,
+        "reason": "The establishment washes building windows and offers no other cleaning service. This uniquely matches the class for establishments primarily engaged in cleaning windows.",
+        "candidate_codes": [
+          "561721",
+          "561799",
+          "561722",
+          "325610",
+          "812310",
+          "444180",
+          "812320",
+          "562910",
+          "115110",
+          "488490"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-building-cleaning-02",
+      "scheme": "naics",
+      "family": "building-cleaning",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "561722",
+        "compatible_codes": [
+          "561722"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [],
+        "evidence_quotes": [
+          "We clean office rooms and their toilets after working hours.",
+          "We do not wash windows or offer specialist carpet cleaning."
+        ],
+        "missing_information": "The shortlist does not include a class for routine office cleaning services.",
+        "reason": "The description is for cleaning office rooms and toilets, not manufacturing, lodging, construction, laundry supply, food service, or gambling. None of the supplied candidates uniquely classifies this activity.",
+        "candidate_codes": [
+          "325620",
+          "713299",
+          "721112",
+          "721310",
+          "721114",
+          "238990",
+          "326191",
+          "812330",
+          "332999",
+          "722511"
+        ]
+      },
+      "correct": false,
+      "baseline_correct": false,
+      "model_correct": false,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-building-cleaning-03",
+      "scheme": "naics",
+      "family": "building-cleaning",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "561721",
+        "compatible_codes": [
+          "561721"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "561721",
+        "compatible_codes": [
+          "561721"
+        ],
+        "evidence_quotes": [
+          "Our crews clean only panes of building windows; they do not clean rooms or wash carpets."
+        ],
+        "missing_information": null,
+        "reason": "The description explicitly identifies cleaning building-window panes, which matches the supplied definition of window cleaning services. It also distinguishes the activity from room cleaning; no unresolved alternative is supported.",
+        "candidate_codes": [
+          "561721",
+          "444180",
+          "561799",
+          "238150",
+          "416390",
+          "236210",
+          "326196",
+          "321911",
+          "332321",
+          "238350"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-building-cleaning-04",
+      "scheme": "naics",
+      "family": "building-cleaning",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "561721",
+          "561722"
+        ],
+        "missing_discriminator": "whether the cleaning business specializes in windows or general building interiors"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "561721",
+          "561722"
+        ],
+        "evidence_quotes": [
+          "window-only work",
+          "general office-interior cleaning without windows",
+          "the incomplete return does not specify which"
+        ],
+        "missing_information": "Whether the contract is for window cleaning only or for general office-interior cleaning without windows.",
+        "reason": "The description explicitly leaves the type of cleaning unresolved. The supplied evidence supports 561721 for window cleaning and 561722 for office-interior janitorial cleaning, so no unique class can be selected.",
+        "candidate_codes": [
+          "561721",
+          "561722",
+          "325610",
+          "561799",
+          "326196",
+          "561791",
+          "561740",
+          "321911",
+          "332321",
+          "812320"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-animal-care-01",
+      "scheme": "naics",
+      "family": "animal-care",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "541940",
+        "compatible_codes": [
+          "541940"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "541940",
+        "compatible_codes": [
+          "541940"
+        ],
+        "evidence_quotes": [
+          "Licensed vets at our clinic diagnose illnesses in cats and dogs, prescribe treatment and perform animal operations.",
+          "This medical practice is our main activity."
+        ],
+        "missing_information": null,
+        "reason": "The establishment's main activity is veterinary medical practice by licensed vets, including diagnosis, treatment, and operations on animals. This uniquely supports 541940, Veterinary services.",
+        "candidate_codes": [
+          "622210",
+          "311119",
+          "621110",
+          "562210",
+          "622111",
+          "622112",
+          "541940",
+          "488310",
+          "621510",
+          "411110"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-animal-care-02",
+      "scheme": "naics",
+      "family": "animal-care",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "812910",
+        "compatible_codes": [
+          "812910"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [],
+        "evidence_quotes": [
+          "We look after dogs and cats while their owners are away",
+          "wash and trim their coats",
+          "We neither breed pets nor provide medical treatment."
+        ],
+        "missing_information": "The shortlist does not include a class for pet boarding or grooming services.",
+        "reason": "The description is for caring for and grooming pets, not raising animals or manufacturing animal food. The supplied candidates do not establish a matching NAICS Canada 2022 class, so no candidate code is supported.",
+        "candidate_codes": [
+          "311119",
+          "112999",
+          "722511",
+          "457110",
+          "457120",
+          "711120",
+          "711111",
+          "485310",
+          "325999",
+          "336360"
+        ]
+      },
+      "correct": false,
+      "baseline_correct": false,
+      "model_correct": false,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-animal-care-03",
+      "scheme": "naics",
+      "family": "animal-care",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "812910",
+        "compatible_codes": [
+          "812910"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "812910",
+        "compatible_codes": [
+          "812910"
+        ],
+        "evidence_quotes": [
+          "Owners leave cats and dogs with us for overnight care and coat grooming.",
+          "We have no veterinary practice and do not breed animals."
+        ],
+        "missing_information": null,
+        "reason": "The establishment provides overnight pet care and grooming, matching the supplied definition of pet care services including grooming and boarding. The description explicitly excludes veterinary practice and animal breeding, so the supplied alternatives for veterinary services and animal production do not apply.",
+        "candidate_codes": [
+          "311119",
+          "812910",
+          "112999",
+          "611620",
+          "315210",
+          "315990",
+          "713999",
+          "721213",
+          "411110",
+          "321999"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-animal-care-04",
+      "scheme": "naics",
+      "family": "animal-care",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "541940",
+          "812910"
+        ],
+        "missing_discriminator": "whether the establishment provides veterinary medical treatment or non-medical pet care"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "812910",
+          "541940"
+        ],
+        "evidence_quotes": [
+          "serves pet cats and dogs",
+          "whether its activity is licensed veterinary treatment or only grooming and boarding"
+        ],
+        "missing_information": "Whether the establishment provides veterinary medicine, dentistry, or surgery through licensed veterinary practitioners, or instead provides only grooming and boarding.",
+        "reason": "The description explicitly leaves unresolved the deciding activity. Grooming and boarding support 812910, while licensed veterinary practice supports 541940; the supplied evidence does not establish which applies.",
+        "candidate_codes": [
+          "812910",
+          "541940",
+          "721310",
+          "531212",
+          "512250",
+          "311119",
+          "221320",
+          "459910",
+          "622210",
+          "562210"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-laundry-01",
+      "scheme": "naics",
+      "family": "laundry",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "812310",
+        "compatible_codes": [
+          "812310"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "812310",
+        "compatible_codes": [
+          "812310"
+        ],
+        "evidence_quotes": [
+          "Members of the public put coins into our washing machines and operate the machines themselves.",
+          "Providing those self-service facilities is our whole activity."
+        ],
+        "missing_information": null,
+        "reason": "The establishment provides coin-operated, self-service laundry facilities for public use, matching the supplied definition of 812310. The description identifies a laundry service, not manufacturing or wholesaling washing machines.",
+        "candidate_codes": [
+          "414220",
+          "333310",
+          "812310",
+          "333990",
+          "335229",
+          "811192",
+          "417920",
+          "488519",
+          "449211",
+          "623310"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-laundry-02",
+      "scheme": "naics",
+      "family": "laundry",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "812320",
+        "compatible_codes": [
+          "812320"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [],
+        "evidence_quotes": [
+          "Customers leave their own clothes and sheets with our staff to wash and press.",
+          "We supply no rented linen, and customers do not run the machines themselves."
+        ],
+        "missing_information": "The shortlist contains no laundry or dry-cleaning services industry code, which is needed to classify the described activity.",
+        "reason": "The description indicates staff-operated washing and pressing of customers\u2019 own items, but none of the supplied candidates covers that activity. The supplied evidence does not support a unique candidate code.",
+        "candidate_codes": [
+          "711120",
+          "711311",
+          "711111",
+          "711319",
+          "321999",
+          "449121",
+          "326114",
+          "325999",
+          "517310",
+          "721111"
+        ]
+      },
+      "correct": false,
+      "baseline_correct": false,
+      "model_correct": false,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-laundry-03",
+      "scheme": "naics",
+      "family": "laundry",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "812310",
+        "compatible_codes": [
+          "812310"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "812310",
+        "compatible_codes": [
+          "812310"
+        ],
+        "evidence_quotes": [
+          "People bring their washing, feed coins into the machines and do the washing themselves.",
+          "We only provide the self-service facilities."
+        ],
+        "missing_information": null,
+        "reason": "The description explicitly states that customers do the washing themselves and the establishment provides self-service facilities, matching the supplied definition of coin-operated laundries and dry cleaners.",
+        "candidate_codes": [
+          "811192",
+          "333310",
+          "414220",
+          "812310",
+          "623310",
+          "333990",
+          "335229",
+          "417920",
+          "449211",
+          "711120"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-laundry-04",
+      "scheme": "naics",
+      "family": "laundry",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "812310",
+          "812320"
+        ],
+        "missing_discriminator": "whether customers operate coin machines themselves or staff wash the customers items"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [],
+        "evidence_quotes": [
+          "The establishment washes customers own clothing",
+          "the return omits whether customers operate coin machines themselves or employees wash and press the items for them"
+        ],
+        "missing_information": "Whether customers operate coin machines themselves or employees wash and press the clothing for them; the relevant laundry-service class is not among the supplied candidates.",
+        "reason": "The description concerns washing customers\u2019 clothing, not motor vehicles, so candidate 811192 does not fit. The stated distinction between customer-operated coin machines and employee-provided washing and pressing is unresolved, and no supplied candidate represents the relevant laundry classes.",
+        "candidate_codes": [
+          "811192",
+          "485410",
+          "513140",
+          "522190",
+          "331317",
+          "561320",
+          "722512",
+          "561330",
+          "417920",
+          "458119"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-glass-manufacturing-01",
+      "scheme": "naics",
+      "family": "glass-manufacturing",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "327214",
+        "compatible_codes": [
+          "327214"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "327214",
+        "compatible_codes": [
+          "327214"
+        ],
+        "evidence_quotes": [
+          "manufacture glass by melting sand together with cullet",
+          "making the glass itself rather than shaping glass bought from another producer"
+        ],
+        "missing_information": null,
+        "reason": "The description explicitly says the establishment makes glass from sand and cullet, matching 327214. It distinguishes this activity from shaping purchased glass, so 327215 does not apply.",
+        "candidate_codes": [
+          "327214",
+          "212323",
+          "327215",
+          "333990",
+          "322220",
+          "238150",
+          "332420",
+          "332319",
+          "327320",
+          "238210"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-glass-manufacturing-02",
+      "scheme": "naics",
+      "family": "glass-manufacturing",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "327215",
+        "compatible_codes": [
+          "327215"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "327215",
+        "compatible_codes": [
+          "327215"
+        ],
+        "evidence_quotes": [
+          "We buy glass and turn it into shaped articles by reheating, pressing and blowing it.",
+          "We do not produce glass from sand and cullet."
+        ],
+        "missing_information": null,
+        "reason": "The description explicitly says the establishment buys glass and shapes it by reheating, pressing and blowing. Code 327215 covers establishments that remelt, press, blow or otherwise shape purchased glass. The description also rules out making glass from sand and cullet, the activity covered by 327214.",
+        "candidate_codes": [
+          "711511",
+          "327215",
+          "322130",
+          "322121",
+          "238150",
+          "327214",
+          "333248",
+          "321919",
+          "321999",
+          "334511"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-glass-manufacturing-03",
+      "scheme": "naics",
+      "family": "glass-manufacturing",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "327215",
+        "compatible_codes": [
+          "327215"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "327215",
+        "compatible_codes": [
+          "327215"
+        ],
+        "evidence_quotes": [
+          "Our input is purchased glass; we soften it and press or blow it into finished shapes.",
+          "We do not make raw glass from mineral ingredients."
+        ],
+        "missing_information": null,
+        "reason": "The establishment shapes purchased glass by pressing or blowing it, matching 327215. The description explicitly says it does not make raw glass, distinguishing it from glass manufacturing (327214).",
+        "candidate_codes": [
+          "327215",
+          "416210",
+          "322130",
+          "322121",
+          "332113",
+          "313310",
+          "327214",
+          "331420",
+          "518210",
+          "332118"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-glass-manufacturing-04",
+      "scheme": "naics",
+      "family": "glass-manufacturing",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "327214",
+          "327215"
+        ],
+        "missing_discriminator": "whether production makes glass from raw ingredients or shapes purchased glass"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "327214",
+          "327215"
+        ],
+        "evidence_quotes": [
+          "The factory makes glass articles.",
+          "The return does not establish whether it makes glass from sand and cullet or only shapes purchased glass."
+        ],
+        "missing_information": "Whether the factory makes glass from sand and cullet or shapes purchased glass.",
+        "reason": "The description leaves unresolved the deciding production method: 327214 covers making glass from sand and cullet, while 327215 covers shaping purchased glass. The supplied evidence does not support a unique class.",
+        "candidate_codes": [
+          "327214",
+          "336410",
+          "327215",
+          "336510",
+          "238150",
+          "321999",
+          "811122",
+          "314990",
+          "238140",
+          "458119"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-printing-01",
+      "scheme": "naics",
+      "family": "printing",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "323115",
+        "compatible_codes": [
+          "323115"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "323115",
+        "compatible_codes": [
+          "323115"
+        ],
+        "evidence_quotes": [
+          "We print high-resolution graphic posters on computer-controlled inkjet equipment.",
+          "The image reaches the machine as a computer file; this is not office photocopying."
+        ],
+        "missing_information": null,
+        "reason": "The description matches the supplied definition of digital printing: computer-controlled inkjet equipment receives the image as a computer file and produces high-resolution graphical material. The office-photocopying exclusion does not apply.",
+        "candidate_codes": [
+          "323115",
+          "323120",
+          "334110",
+          "418210",
+          "333310",
+          "449212",
+          "611420",
+          "417910",
+          "541920",
+          "325910"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-printing-02",
+      "scheme": "naics",
+      "family": "printing",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "323113",
+        "compatible_codes": [
+          "323113"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "323113",
+        "compatible_codes": [
+          "323113"
+        ],
+        "evidence_quotes": [
+          "commercial paper posters",
+          "pushing ink through silk screens",
+          "cutting stencils",
+          "We do not print textile fabric."
+        ],
+        "missing_information": null,
+        "reason": "The establishment commercially prints paper posters using silk-screen equipment and cuts stencils, matching the definition of commercial screen printing. The textile-fabric exclusion does not apply because the description explicitly says it does not print textile fabric.",
+        "candidate_codes": [
+          "323113",
+          "325910",
+          "339940",
+          "333310",
+          "513190",
+          "333247",
+          "333519",
+          "333990",
+          "238910",
+          "333248"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-printing-03",
+      "scheme": "naics",
+      "family": "printing",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "323115",
+        "compatible_codes": [
+          "323115"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "323115",
+        "compatible_codes": [
+          "323115"
+        ],
+        "evidence_quotes": [
+          "Our poster-printing jobs arrive as digital files",
+          "run through non-impact inkjet equipment",
+          "We are not a walk-in photocopy shop."
+        ],
+        "missing_information": null,
+        "reason": "The description specifies digital files supplied to non-impact inkjet equipment, matching the 323115 definition of digital printing. It also rules out a walk-in photocopy shop; the stated photocopier exclusion does not apply.",
+        "candidate_codes": [
+          "323115",
+          "325910",
+          "323119",
+          "323114",
+          "333248",
+          "334110",
+          "332210",
+          "513190",
+          "334310",
+          "811210"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-printing-04",
+      "scheme": "naics",
+      "family": "printing",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "323115",
+          "323113"
+        ],
+        "missing_discriminator": "whether posters are printed with non-impact digital equipment or silk-screen equipment"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "323113",
+          "323115",
+          "323119"
+        ],
+        "evidence_quotes": [
+          "The establishment commercially prints paper posters.",
+          "The response leaves unresolved whether it uses non-impact computer-file printing or silk screens and stencils."
+        ],
+        "missing_information": "The printing method is unresolved: the description does not establish whether the establishment uses silk-screen equipment or computer-controlled non-impact digital printing. It also does not establish whether another printing method applies.",
+        "reason": "The description supports commercial printing of paper posters, but the stated uncertainty leaves distinct candidate classes unresolved: 323113 covers commercial silk-screen printing, 323115 covers digital printing using computer-file input, and 323119 covers other printing. The supplied evidence does not support a unique class.",
+        "candidate_codes": [
+          "323113",
+          "323114",
+          "323115",
+          "339940",
+          "323120",
+          "513190",
+          "449123",
+          "331317",
+          "331490",
+          "323119"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-accounting-work-01",
+      "scheme": "noc",
+      "family": "accounting-work",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "11100",
+        "compatible_codes": [
+          "11100"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "11100",
+        "compatible_codes": [
+          "11100"
+        ],
+        "evidence_quotes": [
+          "I examine financial records independently against accounting standards and report the results of my audits.",
+          "I am not a department manager."
+        ],
+        "missing_information": null,
+        "reason": "The description explicitly identifies independent examination of financial records against accounting standards and reporting audit results, matching the supplied definition of financial auditors. It also rules out the financial-manager alternative.",
+        "candidate_codes": [
+          "11100",
+          "10010",
+          "22230",
+          "32121",
+          "12200",
+          "14200",
+          "32120",
+          "10019",
+          "11102",
+          "11109"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-accounting-work-02",
+      "scheme": "noc",
+      "family": "accounting-work",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "12200",
+        "compatible_codes": [
+          "12200"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "12200",
+        "compatible_codes": [
+          "12200"
+        ],
+        "evidence_quotes": [
+          "I keep the complete transaction books",
+          "post journal entries",
+          "balance the ledger",
+          "prepare trial balances",
+          "I do not carry out independent financial audits"
+        ],
+        "missing_information": null,
+        "reason": "The described duties directly match NOC 12200's bookkeeping and accounting-technician work, including maintaining books, posting journal entries, and balancing accounts. The description explicitly rules out independent financial audits, and no unresolved alternative in the supplied candidates is supported.",
+        "candidate_codes": [
+          "12200",
+          "64401",
+          "14201",
+          "14200",
+          "11100",
+          "94219",
+          "51110",
+          "74203",
+          "95104",
+          "94132"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-accounting-work-03",
+      "scheme": "noc",
+      "family": "accounting-work",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "11100",
+        "compatible_codes": [
+          "11100"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "11100",
+        "compatible_codes": [
+          "11100"
+        ],
+        "evidence_quotes": [
+          "test whether an establishments financial records comply with accounting standards",
+          "issue findings from the audit",
+          "I do not manage its finance department"
+        ],
+        "missing_information": null,
+        "reason": "The described work examines financial records for compliance with accounting standards and reports audit findings, matching NOC 11100. The description explicitly rules out managing the finance department, so NOC 10010 is not supported.",
+        "candidate_codes": [
+          "11100",
+          "10010",
+          "65202",
+          "14200",
+          "12200",
+          "11102",
+          "10019",
+          "14400",
+          "72410",
+          "64100"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-accounting-work-04",
+      "scheme": "noc",
+      "family": "accounting-work",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "11100",
+          "12200"
+        ],
+        "missing_discriminator": "whether the worker conducts financial audits or maintains transaction books"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "11100",
+          "12200"
+        ],
+        "evidence_quotes": [
+          "handles accounting records",
+          "The incomplete description leaves unresolved whether the role is conducting financial audits or maintaining complete transaction books."
+        ],
+        "missing_information": "Whether the worker conducts financial audits or maintains complete transaction books is explicitly unresolved.",
+        "reason": "The description does not distinguish NOC 11100 financial auditors and accountants from NOC 12200 accounting technicians and bookkeepers. The supplied evidence supports both possibilities, so no unique class can be selected.",
+        "candidate_codes": [
+          "11100",
+          "12200",
+          "10019",
+          "10010",
+          "94129",
+          "14200",
+          "92100",
+          "63102",
+          "94132",
+          "72100"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-animal-clinical-01",
+      "scheme": "noc",
+      "family": "animal-clinical",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "31103",
+        "compatible_codes": [
+          "31103"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "31103",
+        "compatible_codes": [
+          "31103"
+        ],
+        "evidence_quotes": [
+          "I am licensed to practise veterinary medicine.",
+          "I diagnose animal illness, prescribe treatment and perform animal surgery."
+        ],
+        "missing_information": null,
+        "reason": "The description identifies a licensed veterinary medicine practitioner who diagnoses animal illness, prescribes treatment, and performs surgery. These duties match the supplied definition of veterinarians. Code 32104 is excluded because it describes technical support to veterinarians, not the veterinary practitioner described.",
+        "candidate_codes": [
+          "32104",
+          "31103",
+          "31100",
+          "65220",
+          "41200",
+          "31201",
+          "32101",
+          "31102",
+          "31302",
+          "32200"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-animal-clinical-02",
+      "scheme": "noc",
+      "family": "animal-clinical",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "32104",
+        "compatible_codes": [
+          "32104"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "32104",
+        "compatible_codes": [
+          "32104"
+        ],
+        "evidence_quotes": [
+          "I work as an animal-health technician under a veterinarian",
+          "help with treatment",
+          "carry out laboratory tests",
+          "I do not independently diagnose, prescribe or perform surgery."
+        ],
+        "missing_information": null,
+        "reason": "The description identifies an animal-health technician working under a veterinarian and assisting with treatment, which supports NOC 32104. The stated lack of independent diagnosis, prescribing, or surgery is consistent with the distinction from veterinarians (31103).",
+        "candidate_codes": [
+          "32104",
+          "31103",
+          "65220",
+          "22302",
+          "33101",
+          "32109",
+          "22100",
+          "22301",
+          "92101",
+          "32124"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-animal-clinical-03",
+      "scheme": "noc",
+      "family": "animal-clinical",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "31103",
+        "compatible_codes": [
+          "31103"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [],
+        "evidence_quotes": [
+          "As the licensed animal doctor, I determine the illness, choose and prescribe treatment and operate when needed."
+        ],
+        "missing_information": "The shortlist does not include a veterinary occupation code, so the described animal-doctor duties cannot be uniquely classified using the supplied candidates.",
+        "reason": "The description identifies a licensed animal doctor who diagnoses illness, prescribes treatment, and operates. Code 32104 covers technical support to veterinarians, not the veterinarian role. The supplied candidates contain no supported destination for the described occupation.",
+        "candidate_codes": [
+          "32104",
+          "31303",
+          "92101",
+          "32101",
+          "31102",
+          "31302",
+          "63200",
+          "73209",
+          "31110",
+          "32100"
+        ]
+      },
+      "correct": false,
+      "baseline_correct": false,
+      "model_correct": false,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-animal-clinical-04",
+      "scheme": "noc",
+      "family": "animal-clinical",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "31103",
+          "32104"
+        ],
+        "missing_discriminator": "whether the worker is the veterinarian or an animal-health technician assisting the veterinarian"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "31103",
+          "32104"
+        ],
+        "evidence_quotes": [
+          "The clinical worker is either the licensed veterinarian or an animal-health technician assisting one.",
+          "Their exact role and diagnostic authority were not recorded."
+        ],
+        "missing_information": "Whether the worker is the licensed veterinarian or the animal-health technician assisting one is not specified.",
+        "reason": "The description explicitly leaves two distinct roles unresolved. The supplied evidence supports veterinarians under 31103 and animal health technologists and veterinary technicians under 32104; it does not establish which role applies.",
+        "candidate_codes": [
+          "32104",
+          "31103",
+          "65220",
+          "33109",
+          "32101",
+          "31100",
+          "33101",
+          "32123",
+          "41407",
+          "32121"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-school-level-01",
+      "scheme": "noc",
+      "family": "school-level",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "41220",
+        "compatible_codes": [
+          "41220"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "41220",
+        "compatible_codes": [
+          "41220"
+        ],
+        "evidence_quotes": [
+          "I teach academic subjects to classes in a secondary school.",
+          "I am the classroom teacher, not the head or an assistant."
+        ],
+        "missing_information": null,
+        "reason": "The description identifies teaching academic subjects as the classroom teacher in a secondary school, matching NOC 41220. It explicitly rules out the assistant role; being a department head is not required for this class.",
+        "candidate_codes": [
+          "41220",
+          "43100",
+          "41210",
+          "43109",
+          "40021",
+          "41320",
+          "41221",
+          "40020",
+          "41200",
+          "41405"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-school-level-02",
+      "scheme": "noc",
+      "family": "school-level",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "41221",
+        "compatible_codes": [
+          "41221"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "41221",
+        "compatible_codes": [
+          "41221"
+        ],
+        "evidence_quotes": [
+          "I teach basic subjects to elementary-school pupils as their classroom teacher.",
+          "I am neither a principal nor a teaching assistant."
+        ],
+        "missing_information": null,
+        "reason": "The description identifies a classroom teacher teaching basic subjects to elementary-school pupils, matching the supplied definition of elementary school and kindergarten teachers. It also explicitly rules out the principal and teacher-assistant alternatives.",
+        "candidate_codes": [
+          "41221",
+          "43100",
+          "43109",
+          "41220",
+          "40021",
+          "41200",
+          "41210",
+          "41405",
+          "52100",
+          "40012"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-school-level-03",
+      "scheme": "noc",
+      "family": "school-level",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "41220",
+        "compatible_codes": [
+          "41220"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "41220",
+        "compatible_codes": [
+          "41220"
+        ],
+        "evidence_quotes": [
+          "I lead subject lessons as the teacher",
+          "My pupils attend secondary school"
+        ],
+        "missing_information": null,
+        "reason": "The description identifies teaching subject lessons to pupils at a secondary school. This supports NOC 41220, Secondary school teachers. It explicitly rules out the principal and teacher-assistant alternatives.",
+        "candidate_codes": [
+          "41220",
+          "43100",
+          "43109",
+          "40021",
+          "41221",
+          "41405",
+          "52100",
+          "41201",
+          "51122",
+          "40012"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-school-level-04",
+      "scheme": "noc",
+      "family": "school-level",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "41220",
+          "41221"
+        ],
+        "missing_discriminator": "whether the classroom teacher works in secondary or elementary education"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "41220",
+          "41221"
+        ],
+        "evidence_quotes": [
+          "classroom teacher",
+          "The school level was omitted, leaving elementary versus secondary teaching unresolved."
+        ],
+        "missing_information": "Whether the school is elementary or secondary.",
+        "reason": "The description identifies a classroom teacher, but explicitly omits the school level. The supplied NOC definitions distinguish elementary school and kindergarten teachers (41221) from secondary school teachers (41220), so the evidence does not support a unique class.",
+        "candidate_codes": [
+          "43100",
+          "41201",
+          "41220",
+          "40021",
+          "41221",
+          "43109",
+          "52100",
+          "45100",
+          "41210",
+          "40020"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-electrician-01",
+      "scheme": "noc",
+      "family": "electrician",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "72200",
+        "compatible_codes": [
+          "72200"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "72200",
+        "compatible_codes": [
+          "72200"
+        ],
+        "evidence_quotes": [
+          "I install and repair the wiring, lights and circuits of homes and offices.",
+          "I do not supervise others or work on the electricity grid."
+        ],
+        "missing_information": null,
+        "reason": "The described work is installing and repairing wiring, lights and circuits in homes and offices, which supports electricians (except industrial and power system), NOC 72200. The description rules out supervisory work and grid work; no supplied evidence indicates industrial electrical work.",
+        "candidate_codes": [
+          "72205",
+          "94201",
+          "65329",
+          "73110",
+          "22233",
+          "72200",
+          "72422",
+          "72201",
+          "22310",
+          "75119"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-electrician-02",
+      "scheme": "noc",
+      "family": "electrician",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "72201",
+        "compatible_codes": [
+          "72201"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "failed",
+        "code": null,
+        "candidate_codes": [
+          "94203",
+          "21310",
+          "94205",
+          "83101",
+          "72020",
+          "72011",
+          "94202",
+          "72400",
+          "22310",
+          "92021"
+        ]
+      },
+      "correct": false,
+      "baseline_correct": false,
+      "model_correct": false,
+      "status": "failed",
+      "missing_response": false
+    },
+    {
+      "id": "noc-electrician-03",
+      "scheme": "noc",
+      "family": "electrician",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "72200",
+        "compatible_codes": [
+          "72200"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "72200",
+        "compatible_codes": [
+          "72200"
+        ],
+        "evidence_quotes": [
+          "fit and repair circuits and lighting wiring",
+          "I do not supervise crews or maintain grid equipment"
+        ],
+        "missing_information": null,
+        "reason": "The description identifies fitting and repairing circuits and lighting wiring in homes and office buildings, consistent with electricians who install and repair electrical wiring and related equipment in buildings. It explicitly rules out supervision and grid equipment work. No other supplied candidate uniquely fits these duties.",
+        "candidate_codes": [
+          "22233",
+          "72205",
+          "65310",
+          "70011",
+          "72200",
+          "94201",
+          "52119",
+          "72422",
+          "22310",
+          "73111"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-electrician-04",
+      "scheme": "noc",
+      "family": "electrician",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "72200",
+          "72201"
+        ],
+        "missing_discriminator": "whether electrical work concerns building circuits or industrial machinery and controls"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "72200",
+          "72201"
+        ],
+        "evidence_quotes": [
+          "The worker is an electrician, not a supervisor or grid worker.",
+          "The return does not specify building wiring work versus industrial machinery and electrical controls."
+        ],
+        "missing_information": "Whether the worker installs, tests, troubleshoots or repairs electrical wiring and equipment in buildings and other structures, or industrial electrical equipment and associated controls.",
+        "reason": "The description identifies an electrician but explicitly leaves unresolved the distinction between electricians (except industrial and power system) (72200) and industrial electricians (72201).",
+        "candidate_codes": [
+          "72201",
+          "72202",
+          "72200",
+          "72422",
+          "72011",
+          "75119",
+          "75110",
+          "22313",
+          "52119",
+          "72203"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-vehicle-repair-01",
+      "scheme": "noc",
+      "family": "vehicle-repair",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "72410",
+        "compatible_codes": [
+          "72410"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "failed",
+        "code": null,
+        "candidate_codes": [
+          "94200",
+          "72410",
+          "74203",
+          "43204",
+          "22231",
+          "72020",
+          "72429",
+          "72411",
+          "92023",
+          "92020"
+        ]
+      },
+      "correct": false,
+      "baseline_correct": false,
+      "model_correct": false,
+      "status": "failed",
+      "missing_response": false
+    },
+    {
+      "id": "noc-vehicle-repair-02",
+      "scheme": "noc",
+      "family": "vehicle-repair",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "72411",
+        "compatible_codes": [
+          "72411"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "72411",
+        "compatible_codes": [
+          "72411"
+        ],
+        "evidence_quotes": [
+          "I straighten and replace crash-damaged car panels and repaint vehicle bodies.",
+          "I do not service engines or supervise other workers."
+        ],
+        "missing_information": null,
+        "reason": "The described work is repairing crash-damaged vehicle body panels and repainting vehicle bodies, which matches the supplied definition of auto body collision and refinishing technicians. The description excludes engine servicing and supervision, and no unresolved alternative among the supplied candidates fits these duties.",
+        "candidate_codes": [
+          "72403",
+          "73101",
+          "72411",
+          "94200",
+          "42101",
+          "73100",
+          "94105",
+          "73111",
+          "72205",
+          "94100"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-vehicle-repair-03",
+      "scheme": "noc",
+      "family": "vehicle-repair",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "72411",
+        "compatible_codes": [
+          "72411"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "72411",
+        "compatible_codes": [
+          "72411"
+        ],
+        "evidence_quotes": [
+          "After a collision I restore the damaged body panels and refinish the paint.",
+          "Mechanical engine repairs and supervision are outside my role."
+        ],
+        "missing_information": null,
+        "reason": "The described work restores damaged vehicle body panels after a collision and refinishes paint, matching NOC 72411. The description explicitly excludes mechanical engine repairs and supervision, so the corresponding alternatives are not supported.",
+        "candidate_codes": [
+          "72411",
+          "63221",
+          "21301",
+          "94129",
+          "31110",
+          "72410",
+          "70012",
+          "94204",
+          "72020",
+          "22310"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-vehicle-repair-04",
+      "scheme": "noc",
+      "family": "vehicle-repair",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "72410",
+          "72411"
+        ],
+        "missing_discriminator": "whether vehicle repair concerns mechanical systems or damaged body panels"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "72410",
+          "72411"
+        ],
+        "evidence_quotes": [
+          "repairs motor vehicles without supervising",
+          "The report omits whether this means mechanical engines and brakes or collision-damaged body panels."
+        ],
+        "missing_information": "Whether the repairs concern mechanical systems and components or collision-damaged body parts and panels.",
+        "reason": "The description explicitly leaves unresolved whether the work is mechanical repair (72410) or auto body collision repair (72411). It provides no basis to choose uniquely between them.",
+        "candidate_codes": [
+          "72411",
+          "72410",
+          "94200",
+          "43109",
+          "72020",
+          "92020",
+          "92023",
+          "14401",
+          "22231",
+          "75119"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-web-01",
+      "scheme": "noc",
+      "family": "web",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "21233",
+        "compatible_codes": [
+          "21233"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "21233",
+        "compatible_codes": [
+          "21233"
+        ],
+        "evidence_quotes": [
+          "I design how websites look and how their pages are laid out and used.",
+          "I do not write or test the program code."
+        ],
+        "missing_information": null,
+        "reason": "The description identifies website visual presentation, layout, and usability design, matching NOC 21233. It explicitly excludes writing or testing program code, and the supplied evidence distinguishes web designers from web developers and programmers.",
+        "candidate_codes": [
+          "21233",
+          "21234",
+          "52120",
+          "73202",
+          "94151",
+          "55109",
+          "32124",
+          "94112",
+          "53125",
+          "14112"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-web-02",
+      "scheme": "noc",
+      "family": "web",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "21234",
+        "compatible_codes": [
+          "21234"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "21234",
+        "compatible_codes": [
+          "21234"
+        ],
+        "evidence_quotes": [
+          "I write, change, integrate and test the code behind websites and web applications.",
+          "My main work is programming functionality, not drawing visual layouts."
+        ],
+        "missing_information": null,
+        "reason": "The description specifically identifies programming code for websites and web applications, matching NOC 21234. The stated focus on programming functionality rather than visual layouts distinguishes this from web design (21233).",
+        "candidate_codes": [
+          "21234",
+          "21230",
+          "21232",
+          "21233",
+          "22220",
+          "72302",
+          "72200",
+          "21221",
+          "22212",
+          "72201"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-web-03",
+      "scheme": "noc",
+      "family": "web",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "21233",
+        "compatible_codes": [
+          "21233"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "21233",
+        "compatible_codes": [
+          "21233"
+        ],
+        "evidence_quotes": [
+          "I decide the appearance, page arrangement and usability design of websites",
+          "other people implement and test the code"
+        ],
+        "missing_information": null,
+        "reason": "The described work is deciding website appearance, layout, and usability design, matching Web designers (21233). The description distinguishes this design work from code implementation and testing, which others perform.",
+        "candidate_codes": [
+          "21233",
+          "21234",
+          "21222",
+          "21223",
+          "42201",
+          "52120",
+          "60031",
+          "51102",
+          "64201",
+          "21330"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-web-04",
+      "scheme": "noc",
+      "family": "web",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "21233",
+          "21234"
+        ],
+        "missing_discriminator": "whether the worker mainly designs site appearance or implements website program code"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "21233",
+          "21234"
+        ],
+        "evidence_quotes": [
+          "The worker makes websites.",
+          "The return does not resolve whether their main role is visual and usability design or writing and testing website program code."
+        ],
+        "missing_information": "Whether the worker's main role is visual and usability design or writing and testing website program code.",
+        "reason": "The description explicitly leaves unresolved the distinction between web designers (21233) and web developers and programmers (21234).",
+        "candidate_codes": [
+          "21233",
+          "21234",
+          "41300",
+          "94101",
+          "42201",
+          "85120",
+          "42204",
+          "72102",
+          "94112",
+          "74204"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-food-preparation-01",
+      "scheme": "noc",
+      "family": "food-preparation",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "63200",
+        "compatible_codes": [
+          "63200"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "63200",
+        "compatible_codes": [
+          "63200"
+        ],
+        "evidence_quotes": [
+          "I work as a cook under a chef",
+          "following established recipes to prepare full meals and savoury dishes in a restaurant",
+          "I am not a chef or specialist chef."
+        ],
+        "missing_information": null,
+        "reason": "The description identifies the worker as a cook preparing full meals and savoury dishes by following established recipes. This supports NOC 63200, Cooks. The explicit statement that the worker is not a chef, together with the absence of planning or directing food preparation activities, does not support NOC 62200.",
+        "candidate_codes": [
+          "63200",
+          "62200",
+          "60030",
+          "65201",
+          "84121",
+          "65200",
+          "44101",
+          "43201",
+          "44100",
+          "62020"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-food-preparation-02",
+      "scheme": "noc",
+      "family": "food-preparation",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "63202",
+        "compatible_codes": [
+          "63202"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "63202",
+        "compatible_codes": [
+          "63202"
+        ],
+        "evidence_quotes": [
+          "I prepare bread and pastry dough and bake it in a bakery using established recipes.",
+          "I am not a pastry chef or a factory processing-machine operator."
+        ],
+        "missing_information": null,
+        "reason": "The described work is preparing dough and baking in a bakery, which supports Bakers (63202). The description explicitly rules out pastry chef and factory processing-machine operator alternatives.",
+        "candidate_codes": [
+          "63202",
+          "62200",
+          "95106",
+          "94205",
+          "92012",
+          "63200",
+          "60020",
+          "94101",
+          "64100",
+          "94140"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-food-preparation-03",
+      "scheme": "noc",
+      "family": "food-preparation",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "63202",
+        "compatible_codes": [
+          "63202"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "63202",
+          "94140"
+        ],
+        "evidence_quotes": [
+          "mixing bread and pastry dough",
+          "baking the batches to established recipes",
+          "not being a pastry chef or operating a factory processing line"
+        ],
+        "missing_information": "Whether the work is primarily preparing and baking bakery products as a baker, or operating food-processing machinery as a machine operator is not established.",
+        "reason": "The description rules out a pastry chef and a factory processing line, but does not establish whether the dough mixing and baking are performed as bakery work or by operating processing machinery. The supplied evidence supports both 63202 Bakers and 94140 Process control and machine operators in food and beverage processing, so a unique class cannot be selected.",
+        "candidate_codes": [
+          "62200",
+          "63202",
+          "63200",
+          "95106",
+          "94140",
+          "94111",
+          "92012",
+          "64100",
+          "94130",
+          "92010"
+        ]
+      },
+      "correct": false,
+      "baseline_correct": false,
+      "model_correct": false,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-food-preparation-04",
+      "scheme": "noc",
+      "family": "food-preparation",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "63200",
+          "63202"
+        ],
+        "missing_discriminator": "whether the worker cooks meals or makes and bakes bread and pastry dough"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "63200",
+          "63202"
+        ],
+        "evidence_quotes": [
+          "follows established recipes",
+          "is not a chef or factory-machine operator",
+          "The response omits whether they cook meals or make and bake bread and pastry dough."
+        ],
+        "missing_information": "Whether the worker prepares and cooks meals or other foods, or makes and bakes bread, pastries, or other baked goods.",
+        "reason": "The description explicitly leaves unresolved the distinction between cooks (63200) and bakers (63202). The supplied evidence does not establish which duties the worker performs, so no unique class is supported.",
+        "candidate_codes": [
+          "63202",
+          "62200",
+          "63200",
+          "95106",
+          "84121",
+          "94205",
+          "40019",
+          "94101",
+          "94143",
+          "22111"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-cleaner-01",
+      "scheme": "noc",
+      "family": "cleaner",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "65310",
+        "compatible_codes": [
+          "65310"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "65310",
+        "compatible_codes": [
+          "65310"
+        ],
+        "evidence_quotes": [
+          "I clean hotel bedrooms, make beds, change sheets, dust furniture and restock toiletries.",
+          "I do not supervise other staff."
+        ],
+        "missing_information": null,
+        "reason": "The described duties match the supplied definition of light duty cleaners, including cleaning hotel rooms, making beds, changing sheets, dusting furniture and restocking toiletries. The description explicitly says the worker does not supervise, so the cleaning-supervisor exclusion does not apply.",
+        "candidate_codes": [
+          "65310",
+          "94210",
+          "33102",
+          "22100",
+          "92022",
+          "94110",
+          "65210",
+          "72102",
+          "95109",
+          "64314"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-cleaner-02",
+      "scheme": "noc",
+      "family": "cleaner",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "65312",
+        "compatible_codes": [
+          "65312"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "65312",
+          "75212"
+        ],
+        "evidence_quotes": [
+          "I remove heavy building debris with industrial vacuum equipment",
+          "clear snow from the building walkways",
+          "I am not a supervisor or a specialist who maintains building systems."
+        ],
+        "missing_information": "Whether the work is primarily cleaning and maintaining a building and its grounds, or public-works labouring on streets, sidewalks, roads, or similar areas.",
+        "reason": "The description supports heavy-duty cleaning duties associated with 65312, but clearing snow from walkways can also fit that class or 75212 depending on the work setting and scope. The description does not establish whether the walkways are building grounds or public areas, so the supplied evidence does not support a unique class.",
+        "candidate_codes": [
+          "75212",
+          "65312",
+          "73201",
+          "65311",
+          "73400",
+          "72021",
+          "74205",
+          "70011",
+          "22233",
+          "65310"
+        ]
+      },
+      "correct": false,
+      "baseline_correct": false,
+      "model_correct": false,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-cleaner-03",
+      "scheme": "noc",
+      "family": "cleaner",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "65310",
+        "compatible_codes": [
+          "65310"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "65310",
+        "compatible_codes": [
+          "65310"
+        ],
+        "evidence_quotes": [
+          "guest-room housekeeping",
+          "clean the room, change its linen, make the bed and replenish toiletries",
+          "I have no supervisory role."
+        ],
+        "missing_information": null,
+        "reason": "The described work is guest-room housekeeping and includes cleaning rooms, changing linen, making beds, and replenishing toiletries, which supports NOC 65310 Light duty cleaners. The explicit absence of a supervisory role rules out the supervisor alternatives.",
+        "candidate_codes": [
+          "65310",
+          "62024",
+          "62021",
+          "14401",
+          "64314",
+          "65329",
+          "60031",
+          "22100",
+          "94110",
+          "64321"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-cleaner-04",
+      "scheme": "noc",
+      "family": "cleaner",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "65310",
+          "65312"
+        ],
+        "missing_discriminator": "whether duties are guest-room housekeeping or heavy-duty building cleaning"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "65310",
+          "65312"
+        ],
+        "evidence_quotes": [
+          "The worker cleans a building without supervising or maintaining its technical systems.",
+          "Guest-room housekeeping versus heavy-debris cleaning and snow clearance is not specified."
+        ],
+        "missing_information": "Whether the work is light-duty cleaning such as cleaning rooms, or heavy-duty cleaning such as removing heavy debris or clearing snow and ice.",
+        "reason": "The description supports cleaning work but explicitly leaves unresolved the distinction between light duty cleaners (65310) and janitors, caretakers and heavy-duty cleaners (65312).",
+        "candidate_codes": [
+          "62024",
+          "65310",
+          "75212",
+          "72999",
+          "62021",
+          "65312",
+          "73201",
+          "70012",
+          "65320",
+          "14202"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    }
+  ],
+  "summaries": {
+    "naics_test": {
+      "n": 32,
+      "decision_correct": 28,
+      "decision_accuracy": 0.875,
+      "unique_target_n": 24,
+      "unique_target_correct": 20,
+      "review_n": 8,
+      "review_correct": 8,
+      "unsupported_single_code_on_review": 0,
+      "unique_target_recall_at_10": 0.875,
+      "review_both_candidates_retrieved": 7,
+      "interpretation": "Descriptive finite synthetic-case result; related variants remain clustered by family.",
+      "baseline_correct": 18,
+      "net_corrected": 10,
+      "new_errors": 1
+    },
+    "noc_test": {
+      "n": 32,
+      "decision_correct": 27,
+      "decision_accuracy": 0.84375,
+      "unique_target_n": 24,
+      "unique_target_correct": 19,
+      "review_n": 8,
+      "review_correct": 8,
+      "unsupported_single_code_on_review": 0,
+      "unique_target_recall_at_10": 0.9166666666666666,
+      "review_both_candidates_retrieved": 8,
+      "interpretation": "Descriptive finite synthetic-case result; related variants remain clustered by family.",
+      "baseline_correct": 23,
+      "net_corrected": 4,
+      "new_errors": 0
+    }
+  },
+  "gate_rule": "Per scheme, complete 16-case dev panel; at least two net additional correct decisions and no unsupported code on four review cases. Otherwise stop that scheme before test."
+}

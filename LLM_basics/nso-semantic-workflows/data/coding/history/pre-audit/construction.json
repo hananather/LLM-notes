@@ -1,0 +1,10 @@
+{
+  "facts_written_before_narrative_file": true,
+  "facts_sha256_at_narrative_creation": "a9ce7cc2d3453b1fbcf4a47c33bca8aed494d0c2a58bf6b7f36369936fadacaf",
+  "reference_origin": "Official classifications plus explicitly disclosed research-agent synthesis; independent of evaluated GPT-6 Luna.",
+  "narrative_origin": "Research-agent authored, not observed survey or business-register text.",
+  "near_duplicate_note": "Cases 1/2 and case 3 share fact bundles within a family. Family-level splits keep these together; case-level errors are not independent.",
+  "review_scope": "Review cases explicitly name an unresolved distinction. Compatible code sets refer to those stated alternatives, not generic vague occupational text.",
+  "freeze_stage": "constructed, awaiting independent label audit",
+  "seed": 61006
+}

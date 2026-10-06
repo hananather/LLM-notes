@@ -1,0 +1,2467 @@
+{
+  "arm": "baseline",
+  "created_utc": "2026-10-06T22:09:03.597252+00:00",
+  "evaluation_lock_sha256": "376947b6a370a5d38fcab042830c1ceedf908755b246a00eb638453c8af5ce6b",
+  "implementation_sha256": "c6ed6acf3c62115ea99c842ad8ce121d0d91f58e03de07673d88a4b897ee3f9e",
+  "records": [
+    {
+      "arm": "baseline",
+      "id": "test-01",
+      "outcome": {
+        "operation": "lookup",
+        "rounded_value": "69800",
+        "source_row_ids": [
+          "14100287:v2064542:2025-04"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "10.6.1.2.1.1",
+            "REF_DATE": "2025-04",
+            "ROW_ID": "14100287:v2064542:2025-04",
+            "SCALAR_FACTOR": "thousands",
+            "STATUS": "",
+            "TABLE_ID": "14100287",
+            "UOM": "Persons in thousands",
+            "VALUE": "69.8",
+            "VECTOR": "v2064542",
+            "scaled_value": "69800.0"
+          }
+        ],
+        "status": "answer",
+        "unit": "Persons",
+        "value": "69800.0"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Alberta"
+              },
+              {
+                "dimension": "Labour force characteristics",
+                "value": "Unemployment"
+              },
+              {
+                "dimension": "Gender",
+                "value": "Total - Gender"
+              },
+              {
+                "dimension": "Age group",
+                "value": "15 to 24 years"
+              },
+              {
+                "dimension": "Statistics",
+                "value": "Estimate"
+              },
+              {
+                "dimension": "Data type",
+                "value": "Seasonally adjusted"
+              }
+            ],
+            "period": "2025-04",
+            "table_id": 14100287
+          }
+        ],
+        "operation": "lookup",
+        "reason": "",
+        "round_digits": 0,
+        "status": "answer"
+      },
+      "question": "A briefing needs the number of unemployed people in Alberta during 2025-04. Use seasonally adjusted LFS estimates, all genders, ages 15 to 24 years. Return persons, rounded to a whole person.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-02",
+      "outcome": {
+        "operation": "lookup",
+        "rounded_value": "2883300",
+        "source_row_ids": [
+          "14100287:v2066780:2023-11"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "11.3.1.1.1.2",
+            "REF_DATE": "2023-11",
+            "ROW_ID": "14100287:v2066780:2023-11",
+            "SCALAR_FACTOR": "thousands",
+            "STATUS": "",
+            "TABLE_ID": "14100287",
+            "UOM": "Persons in thousands",
+            "VALUE": "2883.3",
+            "VECTOR": "v2066780",
+            "scaled_value": "2883300.0"
+          }
+        ],
+        "status": "answer",
+        "unit": "Persons",
+        "value": "2883300.0"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "British Columbia"
+              },
+              {
+                "dimension": "Labour force characteristics",
+                "value": "Employment"
+              },
+              {
+                "dimension": "Gender",
+                "value": "Total - Gender"
+              },
+              {
+                "dimension": "Age group",
+                "value": "15 years and over"
+              },
+              {
+                "dimension": "Statistics",
+                "value": "Estimate"
+              },
+              {
+                "dimension": "Data type",
+                "value": "Unadjusted"
+              }
+            ],
+            "period": "2023-11",
+            "table_id": 14100287
+          }
+        ],
+        "operation": "lookup",
+        "reason": "",
+        "round_digits": 0,
+        "status": "answer"
+      },
+      "question": "For British Columbia in 2023-11, report the LFS count of people in work, without seasonal adjustment, all genders aged 15 years and over. Express it as a whole number of persons.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-03",
+      "outcome": {
+        "operation": "lookup",
+        "rounded_value": "5.5",
+        "source_row_ids": [
+          "14100287:v2064138:2025-06"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "8.7.1.1.1.1",
+            "REF_DATE": "2025-06",
+            "ROW_ID": "14100287:v2064138:2025-06",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "14100287",
+            "UOM": "Percent",
+            "VALUE": "5.5",
+            "VECTOR": "v2064138",
+            "scaled_value": "5.5"
+          }
+        ],
+        "status": "answer",
+        "unit": "Percent",
+        "value": "5.5"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Manitoba"
+              },
+              {
+                "dimension": "Labour force characteristics",
+                "value": "Unemployment rate"
+              },
+              {
+                "dimension": "Gender",
+                "value": "Total - Gender"
+              },
+              {
+                "dimension": "Age group",
+                "value": "15 years and over"
+              },
+              {
+                "dimension": "Statistics",
+                "value": "Estimate"
+              },
+              {
+                "dimension": "Data type",
+                "value": "Seasonally adjusted"
+              }
+            ],
+            "period": "2025-06",
+            "table_id": 14100287
+          }
+        ],
+        "operation": "lookup",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "In Manitoba, what share of the labour force was out of work in 2025-06? I need the seasonally adjusted unemployment rate, all genders aged 15 years and over, at one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-04",
+      "outcome": {
+        "operation": "lookup",
+        "rounded_value": "11.2",
+        "source_row_ids": [
+          "14100287:v2065488:2023-08"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "4.7.1.2.1.2",
+            "REF_DATE": "2023-08",
+            "ROW_ID": "14100287:v2065488:2023-08",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "14100287",
+            "UOM": "Percent",
+            "VALUE": "11.2",
+            "VECTOR": "v2065488",
+            "scaled_value": "11.2"
+          }
+        ],
+        "status": "answer",
+        "unit": "Percent",
+        "value": "11.2"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Nova Scotia"
+              },
+              {
+                "dimension": "Labour force characteristics",
+                "value": "Unemployment rate"
+              },
+              {
+                "dimension": "Gender",
+                "value": "Total - Gender"
+              },
+              {
+                "dimension": "Age group",
+                "value": "15 to 24 years"
+              },
+              {
+                "dimension": "Statistics",
+                "value": "Estimate"
+              },
+              {
+                "dimension": "Data type",
+                "value": "Unadjusted"
+              }
+            ],
+            "period": "2023-08",
+            "table_id": 14100287
+          }
+        ],
+        "operation": "lookup",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "Please supply the LFS unemployment-rate estimate for Nova Scotia's 15-to-24-year-olds, all genders, in 2023-08. Keep the seasonal pattern in the data (unadjusted) and use one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-05",
+      "outcome": {
+        "operation": "difference",
+        "rounded_value": "0.1",
+        "source_row_ids": [
+          "14100287:v2064327:2025-01",
+          "14100287:v2064327:2025-02"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "9.7.1.1.1.1",
+            "REF_DATE": "2025-01",
+            "ROW_ID": "14100287:v2064327:2025-01",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "14100287",
+            "UOM": "Percent",
+            "VALUE": "5.2",
+            "VECTOR": "v2064327",
+            "scaled_value": "5.2"
+          },
+          {
+            "COORDINATE": "9.7.1.1.1.1",
+            "REF_DATE": "2025-02",
+            "ROW_ID": "14100287:v2064327:2025-02",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "14100287",
+            "UOM": "Percent",
+            "VALUE": "5.3",
+            "VECTOR": "v2064327",
+            "scaled_value": "5.3"
+          }
+        ],
+        "status": "answer",
+        "unit": "percentage points",
+        "value": "0.1"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Saskatchewan"
+              },
+              {
+                "dimension": "Labour force characteristics",
+                "value": "Unemployment rate"
+              },
+              {
+                "dimension": "Gender",
+                "value": "Total - Gender"
+              },
+              {
+                "dimension": "Age group",
+                "value": "15 years and over"
+              },
+              {
+                "dimension": "Statistics",
+                "value": "Estimate"
+              },
+              {
+                "dimension": "Data type",
+                "value": "Seasonally adjusted"
+              }
+            ],
+            "period": "2025-01",
+            "table_id": 14100287
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Saskatchewan"
+              },
+              {
+                "dimension": "Labour force characteristics",
+                "value": "Unemployment rate"
+              },
+              {
+                "dimension": "Gender",
+                "value": "Total - Gender"
+              },
+              {
+                "dimension": "Age group",
+                "value": "15 years and over"
+              },
+              {
+                "dimension": "Statistics",
+                "value": "Estimate"
+              },
+              {
+                "dimension": "Data type",
+                "value": "Seasonally adjusted"
+              }
+            ],
+            "period": "2025-02",
+            "table_id": 14100287
+          }
+        ],
+        "operation": "difference",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "Between 2025-01 and 2025-02, did Saskatchewan's seasonally adjusted jobless rate rise or fall, and by how many percentage points? Population: all genders aged 15 years and over. One decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-06",
+      "outcome": {
+        "operation": "difference",
+        "rounded_value": "1200",
+        "source_row_ids": [
+          "14100287:v2063567:2023-04",
+          "14100287:v2063567:2023-05"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "5.3.1.1.1.1",
+            "REF_DATE": "2023-04",
+            "ROW_ID": "14100287:v2063567:2023-04",
+            "SCALAR_FACTOR": "thousands",
+            "STATUS": "",
+            "TABLE_ID": "14100287",
+            "UOM": "Persons in thousands",
+            "VALUE": "385.3",
+            "VECTOR": "v2063567",
+            "scaled_value": "385300.0"
+          },
+          {
+            "COORDINATE": "5.3.1.1.1.1",
+            "REF_DATE": "2023-05",
+            "ROW_ID": "14100287:v2063567:2023-05",
+            "SCALAR_FACTOR": "thousands",
+            "STATUS": "",
+            "TABLE_ID": "14100287",
+            "UOM": "Persons in thousands",
+            "VALUE": "386.5",
+            "VECTOR": "v2063567",
+            "scaled_value": "386500.0"
+          }
+        ],
+        "status": "answer",
+        "unit": "Persons",
+        "value": "1200.0"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "New Brunswick"
+              },
+              {
+                "dimension": "Labour force characteristics",
+                "value": "Employment"
+              },
+              {
+                "dimension": "Gender",
+                "value": "Total - Gender"
+              },
+              {
+                "dimension": "Age group",
+                "value": "15 years and over"
+              },
+              {
+                "dimension": "Statistics",
+                "value": "Estimate"
+              },
+              {
+                "dimension": "Data type",
+                "value": "Seasonally adjusted"
+              }
+            ],
+            "period": "2023-04",
+            "table_id": 14100287
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "New Brunswick"
+              },
+              {
+                "dimension": "Labour force characteristics",
+                "value": "Employment"
+              },
+              {
+                "dimension": "Gender",
+                "value": "Total - Gender"
+              },
+              {
+                "dimension": "Age group",
+                "value": "15 years and over"
+              },
+              {
+                "dimension": "Statistics",
+                "value": "Estimate"
+              },
+              {
+                "dimension": "Data type",
+                "value": "Seasonally adjusted"
+              }
+            ],
+            "period": "2023-05",
+            "table_id": 14100287
+          }
+        ],
+        "operation": "difference",
+        "reason": "",
+        "round_digits": 0,
+        "status": "answer"
+      },
+      "question": "Measure the change in Employment from 2023-04 to 2023-05 for New Brunswick, all genders 15 years and over, seasonally adjusted. Report later minus earlier as whole persons.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-07",
+      "outcome": {
+        "operation": "difference",
+        "rounded_value": "1.1",
+        "source_row_ids": [
+          "14100287:v2065110:2025-09",
+          "14100287:v2065110:2025-10"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "2.7.1.2.1.2",
+            "REF_DATE": "2025-09",
+            "ROW_ID": "14100287:v2065110:2025-09",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "14100287",
+            "UOM": "Percent",
+            "VALUE": "14.1",
+            "VECTOR": "v2065110",
+            "scaled_value": "14.1"
+          },
+          {
+            "COORDINATE": "2.7.1.2.1.2",
+            "REF_DATE": "2025-10",
+            "ROW_ID": "14100287:v2065110:2025-10",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "14100287",
+            "UOM": "Percent",
+            "VALUE": "15.2",
+            "VECTOR": "v2065110",
+            "scaled_value": "15.2"
+          }
+        ],
+        "status": "answer",
+        "unit": "percentage points",
+        "value": "1.1"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Newfoundland and Labrador"
+              },
+              {
+                "dimension": "Labour force characteristics",
+                "value": "Unemployment rate"
+              },
+              {
+                "dimension": "Gender",
+                "value": "Total - Gender"
+              },
+              {
+                "dimension": "Age group",
+                "value": "15 to 24 years"
+              },
+              {
+                "dimension": "Statistics",
+                "value": "Estimate"
+              },
+              {
+                "dimension": "Data type",
+                "value": "Unadjusted"
+              }
+            ],
+            "period": "2025-09",
+            "table_id": 14100287
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Newfoundland and Labrador"
+              },
+              {
+                "dimension": "Labour force characteristics",
+                "value": "Unemployment rate"
+              },
+              {
+                "dimension": "Gender",
+                "value": "Total - Gender"
+              },
+              {
+                "dimension": "Age group",
+                "value": "15 to 24 years"
+              },
+              {
+                "dimension": "Statistics",
+                "value": "Estimate"
+              },
+              {
+                "dimension": "Data type",
+                "value": "Unadjusted"
+              }
+            ],
+            "period": "2025-10",
+            "table_id": 14100287
+          }
+        ],
+        "operation": "difference",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "For Newfoundland and Labrador's labour force aged 15 to 24 years, all genders, subtract the unadjusted unemployment rate at 2025-09 from that at 2025-10. Report percentage points with one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-08",
+      "outcome": {
+        "operation": "difference",
+        "rounded_value": "0",
+        "source_row_ids": [
+          "14100287:v2063192:2023-02",
+          "14100287:v2063192:2023-03"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "3.6.1.1.1.1",
+            "REF_DATE": "2023-02",
+            "ROW_ID": "14100287:v2063192:2023-02",
+            "SCALAR_FACTOR": "thousands",
+            "STATUS": "",
+            "TABLE_ID": "14100287",
+            "UOM": "Persons in thousands",
+            "VALUE": "6.5",
+            "VECTOR": "v2063192",
+            "scaled_value": "6500.0"
+          },
+          {
+            "COORDINATE": "3.6.1.1.1.1",
+            "REF_DATE": "2023-03",
+            "ROW_ID": "14100287:v2063192:2023-03",
+            "SCALAR_FACTOR": "thousands",
+            "STATUS": "",
+            "TABLE_ID": "14100287",
+            "UOM": "Persons in thousands",
+            "VALUE": "6.5",
+            "VECTOR": "v2063192",
+            "scaled_value": "6500.0"
+          }
+        ],
+        "status": "answer",
+        "unit": "Persons",
+        "value": "0.0"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Prince Edward Island"
+              },
+              {
+                "dimension": "Labour force characteristics",
+                "value": "Unemployment"
+              },
+              {
+                "dimension": "Gender",
+                "value": "Total - Gender"
+              },
+              {
+                "dimension": "Age group",
+                "value": "15 years and over"
+              },
+              {
+                "dimension": "Statistics",
+                "value": "Estimate"
+              },
+              {
+                "dimension": "Data type",
+                "value": "Seasonally adjusted"
+              }
+            ],
+            "period": "2023-02",
+            "table_id": 14100287
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Prince Edward Island"
+              },
+              {
+                "dimension": "Labour force characteristics",
+                "value": "Unemployment"
+              },
+              {
+                "dimension": "Gender",
+                "value": "Total - Gender"
+              },
+              {
+                "dimension": "Age group",
+                "value": "15 years and over"
+              },
+              {
+                "dimension": "Statistics",
+                "value": "Estimate"
+              },
+              {
+                "dimension": "Data type",
+                "value": "Seasonally adjusted"
+              }
+            ],
+            "period": "2023-03",
+            "table_id": 14100287
+          }
+        ],
+        "operation": "difference",
+        "reason": "",
+        "round_digits": 0,
+        "status": "answer"
+      },
+      "question": "How much did the count of unemployed people change between 2023-02 and 2023-03 in Prince Edward Island? Use seasonally adjusted LFS, total gender, ages 15 years and over; report whole persons.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-09",
+      "outcome": {
+        "operation": "percent_change",
+        "rounded_value": "3.0",
+        "source_row_ids": [
+          "18100004:v41692462:2024-02",
+          "18100004:v41692462:2025-02"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "26.2",
+            "REF_DATE": "2024-02",
+            "ROW_ID": "18100004:v41692462:2024-02",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "153.0",
+            "VECTOR": "v41692462",
+            "scaled_value": "153.0"
+          },
+          {
+            "COORDINATE": "26.2",
+            "REF_DATE": "2025-02",
+            "ROW_ID": "18100004:v41692462:2025-02",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "157.6",
+            "VECTOR": "v41692462",
+            "scaled_value": "157.6"
+          }
+        ],
+        "status": "answer",
+        "unit": "percent change",
+        "value": "3.006535947712418300653594800"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "British Columbia"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "All-items"
+              }
+            ],
+            "period": "2024-02",
+            "table_id": 18100004
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "British Columbia"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "All-items"
+              }
+            ],
+            "period": "2025-02",
+            "table_id": 18100004
+          }
+        ],
+        "operation": "percent_change",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "For a household note, compute the percentage increase in British Columbia's all-items price index from 2024-02 to 2025-02. Use monthly CPI without seasonal adjustment and one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-10",
+      "outcome": {
+        "operation": "percent_change",
+        "rounded_value": "0.9",
+        "source_row_ids": [
+          "18100004:v41691784:2023-05",
+          "18100004:v41691784:2023-11"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "11.3",
+            "REF_DATE": "2023-05",
+            "ROW_ID": "18100004:v41691784:2023-05",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "185.9",
+            "VECTOR": "v41691784",
+            "scaled_value": "185.9"
+          },
+          {
+            "COORDINATE": "11.3",
+            "REF_DATE": "2023-11",
+            "ROW_ID": "18100004:v41691784:2023-11",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "187.6",
+            "VECTOR": "v41691784",
+            "scaled_value": "187.6"
+          }
+        ],
+        "status": "answer",
+        "unit": "percent change",
+        "value": "0.914470145239376008606777800"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Quebec"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Food"
+              }
+            ],
+            "period": "2023-05",
+            "table_id": 18100004
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Quebec"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Food"
+              }
+            ],
+            "period": "2023-11",
+            "table_id": 18100004
+          }
+        ],
+        "operation": "percent_change",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "How much higher or lower was Quebec's Food CPI at 2023-11 than at 2023-05, in percent? Use the not-seasonally-adjusted monthly series. One decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-11",
+      "outcome": {
+        "operation": "percent_change",
+        "rounded_value": "1.7",
+        "source_row_ids": [
+          "18100004:v41692360:2024-08",
+          "18100004:v41692360:2025-08"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "23.79",
+            "REF_DATE": "2024-08",
+            "ROW_ID": "18100004:v41692360:2024-08",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "220.3",
+            "VECTOR": "v41692360",
+            "scaled_value": "220.3"
+          },
+          {
+            "COORDINATE": "23.79",
+            "REF_DATE": "2025-08",
+            "ROW_ID": "18100004:v41692360:2025-08",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "224.0",
+            "VECTOR": "v41692360",
+            "scaled_value": "224.0"
+          }
+        ],
+        "status": "answer",
+        "unit": "percent change",
+        "value": "1.679527916477530640036314100"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Alberta"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Shelter"
+              }
+            ],
+            "period": "2024-08",
+            "table_id": 18100004
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Alberta"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Shelter"
+              }
+            ],
+            "period": "2025-08",
+            "table_id": 18100004
+          }
+        ],
+        "operation": "percent_change",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "Determine year-over-year inflation for Shelter in Alberta: compare 2025-08 with 2024-08 in the monthly unadjusted CPI. Give the percent change to one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-12",
+      "outcome": {
+        "operation": "percent_change",
+        "rounded_value": "0.2",
+        "source_row_ids": [
+          "18100006:v41690914:2025-04",
+          "18100006:v41690914:2025-05"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "1.1",
+            "REF_DATE": "2025-04",
+            "ROW_ID": "18100006:v41690914:2025-04",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100006",
+            "UOM": "2002=100",
+            "VALUE": "163.1",
+            "VECTOR": "v41690914",
+            "scaled_value": "163.1"
+          },
+          {
+            "COORDINATE": "1.1",
+            "REF_DATE": "2025-05",
+            "ROW_ID": "18100006:v41690914:2025-05",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100006",
+            "UOM": "2002=100",
+            "VALUE": "163.5",
+            "VECTOR": "v41690914",
+            "scaled_value": "163.5"
+          }
+        ],
+        "status": "answer",
+        "unit": "percent change",
+        "value": "0.245248313917841814837523000"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Canada"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "All-items"
+              }
+            ],
+            "period": "2025-04",
+            "table_id": 18100006
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Canada"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "All-items"
+              }
+            ],
+            "period": "2025-05",
+            "table_id": 18100006
+          }
+        ],
+        "operation": "percent_change",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "For Canada, calculate the percent movement in the seasonally adjusted all-items CPI from 2025-04 to 2025-05, rounded to one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-13",
+      "outcome": {
+        "operation": "lookup",
+        "rounded_value": "167.6",
+        "source_row_ids": [
+          "18100005:v41693811:2025"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "7.2",
+            "REF_DATE": "2025",
+            "ROW_ID": "18100005:v41693811:2025",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100005",
+            "UOM": "2002=100",
+            "VALUE": "167.6",
+            "VECTOR": "v41693811",
+            "scaled_value": "167.6"
+          }
+        ],
+        "status": "answer",
+        "unit": "2002=100",
+        "value": "167.6"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Nova Scotia"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "All-items"
+              }
+            ],
+            "period": "2025",
+            "table_id": 18100005
+          }
+        ],
+        "operation": "lookup",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "Use the yearly average, not December, to report Nova Scotia's all-items CPI for 2025. This is the unadjusted index; retain one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-14",
+      "outcome": {
+        "operation": "difference",
+        "rounded_value": "6.2",
+        "source_row_ids": [
+          "18100005:v41694354:2024",
+          "18100005:v41694354:2025"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "18.3",
+            "REF_DATE": "2024",
+            "ROW_ID": "18100005:v41694354:2024",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100005",
+            "UOM": "2002=100",
+            "VALUE": "186.3",
+            "VECTOR": "v41694354",
+            "scaled_value": "186.3"
+          },
+          {
+            "COORDINATE": "18.3",
+            "REF_DATE": "2025",
+            "ROW_ID": "18100005:v41694354:2025",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100005",
+            "UOM": "2002=100",
+            "VALUE": "192.5",
+            "VECTOR": "v41694354",
+            "scaled_value": "192.5"
+          }
+        ],
+        "status": "answer",
+        "unit": "2002=100",
+        "value": "6.2"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Manitoba"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Food"
+              }
+            ],
+            "period": "2024",
+            "table_id": 18100005
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Manitoba"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Food"
+              }
+            ],
+            "period": "2025",
+            "table_id": 18100005
+          }
+        ],
+        "operation": "difference",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "Compare the full-year average Food CPI in Manitoba for 2024 and 2025. Return 2025 minus 2024 in index points from the unadjusted annual table, one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-15",
+      "outcome": {
+        "operation": "percent_change",
+        "rounded_value": "7.5",
+        "source_row_ids": [
+          "18100005:v41694250:2023",
+          "18100005:v41694250:2025"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "14.79",
+            "REF_DATE": "2023",
+            "ROW_ID": "18100005:v41694250:2023",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100005",
+            "UOM": "2002=100",
+            "VALUE": "176.4",
+            "VECTOR": "v41694250",
+            "scaled_value": "176.4"
+          },
+          {
+            "COORDINATE": "14.79",
+            "REF_DATE": "2025",
+            "ROW_ID": "18100005:v41694250:2025",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100005",
+            "UOM": "2002=100",
+            "VALUE": "189.6",
+            "VECTOR": "v41694250",
+            "scaled_value": "189.6"
+          }
+        ],
+        "status": "answer",
+        "unit": "percent change",
+        "value": "7.482993197278911564625850300"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Ontario"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Shelter"
+              }
+            ],
+            "period": "2023",
+            "table_id": 18100005
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Ontario"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Shelter"
+              }
+            ],
+            "period": "2025",
+            "table_id": 18100005
+          }
+        ],
+        "operation": "percent_change",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "Using annual averages, by what percent did Ontario's Shelter price index grow from 2023 to 2025? Use unadjusted CPI and one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-16",
+      "outcome": {
+        "operation": "percent_change",
+        "rounded_value": "4.5",
+        "source_row_ids": [
+          "18100004:v41691050:2023-12",
+          "18100004:v41691050:2024-12"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "2.79",
+            "REF_DATE": "2023-12",
+            "ROW_ID": "18100004:v41691050:2023-12",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "177.8",
+            "VECTOR": "v41691050",
+            "scaled_value": "177.8"
+          },
+          {
+            "COORDINATE": "2.79",
+            "REF_DATE": "2024-12",
+            "ROW_ID": "18100004:v41691050:2024-12",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "185.8",
+            "VECTOR": "v41691050",
+            "scaled_value": "185.8"
+          }
+        ],
+        "status": "answer",
+        "unit": "percent change",
+        "value": "4.499437570303712035995500600"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Canada"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Shelter"
+              }
+            ],
+            "period": "2023-12",
+            "table_id": 18100004
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Canada"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Shelter"
+              }
+            ],
+            "period": "2024-12",
+            "table_id": 18100004
+          }
+        ],
+        "operation": "percent_change",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "I need December-to-December inflation rather than an annual-average comparison: Canada's Shelter CPI, unadjusted, 2023-12 to 2024-12. Report percent, one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-17",
+      "outcome": {
+        "reason": "Geography subtraction order is not explicit.",
+        "status": "review"
+      },
+      "plan": {
+        "operands": [],
+        "operation": "lookup",
+        "reason": "Geography subtraction order is not explicit.",
+        "round_digits": 1,
+        "status": "review"
+      },
+      "question": "At 2025-07, how far above or below Quebec was Alberta on the seasonally adjusted unemployment rate? Use Alberta minus Quebec, all genders aged 15 years and over, in percentage points to one decimal.",
+      "score": {
+        "complete": false,
+        "operation_correct": false,
+        "source_correct": false,
+        "status_correct": false,
+        "unsafe_answer": false,
+        "value_correct": false
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-18",
+      "outcome": {
+        "operation": "difference",
+        "rounded_value": "2.2",
+        "source_row_ids": [
+          "14100287:v2066244:2023-06",
+          "14100287:v2066811:2023-06"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "8.7.1.2.1.2",
+            "REF_DATE": "2023-06",
+            "ROW_ID": "14100287:v2066244:2023-06",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "14100287",
+            "UOM": "Percent",
+            "VALUE": "8.0",
+            "VECTOR": "v2066244",
+            "scaled_value": "8.0"
+          },
+          {
+            "COORDINATE": "11.7.1.2.1.2",
+            "REF_DATE": "2023-06",
+            "ROW_ID": "14100287:v2066811:2023-06",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "14100287",
+            "UOM": "Percent",
+            "VALUE": "10.2",
+            "VECTOR": "v2066811",
+            "scaled_value": "10.2"
+          }
+        ],
+        "status": "answer",
+        "unit": "percentage points",
+        "value": "2.2"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Manitoba"
+              },
+              {
+                "dimension": "Labour force characteristics",
+                "value": "Unemployment rate"
+              },
+              {
+                "dimension": "Gender",
+                "value": "Total - Gender"
+              },
+              {
+                "dimension": "Age group",
+                "value": "15 to 24 years"
+              },
+              {
+                "dimension": "Statistics",
+                "value": "Estimate"
+              },
+              {
+                "dimension": "Data type",
+                "value": "Unadjusted"
+              }
+            ],
+            "period": "2023-06",
+            "table_id": 14100287
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "British Columbia"
+              },
+              {
+                "dimension": "Labour force characteristics",
+                "value": "Unemployment rate"
+              },
+              {
+                "dimension": "Gender",
+                "value": "Total - Gender"
+              },
+              {
+                "dimension": "Age group",
+                "value": "15 to 24 years"
+              },
+              {
+                "dimension": "Statistics",
+                "value": "Estimate"
+              },
+              {
+                "dimension": "Data type",
+                "value": "Unadjusted"
+              }
+            ],
+            "period": "2023-06",
+            "table_id": 14100287
+          }
+        ],
+        "operation": "difference",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "Report British Columbia minus Manitoba for the unadjusted jobless rate in 2023-06, all genders aged 15 to 24 years. Give percentage points to one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-19",
+      "outcome": {
+        "reason": "A unique geography or ordered geography comparison is required.",
+        "status": "review"
+      },
+      "plan": {
+        "operands": [],
+        "operation": "lookup",
+        "reason": "A unique geography or ordered geography comparison is required.",
+        "round_digits": 1,
+        "status": "review"
+      },
+      "question": "Use the Canadian seasonally adjusted Food index to subtract 2023-09 from 2023-12. I want an index-point difference, not a percent change, to one decimal.",
+      "score": {
+        "complete": false,
+        "operation_correct": false,
+        "source_correct": false,
+        "status_correct": false,
+        "unsafe_answer": false,
+        "value_correct": false
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-20",
+      "outcome": {
+        "operation": "lookup",
+        "rounded_value": "179.6",
+        "source_row_ids": [
+          "18100004:v41691681:2025-09"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "9.79",
+            "REF_DATE": "2025-09",
+            "ROW_ID": "18100004:v41691681:2025-09",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "179.6",
+            "VECTOR": "v41691681",
+            "scaled_value": "179.6"
+          }
+        ],
+        "status": "answer",
+        "unit": "2002=100",
+        "value": "179.6"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "New Brunswick"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Shelter"
+              }
+            ],
+            "period": "2025-09",
+            "table_id": 18100004
+          }
+        ],
+        "operation": "lookup",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "Find New Brunswick's Shelter index for 2025-09 in the monthly CPI. Use the non-seasonally-adjusted series and one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-21",
+      "outcome": {
+        "operation": "mean",
+        "rounded_value": "160.8",
+        "source_row_ids": [
+          "18100006:v41690914:2024-01",
+          "18100006:v41690914:2024-02",
+          "18100006:v41690914:2024-03",
+          "18100006:v41690914:2024-04",
+          "18100006:v41690914:2024-05",
+          "18100006:v41690914:2024-06",
+          "18100006:v41690914:2024-07",
+          "18100006:v41690914:2024-08",
+          "18100006:v41690914:2024-09",
+          "18100006:v41690914:2024-10",
+          "18100006:v41690914:2024-11",
+          "18100006:v41690914:2024-12"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "1.1",
+            "REF_DATE": "2024-01",
+            "ROW_ID": "18100006:v41690914:2024-01",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100006",
+            "UOM": "2002=100",
+            "VALUE": "159.4",
+            "VECTOR": "v41690914",
+            "scaled_value": "159.4"
+          },
+          {
+            "COORDINATE": "1.1",
+            "REF_DATE": "2024-02",
+            "ROW_ID": "18100006:v41690914:2024-02",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100006",
+            "UOM": "2002=100",
+            "VALUE": "159.4",
+            "VECTOR": "v41690914",
+            "scaled_value": "159.4"
+          },
+          {
+            "COORDINATE": "1.1",
+            "REF_DATE": "2024-03",
+            "ROW_ID": "18100006:v41690914:2024-03",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100006",
+            "UOM": "2002=100",
+            "VALUE": "159.8",
+            "VECTOR": "v41690914",
+            "scaled_value": "159.8"
+          },
+          {
+            "COORDINATE": "1.1",
+            "REF_DATE": "2024-04",
+            "ROW_ID": "18100006:v41690914:2024-04",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100006",
+            "UOM": "2002=100",
+            "VALUE": "160.3",
+            "VECTOR": "v41690914",
+            "scaled_value": "160.3"
+          },
+          {
+            "COORDINATE": "1.1",
+            "REF_DATE": "2024-05",
+            "ROW_ID": "18100006:v41690914:2024-05",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100006",
+            "UOM": "2002=100",
+            "VALUE": "160.7",
+            "VECTOR": "v41690914",
+            "scaled_value": "160.7"
+          },
+          {
+            "COORDINATE": "1.1",
+            "REF_DATE": "2024-06",
+            "ROW_ID": "18100006:v41690914:2024-06",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100006",
+            "UOM": "2002=100",
+            "VALUE": "160.8",
+            "VECTOR": "v41690914",
+            "scaled_value": "160.8"
+          },
+          {
+            "COORDINATE": "1.1",
+            "REF_DATE": "2024-07",
+            "ROW_ID": "18100006:v41690914:2024-07",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100006",
+            "UOM": "2002=100",
+            "VALUE": "161.2",
+            "VECTOR": "v41690914",
+            "scaled_value": "161.2"
+          },
+          {
+            "COORDINATE": "1.1",
+            "REF_DATE": "2024-08",
+            "ROW_ID": "18100006:v41690914:2024-08",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100006",
+            "UOM": "2002=100",
+            "VALUE": "161.3",
+            "VECTOR": "v41690914",
+            "scaled_value": "161.3"
+          },
+          {
+            "COORDINATE": "1.1",
+            "REF_DATE": "2024-09",
+            "ROW_ID": "18100006:v41690914:2024-09",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100006",
+            "UOM": "2002=100",
+            "VALUE": "161.2",
+            "VECTOR": "v41690914",
+            "scaled_value": "161.2"
+          },
+          {
+            "COORDINATE": "1.1",
+            "REF_DATE": "2024-10",
+            "ROW_ID": "18100006:v41690914:2024-10",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100006",
+            "UOM": "2002=100",
+            "VALUE": "161.7",
+            "VECTOR": "v41690914",
+            "scaled_value": "161.7"
+          },
+          {
+            "COORDINATE": "1.1",
+            "REF_DATE": "2024-11",
+            "ROW_ID": "18100006:v41690914:2024-11",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100006",
+            "UOM": "2002=100",
+            "VALUE": "162.0",
+            "VECTOR": "v41690914",
+            "scaled_value": "162.0"
+          },
+          {
+            "COORDINATE": "1.1",
+            "REF_DATE": "2024-12",
+            "ROW_ID": "18100006:v41690914:2024-12",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100006",
+            "UOM": "2002=100",
+            "VALUE": "162.3",
+            "VECTOR": "v41690914",
+            "scaled_value": "162.3"
+          }
+        ],
+        "status": "answer",
+        "unit": "2002=100",
+        "value": "160.8416666666666666666666667"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Canada"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "All-items"
+              }
+            ],
+            "period": "2024-01/2024-12",
+            "table_id": 18100006
+          }
+        ],
+        "operation": "mean",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "Calculate the arithmetic average of Canada's 12 monthly seasonally adjusted all-items CPI observations from 2024-01 through 2024-12. Return the index average to one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-22",
+      "outcome": {
+        "operation": "mean",
+        "rounded_value": "193.8",
+        "source_row_ids": [
+          "18100004:v41692192:2025-01",
+          "18100004:v41692192:2025-02",
+          "18100004:v41692192:2025-03"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "20.3",
+            "REF_DATE": "2025-01",
+            "ROW_ID": "18100004:v41692192:2025-01",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "191.2",
+            "VECTOR": "v41692192",
+            "scaled_value": "191.2"
+          },
+          {
+            "COORDINATE": "20.3",
+            "REF_DATE": "2025-02",
+            "ROW_ID": "18100004:v41692192:2025-02",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "194.2",
+            "VECTOR": "v41692192",
+            "scaled_value": "194.2"
+          },
+          {
+            "COORDINATE": "20.3",
+            "REF_DATE": "2025-03",
+            "ROW_ID": "18100004:v41692192:2025-03",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "195.9",
+            "VECTOR": "v41692192",
+            "scaled_value": "195.9"
+          }
+        ],
+        "status": "answer",
+        "unit": "2002=100",
+        "value": "193.7666666666666666666666667"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Saskatchewan"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Food"
+              }
+            ],
+            "period": "2025-01",
+            "table_id": 18100004
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Saskatchewan"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Food"
+              }
+            ],
+            "period": "2025-02",
+            "table_id": 18100004
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Saskatchewan"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Food"
+              }
+            ],
+            "period": "2025-03",
+            "table_id": 18100004
+          }
+        ],
+        "operation": "mean",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "Average Saskatchewan's monthly Food CPI at 2025-01, 2025-02 and 2025-03 using equal weights. Retain the unadjusted series and round the index to one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-23",
+      "outcome": {
+        "operation": "mean",
+        "rounded_value": "163.2",
+        "source_row_ids": [
+          "18100004:v41691379:2023-06",
+          "18100004:v41691379:2023-07",
+          "18100004:v41691379:2023-08"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "5.2",
+            "REF_DATE": "2023-06",
+            "ROW_ID": "18100004:v41691379:2023-06",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "161.0",
+            "VECTOR": "v41691379",
+            "scaled_value": "161.0"
+          },
+          {
+            "COORDINATE": "5.2",
+            "REF_DATE": "2023-07",
+            "ROW_ID": "18100004:v41691379:2023-07",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "163.8",
+            "VECTOR": "v41691379",
+            "scaled_value": "163.8"
+          },
+          {
+            "COORDINATE": "5.2",
+            "REF_DATE": "2023-08",
+            "ROW_ID": "18100004:v41691379:2023-08",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "164.8",
+            "VECTOR": "v41691379",
+            "scaled_value": "164.8"
+          }
+        ],
+        "status": "answer",
+        "unit": "2002=100",
+        "value": "163.2"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Prince Edward Island"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "All-items"
+              }
+            ],
+            "period": "2023-06",
+            "table_id": 18100004
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Prince Edward Island"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "All-items"
+              }
+            ],
+            "period": "2023-07",
+            "table_id": 18100004
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Prince Edward Island"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "All-items"
+              }
+            ],
+            "period": "2023-08",
+            "table_id": 18100004
+          }
+        ],
+        "operation": "mean",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "Using the unadjusted all-items CPI for Prince Edward Island, calculate a simple arithmetic average of 2023-06, 2023-07 and 2023-08. One decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-24",
+      "outcome": {
+        "operation": "mean",
+        "rounded_value": "180.9",
+        "source_row_ids": [
+          "18100005:v41693348:2023",
+          "18100005:v41693348:2024",
+          "18100005:v41693348:2025"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "2.79",
+            "REF_DATE": "2023",
+            "ROW_ID": "18100005:v41693348:2023",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100005",
+            "UOM": "2002=100",
+            "VALUE": "172.5",
+            "VECTOR": "v41693348",
+            "scaled_value": "172.5"
+          },
+          {
+            "COORDINATE": "2.79",
+            "REF_DATE": "2024",
+            "ROW_ID": "18100005:v41693348:2024",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100005",
+            "UOM": "2002=100",
+            "VALUE": "182.3",
+            "VECTOR": "v41693348",
+            "scaled_value": "182.3"
+          },
+          {
+            "COORDINATE": "2.79",
+            "REF_DATE": "2025",
+            "ROW_ID": "18100005:v41693348:2025",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100005",
+            "UOM": "2002=100",
+            "VALUE": "187.8",
+            "VECTOR": "v41693348",
+            "scaled_value": "187.8"
+          }
+        ],
+        "status": "answer",
+        "unit": "2002=100",
+        "value": "180.8666666666666666666666667"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Canada"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Shelter"
+              }
+            ],
+            "period": "2023",
+            "table_id": 18100005
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Canada"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Shelter"
+              }
+            ],
+            "period": "2024",
+            "table_id": 18100005
+          },
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "Canada"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Shelter"
+              }
+            ],
+            "period": "2025",
+            "table_id": 18100005
+          }
+        ],
+        "operation": "mean",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "What is the simple arithmetic mean of Canada's annual-average Shelter CPI for 2023, 2024 and 2025? Use the annual unadjusted values and one decimal.",
+      "score": {
+        "complete": true,
+        "operation_correct": true,
+        "source_correct": true,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": true
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-25",
+      "outcome": {
+        "reason": "A unique geography or ordered geography comparison is required.",
+        "status": "review"
+      },
+      "plan": {
+        "operands": [],
+        "operation": "lookup",
+        "reason": "A unique geography or ordered geography comparison is required.",
+        "round_digits": 1,
+        "status": "review"
+      },
+      "question": "Give Ottawa's seasonally adjusted LFS unemployment rate in 2025-05, all genders aged 15 years and over, using only the frozen corpus.",
+      "score": {
+        "complete": true,
+        "source_correct": null,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": null
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-26",
+      "outcome": {
+        "reason": "Requested period is outside the frozen corpus.",
+        "status": "review"
+      },
+      "plan": {
+        "operands": [],
+        "operation": "lookup",
+        "reason": "Requested period is outside the frozen corpus.",
+        "round_digits": 1,
+        "status": "review"
+      },
+      "question": "Report Canada's unadjusted all-items CPI for 2026-02 using the frozen 2023–2025 observations.",
+      "score": {
+        "complete": true,
+        "source_correct": null,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": null
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-27",
+      "outcome": {
+        "reason": "The requested statistical definition is unresolved or unsupported.",
+        "status": "review"
+      },
+      "plan": {
+        "operands": [],
+        "operation": "lookup",
+        "reason": "The requested statistical definition is unresolved or unsupported.",
+        "round_digits": 1,
+        "status": "review"
+      },
+      "question": "What was Saskatchewan's unemployment rate in 2025-04 for all genders aged 15 years and over? I have not decided whether the seasonal pattern should be removed.",
+      "score": {
+        "complete": true,
+        "source_correct": null,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": null
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-28",
+      "outcome": {
+        "reason": "The requested statistical definition is unresolved or unsupported.",
+        "status": "review"
+      },
+      "plan": {
+        "operands": [],
+        "operation": "lookup",
+        "reason": "The requested statistical definition is unresolved or unsupported.",
+        "round_digits": 1,
+        "status": "review"
+      },
+      "question": "Was the annual inflation rate in Newfoundland and Labrador higher in 2024? I mean the all-items CPI but have not chosen annual averages or December-to-December, or a comparison year.",
+      "score": {
+        "complete": true,
+        "source_correct": null,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": null
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-29",
+      "outcome": {
+        "operation": "lookup",
+        "rounded_value": "186.8",
+        "source_row_ids": [
+          "18100004:v41692463:2025-03"
+        ],
+        "source_values": [
+          {
+            "COORDINATE": "26.3",
+            "REF_DATE": "2025-03",
+            "ROW_ID": "18100004:v41692463:2025-03",
+            "SCALAR_FACTOR": "units",
+            "STATUS": "",
+            "TABLE_ID": "18100004",
+            "UOM": "2002=100",
+            "VALUE": "186.8",
+            "VECTOR": "v41692463",
+            "scaled_value": "186.8"
+          }
+        ],
+        "status": "answer",
+        "unit": "2002=100",
+        "value": "186.8"
+      },
+      "plan": {
+        "operands": [
+          {
+            "filters": [
+              {
+                "dimension": "GEO",
+                "value": "British Columbia"
+              },
+              {
+                "dimension": "Products and product groups",
+                "value": "Food"
+              }
+            ],
+            "period": "2025-03",
+            "table_id": 18100004
+          }
+        ],
+        "operation": "lookup",
+        "reason": "",
+        "round_digits": 1,
+        "status": "answer"
+      },
+      "question": "From this corpus, extract British Columbia's seasonally adjusted Food CPI at 2025-03. Do not substitute an unadjusted measure.",
+      "score": {
+        "complete": false,
+        "source_correct": null,
+        "status_correct": false,
+        "unsafe_answer": true,
+        "value_correct": null
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-30",
+      "outcome": {
+        "reason": "The requested statistical definition is unresolved or unsupported.",
+        "status": "review"
+      },
+      "plan": {
+        "operands": [],
+        "operation": "lookup",
+        "reason": "The requested statistical definition is unresolved or unsupported.",
+        "round_digits": 1,
+        "status": "review"
+      },
+      "question": "Use the all-items CPI to tell me the change in the standard of living of low-income Toronto households from 2023 to 2025.",
+      "score": {
+        "complete": true,
+        "source_correct": null,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": null
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-31",
+      "outcome": {
+        "reason": "The requested statistical definition is unresolved or unsupported.",
+        "status": "review"
+      },
+      "plan": {
+        "operands": [],
+        "operation": "lookup",
+        "reason": "The requested statistical definition is unresolved or unsupported.",
+        "round_digits": 1,
+        "status": "review"
+      },
+      "question": "For Quebec in 2025-06, provide the seasonally adjusted unemployment rate for the age group we discussed earlier. No earlier conversation is supplied.",
+      "score": {
+        "complete": true,
+        "source_correct": null,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": null
+      },
+      "trace": []
+    },
+    {
+      "arm": "baseline",
+      "id": "test-32",
+      "outcome": {
+        "reason": "The requested statistical definition is unresolved or unsupported.",
+        "status": "review"
+      },
+      "plan": {
+        "operands": [],
+        "operation": "lookup",
+        "reason": "The requested statistical definition is unresolved or unsupported.",
+        "round_digits": 1,
+        "status": "review"
+      },
+      "question": "Add the ten provinces' seasonally adjusted unemployment rates in 2025-06 and label the sum Canada's unemployment rate, for all genders aged 15 years and over.",
+      "score": {
+        "complete": true,
+        "source_correct": null,
+        "status_correct": true,
+        "unsafe_answer": false,
+        "value_correct": null
+      },
+      "trace": []
+    }
+  ],
+  "split": "test",
+  "summary": {
+    "complete_accuracy": 0.90625,
+    "complete_correct": 29,
+    "errors": 0,
+    "n": 32,
+    "review_outputs": 9,
+    "wrong_nonabstaining_answers": 1
+  }
+}

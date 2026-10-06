@@ -1,0 +1,76 @@
+{
+  "protocol_sha256": "3a6c9e27ce29494ef23de3c4def563e4198a6e8fc5523c81a356dd880cadcfe6",
+  "code_sha256": "39924b2236b8344e8e113c1706a630a79d59611ff13f5d899b281536bd5f28be",
+  "full_candidate_universe": 102229,
+  "groups": {
+    "development": {
+      "rows": 100,
+      "correct_top1": 100,
+      "accuracy": 1.0,
+      "top10_target_recall": 1.0,
+      "top10_targets_found": 100
+    },
+    "probability": {
+      "rows": 300,
+      "correct_top1": 300,
+      "accuracy": 1.0,
+      "top10_target_recall": 1.0,
+      "top10_targets_found": 300
+    },
+    "both_changed": {
+      "rows": 100,
+      "correct_top1": 72,
+      "accuracy": 0.72,
+      "top10_target_recall": 0.96,
+      "top10_targets_found": 96
+    }
+  },
+  "selection": {
+    "seed": 2026100607,
+    "older_records": 102067,
+    "newer_full_candidate_universe": 102229,
+    "shared_ids": 101149,
+    "eligible_continuing_open_not_reconstituted": 98055,
+    "development_leas": 99,
+    "evaluation_frame_size": 94586,
+    "probability_sample_size": 300,
+    "probability_inclusion": 0.003171716744549933,
+    "changed_frame_size": 161,
+    "changed_sample_size": 100,
+    "changed_inclusion": 0.6211180124223602,
+    "sample_overlap": 0,
+    "candidate_ids_hidden": true,
+    "status_counts_2021": {
+      "Open": 99025,
+      "Future": 293,
+      "Closed": 860,
+      "New": 1159,
+      "Added": 188,
+      "Inactive": 483,
+      "Reopened": 28,
+      "Changed Boundary/Agency": 31
+    },
+    "status_counts_2022": {
+      "Open": 99521,
+      "Future": 292,
+      "Closed": 895,
+      "New": 888,
+      "Inactive": 482,
+      "Added": 72,
+      "Changed Boundary/Agency": 57,
+      "Reopened": 22
+    },
+    "reconstituted_2021": {
+      "No": 102013,
+      "Yes": 54
+    },
+    "reconstituted_2022": {
+      "No": 102170,
+      "Yes": 59
+    }
+  },
+  "elapsed_seconds": 22.116039500004263,
+  "paid_calls": 0,
+  "model_gate": "stop_no_paid_model",
+  "interpretation": "Administrative continuing-school continuity among open, nonreconstituted shared IDs. Probability and changed-field samples are separate populations; no combined accuracy."
+}

@@ -1,0 +1,4478 @@
+{
+  "naics:111421": {
+    "scheme": "naics",
+    "code": "111421",
+    "title": "Nursery and tree production",
+    "definition": "This Canadian industry comprises establishments primarily engaged in growing, under cover or in open fields, nursery products and trees, and short rotation woody crops, for pulp and tree stock, that have a typical growth cycle of less than ten years.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 36
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "forestry for nursery and tree production (See 113110 Timber tract operations)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 228
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "operation of timber tracts that have a growth cycle of ten years or more (See 113110 Timber tract operations)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 229
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "retailing nursery, tree stock and floriculture products primarily purchased from others (See 444240 Nursery retailers and garden centres (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 230
+        }
+      }
+    ]
+  },
+  "naics:444240": {
+    "scheme": "naics",
+    "code": "444240",
+    "title": "Nursery retailers and garden centres",
+    "definition": "This Canadian industry comprises establishments primarily engaged in retailing nursery and garden products, such as trees, shrubs, plants, seeds, bulbs and sod, that are predominantly grown elsewhere.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1013
+    },
+    "elements": [
+      {
+        "type": "Inclusion(s)",
+        "text": "provision of landscaping services in addition to retailing nursery and garden products",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 17702
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "growing and retailing nursery stock (See 11142 Nursery and floriculture production)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 17703
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "providing landscaping services (See 561730 Landscaping services)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 17704
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "wholesaling new or used farm, lawn and garden machinery, equipment and parts (See 417110 Farm, lawn and garden machinery and equipment merchant wholesalers (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 17705
+        }
+      }
+    ]
+  },
+  "naics:238150": {
+    "scheme": "naics",
+    "code": "238150",
+    "title": "Glass and glazing contractors",
+    "definition": "This Canadian industry comprises establishments primarily engaged in installing glass panes in prepared openings (i.e., glazing work) and other glass work for buildings. The work performed may include new work, additions, alterations, maintenance, and repairs.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 229
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "installing prefabricated window units (See 238350 Finish carpentry contractors)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 2220
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "replacement, repair, and/or tinting of automotive glass (See 811122 Automotive glass replacement shops (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 2221
+        }
+      }
+    ]
+  },
+  "naics:811122": {
+    "scheme": "naics",
+    "code": "811122",
+    "title": "Automotive glass replacement shops",
+    "definition": "This Canadian industry comprises establishments primarily engaged in replacing and repairing motor vehicle glass.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1905
+    },
+    "elements": []
+  },
+  "naics:311811": {
+    "scheme": "naics",
+    "code": "311811",
+    "title": "Bakeries, manufacture of products for retail sale",
+    "definition": "This Canadian industry comprises establishments primarily engaged in manufacturing bakery products, for sale to the general public, for consumption off the premises. Establishments in this industry make bakery products from flour, not from prepared doughs.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 309
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "manufacturing bakery products, other than for retail sale (See 311814 Commercial bakeries and frozen bakery product manufacturing (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 3492
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "selling bakery products for immediate consumption (e.g., food court outlets, fast food outlets) (See 722512 Limited-service eating places (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 3493
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "selling bakery products, not manufactured on the premises, not for immediate consumption; or made from prepared doughs, for retail sale (See 445291 Baked goods retailers (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 3494
+        }
+      }
+    ]
+  },
+  "naics:445291": {
+    "scheme": "naics",
+    "code": "445291",
+    "title": "Baked goods retailers",
+    "definition": "This Canadian industry comprises establishments primarily engaged in retailing baked goods not baked on the premises, and not for immediate consumption.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1029
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "retailing baked goods for immediate consumption whether or not baked on the premises (See 722512 Limited-service eating places (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 17755
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "retailing goods baked on premises, not for immediate consumption (See 311811 Bakeries, manufacture of products for retail sale (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 17756
+        }
+      }
+    ]
+  },
+  "naics:513211": {
+    "scheme": "naics",
+    "code": "513211",
+    "title": "Software publishers (except video game publishers)",
+    "definition": "This Canadian industry comprises establishments primarily engaged in software publishing, not including video games. These establishments carry out operations necessary for producing and distributing computer software, such as designing, providing documentation, assisting in installation and providing support services to software purchasers.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1312
+    },
+    "elements": [
+      {
+        "type": "Inclusion(s)",
+        "text": "designing and publishing or publishing of software only",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 19853
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "custom designing software to meet the needs of specific users (See 541514 Computer systems design and related services (except video game design and development) (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 19854
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "mass duplication of software (See 334610 Manufacturing and reproducing magnetic and optical media (MEX))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 19855
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "providing access to software for clients from a central host site (See 518210 Computing infrastructure providers, data processing, web hosting, and related services)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 19856
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "video game software publishing (See 513212 Video game publishers (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 19857
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "video game software publishing (including designing and developing) (See 513212 Video game publishers (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 19858
+        }
+      }
+    ]
+  },
+  "naics:541514": {
+    "scheme": "naics",
+    "code": "541514",
+    "title": "Computer systems design and related services (except video game design and development)",
+    "definition": "This Canadian industry comprises establishments primarily engaged in computer systems design and related services, not including video games, through one or more activities, such as writing, modifying, testing and supporting software to meet the needs of a particular customer, including custom Internet web-page development; planning and designing computer systems that integrate hardware, software and communication technologies; on-site management and operation of clients' computer and data processing facilities; providing advice in the field of information technologies; and other professional and technical computer-related services, such as training and support after sales.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1535
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "custom designing video games (See 541515 Video game design and development services (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 21572
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "developing and/or publishing GIS software (See 51321 Software publishers)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 21573
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "providing data processing services (See 518210 Computing infrastructure providers, data processing, web hosting, and related services)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 21574
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "publishing packaged software other than video game (See 513211 Software publishers (except video game publishers) (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 21575
+        }
+      }
+    ]
+  },
+  "naics:541212": {
+    "scheme": "naics",
+    "code": "541212",
+    "title": "Offices of accountants",
+    "definition": "This Canadian industry comprises establishments primarily engaged in providing a range of accounting services, such as the preparation of financial statements, the preparation of management accounting reports, the review and auditing of accounting records, the development of budgets, the design of accounting systems, and the provision of advice on matters related to accounting.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1504
+    },
+    "elements": [
+      {
+        "type": "Inclusion(s)",
+        "text": "provision of related services, such as bookkeeping, tax return preparation, payroll, management consulting and insolvency",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 21221
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "providing bookkeeping, billing and payroll processing services, without also providing accounting or auditing services (See 541215 Bookkeeping, payroll and related services (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 21222
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "providing tax return preparation services, without also providing accounting or auditing services (See 541213 Tax preparation services (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 21223
+        }
+      }
+    ]
+  },
+  "naics:541215": {
+    "scheme": "naics",
+    "code": "541215",
+    "title": "Bookkeeping, payroll and related services",
+    "definition": "This Canadian industry comprises establishments primarily engaged in providing bookkeeping, billing or payroll processing services. These establishments do not provide accounting services, such as the preparation of financial statements, the preparation of management accounting reports, and the review and auditing of accounting records.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1506
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "providing a range of accounting services (See 541212 Offices of accountants (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 21230
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "providing tax return preparation services, without also providing accounting or auditing services (See 541213 Tax preparation services (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 21231
+        }
+      }
+    ]
+  },
+  "naics:541320": {
+    "scheme": "naics",
+    "code": "541320",
+    "title": "Landscape architectural services",
+    "definition": "This Canadian industry comprises establishments primarily engaged in planning, designing and administering the development of land areas for projects such as parks and other recreational areas, airports, highways, hospitals, schools, land subdivisions, and commercial, industrial and residential areas by applying knowledge of land characteristics, location of buildings and structures, use of land areas, and design of landscape projects.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1511
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "city, town or urban planning engineers (See 541330 Engineering services)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 21253
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "designing, installing and maintaining the materials specified in the landscaping design as part of an integrated service (See 561730 Landscaping services)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 21254
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "operating retail nursery and garden centres that also provide landscape consulting and design services (See 444240 Nursery retailers and garden centres (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 21255
+        }
+      }
+    ]
+  },
+  "naics:561730": {
+    "scheme": "naics",
+    "code": "561730",
+    "title": "Landscaping services",
+    "definition": "This Canadian industry comprises establishments primarily engaged in providing landscape care and maintenance services and/or installing trees, shrubs, plants, lawns or gardens, and establishments engaged in these activities along with the construction (installation) of walkways, retaining walls, decks, fences, ponds and similar structures.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1636
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "artificial turf installation (See 238990 All other specialty trade contractors (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 22480
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "construction (installation) of walkways, retaining walls, decks, fences, ponds and similar structures (See 23 Construction)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 22481
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "crop dusting and spraying service, with or without fertilizing (See 115110 Support activities for crop production (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 22482
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "planning and designing the development of land areas for projects such as parks and other recreational areas; airports; highways; hospitals; schools; land subdivisions; and commercial, industrial and residential areas (See 541320 Landscape architectural services)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 22483
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "retailing, installing and maintaining landscaping materials, such as trees, shrubs and plants (See 444240 Nursery retailers and garden centres (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 22484
+        }
+      }
+    ]
+  },
+  "naics:561721": {
+    "scheme": "naics",
+    "code": "561721",
+    "title": "Window cleaning services",
+    "definition": "This Canadian industry comprises establishments primarily engaged in the cleaning of windows.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1633
+    },
+    "elements": []
+  },
+  "naics:561722": {
+    "scheme": "naics",
+    "code": "561722",
+    "title": "Janitorial services (except window cleaning)",
+    "definition": "This Canadian industry comprises establishments primarily engaged in cleaning building interiors, and/or transportation equipment (aircraft, ships, rail cars) interiors.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1634
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "cleaning chimneys (See 561791 Duct and chimney cleaning services (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 22434
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "cleaning freight rail cars (See 488210 Support activities for rail transportation)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 22435
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "cleaning windows (See 561721 Window cleaning services (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 22436
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "handyman (repair and maintenance to buildings and dwellings) (See 561799 All other services to buildings and dwellings (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 22437
+        }
+      }
+    ]
+  },
+  "naics:541940": {
+    "scheme": "naics",
+    "code": "541940",
+    "title": "Veterinary services",
+    "definition": "This Canadian industry comprises establishments of licensed veterinary practitioners primarily engaged in the practice of veterinary medicine, dentistry, or surgery for animals.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1577
+    },
+    "elements": [
+      {
+        "type": "Inclusion(s)",
+        "text": "veterinary laboratories",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 22005
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "boarding horses (See 115210 Support activities for animal production)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 22006
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "providing pet care services, such as grooming and boarding (See 812910 Pet care (except veterinary) services (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 22007
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "veterinary research and development (See 541710 Research and development in the physical, engineering and life sciences (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 22008
+        }
+      }
+    ]
+  },
+  "naics:812910": {
+    "scheme": "naics",
+    "code": "812910",
+    "title": "Pet care (except veterinary) services",
+    "definition": "This Canadian industry comprises establishments primarily engaged in grooming, boarding and training pet animals.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1947
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "breeding and raising pets (See 115210 Support activities for animal production)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 25387
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "operating animal hospitals (See 541940 Veterinary services (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 25388
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "promoting animal rights (See 813310 Social advocacy organizations (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 25389
+        }
+      }
+    ]
+  },
+  "naics:812310": {
+    "scheme": "naics",
+    "code": "812310",
+    "title": "Coin-operated laundries and dry cleaners",
+    "definition": "This Canadian industry comprises establishments primarily engaged in providing self-service, coin-operated laundry and dry-cleaning facilities for public use.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1940
+    },
+    "elements": []
+  },
+  "naics:812320": {
+    "scheme": "naics",
+    "code": "812320",
+    "title": "Dry cleaning and laundry services (except coin-operated)",
+    "definition": "This Canadian industry comprises establishments primarily engaged in laundering, dry cleaning, and pressing apparel and linens of all types, such as leather.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 1942
+    },
+    "elements": [
+      {
+        "type": "Inclusion(s)",
+        "text": "cleaning, repairing and storing fur garments",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 25332
+        }
+      },
+      {
+        "type": "Inclusion(s)",
+        "text": "laundry pick-up and delivery stations, operated independently from power laundries and dry-cleaning plants",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 25333
+        }
+      },
+      {
+        "type": "Inclusion(s)",
+        "text": "provision of clothing repair and alteration in addition to dry cleaning and laundry services",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 25334
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "operating clothing alteration and repair shops (See 811490 Other personal and household goods repair and maintenance (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 25335
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "operating self-service laundry and dry-cleaning facilities (See 812310 Coin-operated laundries and dry cleaners (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 25336
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "retailing fur garments, combined with cleaning, repairing or storing (See 458116 Fur retailers (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 25337
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "storing furs for the trade (See 493120 Refrigerated warehousing and storage)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 25338
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "supplying and laundering household or commercial linens (See 812330 Linen and uniform supply (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 25339
+        }
+      }
+    ]
+  },
+  "naics:327214": {
+    "scheme": "naics",
+    "code": "327214",
+    "title": "Glass manufacturing",
+    "definition": "This Canadian industry comprises establishments primarily engaged in making glass from sand and cullet.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 542
+    },
+    "elements": [
+      {
+        "type": "Inclusion(s)",
+        "text": "making glass products",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 8450
+        }
+      },
+      {
+        "type": "Inclusion(s)",
+        "text": "manufacturing unsheathed optical fibres, and bundles and cables made of unsheathed fibres",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 8451
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "manufacturing optical fibre cable, made of individually sheathed glass strands (See 335920 Communication and energy wire and cable manufacturing (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 8452
+        }
+      }
+    ]
+  },
+  "naics:327215": {
+    "scheme": "naics",
+    "code": "327215",
+    "title": "Glass product manufacturing from purchased glass",
+    "definition": "This Canadian industry comprises establishments primarily engaged in remelting, pressing, blowing or otherwise shaping purchased glass.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 543
+    },
+    "elements": []
+  },
+  "naics:323115": {
+    "scheme": "naics",
+    "code": "323115",
+    "title": "Digital printing",
+    "definition": "This Canadian industry comprises establishments primarily engaged in digital printing. These establishments use computer-controlled non-impact (electrostatic, ink jet, spray jet) printing equipment. The image to be printed is input to the printer as a computer file (not simply scanned in and digitized by the printer itself). Establishments in this Canadian industry typically have extensive pre-press operations, including specialized scanners and colour-separation equipment. Typically, these establishments print documents of a high-resolution, graphical nature.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 447
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "printing using simple electrostatic printers, such as office-type photocopiers (See 561430 Business service centres (CAN))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 6164
+        }
+      }
+    ]
+  },
+  "naics:323113": {
+    "scheme": "naics",
+    "code": "323113",
+    "title": "Commercial screen printing",
+    "definition": "This Canadian industry comprises establishments primarily engaged in commercial printing using silk-screen printing equipment. Establishments in this Canadian industry typically have a pre-press capability, for example, to cut stencils. Typically, these establishments print on clothing; or produce paper documents of a graphical nature, such as pictures and large-format sign-type lettering.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 445
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "silk-screen printing on textile fabrics (See 313310 Textile and fabric finishing)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 6156
+        }
+      }
+    ]
+  },
+  "naics:441110": {
+    "scheme": "naics",
+    "code": "441110",
+    "title": "New car dealers",
+    "definition": "This Canadian industry comprises establishments primarily engaged in retailing new automobiles, sport utility vehicles, and light-duty trucks and vans, including mini-vans, to final consumers or to automobile lessors. These establishments also typically retail used cars, replacement parts and accessories, and provide repair services.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 986
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "providing automotive repair services, without retailing motor vehicles (See 8111 Automotive repair and maintenance)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 17529
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "retailing used cars (See 441120 Used car dealers (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 17530
+        }
+      }
+    ]
+  },
+  "naics:441120": {
+    "scheme": "naics",
+    "code": "441120",
+    "title": "Used car dealers",
+    "definition": "This Canadian industry comprises establishments primarily engaged in retailing used automobiles, sport utility vehicles, and light-duty trucks and vans, including mini-vans.",
+    "structure_source": {
+      "file": "naics-structure.csv",
+      "csv_record": 988
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "providing automotive repair services, without retailing motor vehicles (See 8111 Automotive repair and maintenance)",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 17534
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "retailing new automobiles, sport utility vehicles, and light-duty trucks and vans, including mini-vans (See 441110 New car dealers (US))",
+        "source": {
+          "file": "naics-elements.csv",
+          "csv_record": 17535
+        }
+      }
+    ]
+  },
+  "noc:11100": {
+    "scheme": "noc",
+    "code": "11100",
+    "title": "Financial auditors and accountants",
+    "definition": "Financial auditors examine and analyze the accounting and financial records of individuals and establishments to ensure accuracy and compliance with established accounting standards and procedures. Accountants plan, organize and administer accounting systems for individuals and establishments. They are employed by private sector accounting and auditing firms or departments and public sector accounting and auditing departments or units, or they may be self-employed. Articling students in accounting firms are included in this unit group.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 30
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Accounting technicians and bookkeepers  (See 12200 Accounting technicians and bookkeepers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1360
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Financial managers  (See 10010 Financial managers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1361
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Policy and program researchers, consultants and officers  (See 4140 Policy and program researchers, consultants and officers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1362
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1363
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Financial auditors",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1364
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Examine and analyze journal and ledger entries, bank statements, inventories, expenditures, tax returns and other accounting and financial records, documents and systems of individuals, departments within organizations, businesses or other establishments to ensure financial recording accuracy and compliance with established accounting standards, procedures and internal controls",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1365
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare detailed reports on audit findings and make recommendations to improve individual or establishment's accounting and management practices",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1366
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Conduct field audits of businesses to ensure compliance with provisions of the Income Tax Act, Canadian Business Corporations Act or other statutory requirements",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1367
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May supervise other auditors or professionals in charge of accounting within client's establishment.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1368
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Accountants",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1369
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Plan, set up and administer accounting systems and prepare financial information for individuals, departments within organizations, businesses and other establishments",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1370
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Examine accounting records and prepare financial statements and reports",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1371
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Develop and maintain cost finding, reporting and internal control procedures",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1372
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Examine financial accounts and records and prepare income tax returns from accounting records",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1373
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Analyze financial statements and reports and provide financial, business and tax advice",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1374
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May act as a trustee in bankruptcy proceedings",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1375
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May supervise and train articling students, other accountants or administrative technicians.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1376
+        }
+      }
+    ]
+  },
+  "noc:12200": {
+    "scheme": "noc",
+    "code": "12200",
+    "title": "Accounting technicians and bookkeepers",
+    "definition": "Accounting technicians and bookkeepers maintain complete sets of books, keep records of accounts, verify the procedures used for recording financial transactions, and provide personal bookkeeping services. They are employed throughout the private and public sectors, or they may be self-employed.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 61
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Accounting and related clerks  (See 14200 Accounting and related clerks)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2704
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Banking, insurance and other financial clerks  (See 14201 Banking, insurance and other financial clerks)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2705
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Financial auditors and accountants  (See 11100 Financial auditors and accountants)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2706
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Payroll administrators  (See 13102 Payroll administrators)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2707
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2708
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Keep financial records and establish, maintain and balance various accounts using manual and computerized bookkeeping systems",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2709
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Post journal entries and reconcile accounts, prepare trial balance of books, maintain general ledgers and prepare financial statements",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2710
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Calculate and prepare cheques for payrolls and for utility, tax and other bills",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2711
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Complete and submit tax remittance forms, workers' compensation forms, pension contribution forms and other government documents",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2712
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare tax returns and perform other personal bookkeeping services",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2713
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare other statistical, financial and accounting reports.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2714
+        }
+      }
+    ]
+  },
+  "noc:11200": {
+    "scheme": "noc",
+    "code": "11200",
+    "title": "Human resources professionals",
+    "definition": "Human resources professionals develop, implement and evaluate human resources and labour relations policies, programs and procedures and advise employers and employees on human resources matters. They are employed throughout the public and private sectors, or they may be self-employed.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 37
+    },
+    "elements": [
+      {
+        "type": "Inclusion(s)",
+        "text": "employment adviser - human resources",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1726
+        }
+      },
+      {
+        "type": "Inclusion(s)",
+        "text": "staff training and development officer",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1727
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Human resources and recruitment officers  (See 12101 Human resources and recruitment officers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1728
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Human resources managers  (See 10011 Human resources managers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1729
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Personnel clerks  (See 14102 Personnel clerks)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1730
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Professional occupations in business management consulting  (See 11201 Professional occupations in business management consulting)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1731
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Training officer - company  (See 41210 College and other vocational instructors)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1732
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1733
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Plan, develop, implement and evaluate human resources and labour relations strategies including policies, programs and procedures to address an organization's human resource requirements",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1734
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Advise employers and employees on the interpretation of human resources policies, compensation and benefit programs and collective agreements",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1735
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Negotiate collective agreements on behalf of employers or workers, mediate labour disputes and grievances and provide advice on employee and labour relations",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1736
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Research and prepare occupational classifications, job descriptions, salary scales and competency appraisal measures and systems",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1737
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Plan and administer staffing, total compensation, training and career development, employee assistance, employment equity and affirmative action programs",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1738
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Manage programs and maintain human resources information and related records systems",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1739
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Hire and oversee training of staff",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1740
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Coordinate employee performance appraisal programs",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1741
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Research employee benefit and health and safety practices and recommend changes or modifications to existing policies.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 1742
+        }
+      }
+    ]
+  },
+  "noc:12101": {
+    "scheme": "noc",
+    "code": "12101",
+    "title": "Human resources and recruitment officers",
+    "definition": "Human resources and recruitment officers identify and advertise job vacancies, recruit candidates, and assist in the selection and reassignment of employees. They are employed throughout the private and public sectors.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 50
+    },
+    "elements": [
+      {
+        "type": "Inclusion(s)",
+        "text": "employment supervisor",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2294
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Human resources managers  (See 10011 Human resources managers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2295
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Human resources professionals  (See 11200 Human resources professionals)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2296
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Personnel clerks  (See 14102 Personnel clerks)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2297
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Training officer - company  (See 41210 College and other vocational instructors)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2298
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2299
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Identify current and prospective staffing requirements, prepare and post notices and advertisements, and collect and screen applications",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2300
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Advise job applicants on employment requirements and on terms and conditions of employment",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2301
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Review candidate inventories and contact potential applicants to arrange interviews and transfers, redeployment and placement of personnel",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2302
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Recruit graduates of colleges, universities and other educational institutions",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2303
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Coordinate and participate in selection and examination boards to evaluate candidates",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2304
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Notify applicants of results of selection process and prepare job offers",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2305
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Advise managers and employees on staffing policies and procedures",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2306
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Organize and administer staff consultation and grievance procedures",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2307
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Determine eligibility to entitlements, arrange staff training and provide information or services such as employee assistance, counselling and recognition programs",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2308
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May manage and follow up on the opening of Occupational Health and Safety (OHS) files",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2309
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May supervise personnel clerks performing filing and record-keeping duties.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 2310
+        }
+      }
+    ]
+  },
+  "noc:31103": {
+    "scheme": "noc",
+    "code": "31103",
+    "title": "Veterinarians",
+    "definition": "Veterinarians prevent, diagnose and treat diseases and disorders in animals and advise clients on the feeding, hygiene, housing and general care of animals. They can also perform surgical procedures. They work in private practice or may be employed by animal clinics, farms, laboratories, government or industry.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 215
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Animal health technologists and veterinary technicians  (See 32104 Animal health technologists and veterinary technicians)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 9816
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Biologists and related scientists  (See 21110 Biologists and related scientists)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 9817
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 9818
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Diagnose diseases or abnormal conditions in individual animals, herds and flocks through physical examinations or laboratory tests",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 9819
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Treat sick or injured animals by prescribing medication, setting bones, dressing wounds or performing surgery",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 9820
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Vaccinate animals to prevent and treat diseases",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 9821
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Perform routine, emergency and post-mortem examinations",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 9822
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Advise clients on feeding, housing, behaviour, breeding, hygiene and general care of animals",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 9823
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Provide a range of veterinary services including obstetrics, dentistry and euthanasia",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 9824
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May supervise animal health technologists and animal care workers",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 9825
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May be responsible for overall operation of animal hospital, clinic or mobile service to farms",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 9826
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May conduct veterinary research related to areas such as animal nutrition, health care products development and disease prevention and control",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 9827
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May enforce government regulations in disease control and food production including animal or animal-based food inspection.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 9828
+        }
+      }
+    ]
+  },
+  "noc:32104": {
+    "scheme": "noc",
+    "code": "32104",
+    "title": "Animal health technologists and veterinary technicians",
+    "definition": "Animal health technologists and veterinary technicians provide technical support to veterinarians by caring for animals and assisting in the diagnosis and treatment of animal health disorders. They are employed in veterinary clinics, animal hospitals, animal shelters, humane societies, zoos, animal research laboratories, pharmaceutical companies and government. Animal health technologists and veterinary technicians who are supervisors are included in this unit group.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 244
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Pet groomers and animal care workers  (See 65220 Pet groomers and animal care workers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10965
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10966
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Provide nursing care and rehabilitation therapy for animals",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10967
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Handle, restrain and care for animals undergoing treatment and surgery",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10968
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Produce radiographs, collect and analyse samples and perform other laboratory tests to assist in diagnosis of animal health problems",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10969
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Assist veterinarian with animals before, during and following surgery by preparing surgical equipment, administering and monitoring anaesthetics and cleaning up after surgery",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10970
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare and administer medications and vaccines under direction of a veterinarian",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10971
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Administer treatments as prescribed by a veterinarian",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10972
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Provide wound and bandage care",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10973
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Conduct specialized procedures such as animal identification and hoof trimming",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10974
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Educate and advise clients on animal health care including nutrition and home care",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10975
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Assist in laboratory research",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10976
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Perform routine animal dental procedures and assist veterinarians with animal dentistry",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10977
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May perform a variety of office management and clerical duties.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10978
+        }
+      }
+    ]
+  },
+  "noc:31120": {
+    "scheme": "noc",
+    "code": "31120",
+    "title": "Pharmacists",
+    "definition": "Community pharmacists and hospital pharmacists compound and dispense prescribed pharmaceuticals and provide consultative services to both clients and health care providers. They are employed in retail pharmacies and health center pharmacies, or they may be self-employed. Industrial pharmacists participate in the research, development, promotion and manufacture of pharmaceutical products. They are employed in pharmaceutical companies and government departments and agencies.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 221
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Chemists  (See 21101 Chemists)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10028
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Chief of pharmacy  (See 30010 Managers in health care)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10029
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Drugstore manager  (See 60020 Retail and wholesale trade managers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10030
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Pharmaceutical sales representative  (See 62100 Technical sales specialists - wholesale trade)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10031
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Pharmacologist  (See 21110 Biologists and related scientists)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10032
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Pharmacy director  (See 30010 Managers in health care)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10033
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Pharmacy manager - retail  (See 60020 Retail and wholesale trade managers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10034
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Pharmacy technical assistants and pharmacy assistants  (See 33103 Pharmacy technical assistants and pharmacy assistants)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10035
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Pharmacy technicians  (See 32124 Pharmacy technicians)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10036
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10037
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Community pharmacists and hospital pharmacists",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10038
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Check prescriptions for proper dosage",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10039
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Compound prescribed pharmaceutical products by calculating, measuring and mixing the quantities of drugs and other ingredients required and filling appropriate containers with correct quantity",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10040
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Dispense prescribed pharmaceuticals to customers or to other health care professionals and advise them on indications, contra-indications, adverse effects, drug interactions and dosage",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10041
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Maintain medication profiles of customers including registry of poisons and narcotic and controlled drugs",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10042
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Ensure proper preparation, packaging, distribution and storage of vaccines, serums, biologicals and other drugs and pharmaceuticals",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10043
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Order and maintain stock of pharmaceutical supplies",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10044
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Advise customers on selection and use of non-prescription medication",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10045
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Renew existing prescriptions in limited circumstances",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10046
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May adapt the formulation, regimen, duration or route of administration of medication",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10047
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May supervise and coordinate the activities of other pharmacists, pharmacy assistants, pharmacy technicians and other staff.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10048
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Industrial pharmacists",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10049
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Participate in research for the development of new drugs",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10050
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Formulate new drug products developed by medical researchers",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10051
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Test new drug products for stability and to determine absorption and elimination patterns",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10052
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Coordinate clinical investigations of new drugs",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10053
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Control the quality of drug products during production to ensure that they meet standards of potency, purity, uniformity, stability and safety",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10054
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Develop information materials concerning the uses, properties and risks of particular drugs",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10055
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Evaluate labelling, packaging and advertising of drug products",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10056
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Promote pharmaceutical products to health professionals.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10057
+        }
+      }
+    ]
+  },
+  "noc:32124": {
+    "scheme": "noc",
+    "code": "32124",
+    "title": "Pharmacy technicians",
+    "definition": "Pharmacy technicians perform technical functions relating to prescriptions including gathering patients' information, product preparation, product distribution and inventory control. They work closely with pharmacists to provide pharmaceutical care to clients. Pharmacy technicians are employed in retail and hospital pharmacies, long-term care facilities and by pharmaceutical manufacturers. Pharmacy technicians who are supervisors are included in this unit group.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 255
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Pharmacy clerk  (See 64100 Retail salespersons and visual merchandisers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11553
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Pharmacy technical assistants and pharmacy assistants  (See 33103 Pharmacy technical assistants and pharmacy assistants)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11554
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11555
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Assist pharmacists to maintain inventories of medications and prescription records of pharmaceutical products",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11556
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Assess prescriptions for completeness and ensure information is accurate",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11557
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Gather and enter client information in databases and prepare medications for clients in collaboration with pharmacists",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11558
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Compound pharmaceutical products such as intravenous injections, oral solutions, ointments and creams",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11559
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Process payment of prescriptions and other pharmacy services including direct billing to third party insurers",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11560
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Provide instructions on how to use health aids, and medical devices such as drug administration devices and monitoring devices",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11561
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May help with scheduling and workflow.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11562
+        }
+      }
+    ]
+  },
+  "noc:41220": {
+    "scheme": "noc",
+    "code": "41220",
+    "title": "Secondary school teachers",
+    "definition": "Secondary school teachers prepare and teach academic, technical, vocational or specialized subjects at public and private secondary schools. Secondary school teachers who are heads of departments are included in this unit group.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 299
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "College and other vocational instructors  (See 41210 College and other vocational instructors)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13719
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Educational counsellors  (See 41320 Educational counsellors)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13720
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Elementary and secondary school teacher assistants  (See 43100 Elementary and secondary school teacher assistants)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13721
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Elementary school and kindergarten teachers  (See 41221 Elementary school and kindergarten teachers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13722
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Instructors of persons with disabilities  (See 42203 Instructors of persons with disabilities)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13723
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Other instructors  (See 43109 Other instructors)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13724
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Psychoeducator  (See 41301 Therapists in counselling and related specialized therapies)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13725
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "School principals and administrators of elementary and secondary education  (See 40021 School principals and administrators of elementary and secondary education)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13726
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Secondary school librarian  (See 52100 Library and public archive technicians)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13727
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13728
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare subject material for presentation to students according to an approved curriculum",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13729
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Teach students using a systematic plan of lectures, discussions, audio-visual presentations, and laboratory, shop and field studies",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13730
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Assign and correct homework",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13731
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare, administer and correct tests",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13732
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Evaluate progress, determine individual needs of students and discuss results with parents and school officials",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13733
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare and implement remedial programs for students requiring extra help",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13734
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Participate in staff meetings, educational conferences and teacher training workshops",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13735
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May teach and evaluate students through distance or online courses",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13736
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May advise students on course selection and on vocational and personal matters",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13737
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May supervise student teachers.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13738
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Secondary school teachers may specialize in such areas as mathematics, English, French, special education or second language instruction. Secondary school teachers of vocational and trades subjects may specialize in areas such as hairdressing or auto mechanics.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13739
+        }
+      }
+    ]
+  },
+  "noc:41221": {
+    "scheme": "noc",
+    "code": "41221",
+    "title": "Elementary school and kindergarten teachers",
+    "definition": "Elementary school and kindergarten teachers teach basic subjects such as reading, writing and arithmetic or specialized subjects such as English or French as a second language at public and private elementary schools.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 300
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Early childhood educators and assistants  (See 42202 Early childhood educators and assistants)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13797
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Elementary and secondary school teacher assistants  (See 43100 Elementary and secondary school teacher assistants)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13798
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Elementary school librarian  (See 52100 Library and public archive technicians)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13799
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Psychoeducator  (See 41301 Therapists in counselling and related specialized therapies)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13800
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "School principals and administrators of elementary and secondary education  (See 40021 School principals and administrators of elementary and secondary education)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13801
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Secondary school teachers  (See 41220 Secondary school teachers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13802
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Teacher of persons with developmental disabilities  (See 42203 Instructors of persons with disabilities)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13803
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13804
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare courses for presentation to students according to approved curriculum",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13805
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Teach students using a systematic plan of lessons, discussions, audio-visual presentations and field trips",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13806
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Lead students in activities to promote their physical, mental and social development and their school readiness",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13807
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Assign and correct homework",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13808
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare, administer and correct tests",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13809
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Evaluate the progress of students and discuss results with students, parents and school officials",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13810
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Identify children's individual learning needs",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13811
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare and implement remedial programs for students requiring extra help",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13812
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Participate in staff meetings, educational conferences and teacher training workshops",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13813
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May supervise teachers' aides and student teachers.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13814
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Elementary school and kindergarten teachers may specialize in such areas as special education or second language instruction.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 13815
+        }
+      }
+    ]
+  },
+  "noc:32111": {
+    "scheme": "noc",
+    "code": "32111",
+    "title": "Dental hygienists and dental therapists",
+    "definition": "Dental hygienists provide dental hygiene treatment and services related to oral health promotion and disease and mouth injury prevention. They are employed in a variety of settings including dentists' offices, hospitals, private clinics, educational institutions, public health agencies or they may be self-employed. Dental therapists provide limited restorative dental treatment in addition to dental hygiene services. They are employed by the federal government and the provincial governments to provide services in rural and remote communities.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 248
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Dental assistants and dental laboratory assistants  (See 33100 Dental assistants and dental laboratory assistants)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11159
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Dental technologists and technicians  (See 32112 Dental technologists and technicians)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11160
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Dentists  (See 31110 Dentists)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11161
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Denturists  (See 32110 Denturists)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11162
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11163
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Dental hygienists",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11164
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Conduct patient screening and oral health assessments, including taking vital signs and documenting patient medical and health history",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11165
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Take dental impressions",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11166
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Take and develop X-rays",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11167
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Perform preventative dental procedures such as teeth cleaning, scaling, gum stimulation and fluoride and sealant applications",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11168
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Provide oral care instructions such as oral hygiene procedures, strategies to maintain and improve oral health and on the impact of nutrition on oral health",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11169
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Consult with dentists on patient care",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11170
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May perform restorative and orthodontic procedures under the direction of a dentist",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11171
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May supervise dental assistants in their health care functions.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11172
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May participate in community- or school-based oral health initiatives such as oral screening.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11173
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Dental therapists",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11174
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Perform routine dental check-ups, oral cancer examinations and emergency dental examinations",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11175
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Take dental impressions",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11176
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Take and develop X-rays",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11177
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Perform preventative dental procedures such as teeth cleaning, gum stimulation and fluoride and sealant applications",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11178
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Provide oral care instructions such as oral hygiene procedures, strategies to maintain and improve oral health and on the impact of nutrition on oral health",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11179
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Perform routine teeth restorations and uncomplicated extractions and provide post extraction oral care instructions",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11180
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Refer patients to other dental professionals for care beyond the scope of the dental therapist",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11181
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Provide oral health promotion activities",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11182
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May supervise dental assistants in their health care functions",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11183
+        }
+      }
+    ]
+  },
+  "noc:33100": {
+    "scheme": "noc",
+    "code": "33100",
+    "title": "Dental assistants and dental laboratory assistants",
+    "definition": "Dental assistants assist dentists, dental hygienists and dental therapists during the examination and treatment of patients and perform clerical functions. Dental laboratory assistants assist dental technologists and technicians in preparing and fabricating dentures and other dental devices. Dental assistants work in dentists' offices, community health centres, clinics and in educational institutions. Dental laboratory assistants are employed in dental laboratories.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 265
+    },
+    "elements": [
+      {
+        "type": "Inclusion(s)",
+        "text": "dental aide",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11840
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Dental hygienists and dental therapists  (See 32111 Dental hygienists and dental therapists)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11841
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Dental technologists and technicians  (See 32112 Dental technologists and technicians)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11842
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11843
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Dental assistants",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11844
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare patients for dental examination and assist the dentist during examinations and dental treatments",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11845
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Sterilize and maintain instruments and equipment",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11846
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare dental instruments, fillings compound and various dental materials",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11847
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Take and develop X-rays",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11848
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Polish teeth and clinical crowns and apply fluoride and sealant",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11849
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Take preliminary impressions for diagnostic casts",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11850
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Educate patients concerning oral hygiene",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11851
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Perform clerical duties such as prepare invoices, process payments, schedule patient appointments, record dental procedures performed and order dental and office supplies",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11852
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May perform intra-oral duties such as remove sutures, take and record vital signs, apply desensitizing agents, topical anaesthetic, anticariogenic agents and coronal whitening, fabricate, place, and remove temporary crowns and restorations, and apply and remove rubber dams",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11853
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May also perform pulp vitality testing as well as periodontal screening and recording.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11854
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Dental laboratory assistants",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11855
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare plaster models and moulds from dental impressions",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11856
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare wax bite-blocks and impression trays",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11857
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Cast gold or metal alloys for bridges and denture bases",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11858
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Pack plastic material in moulds to form full or partial dentures",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11859
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Mould wax over denture set-up to form full contours of artificial gums",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11860
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Make orthodontic bands from gold, silver, stainless steel or other metals",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11861
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Finish metal framework of dentures and polish and buff dentures to obtain natural finish.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 11862
+        }
+      }
+    ]
+  },
+  "noc:72200": {
+    "scheme": "noc",
+    "code": "72200",
+    "title": "Electricians (except industrial and power system)",
+    "definition": "Electricians (except industrial and power system) lay out, assemble, install, test, troubleshoot and repair electrical wiring, fixtures, control devices and related equipment in buildings and other structures. They are employed by electrical contractors and maintenance departments of buildings and other establishments, or they may be self-employed. Apprentices are also included in this unit group.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 565
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Electrical mechanics  (See 72422 Electrical mechanics)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25465
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Electricians supervisor  (See 72011 Contractors and supervisors, electrical trades and telecommunications occupations)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25466
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Industrial electricians  (See 72201 Industrial electricians)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25467
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Power system electricians  (See 72202 Power system electricians)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25468
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25469
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Read and interpret drawings, circuit diagrams and electrical code specifications to determine wiring layouts for new or existing installations",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25470
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Pull wire through conduits and through holes in walls and floors",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25471
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Install brackets and hangers to support electrical equipment",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25472
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Install, replace and repair lighting fixtures and electrical control and distribution equipment, such as switches, relays and circuit breaker panels",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25473
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Splice, join and connect wire to fixtures and components to form circuits",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25474
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Test continuity of circuits using test equipment to ensure compatibility and safety of system, following installation, replacement or repair",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25475
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Troubleshoot and isolate faults in electrical and electronic systems and remove and replace faulty components",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25476
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Connect electrical power to audio and visual communication equipment, signalling devices and heating and cooling systems",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25477
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Conduct preventive maintenance programs and keep maintenance records.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25478
+        }
+      }
+    ]
+  },
+  "noc:72201": {
+    "scheme": "noc",
+    "code": "72201",
+    "title": "Industrial electricians",
+    "definition": "Industrial electricians install, maintain, test, troubleshoot and repair industrial electrical equipment and associated electrical and electronic controls. They are employed by electrical contractors and maintenance departments of factories, plants, mines, shipyards and other industrial establishments. Apprentices are also included in this unit group.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 566
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Construction electrician  (See 72200 Electricians (except industrial and power system))",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25522
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Industrial electricians supervisor  (See 72011 Contractors and supervisors, electrical trades and telecommunications occupations)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25523
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Power system electricians  (See 72202 Power system electricians)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25524
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25525
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Read and interpret drawings, blueprints, schematics and electrical code specifications to determine layout of industrial electrical equipment installations",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25526
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Install, examine, replace or repair electrical wiring, receptacles, switch boxes, conduits, feeders, fibre-optic and coaxial cable assemblies, lighting fixtures and other electrical components",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25527
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Test electrical and electronic equipment and components for continuity, current, voltage and resistance",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25528
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Maintain, repair, install and test switchgear, transformers, switchboard meters, regulators and reactors",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25529
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Maintain, repair, test and install electrical motors, generators, alternators, industrial storage batteries and hydraulic and pneumatic electrical control systems",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25530
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Troubleshoot, maintain and repair industrial, electrical and electronic control systems and other related devices",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25531
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Conduct preventive maintenance programs and keep maintenance records",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25532
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May install, maintain and calibrate industrial instrumentation and related devices.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 25533
+        }
+      }
+    ]
+  },
+  "noc:72410": {
+    "scheme": "noc",
+    "code": "72410",
+    "title": "Automotive service technicians, truck and bus mechanics and mechanical repairers",
+    "definition": "Automotive service technicians, truck and bus mechanics and mechanical repairers inspect, diagnose, repair and service mechanical, electrical and electronic systems and components of cars, buses, and light and commercial transport trucks. They are employed by motor vehicle dealers, garages, truck and trailer dealerships, fleet maintenance companies, and service stations, automotive specialty shops, transportation companies and retail establishments which have automotive service shops. This unit group also includes mechanical repairers who perform major repairs and replacement of mechanical units on newly assembled motor vehicles. They are employed by motor vehicle manufacturing companies. Apprentices are also included in this unit group.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 592
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Auto body collision, refinishing and glass technicians and damage repair estimators  (See 72411 Auto body collision, refinishing and glass technicians and damage repair estimators)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27090
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Heavy-duty equipment mechanics  (See 72401 Heavy-duty equipment mechanics)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27091
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Motor vehicle assemblers, inspectors and testers  (See 94200 Motor vehicle assemblers, inspectors and testers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27092
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Motor vehicle mechanics supervisor  (See 72020 Contractors and supervisors, mechanic trades)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27093
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Recreation vehicle service technician  (See 72423 Motorcycle, all-terrain vehicle and other related mechanics)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27094
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Supervisors, motor vehicle assembling  (See 92020 Supervisors, motor vehicle assembling)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27095
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Truck trailer assembler  (See 94204 Mechanical assemblers and inspectors)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27096
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27097
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Automotive service technicians",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27098
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Review work orders and discuss work with supervisor",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27099
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Inspect motor in operation, road test motor vehicle, and test automotive systems and components using computerized diagnostic and other testing devices to diagnose and isolate faults",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27100
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Adjust, repair or replace parts and components of automotive systems including fuel system, brakes, steering and suspension, engine and drive train, emission control and exhaust, cooling and climate control, and electrical and electronic systems using hand tools and other specialized automotive repair equipment",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27101
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Test and adjust repaired systems to manufacturer's performance specifications",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27102
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Perform scheduled maintenance service, such as oil changes, lubrications and tune ups",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27103
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Advise customers on work performed, general vehicle condition and future repair requirements.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27104
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Mechanical repairers - motor vehicle manufacturing",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27105
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Inspect and test mechanical units, such as engines, transmissions, axles and brake systems, to locate faults and malfunctions",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27106
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Diagnose faults or malfunctions and confirm findings with supervisor to determine whether to repair or replace unit",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27107
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Repair or replace mechanical units or components using hand and power tools",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27108
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Test and adjust units to specifications for proper performance",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27109
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Complete reports to record problems and work performed.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27110
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Truck and transport and truck-trailer mechanics",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27111
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Adjust, repair or replace parts and components of commercial transport truck systems including chassis, frame, cab, body, engine and drive train, air brakes, steering, and fuel, hydraulic, electrical and electronic systems",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27112
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Adjust, repair or replace parts and components of truck-trailer systems including structural, brake and electrical systems.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27113
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Workers in this unit group may specialize in the following areas: engine and fuel systems, transmission systems, air conditioning, cooling and heating systems, steering, alignment, brakes, drive lines, suspension, electrical and electronic systems, truck-trailer repair or diagnostic services.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27114
+        }
+      }
+    ]
+  },
+  "noc:72411": {
+    "scheme": "noc",
+    "code": "72411",
+    "title": "Auto body collision, refinishing and glass technicians and damage repair estimators",
+    "definition": "Auto body collision, refinishing and glass technicians repair and restore damaged motor vehicle body parts and interior finishing; repaint body surfaces; repair and/or replace automotive glass and repair defective automobile body parts and damage to the bodies of newly assembled cars. Damage repair estimators assess the degree of damage to a vehicle and estimate the cost of parts and labour. They are employed by automobile dealerships, automobile body repair shops, automobile appraisal centres and by motor vehicle manufacturers. This unit group also includes metal repairers. Apprentices are also included in this unit group.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 593
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Automotive service technicians, truck and bus mechanics and mechanical repairers  (See 72410 Automotive service technicians, truck and bus mechanics and mechanical repairers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27201
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Car painter - manufacturing  (See 94213 Industrial painters, coaters and metal finishing process operators)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27202
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Motor vehicle body repairers foreman/woman  (See 72020 Contractors and supervisors, mechanic trades)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27203
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Supervisors, motor vehicle assembling  (See 92020 Supervisors, motor vehicle assembling)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27204
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27205
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Auto body collision, refinishing and glass technicians",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27206
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Review damage report and estimates of repair cost and plan work to be performed",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27207
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Repair and replace front end components, body components, doors and frame and underbody components",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27208
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Hammer out dents, buckles and other defects using blocks and hammers",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27209
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Operate soldering equipment or use plastic filler to fill holes, dents and seams",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27210
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Remove damaged fenders, panels and grills using wrenches and cutting torch and bolt or weld replacement parts into place",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27211
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Straighten bent frames using frame and underbody pulling and anchoring equipment",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27212
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "File, grind and sand repaired body surfaces using hand and power tools",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27213
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Mask and tape auto body surfaces in preparation for painting",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27214
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Mix paint, blend and match colours",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27215
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Apply primers and repaint surfaces using brush or spray guns",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27216
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Repair and replace glass components such as windshields, windows and sunroofs",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27217
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Repair or replace interior components, such as seat frame assembly, carpets and floorboard insulation",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27218
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Inspect repaired vehicles and test drive vehicles for proper handling.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27219
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Automobile damage repair estimator",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27220
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Inspect vehicle and estimate the costs and times for the repair and restoration of the vehicle",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27221
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Write report on damage and cost estimate",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27222
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Plan and coordinate work processes with the technicians",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27223
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Follow automobile industry safety norms and standards",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27224
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Provide customer service, such as answering all customer inquiries and explaining the complete repair process",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27225
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Follow up with insurance companies for claim related correspondence",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27226
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Order parts and material",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27227
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Maintain accurate documentation and obtain customer signatures",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27228
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Oversee final repairs for appearance and quality of work.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 27229
+        }
+      }
+    ]
+  },
+  "noc:21233": {
+    "scheme": "noc",
+    "code": "21233",
+    "title": "Web designers",
+    "definition": "Web designers develop and create the visual presentation, layout and functionality of websites and related applications. They are responsible for ensuring that the website is easy to use, and that the information is easy to access. Web designers are employed in computer software development firms, information technology consulting firms, information technology units throughout the public and private sectors, advertising agencies or they may be self-employed.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 146
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Computer network and web technicians  (See 22220 Computer network and web technicians)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6263
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Electronic business (e-business) manager  (See 10022 Advertising, marketing and public relations managers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6264
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Graphic designers and illustrators  (See 52120 Graphic designers and illustrators)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6265
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Information systems specialists  (See 21222 Information systems specialists)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6266
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Information systems testing technicians  (See 22222 Information systems testing technicians)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6267
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Web developers and programmers  (See 21234 Web developers and programmers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6268
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6269
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Establish design guidelines, standards and optimal design practices",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6270
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Maintain the appearance of websites by applying content standards",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6271
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Designing visual imagery for websites and ensuring that it is consistent with the organization image",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6272
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Integrate features and functionalities into Web sites",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6273
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Create and optimize content for the Web site using a variety of graphics, database, animation and other software",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6274
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Test and improve the design of a Web site",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6275
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May lead and coordinate multidisciplinary teams to develop Web site graphics, content, capacity and interactivity.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6276
+        }
+      }
+    ]
+  },
+  "noc:21234": {
+    "scheme": "noc",
+    "code": "21234",
+    "title": "Web developers and programmers",
+    "definition": "Web developers and programmers use a variety of programming languages to design, create and modify websites. They analyze users' needs to implement content, graphics, performance, and website capacity. They may also integrate websites with other computer applications. They are employed in computer software development firms, information technology consulting firms, information technology units throughout the public and private sectors, advertising agencies or they may be self-employed.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 147
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Computer network and web technicians  (See 22220 Computer network and web technicians)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6300
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Electronic business (e-business) manager  (See 10022 Advertising, marketing and public relations managers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6301
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Information systems specialists  (See 21222 Information systems specialists)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6302
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Information systems testing technicians  (See 22222 Information systems testing technicians)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6303
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Network systems engineer  (See 21311 Computer engineers (except software engineers and designers))",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6304
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Software developers and programmers  (See 21232 Software developers and programmers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6305
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Web designers  (See 21233 Web designers)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6306
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6307
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Develop, write, modify, integrate and test Web site related code and web application interfaces",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6308
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Conduct tests and analyze data to monitor quality, security, user interface experiences and to identify areas for improvement",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6309
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Develop and implement procedures for ongoing web site revision",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6310
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Monitor and maintain Web site functionality",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6311
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May participate in Web site architecture and design in collaboration with designers or clients",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6312
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May research and evaluate a variety of interactive media software products.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 6313
+        }
+      }
+    ]
+  },
+  "noc:63200": {
+    "scheme": "noc",
+    "code": "63200",
+    "title": "Cooks",
+    "definition": "Cooks prepare and cook a wide variety of foods. They are employed in restaurants, hotels, hospitals and other health care institutions, central food commissaries, educational institutions and other establishments. Cooks are also employed aboard ships and at construction and logging campsites. Apprentices are also included in this unit group.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 464
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Chefs  (See 62200 Chefs)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20646
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Food counter attendants, kitchen helpers and related support occupations  (See 65201 Food counter attendants, kitchen helpers and related support occupations)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20647
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20648
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare and cook complete meals or individual dishes and foods",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20649
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare and cook special meals for patients as instructed by dietitian or chef",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20650
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Schedule and supervise kitchen helpers",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20651
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Oversee kitchen operations",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20652
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Maintain inventory and records of food, supplies and equipment",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20653
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May set up and oversee buffets",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20654
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May clean kitchen and work area",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20655
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May plan menus, determine size of food portions, estimate food requirements and costs, and monitor and order supplies",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20656
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May hire and train kitchen staff.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20657
+        }
+      }
+    ]
+  },
+  "noc:63202": {
+    "scheme": "noc",
+    "code": "63202",
+    "title": "Bakers",
+    "definition": "Bakers prepare bread, rolls, muffins, pies, pastries, cakes and cookies in retail and wholesale bakeries and dining establishments. They are employed in bakeries, supermarkets, catering companies, hotels, restaurants, hospitals, and other institutions, or they may be self-employed. Bakers who are supervisors are included in this unit group. Apprentices are also included in this unit group.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 466
+    },
+    "elements": [
+      {
+        "type": "Inclusion(s)",
+        "text": "chocolate maker",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20740
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Bakery machine operator - food and beverage processing  (See 94140 Process control and machine operators, food and beverage processing)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20741
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Pastry chef  (See 62200 Chefs)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20742
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20743
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prepare dough for pies, bread, rolls and sweet goods, batters for muffins, cookies and cakes and icings and frostings according to recipes or special customer orders",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20744
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Bake mixed doughs and batters",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20745
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Frost and decorate cakes or other baked goods",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20746
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Ensure quality of products meets established standards",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20747
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Draw up production schedule to determine type and quantity of goods to produce",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20748
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Purchase baking supplies",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20749
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May oversee sales and merchandising of baked goods",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20750
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May hire, train and supervise baking personnel and kitchen staff.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 20751
+        }
+      }
+    ]
+  },
+  "noc:65310": {
+    "scheme": "noc",
+    "code": "65310",
+    "title": "Light duty cleaners",
+    "definition": "Light duty cleaners clean lobbies, hallways, offices and rooms of hotels, motels, resorts, hospitals, schools, office buildings and private residences. They are employed by hotels, motels, resorts, recreational facilities, hospitals and other institutions, building management companies, cleaning service companies and private individuals. Housekeepers perform housekeeping duties in residential, and institutional settings.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 523
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Cleaning supervisors  (See 62024 Cleaning supervisors)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23004
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Janitors, caretakers and heavy-duty cleaners  (See 65312 Janitors, caretakers and heavy-duty cleaners)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23005
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Specialized cleaners  (See 65311 Specialized cleaners)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23006
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23007
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Sweep, mop, wash, wax and polish floors",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23008
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Dust furniture and vacuum carpeting and area rugs, draperies and upholstered furniture",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23009
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Make beds, change sheets and distribute clean towels and toiletries",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23010
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Attend to guests' requests for extra supplies",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23011
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Stock linen closets and other supplies' areas",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23012
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Clean, disinfect and polish kitchen and bathroom fixtures and appliances",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23013
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Clean and disinfect public areas such as changing rooms, showers and elevators",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23014
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Disinfect operating rooms and other hospital areas",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23015
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Pick up debris and empty trash containers",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23016
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Wash windows, walls and ceilings.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23017
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Report and store lost and found items",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23018
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May provide basic information on facilities",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23019
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May handle complaints.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23020
+        }
+      }
+    ]
+  },
+  "noc:65312": {
+    "scheme": "noc",
+    "code": "65312",
+    "title": "Janitors, caretakers and heavy-duty cleaners",
+    "definition": "Janitors, caretakers and heavy-duty cleaners clean and maintain the interior and exterior of commercial, institutional and residential buildings and their surrounding grounds. They are employed by office and apartment building management companies, condominium corporations, educational institutions, health care facilities, recreational and shopping facilities, religious, industrial and other establishments.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 525
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "Cleaning supervisors  (See 62024 Cleaning supervisors)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23133
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "General building maintenance workers and building superintendents  (See 73201 General building maintenance workers and building superintendents)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23134
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Light duty cleaners  (See 65310 Light duty cleaners)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23135
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Specialized cleaners  (See 65311 Specialized cleaners)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23136
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23137
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Operate industrial vacuum cleaners to remove scraps, dirt, heavy debris and other refuse",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23138
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Wash windows, interior walls and ceilings",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23139
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Empty trash cans and other waste containers",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23140
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Sweep, mop, scrub and wax hallways, floors and stairs",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23141
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Clean snow and ice from walkways and parking areas",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23142
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Cut grass and tend grounds and plants",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23143
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Clean and disinfect washrooms and fixtures",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23144
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May move heavy furniture, equipment and supplies.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 23145
+        }
+      }
+    ]
+  },
+  "noc:31301": {
+    "scheme": "noc",
+    "code": "31301",
+    "title": "Registered nurses and registered psychiatric nurses",
+    "definition": "Registered nurses and registered psychiatric nurses provide direct nursing care to patients, deliver health education programs and provide consultative services regarding issues relevant to the practice of nursing. They are employed in a variety of settings including hospitals, nursing homes, extended care facilities, rehabilitation centres, doctors' offices, clinics, community agencies, companies, private homes and public and private organizations or they may be self-employed.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 234
+    },
+    "elements": [
+      {
+        "type": "Inclusion(s)",
+        "text": "infection control officer",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10550
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Nurse practitioners  (See 31302 Nurse practitioners)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10551
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Nursing coordinators and supervisors  (See 31300 Nursing coordinators and supervisors)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10552
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Nursing services manager - medical services  (See 30010 Managers in health care)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10553
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Registered practical nurse (R.P.N.)  (See 32101 Licensed practical nurses)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10554
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10555
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "General duty registered nurses",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10556
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Assess patients to identify appropriate nursing interventions",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10557
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Collaborate with members of an interdisciplinary health team to plan, implement, coordinate and evaluate patient care in consultation with patients and their families",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10558
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Administer medications and treatments as prescribed by a physician or according to established policies and protocols",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10559
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Monitor, assess, address, document and report symptoms and changes in patients' conditions",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10560
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Operate or monitor medical apparatus or equipment",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10561
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Assist in surgery and other medical procedures",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10562
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May supervise licensed practical nurses and other nursing staff",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10563
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May develop and implement discharge planning process on admission of patients",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10564
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May teach and counsel patients and their families on health-related issues in collaboration with other health care providers.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10565
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Registered nurses may specialize in areas such as surgery, obstetrics care, psychiatric care, critical care, pediatrics, geriatrics, community health, occupational health, emergency care, rehabilitation or oncology.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10566
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Occupational health nurses",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10567
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Develop and implement employee health education programs and provide registered nursing care in private businesses and industry.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10568
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Community health nurses",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10569
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Provide health education and registered nursing care in public health units and through home visits, manage complex home care cases, participate in community needs assessment and program development, conduct disease screening and deliver immunization programs.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10570
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Registered psychiatric nurses",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10571
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Provide nursing care, supportive counselling and life skills programming to patients in psychiatric hospitals, mental health clinics, long-term care facilities and community-based settings.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10572
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Nursing researchers and consultants",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10573
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Engaged in research activities related to nursing, as self-employed or as employed by hospitals, public and private organizations and governments.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10574
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Provide consultative services to institutes, associations and health care organizations regarding issues and concerns relevant to the nursing profession and nursing practice.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10575
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Clinical nurses",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10576
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Provide leadership, advice and counsel on the provision of research-based care for specific patient groups within the care of particular health care organizations.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10577
+        }
+      }
+    ]
+  },
+  "noc:31302": {
+    "scheme": "noc",
+    "code": "31302",
+    "title": "Nurse practitioners",
+    "definition": "Nurse practitioners are registered nurses with additional education, advanced knowledge and nursing experience, and a specialty of practice. They provide a range of health services to patients and deliver preventive and continuous care toward the management of patients' health. Nurse practitioners work in conjunction with physicians and collaboratively with other nursing colleagues and health-care providers, or they may work independently. They are employed in community health centres, hospitals, clinics, long-term care facilities, and rehabilitation centres. Nurse practitioners may specialize in primary healthcare or acute care.",
+    "structure_source": {
+      "file": "noc-structure.csv",
+      "csv_record": 235
+    },
+    "elements": [
+      {
+        "type": "Exclusion(s)",
+        "text": "General practitioners and family physicians  (See 31102 General practitioners and family physicians)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10602
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Managers in health care  (See 30010 Managers in health care)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10603
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Other professional occupations in health diagnosing and treating  (See 31209 Other professional occupations in health diagnosing and treating)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10604
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Physicians assistants, midwives and allied health professionals  (See 31303 Physician assistants, midwives and allied health professionals)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10605
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Registered nurses and registered psychiatric nurses  (See 31301 Registered nurses and registered psychiatric nurses)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10606
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Specialists in clinical and laboratory medicine  (See 31100 Specialists in clinical and laboratory medicine)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10607
+        }
+      },
+      {
+        "type": "Exclusion(s)",
+        "text": "Specialists in surgery  (See 31101 Specialists in surgery)",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10608
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "This group performs some or all of the following duties:",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10609
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Examine patients and take their medical histories and consult with physicians and other medical practitioners to evaluate patients' physical and mental health",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10610
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Order laboratory tests, X-rays and other diagnostic procedures",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10611
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Inoculate and vaccinate patients",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10612
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Advise patients and their families on health care including health promotion, disease, illness and accident prevention",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10613
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Collaborate with members of an interdisciplinary health team such as family physicians, therapists and nutritionists to plan, implement, coordinate and evaluate patient care in consultation with patients and their families",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10614
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Perform a patient advocacy role",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10615
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "Prescribe and administer medications",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10616
+        }
+      },
+      {
+        "type": "Main duties",
+        "text": "May coordinate or manage primary patient care.",
+        "source": {
+          "file": "noc-elements.csv",
+          "csv_record": 10617
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "files_sha256": {
+    "model-contract.json": "a5904e7ebff85a39ef246281570e5d3fbf03ed456009bab3a747b035c351dd4c",
+    "nces-gold.json": "4b3980711ad086f5d886021ae61d8352ecb70d4decbeb5233d5b93a5bc6898b5",
+    "nces-inputs.json": "c0b5fd59611849fc49b53727ca6223c77f99ec362057e6db67bae09d558c3adb",
+    "nces-selection.json": "6f5979b08a39c041d65d11deff433317f9f6aa06916db19dc535810b785407e6",
+    "protocol.json": "3f4bf27f93753d2eba9aa5d4cff15f4cdc8b926cb9710750eefcb59c5059e21b",
+    "s2aff-gold.json": "dce7108da6643db4d57eb7c4401bc98dee9595eef4f18729919d058edc03ad84",
+    "s2aff-inputs.json": "a6911e1fddaca4f849b3fa20a7f2d97a92dc4875d3a1d7818f3001003d7730ba",
+    "s2aff-selection.json": "37e08513c250cfc1a864ea6d05aa987c55420d6763bd6d06b11c57d298a93b5a",
+    "sources.json": "d397239d6d8dc80dfd54239b014ce98f2841062fb03bf5b945cabe2cc333e846"
+  },
+  "protocol_sha256": "3a6c9e27ce29494ef23de3c4def563e4198a6e8fc5523c81a356dd880cadcfe6",
+  "paid_calls": 0
+}

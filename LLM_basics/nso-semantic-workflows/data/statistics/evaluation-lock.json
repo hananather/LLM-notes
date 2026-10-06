@@ -1,0 +1,16 @@
+{
+  "blinding_boundary": "Public reproducibility files; not a fresh blind user-query sample. Test outputs must not tune this revision.",
+  "created_utc": "2026-10-06T22:21:28.777933+00:00",
+  "development_questions": 12,
+  "hashes": {
+    "manifest.json": "51e8df617e5558b8bc85c5162115dac12d93cf7f74c87e81633f42f986c275bb",
+    "prompts.json": "9de3c6a8e268b83da4e7d8eccb7741793d53999a4aa8f1553d0286d9352ab562",
+    "questions.json": "e28d951531c811f47bf83bad271e81fed01ea07f1299d379424ca43281020ee1",
+    "reference.json": "271d438baebd15167efac8c9e0bd0ee284e62b09e6f0b1c0450cde4cb4c658db"
+  },
+  "pre_model_correction": "CPI difference unit rendering; bind complete existing prompt/schema/controller contract. No question, source value, source row or plan changes.",
+  "previous_lock_sha256": "376947b6a370a5d38fcab042830c1ceedf908755b246a00eb638453c8af5ce6b",
+  "question_design": "Fixed authored scenario families over genuine public observations; no evaluated model generated questions or references.",
+  "seed": "Hand-authored fixed manifest, no random sampling claimed",
+  "test_questions": 32
+}

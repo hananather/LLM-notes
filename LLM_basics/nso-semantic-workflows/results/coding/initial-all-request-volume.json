@@ -1,0 +1,7 @@
+{
+  "jobs": 96,
+  "total_input_tokens_estimate": 353750,
+  "maximum_input_tokens_estimate": 4948,
+  "total_output_token_cap": 73728,
+  "note": "Dry run only. Runtime recomputes budget reservations. Extraction-plus-selection is optional and requires two calls per case."
+}

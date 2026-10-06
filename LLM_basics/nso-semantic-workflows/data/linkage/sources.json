@@ -1,0 +1,44 @@
+[
+  {
+    "name": "gold_affiliation_annotations.csv",
+    "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+    "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+    "bytes": 271014
+  },
+  {
+    "name": "v1.1-2022-06-16-ror-data.zip",
+    "url": "https://zenodo.org/records/6657125/files/v1.1-2022-06-16-ror-data.zip?download=1",
+    "sha256": "d71fd8d20d753fed8f7b5e08aa2215ad4cda2b2378c7f2a9f977ad17605504a6",
+    "bytes": 20454781
+  },
+  {
+    "name": "S2AFF-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357
+  },
+  {
+    "name": "ccd_sch_029_2122_w_0b_042922.zip",
+    "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_029_2122_w_0b_042922.zip",
+    "sha256": "d5d8bc381e92d64124919681f5e631e9cc66f330a22cb1626be19254cafe0e1a",
+    "bytes": 12543454
+  },
+  {
+    "name": "ccd_sch_029_2223_w_0a_051023.zip",
+    "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_029_2223_w_0a_051023.zip",
+    "sha256": "4238feed728fb0cb6eb8d1ca7f7389be57d46262ca6805a8f1acdadd3c06610a",
+    "bytes": 12605610
+  },
+  {
+    "name": "2021-22_Sch_Documentation_1a.zip",
+    "url": "https://nces.ed.gov/ccd/Data/zip/2021-22_Sch_Documentation_1a.zip",
+    "sha256": "28fc6884f1b173899102d2367957d6420714d0fa58a3bf31818224ef62d6b860",
+    "bytes": 311787
+  },
+  {
+    "name": "2022-23_Sch_Documentation_prelim.zip",
+    "url": "https://nces.ed.gov/ccd/Data/zip/2022-23_Sch_Documentation_prelim.zip",
+    "sha256": "93f19670cb21918d6b057e4d64290c4d4914166f13a94d1e5d24ea11988fd0ab",
+    "bytes": 200357
+  }
+]

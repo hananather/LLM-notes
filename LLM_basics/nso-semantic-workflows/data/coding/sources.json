@@ -1,0 +1,42 @@
+[
+  {
+    "filename": "naics-structure.csv",
+    "url": "https://www.statcan.gc.ca/en/statistical-programs/document/naics-scian-2022-structure-v1-eng.csv",
+    "sha256": "b141a22f08a9b825e55c7eebc49fcc842d3b2f3734a672052b7ae8fdb27eff80",
+    "bytes": 684721,
+    "rows": 2059,
+    "downloaded_on": "2026-10-06",
+    "licence": "Statistics Canada Open Licence",
+    "licence_url": "https://www.statcan.gc.ca/en/terms-conditions/open-licence"
+  },
+  {
+    "filename": "naics-elements.csv",
+    "url": "https://www.statcan.gc.ca/en/statistical-programs/document/naics-scian-2022-element-v1-eng.csv",
+    "sha256": "09c816471b222eaf1c1af0a38b166185595bc28857ec7fe158298b96d5be5439",
+    "bytes": 3222695,
+    "rows": 26384,
+    "downloaded_on": "2026-10-06",
+    "licence": "Statistics Canada Open Licence",
+    "licence_url": "https://www.statcan.gc.ca/en/terms-conditions/open-licence"
+  },
+  {
+    "filename": "noc-structure.csv",
+    "url": "https://www.statcan.gc.ca/en/subjects/standard/noc/2021/indexV1/noc-2021-v1.0-classification-structure.csv",
+    "sha256": "9d97fb39b9fceaeef3a10fe1ec719ad58f2af15810f80e004422dce3dd62bad6",
+    "bytes": 393951,
+    "rows": 822,
+    "downloaded_on": "2026-10-06",
+    "licence": "Statistics Canada Open Licence",
+    "licence_url": "https://www.statcan.gc.ca/en/terms-conditions/open-licence"
+  },
+  {
+    "filename": "noc-elements.csv",
+    "url": "https://www.statcan.gc.ca/en/subjects/standard/noc/2021/indexV1/noc-2021-v1.0-elements.csv",
+    "sha256": "50c3e31a90b0150cc5b8efd29ec020c2fd9ea5fc5b0a171ed65d3cd9a0abf32f",
+    "bytes": 5129133,
+    "rows": 44037,
+    "downloaded_on": "2026-10-06",
+    "licence": "Statistics Canada Open Licence",
+    "licence_url": "https://www.statcan.gc.ca/en/terms-conditions/open-licence"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "run_id": "s2aff/v1/val",
+  "jobs_sha256": "cc0bdc26582c2a7bb12aec110e16a4bd7e228a2bd646973592c408daf556a35e",
+  "case_count": 100,
+  "default_max_output_tokens": 768,
+  "workers": 4
+}

@@ -1,0 +1,147 @@
+{
+  "artifacts": [
+    {
+      "bytes": 2541552,
+      "file": "14100287-2023-2025.parquet",
+      "sha256": "8da0e659a38eb08b45cde002779382b14b1f3a53d2fbdacb35ccec41c2e2d12d"
+    },
+    {
+      "bytes": 426401,
+      "file": "18100004-2023-2025.parquet",
+      "sha256": "a70feb57836bcd97893407acfa0f9da3f45739c3fe5d2e8a9c66eff879d94714"
+    },
+    {
+      "bytes": 69927,
+      "file": "18100005-2023-2025.parquet",
+      "sha256": "fe363712af22928df731864ed75fb1577863b325b1e4a87248d6679a3ed279ea"
+    },
+    {
+      "bytes": 12486,
+      "file": "18100006-2023-2025.parquet",
+      "sha256": "bf8decf6384d666c5358fa6e321f146064040d538b6738742e9db3bcd8ed8039"
+    },
+    {
+      "bytes": 5982764,
+      "file": "catalogue.json",
+      "sha256": "35cb2167771240d078cec5c7338828fd54912c1ffbcdee003889b978a59a1d36"
+    },
+    {
+      "bytes": 601080,
+      "file": "metadata.json",
+      "sha256": "432362c4edf3e3bf7cd6ad446853649087c550483d2703476d41d222db6e5748"
+    }
+  ],
+  "catalogue_count": 8270,
+  "catalogue_url": "https://www150.statcan.gc.ca/t1/wds/rest/getAllCubesListLite",
+  "created_utc": "2026-10-06T22:02:23.021693+00:00",
+  "licence": "Statistics Canada Open Licence",
+  "licence_url": "https://www.statcan.gc.ca/en/terms-conditions/open-licence",
+  "metadata_request": [
+    {
+      "productId": 14100287
+    },
+    {
+      "productId": 18100004
+    },
+    {
+      "productId": 18100005
+    },
+    {
+      "productId": 18100006
+    }
+  ],
+  "metadata_url": "https://www150.statcan.gc.ca/t1/wds/rest/getCubeMetadata",
+  "reference_years": [
+    2023,
+    2024,
+    2025
+  ],
+  "tables": [
+    {
+      "bytes": 60439477,
+      "csv_file": "14100287.csv",
+      "dimensions": [
+        "GEO",
+        "Labour force characteristics",
+        "Gender",
+        "Age group",
+        "Statistics",
+        "Data type"
+      ],
+      "missing_values": 56,
+      "parquet_bytes": 2541552,
+      "parquet_file": "14100287-2023-2025.parquet",
+      "product_id": 14100287,
+      "rows_retained": 323676,
+      "rows_scanned": 5466528,
+      "series_retained": 8991,
+      "sha256": "7174a1ce0be0bc829b16c479b4e9b6231c8a3dfb171c57916ced06e099b151f7",
+      "status_counts": {
+        "": 323620,
+        "x": 56
+      },
+      "url": "https://www150.statcan.gc.ca/n1/tbl/csv/14100287-eng.zip"
+    },
+    {
+      "bytes": 15307935,
+      "csv_file": "18100004.csv",
+      "dimensions": [
+        "GEO",
+        "Products and product groups"
+      ],
+      "missing_values": 0,
+      "parquet_bytes": 426401,
+      "parquet_file": "18100004-2023-2025.parquet",
+      "product_id": 18100004,
+      "rows_retained": 71905,
+      "rows_scanned": 1152913,
+      "series_retained": 2006,
+      "sha256": "3840c1810061b79035a9153dbc9189fed4ced6aaacdeddb86b13579b51f1c6d2",
+      "status_counts": {
+        "": 71905
+      },
+      "url": "https://www150.statcan.gc.ca/n1/tbl/csv/18100004-eng.zip"
+    },
+    {
+      "bytes": 1262462,
+      "csv_file": "18100005.csv",
+      "dimensions": [
+        "GEO",
+        "Products and product groups"
+      ],
+      "missing_values": 0,
+      "parquet_bytes": 69927,
+      "parquet_file": "18100005-2023-2025.parquet",
+      "product_id": 18100005,
+      "rows_retained": 5967,
+      "rows_scanned": 94195,
+      "series_retained": 2005,
+      "sha256": "9b52900a2fc26b7e11ac22d819b3164678fe9a2a5ff241c5db085816a5fe8e0a",
+      "status_counts": {
+        "": 5967
+      },
+      "url": "https://www150.statcan.gc.ca/n1/tbl/csv/18100005-eng.zip"
+    },
+    {
+      "bytes": 29957,
+      "csv_file": "18100006.csv",
+      "dimensions": [
+        "GEO",
+        "Products and product groups"
+      ],
+      "missing_values": 0,
+      "parquet_bytes": 12486,
+      "parquet_file": "18100006-2023-2025.parquet",
+      "product_id": 18100006,
+      "rows_retained": 396,
+      "rows_scanned": 4576,
+      "series_retained": 11,
+      "sha256": "94650b6b5abfb56d4fbd082506a255594c5b3301ea60720ee514ad88c0cb3158",
+      "status_counts": {
+        "": 396
+      },
+      "url": "https://www150.statcan.gc.ca/n1/tbl/csv/18100006-eng.zip"
+    }
+  ],
+  "total_rows": 401944
+}

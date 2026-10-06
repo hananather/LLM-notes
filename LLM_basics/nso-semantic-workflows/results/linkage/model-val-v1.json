@@ -1,0 +1,1653 @@
+{
+  "spec": {
+    "run_id": "s2aff/v1/val",
+    "jobs_sha256": "cc0bdc26582c2a7bb12aec110e16a4bd7e228a2bd646973592c408daf556a35e",
+    "case_count": 100,
+    "default_max_output_tokens": 768,
+    "workers": 4
+  },
+  "status": "complete",
+  "rows": [
+    {
+      "case_id": "s2aff-0999",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/00b30xv10"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/00b30xv10",
+            "source_span": "University of Pennsylvania School of Medicine"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0999"
+    },
+    {
+      "case_id": "s2aff-1186",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04xy45965",
+          "https://ror.org/00p991c53"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04xy45965",
+            "source_span": "Affiliated Tongji Hospital"
+          },
+          {
+            "id": "https://ror.org/00p991c53",
+            "source_span": "Huazhong Science & Technology University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1186"
+    },
+    {
+      "case_id": "s2aff-0637",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04xs57h96"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04xs57h96",
+            "source_span": "University of Liverpool"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0637"
+    },
+    {
+      "case_id": "s2aff-1616",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/00c4wc133"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/00c4wc133",
+            "source_span": "Florida A&M University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1616"
+    },
+    {
+      "case_id": "s2aff-2130",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/02ax94a12"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/02ax94a12",
+            "source_span": "Addis Continental Institute of Public Health"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-2130"
+    },
+    {
+      "case_id": "s2aff-1401",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/00gx3j908"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/00gx3j908",
+            "source_span": "Northwest Normal Univ."
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1401"
+    },
+    {
+      "case_id": "s2aff-0778",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04vnq7t77"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04vnq7t77",
+            "source_span": "Univ. of Stuttgart"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0778"
+    },
+    {
+      "case_id": "s2aff-0064",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/05bqach95"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/05bqach95",
+            "source_span": "National Taiwan University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0064"
+    },
+    {
+      "case_id": "s2aff-0442",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/042nb2s44"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/042nb2s44",
+            "source_span": "Massachusetts Institute of Technology"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0442"
+    },
+    {
+      "case_id": "s2aff-0416",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/02jbv0t02",
+          "https://ror.org/01an7q238"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/02jbv0t02",
+            "source_span": "Lawrence Berkeley Laboratory"
+          },
+          {
+            "id": "https://ror.org/01an7q238",
+            "source_span": "University of California Berkeley"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0416"
+    },
+    {
+      "case_id": "s2aff-1236",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/047s2c258"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/047s2c258",
+            "source_span": "University of Maryland"
+          }
+        ],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-1236"
+    },
+    {
+      "case_id": "s2aff-0793",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01e3m7079"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01e3m7079",
+            "source_span": "university of Cincinnati"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0793"
+    },
+    {
+      "case_id": "s2aff-0455",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/048tbm396"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/048tbm396",
+            "source_span": "Università di Torino"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0455"
+    },
+    {
+      "case_id": "s2aff-0089",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01b8kcc49"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01b8kcc49",
+            "source_span": "National Cheng Kung University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0089"
+    },
+    {
+      "case_id": "s2aff-0771",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04vnq7t77"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04vnq7t77",
+            "source_span": "University of Stuttgart"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0771"
+    },
+    {
+      "case_id": "s2aff-1665",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01226dv09"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01226dv09",
+            "source_span": "Universitätsklinikum Regensburg"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1665"
+    },
+    {
+      "case_id": "s2aff-1303",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/02czw2k81"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/02czw2k81",
+            "source_span": "Central South University of Forestry and Technology"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1303"
+    },
+    {
+      "case_id": "s2aff-0728",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/0220mzb33"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/0220mzb33",
+            "source_span": "King's College London"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0728"
+    },
+    {
+      "case_id": "s2aff-2056",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01sc83v92"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01sc83v92",
+            "source_span": "École des Hautes Études en Santé Publique [EHESP]"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-2056"
+    },
+    {
+      "case_id": "s2aff-0787",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01e3m7079"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01e3m7079",
+            "source_span": "UNIV OF CINCINNATI"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0787"
+    },
+    {
+      "case_id": "s2aff-1025",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/039vqpp67"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/039vqpp67",
+            "source_span": "CAEP (China)"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1025"
+    },
+    {
+      "case_id": "s2aff-1181",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/03cve4549"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/03cve4549",
+            "source_span": "Tsinghua University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1181"
+    },
+    {
+      "case_id": "s2aff-1980",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01zphyp78"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01zphyp78",
+            "source_span": "University of Professionals"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1980"
+    },
+    {
+      "case_id": "s2aff-1907",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/03yrrjy16"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/03yrrjy16",
+            "source_span": "Univ of Southern Denmark"
+          }
+        ],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-1907"
+    },
+    {
+      "case_id": "s2aff-1929",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04agmb972"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04agmb972",
+            "source_span": "Georgia Southern Univ."
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1929"
+    },
+    {
+      "case_id": "s2aff-1051",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/034t30j35"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/034t30j35",
+            "source_span": "CAS"
+          }
+        ],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-1051"
+    },
+    {
+      "case_id": "s2aff-1859",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/0104rcc94"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/0104rcc94",
+            "source_span": "Univ. of Silesia, Katowice, Poland"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1859"
+    },
+    {
+      "case_id": "s2aff-1163",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/02ptw3r05"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/02ptw3r05",
+            "source_span": "Hospital Son Dureta"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1163"
+    },
+    {
+      "case_id": "s2aff-2151",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01r58sr54"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01r58sr54",
+            "source_span": "National Center for Chronic and Noncommunicable Disease Control and Prevention"
+          }
+        ],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-2151"
+    },
+    {
+      "case_id": "s2aff-0066",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/05bqach95"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/05bqach95",
+            "source_span": "National Taiwan University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0066"
+    },
+    {
+      "case_id": "s2aff-1144",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/02xf66n48"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/02xf66n48",
+            "source_span": "Kossuth Lajos Universität, Debrecen"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1144"
+    },
+    {
+      "case_id": "s2aff-1053",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04fttyv97"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04fttyv97",
+            "source_span": "Universtty of Arkansas at Little Rock"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1053"
+    },
+    {
+      "case_id": "s2aff-1323",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/0161xgx34"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/0161xgx34",
+            "source_span": "University of Montréal"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1323"
+    },
+    {
+      "case_id": "s2aff-0439",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/042nb2s44"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/042nb2s44",
+            "source_span": "Massachusetts Institute of Technology"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0439"
+    },
+    {
+      "case_id": "s2aff-0610",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04mhzgx49"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04mhzgx49",
+            "source_span": "Tel-Aviv Univ."
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0610"
+    },
+    {
+      "case_id": "s2aff-0098",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01b8kcc49"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01b8kcc49",
+            "source_span": "National Cheng Kung University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0098"
+    },
+    {
+      "case_id": "s2aff-0906",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01aff2v68"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01aff2v68",
+            "source_span": "University of Waterloo"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0906"
+    },
+    {
+      "case_id": "s2aff-1238",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/047s2c258"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/047s2c258",
+            "source_span": "Univ. of Maryland at College PArk"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1238"
+    },
+    {
+      "case_id": "s2aff-1787",
+      "status": "valid",
+      "answer": {
+        "target_ids": [],
+        "evidence": [],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-1787"
+    },
+    {
+      "case_id": "s2aff-0907",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01aff2v68"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01aff2v68",
+            "source_span": "University of Waterloo"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0907"
+    },
+    {
+      "case_id": "s2aff-1956",
+      "status": "valid",
+      "answer": {
+        "target_ids": [],
+        "evidence": [],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-1956"
+    },
+    {
+      "case_id": "s2aff-0640",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04xs57h96"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04xs57h96",
+            "source_span": "The University of Liverpool"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0640"
+    },
+    {
+      "case_id": "s2aff-1706",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/05j9d8v51"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/05j9d8v51",
+            "source_span": "Nat. Taitung Univ., Taitung"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1706"
+    },
+    {
+      "case_id": "s2aff-0916",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/05dxps055"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/05dxps055",
+            "source_span": "California Institute of Technology, Pasadena"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0916"
+    },
+    {
+      "case_id": "s2aff-0605",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01ryk1543"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01ryk1543",
+            "source_span": "University of Southampton"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0605"
+    },
+    {
+      "case_id": "s2aff-1049",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/038avdt50"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/038avdt50",
+            "source_span": "Xi'an Univ. of Technol."
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1049"
+    },
+    {
+      "case_id": "s2aff-1687",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04exz5k48"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04exz5k48",
+            "source_span": "Universitas Tanjungpura"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1687"
+    },
+    {
+      "case_id": "s2aff-1811",
+      "status": "valid",
+      "answer": {
+        "target_ids": [],
+        "evidence": [],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1811"
+    },
+    {
+      "case_id": "s2aff-0417",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/042nb2s44"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/042nb2s44",
+            "source_span": "Massachusetts Institute of Technology"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0417"
+    },
+    {
+      "case_id": "s2aff-1050",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/05qpz1x62"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/05qpz1x62",
+            "source_span": "Friedrich Schiller Universityät Jena"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1050"
+    },
+    {
+      "case_id": "s2aff-1941",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/02f26yq04"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/02f26yq04",
+            "source_span": "Banco de España"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1941"
+    },
+    {
+      "case_id": "s2aff-0454",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/027ynra39"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/027ynra39",
+            "source_span": "Università di Bari"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0454"
+    },
+    {
+      "case_id": "s2aff-1000",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/0155zta11"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/0155zta11",
+            "source_span": "University of Vermont"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1000"
+    },
+    {
+      "case_id": "s2aff-0449",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/00wjc7c48"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/00wjc7c48",
+            "source_span": "Università degli Studi di Milano"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0449"
+    },
+    {
+      "case_id": "s2aff-0108",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04c4dkn09"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04c4dkn09",
+            "source_span": "University of Science and Technology of China,Hefei"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0108"
+    },
+    {
+      "case_id": "s2aff-0404",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/03vek6s52"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/03vek6s52",
+            "source_span": "Harvard University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0404"
+    },
+    {
+      "case_id": "s2aff-0622",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/0316ej306"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/0316ej306",
+            "source_span": "Weizmann Institute"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0622"
+    },
+    {
+      "case_id": "s2aff-1530",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04r9s1v23"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04r9s1v23",
+            "source_span": "Nguyen Tat Thanh University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1530"
+    },
+    {
+      "case_id": "s2aff-1801",
+      "status": "valid",
+      "answer": {
+        "target_ids": [],
+        "evidence": [],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-1801"
+    },
+    {
+      "case_id": "s2aff-0603",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01ryk1543"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01ryk1543",
+            "source_span": "University of Southampton"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0603"
+    },
+    {
+      "case_id": "s2aff-1449",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/02cbymn47"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/02cbymn47",
+            "source_span": "UNEMAT"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1449"
+    },
+    {
+      "case_id": "s2aff-0073",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01rxvg760"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01rxvg760",
+            "source_span": "Nanjing University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0073"
+    },
+    {
+      "case_id": "s2aff-1291",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04eg47h42"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04eg47h42",
+            "source_span": "Disney's Animal Kingdom"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1291"
+    },
+    {
+      "case_id": "s2aff-1604",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/0184vwv17"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/0184vwv17",
+            "source_span": "University of Fort, Hare"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1604"
+    },
+    {
+      "case_id": "s2aff-0619",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04mhzgx49"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04mhzgx49",
+            "source_span": "Tel Aviv University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0619"
+    },
+    {
+      "case_id": "s2aff-0445",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/02b6qw903"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/02b6qw903",
+            "source_span": "University of South Carolina"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0445"
+    },
+    {
+      "case_id": "s2aff-2298",
+      "status": "valid",
+      "answer": {
+        "target_ids": [],
+        "evidence": [],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-2298"
+    },
+    {
+      "case_id": "s2aff-1854",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/0515nd386"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/0515nd386",
+            "source_span": "Northeast Agriculture University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1854"
+    },
+    {
+      "case_id": "s2aff-0620",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04mhzgx49"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04mhzgx49",
+            "source_span": "Tel Aviv University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0620"
+    },
+    {
+      "case_id": "s2aff-1187",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/02drdmm93"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/02drdmm93",
+            "source_span": "Chinese Academy of Medical Sciences & Peking Union Medical College"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1187"
+    },
+    {
+      "case_id": "s2aff-2007",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/00dcv1019"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/00dcv1019",
+            "source_span": "Allen Institute for Brain Science"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-2007"
+    },
+    {
+      "case_id": "s2aff-1857",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/002pd6e78"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/002pd6e78",
+            "source_span": "Massachusetts General Hospital (MGH)"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1857"
+    },
+    {
+      "case_id": "s2aff-1208",
+      "status": "valid",
+      "answer": {
+        "target_ids": [],
+        "evidence": [],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-1208"
+    },
+    {
+      "case_id": "s2aff-0426",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01an7q238"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01an7q238",
+            "source_span": "University of California, Berkeley"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0426"
+    },
+    {
+      "case_id": "s2aff-0067",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/05bqach95"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/05bqach95",
+            "source_span": "National Taiwan University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0067"
+    },
+    {
+      "case_id": "s2aff-0271",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/00hx57361"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/00hx57361",
+            "source_span": "Princeton Univ."
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0271"
+    },
+    {
+      "case_id": "s2aff-1241",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/02t274463"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/02t274463",
+            "source_span": "University of California, Santa Barbara"
+          }
+        ],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-1241"
+    },
+    {
+      "case_id": "s2aff-0638",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04xs57h96"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04xs57h96",
+            "source_span": "The University of Liverpool"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0638"
+    },
+    {
+      "case_id": "s2aff-2309",
+      "status": "valid",
+      "answer": {
+        "target_ids": [],
+        "evidence": [],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-2309"
+    },
+    {
+      "case_id": "s2aff-0270",
+      "status": "valid",
+      "answer": {
+        "target_ids": [],
+        "evidence": [],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-0270"
+    },
+    {
+      "case_id": "s2aff-0636",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04xs57h96"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04xs57h96",
+            "source_span": "university of liverpool"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0636"
+    },
+    {
+      "case_id": "s2aff-1264",
+      "status": "valid",
+      "answer": {
+        "target_ids": [],
+        "evidence": [],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-1264"
+    },
+    {
+      "case_id": "s2aff-1794",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04h1x1p54"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04h1x1p54",
+            "source_span": "Disney Res., Zürich, Switzerland"
+          }
+        ],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-1794"
+    },
+    {
+      "case_id": "s2aff-0103",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04c4dkn09"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04c4dkn09",
+            "source_span": "University of Science and Technology of China"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0103"
+    },
+    {
+      "case_id": "s2aff-0791",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01e3m7079"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01e3m7079",
+            "source_span": "University of Cincinnati"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0791"
+    },
+    {
+      "case_id": "s2aff-2097",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/05pg2cw06"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/05pg2cw06",
+            "source_span": "Azarbaijan Shahid Madani University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-2097"
+    },
+    {
+      "case_id": "s2aff-0607",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04mhzgx49"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04mhzgx49",
+            "source_span": "Tel-Aviv University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0607"
+    },
+    {
+      "case_id": "s2aff-0420",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/01an7q238"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/01an7q238",
+            "source_span": "University of California at Berkeley"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0420"
+    },
+    {
+      "case_id": "s2aff-0102",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04c4dkn09"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04c4dkn09",
+            "source_span": "Univ. of Sci. and Tech. of China"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0102"
+    },
+    {
+      "case_id": "s2aff-1645",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/03d9mz263"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/03d9mz263",
+            "source_span": "University Of Zabol"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1645"
+    },
+    {
+      "case_id": "s2aff-1905",
+      "status": "valid",
+      "answer": {
+        "target_ids": [],
+        "evidence": [],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-1905"
+    },
+    {
+      "case_id": "s2aff-1088",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/00zdnkx70"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/00zdnkx70",
+            "source_span": "Tsing Hua University, Hsin-Chu, Taiwan"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1088"
+    },
+    {
+      "case_id": "s2aff-1002",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/006teas31"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/006teas31",
+            "source_span": "Shanghai University"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-1002"
+    },
+    {
+      "case_id": "s2aff-0773",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04vnq7t77"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04vnq7t77",
+            "source_span": "Univ. of Stuttgart, Stuttgart"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0773"
+    },
+    {
+      "case_id": "s2aff-0626",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/0316ej306"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/0316ej306",
+            "source_span": "The Weizmann Institute, Rehovot, Israel"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0626"
+    },
+    {
+      "case_id": "s2aff-1601",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/032cjfs80"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/032cjfs80",
+            "source_span": "Mind Research Network"
+          }
+        ],
+        "review_required": true
+      },
+      "tag": "s2aff/v1/val/s2aff-1601"
+    },
+    {
+      "case_id": "s2aff-2150",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04bgrkn57"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04bgrkn57",
+            "source_span": "A. I. Yevdokimov Moscow State University of Medicine and Dentistry"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-2150"
+    },
+    {
+      "case_id": "s2aff-0105",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/04c4dkn09"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/04c4dkn09",
+            "source_span": "University of Science and Technology of China"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0105"
+    },
+    {
+      "case_id": "s2aff-0721",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/0008wzh48"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/0008wzh48",
+            "source_span": "The Royal Marsden NHS Trust"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-0721"
+    },
+    {
+      "case_id": "s2aff-2262",
+      "status": "valid",
+      "answer": {
+        "target_ids": [
+          "https://ror.org/034ffbg36"
+        ],
+        "evidence": [
+          {
+            "id": "https://ror.org/034ffbg36",
+            "source_span": "Bayer HealthCare Pharmaceuticals, Inc., Whippany, NJ"
+          }
+        ],
+        "review_required": false
+      },
+      "tag": "s2aff/v1/val/s2aff-2262"
+    }
+  ],
+  "wall_seconds": 32.48651695800072
+}

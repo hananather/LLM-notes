@@ -1,0 +1,331 @@
+{
+  "all_cases": {
+    "rows": 100,
+    "exact_sets": 89,
+    "exact_set_accuracy": 0.89,
+    "tp": 87,
+    "fp": 4,
+    "fn": 7,
+    "micro_precision": 0.9560439560439561,
+    "micro_recall": 0.925531914893617,
+    "micro_f1": 0.9405405405405406,
+    "nil_rows": 11,
+    "nil_correct": 7,
+    "false_nil_rows": 3,
+    "false_assignment_on_nil_rows": 4
+  },
+  "automatic_cases": {
+    "rows": 83,
+    "exact_sets": 79,
+    "exact_set_accuracy": 0.9518072289156626,
+    "tp": 81,
+    "fp": 3,
+    "fn": 1,
+    "micro_precision": 0.9642857142857143,
+    "micro_recall": 0.9878048780487805,
+    "micro_f1": 0.9759036144578314,
+    "nil_rows": 4,
+    "nil_correct": 1,
+    "false_nil_rows": 0,
+    "false_assignment_on_nil_rows": 3
+  },
+  "review_rows": 16,
+  "failed_rows": 1,
+  "failed_case_ids": [
+    "s2aff-2150"
+  ],
+  "false_assignment_penalty_for_gate": 5,
+  "gate_penalty_note": "The frozen continuation gate counts each failed response as one additional penalty; reported fp counts only emitted false assignments.",
+  "automatic_coverage": 0.83,
+  "predictions": {
+    "s2aff-0999": [
+      "https://ror.org/00b30xv10"
+    ],
+    "s2aff-1186": [
+      "https://ror.org/04xy45965",
+      "https://ror.org/00p991c53"
+    ],
+    "s2aff-0637": [
+      "https://ror.org/04xs57h96"
+    ],
+    "s2aff-1616": [
+      "https://ror.org/00c4wc133"
+    ],
+    "s2aff-2130": [
+      "https://ror.org/02ax94a12"
+    ],
+    "s2aff-1401": [
+      "https://ror.org/00gx3j908"
+    ],
+    "s2aff-0778": [
+      "https://ror.org/04vnq7t77"
+    ],
+    "s2aff-0064": [
+      "https://ror.org/05bqach95"
+    ],
+    "s2aff-0442": [
+      "https://ror.org/042nb2s44"
+    ],
+    "s2aff-0416": [
+      "https://ror.org/02jbv0t02",
+      "https://ror.org/01an7q238"
+    ],
+    "s2aff-1236": [
+      "https://ror.org/047s2c258"
+    ],
+    "s2aff-0793": [
+      "https://ror.org/01e3m7079"
+    ],
+    "s2aff-0455": [
+      "https://ror.org/048tbm396"
+    ],
+    "s2aff-0089": [
+      "https://ror.org/01b8kcc49"
+    ],
+    "s2aff-0771": [
+      "https://ror.org/04vnq7t77"
+    ],
+    "s2aff-1665": [
+      "https://ror.org/01226dv09"
+    ],
+    "s2aff-1303": [
+      "https://ror.org/02czw2k81"
+    ],
+    "s2aff-0728": [
+      "https://ror.org/0220mzb33"
+    ],
+    "s2aff-2056": [
+      "https://ror.org/01sc83v92"
+    ],
+    "s2aff-0787": [
+      "https://ror.org/01e3m7079"
+    ],
+    "s2aff-1025": [
+      "https://ror.org/039vqpp67"
+    ],
+    "s2aff-1181": [
+      "https://ror.org/03cve4549"
+    ],
+    "s2aff-1980": [
+      "https://ror.org/01zphyp78"
+    ],
+    "s2aff-1907": [
+      "https://ror.org/03yrrjy16"
+    ],
+    "s2aff-1929": [
+      "https://ror.org/04agmb972"
+    ],
+    "s2aff-1051": [
+      "https://ror.org/034t30j35"
+    ],
+    "s2aff-1859": [
+      "https://ror.org/0104rcc94"
+    ],
+    "s2aff-1163": [
+      "https://ror.org/02ptw3r05"
+    ],
+    "s2aff-2151": [
+      "https://ror.org/01r58sr54"
+    ],
+    "s2aff-0066": [
+      "https://ror.org/05bqach95"
+    ],
+    "s2aff-1144": [
+      "https://ror.org/02xf66n48"
+    ],
+    "s2aff-1053": [
+      "https://ror.org/04fttyv97"
+    ],
+    "s2aff-1323": [
+      "https://ror.org/0161xgx34"
+    ],
+    "s2aff-0439": [
+      "https://ror.org/042nb2s44"
+    ],
+    "s2aff-0610": [
+      "https://ror.org/04mhzgx49"
+    ],
+    "s2aff-0098": [
+      "https://ror.org/01b8kcc49"
+    ],
+    "s2aff-0906": [
+      "https://ror.org/01aff2v68"
+    ],
+    "s2aff-1238": [
+      "https://ror.org/047s2c258"
+    ],
+    "s2aff-1787": [],
+    "s2aff-0907": [
+      "https://ror.org/01aff2v68"
+    ],
+    "s2aff-1956": [],
+    "s2aff-0640": [
+      "https://ror.org/04xs57h96"
+    ],
+    "s2aff-1706": [
+      "https://ror.org/05j9d8v51"
+    ],
+    "s2aff-0916": [
+      "https://ror.org/05dxps055"
+    ],
+    "s2aff-0605": [
+      "https://ror.org/01ryk1543"
+    ],
+    "s2aff-1049": [
+      "https://ror.org/038avdt50"
+    ],
+    "s2aff-1687": [
+      "https://ror.org/04exz5k48"
+    ],
+    "s2aff-1811": [],
+    "s2aff-0417": [
+      "https://ror.org/042nb2s44"
+    ],
+    "s2aff-1050": [
+      "https://ror.org/05qpz1x62"
+    ],
+    "s2aff-1941": [
+      "https://ror.org/02f26yq04"
+    ],
+    "s2aff-0454": [
+      "https://ror.org/027ynra39"
+    ],
+    "s2aff-1000": [
+      "https://ror.org/0155zta11"
+    ],
+    "s2aff-0449": [
+      "https://ror.org/00wjc7c48"
+    ],
+    "s2aff-0108": [
+      "https://ror.org/04c4dkn09"
+    ],
+    "s2aff-0404": [
+      "https://ror.org/03vek6s52"
+    ],
+    "s2aff-0622": [
+      "https://ror.org/0316ej306"
+    ],
+    "s2aff-1530": [
+      "https://ror.org/04r9s1v23"
+    ],
+    "s2aff-1801": [],
+    "s2aff-0603": [
+      "https://ror.org/01ryk1543"
+    ],
+    "s2aff-1449": [
+      "https://ror.org/02cbymn47"
+    ],
+    "s2aff-0073": [
+      "https://ror.org/01rxvg760"
+    ],
+    "s2aff-1291": [
+      "https://ror.org/04eg47h42"
+    ],
+    "s2aff-1604": [
+      "https://ror.org/0184vwv17"
+    ],
+    "s2aff-0619": [
+      "https://ror.org/04mhzgx49"
+    ],
+    "s2aff-0445": [
+      "https://ror.org/02b6qw903"
+    ],
+    "s2aff-2298": [],
+    "s2aff-1854": [
+      "https://ror.org/0515nd386"
+    ],
+    "s2aff-0620": [
+      "https://ror.org/04mhzgx49"
+    ],
+    "s2aff-1187": [
+      "https://ror.org/02drdmm93"
+    ],
+    "s2aff-2007": [
+      "https://ror.org/00dcv1019"
+    ],
+    "s2aff-1857": [
+      "https://ror.org/002pd6e78"
+    ],
+    "s2aff-1208": [],
+    "s2aff-0426": [
+      "https://ror.org/01an7q238"
+    ],
+    "s2aff-0067": [
+      "https://ror.org/05bqach95"
+    ],
+    "s2aff-0271": [
+      "https://ror.org/00hx57361"
+    ],
+    "s2aff-1241": [
+      "https://ror.org/02t274463"
+    ],
+    "s2aff-0638": [
+      "https://ror.org/04xs57h96"
+    ],
+    "s2aff-2309": [],
+    "s2aff-0270": [],
+    "s2aff-0636": [
+      "https://ror.org/04xs57h96"
+    ],
+    "s2aff-1264": [],
+    "s2aff-1794": [
+      "https://ror.org/04h1x1p54"
+    ],
+    "s2aff-0103": [
+      "https://ror.org/04c4dkn09"
+    ],
+    "s2aff-0791": [
+      "https://ror.org/01e3m7079"
+    ],
+    "s2aff-2097": [
+      "https://ror.org/05pg2cw06"
+    ],
+    "s2aff-0607": [
+      "https://ror.org/04mhzgx49"
+    ],
+    "s2aff-0420": [
+      "https://ror.org/01an7q238"
+    ],
+    "s2aff-0102": [
+      "https://ror.org/04c4dkn09"
+    ],
+    "s2aff-1645": [
+      "https://ror.org/03d9mz263"
+    ],
+    "s2aff-1905": [],
+    "s2aff-1088": [
+      "https://ror.org/00zdnkx70"
+    ],
+    "s2aff-1002": [
+      "https://ror.org/006teas31"
+    ],
+    "s2aff-0773": [
+      "https://ror.org/04vnq7t77"
+    ],
+    "s2aff-0626": [
+      "https://ror.org/0316ej306"
+    ],
+    "s2aff-1601": [
+      "https://ror.org/032cjfs80"
+    ],
+    "s2aff-2150": [],
+    "s2aff-0105": [
+      "https://ror.org/04c4dkn09"
+    ],
+    "s2aff-0721": [
+      "https://ror.org/0008wzh48"
+    ],
+    "s2aff-2262": [
+      "https://ror.org/034ffbg36"
+    ]
+  },
+  "gate": {
+    "continue_to_locked_test": true,
+    "required_exact_sets": 79,
+    "observed_exact_sets": 89,
+    "maximum_false_target_assignments": 22,
+    "observed_false_target_assignments": 4,
+    "failed_response_penalties": 1,
+    "observed_gate_penalty": 5
+  }
+}

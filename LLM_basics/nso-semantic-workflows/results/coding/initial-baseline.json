@@ -1,0 +1,3946 @@
+{
+  "protocol": "coding-v1",
+  "run_id": "initial",
+  "thresholds": {
+    "naics": 0.0,
+    "noc": 0.0
+  },
+  "dev_tuning": {
+    "naics": [
+      {
+        "threshold": 0.0,
+        "correct": 10,
+        "n": 16
+      },
+      {
+        "threshold": 0.02,
+        "correct": 9,
+        "n": 16
+      },
+      {
+        "threshold": 0.05,
+        "correct": 6,
+        "n": 16
+      },
+      {
+        "threshold": 0.1,
+        "correct": 5,
+        "n": 16
+      },
+      {
+        "threshold": 0.15,
+        "correct": 4,
+        "n": 16
+      }
+    ],
+    "noc": [
+      {
+        "threshold": 0.0,
+        "correct": 12,
+        "n": 16
+      },
+      {
+        "threshold": 0.02,
+        "correct": 12,
+        "n": 16
+      },
+      {
+        "threshold": 0.05,
+        "correct": 12,
+        "n": 16
+      },
+      {
+        "threshold": 0.1,
+        "correct": 10,
+        "n": 16
+      },
+      {
+        "threshold": 0.15,
+        "correct": 6,
+        "n": 16
+      }
+    ]
+  },
+  "source_hashes": {
+    "naics-structure.csv": "b141a22f08a9b825e55c7eebc49fcc842d3b2f3734a672052b7ae8fdb27eff80",
+    "naics-elements.csv": "09c816471b222eaf1c1af0a38b166185595bc28857ec7fe158298b96d5be5439",
+    "noc-structure.csv": "9d97fb39b9fceaeef3a10fe1ec719ad58f2af15810f80e004422dce3dd62bad6",
+    "noc-elements.csv": "50c3e31a90b0150cc5b8efd29ec020c2fd9ea5fc5b0a171ed65d3cd9a0abf32f"
+  },
+  "cases_sha256": "12a294473ef9ca8fab0d3266924bc25273a27f703937365f7c5bd9d1bce3646b",
+  "rows": [
+    {
+      "id": "naics-nursery-01",
+      "scheme": "naics",
+      "family": "nursery",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "111421",
+        "compatible_codes": [
+          "111421"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "561730",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.04015168,
+        "candidate_codes": [
+          "561730",
+          "444240",
+          "444140",
+          "441340",
+          "444180",
+          "113110",
+          "111421",
+          "459410",
+          "449129",
+          "456199"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-nursery-02",
+      "scheme": "naics",
+      "family": "nursery",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "444240",
+        "compatible_codes": [
+          "444240"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "624110",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.01165076,
+        "candidate_codes": [
+          "624110",
+          "111421",
+          "561730",
+          "444240",
+          "813410",
+          "458112",
+          "115110",
+          "712130",
+          "813910",
+          "111994"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-nursery-03",
+      "scheme": "naics",
+      "family": "nursery",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "111421",
+        "compatible_codes": [
+          "111421"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "444240",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.03373563,
+        "candidate_codes": [
+          "444240",
+          "561730",
+          "316110",
+          "811411",
+          "111421",
+          "417110",
+          "311814",
+          "813410",
+          "561740",
+          "611430"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-nursery-04",
+      "scheme": "naics",
+      "family": "nursery",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "111421",
+          "444240"
+        ],
+        "missing_discriminator": "whether the nursery stock is grown here or purchased for resale"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "561730",
+          "444240",
+          "111421"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.00340838,
+        "candidate_codes": [
+          "561730",
+          "444240",
+          "111421",
+          "624110",
+          "115110",
+          "813410",
+          "414220",
+          "337123",
+          "449129",
+          "444140"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-glass-installation-01",
+      "scheme": "naics",
+      "family": "glass-installation",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "238150",
+        "compatible_codes": [
+          "238150"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "238150",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.01007234,
+        "candidate_codes": [
+          "238150",
+          "811122",
+          "236110",
+          "721310",
+          "327214",
+          "332710",
+          "812114",
+          "326111",
+          "327215",
+          "416210"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-glass-installation-02",
+      "scheme": "naics",
+      "family": "glass-installation",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "811122",
+        "compatible_codes": [
+          "811122"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "811122",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.12891868,
+        "candidate_codes": [
+          "811122",
+          "327214",
+          "327215",
+          "336390",
+          "321911",
+          "561721",
+          "326193",
+          "336320",
+          "336370",
+          "332321"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-glass-installation-03",
+      "scheme": "naics",
+      "family": "glass-installation",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "811122",
+        "compatible_codes": [
+          "811122"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "611620",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.00081921,
+        "candidate_codes": [
+          "611620",
+          "624310",
+          "513190",
+          "238150",
+          "512230",
+          "513130",
+          "333519",
+          "561990",
+          "513110",
+          "444180"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-glass-installation-04",
+      "scheme": "naics",
+      "family": "glass-installation",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "238150",
+          "811122"
+        ],
+        "missing_discriminator": "whether the glass work concerns building panes or motor vehicles"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "238150",
+          "811122",
+          "541110"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.00736637,
+        "candidate_codes": [
+          "238150",
+          "811122",
+          "541110",
+          "327214",
+          "327215",
+          "238140",
+          "444180",
+          "238330",
+          "416340",
+          "449121"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-bakery-01",
+      "scheme": "naics",
+      "family": "bakery",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "311811",
+        "compatible_codes": [
+          "311811"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "812990",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.03519637,
+        "candidate_codes": [
+          "812990",
+          "311824",
+          "311211",
+          "311811",
+          "311814",
+          "913110",
+          "624110",
+          "311990",
+          "333248",
+          "522291"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-bakery-02",
+      "scheme": "naics",
+      "family": "bakery",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "445291",
+        "compatible_codes": [
+          "445291"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "311814",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.08648476,
+        "candidate_codes": [
+          "311814",
+          "445291",
+          "311811",
+          "457211",
+          "457219",
+          "321999",
+          "313310",
+          "311990",
+          "315120",
+          "416210"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-bakery-03",
+      "scheme": "naics",
+      "family": "bakery",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "311811",
+        "compatible_codes": [
+          "311811"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "311824",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.05225235,
+        "candidate_codes": [
+          "311824",
+          "311211",
+          "445291",
+          "337110",
+          "311814",
+          "333248",
+          "414390",
+          "449129",
+          "722512",
+          "311811"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-bakery-04",
+      "scheme": "naics",
+      "family": "bakery",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "311811",
+          "445291"
+        ],
+        "missing_discriminator": "whether the bread is made from flour here or bought already baked"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "812990",
+          "722512",
+          "311814"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.05161525,
+        "candidate_codes": [
+          "812990",
+          "722512",
+          "311814",
+          "311811",
+          "445291",
+          "313240",
+          "311824",
+          "311211",
+          "313110",
+          "459310"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-software-01",
+      "scheme": "naics",
+      "family": "software",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "513211",
+        "compatible_codes": [
+          "513211"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "541215",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.02364918,
+        "candidate_codes": [
+          "541215",
+          "512120",
+          "313240",
+          "313210",
+          "334512",
+          "315120",
+          "336120",
+          "331110",
+          "419120",
+          "315250"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-software-02",
+      "scheme": "naics",
+      "family": "software",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "541514",
+        "compatible_codes": [
+          "541514"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "419120",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.00382074,
+        "candidate_codes": [
+          "419120",
+          "334512",
+          "911910",
+          "238910",
+          "419110",
+          "541514",
+          "561430",
+          "911240",
+          "813910",
+          "541899"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-software-03",
+      "scheme": "naics",
+      "family": "software",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "541514",
+        "compatible_codes": [
+          "541514"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "419120",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.08718006,
+        "candidate_codes": [
+          "419120",
+          "513211",
+          "523910",
+          "449212",
+          "541514",
+          "624190",
+          "334512",
+          "332619",
+          "911910",
+          "311990"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-software-04",
+      "scheme": "naics",
+      "family": "software",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "513211",
+          "541514"
+        ],
+        "missing_discriminator": "whether software is a standard published product or custom work for individual clients"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "513212",
+          "513211",
+          "449212"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.00608951,
+        "candidate_codes": [
+          "513212",
+          "513211",
+          "449212",
+          "485510",
+          "813910",
+          "417310",
+          "518210",
+          "522190",
+          "311990",
+          "334610"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-accounting-services-01",
+      "scheme": "naics",
+      "family": "accounting-services",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "541212",
+        "compatible_codes": [
+          "541212"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "541212",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.07055536,
+        "candidate_codes": [
+          "541212",
+          "541215",
+          "417910",
+          "459410",
+          "541213",
+          "561330",
+          "541611",
+          "711412",
+          "561490",
+          "523930"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-accounting-services-02",
+      "scheme": "naics",
+      "family": "accounting-services",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "541215",
+        "compatible_codes": [
+          "541215"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "541215",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.15439367,
+        "candidate_codes": [
+          "541215",
+          "541213",
+          "522329",
+          "521110",
+          "513130",
+          "523120",
+          "418320",
+          "311224",
+          "561410",
+          "517410"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-accounting-services-03",
+      "scheme": "naics",
+      "family": "accounting-services",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "541212",
+        "compatible_codes": [
+          "541212"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "541212",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.03720656,
+        "candidate_codes": [
+          "541212",
+          "541215",
+          "531320",
+          "561320",
+          "561330",
+          "561110",
+          "417910",
+          "459410",
+          "541213",
+          "523920"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-accounting-services-04",
+      "scheme": "naics",
+      "family": "accounting-services",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "541212",
+          "541215"
+        ],
+        "missing_discriminator": "whether the firm supplies accounting and auditing services or only transaction bookkeeping and payroll"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "541215",
+          "541212",
+          "541213"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.08488798,
+        "candidate_codes": [
+          "541215",
+          "541212",
+          "541213",
+          "459410",
+          "522329",
+          "561330",
+          "526989",
+          "711412",
+          "561110",
+          "522321"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-landscape-01",
+      "scheme": "naics",
+      "family": "landscape",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "541320",
+        "compatible_codes": [
+          "541320"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "541320",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.03337747,
+        "candidate_codes": [
+          "541320",
+          "561730",
+          "541310",
+          "444240",
+          "541430",
+          "912910",
+          "911910",
+          "541514",
+          "561110",
+          "541420"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-landscape-02",
+      "scheme": "naics",
+      "family": "landscape",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "561730",
+        "compatible_codes": [
+          "561730"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "444240",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.04791862,
+        "candidate_codes": [
+          "444240",
+          "811411",
+          "238220",
+          "417110",
+          "561730",
+          "111421",
+          "333110",
+          "811199",
+          "813410",
+          "332210"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-landscape-03",
+      "scheme": "naics",
+      "family": "landscape",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "561730",
+        "compatible_codes": [
+          "561730"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "561730",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.03664413,
+        "candidate_codes": [
+          "561730",
+          "541320",
+          "449110",
+          "522210",
+          "623310",
+          "419110",
+          "811199",
+          "444110",
+          "238350",
+          "813910"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-landscape-04",
+      "scheme": "naics",
+      "family": "landscape",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "541320",
+          "561730"
+        ],
+        "missing_discriminator": "whether the service is land-design work alone or physical landscape installation and care"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "541110",
+          "713110",
+          "712190"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.00657042,
+        "candidate_codes": [
+          "541110",
+          "713110",
+          "712190",
+          "721211",
+          "512230",
+          "526989",
+          "459920",
+          "712130",
+          "912910",
+          "331317"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-building-cleaning-01",
+      "scheme": "naics",
+      "family": "building-cleaning",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "561721",
+        "compatible_codes": [
+          "561721"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "561721",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.08390744,
+        "candidate_codes": [
+          "561721",
+          "561799",
+          "561722",
+          "325610",
+          "812310",
+          "444180",
+          "812320",
+          "562910",
+          "115110",
+          "488490"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-building-cleaning-02",
+      "scheme": "naics",
+      "family": "building-cleaning",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "561722",
+        "compatible_codes": [
+          "561722"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "325620",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.00242731,
+        "candidate_codes": [
+          "325620",
+          "713299",
+          "721112",
+          "721310",
+          "721114",
+          "238990",
+          "326191",
+          "812330",
+          "332999",
+          "722511"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-building-cleaning-03",
+      "scheme": "naics",
+      "family": "building-cleaning",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "561721",
+        "compatible_codes": [
+          "561721"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "561721",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.0299837,
+        "candidate_codes": [
+          "561721",
+          "444180",
+          "561799",
+          "238150",
+          "416390",
+          "236210",
+          "326196",
+          "321911",
+          "332321",
+          "238350"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-building-cleaning-04",
+      "scheme": "naics",
+      "family": "building-cleaning",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "561721",
+          "561722"
+        ],
+        "missing_discriminator": "whether the cleaning business specializes in windows or general building interiors"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "561721",
+          "561722",
+          "325610"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.09577273,
+        "candidate_codes": [
+          "561721",
+          "561722",
+          "325610",
+          "561799",
+          "326196",
+          "561791",
+          "561740",
+          "321911",
+          "332321",
+          "812320"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-animal-care-01",
+      "scheme": "naics",
+      "family": "animal-care",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "541940",
+        "compatible_codes": [
+          "541940"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "622210",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.01425797,
+        "candidate_codes": [
+          "622210",
+          "311119",
+          "621110",
+          "562210",
+          "622111",
+          "622112",
+          "541940",
+          "488310",
+          "621510",
+          "411110"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-animal-care-02",
+      "scheme": "naics",
+      "family": "animal-care",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "812910",
+        "compatible_codes": [
+          "812910"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "311119",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.05360389,
+        "candidate_codes": [
+          "311119",
+          "112999",
+          "722511",
+          "457110",
+          "457120",
+          "711120",
+          "711111",
+          "485310",
+          "325999",
+          "336360"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-animal-care-03",
+      "scheme": "naics",
+      "family": "animal-care",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "812910",
+        "compatible_codes": [
+          "812910"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "311119",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.02405635,
+        "candidate_codes": [
+          "311119",
+          "812910",
+          "112999",
+          "611620",
+          "315210",
+          "315990",
+          "713999",
+          "721213",
+          "411110",
+          "321999"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-animal-care-04",
+      "scheme": "naics",
+      "family": "animal-care",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "541940",
+          "812910"
+        ],
+        "missing_discriminator": "whether the establishment provides veterinary medical treatment or non-medical pet care"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "812910",
+          "541940",
+          "721310"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.08282866,
+        "candidate_codes": [
+          "812910",
+          "541940",
+          "721310",
+          "531212",
+          "512250",
+          "311119",
+          "221320",
+          "459910",
+          "622210",
+          "562210"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-laundry-01",
+      "scheme": "naics",
+      "family": "laundry",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "812310",
+        "compatible_codes": [
+          "812310"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "414220",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.00791429,
+        "candidate_codes": [
+          "414220",
+          "333310",
+          "812310",
+          "333990",
+          "335229",
+          "811192",
+          "417920",
+          "488519",
+          "449211",
+          "623310"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-laundry-02",
+      "scheme": "naics",
+      "family": "laundry",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "812320",
+        "compatible_codes": [
+          "812320"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "711120",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.00559533,
+        "candidate_codes": [
+          "711120",
+          "711311",
+          "711111",
+          "711319",
+          "321999",
+          "449121",
+          "326114",
+          "325999",
+          "517310",
+          "721111"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-laundry-03",
+      "scheme": "naics",
+      "family": "laundry",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "812310",
+        "compatible_codes": [
+          "812310"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "811192",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.00826981,
+        "candidate_codes": [
+          "811192",
+          "333310",
+          "414220",
+          "812310",
+          "623310",
+          "333990",
+          "335229",
+          "417920",
+          "449211",
+          "711120"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-laundry-04",
+      "scheme": "naics",
+      "family": "laundry",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "812310",
+          "812320"
+        ],
+        "missing_discriminator": "whether customers operate coin machines themselves or staff wash the customers items"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "811192",
+          "485410",
+          "513140"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.00413212,
+        "candidate_codes": [
+          "811192",
+          "485410",
+          "513140",
+          "522190",
+          "331317",
+          "561320",
+          "722512",
+          "561330",
+          "417920",
+          "458119"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-glass-manufacturing-01",
+      "scheme": "naics",
+      "family": "glass-manufacturing",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "327214",
+        "compatible_codes": [
+          "327214"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "327214",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.16486165,
+        "candidate_codes": [
+          "327214",
+          "212323",
+          "327215",
+          "333990",
+          "322220",
+          "238150",
+          "332420",
+          "332319",
+          "327320",
+          "238210"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-glass-manufacturing-02",
+      "scheme": "naics",
+      "family": "glass-manufacturing",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "327215",
+        "compatible_codes": [
+          "327215"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "711511",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.01324607,
+        "candidate_codes": [
+          "711511",
+          "327215",
+          "322130",
+          "322121",
+          "238150",
+          "327214",
+          "333248",
+          "321919",
+          "321999",
+          "334511"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-glass-manufacturing-03",
+      "scheme": "naics",
+      "family": "glass-manufacturing",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "327215",
+        "compatible_codes": [
+          "327215"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "327215",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.0638123,
+        "candidate_codes": [
+          "327215",
+          "416210",
+          "322130",
+          "322121",
+          "332113",
+          "313310",
+          "327214",
+          "331420",
+          "518210",
+          "332118"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-glass-manufacturing-04",
+      "scheme": "naics",
+      "family": "glass-manufacturing",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "327214",
+          "327215"
+        ],
+        "missing_discriminator": "whether production makes glass from raw ingredients or shapes purchased glass"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "327214",
+          "336410",
+          "327215"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.00436457,
+        "candidate_codes": [
+          "327214",
+          "336410",
+          "327215",
+          "336510",
+          "238150",
+          "321999",
+          "811122",
+          "314990",
+          "238140",
+          "458119"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-printing-01",
+      "scheme": "naics",
+      "family": "printing",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "323115",
+        "compatible_codes": [
+          "323115"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "323115",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.11104385,
+        "candidate_codes": [
+          "323115",
+          "323120",
+          "334110",
+          "418210",
+          "333310",
+          "449212",
+          "611420",
+          "417910",
+          "541920",
+          "325910"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-printing-02",
+      "scheme": "naics",
+      "family": "printing",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "323113",
+        "compatible_codes": [
+          "323113"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "323113",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.01660312,
+        "candidate_codes": [
+          "323113",
+          "325910",
+          "339940",
+          "333310",
+          "513190",
+          "333247",
+          "333519",
+          "333990",
+          "238910",
+          "333248"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-printing-03",
+      "scheme": "naics",
+      "family": "printing",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "323115",
+        "compatible_codes": [
+          "323115"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "323115",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.03705694,
+        "candidate_codes": [
+          "323115",
+          "325910",
+          "323119",
+          "323114",
+          "333248",
+          "334110",
+          "332210",
+          "513190",
+          "334310",
+          "811210"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-printing-04",
+      "scheme": "naics",
+      "family": "printing",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "323115",
+          "323113"
+        ],
+        "missing_discriminator": "whether posters are printed with non-impact digital equipment or silk-screen equipment"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "323113",
+          "323114",
+          "323115"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.00106105,
+        "candidate_codes": [
+          "323113",
+          "323114",
+          "323115",
+          "339940",
+          "323120",
+          "513190",
+          "449123",
+          "331317",
+          "331490",
+          "323119"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-car-dealers-01",
+      "scheme": "naics",
+      "family": "car-dealers",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "441110",
+        "compatible_codes": [
+          "441110"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "441110",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.02218771,
+        "candidate_codes": [
+          "441110",
+          "415110",
+          "336110",
+          "415190",
+          "441120",
+          "419120",
+          "336510",
+          "336211",
+          "415290",
+          "415310"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-car-dealers-02",
+      "scheme": "naics",
+      "family": "car-dealers",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "441120",
+        "compatible_codes": [
+          "441120"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "418930",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.05182728,
+        "candidate_codes": [
+          "418930",
+          "459510",
+          "336110",
+          "441330",
+          "336510",
+          "419120",
+          "441120",
+          "336211",
+          "415110",
+          "488210"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "naics-car-dealers-03",
+      "scheme": "naics",
+      "family": "car-dealers",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "441120",
+        "compatible_codes": [
+          "441120"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "441120",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.06841817,
+        "candidate_codes": [
+          "441120",
+          "336110",
+          "441110",
+          "415110",
+          "336211",
+          "336510",
+          "415190",
+          "441210",
+          "459510",
+          "813910"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "naics-car-dealers-04",
+      "scheme": "naics",
+      "family": "car-dealers",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "441110",
+          "441120"
+        ],
+        "missing_discriminator": "whether the dealership mainly sells new vehicles or sells only used vehicles"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "336110",
+          "336510",
+          "441120"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.01065552,
+        "candidate_codes": [
+          "336110",
+          "336510",
+          "441120",
+          "813910",
+          "441110",
+          "336211",
+          "415110",
+          "488210",
+          "457219",
+          "459210"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-accounting-work-01",
+      "scheme": "noc",
+      "family": "accounting-work",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "11100",
+        "compatible_codes": [
+          "11100"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "11100",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.0972558,
+        "candidate_codes": [
+          "11100",
+          "10010",
+          "32121",
+          "12200",
+          "14200",
+          "32120",
+          "10019",
+          "11102",
+          "22230",
+          "52100"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-accounting-work-02",
+      "scheme": "noc",
+      "family": "accounting-work",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "12200",
+        "compatible_codes": [
+          "12200"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "12200",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.28476007,
+        "candidate_codes": [
+          "12200",
+          "14201",
+          "14200",
+          "11100",
+          "94219",
+          "51110",
+          "95104",
+          "63200",
+          "21390",
+          "83121"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-accounting-work-03",
+      "scheme": "noc",
+      "family": "accounting-work",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "11100",
+        "compatible_codes": [
+          "11100"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "11100",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.03759162,
+        "candidate_codes": [
+          "11100",
+          "10010",
+          "65202",
+          "14200",
+          "12200",
+          "11102",
+          "10019",
+          "14400",
+          "72410",
+          "64100"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-accounting-work-04",
+      "scheme": "noc",
+      "family": "accounting-work",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "11100",
+          "12200"
+        ],
+        "missing_discriminator": "whether the worker conducts financial audits or maintains transaction books"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "11100",
+          "12200",
+          "10019"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.00324522,
+        "candidate_codes": [
+          "11100",
+          "12200",
+          "10019",
+          "10010",
+          "92100",
+          "14200",
+          "94100",
+          "72205",
+          "32124",
+          "94219"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-human-resources-01",
+      "scheme": "noc",
+      "family": "human-resources",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "11200",
+        "compatible_codes": [
+          "11200"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "10011",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.09131186,
+        "candidate_codes": [
+          "10011",
+          "11200",
+          "41321",
+          "12101",
+          "14102",
+          "60031",
+          "11202",
+          "40010",
+          "12104",
+          "10029"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "noc-human-resources-02",
+      "scheme": "noc",
+      "family": "human-resources",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "12101",
+        "compatible_codes": [
+          "12101"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "12101",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.07710578,
+        "candidate_codes": [
+          "12101",
+          "73201",
+          "14102",
+          "10011",
+          "14202",
+          "64314",
+          "14100",
+          "22221",
+          "14301",
+          "64300"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-human-resources-03",
+      "scheme": "noc",
+      "family": "human-resources",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "12101",
+        "compatible_codes": [
+          "12101"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "14102",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.02191804,
+        "candidate_codes": [
+          "14102",
+          "62020",
+          "12101",
+          "41403",
+          "40010",
+          "31300",
+          "40012",
+          "65329",
+          "40011",
+          "53100"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "noc-human-resources-04",
+      "scheme": "noc",
+      "family": "human-resources",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "11200",
+          "12101"
+        ],
+        "missing_discriminator": "whether the work is employment-policy advice or recruitment operations"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "11200",
+          "13102",
+          "12101"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.04244667,
+        "candidate_codes": [
+          "11200",
+          "13102",
+          "12101",
+          "92014",
+          "10011",
+          "14202",
+          "10022",
+          "14102",
+          "73201",
+          "64313"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-animal-clinical-01",
+      "scheme": "noc",
+      "family": "animal-clinical",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "31103",
+        "compatible_codes": [
+          "31103"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "32104",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.02135563,
+        "candidate_codes": [
+          "32104",
+          "31103",
+          "31100",
+          "65220",
+          "41200",
+          "31201",
+          "32101",
+          "31102",
+          "32200",
+          "31303"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "noc-animal-clinical-02",
+      "scheme": "noc",
+      "family": "animal-clinical",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "32104",
+        "compatible_codes": [
+          "32104"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "32104",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.06503243,
+        "candidate_codes": [
+          "32104",
+          "31103",
+          "65220",
+          "22302",
+          "33101",
+          "32109",
+          "22100",
+          "22301",
+          "92101",
+          "32124"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-animal-clinical-03",
+      "scheme": "noc",
+      "family": "animal-clinical",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "31103",
+        "compatible_codes": [
+          "31103"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "32104",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.00205136,
+        "candidate_codes": [
+          "32104",
+          "31303",
+          "92101",
+          "32101",
+          "31102",
+          "63200",
+          "73209",
+          "32100",
+          "31110",
+          "72302"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "noc-animal-clinical-04",
+      "scheme": "noc",
+      "family": "animal-clinical",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "31103",
+          "32104"
+        ],
+        "missing_discriminator": "whether the worker is the veterinarian or an animal-health technician assisting the veterinarian"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "32104",
+          "31103",
+          "65220"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.09578284,
+        "candidate_codes": [
+          "32104",
+          "31103",
+          "65220",
+          "33109",
+          "32101",
+          "31100",
+          "33101",
+          "32123",
+          "41407",
+          "32121"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-pharmacy-01",
+      "scheme": "noc",
+      "family": "pharmacy",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "31120",
+        "compatible_codes": [
+          "31120"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "31120",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.12637066,
+        "candidate_codes": [
+          "31120",
+          "32124",
+          "32109",
+          "32100",
+          "32129",
+          "32209",
+          "32101",
+          "33103",
+          "11102",
+          "31111"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-pharmacy-02",
+      "scheme": "noc",
+      "family": "pharmacy",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "32124",
+        "compatible_codes": [
+          "32124"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "32124",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.16886761,
+        "candidate_codes": [
+          "32124",
+          "33103",
+          "31120",
+          "30010",
+          "32100",
+          "22100",
+          "60020",
+          "51112",
+          "64100",
+          "62100"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-pharmacy-03",
+      "scheme": "noc",
+      "family": "pharmacy",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "32124",
+        "compatible_codes": [
+          "32124"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "31120",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.04222142,
+        "candidate_codes": [
+          "31120",
+          "33103",
+          "32124",
+          "32100",
+          "60020",
+          "32109",
+          "73209",
+          "31112",
+          "32129",
+          "52119"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "noc-pharmacy-04",
+      "scheme": "noc",
+      "family": "pharmacy",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "31120",
+          "32124"
+        ],
+        "missing_discriminator": "whether the worker is a licensed pharmacist or a regulated pharmacy technician"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "32124",
+          "33103",
+          "31120"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.14001793,
+        "candidate_codes": [
+          "32124",
+          "33103",
+          "31120",
+          "32100",
+          "60020",
+          "30010",
+          "62010",
+          "32101",
+          "31100",
+          "93101"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-school-level-01",
+      "scheme": "noc",
+      "family": "school-level",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "41220",
+        "compatible_codes": [
+          "41220"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "41220",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.15918443,
+        "candidate_codes": [
+          "41220",
+          "43100",
+          "41210",
+          "43109",
+          "40021",
+          "41221",
+          "41200",
+          "41405",
+          "40020",
+          "41320"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-school-level-02",
+      "scheme": "noc",
+      "family": "school-level",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "41221",
+        "compatible_codes": [
+          "41221"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "41221",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.0217655,
+        "candidate_codes": [
+          "41221",
+          "43100",
+          "43109",
+          "41220",
+          "40021",
+          "41200",
+          "41210",
+          "41405",
+          "52100",
+          "40012"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-school-level-03",
+      "scheme": "noc",
+      "family": "school-level",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "41220",
+        "compatible_codes": [
+          "41220"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "41220",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.11184238,
+        "candidate_codes": [
+          "41220",
+          "43100",
+          "43109",
+          "40021",
+          "41221",
+          "41405",
+          "52100",
+          "41201",
+          "51122",
+          "40012"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-school-level-04",
+      "scheme": "noc",
+      "family": "school-level",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "41220",
+          "41221"
+        ],
+        "missing_discriminator": "whether the classroom teacher works in secondary or elementary education"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "43100",
+          "41201",
+          "41220"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.03300465,
+        "candidate_codes": [
+          "43100",
+          "41201",
+          "41220",
+          "40021",
+          "41221",
+          "43109",
+          "52100",
+          "45100",
+          "40020",
+          "41210"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-dental-01",
+      "scheme": "noc",
+      "family": "dental",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "32111",
+        "compatible_codes": [
+          "32111"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "32111",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.05553584,
+        "candidate_codes": [
+          "32111",
+          "31110",
+          "14101",
+          "22232",
+          "30010",
+          "31103",
+          "31102",
+          "33100",
+          "40010",
+          "85103"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-dental-02",
+      "scheme": "noc",
+      "family": "dental",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "33100",
+        "compatible_codes": [
+          "33100"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "33100",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.12140574,
+        "candidate_codes": [
+          "33100",
+          "32101",
+          "14101",
+          "31110",
+          "33109",
+          "32111",
+          "92101",
+          "94219",
+          "31204",
+          "32112"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-dental-03",
+      "scheme": "noc",
+      "family": "dental",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "33100",
+        "compatible_codes": [
+          "33100"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "31110",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.0239001,
+        "candidate_codes": [
+          "31110",
+          "32101",
+          "33100",
+          "32111",
+          "33109",
+          "42201",
+          "32109",
+          "33102",
+          "14101",
+          "10010"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "noc-dental-04",
+      "scheme": "noc",
+      "family": "dental",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "32111",
+          "33100"
+        ],
+        "missing_discriminator": "whether the worker provides hygiene assessment and scaling or chairside assistance to the dentist"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "33100",
+          "32111",
+          "31110"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.0244299,
+        "candidate_codes": [
+          "33100",
+          "32111",
+          "31110",
+          "14101",
+          "22302",
+          "22112",
+          "32109",
+          "32112",
+          "31204",
+          "21110"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-electrician-01",
+      "scheme": "noc",
+      "family": "electrician",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "72200",
+        "compatible_codes": [
+          "72200"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "72205",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.01114108,
+        "candidate_codes": [
+          "72205",
+          "94201",
+          "73110",
+          "22233",
+          "72200",
+          "72422",
+          "72201",
+          "22310",
+          "75119",
+          "52119"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "noc-electrician-02",
+      "scheme": "noc",
+      "family": "electrician",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "72201",
+        "compatible_codes": [
+          "72201"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "94203",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.022449,
+        "candidate_codes": [
+          "94203",
+          "21310",
+          "94205",
+          "83101",
+          "72020",
+          "72011",
+          "94202",
+          "72400",
+          "22310",
+          "92021"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "noc-electrician-03",
+      "scheme": "noc",
+      "family": "electrician",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "72200",
+        "compatible_codes": [
+          "72200"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "22233",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.0100232,
+        "candidate_codes": [
+          "22233",
+          "72205",
+          "65310",
+          "70011",
+          "72200",
+          "94201",
+          "72422",
+          "22310",
+          "73111",
+          "73201"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "noc-electrician-04",
+      "scheme": "noc",
+      "family": "electrician",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "72200",
+          "72201"
+        ],
+        "missing_discriminator": "whether electrical work concerns building circuits or industrial machinery and controls"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "72201",
+          "72202",
+          "72200"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.03804544,
+        "candidate_codes": [
+          "72201",
+          "72202",
+          "72200",
+          "72422",
+          "72011",
+          "75119",
+          "75110",
+          "22313",
+          "52119",
+          "72203"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-vehicle-repair-01",
+      "scheme": "noc",
+      "family": "vehicle-repair",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "72410",
+        "compatible_codes": [
+          "72410"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "94200",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.05119192,
+        "candidate_codes": [
+          "94200",
+          "72410",
+          "74203",
+          "43204",
+          "72020",
+          "72429",
+          "72411",
+          "92023",
+          "92020",
+          "72423"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "noc-vehicle-repair-02",
+      "scheme": "noc",
+      "family": "vehicle-repair",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "72411",
+        "compatible_codes": [
+          "72411"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "73101",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.00824141,
+        "candidate_codes": [
+          "73101",
+          "72411",
+          "94200",
+          "72403",
+          "42101",
+          "73100",
+          "94105",
+          "73111",
+          "72205",
+          "94100"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "noc-vehicle-repair-03",
+      "scheme": "noc",
+      "family": "vehicle-repair",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "72411",
+        "compatible_codes": [
+          "72411"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "72411",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.11794279,
+        "candidate_codes": [
+          "72411",
+          "63221",
+          "21301",
+          "94129",
+          "31110",
+          "72410",
+          "70012",
+          "72020",
+          "94204",
+          "22310"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-vehicle-repair-04",
+      "scheme": "noc",
+      "family": "vehicle-repair",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "72410",
+          "72411"
+        ],
+        "missing_discriminator": "whether vehicle repair concerns mechanical systems or damaged body panels"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "72411",
+          "72410",
+          "94200"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.03375308,
+        "candidate_codes": [
+          "72411",
+          "72410",
+          "94200",
+          "43109",
+          "72020",
+          "92020",
+          "92023",
+          "14401",
+          "75119",
+          "21301"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-web-01",
+      "scheme": "noc",
+      "family": "web",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "21233",
+        "compatible_codes": [
+          "21233"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "21233",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.01617536,
+        "candidate_codes": [
+          "21233",
+          "21234",
+          "52120",
+          "73202",
+          "94151",
+          "55109",
+          "32124",
+          "94112",
+          "53125",
+          "14112"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-web-02",
+      "scheme": "noc",
+      "family": "web",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "21234",
+        "compatible_codes": [
+          "21234"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "21234",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.04683662,
+        "candidate_codes": [
+          "21234",
+          "21230",
+          "21232",
+          "21233",
+          "22220",
+          "72302",
+          "72200",
+          "21221",
+          "72201",
+          "22302"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-web-03",
+      "scheme": "noc",
+      "family": "web",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "21233",
+        "compatible_codes": [
+          "21233"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "21233",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.17638274,
+        "candidate_codes": [
+          "21233",
+          "21234",
+          "21222",
+          "21223",
+          "42201",
+          "52120",
+          "60031",
+          "64201",
+          "21330",
+          "53124"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-web-04",
+      "scheme": "noc",
+      "family": "web",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "21233",
+          "21234"
+        ],
+        "missing_discriminator": "whether the worker mainly designs site appearance or implements website program code"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "21233",
+          "21234",
+          "41300"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.07434376,
+        "candidate_codes": [
+          "21233",
+          "21234",
+          "41300",
+          "94101",
+          "42201",
+          "85120",
+          "42204",
+          "72102",
+          "94112",
+          "74204"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-food-preparation-01",
+      "scheme": "noc",
+      "family": "food-preparation",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "63200",
+        "compatible_codes": [
+          "63200"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "63200",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.05969814,
+        "candidate_codes": [
+          "63200",
+          "60030",
+          "62200",
+          "65200",
+          "84121",
+          "65100",
+          "14200",
+          "43201",
+          "62020",
+          "21120"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-food-preparation-02",
+      "scheme": "noc",
+      "family": "food-preparation",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "63202",
+        "compatible_codes": [
+          "63202"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "63202",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.14885409,
+        "candidate_codes": [
+          "63202",
+          "95106",
+          "94205",
+          "92012",
+          "63200",
+          "62200",
+          "94101",
+          "60020",
+          "64100",
+          "94140"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-food-preparation-03",
+      "scheme": "noc",
+      "family": "food-preparation",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "63202",
+        "compatible_codes": [
+          "63202"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "62200",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.06249726,
+        "candidate_codes": [
+          "62200",
+          "63202",
+          "63200",
+          "95106",
+          "94140",
+          "92012",
+          "64100",
+          "94130",
+          "92010",
+          "94143"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "noc-food-preparation-04",
+      "scheme": "noc",
+      "family": "food-preparation",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "63200",
+          "63202"
+        ],
+        "missing_discriminator": "whether the worker cooks meals or makes and bakes bread and pastry dough"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "63202",
+          "62200",
+          "63200"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.01218964,
+        "candidate_codes": [
+          "63202",
+          "62200",
+          "63200",
+          "95106",
+          "84121",
+          "94205",
+          "40019",
+          "94101",
+          "94143",
+          "22111"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-cleaner-01",
+      "scheme": "noc",
+      "family": "cleaner",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "65310",
+        "compatible_codes": [
+          "65310"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "65310",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.36089453,
+        "candidate_codes": [
+          "65310",
+          "94210",
+          "33102",
+          "22100",
+          "92022",
+          "94110",
+          "65210",
+          "72102",
+          "95109",
+          "64314"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-cleaner-02",
+      "scheme": "noc",
+      "family": "cleaner",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "65312",
+        "compatible_codes": [
+          "65312"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "75212",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.0354679,
+        "candidate_codes": [
+          "75212",
+          "65312",
+          "73201",
+          "65311",
+          "73400",
+          "72021",
+          "74205",
+          "70011",
+          "22233",
+          "65310"
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "noc-cleaner-03",
+      "scheme": "noc",
+      "family": "cleaner",
+      "split": "test",
+      "reference": {
+        "decision": "code",
+        "code": "65310",
+        "compatible_codes": [
+          "65310"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "65310",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.01730833,
+        "candidate_codes": [
+          "65310",
+          "62024",
+          "62021",
+          "14401",
+          "64314",
+          "60031",
+          "22100",
+          "94110",
+          "65210",
+          "65329"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-cleaner-04",
+      "scheme": "noc",
+      "family": "cleaner",
+      "split": "test",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "65310",
+          "65312"
+        ],
+        "missing_discriminator": "whether duties are guest-room housekeeping or heavy-duty building cleaning"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "62024",
+          "65310",
+          "75212"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.08561222,
+        "candidate_codes": [
+          "62024",
+          "65310",
+          "75212",
+          "72999",
+          "62021",
+          "65312",
+          "73201",
+          "70012",
+          "65320",
+          "14202"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-nursing-01",
+      "scheme": "noc",
+      "family": "nursing",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "31301",
+        "compatible_codes": [
+          "31301"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "31301",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.1173948,
+        "candidate_codes": [
+          "31301",
+          "31302",
+          "32104",
+          "32121",
+          "33102",
+          "31102",
+          "32103",
+          "52100",
+          "31100",
+          "31209"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-nursing-02",
+      "scheme": "noc",
+      "family": "nursing",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "31302",
+        "compatible_codes": [
+          "31302"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "31302",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.18199047,
+        "candidate_codes": [
+          "31302",
+          "31100",
+          "31102",
+          "31201",
+          "32102",
+          "31111",
+          "31110",
+          "31303",
+          "41407",
+          "22114"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-nursing-03",
+      "scheme": "noc",
+      "family": "nursing",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "31302",
+        "compatible_codes": [
+          "31302"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "31302",
+        "compatible_codes": [],
+        "review_reason": null,
+        "score_margin": 0.11040488,
+        "candidate_codes": [
+          "31302",
+          "31201",
+          "31100",
+          "31102",
+          "31303",
+          "31112",
+          "32123",
+          "31110",
+          "31209",
+          "33109"
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "noc-nursing-04",
+      "scheme": "noc",
+      "family": "nursing",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "31301",
+          "31302"
+        ],
+        "missing_discriminator": "whether the registered nurse has and uses nurse-practitioner authority to diagnose and prescribe"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "31302",
+          "31301",
+          "31300"
+        ],
+        "review_reason": "explicit missing discriminator",
+        "score_margin": 0.03774447,
+        "candidate_codes": [
+          "31302",
+          "31301",
+          "31300",
+          "32123",
+          "32101",
+          "33102",
+          "32103",
+          "31102",
+          "31100",
+          "33109"
+        ]
+      },
+      "correct": true
+    }
+  ],
+  "official_control_rows": [
+    {
+      "id": "naics-nursery-111421-control",
+      "scheme": "naics",
+      "reference": "111421",
+      "exact_codes": [
+        "111421"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-nursery-444240-control",
+      "scheme": "naics",
+      "reference": "444240",
+      "exact_codes": [
+        "444240"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-glass-installation-238150-control",
+      "scheme": "naics",
+      "reference": "238150",
+      "exact_codes": [
+        "238150"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-glass-installation-811122-control",
+      "scheme": "naics",
+      "reference": "811122",
+      "exact_codes": [
+        "811122"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-bakery-311811-control",
+      "scheme": "naics",
+      "reference": "311811",
+      "exact_codes": [
+        "311811"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-bakery-445291-control",
+      "scheme": "naics",
+      "reference": "445291",
+      "exact_codes": [
+        "445291"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-software-513211-control",
+      "scheme": "naics",
+      "reference": "513211",
+      "exact_codes": [
+        "513211"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-software-541514-control",
+      "scheme": "naics",
+      "reference": "541514",
+      "exact_codes": [
+        "541514"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-accounting-services-541212-control",
+      "scheme": "naics",
+      "reference": "541212",
+      "exact_codes": [
+        "541212"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-accounting-services-541215-control",
+      "scheme": "naics",
+      "reference": "541215",
+      "exact_codes": [
+        "541215"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-landscape-541320-control",
+      "scheme": "naics",
+      "reference": "541320",
+      "exact_codes": [
+        "541320"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-landscape-561730-control",
+      "scheme": "naics",
+      "reference": "561730",
+      "exact_codes": [
+        "561730"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-building-cleaning-561721-control",
+      "scheme": "naics",
+      "reference": "561721",
+      "exact_codes": [
+        "561721"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-building-cleaning-561722-control",
+      "scheme": "naics",
+      "reference": "561722",
+      "exact_codes": [
+        "561722"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-animal-care-541940-control",
+      "scheme": "naics",
+      "reference": "541940",
+      "exact_codes": [
+        "541940"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-animal-care-812910-control",
+      "scheme": "naics",
+      "reference": "812910",
+      "exact_codes": [
+        "812910"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-laundry-812310-control",
+      "scheme": "naics",
+      "reference": "812310",
+      "exact_codes": [
+        "812310"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-laundry-812320-control",
+      "scheme": "naics",
+      "reference": "812320",
+      "exact_codes": [
+        "812320"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-glass-manufacturing-327214-control",
+      "scheme": "naics",
+      "reference": "327214",
+      "exact_codes": [
+        "327214"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-glass-manufacturing-327215-control",
+      "scheme": "naics",
+      "reference": "327215",
+      "exact_codes": [
+        "327215"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-printing-323115-control",
+      "scheme": "naics",
+      "reference": "323115",
+      "exact_codes": [
+        "323115"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-printing-323113-control",
+      "scheme": "naics",
+      "reference": "323113",
+      "exact_codes": [
+        "323113"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-car-dealers-441110-control",
+      "scheme": "naics",
+      "reference": "441110",
+      "exact_codes": [
+        "441110"
+      ],
+      "correct": true
+    },
+    {
+      "id": "naics-car-dealers-441120-control",
+      "scheme": "naics",
+      "reference": "441120",
+      "exact_codes": [
+        "441120"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-accounting-work-11100-control",
+      "scheme": "noc",
+      "reference": "11100",
+      "exact_codes": [
+        "11100"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-accounting-work-12200-control",
+      "scheme": "noc",
+      "reference": "12200",
+      "exact_codes": [
+        "12200"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-human-resources-11200-control",
+      "scheme": "noc",
+      "reference": "11200",
+      "exact_codes": [
+        "11200"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-human-resources-12101-control",
+      "scheme": "noc",
+      "reference": "12101",
+      "exact_codes": [
+        "12101"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-animal-clinical-31103-control",
+      "scheme": "noc",
+      "reference": "31103",
+      "exact_codes": [
+        "31103"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-animal-clinical-32104-control",
+      "scheme": "noc",
+      "reference": "32104",
+      "exact_codes": [
+        "32104"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-pharmacy-31120-control",
+      "scheme": "noc",
+      "reference": "31120",
+      "exact_codes": [
+        "31120"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-pharmacy-32124-control",
+      "scheme": "noc",
+      "reference": "32124",
+      "exact_codes": [
+        "32124"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-school-level-41220-control",
+      "scheme": "noc",
+      "reference": "41220",
+      "exact_codes": [
+        "41220"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-school-level-41221-control",
+      "scheme": "noc",
+      "reference": "41221",
+      "exact_codes": [
+        "41221"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-dental-32111-control",
+      "scheme": "noc",
+      "reference": "32111",
+      "exact_codes": [
+        "32111"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-dental-33100-control",
+      "scheme": "noc",
+      "reference": "33100",
+      "exact_codes": [
+        "33100"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-electrician-72200-control",
+      "scheme": "noc",
+      "reference": "72200",
+      "exact_codes": [
+        "72200"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-electrician-72201-control",
+      "scheme": "noc",
+      "reference": "72201",
+      "exact_codes": [
+        "72201"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-vehicle-repair-72410-control",
+      "scheme": "noc",
+      "reference": "72410",
+      "exact_codes": [
+        "72410"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-vehicle-repair-72411-control",
+      "scheme": "noc",
+      "reference": "72411",
+      "exact_codes": [
+        "72411"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-web-21233-control",
+      "scheme": "noc",
+      "reference": "21233",
+      "exact_codes": [
+        "21233"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-web-21234-control",
+      "scheme": "noc",
+      "reference": "21234",
+      "exact_codes": [
+        "21234"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-food-preparation-63200-control",
+      "scheme": "noc",
+      "reference": "63200",
+      "exact_codes": [
+        "63200"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-food-preparation-63202-control",
+      "scheme": "noc",
+      "reference": "63202",
+      "exact_codes": [
+        "63202"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-cleaner-65310-control",
+      "scheme": "noc",
+      "reference": "65310",
+      "exact_codes": [
+        "65310"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-cleaner-65312-control",
+      "scheme": "noc",
+      "reference": "65312",
+      "exact_codes": [
+        "65312"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-nursing-31301-control",
+      "scheme": "noc",
+      "reference": "31301",
+      "exact_codes": [
+        "31301"
+      ],
+      "correct": true
+    },
+    {
+      "id": "noc-nursing-31302-control",
+      "scheme": "noc",
+      "reference": "31302",
+      "exact_codes": [
+        "31302"
+      ],
+      "correct": true
+    }
+  ],
+  "official_control_correct": 48,
+  "summaries": {
+    "naics_dev": {
+      "n": 16,
+      "decision_correct": 10,
+      "decision_accuracy": 0.625,
+      "unique_target_n": 12,
+      "unique_target_correct": 6,
+      "review_n": 4,
+      "review_correct": 4,
+      "unsupported_single_code_on_review": 0,
+      "unique_target_recall_at_10": 0.8333333333333334,
+      "review_both_candidates_retrieved": 2,
+      "interpretation": "Descriptive finite synthetic-case result; related variants remain clustered by family."
+    },
+    "naics_test": {
+      "n": 32,
+      "decision_correct": 18,
+      "decision_accuracy": 0.5625,
+      "unique_target_n": 24,
+      "unique_target_correct": 10,
+      "review_n": 8,
+      "review_correct": 8,
+      "unsupported_single_code_on_review": 0,
+      "unique_target_recall_at_10": 0.875,
+      "review_both_candidates_retrieved": 7,
+      "interpretation": "Descriptive finite synthetic-case result; related variants remain clustered by family."
+    },
+    "noc_dev": {
+      "n": 16,
+      "decision_correct": 12,
+      "decision_accuracy": 0.75,
+      "unique_target_n": 12,
+      "unique_target_correct": 8,
+      "review_n": 4,
+      "review_correct": 4,
+      "unsupported_single_code_on_review": 0,
+      "unique_target_recall_at_10": 1.0,
+      "review_both_candidates_retrieved": 4,
+      "interpretation": "Descriptive finite synthetic-case result; related variants remain clustered by family."
+    },
+    "noc_test": {
+      "n": 32,
+      "decision_correct": 23,
+      "decision_accuracy": 0.71875,
+      "unique_target_n": 24,
+      "unique_target_correct": 15,
+      "review_n": 8,
+      "review_correct": 8,
+      "unsupported_single_code_on_review": 0,
+      "unique_target_recall_at_10": 0.9166666666666666,
+      "review_both_candidates_retrieved": 8,
+      "interpretation": "Descriptive finite synthetic-case result; related variants remain clustered by family."
+    }
+  }
+}

@@ -1,0 +1,2864 @@
+[
+  {
+    "id": "naics-nursery-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "nursery",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "main activity grows young trees and shrubs",
+      "stock grown on site for retail sale",
+      "growth cycle less than ten years"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "111421",
+      "compatible_codes": [
+        "111421"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "111421",
+      "444240"
+    ],
+    "source_keys": [
+      "naics:111421",
+      "naics:444240"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-nursery-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "nursery",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "main activity retails young trees and shrubs to households",
+      "stock predominantly grown elsewhere and purchased ready for resale",
+      "no growing activity"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "444240",
+      "compatible_codes": [
+        "444240"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "111421",
+      "444240"
+    ],
+    "source_keys": [
+      "naics:111421",
+      "naics:444240"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-nursery-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "nursery",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "main activity grows young trees and shrubs",
+      "stock grown on site for retail sale",
+      "growth cycle less than ten years"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "111421",
+      "compatible_codes": [
+        "111421"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "111421",
+      "444240"
+    ],
+    "source_keys": [
+      "naics:111421",
+      "naics:444240"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-nursery-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "nursery",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the nursery stock is grown here or purchased for resale is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "111421",
+        "444240"
+      ],
+      "missing_discriminator": "whether the nursery stock is grown here or purchased for resale"
+    },
+    "boundary_codes": [
+      "111421",
+      "444240"
+    ],
+    "source_keys": [
+      "naics:111421",
+      "naics:444240"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-glass-installation-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-installation",
+    "split": "dev",
+    "variant": "complete_a",
+    "facts": [
+      "main activity installs glass panes in prepared building openings",
+      "works on buildings rather than vehicles",
+      "does not install complete prefabricated window units"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "238150",
+      "compatible_codes": [
+        "238150"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "238150",
+      "811122"
+    ],
+    "source_keys": [
+      "naics:238150",
+      "naics:811122"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-glass-installation-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-installation",
+    "split": "dev",
+    "variant": "complete_b",
+    "facts": [
+      "main activity replaces and repairs motor-vehicle glass",
+      "works on cars rather than buildings"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "811122",
+      "compatible_codes": [
+        "811122"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "238150",
+      "811122"
+    ],
+    "source_keys": [
+      "naics:238150",
+      "naics:811122"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-glass-installation-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-installation",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "facts": [
+      "main activity replaces and repairs motor-vehicle glass",
+      "works on cars rather than buildings"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "811122",
+      "compatible_codes": [
+        "811122"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "238150",
+      "811122"
+    ],
+    "source_keys": [
+      "naics:238150",
+      "naics:811122"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-glass-installation-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-installation",
+    "split": "dev",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the glass work concerns building panes or motor vehicles is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "238150",
+        "811122"
+      ],
+      "missing_discriminator": "whether the glass work concerns building panes or motor vehicles"
+    },
+    "boundary_codes": [
+      "238150",
+      "811122"
+    ],
+    "source_keys": [
+      "naics:238150",
+      "naics:811122"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-bakery-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "bakery",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "main activity makes bread from flour on the premises",
+      "sells directly to the public for consumption off premises",
+      "does not use purchased prepared dough"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "311811",
+      "compatible_codes": [
+        "311811"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "311811",
+      "445291"
+    ],
+    "source_keys": [
+      "naics:311811",
+      "naics:445291"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-bakery-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "bakery",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "main activity retails bread manufactured elsewhere",
+      "bread is not baked on the premises",
+      "sales are for consumption off premises"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "445291",
+      "compatible_codes": [
+        "445291"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "311811",
+      "445291"
+    ],
+    "source_keys": [
+      "naics:311811",
+      "naics:445291"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-bakery-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "bakery",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "main activity makes bread from flour on the premises",
+      "sells directly to the public for consumption off premises",
+      "does not use purchased prepared dough"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "311811",
+      "compatible_codes": [
+        "311811"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "311811",
+      "445291"
+    ],
+    "source_keys": [
+      "naics:311811",
+      "naics:445291"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-bakery-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "bakery",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the bread is made from flour here or bought already baked is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "311811",
+        "445291"
+      ],
+      "missing_discriminator": "whether the bread is made from flour here or bought already baked"
+    },
+    "boundary_codes": [
+      "311811",
+      "445291"
+    ],
+    "source_keys": [
+      "naics:311811",
+      "naics:445291"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-software-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "software",
+    "split": "dev",
+    "variant": "complete_a",
+    "facts": [
+      "main activity publishes packaged non-game software",
+      "produces and distributes the same installable software to many purchasers",
+      "does not provide centrally hosted software access or custom client development"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "513211",
+      "compatible_codes": [
+        "513211"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "513211",
+      "541514"
+    ],
+    "source_keys": [
+      "naics:513211",
+      "naics:541514"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-software-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "software",
+    "split": "dev",
+    "variant": "complete_b",
+    "facts": [
+      "main activity writes and tests non-game software for particular customers",
+      "each client receives a custom application",
+      "does not publish packaged software"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "541514",
+      "compatible_codes": [
+        "541514"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "513211",
+      "541514"
+    ],
+    "source_keys": [
+      "naics:513211",
+      "naics:541514"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-software-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "software",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "facts": [
+      "main activity writes and tests non-game software for particular customers",
+      "each client receives a custom application",
+      "does not publish packaged software"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "541514",
+      "compatible_codes": [
+        "541514"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "513211",
+      "541514"
+    ],
+    "source_keys": [
+      "naics:513211",
+      "naics:541514"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-software-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "software",
+    "split": "dev",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether software is a standard published product or custom work for individual clients is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "513211",
+        "541514"
+      ],
+      "missing_discriminator": "whether software is a standard published product or custom work for individual clients"
+    },
+    "boundary_codes": [
+      "513211",
+      "541514"
+    ],
+    "source_keys": [
+      "naics:513211",
+      "naics:541514"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-accounting-services-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "accounting-services",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "main activity provides accounting and auditing services",
+      "reviews accounting records and prepares management accounting reports"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "541212",
+      "compatible_codes": [
+        "541212"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "541212",
+      "541215"
+    ],
+    "source_keys": [
+      "naics:541212",
+      "naics:541215"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-accounting-services-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "accounting-services",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "main activity processes payroll and billing and maintains transaction books",
+      "does not provide accounting reports or auditing services"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "541215",
+      "compatible_codes": [
+        "541215"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "541212",
+      "541215"
+    ],
+    "source_keys": [
+      "naics:541212",
+      "naics:541215"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-accounting-services-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "accounting-services",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "main activity provides accounting and auditing services",
+      "reviews accounting records and prepares management accounting reports"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "541212",
+      "compatible_codes": [
+        "541212"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "541212",
+      "541215"
+    ],
+    "source_keys": [
+      "naics:541212",
+      "naics:541215"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-accounting-services-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "accounting-services",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the firm supplies accounting and auditing services or only transaction bookkeeping and payroll is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "541212",
+        "541215"
+      ],
+      "missing_discriminator": "whether the firm supplies accounting and auditing services or only transaction bookkeeping and payroll"
+    },
+    "boundary_codes": [
+      "541212",
+      "541215"
+    ],
+    "source_keys": [
+      "naics:541212",
+      "naics:541215"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-landscape-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "landscape",
+    "split": "dev",
+    "variant": "complete_a",
+    "facts": [
+      "main activity plans and designs development of park land",
+      "provides drawings and design administration",
+      "does not install or maintain landscaping materials"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "541320",
+      "compatible_codes": [
+        "541320"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "541320",
+      "561730"
+    ],
+    "source_keys": [
+      "naics:541320",
+      "naics:561730"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-landscape-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "landscape",
+    "split": "dev",
+    "variant": "complete_b",
+    "facts": [
+      "main activity installs and maintains lawns trees and gardens",
+      "provides physical landscape care",
+      "does not offer a separate architectural practice"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "561730",
+      "compatible_codes": [
+        "561730"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "541320",
+      "561730"
+    ],
+    "source_keys": [
+      "naics:541320",
+      "naics:561730"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-landscape-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "landscape",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "facts": [
+      "main activity installs and maintains lawns trees and gardens",
+      "provides physical landscape care",
+      "does not offer a separate architectural practice"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "561730",
+      "compatible_codes": [
+        "561730"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "541320",
+      "561730"
+    ],
+    "source_keys": [
+      "naics:541320",
+      "naics:561730"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-landscape-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "landscape",
+    "split": "dev",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the service is land-design work alone or physical landscape installation and care is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "541320",
+        "561730"
+      ],
+      "missing_discriminator": "whether the service is land-design work alone or physical landscape installation and care"
+    },
+    "boundary_codes": [
+      "541320",
+      "561730"
+    ],
+    "source_keys": [
+      "naics:541320",
+      "naics:561730"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-building-cleaning-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "building-cleaning",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "main activity cleans building windows",
+      "does not offer general interior cleaning"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "561721",
+      "compatible_codes": [
+        "561721"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "561721",
+      "561722"
+    ],
+    "source_keys": [
+      "naics:561721",
+      "naics:561722"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-building-cleaning-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "building-cleaning",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "main activity cleans office interiors and restrooms",
+      "does not offer window or carpet-specialist cleaning"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "561722",
+      "compatible_codes": [
+        "561722"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "561721",
+      "561722"
+    ],
+    "source_keys": [
+      "naics:561721",
+      "naics:561722"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-building-cleaning-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "building-cleaning",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "main activity cleans building windows",
+      "does not offer general interior cleaning"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "561721",
+      "compatible_codes": [
+        "561721"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "561721",
+      "561722"
+    ],
+    "source_keys": [
+      "naics:561721",
+      "naics:561722"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-building-cleaning-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "building-cleaning",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the cleaning business specializes in windows or general building interiors is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "561721",
+        "561722"
+      ],
+      "missing_discriminator": "whether the cleaning business specializes in windows or general building interiors"
+    },
+    "boundary_codes": [
+      "561721",
+      "561722"
+    ],
+    "source_keys": [
+      "naics:561721",
+      "naics:561722"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-animal-care-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "animal-care",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "licensed veterinary practice",
+      "main activity diagnoses and treats animal disease and performs animal surgery",
+      "treats pet dogs and cats"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "541940",
+      "compatible_codes": [
+        "541940"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "541940",
+      "812910"
+    ],
+    "source_keys": [
+      "naics:541940",
+      "naics:812910"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-animal-care-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "animal-care",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "main activity grooms and boards pet dogs and cats",
+      "does not practise veterinary medicine or breed animals"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "812910",
+      "compatible_codes": [
+        "812910"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "541940",
+      "812910"
+    ],
+    "source_keys": [
+      "naics:541940",
+      "naics:812910"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-animal-care-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "animal-care",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "main activity grooms and boards pet dogs and cats",
+      "does not practise veterinary medicine or breed animals"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "812910",
+      "compatible_codes": [
+        "812910"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "541940",
+      "812910"
+    ],
+    "source_keys": [
+      "naics:541940",
+      "naics:812910"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-animal-care-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "animal-care",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the establishment provides veterinary medical treatment or non-medical pet care is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "541940",
+        "812910"
+      ],
+      "missing_discriminator": "whether the establishment provides veterinary medical treatment or non-medical pet care"
+    },
+    "boundary_codes": [
+      "541940",
+      "812910"
+    ],
+    "source_keys": [
+      "naics:541940",
+      "naics:812910"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-laundry-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "laundry",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "main activity provides self-service coin-operated washing machines to the public",
+      "customers operate machines themselves"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "812310",
+      "compatible_codes": [
+        "812310"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "812310",
+      "812320"
+    ],
+    "source_keys": [
+      "naics:812310",
+      "naics:812320"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-laundry-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "laundry",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "main activity washes and presses customers apparel and linens",
+      "staff perform the washing instead of customers",
+      "does not supply rented linens or uniforms"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "812320",
+      "compatible_codes": [
+        "812320"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "812310",
+      "812320"
+    ],
+    "source_keys": [
+      "naics:812310",
+      "naics:812320"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-laundry-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "laundry",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "main activity provides self-service coin-operated washing machines to the public",
+      "customers operate machines themselves"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "812310",
+      "compatible_codes": [
+        "812310"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "812310",
+      "812320"
+    ],
+    "source_keys": [
+      "naics:812310",
+      "naics:812320"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-laundry-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "laundry",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether customers operate coin machines themselves or staff wash the customers items is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "812310",
+        "812320"
+      ],
+      "missing_discriminator": "whether customers operate coin machines themselves or staff wash the customers items"
+    },
+    "boundary_codes": [
+      "812310",
+      "812320"
+    ],
+    "source_keys": [
+      "naics:812310",
+      "naics:812320"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-glass-manufacturing-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-manufacturing",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "main activity makes glass from sand and cullet",
+      "melts raw glass ingredients rather than shaping purchased glass"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "327214",
+      "compatible_codes": [
+        "327214"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "327214",
+      "327215"
+    ],
+    "source_keys": [
+      "naics:327214",
+      "naics:327215"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-glass-manufacturing-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-manufacturing",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "main activity shapes products from purchased glass",
+      "remelts presses or blows purchased glass",
+      "does not make glass from sand and cullet"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "327215",
+      "compatible_codes": [
+        "327215"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "327214",
+      "327215"
+    ],
+    "source_keys": [
+      "naics:327214",
+      "naics:327215"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-glass-manufacturing-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-manufacturing",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "main activity shapes products from purchased glass",
+      "remelts presses or blows purchased glass",
+      "does not make glass from sand and cullet"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "327215",
+      "compatible_codes": [
+        "327215"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "327214",
+      "327215"
+    ],
+    "source_keys": [
+      "naics:327214",
+      "naics:327215"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-glass-manufacturing-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "glass-manufacturing",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether production makes glass from raw ingredients or shapes purchased glass is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "327214",
+        "327215"
+      ],
+      "missing_discriminator": "whether production makes glass from raw ingredients or shapes purchased glass"
+    },
+    "boundary_codes": [
+      "327214",
+      "327215"
+    ],
+    "source_keys": [
+      "naics:327214",
+      "naics:327215"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-printing-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "printing",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "main activity prints graphical posters using computer-controlled non-impact inkjet equipment",
+      "image supplied as a computer file",
+      "not office photocopying"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "323115",
+      "compatible_codes": [
+        "323115"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "323115",
+      "323113"
+    ],
+    "source_keys": [
+      "naics:323115",
+      "naics:323113"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-printing-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "printing",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "main activity commercially prints posters using silk-screen equipment and cut stencils",
+      "prints finished paper posters rather than textile fabric"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "323113",
+      "compatible_codes": [
+        "323113"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "323115",
+      "323113"
+    ],
+    "source_keys": [
+      "naics:323115",
+      "naics:323113"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-printing-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "printing",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "main activity prints graphical posters using computer-controlled non-impact inkjet equipment",
+      "image supplied as a computer file",
+      "not office photocopying"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "323115",
+      "compatible_codes": [
+        "323115"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "323115",
+      "323113"
+    ],
+    "source_keys": [
+      "naics:323115",
+      "naics:323113"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-printing-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "printing",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether posters are printed with non-impact digital equipment or silk-screen equipment is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "323115",
+        "323113"
+      ],
+      "missing_discriminator": "whether posters are printed with non-impact digital equipment or silk-screen equipment"
+    },
+    "boundary_codes": [
+      "323115",
+      "323113"
+    ],
+    "source_keys": [
+      "naics:323115",
+      "naics:323113"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-car-dealers-01",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "car-dealers",
+    "split": "dev",
+    "variant": "complete_a",
+    "facts": [
+      "main activity retails new cars and light trucks to final consumers",
+      "may also sell used cars"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "441110",
+      "compatible_codes": [
+        "441110"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "441110",
+      "441120"
+    ],
+    "source_keys": [
+      "naics:441110",
+      "naics:441120"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-car-dealers-02",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "car-dealers",
+    "split": "dev",
+    "variant": "complete_b",
+    "facts": [
+      "main activity retails used cars and light trucks",
+      "does not sell new motor vehicles"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "441120",
+      "compatible_codes": [
+        "441120"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "441110",
+      "441120"
+    ],
+    "source_keys": [
+      "naics:441110",
+      "naics:441120"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-car-dealers-03",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "car-dealers",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "facts": [
+      "main activity retails used cars and light trucks",
+      "does not sell new motor vehicles"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "441120",
+      "compatible_codes": [
+        "441120"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "441110",
+      "441120"
+    ],
+    "source_keys": [
+      "naics:441110",
+      "naics:441120"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "naics-car-dealers-04",
+    "scheme": "naics",
+    "classification_version": "NAICS Canada 2022 V1.0",
+    "family": "car-dealers",
+    "split": "dev",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the dealership mainly sells new vehicles or sells only used vehicles is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "441110",
+        "441120"
+      ],
+      "missing_discriminator": "whether the dealership mainly sells new vehicles or sells only used vehicles"
+    },
+    "boundary_codes": [
+      "441110",
+      "441120"
+    ],
+    "source_keys": [
+      "naics:441110",
+      "naics:441120"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-accounting-work-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "accounting-work",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "worker independently examines financial records for accounting-standard compliance",
+      "conducts financial audits and reports audit findings",
+      "not a financial department manager"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "11100",
+      "compatible_codes": [
+        "11100"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "11100",
+      "12200"
+    ],
+    "source_keys": [
+      "noc:11100",
+      "noc:12200"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-accounting-work-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "accounting-work",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "worker maintains complete transaction books and reconciles accounts",
+      "posts journal entries and prepares trial balances",
+      "does not conduct independent financial audits"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "12200",
+      "compatible_codes": [
+        "12200"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "11100",
+      "12200"
+    ],
+    "source_keys": [
+      "noc:11100",
+      "noc:12200"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-accounting-work-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "accounting-work",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "worker independently examines financial records for accounting-standard compliance",
+      "conducts financial audits and reports audit findings",
+      "not a financial department manager"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "11100",
+      "compatible_codes": [
+        "11100"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "11100",
+      "12200"
+    ],
+    "source_keys": [
+      "noc:11100",
+      "noc:12200"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-accounting-work-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "accounting-work",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the worker conducts financial audits or maintains transaction books is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "11100",
+        "12200"
+      ],
+      "missing_discriminator": "whether the worker conducts financial audits or maintains transaction books"
+    },
+    "boundary_codes": [
+      "11100",
+      "12200"
+    ],
+    "source_keys": [
+      "noc:11100",
+      "noc:12200"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-human-resources-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "human-resources",
+    "split": "dev",
+    "variant": "complete_a",
+    "facts": [
+      "worker develops and evaluates labour-relations and human-resources policies",
+      "advises employers about collective agreements",
+      "not a human-resources department manager"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "11200",
+      "compatible_codes": [
+        "11200"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "11200",
+      "12101"
+    ],
+    "source_keys": [
+      "noc:11200",
+      "noc:12101"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-human-resources-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "human-resources",
+    "split": "dev",
+    "variant": "complete_b",
+    "facts": [
+      "worker identifies vacancies and posts recruitment advertisements",
+      "collects applications and assists in selecting candidates",
+      "does not develop employment policies"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "12101",
+      "compatible_codes": [
+        "12101"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "11200",
+      "12101"
+    ],
+    "source_keys": [
+      "noc:11200",
+      "noc:12101"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-human-resources-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "human-resources",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "facts": [
+      "worker identifies vacancies and posts recruitment advertisements",
+      "collects applications and assists in selecting candidates",
+      "does not develop employment policies"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "12101",
+      "compatible_codes": [
+        "12101"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "11200",
+      "12101"
+    ],
+    "source_keys": [
+      "noc:11200",
+      "noc:12101"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-human-resources-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "human-resources",
+    "split": "dev",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the work is employment-policy advice or recruitment operations is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "11200",
+        "12101"
+      ],
+      "missing_discriminator": "whether the work is employment-policy advice or recruitment operations"
+    },
+    "boundary_codes": [
+      "11200",
+      "12101"
+    ],
+    "source_keys": [
+      "noc:11200",
+      "noc:12101"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-animal-clinical-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "animal-clinical",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "worker is a licensed veterinary practitioner",
+      "diagnoses animal diseases and prescribes treatment",
+      "performs surgery on animals"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "31103",
+      "compatible_codes": [
+        "31103"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "31103",
+      "32104"
+    ],
+    "source_keys": [
+      "noc:31103",
+      "noc:32104"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-animal-clinical-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "animal-clinical",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "worker is an animal-health technician working under a veterinarian",
+      "assists with treatment and laboratory tests",
+      "does not independently diagnose prescribe or perform veterinary surgery"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "32104",
+      "compatible_codes": [
+        "32104"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "31103",
+      "32104"
+    ],
+    "source_keys": [
+      "noc:31103",
+      "noc:32104"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-animal-clinical-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "animal-clinical",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "worker is a licensed veterinary practitioner",
+      "diagnoses animal diseases and prescribes treatment",
+      "performs surgery on animals"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "31103",
+      "compatible_codes": [
+        "31103"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "31103",
+      "32104"
+    ],
+    "source_keys": [
+      "noc:31103",
+      "noc:32104"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-animal-clinical-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "animal-clinical",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the worker is the veterinarian or an animal-health technician assisting the veterinarian is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "31103",
+        "32104"
+      ],
+      "missing_discriminator": "whether the worker is the veterinarian or an animal-health technician assisting the veterinarian"
+    },
+    "boundary_codes": [
+      "31103",
+      "32104"
+    ],
+    "source_keys": [
+      "noc:31103",
+      "noc:32104"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-pharmacy-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "pharmacy",
+    "split": "dev",
+    "variant": "complete_a",
+    "facts": [
+      "worker is a licensed pharmacist",
+      "reviews medication therapy and advises patients about correct use",
+      "dispenses prescribed medication"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "31120",
+      "compatible_codes": [
+        "31120"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "31120",
+      "32124"
+    ],
+    "source_keys": [
+      "noc:31120",
+      "noc:32124"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-pharmacy-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "pharmacy",
+    "split": "dev",
+    "variant": "complete_b",
+    "facts": [
+      "worker is a regulated pharmacy technician",
+      "performs technical preparation and dispensing tasks under a pharmacist",
+      "does not provide pharmacist clinical advice"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "32124",
+      "compatible_codes": [
+        "32124"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "31120",
+      "32124"
+    ],
+    "source_keys": [
+      "noc:31120",
+      "noc:32124"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-pharmacy-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "pharmacy",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "facts": [
+      "worker is a regulated pharmacy technician",
+      "performs technical preparation and dispensing tasks under a pharmacist",
+      "does not provide pharmacist clinical advice"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "32124",
+      "compatible_codes": [
+        "32124"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "31120",
+      "32124"
+    ],
+    "source_keys": [
+      "noc:31120",
+      "noc:32124"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-pharmacy-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "pharmacy",
+    "split": "dev",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the worker is a licensed pharmacist or a regulated pharmacy technician is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "31120",
+        "32124"
+      ],
+      "missing_discriminator": "whether the worker is a licensed pharmacist or a regulated pharmacy technician"
+    },
+    "boundary_codes": [
+      "31120",
+      "32124"
+    ],
+    "source_keys": [
+      "noc:31120",
+      "noc:32124"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-school-level-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "school-level",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "worker teaches academic subjects as a classroom teacher",
+      "pupils are in secondary school",
+      "not a principal or teacher assistant"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "41220",
+      "compatible_codes": [
+        "41220"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "41220",
+      "41221"
+    ],
+    "source_keys": [
+      "noc:41220",
+      "noc:41221"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-school-level-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "school-level",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "worker teaches basic subjects as a classroom teacher",
+      "pupils are in elementary school",
+      "not a principal or teacher assistant"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "41221",
+      "compatible_codes": [
+        "41221"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "41220",
+      "41221"
+    ],
+    "source_keys": [
+      "noc:41220",
+      "noc:41221"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-school-level-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "school-level",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "worker teaches academic subjects as a classroom teacher",
+      "pupils are in secondary school",
+      "not a principal or teacher assistant"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "41220",
+      "compatible_codes": [
+        "41220"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "41220",
+      "41221"
+    ],
+    "source_keys": [
+      "noc:41220",
+      "noc:41221"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-school-level-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "school-level",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the classroom teacher works in secondary or elementary education is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "41220",
+        "41221"
+      ],
+      "missing_discriminator": "whether the classroom teacher works in secondary or elementary education"
+    },
+    "boundary_codes": [
+      "41220",
+      "41221"
+    ],
+    "source_keys": [
+      "noc:41220",
+      "noc:41221"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-dental-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "dental",
+    "split": "dev",
+    "variant": "complete_a",
+    "facts": [
+      "worker performs dental hygiene treatment",
+      "screens oral health and scales teeth to prevent gum disease",
+      "not a dentist or dental laboratory worker"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "32111",
+      "compatible_codes": [
+        "32111"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "32111",
+      "33100"
+    ],
+    "source_keys": [
+      "noc:32111",
+      "noc:33100"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-dental-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "dental",
+    "split": "dev",
+    "variant": "complete_b",
+    "facts": [
+      "worker prepares patients and instruments and assists the dentist during treatment",
+      "sterilizes dental equipment",
+      "does not independently assess oral health or provide scaling treatment"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "33100",
+      "compatible_codes": [
+        "33100"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "32111",
+      "33100"
+    ],
+    "source_keys": [
+      "noc:32111",
+      "noc:33100"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-dental-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "dental",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "facts": [
+      "worker prepares patients and instruments and assists the dentist during treatment",
+      "sterilizes dental equipment",
+      "does not independently assess oral health or provide scaling treatment"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "33100",
+      "compatible_codes": [
+        "33100"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "32111",
+      "33100"
+    ],
+    "source_keys": [
+      "noc:32111",
+      "noc:33100"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-dental-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "dental",
+    "split": "dev",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the worker provides hygiene assessment and scaling or chairside assistance to the dentist is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "32111",
+        "33100"
+      ],
+      "missing_discriminator": "whether the worker provides hygiene assessment and scaling or chairside assistance to the dentist"
+    },
+    "boundary_codes": [
+      "32111",
+      "33100"
+    ],
+    "source_keys": [
+      "noc:32111",
+      "noc:33100"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-electrician-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "electrician",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "worker installs and repairs building wiring and lighting circuits",
+      "works on residential and office building electrical systems",
+      "not a supervisor or power-system worker"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "72200",
+      "compatible_codes": [
+        "72200"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "72200",
+      "72201"
+    ],
+    "source_keys": [
+      "noc:72200",
+      "noc:72201"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-electrician-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "electrician",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "worker maintains industrial electrical motors and automated control equipment",
+      "works on factory production machinery",
+      "not a supervisor or power-system worker"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "72201",
+      "compatible_codes": [
+        "72201"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "72200",
+      "72201"
+    ],
+    "source_keys": [
+      "noc:72200",
+      "noc:72201"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-electrician-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "electrician",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "worker installs and repairs building wiring and lighting circuits",
+      "works on residential and office building electrical systems",
+      "not a supervisor or power-system worker"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "72200",
+      "compatible_codes": [
+        "72200"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "72200",
+      "72201"
+    ],
+    "source_keys": [
+      "noc:72200",
+      "noc:72201"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-electrician-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "electrician",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether electrical work concerns building circuits or industrial machinery and controls is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "72200",
+        "72201"
+      ],
+      "missing_discriminator": "whether electrical work concerns building circuits or industrial machinery and controls"
+    },
+    "boundary_codes": [
+      "72200",
+      "72201"
+    ],
+    "source_keys": [
+      "noc:72200",
+      "noc:72201"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-vehicle-repair-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "vehicle-repair",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "worker diagnoses and repairs motor-vehicle engines brakes and transmissions",
+      "does mechanical vehicle servicing",
+      "not a supervisor"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "72410",
+      "compatible_codes": [
+        "72410"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "72410",
+      "72411"
+    ],
+    "source_keys": [
+      "noc:72410",
+      "noc:72411"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-vehicle-repair-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "vehicle-repair",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "worker repairs collision-damaged vehicle panels and repaints body surfaces",
+      "does body restoration rather than mechanical engine servicing",
+      "not a supervisor"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "72411",
+      "compatible_codes": [
+        "72411"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "72410",
+      "72411"
+    ],
+    "source_keys": [
+      "noc:72410",
+      "noc:72411"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-vehicle-repair-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "vehicle-repair",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "worker repairs collision-damaged vehicle panels and repaints body surfaces",
+      "does body restoration rather than mechanical engine servicing",
+      "not a supervisor"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "72411",
+      "compatible_codes": [
+        "72411"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "72410",
+      "72411"
+    ],
+    "source_keys": [
+      "noc:72410",
+      "noc:72411"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-vehicle-repair-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "vehicle-repair",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether vehicle repair concerns mechanical systems or damaged body panels is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "72410",
+        "72411"
+      ],
+      "missing_discriminator": "whether vehicle repair concerns mechanical systems or damaged body panels"
+    },
+    "boundary_codes": [
+      "72410",
+      "72411"
+    ],
+    "source_keys": [
+      "noc:72410",
+      "noc:72411"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-web-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "web",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "worker designs website visual presentation and page layout",
+      "develops site appearance and usability designs",
+      "does not write or test website program code"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "21233",
+      "compatible_codes": [
+        "21233"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "21233",
+      "21234"
+    ],
+    "source_keys": [
+      "noc:21233",
+      "noc:21234"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-web-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "web",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "worker writes modifies integrates and tests website application code",
+      "builds programmed web functionality",
+      "does not mainly create visual layouts"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "21234",
+      "compatible_codes": [
+        "21234"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "21233",
+      "21234"
+    ],
+    "source_keys": [
+      "noc:21233",
+      "noc:21234"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-web-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "web",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "worker designs website visual presentation and page layout",
+      "develops site appearance and usability designs",
+      "does not write or test website program code"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "21233",
+      "compatible_codes": [
+        "21233"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "21233",
+      "21234"
+    ],
+    "source_keys": [
+      "noc:21233",
+      "noc:21234"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-web-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "web",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the worker mainly designs site appearance or implements website program code is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "21233",
+        "21234"
+      ],
+      "missing_discriminator": "whether the worker mainly designs site appearance or implements website program code"
+    },
+    "boundary_codes": [
+      "21233",
+      "21234"
+    ],
+    "source_keys": [
+      "noc:21233",
+      "noc:21234"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-food-preparation-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "food-preparation",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "worker prepares and cooks complete meals and savoury dishes in a restaurant",
+      "worker is a cook following established recipes under a chef; does not work as a chef or specialist chef"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "63200",
+      "compatible_codes": [
+        "63200"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "63200",
+      "63202"
+    ],
+    "source_keys": [
+      "noc:63200",
+      "noc:63202"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-food-preparation-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "food-preparation",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "worker prepares bread and pastry dough and bakes it",
+      "works in a bakery following established recipes",
+      "not a pastry chef or food-processing machine operator"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "63202",
+      "compatible_codes": [
+        "63202"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "63200",
+      "63202"
+    ],
+    "source_keys": [
+      "noc:63200",
+      "noc:63202"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-food-preparation-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "food-preparation",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "worker prepares bread and pastry dough and bakes it",
+      "works in a bakery following established recipes",
+      "not a pastry chef or food-processing machine operator"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "63202",
+      "compatible_codes": [
+        "63202"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "63200",
+      "63202"
+    ],
+    "source_keys": [
+      "noc:63200",
+      "noc:63202"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-food-preparation-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "food-preparation",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the worker cooks meals or makes and bakes bread and pastry dough is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "63200",
+        "63202"
+      ],
+      "missing_discriminator": "whether the worker cooks meals or makes and bakes bread and pastry dough"
+    },
+    "boundary_codes": [
+      "63200",
+      "63202"
+    ],
+    "source_keys": [
+      "noc:63200",
+      "noc:63202"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-cleaner-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "cleaner",
+    "split": "test",
+    "variant": "complete_a",
+    "facts": [
+      "worker cleans hotel guest rooms",
+      "makes beds changes sheets dusts furniture and replenishes toiletries",
+      "not a supervisor"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "65310",
+      "compatible_codes": [
+        "65310"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "65310",
+      "65312"
+    ],
+    "source_keys": [
+      "noc:65310",
+      "noc:65312"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-cleaner-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "cleaner",
+    "split": "test",
+    "variant": "complete_b",
+    "facts": [
+      "worker performs heavy-duty building cleaning",
+      "operates industrial vacuums to remove heavy debris and clears snow from building walkways",
+      "not a supervisor or building systems maintenance specialist"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "65312",
+      "compatible_codes": [
+        "65312"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "65310",
+      "65312"
+    ],
+    "source_keys": [
+      "noc:65310",
+      "noc:65312"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-cleaner-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "cleaner",
+    "split": "test",
+    "variant": "complete_reworded",
+    "facts": [
+      "worker cleans hotel guest rooms",
+      "makes beds changes sheets dusts furniture and replenishes toiletries",
+      "not a supervisor"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "65310",
+      "compatible_codes": [
+        "65310"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "65310",
+      "65312"
+    ],
+    "source_keys": [
+      "noc:65310",
+      "noc:65312"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-cleaner-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "cleaner",
+    "split": "test",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether duties are guest-room housekeeping or heavy-duty building cleaning is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "65310",
+        "65312"
+      ],
+      "missing_discriminator": "whether duties are guest-room housekeeping or heavy-duty building cleaning"
+    },
+    "boundary_codes": [
+      "65310",
+      "65312"
+    ],
+    "source_keys": [
+      "noc:65310",
+      "noc:65312"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-nursing-01",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "nursing",
+    "split": "dev",
+    "variant": "complete_a",
+    "facts": [
+      "worker is a registered nurse without advanced-practice nurse-practitioner duties",
+      "monitors patients and administers medications prescribed by a physician",
+      "provides direct nursing care rather than supervising a ward"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "31301",
+      "compatible_codes": [
+        "31301"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "31301",
+      "31302"
+    ],
+    "source_keys": [
+      "noc:31301",
+      "noc:31302"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-nursing-02",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "nursing",
+    "split": "dev",
+    "variant": "complete_b",
+    "facts": [
+      "worker is an advanced-practice nurse with nurse-practitioner authority",
+      "examines patients orders diagnostic tests diagnoses illnesses and prescribes treatment",
+      "not a physician"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "31302",
+      "compatible_codes": [
+        "31302"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "31301",
+      "31302"
+    ],
+    "source_keys": [
+      "noc:31301",
+      "noc:31302"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-nursing-03",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "nursing",
+    "split": "dev",
+    "variant": "complete_reworded",
+    "facts": [
+      "worker is an advanced-practice nurse with nurse-practitioner authority",
+      "examines patients orders diagnostic tests diagnoses illnesses and prescribes treatment",
+      "not a physician"
+    ],
+    "reference": {
+      "decision": "code",
+      "code": "31302",
+      "compatible_codes": [
+        "31302"
+      ],
+      "missing_discriminator": null
+    },
+    "boundary_codes": [
+      "31301",
+      "31302"
+    ],
+    "source_keys": [
+      "noc:31301",
+      "noc:31302"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  },
+  {
+    "id": "noc-nursing-04",
+    "scheme": "noc",
+    "classification_version": "NOC 2021 V1.0",
+    "family": "nursing",
+    "split": "dev",
+    "variant": "insufficient",
+    "facts": [
+      "the record is explicitly unresolved between the two stated alternatives",
+      "whether the registered nurse has and uses nurse-practitioner authority to diagnose and prescribe is not established"
+    ],
+    "reference": {
+      "decision": "review",
+      "code": null,
+      "compatible_codes": [
+        "31301",
+        "31302"
+      ],
+      "missing_discriminator": "whether the registered nurse has and uses nurse-practitioner authority to diagnose and prescribe"
+    },
+    "boundary_codes": [
+      "31301",
+      "31302"
+    ],
+    "source_keys": [
+      "noc:31301",
+      "noc:31302"
+    ],
+    "construction": "Synthetic facts and labels authored by a research agent before narrative materialization; no evaluated model used."
+  }
+]

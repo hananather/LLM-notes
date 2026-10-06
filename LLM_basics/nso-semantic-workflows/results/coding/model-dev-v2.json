@@ -1,0 +1,604 @@
+{
+  "spec": {
+    "run_id": "coding/v2/dev",
+    "jobs_sha256": "f987909fe2042197eae52056fe27b626734c82c521a6a303e54ab0c506bed111",
+    "case_count": 32,
+    "default_max_output_tokens": 768,
+    "workers": 4
+  },
+  "status": "complete",
+  "rows": [
+    {
+      "case_id": "naics-glass-installation-01",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "238150",
+        "compatible_codes": [
+          "238150"
+        ],
+        "evidence_quotes": [
+          "fit sheets of glass into openings that builders have already prepared",
+          "We do not supply whole window assemblies",
+          "we never work on vehicles"
+        ],
+        "missing_information": null,
+        "reason": "The establishment installs glass sheets in prepared openings in buildings, matching the definition of glass and glazing contractors. It does not install whole window assemblies or work on automotive glass, so the listed exclusions do not apply."
+      },
+      "tag": "coding/v2/dev/naics-glass-installation-01"
+    },
+    {
+      "case_id": "naics-glass-installation-02",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "811122",
+        "compatible_codes": [
+          "811122"
+        ],
+        "evidence_quotes": [
+          "We replace cracked windscreens and mend chipped car windows.",
+          "Motor-vehicle glass is all we work on."
+        ],
+        "missing_information": null,
+        "reason": "The establishment replaces and repairs motor-vehicle glass, matching the definition of Automotive glass replacement shops. The description identifies repair and replacement services, not glass manufacturing."
+      },
+      "tag": "coding/v2/dev/naics-glass-installation-02"
+    },
+    {
+      "case_id": "naics-glass-installation-03",
+      "status": "valid",
+      "answer": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [],
+        "evidence_quotes": [
+          "broken or chipped vehicle windows",
+          "taking out damaged panes and fitting replacements"
+        ],
+        "missing_information": "The shortlist does not include the class for replacement or repair of automotive glass; the supplied evidence identifies that activity as excluded from 238150 and points to 811122, which is not a candidate.",
+        "reason": "The description is specifically automotive glass replacement. Candidate 238150 covers glass work for buildings and explicitly excludes replacement or repair of automotive glass, directing it to 811122. Since that destination is absent from the supplied candidates, no listed code is supported."
+      },
+      "tag": "coding/v2/dev/naics-glass-installation-03"
+    },
+    {
+      "case_id": "naics-glass-installation-04",
+      "status": "valid",
+      "answer": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "238150",
+          "811122"
+        ],
+        "evidence_quotes": [
+          "The firm only replaces glass panes.",
+          "Its incomplete return does not establish whether these go in prepared building openings or in motor vehicles."
+        ],
+        "missing_information": "Whether the glass panes are replaced in prepared building openings or in motor vehicles.",
+        "reason": "The description establishes glass-pane replacement but leaves the setting unresolved. NAICS 238150 covers glazing work for buildings, while 811122 covers replacing and repairing motor vehicle glass; the evidence does not support a unique class."
+      },
+      "tag": "coding/v2/dev/naics-glass-installation-04"
+    },
+    {
+      "case_id": "naics-software-01",
+      "status": "valid",
+      "answer": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [],
+        "evidence_quotes": [
+          "We develop and distribute an installable bookkeeping program sold in the same packaged form to many buyers.",
+          "It is not a game, a hosted online service, or custom work for one client."
+        ],
+        "missing_information": "The shortlist contains no class for developing and distributing packaged software. The description does not establish that the establishment provides bookkeeping, billing, or payroll processing services.",
+        "reason": "The activity described is developing and distributing packaged software, not providing bookkeeping services as required by 541215. None of the supplied candidates uniquely classifies packaged software development and distribution, so review is required."
+      },
+      "tag": "coding/v2/dev/naics-software-01"
+    },
+    {
+      "case_id": "naics-software-02",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "541514",
+        "compatible_codes": [
+          "541514"
+        ],
+        "evidence_quotes": [
+          "write and test a different business application around its requirements",
+          "We do not publish packaged products, make games, or run hosted software services."
+        ],
+        "missing_information": null,
+        "reason": "The establishment writes and tests custom business applications to meet each customer's requirements, matching computer systems design and related services. The description also rules out packaged software publishing, video game development, and hosted software services."
+      },
+      "tag": "coding/v2/dev/naics-software-02"
+    },
+    {
+      "case_id": "naics-software-03",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "541514",
+        "compatible_codes": [
+          "541514"
+        ],
+        "evidence_quotes": [
+          "build non-game applications to an individual clients specification",
+          "test the commissioned result",
+          "There is no standard software product for sale."
+        ],
+        "missing_information": null,
+        "reason": "The description specifies custom, non-game applications built to an individual client's requirements, which supports computer systems design and related services. It also explicitly says there is no standard software product for sale, so software publishing is not supported."
+      },
+      "tag": "coding/v2/dev/naics-software-03"
+    },
+    {
+      "case_id": "naics-software-04",
+      "status": "valid",
+      "answer": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "513211",
+          "541514",
+          "518210"
+        ],
+        "evidence_quotes": [
+          "The business supplies installable non-game software rather than hosted access.",
+          "The return does not state whether it publishes one packaged product or writes applications to individual client specifications."
+        ],
+        "missing_information": "Whether the business publishes packaged software or custom-designs applications to meet individual clients’ specifications is not stated.",
+        "reason": "The description rules out hosted access and video game publishing, but does not distinguish software publishing (513211) from custom software design (541514). The latter is not in the supplied candidate list, so no unique supplied code is supported."
+      },
+      "tag": "coding/v2/dev/naics-software-04"
+    },
+    {
+      "case_id": "naics-landscape-01",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "541320",
+        "compatible_codes": [
+          "541320"
+        ],
+        "evidence_quotes": [
+          "We plan how park land should be laid out",
+          "prepare the landscape drawings and design administration",
+          "We do not plant, build, mow or maintain the sites."
+        ],
+        "missing_information": null,
+        "reason": "The activity is planning and designing park land and administering the landscape design, matching 541320's description of planning and designing land areas for parks. The description explicitly excludes planting, construction, mowing, and maintenance, so the landscaping-services class is not supported."
+      },
+      "tag": "coding/v2/dev/naics-landscape-01"
+    },
+    {
+      "case_id": "naics-landscape-02",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "561730",
+        "compatible_codes": [
+          "561730"
+        ],
+        "evidence_quotes": [
+          "Our crews put in lawns, shrubs and garden beds, then maintain them.",
+          "Physical garden installation and upkeep are our service"
+        ],
+        "missing_information": null,
+        "reason": "The description explicitly identifies garden installation and upkeep as the establishment’s service. NAICS 561730 covers installing lawns, shrubs, plants or gardens and providing landscape care and maintenance. The stated absence of a separate architectural practice does not change that classification."
+      },
+      "tag": "coding/v2/dev/naics-landscape-02"
+    },
+    {
+      "case_id": "naics-landscape-03",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "561730",
+        "compatible_codes": [
+          "561730"
+        ],
+        "evidence_quotes": [
+          "We send crews to establish lawns and planted beds and return to care for them.",
+          "Our business is the hands-on installation and upkeep of landscapes."
+        ],
+        "missing_information": null,
+        "reason": "The description identifies hands-on establishment and ongoing care of lawns, planted beds, and landscapes. This matches landscaping services, including installing plants and providing lawn care and maintenance. The landscape architectural services class concerns planning and designing landscapes, which is not described."
+      },
+      "tag": "coding/v2/dev/naics-landscape-03"
+    },
+    {
+      "case_id": "naics-landscape-04",
+      "status": "valid",
+      "answer": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [],
+        "evidence_quotes": [
+          "The firm works on parks.",
+          "The record does not distinguish a practice providing only landscape plans and design administration from a contractor installing and maintaining the planted areas."
+        ],
+        "missing_information": "Whether the firm provides landscape plans and design administration only, or installs and maintains planted areas. The relevant class is not established by the supplied candidates.",
+        "reason": "The description explicitly leaves the decisive activity unresolved. None of the supplied candidates is supported as a unique classification for landscape design or landscape installation and maintenance."
+      },
+      "tag": "coding/v2/dev/naics-landscape-04"
+    },
+    {
+      "case_id": "naics-car-dealers-01",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "441110",
+        "compatible_codes": [
+          "441110"
+        ],
+        "evidence_quotes": [
+          "We mainly sell new cars and light trucks to final buyers.",
+          "We also take some used vehicles in trade and sell those."
+        ],
+        "missing_information": null,
+        "reason": "The establishment primarily retails new cars and light trucks to final buyers, matching 441110. Selling some used vehicles in trade is consistent with this class, which typically also retails used cars."
+      },
+      "tag": "coding/v2/dev/naics-car-dealers-01"
+    },
+    {
+      "case_id": "naics-car-dealers-02",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "441120",
+        "compatible_codes": [
+          "441120"
+        ],
+        "evidence_quotes": [
+          "We sell second-hand cars and light trucks.",
+          "We never sell brand-new motor vehicles."
+        ],
+        "missing_information": null,
+        "reason": "The description identifies retail sales of used cars and light trucks, matching the supplied definition of 441120, which covers retailing used automobiles and light-duty trucks and vans. The statement that no brand-new vehicles are sold does not change that classification."
+      },
+      "tag": "coding/v2/dev/naics-car-dealers-02"
+    },
+    {
+      "case_id": "naics-car-dealers-03",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "441120",
+        "compatible_codes": [
+          "441120"
+        ],
+        "evidence_quotes": [
+          "All vehicles on our lot have had a previous owner.",
+          "Retailing these used cars and light trucks is the business; we do not sell new ones."
+        ],
+        "missing_information": null,
+        "reason": "The establishment primarily retails used cars and light trucks and does not sell new vehicles. This matches the supplied definition of 441120 Used car dealers."
+      },
+      "tag": "coding/v2/dev/naics-car-dealers-03"
+    },
+    {
+      "case_id": "naics-car-dealers-04",
+      "status": "valid",
+      "answer": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "441110",
+          "441120"
+        ],
+        "evidence_quotes": [
+          "This dealership retails cars and light trucks.",
+          "The return does not distinguish a mainly new-vehicle dealership with some used sales from a used-only dealer."
+        ],
+        "missing_information": "Whether the dealership primarily retails new vehicles or used vehicles only.",
+        "reason": "The description does not resolve the distinction between 441110, which covers new-vehicle dealers that may also retail used cars, and 441120, which covers used-vehicle dealers. The decisive new-versus-used retail activity is explicitly unspecified."
+      },
+      "tag": "coding/v2/dev/naics-car-dealers-04"
+    },
+    {
+      "case_id": "noc-human-resources-01",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "11200",
+        "compatible_codes": [
+          "11200"
+        ],
+        "evidence_quotes": [
+          "I develop and evaluate employment and labour-relations policies and advise employers on collective agreements.",
+          "I do not manage the HR department."
+        ],
+        "missing_information": null,
+        "reason": "The described policy development and evaluation and advice on collective agreements align with NOC 11200. The explicit statement that the worker does not manage the HR department weighs against 10011, whose class definition is for managers directing and evaluating HR department operations. No supplied evidence indicates recruitment-officer or clerical duties."
+      },
+      "tag": "coding/v2/dev/noc-human-resources-01"
+    },
+    {
+      "case_id": "noc-human-resources-02",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "12101",
+        "compatible_codes": [
+          "12101"
+        ],
+        "evidence_quotes": [
+          "turn staffing vacancies into advertisements",
+          "collect applications",
+          "help select candidates"
+        ],
+        "missing_information": null,
+        "reason": "The described duties directly match human resources and recruitment officers, who advertise vacancies, recruit candidates, and assist in selection. The statement that employment policies are not designed weighs against the manager class; no unresolved alternative in the supplied candidates is supported."
+      },
+      "tag": "coding/v2/dev/noc-human-resources-02"
+    },
+    {
+      "case_id": "noc-human-resources-03",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "14102",
+        "compatible_codes": [
+          "14102"
+        ],
+        "evidence_quotes": [
+          "When posts become vacant, I arrange the adverts, gather applicants and assist with the selection.",
+          "Employment-policy development is outside my work."
+        ],
+        "missing_information": null,
+        "reason": "The described duties are clerical support for vacancies and applicant selection, matching personnel clerks. The description explicitly excludes employment-policy development, so the policy-related alternatives are not supported."
+      },
+      "tag": "coding/v2/dev/noc-human-resources-03"
+    },
+    {
+      "case_id": "noc-human-resources-04",
+      "status": "valid",
+      "answer": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "11200",
+          "12101"
+        ],
+        "evidence_quotes": [
+          "The worker is in human resources but not a department manager.",
+          "The record cannot distinguish policy and collective-agreement advice from advertising vacancies and recruiting candidates."
+        ],
+        "missing_information": "Whether the worker's duties involve developing or advising on human resources policies and collective agreements (11200), or advertising vacancies and recruiting candidates (12101).",
+        "reason": "The description explicitly leaves the deciding duties unresolved. Both 11200 and 12101 are supported by the supplied evidence, so a unique NOC class cannot be selected."
+      },
+      "tag": "coding/v2/dev/noc-human-resources-04"
+    },
+    {
+      "case_id": "noc-pharmacy-01",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "31120",
+        "compatible_codes": [
+          "31120"
+        ],
+        "evidence_quotes": [
+          "I am a licensed pharmacist.",
+          "I review patients medication therapy, advise them on safe use and dispense their prescriptions."
+        ],
+        "missing_information": null,
+        "reason": "The description identifies the worker as a licensed pharmacist and states that they advise on medication use and dispense prescriptions, which supports NOC 31120 Pharmacists. The pharmacy technician and assistant classes do not fit the stated pharmacist occupation."
+      },
+      "tag": "coding/v2/dev/noc-pharmacy-01"
+    },
+    {
+      "case_id": "noc-pharmacy-02",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "32124",
+        "compatible_codes": [
+          "32124"
+        ],
+        "evidence_quotes": [
+          "I am a regulated pharmacy technician",
+          "doing the technical preparation and dispensing tasks under a pharmacist"
+        ],
+        "missing_information": null,
+        "reason": "The description identifies the worker as a regulated pharmacy technician and describes technical preparation and dispensing tasks under a pharmacist. This supports NOC 32124. The stated absence of pharmacists’ clinical medication advice does not conflict with that classification."
+      },
+      "tag": "coding/v2/dev/noc-pharmacy-02"
+    },
+    {
+      "case_id": "noc-pharmacy-03",
+      "status": "valid",
+      "answer": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "33103",
+          "32124"
+        ],
+        "evidence_quotes": [
+          "preparing and dispensing medicines under the pharmacist"
+        ],
+        "missing_information": "Whether the role performs pharmacy technician functions such as gathering patient information, product distribution, and inventory control, or instead performs pharmacy technical assistant tasks related to medication preparation and prescription filling.",
+        "reason": "The description supports a supervised technical dispensing role, but does not distinguish pharmacy technical assistants and pharmacy assistants (33103) from pharmacy technicians (32124). Calling the role regulated does not resolve the distinction because the description does not specify the duties needed to identify the class."
+      },
+      "tag": "coding/v2/dev/noc-pharmacy-03"
+    },
+    {
+      "case_id": "noc-pharmacy-04",
+      "status": "valid",
+      "answer": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "31120",
+          "32124"
+        ],
+        "evidence_quotes": [
+          "either a licensed pharmacist or a regulated pharmacy technician",
+          "the role and clinical responsibilities are missing"
+        ],
+        "missing_information": "Whether the worker is a pharmacist or a pharmacy technician; the description explicitly leaves the role unresolved.",
+        "reason": "The description presents two alternative occupations. A licensed pharmacist is consistent with 31120, while a regulated pharmacy technician is consistent with 32124. The missing role prevents a unique classification."
+      },
+      "tag": "coding/v2/dev/noc-pharmacy-04"
+    },
+    {
+      "case_id": "noc-dental-01",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "32111",
+        "compatible_codes": [
+          "32111"
+        ],
+        "evidence_quotes": [
+          "I provide dental-hygiene care",
+          "assess oral health",
+          "scale teeth to prevent gum disease",
+          "I am not a dentist or laboratory worker."
+        ],
+        "missing_information": null,
+        "reason": "The described work is dental-hygiene care, including assessing oral health and scaling teeth to prevent disease. This supports NOC 32111, Dental hygienists and dental therapists. The description explicitly rules out dentist and laboratory-worker roles."
+      },
+      "tag": "coding/v2/dev/noc-dental-01"
+    },
+    {
+      "case_id": "noc-dental-02",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "33100",
+        "compatible_codes": [
+          "33100"
+        ],
+        "evidence_quotes": [
+          "During dental treatment I prepare patients, pass instruments to the dentist and sterilize equipment afterwards.",
+          "I do not assess oral health independently or scale teeth."
+        ],
+        "missing_information": null,
+        "reason": "The described duties match dental assistant work: preparing patients, assisting the dentist during treatment, and sterilizing equipment. The description explicitly rules out independent oral-health assessment and scaling, supporting dental assistant rather than dental hygienist duties."
+      },
+      "tag": "coding/v2/dev/noc-dental-02"
+    },
+    {
+      "case_id": "noc-dental-03",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "33100",
+        "compatible_codes": [
+          "33100"
+        ],
+        "evidence_quotes": [
+          "chairside help for the dentist",
+          "readying the patient and instruments",
+          "sterilizing tools"
+        ],
+        "missing_information": null,
+        "reason": "The description identifies assisting the dentist chairside, preparing the patient and instruments, and sterilizing tools. These duties support NOC 33100, which includes assisting dentists during examinations and treatments and sterilizing instruments. The description explicitly distinguishes the work from independent hygiene assessment or scaling."
+      },
+      "tag": "coding/v2/dev/noc-dental-03"
+    },
+    {
+      "case_id": "noc-dental-04",
+      "status": "valid",
+      "answer": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "33100",
+          "32111"
+        ],
+        "evidence_quotes": [
+          "The description leaves unresolved whether they independently provide hygiene assessment and scaling or only assist the dentist at the chair."
+        ],
+        "missing_information": "Whether the worker independently provides dental hygiene assessment and scaling, or only assists the dentist during examinations and treatment.",
+        "reason": "The description explicitly leaves unresolved the distinction between dental hygienist duties (32111) and dental assistant duties (33100). The dental clinic setting does not resolve the worker’s duties, so no unique NOC class is supported."
+      },
+      "tag": "coding/v2/dev/noc-dental-04"
+    },
+    {
+      "case_id": "noc-nursing-01",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "31301",
+        "compatible_codes": [
+          "31301"
+        ],
+        "evidence_quotes": [
+          "registered nurse",
+          "providing bedside care",
+          "monitoring patients",
+          "giving medicines prescribed by a physician",
+          "I have no nurse-practitioner role",
+          "do not supervise the ward"
+        ],
+        "missing_information": null,
+        "reason": "The description identifies a registered nurse providing bedside care and medication, consistent with NOC 31301. It explicitly rules out a nurse-practitioner role and ward supervision; the supplied exclusions direct those roles to other classes."
+      },
+      "tag": "coding/v2/dev/noc-nursing-01"
+    },
+    {
+      "case_id": "noc-nursing-02",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "31302",
+        "compatible_codes": [
+          "31302"
+        ],
+        "evidence_quotes": [
+          "advanced-practice nurse",
+          "diagnose illnesses",
+          "prescribe treatment",
+          "I am not a physician."
+        ],
+        "missing_information": null,
+        "reason": "The description identifies the worker as an advanced-practice nurse and states that they diagnose illnesses and prescribe treatment. This supports the supplied NOC 31302 class for nurse practitioners; the explicit statement that the worker is not a physician also rules out the physician classes."
+      },
+      "tag": "coding/v2/dev/noc-nursing-02"
+    },
+    {
+      "case_id": "noc-nursing-03",
+      "status": "valid",
+      "answer": {
+        "decision": "code",
+        "code": "31302",
+        "compatible_codes": [
+          "31302"
+        ],
+        "evidence_quotes": [
+          "In my advanced nursing role",
+          "I use nurse-practitioner authority",
+          "diagnose, request diagnostic tests and prescribe treatment after examining patients."
+        ],
+        "missing_information": null,
+        "reason": "The description explicitly identifies the role as advanced nursing and states that it uses nurse-practitioner authority. This supports NOC 31302, Nurse practitioners. The statement that the worker is not a doctor does not conflict with this classification."
+      },
+      "tag": "coding/v2/dev/noc-nursing-03"
+    },
+    {
+      "case_id": "noc-nursing-04",
+      "status": "valid",
+      "answer": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "31301",
+          "31302"
+        ],
+        "evidence_quotes": [
+          "registered nurse providing clinical care",
+          "does not establish whether they have and use nurse-practitioner diagnostic and prescribing authority"
+        ],
+        "missing_information": "Whether the employee is a nurse practitioner and performs work in that capacity, or provides clinical care as a registered nurse without nurse-practitioner status.",
+        "reason": "The description supports nursing work but explicitly leaves nurse-practitioner status and practice unresolved. NOC 31302 covers nurse practitioners, while NOC 31301 covers registered nurses; the supplied evidence does not establish which class applies."
+      },
+      "tag": "coding/v2/dev/noc-nursing-04"
+    }
+  ],
+  "wall_seconds": 14.79161195900815
+}

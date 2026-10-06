@@ -1,0 +1,38 @@
+{
+  "naics": {
+    "dev_families": [
+      "car-dealers",
+      "glass-installation",
+      "landscape",
+      "software"
+    ],
+    "test_families": [
+      "accounting-services",
+      "animal-care",
+      "bakery",
+      "building-cleaning",
+      "glass-manufacturing",
+      "laundry",
+      "nursery",
+      "printing"
+    ]
+  },
+  "noc": {
+    "dev_families": [
+      "dental",
+      "human-resources",
+      "nursing",
+      "pharmacy"
+    ],
+    "test_families": [
+      "accounting-work",
+      "animal-clinical",
+      "cleaner",
+      "electrician",
+      "food-preparation",
+      "school-level",
+      "vehicle-repair",
+      "web"
+    ]
+  }
+}

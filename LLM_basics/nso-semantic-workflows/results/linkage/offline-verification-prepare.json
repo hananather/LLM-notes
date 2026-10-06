@@ -1,0 +1,9 @@
+{
+  "prepared_files_verified": 9,
+  "source_hashes_checked_if_cached": true,
+  "official_test_jobs": 644,
+  "development_gate_bound_to_baseline_and_jobs": true,
+  "cache_only_preparation_repeated_successfully": true,
+  "code_sha256": "d5baaa4fd2da2ea8e1fa89a1d92d4087397bad0c71336251747936749d431eba",
+  "api_calls": 0
+}

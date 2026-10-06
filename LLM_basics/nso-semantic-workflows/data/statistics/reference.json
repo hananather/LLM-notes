@@ -1,0 +1,3107 @@
+{
+  "dev-01": {
+    "expected_product_ids": [
+      14100287
+    ],
+    "outcome": {
+      "operation": "difference",
+      "rounded_value": "0.2",
+      "source_row_ids": [
+        "14100287:v2062815:2024-07",
+        "14100287:v2062815:2024-08"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "1.7.1.1.1.1",
+          "REF_DATE": "2024-07",
+          "ROW_ID": "14100287:v2062815:2024-07",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "6.4",
+          "VECTOR": "v2062815",
+          "scaled_value": "6.4"
+        },
+        {
+          "COORDINATE": "1.7.1.1.1.1",
+          "REF_DATE": "2024-08",
+          "ROW_ID": "14100287:v2062815:2024-08",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "6.6",
+          "VECTOR": "v2062815",
+          "scaled_value": "6.6"
+        }
+      ],
+      "status": "answer",
+      "unit": "percentage points",
+      "value": "0.2"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2024-07",
+          "table_id": 14100287
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2024-08",
+          "table_id": 14100287
+        }
+      ],
+      "operation": "difference",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "dev-02": {
+    "expected_product_ids": [
+      14100287
+    ],
+    "outcome": {
+      "operation": "difference",
+      "rounded_value": "0.6",
+      "source_row_ids": [
+        "14100287:v2062815:2024-08",
+        "14100287:v2063949:2024-08"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "1.7.1.1.1.1",
+          "REF_DATE": "2024-08",
+          "ROW_ID": "14100287:v2062815:2024-08",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "6.6",
+          "VECTOR": "v2062815",
+          "scaled_value": "6.6"
+        },
+        {
+          "COORDINATE": "7.7.1.1.1.1",
+          "REF_DATE": "2024-08",
+          "ROW_ID": "14100287:v2063949:2024-08",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "7.2",
+          "VECTOR": "v2063949",
+          "scaled_value": "7.2"
+        }
+      ],
+      "status": "answer",
+      "unit": "percentage points",
+      "value": "0.6"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2024-08",
+          "table_id": 14100287
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Ontario"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2024-08",
+          "table_id": 14100287
+        }
+      ],
+      "operation": "difference",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "dev-03": {
+    "expected_product_ids": [
+      18100004
+    ],
+    "outcome": {
+      "operation": "percent_change",
+      "rounded_value": "1.8",
+      "source_row_ids": [
+        "18100004:v41690973:2023-12",
+        "18100004:v41690973:2024-12"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "2.2",
+          "REF_DATE": "2023-12",
+          "ROW_ID": "18100004:v41690973:2023-12",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "158.3",
+          "VECTOR": "v41690973",
+          "scaled_value": "158.3"
+        },
+        {
+          "COORDINATE": "2.2",
+          "REF_DATE": "2024-12",
+          "ROW_ID": "18100004:v41690973:2024-12",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "161.2",
+          "VECTOR": "v41690973",
+          "scaled_value": "161.2"
+        }
+      ],
+      "status": "answer",
+      "unit": "percent change",
+      "value": "1.831964624131396083385976000"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "All-items"
+            }
+          ],
+          "period": "2023-12",
+          "table_id": 18100004
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "All-items"
+            }
+          ],
+          "period": "2024-12",
+          "table_id": 18100004
+        }
+      ],
+      "operation": "percent_change",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "dev-04": {
+    "expected_product_ids": [
+      14100287
+    ],
+    "outcome": {
+      "operation": "lookup",
+      "rounded_value": "9.2",
+      "source_row_ids": [
+        "14100287:v2065866:2024-05"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "6.7.1.2.1.2",
+          "REF_DATE": "2024-05",
+          "ROW_ID": "14100287:v2065866:2024-05",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "9.2",
+          "VECTOR": "v2065866",
+          "scaled_value": "9.2"
+        }
+      ],
+      "status": "answer",
+      "unit": "Percent",
+      "value": "9.2"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Quebec"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 to 24 years"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Unadjusted"
+            }
+          ],
+          "period": "2024-05",
+          "table_id": 14100287
+        }
+      ],
+      "operation": "lookup",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "dev-05": {
+    "expected_product_ids": [
+      18100006
+    ],
+    "outcome": {
+      "operation": "lookup",
+      "rounded_value": "193.6",
+      "source_row_ids": [
+        "18100006:v41690915:2025-03"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "1.2",
+          "REF_DATE": "2025-03",
+          "ROW_ID": "18100006:v41690915:2025-03",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "193.6",
+          "VECTOR": "v41690915",
+          "scaled_value": "193.6"
+        }
+      ],
+      "status": "answer",
+      "unit": "2002=100",
+      "value": "193.6"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Food"
+            }
+          ],
+          "period": "2025-03",
+          "table_id": 18100006
+        }
+      ],
+      "operation": "lookup",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "dev-06": {
+    "expected_product_ids": [
+      18100005
+    ],
+    "outcome": {
+      "operation": "percent_change",
+      "rounded_value": "6.4",
+      "source_row_ids": [
+        "18100005:v41694114:2023",
+        "18100005:v41694114:2024"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "11.79",
+          "REF_DATE": "2023",
+          "ROW_ID": "18100005:v41694114:2023",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100005",
+          "UOM": "2002=100",
+          "VALUE": "160.2",
+          "VECTOR": "v41694114",
+          "scaled_value": "160.2"
+        },
+        {
+          "COORDINATE": "11.79",
+          "REF_DATE": "2024",
+          "ROW_ID": "18100005:v41694114:2024",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100005",
+          "UOM": "2002=100",
+          "VALUE": "170.5",
+          "VECTOR": "v41694114",
+          "scaled_value": "170.5"
+        }
+      ],
+      "status": "answer",
+      "unit": "percent change",
+      "value": "6.429463171036204744069912600"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Quebec"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Shelter"
+            }
+          ],
+          "period": "2023",
+          "table_id": 18100005
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Quebec"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Shelter"
+            }
+          ],
+          "period": "2024",
+          "table_id": 18100005
+        }
+      ],
+      "operation": "percent_change",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "dev-07": {
+    "expected_product_ids": [],
+    "outcome": {
+      "reason": "Provincial seasonally adjusted CPI is unavailable in this corpus.",
+      "status": "review"
+    },
+    "plan": {
+      "operands": [],
+      "operation": "lookup",
+      "reason": "Provincial seasonally adjusted CPI is unavailable in this corpus.",
+      "round_digits": 1,
+      "status": "review"
+    },
+    "review_type": "unsupported"
+  },
+  "dev-08": {
+    "expected_product_ids": [],
+    "outcome": {
+      "reason": "Geography, age population and adjustment are unspecified.",
+      "status": "review"
+    },
+    "plan": {
+      "operands": [],
+      "operation": "lookup",
+      "reason": "Geography, age population and adjustment are unspecified.",
+      "round_digits": 1,
+      "status": "review"
+    },
+    "review_type": "underspecified"
+  },
+  "dev-09": {
+    "expected_product_ids": [],
+    "outcome": {
+      "reason": "The requested period is outside the 2023–2025 frozen corpus.",
+      "status": "review"
+    },
+    "plan": {
+      "operands": [],
+      "operation": "lookup",
+      "reason": "The requested period is outside the 2023–2025 frozen corpus.",
+      "round_digits": 1,
+      "status": "review"
+    },
+    "review_type": "outside_period"
+  },
+  "dev-10": {
+    "expected_product_ids": [
+      18100004
+    ],
+    "outcome": {
+      "operation": "mean",
+      "rounded_value": "154.6",
+      "source_row_ids": [
+        "18100004:v41690973:2023-01",
+        "18100004:v41690973:2023-02",
+        "18100004:v41690973:2023-03"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "2.2",
+          "REF_DATE": "2023-01",
+          "ROW_ID": "18100004:v41690973:2023-01",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "153.9",
+          "VECTOR": "v41690973",
+          "scaled_value": "153.9"
+        },
+        {
+          "COORDINATE": "2.2",
+          "REF_DATE": "2023-02",
+          "ROW_ID": "18100004:v41690973:2023-02",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "154.5",
+          "VECTOR": "v41690973",
+          "scaled_value": "154.5"
+        },
+        {
+          "COORDINATE": "2.2",
+          "REF_DATE": "2023-03",
+          "ROW_ID": "18100004:v41690973:2023-03",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "155.3",
+          "VECTOR": "v41690973",
+          "scaled_value": "155.3"
+        }
+      ],
+      "status": "answer",
+      "unit": "2002=100",
+      "value": "154.5666666666666666666666667"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "All-items"
+            }
+          ],
+          "period": "2023-01",
+          "table_id": 18100004
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "All-items"
+            }
+          ],
+          "period": "2023-02",
+          "table_id": 18100004
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "All-items"
+            }
+          ],
+          "period": "2023-03",
+          "table_id": 18100004
+        }
+      ],
+      "operation": "mean",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "dev-11": {
+    "expected_product_ids": [
+      18100006
+    ],
+    "outcome": {
+      "operation": "difference",
+      "rounded_value": "0.7",
+      "source_row_ids": [
+        "18100006:v41690916:2024-04",
+        "18100006:v41690916:2024-05"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "1.3",
+          "REF_DATE": "2024-04",
+          "ROW_ID": "18100006:v41690916:2024-04",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "180.8",
+          "VECTOR": "v41690916",
+          "scaled_value": "180.8"
+        },
+        {
+          "COORDINATE": "1.3",
+          "REF_DATE": "2024-05",
+          "ROW_ID": "18100006:v41690916:2024-05",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "181.5",
+          "VECTOR": "v41690916",
+          "scaled_value": "181.5"
+        }
+      ],
+      "status": "answer",
+      "unit": "index points (2002=100)",
+      "value": "0.7"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Shelter"
+            }
+          ],
+          "period": "2024-04",
+          "table_id": 18100006
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Shelter"
+            }
+          ],
+          "period": "2024-05",
+          "table_id": 18100006
+        }
+      ],
+      "operation": "difference",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "dev-12": {
+    "expected_product_ids": [
+      14100287
+    ],
+    "outcome": {
+      "operation": "lookup",
+      "rounded_value": "20985500",
+      "source_row_ids": [
+        "14100287:v2062811:2025-02"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "1.3.1.1.1.1",
+          "REF_DATE": "2025-02",
+          "ROW_ID": "14100287:v2062811:2025-02",
+          "SCALAR_FACTOR": "thousands",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Persons in thousands",
+          "VALUE": "20985.5",
+          "VECTOR": "v2062811",
+          "scaled_value": "20985500.0"
+        }
+      ],
+      "status": "answer",
+      "unit": "Persons",
+      "value": "20985500.0"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Employment"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2025-02",
+          "table_id": 14100287
+        }
+      ],
+      "operation": "lookup",
+      "reason": "",
+      "round_digits": 0,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-01": {
+    "expected_product_ids": [
+      14100287
+    ],
+    "outcome": {
+      "operation": "lookup",
+      "rounded_value": "69800",
+      "source_row_ids": [
+        "14100287:v2064542:2025-04"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "10.6.1.2.1.1",
+          "REF_DATE": "2025-04",
+          "ROW_ID": "14100287:v2064542:2025-04",
+          "SCALAR_FACTOR": "thousands",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Persons in thousands",
+          "VALUE": "69.8",
+          "VECTOR": "v2064542",
+          "scaled_value": "69800.0"
+        }
+      ],
+      "status": "answer",
+      "unit": "Persons",
+      "value": "69800.0"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Alberta"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 to 24 years"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2025-04",
+          "table_id": 14100287
+        }
+      ],
+      "operation": "lookup",
+      "reason": "",
+      "round_digits": 0,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-02": {
+    "expected_product_ids": [
+      14100287
+    ],
+    "outcome": {
+      "operation": "lookup",
+      "rounded_value": "2883300",
+      "source_row_ids": [
+        "14100287:v2066780:2023-11"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "11.3.1.1.1.2",
+          "REF_DATE": "2023-11",
+          "ROW_ID": "14100287:v2066780:2023-11",
+          "SCALAR_FACTOR": "thousands",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Persons in thousands",
+          "VALUE": "2883.3",
+          "VECTOR": "v2066780",
+          "scaled_value": "2883300.0"
+        }
+      ],
+      "status": "answer",
+      "unit": "Persons",
+      "value": "2883300.0"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "British Columbia"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Employment"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Unadjusted"
+            }
+          ],
+          "period": "2023-11",
+          "table_id": 14100287
+        }
+      ],
+      "operation": "lookup",
+      "reason": "",
+      "round_digits": 0,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-03": {
+    "expected_product_ids": [
+      14100287
+    ],
+    "outcome": {
+      "operation": "lookup",
+      "rounded_value": "5.5",
+      "source_row_ids": [
+        "14100287:v2064138:2025-06"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "8.7.1.1.1.1",
+          "REF_DATE": "2025-06",
+          "ROW_ID": "14100287:v2064138:2025-06",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "5.5",
+          "VECTOR": "v2064138",
+          "scaled_value": "5.5"
+        }
+      ],
+      "status": "answer",
+      "unit": "Percent",
+      "value": "5.5"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Manitoba"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2025-06",
+          "table_id": 14100287
+        }
+      ],
+      "operation": "lookup",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-04": {
+    "expected_product_ids": [
+      14100287
+    ],
+    "outcome": {
+      "operation": "lookup",
+      "rounded_value": "11.2",
+      "source_row_ids": [
+        "14100287:v2065488:2023-08"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "4.7.1.2.1.2",
+          "REF_DATE": "2023-08",
+          "ROW_ID": "14100287:v2065488:2023-08",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "11.2",
+          "VECTOR": "v2065488",
+          "scaled_value": "11.2"
+        }
+      ],
+      "status": "answer",
+      "unit": "Percent",
+      "value": "11.2"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Nova Scotia"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 to 24 years"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Unadjusted"
+            }
+          ],
+          "period": "2023-08",
+          "table_id": 14100287
+        }
+      ],
+      "operation": "lookup",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-05": {
+    "expected_product_ids": [
+      14100287
+    ],
+    "outcome": {
+      "operation": "difference",
+      "rounded_value": "0.1",
+      "source_row_ids": [
+        "14100287:v2064327:2025-01",
+        "14100287:v2064327:2025-02"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "9.7.1.1.1.1",
+          "REF_DATE": "2025-01",
+          "ROW_ID": "14100287:v2064327:2025-01",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "5.2",
+          "VECTOR": "v2064327",
+          "scaled_value": "5.2"
+        },
+        {
+          "COORDINATE": "9.7.1.1.1.1",
+          "REF_DATE": "2025-02",
+          "ROW_ID": "14100287:v2064327:2025-02",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "5.3",
+          "VECTOR": "v2064327",
+          "scaled_value": "5.3"
+        }
+      ],
+      "status": "answer",
+      "unit": "percentage points",
+      "value": "0.1"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Saskatchewan"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2025-01",
+          "table_id": 14100287
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Saskatchewan"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2025-02",
+          "table_id": 14100287
+        }
+      ],
+      "operation": "difference",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-06": {
+    "expected_product_ids": [
+      14100287
+    ],
+    "outcome": {
+      "operation": "difference",
+      "rounded_value": "1200",
+      "source_row_ids": [
+        "14100287:v2063567:2023-04",
+        "14100287:v2063567:2023-05"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "5.3.1.1.1.1",
+          "REF_DATE": "2023-04",
+          "ROW_ID": "14100287:v2063567:2023-04",
+          "SCALAR_FACTOR": "thousands",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Persons in thousands",
+          "VALUE": "385.3",
+          "VECTOR": "v2063567",
+          "scaled_value": "385300.0"
+        },
+        {
+          "COORDINATE": "5.3.1.1.1.1",
+          "REF_DATE": "2023-05",
+          "ROW_ID": "14100287:v2063567:2023-05",
+          "SCALAR_FACTOR": "thousands",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Persons in thousands",
+          "VALUE": "386.5",
+          "VECTOR": "v2063567",
+          "scaled_value": "386500.0"
+        }
+      ],
+      "status": "answer",
+      "unit": "Persons",
+      "value": "1200.0"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "New Brunswick"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Employment"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2023-04",
+          "table_id": 14100287
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "New Brunswick"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Employment"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2023-05",
+          "table_id": 14100287
+        }
+      ],
+      "operation": "difference",
+      "reason": "",
+      "round_digits": 0,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-07": {
+    "expected_product_ids": [
+      14100287
+    ],
+    "outcome": {
+      "operation": "difference",
+      "rounded_value": "1.1",
+      "source_row_ids": [
+        "14100287:v2065110:2025-09",
+        "14100287:v2065110:2025-10"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "2.7.1.2.1.2",
+          "REF_DATE": "2025-09",
+          "ROW_ID": "14100287:v2065110:2025-09",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "14.1",
+          "VECTOR": "v2065110",
+          "scaled_value": "14.1"
+        },
+        {
+          "COORDINATE": "2.7.1.2.1.2",
+          "REF_DATE": "2025-10",
+          "ROW_ID": "14100287:v2065110:2025-10",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "15.2",
+          "VECTOR": "v2065110",
+          "scaled_value": "15.2"
+        }
+      ],
+      "status": "answer",
+      "unit": "percentage points",
+      "value": "1.1"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Newfoundland and Labrador"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 to 24 years"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Unadjusted"
+            }
+          ],
+          "period": "2025-09",
+          "table_id": 14100287
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Newfoundland and Labrador"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 to 24 years"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Unadjusted"
+            }
+          ],
+          "period": "2025-10",
+          "table_id": 14100287
+        }
+      ],
+      "operation": "difference",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-08": {
+    "expected_product_ids": [
+      14100287
+    ],
+    "outcome": {
+      "operation": "difference",
+      "rounded_value": "0",
+      "source_row_ids": [
+        "14100287:v2063192:2023-02",
+        "14100287:v2063192:2023-03"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "3.6.1.1.1.1",
+          "REF_DATE": "2023-02",
+          "ROW_ID": "14100287:v2063192:2023-02",
+          "SCALAR_FACTOR": "thousands",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Persons in thousands",
+          "VALUE": "6.5",
+          "VECTOR": "v2063192",
+          "scaled_value": "6500.0"
+        },
+        {
+          "COORDINATE": "3.6.1.1.1.1",
+          "REF_DATE": "2023-03",
+          "ROW_ID": "14100287:v2063192:2023-03",
+          "SCALAR_FACTOR": "thousands",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Persons in thousands",
+          "VALUE": "6.5",
+          "VECTOR": "v2063192",
+          "scaled_value": "6500.0"
+        }
+      ],
+      "status": "answer",
+      "unit": "Persons",
+      "value": "0.0"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Prince Edward Island"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2023-02",
+          "table_id": 14100287
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Prince Edward Island"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2023-03",
+          "table_id": 14100287
+        }
+      ],
+      "operation": "difference",
+      "reason": "",
+      "round_digits": 0,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-09": {
+    "expected_product_ids": [
+      18100004
+    ],
+    "outcome": {
+      "operation": "percent_change",
+      "rounded_value": "3.0",
+      "source_row_ids": [
+        "18100004:v41692462:2024-02",
+        "18100004:v41692462:2025-02"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "26.2",
+          "REF_DATE": "2024-02",
+          "ROW_ID": "18100004:v41692462:2024-02",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "153.0",
+          "VECTOR": "v41692462",
+          "scaled_value": "153.0"
+        },
+        {
+          "COORDINATE": "26.2",
+          "REF_DATE": "2025-02",
+          "ROW_ID": "18100004:v41692462:2025-02",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "157.6",
+          "VECTOR": "v41692462",
+          "scaled_value": "157.6"
+        }
+      ],
+      "status": "answer",
+      "unit": "percent change",
+      "value": "3.006535947712418300653594800"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "British Columbia"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "All-items"
+            }
+          ],
+          "period": "2024-02",
+          "table_id": 18100004
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "British Columbia"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "All-items"
+            }
+          ],
+          "period": "2025-02",
+          "table_id": 18100004
+        }
+      ],
+      "operation": "percent_change",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-10": {
+    "expected_product_ids": [
+      18100004
+    ],
+    "outcome": {
+      "operation": "percent_change",
+      "rounded_value": "0.9",
+      "source_row_ids": [
+        "18100004:v41691784:2023-05",
+        "18100004:v41691784:2023-11"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "11.3",
+          "REF_DATE": "2023-05",
+          "ROW_ID": "18100004:v41691784:2023-05",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "185.9",
+          "VECTOR": "v41691784",
+          "scaled_value": "185.9"
+        },
+        {
+          "COORDINATE": "11.3",
+          "REF_DATE": "2023-11",
+          "ROW_ID": "18100004:v41691784:2023-11",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "187.6",
+          "VECTOR": "v41691784",
+          "scaled_value": "187.6"
+        }
+      ],
+      "status": "answer",
+      "unit": "percent change",
+      "value": "0.914470145239376008606777800"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Quebec"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Food"
+            }
+          ],
+          "period": "2023-05",
+          "table_id": 18100004
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Quebec"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Food"
+            }
+          ],
+          "period": "2023-11",
+          "table_id": 18100004
+        }
+      ],
+      "operation": "percent_change",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-11": {
+    "expected_product_ids": [
+      18100004
+    ],
+    "outcome": {
+      "operation": "percent_change",
+      "rounded_value": "1.7",
+      "source_row_ids": [
+        "18100004:v41692360:2024-08",
+        "18100004:v41692360:2025-08"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "23.79",
+          "REF_DATE": "2024-08",
+          "ROW_ID": "18100004:v41692360:2024-08",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "220.3",
+          "VECTOR": "v41692360",
+          "scaled_value": "220.3"
+        },
+        {
+          "COORDINATE": "23.79",
+          "REF_DATE": "2025-08",
+          "ROW_ID": "18100004:v41692360:2025-08",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "224.0",
+          "VECTOR": "v41692360",
+          "scaled_value": "224.0"
+        }
+      ],
+      "status": "answer",
+      "unit": "percent change",
+      "value": "1.679527916477530640036314100"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Alberta"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Shelter"
+            }
+          ],
+          "period": "2024-08",
+          "table_id": 18100004
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Alberta"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Shelter"
+            }
+          ],
+          "period": "2025-08",
+          "table_id": 18100004
+        }
+      ],
+      "operation": "percent_change",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-12": {
+    "expected_product_ids": [
+      18100006
+    ],
+    "outcome": {
+      "operation": "percent_change",
+      "rounded_value": "0.2",
+      "source_row_ids": [
+        "18100006:v41690914:2025-04",
+        "18100006:v41690914:2025-05"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "1.1",
+          "REF_DATE": "2025-04",
+          "ROW_ID": "18100006:v41690914:2025-04",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "163.1",
+          "VECTOR": "v41690914",
+          "scaled_value": "163.1"
+        },
+        {
+          "COORDINATE": "1.1",
+          "REF_DATE": "2025-05",
+          "ROW_ID": "18100006:v41690914:2025-05",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "163.5",
+          "VECTOR": "v41690914",
+          "scaled_value": "163.5"
+        }
+      ],
+      "status": "answer",
+      "unit": "percent change",
+      "value": "0.245248313917841814837523000"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "All-items"
+            }
+          ],
+          "period": "2025-04",
+          "table_id": 18100006
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "All-items"
+            }
+          ],
+          "period": "2025-05",
+          "table_id": 18100006
+        }
+      ],
+      "operation": "percent_change",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-13": {
+    "expected_product_ids": [
+      18100005
+    ],
+    "outcome": {
+      "operation": "lookup",
+      "rounded_value": "167.6",
+      "source_row_ids": [
+        "18100005:v41693811:2025"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "7.2",
+          "REF_DATE": "2025",
+          "ROW_ID": "18100005:v41693811:2025",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100005",
+          "UOM": "2002=100",
+          "VALUE": "167.6",
+          "VECTOR": "v41693811",
+          "scaled_value": "167.6"
+        }
+      ],
+      "status": "answer",
+      "unit": "2002=100",
+      "value": "167.6"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Nova Scotia"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "All-items"
+            }
+          ],
+          "period": "2025",
+          "table_id": 18100005
+        }
+      ],
+      "operation": "lookup",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-14": {
+    "expected_product_ids": [
+      18100005
+    ],
+    "outcome": {
+      "operation": "difference",
+      "rounded_value": "6.2",
+      "source_row_ids": [
+        "18100005:v41694354:2024",
+        "18100005:v41694354:2025"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "18.3",
+          "REF_DATE": "2024",
+          "ROW_ID": "18100005:v41694354:2024",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100005",
+          "UOM": "2002=100",
+          "VALUE": "186.3",
+          "VECTOR": "v41694354",
+          "scaled_value": "186.3"
+        },
+        {
+          "COORDINATE": "18.3",
+          "REF_DATE": "2025",
+          "ROW_ID": "18100005:v41694354:2025",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100005",
+          "UOM": "2002=100",
+          "VALUE": "192.5",
+          "VECTOR": "v41694354",
+          "scaled_value": "192.5"
+        }
+      ],
+      "status": "answer",
+      "unit": "index points (2002=100)",
+      "value": "6.2"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Manitoba"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Food"
+            }
+          ],
+          "period": "2024",
+          "table_id": 18100005
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Manitoba"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Food"
+            }
+          ],
+          "period": "2025",
+          "table_id": 18100005
+        }
+      ],
+      "operation": "difference",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-15": {
+    "expected_product_ids": [
+      18100005
+    ],
+    "outcome": {
+      "operation": "percent_change",
+      "rounded_value": "7.5",
+      "source_row_ids": [
+        "18100005:v41694250:2023",
+        "18100005:v41694250:2025"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "14.79",
+          "REF_DATE": "2023",
+          "ROW_ID": "18100005:v41694250:2023",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100005",
+          "UOM": "2002=100",
+          "VALUE": "176.4",
+          "VECTOR": "v41694250",
+          "scaled_value": "176.4"
+        },
+        {
+          "COORDINATE": "14.79",
+          "REF_DATE": "2025",
+          "ROW_ID": "18100005:v41694250:2025",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100005",
+          "UOM": "2002=100",
+          "VALUE": "189.6",
+          "VECTOR": "v41694250",
+          "scaled_value": "189.6"
+        }
+      ],
+      "status": "answer",
+      "unit": "percent change",
+      "value": "7.482993197278911564625850300"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Ontario"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Shelter"
+            }
+          ],
+          "period": "2023",
+          "table_id": 18100005
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Ontario"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Shelter"
+            }
+          ],
+          "period": "2025",
+          "table_id": 18100005
+        }
+      ],
+      "operation": "percent_change",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-16": {
+    "expected_product_ids": [
+      18100004
+    ],
+    "outcome": {
+      "operation": "percent_change",
+      "rounded_value": "4.5",
+      "source_row_ids": [
+        "18100004:v41691050:2023-12",
+        "18100004:v41691050:2024-12"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "2.79",
+          "REF_DATE": "2023-12",
+          "ROW_ID": "18100004:v41691050:2023-12",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "177.8",
+          "VECTOR": "v41691050",
+          "scaled_value": "177.8"
+        },
+        {
+          "COORDINATE": "2.79",
+          "REF_DATE": "2024-12",
+          "ROW_ID": "18100004:v41691050:2024-12",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "185.8",
+          "VECTOR": "v41691050",
+          "scaled_value": "185.8"
+        }
+      ],
+      "status": "answer",
+      "unit": "percent change",
+      "value": "4.499437570303712035995500600"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Shelter"
+            }
+          ],
+          "period": "2023-12",
+          "table_id": 18100004
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Shelter"
+            }
+          ],
+          "period": "2024-12",
+          "table_id": 18100004
+        }
+      ],
+      "operation": "percent_change",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-17": {
+    "expected_product_ids": [
+      14100287
+    ],
+    "outcome": {
+      "operation": "difference",
+      "rounded_value": "2.4",
+      "source_row_ids": [
+        "14100287:v2063760:2025-07",
+        "14100287:v2064516:2025-07"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "6.7.1.1.1.1",
+          "REF_DATE": "2025-07",
+          "ROW_ID": "14100287:v2063760:2025-07",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "5.5",
+          "VECTOR": "v2063760",
+          "scaled_value": "5.5"
+        },
+        {
+          "COORDINATE": "10.7.1.1.1.1",
+          "REF_DATE": "2025-07",
+          "ROW_ID": "14100287:v2064516:2025-07",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "7.9",
+          "VECTOR": "v2064516",
+          "scaled_value": "7.9"
+        }
+      ],
+      "status": "answer",
+      "unit": "percentage points",
+      "value": "2.4"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Quebec"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2025-07",
+          "table_id": 14100287
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Alberta"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 years and over"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Seasonally adjusted"
+            }
+          ],
+          "period": "2025-07",
+          "table_id": 14100287
+        }
+      ],
+      "operation": "difference",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-18": {
+    "expected_product_ids": [
+      14100287
+    ],
+    "outcome": {
+      "operation": "difference",
+      "rounded_value": "2.2",
+      "source_row_ids": [
+        "14100287:v2066244:2023-06",
+        "14100287:v2066811:2023-06"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "8.7.1.2.1.2",
+          "REF_DATE": "2023-06",
+          "ROW_ID": "14100287:v2066244:2023-06",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "8.0",
+          "VECTOR": "v2066244",
+          "scaled_value": "8.0"
+        },
+        {
+          "COORDINATE": "11.7.1.2.1.2",
+          "REF_DATE": "2023-06",
+          "ROW_ID": "14100287:v2066811:2023-06",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "14100287",
+          "UOM": "Percent",
+          "VALUE": "10.2",
+          "VECTOR": "v2066811",
+          "scaled_value": "10.2"
+        }
+      ],
+      "status": "answer",
+      "unit": "percentage points",
+      "value": "2.2"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Manitoba"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 to 24 years"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Unadjusted"
+            }
+          ],
+          "period": "2023-06",
+          "table_id": 14100287
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "British Columbia"
+            },
+            {
+              "dimension": "Labour force characteristics",
+              "value": "Unemployment rate"
+            },
+            {
+              "dimension": "Gender",
+              "value": "Total - Gender"
+            },
+            {
+              "dimension": "Age group",
+              "value": "15 to 24 years"
+            },
+            {
+              "dimension": "Statistics",
+              "value": "Estimate"
+            },
+            {
+              "dimension": "Data type",
+              "value": "Unadjusted"
+            }
+          ],
+          "period": "2023-06",
+          "table_id": 14100287
+        }
+      ],
+      "operation": "difference",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-19": {
+    "expected_product_ids": [
+      18100006
+    ],
+    "outcome": {
+      "operation": "difference",
+      "rounded_value": "1.6",
+      "source_row_ids": [
+        "18100006:v41690915:2023-09",
+        "18100006:v41690915:2023-12"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "1.2",
+          "REF_DATE": "2023-09",
+          "ROW_ID": "18100006:v41690915:2023-09",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "185.7",
+          "VECTOR": "v41690915",
+          "scaled_value": "185.7"
+        },
+        {
+          "COORDINATE": "1.2",
+          "REF_DATE": "2023-12",
+          "ROW_ID": "18100006:v41690915:2023-12",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "187.3",
+          "VECTOR": "v41690915",
+          "scaled_value": "187.3"
+        }
+      ],
+      "status": "answer",
+      "unit": "index points (2002=100)",
+      "value": "1.6"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Food"
+            }
+          ],
+          "period": "2023-09",
+          "table_id": 18100006
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Food"
+            }
+          ],
+          "period": "2023-12",
+          "table_id": 18100006
+        }
+      ],
+      "operation": "difference",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-20": {
+    "expected_product_ids": [
+      18100004
+    ],
+    "outcome": {
+      "operation": "lookup",
+      "rounded_value": "179.6",
+      "source_row_ids": [
+        "18100004:v41691681:2025-09"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "9.79",
+          "REF_DATE": "2025-09",
+          "ROW_ID": "18100004:v41691681:2025-09",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "179.6",
+          "VECTOR": "v41691681",
+          "scaled_value": "179.6"
+        }
+      ],
+      "status": "answer",
+      "unit": "2002=100",
+      "value": "179.6"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "New Brunswick"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Shelter"
+            }
+          ],
+          "period": "2025-09",
+          "table_id": 18100004
+        }
+      ],
+      "operation": "lookup",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-21": {
+    "expected_product_ids": [
+      18100006
+    ],
+    "outcome": {
+      "operation": "mean",
+      "rounded_value": "160.8",
+      "source_row_ids": [
+        "18100006:v41690914:2024-01",
+        "18100006:v41690914:2024-02",
+        "18100006:v41690914:2024-03",
+        "18100006:v41690914:2024-04",
+        "18100006:v41690914:2024-05",
+        "18100006:v41690914:2024-06",
+        "18100006:v41690914:2024-07",
+        "18100006:v41690914:2024-08",
+        "18100006:v41690914:2024-09",
+        "18100006:v41690914:2024-10",
+        "18100006:v41690914:2024-11",
+        "18100006:v41690914:2024-12"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "1.1",
+          "REF_DATE": "2024-01",
+          "ROW_ID": "18100006:v41690914:2024-01",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "159.4",
+          "VECTOR": "v41690914",
+          "scaled_value": "159.4"
+        },
+        {
+          "COORDINATE": "1.1",
+          "REF_DATE": "2024-02",
+          "ROW_ID": "18100006:v41690914:2024-02",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "159.4",
+          "VECTOR": "v41690914",
+          "scaled_value": "159.4"
+        },
+        {
+          "COORDINATE": "1.1",
+          "REF_DATE": "2024-03",
+          "ROW_ID": "18100006:v41690914:2024-03",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "159.8",
+          "VECTOR": "v41690914",
+          "scaled_value": "159.8"
+        },
+        {
+          "COORDINATE": "1.1",
+          "REF_DATE": "2024-04",
+          "ROW_ID": "18100006:v41690914:2024-04",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "160.3",
+          "VECTOR": "v41690914",
+          "scaled_value": "160.3"
+        },
+        {
+          "COORDINATE": "1.1",
+          "REF_DATE": "2024-05",
+          "ROW_ID": "18100006:v41690914:2024-05",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "160.7",
+          "VECTOR": "v41690914",
+          "scaled_value": "160.7"
+        },
+        {
+          "COORDINATE": "1.1",
+          "REF_DATE": "2024-06",
+          "ROW_ID": "18100006:v41690914:2024-06",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "160.8",
+          "VECTOR": "v41690914",
+          "scaled_value": "160.8"
+        },
+        {
+          "COORDINATE": "1.1",
+          "REF_DATE": "2024-07",
+          "ROW_ID": "18100006:v41690914:2024-07",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "161.2",
+          "VECTOR": "v41690914",
+          "scaled_value": "161.2"
+        },
+        {
+          "COORDINATE": "1.1",
+          "REF_DATE": "2024-08",
+          "ROW_ID": "18100006:v41690914:2024-08",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "161.3",
+          "VECTOR": "v41690914",
+          "scaled_value": "161.3"
+        },
+        {
+          "COORDINATE": "1.1",
+          "REF_DATE": "2024-09",
+          "ROW_ID": "18100006:v41690914:2024-09",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "161.2",
+          "VECTOR": "v41690914",
+          "scaled_value": "161.2"
+        },
+        {
+          "COORDINATE": "1.1",
+          "REF_DATE": "2024-10",
+          "ROW_ID": "18100006:v41690914:2024-10",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "161.7",
+          "VECTOR": "v41690914",
+          "scaled_value": "161.7"
+        },
+        {
+          "COORDINATE": "1.1",
+          "REF_DATE": "2024-11",
+          "ROW_ID": "18100006:v41690914:2024-11",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "162.0",
+          "VECTOR": "v41690914",
+          "scaled_value": "162.0"
+        },
+        {
+          "COORDINATE": "1.1",
+          "REF_DATE": "2024-12",
+          "ROW_ID": "18100006:v41690914:2024-12",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100006",
+          "UOM": "2002=100",
+          "VALUE": "162.3",
+          "VECTOR": "v41690914",
+          "scaled_value": "162.3"
+        }
+      ],
+      "status": "answer",
+      "unit": "2002=100",
+      "value": "160.8416666666666666666666667"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "All-items"
+            }
+          ],
+          "period": "2024-01/2024-12",
+          "table_id": 18100006
+        }
+      ],
+      "operation": "mean",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-22": {
+    "expected_product_ids": [
+      18100004
+    ],
+    "outcome": {
+      "operation": "mean",
+      "rounded_value": "193.8",
+      "source_row_ids": [
+        "18100004:v41692192:2025-01",
+        "18100004:v41692192:2025-02",
+        "18100004:v41692192:2025-03"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "20.3",
+          "REF_DATE": "2025-01",
+          "ROW_ID": "18100004:v41692192:2025-01",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "191.2",
+          "VECTOR": "v41692192",
+          "scaled_value": "191.2"
+        },
+        {
+          "COORDINATE": "20.3",
+          "REF_DATE": "2025-02",
+          "ROW_ID": "18100004:v41692192:2025-02",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "194.2",
+          "VECTOR": "v41692192",
+          "scaled_value": "194.2"
+        },
+        {
+          "COORDINATE": "20.3",
+          "REF_DATE": "2025-03",
+          "ROW_ID": "18100004:v41692192:2025-03",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "195.9",
+          "VECTOR": "v41692192",
+          "scaled_value": "195.9"
+        }
+      ],
+      "status": "answer",
+      "unit": "2002=100",
+      "value": "193.7666666666666666666666667"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Saskatchewan"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Food"
+            }
+          ],
+          "period": "2025-01",
+          "table_id": 18100004
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Saskatchewan"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Food"
+            }
+          ],
+          "period": "2025-02",
+          "table_id": 18100004
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Saskatchewan"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Food"
+            }
+          ],
+          "period": "2025-03",
+          "table_id": 18100004
+        }
+      ],
+      "operation": "mean",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-23": {
+    "expected_product_ids": [
+      18100004
+    ],
+    "outcome": {
+      "operation": "mean",
+      "rounded_value": "163.2",
+      "source_row_ids": [
+        "18100004:v41691379:2023-06",
+        "18100004:v41691379:2023-07",
+        "18100004:v41691379:2023-08"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "5.2",
+          "REF_DATE": "2023-06",
+          "ROW_ID": "18100004:v41691379:2023-06",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "161.0",
+          "VECTOR": "v41691379",
+          "scaled_value": "161.0"
+        },
+        {
+          "COORDINATE": "5.2",
+          "REF_DATE": "2023-07",
+          "ROW_ID": "18100004:v41691379:2023-07",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "163.8",
+          "VECTOR": "v41691379",
+          "scaled_value": "163.8"
+        },
+        {
+          "COORDINATE": "5.2",
+          "REF_DATE": "2023-08",
+          "ROW_ID": "18100004:v41691379:2023-08",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100004",
+          "UOM": "2002=100",
+          "VALUE": "164.8",
+          "VECTOR": "v41691379",
+          "scaled_value": "164.8"
+        }
+      ],
+      "status": "answer",
+      "unit": "2002=100",
+      "value": "163.2"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Prince Edward Island"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "All-items"
+            }
+          ],
+          "period": "2023-06",
+          "table_id": 18100004
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Prince Edward Island"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "All-items"
+            }
+          ],
+          "period": "2023-07",
+          "table_id": 18100004
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Prince Edward Island"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "All-items"
+            }
+          ],
+          "period": "2023-08",
+          "table_id": 18100004
+        }
+      ],
+      "operation": "mean",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-24": {
+    "expected_product_ids": [
+      18100005
+    ],
+    "outcome": {
+      "operation": "mean",
+      "rounded_value": "180.9",
+      "source_row_ids": [
+        "18100005:v41693348:2023",
+        "18100005:v41693348:2024",
+        "18100005:v41693348:2025"
+      ],
+      "source_values": [
+        {
+          "COORDINATE": "2.79",
+          "REF_DATE": "2023",
+          "ROW_ID": "18100005:v41693348:2023",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100005",
+          "UOM": "2002=100",
+          "VALUE": "172.5",
+          "VECTOR": "v41693348",
+          "scaled_value": "172.5"
+        },
+        {
+          "COORDINATE": "2.79",
+          "REF_DATE": "2024",
+          "ROW_ID": "18100005:v41693348:2024",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100005",
+          "UOM": "2002=100",
+          "VALUE": "182.3",
+          "VECTOR": "v41693348",
+          "scaled_value": "182.3"
+        },
+        {
+          "COORDINATE": "2.79",
+          "REF_DATE": "2025",
+          "ROW_ID": "18100005:v41693348:2025",
+          "SCALAR_FACTOR": "units",
+          "STATUS": "",
+          "TABLE_ID": "18100005",
+          "UOM": "2002=100",
+          "VALUE": "187.8",
+          "VECTOR": "v41693348",
+          "scaled_value": "187.8"
+        }
+      ],
+      "status": "answer",
+      "unit": "2002=100",
+      "value": "180.8666666666666666666666667"
+    },
+    "plan": {
+      "operands": [
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Shelter"
+            }
+          ],
+          "period": "2023",
+          "table_id": 18100005
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Shelter"
+            }
+          ],
+          "period": "2024",
+          "table_id": 18100005
+        },
+        {
+          "filters": [
+            {
+              "dimension": "GEO",
+              "value": "Canada"
+            },
+            {
+              "dimension": "Products and product groups",
+              "value": "Shelter"
+            }
+          ],
+          "period": "2025",
+          "table_id": 18100005
+        }
+      ],
+      "operation": "mean",
+      "reason": "",
+      "round_digits": 1,
+      "status": "answer"
+    },
+    "review_type": ""
+  },
+  "test-25": {
+    "expected_product_ids": [],
+    "outcome": {
+      "reason": "The frozen LFS table contains Canada/provinces, not Ottawa.",
+      "status": "review"
+    },
+    "plan": {
+      "operands": [],
+      "operation": "lookup",
+      "reason": "The frozen LFS table contains Canada/provinces, not Ottawa.",
+      "round_digits": 1,
+      "status": "review"
+    },
+    "review_type": "unsupported_geography"
+  },
+  "test-26": {
+    "expected_product_ids": [],
+    "outcome": {
+      "reason": "2026-02 is outside the frozen reference years.",
+      "status": "review"
+    },
+    "plan": {
+      "operands": [],
+      "operation": "lookup",
+      "reason": "2026-02 is outside the frozen reference years.",
+      "round_digits": 1,
+      "status": "review"
+    },
+    "review_type": "outside_period"
+  },
+  "test-27": {
+    "expected_product_ids": [],
+    "outcome": {
+      "reason": "The adjustment choice is explicitly unresolved.",
+      "status": "review"
+    },
+    "plan": {
+      "operands": [],
+      "operation": "lookup",
+      "reason": "The adjustment choice is explicitly unresolved.",
+      "round_digits": 1,
+      "status": "review"
+    },
+    "review_type": "underspecified_adjustment"
+  },
+  "test-28": {
+    "expected_product_ids": [],
+    "outcome": {
+      "reason": "The comparison periods and annual-average versus endpoint definition are unresolved.",
+      "status": "review"
+    },
+    "plan": {
+      "operands": [],
+      "operation": "lookup",
+      "reason": "The comparison periods and annual-average versus endpoint definition are unresolved.",
+      "round_digits": 1,
+      "status": "review"
+    },
+    "review_type": "underspecified_definition"
+  },
+  "test-29": {
+    "expected_product_ids": [],
+    "outcome": {
+      "reason": "Seasonally adjusted CPI is available only for Canada in this corpus.",
+      "status": "review"
+    },
+    "plan": {
+      "operands": [],
+      "operation": "lookup",
+      "reason": "Seasonally adjusted CPI is available only for Canada in this corpus.",
+      "round_digits": 1,
+      "status": "review"
+    },
+    "review_type": "unsupported_adjustment_geography"
+  },
+  "test-30": {
+    "expected_product_ids": [],
+    "outcome": {
+      "reason": "CPI alone does not identify the requested household-specific standard-of-living change.",
+      "status": "review"
+    },
+    "plan": {
+      "operands": [],
+      "operation": "lookup",
+      "reason": "CPI alone does not identify the requested household-specific standard-of-living change.",
+      "round_digits": 1,
+      "status": "review"
+    },
+    "review_type": "unsupported_estimand"
+  },
+  "test-31": {
+    "expected_product_ids": [],
+    "outcome": {
+      "reason": "The requested age group is unspecified.",
+      "status": "review"
+    },
+    "plan": {
+      "operands": [],
+      "operation": "lookup",
+      "reason": "The requested age group is unspecified.",
+      "round_digits": 1,
+      "status": "review"
+    },
+    "review_type": "underspecified_population"
+  },
+  "test-32": {
+    "expected_product_ids": [],
+    "outcome": {
+      "reason": "The sum of provincial rates is not a national unemployment rate.",
+      "status": "review"
+    },
+    "plan": {
+      "operands": [],
+      "operation": "lookup",
+      "reason": "The sum of provincial rates is not a national unemployment rate.",
+      "round_digits": 1,
+      "status": "review"
+    },
+    "review_type": "invalid_aggregation"
+  }
+}

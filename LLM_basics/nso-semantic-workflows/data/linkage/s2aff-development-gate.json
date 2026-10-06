@@ -1,0 +1,13 @@
+{
+  "required_rows": 100,
+  "comparator": "fused_selective_set",
+  "baseline_exact_sets": 74,
+  "baseline_false_target_assignments": 22,
+  "minimum_net_exact_set_gain": 5,
+  "minimum_exact_sets": 79,
+  "maximum_false_target_assignments": 22,
+  "rule": "Continue only if the complete 100-case validation run has at least 79 exact sets and at most 22 false target assignments (set FP). No retry or prompt revision from validation outcomes. Otherwise stop without running official test.",
+  "model_jobs_sha256": "b9543d6360b14e44aaa38b81a2046cb0cb7f16d938ec5bef4186558491317a68",
+  "baseline_sha256": "dc3f5b8a8fa2c1bff8b76271da4a9caaaea91db710818b8a4d9fff6b15d6f48c",
+  "created_before_model_calls": true
+}

@@ -1,0 +1,4466 @@
+[
+  {
+    "case_id": "s2aff-0999",
+    "source_row": 999,
+    "split": "val",
+    "text": "Department of Psychiatry, University of Pennsylvania School of Medicine, 3535 Market Street, 6th Floor, Philadelphia, PA 19104, USA."
+  },
+  {
+    "case_id": "s2aff-1186",
+    "source_row": 1186,
+    "split": "val",
+    "text": "Department of Neurology, Affiliated Tongji Hospital, Tongji Medical College, Huazhong Science & Technology University, Wuhan 430030, China"
+  },
+  {
+    "case_id": "s2aff-0637",
+    "source_row": 637,
+    "split": "val",
+    "text": "Department of Computer Science, University of Liverpool, Liverpool, U.K#TAB#"
+  },
+  {
+    "case_id": "s2aff-1616",
+    "source_row": 1616,
+    "split": "val",
+    "text": "College of Pharmacy and Pharmaceutical Sciences, Florida A&M University, Tallahassee, FL 32307, USA"
+  },
+  {
+    "case_id": "s2aff-2130",
+    "source_row": 2130,
+    "split": "val",
+    "text": "Addis Continental Institute of Public Health, Addis Ababa, Ethiopia"
+  },
+  {
+    "case_id": "s2aff-1401",
+    "source_row": 1401,
+    "split": "val",
+    "text": "College of Physics and Electronic Engineering, Northwest Normal Univ., Lanzhou (China)"
+  },
+  {
+    "case_id": "s2aff-0778",
+    "source_row": 778,
+    "split": "val",
+    "text": "Inst. of Telecommun., Univ. of Stuttgart, Germany"
+  },
+  {
+    "case_id": "s2aff-0064",
+    "source_row": 64,
+    "split": "val",
+    "text": "National Taiwan University"
+  },
+  {
+    "case_id": "s2aff-0442",
+    "source_row": 442,
+    "split": "val",
+    "text": "LIGO Laboratory, Massachusetts Institute of Technology, Cambridge MA, USA"
+  },
+  {
+    "case_id": "s2aff-0416",
+    "source_row": 416,
+    "split": "val",
+    "text": "Lawrence Berkeley Laboratory University of California Berkeley, California"
+  },
+  {
+    "case_id": "s2aff-1236",
+    "source_row": 1236,
+    "split": "val",
+    "text": " University of Maryland"
+  },
+  {
+    "case_id": "s2aff-0793",
+    "source_row": 793,
+    "split": "val",
+    "text": "university of Cincinnati"
+  },
+  {
+    "case_id": "s2aff-0455",
+    "source_row": 455,
+    "split": "val",
+    "text": "Dipartimento di Fisica Generale ``A. Avogadro'', Università di Torino,  via P. Giuria 1, 10125 Torino, Italy"
+  },
+  {
+    "case_id": "s2aff-0089",
+    "source_row": 89,
+    "split": "val",
+    "text": "Department of Mechanical Engineering, National Cheng Kung University, 701, Tainan, Taiwan"
+  },
+  {
+    "case_id": "s2aff-0771",
+    "source_row": 771,
+    "split": "val",
+    "text": "University of Stuttgart, Stuttgart#TAB#"
+  },
+  {
+    "case_id": "s2aff-1665",
+    "source_row": 1665,
+    "split": "val",
+    "text": "Universitätsklinikum Regensburg, Klinik und Poliklinik für Innere Medizin I"
+  },
+  {
+    "case_id": "s2aff-1303",
+    "source_row": 1303,
+    "split": "val",
+    "text": "Central South University of Forestry and Technology Changsha"
+  },
+  {
+    "case_id": "s2aff-0728",
+    "source_row": 728,
+    "split": "val",
+    "text": "Section of Mental Health and Ageing, The Institute of Psychiatry, King's College London, London, UK."
+  },
+  {
+    "case_id": "s2aff-2056",
+    "source_row": 2056,
+    "split": "val",
+    "text": "École des Hautes Études en Santé Publique [EHESP]"
+  },
+  {
+    "case_id": "s2aff-0787",
+    "source_row": 787,
+    "split": "val",
+    "text": "UNIV OF CINCINNATI, Cincinnati, OH"
+  },
+  {
+    "case_id": "s2aff-1025",
+    "source_row": 1025,
+    "split": "val",
+    "text": "Laser Fusion Research Ctr., CAEP (China)"
+  },
+  {
+    "case_id": "s2aff-1181",
+    "source_row": 1181,
+    "split": "val",
+    "text": "Beijing National Center for Electron Microscopy, School of Materials Science and Engineering, The State Key Laboratory of New Ceramics and Fine Processing, Key Laboratory of Advanced Materials (MOE), Tsinghua University, Beijing 100084, China"
+  },
+  {
+    "case_id": "s2aff-1980",
+    "source_row": 1980,
+    "split": "val",
+    "text": "dept. of ICT Bangladesh, University of Professionals, Dhaka, Bangladesh"
+  },
+  {
+    "case_id": "s2aff-1907",
+    "source_row": 1907,
+    "split": "val",
+    "text": "The National Institute of Public Health, Univ of Southern Denmark, Copenhagen, Denmark"
+  },
+  {
+    "case_id": "s2aff-1929",
+    "source_row": 1929,
+    "split": "val",
+    "text": "Georgia Southern Univ. (USA)"
+  },
+  {
+    "case_id": "s2aff-1051",
+    "source_row": 1051,
+    "split": "val",
+    "text": "Inst. of Comput. Tech., CAS, Beijing"
+  },
+  {
+    "case_id": "s2aff-1859",
+    "source_row": 1859,
+    "split": "val",
+    "text": "Univ. of Silesia, Katowice, Poland#TAB#"
+  },
+  {
+    "case_id": "s2aff-1163",
+    "source_row": 1163,
+    "split": "val",
+    "text": "Service of Hematology, Hospital Son Dureta, Palma de Mallorca, Spain"
+  },
+  {
+    "case_id": "s2aff-2151",
+    "source_row": 2151,
+    "split": "val",
+    "text": "Collaborative Innovation Center for Diagnosis Treatment of Infectious Diseases - National Center for Chronic and Noncommunicable Disease Control and Prevention"
+  },
+  {
+    "case_id": "s2aff-0066",
+    "source_row": 66,
+    "split": "val",
+    "text": "Department of Chemical Engineering, National Taiwan University, Institute of Polymer Science and Engineering, National Taiwan University, Taipei 106, Taiwan"
+  },
+  {
+    "case_id": "s2aff-1144",
+    "source_row": 1144,
+    "split": "val",
+    "text": "Mathematisches Institut, Kossuth Lajos Universität, Debrecen, "
+  },
+  {
+    "case_id": "s2aff-1053",
+    "source_row": 1053,
+    "split": "val",
+    "text": "Universtty of Arkansas at Little Rock, Applied Science, Little Rock#TAB#"
+  },
+  {
+    "case_id": "s2aff-1323",
+    "source_row": 1323,
+    "split": "val",
+    "text": " University of Montréal "
+  },
+  {
+    "case_id": "s2aff-0439",
+    "source_row": 439,
+    "split": "val",
+    "text": "Laboratory for Nuclear Science and Department of Physics, Massachusetts Institute of Technology, Cambridge, Massachusetts"
+  },
+  {
+    "case_id": "s2aff-0610",
+    "source_row": 610,
+    "split": "val",
+    "text": "Raymond & Beverly Sackler Fac. of Exact Sci., Tel-Aviv Univ., Israel"
+  },
+  {
+    "case_id": "s2aff-0098",
+    "source_row": 98,
+    "split": "val",
+    "text": "From the Graduate Institutes of Basic Medicine and Microbiology, and Departments of Medicine, Pathology, and Nuclear Medicine, National Cheng Kung University College of Medicine, Tainan, Taiwan"
+  },
+  {
+    "case_id": "s2aff-0906",
+    "source_row": 906,
+    "split": "val",
+    "text": "Faculty of Mathematics, University of Waterloo, Waterloo, Ontario N2L 3G1, Canada"
+  },
+  {
+    "case_id": "s2aff-1238",
+    "source_row": 1238,
+    "split": "val",
+    "text": "Univ. of Maryland at College PArk"
+  },
+  {
+    "case_id": "s2aff-1787",
+    "source_row": 1787,
+    "split": "val",
+    "text": "Dialysis Clinic Inc, Nashville, TN."
+  },
+  {
+    "case_id": "s2aff-0907",
+    "source_row": 907,
+    "split": "val",
+    "text": "[University of Waterloo, Waterloo, CANADA]"
+  },
+  {
+    "case_id": "s2aff-1956",
+    "source_row": 1956,
+    "split": "val",
+    "text": "Intake – Center for Dietary Assessment, FHI Solutions, Washington, DC, USA"
+  },
+  {
+    "case_id": "s2aff-0640",
+    "source_row": 640,
+    "split": "val",
+    "text": "The University of Liverpool"
+  },
+  {
+    "case_id": "s2aff-1706",
+    "source_row": 1706,
+    "split": "val",
+    "text": "Dept. of Comput. Sci. & Inf. Eng., Nat. Taitung Univ., Taitung, Taiwan"
+  },
+  {
+    "case_id": "s2aff-0916",
+    "source_row": 916,
+    "split": "val",
+    "text": "Dept of Mathematics, California Institute of Technology, Pasadena, USA"
+  },
+  {
+    "case_id": "s2aff-0605",
+    "source_row": 605,
+    "split": "val",
+    "text": "University of Southampton, Southampton SO, UK#TAB#"
+  },
+  {
+    "case_id": "s2aff-1049",
+    "source_row": 1049,
+    "split": "val",
+    "text": "Sch. of Comput. Sci. & Eng., Xi'an Univ. of Technol., Xi'an"
+  },
+  {
+    "case_id": "s2aff-1687",
+    "source_row": 1687,
+    "split": "val",
+    "text": "Fakultas Kehutanan Universitas Tanjungpura"
+  },
+  {
+    "case_id": "s2aff-1811",
+    "source_row": 1811,
+    "split": "val",
+    "text": "Department of Mechanical Engineering, PSNA College of Engineering & Technology, Dindigul, India"
+  },
+  {
+    "case_id": "s2aff-0417",
+    "source_row": 417,
+    "split": "val",
+    "text": "Center for Theoretical Physics, Massachusetts Institute of Technology,  77 Massachusetts Avenue, Cambridge, MA 02139, U.S.A."
+  },
+  {
+    "case_id": "s2aff-1050",
+    "source_row": 1050,
+    "split": "val",
+    "text": "Friedrich Schiller Universityät Jena Rechenzentrum"
+  },
+  {
+    "case_id": "s2aff-1941",
+    "source_row": 1941,
+    "split": "val",
+    "text": "Banco de España , Spain"
+  },
+  {
+    "case_id": "s2aff-0454",
+    "source_row": 454,
+    "split": "val",
+    "text": "Dipartimento di Fisica, Università di Bari, I-70126 Bari, Italy"
+  },
+  {
+    "case_id": "s2aff-1000",
+    "source_row": 1000,
+    "split": "val",
+    "text": "Department of Psychology, University of Vermont."
+  },
+  {
+    "case_id": "s2aff-0449",
+    "source_row": 449,
+    "split": "val",
+    "text": "Dipartimento di Fisica, Università degli Studi di Milano, 20133 Milano, Italy"
+  },
+  {
+    "case_id": "s2aff-0108",
+    "source_row": 108,
+    "split": "val",
+    "text": "CAS Key Laboratory of Soft Matter Chemistry, Department of Polymer Science and Engineering, Anhui Key Laboratory of Optoelectronic Science and Technology, University of Science and Technology of China,Hefei,P. R. China"
+  },
+  {
+    "case_id": "s2aff-0404",
+    "source_row": 404,
+    "split": "val",
+    "text": "Physics Department, Harvard University, Cambridge, MA 02138, USA"
+  },
+  {
+    "case_id": "s2aff-0622",
+    "source_row": 622,
+    "split": "val",
+    "text": " Weizmann Institute"
+  },
+  {
+    "case_id": "s2aff-1530",
+    "source_row": 1530,
+    "split": "val",
+    "text": "Nguyen Tat Thanh University"
+  },
+  {
+    "case_id": "s2aff-1801",
+    "source_row": 1801,
+    "split": "val",
+    "text": "AAU"
+  },
+  {
+    "case_id": "s2aff-0603",
+    "source_row": 603,
+    "split": "val",
+    "text": "School of Electronics and Computer Science, University of Southampton, Southampton, SO17 1BJ, UK#TAB#"
+  },
+  {
+    "case_id": "s2aff-1449",
+    "source_row": 1449,
+    "split": "val",
+    "text": "UNEMAT"
+  },
+  {
+    "case_id": "s2aff-0073",
+    "source_row": 73,
+    "split": "val",
+    "text": "State Key Laboratory of Analytical Chemistry for Life Science, School of Chemistry and Chemical Engineering, Nanjing University, Nanjing 210093, China."
+  },
+  {
+    "case_id": "s2aff-1291",
+    "source_row": 1291,
+    "split": "val",
+    "text": "Department of Veterinary Services, Disney's Animal Kingdom, PO Box 10,000, Lake Buena Vista, FL 32820, USA."
+  },
+  {
+    "case_id": "s2aff-1604",
+    "source_row": 1604,
+    "split": "val",
+    "text": "University of Fort, Hare, South Africa#TAB#"
+  },
+  {
+    "case_id": "s2aff-0619",
+    "source_row": 619,
+    "split": "val",
+    "text": "Mathematics and Computer Science, Sackler Faculty of Exact Sciences, Tel Aviv University, Tel Aviv, Israel. e-mail: noga@math.tau.ac.il, IL"
+  },
+  {
+    "case_id": "s2aff-0445",
+    "source_row": 445,
+    "split": "val",
+    "text": "Department of Physics and Astronomy, University of South Carolina, Columbia, SC 29208, USA"
+  },
+  {
+    "case_id": "s2aff-2298",
+    "source_row": 2298,
+    "split": "val",
+    "text": "Universitas Islam Negeri Alauddin Makassar"
+  },
+  {
+    "case_id": "s2aff-1854",
+    "source_row": 1854,
+    "split": "val",
+    "text": "Heilongjiang Key Laboratory for Laboratory Animals and Comparative Medicine, College of Veterinary Medicine, Northeast Agriculture University, Harbin, China."
+  },
+  {
+    "case_id": "s2aff-0620",
+    "source_row": 620,
+    "split": "val",
+    "text": "Department of Mathematics, Raymond and Beverly Sackler Faculty of Exact Science, Tel Aviv University, Tel Aviv, Israel"
+  },
+  {
+    "case_id": "s2aff-1187",
+    "source_row": 1187,
+    "split": "val",
+    "text": "National Key Laboratory of Molecular Oncology, Cancer Institute, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China"
+  },
+  {
+    "case_id": "s2aff-2007",
+    "source_row": 2007,
+    "split": "val",
+    "text": "Allen Institute for Brain Science, Seattle, WA, 98109, USA."
+  },
+  {
+    "case_id": "s2aff-1857",
+    "source_row": 1857,
+    "split": "val",
+    "text": "Department of Neurology, Massachusetts General Hospital (MGH)"
+  },
+  {
+    "case_id": "s2aff-1208",
+    "source_row": 1208,
+    "split": "val",
+    "text": "Sarnoff Corporation Princeton, NJ"
+  },
+  {
+    "case_id": "s2aff-0426",
+    "source_row": 426,
+    "split": "val",
+    "text": "Department of Physics, University of California, Berkeley, CA 94720, USA"
+  },
+  {
+    "case_id": "s2aff-0067",
+    "source_row": 67,
+    "split": "val",
+    "text": "Department of Chemistry, National Taiwan University, Taipei 10764, Taiwan"
+  },
+  {
+    "case_id": "s2aff-0271",
+    "source_row": 271,
+    "split": "val",
+    "text": "Dept., of Comput. Sci., Princeton Univ., NJ, USA"
+  },
+  {
+    "case_id": "s2aff-1241",
+    "source_row": 1241,
+    "split": "val",
+    "text": "Kavli Institute for Theoretical Physics and Department of Physics, Kohn Hall, University of California, Santa Barbara, CA 93106, USA"
+  },
+  {
+    "case_id": "s2aff-0638",
+    "source_row": 638,
+    "split": "val",
+    "text": "Computer Science Department, The University of Liverpool, UK#TAB#"
+  },
+  {
+    "case_id": "s2aff-2309",
+    "source_row": 2309,
+    "split": "val",
+    "text": "Universitas Raharja"
+  },
+  {
+    "case_id": "s2aff-0270",
+    "source_row": 270,
+    "split": "val",
+    "text": "Matsushita Information Technology Laboratory, Princeton, NJ"
+  },
+  {
+    "case_id": "s2aff-0636",
+    "source_row": 636,
+    "split": "val",
+    "text": "university of liverpool"
+  },
+  {
+    "case_id": "s2aff-1264",
+    "source_row": 1264,
+    "split": "val",
+    "text": "USC / Information Sciences Institute, Marina del Rey, CA#TAB#"
+  },
+  {
+    "case_id": "s2aff-1794",
+    "source_row": 1794,
+    "split": "val",
+    "text": "Disney Res., Zürich, Switzerland"
+  },
+  {
+    "case_id": "s2aff-0103",
+    "source_row": 103,
+    "split": "val",
+    "text": "Laboratory for Reproductive Biology, School of Life Science, University of Science and Technology of China, People's Republic of China"
+  },
+  {
+    "case_id": "s2aff-0791",
+    "source_row": 791,
+    "split": "val",
+    "text": "Clermont College, University of Cincinnati, Batavia, OH 45103-1785, USA"
+  },
+  {
+    "case_id": "s2aff-2097",
+    "source_row": 2097,
+    "split": "val",
+    "text": "Department of Mathematics, Azarbaijan Shahid Madani University, Tabriz, Iran"
+  },
+  {
+    "case_id": "s2aff-0607",
+    "source_row": 607,
+    "split": "val",
+    "text": "Tel-Aviv University"
+  },
+  {
+    "case_id": "s2aff-0420",
+    "source_row": 420,
+    "split": "val",
+    "text": "Department of Astronomy, University of California at Berkeley, 601 Campbell Hall, Berkeley, CA 94720-3411, USA"
+  },
+  {
+    "case_id": "s2aff-0102",
+    "source_row": 102,
+    "split": "val",
+    "text": "Dept. of EEIS, Univ. of Sci. and Tech. of China, Hefei, China"
+  },
+  {
+    "case_id": "s2aff-1645",
+    "source_row": 1645,
+    "split": "val",
+    "text": "University Of Zabol"
+  },
+  {
+    "case_id": "s2aff-1905",
+    "source_row": 1905,
+    "split": "val",
+    "text": "Miami—Dade Community College"
+  },
+  {
+    "case_id": "s2aff-1088",
+    "source_row": 1088,
+    "split": "val",
+    "text": "Department of Computer Science, Tsing Hua University, Hsin-Chu, Taiwan 30043, R.O.C."
+  },
+  {
+    "case_id": "s2aff-1002",
+    "source_row": 1002,
+    "split": "val",
+    "text": "Institute of Environmental Pollution and Health, College of Environmental and Chemical Engineering, Shanghai University, Shanghai, 200444, China"
+  },
+  {
+    "case_id": "s2aff-0773",
+    "source_row": 773,
+    "split": "val",
+    "text": "Inst. of Telecommun., Univ. of Stuttgart, Stuttgart"
+  },
+  {
+    "case_id": "s2aff-0626",
+    "source_row": 626,
+    "split": "val",
+    "text": "The Weizmann Institute, Rehovot, Israel"
+  },
+  {
+    "case_id": "s2aff-1601",
+    "source_row": 1601,
+    "split": "val",
+    "text": "The Mind Research Network/Lovelace Biomedical Research Institute, Albuquerque, NM, USA"
+  },
+  {
+    "case_id": "s2aff-2150",
+    "source_row": 2150,
+    "split": "val",
+    "text": "A. I. Yevdokimov Moscow State University of Medicine and Dentistry"
+  },
+  {
+    "case_id": "s2aff-0105",
+    "source_row": 105,
+    "split": "val",
+    "text": "CAS Key Laboratory of Soft Matter Chemistry, Department of Polymer Science and Engineering, Key Laboratory of Optoelectronic Science and Technology in Anhui Province, University of Science and Technology of China,Hefei,P. R. China"
+  },
+  {
+    "case_id": "s2aff-0721",
+    "source_row": 721,
+    "split": "val",
+    "text": "Department of Medicine, The Royal Marsden NHS Trust, Downs Road, Sutton SM2 5PT, UK"
+  },
+  {
+    "case_id": "s2aff-2262",
+    "source_row": 2262,
+    "split": "val",
+    "text": "Bayer HealthCare Pharmaceuticals, Inc., Whippany, NJ"
+  },
+  {
+    "case_id": "s2aff-0114",
+    "source_row": 114,
+    "split": "test",
+    "text": "School of Electronics and Information, Northwestern Polytechnical University, Xi'an 710072, China#TAB#"
+  },
+  {
+    "case_id": "s2aff-0115",
+    "source_row": 115,
+    "split": "test",
+    "text": "National Key Laboratory of Thermostructure Composite Materials, Northwestern Polytechnical University, Xi'an Shaanxi 710072, China"
+  },
+  {
+    "case_id": "s2aff-0116",
+    "source_row": 116,
+    "split": "test",
+    "text": "State Key Laboratory of Solidification Processing, Northwestern Polytechnical University, Xi'an Shaanxi, 710072, PR China"
+  },
+  {
+    "case_id": "s2aff-0117",
+    "source_row": 117,
+    "split": "test",
+    "text": "), Northwestern Polytechnical University"
+  },
+  {
+    "case_id": "s2aff-0118",
+    "source_row": 118,
+    "split": "test",
+    "text": "Science and Technology on Thermostructure Composite Materials Laboratory, Northwestern Polytechnical University, Xi'an, Shaanxi 710072, PR China"
+  },
+  {
+    "case_id": "s2aff-0119",
+    "source_row": 119,
+    "split": "test",
+    "text": "State Key Laboratory of Solidification Processing, Northwestern Polytechnical University, Xi’an Shaanxi 710072, China"
+  },
+  {
+    "case_id": "s2aff-0120",
+    "source_row": 120,
+    "split": "test",
+    "text": "Science and Technology on Thermostructural Composite Materials Laboratory, Northwestern Polytechnical University, Xi’an, Shaanxi 710072, PR China"
+  },
+  {
+    "case_id": "s2aff-0121",
+    "source_row": 121,
+    "split": "test",
+    "text": "National Key Laboratory of Thermostructure Composite Materials, Northwestern Polytechnical University, Xi’an, Shaanxi 710072, PR China"
+  },
+  {
+    "case_id": "s2aff-0122",
+    "source_row": 122,
+    "split": "test",
+    "text": "State Key Laboratory of Solidification Processing, Northwestern Polytechnical University, Xi'an, Shaanxi 710072, PR China"
+  },
+  {
+    "case_id": "s2aff-0123",
+    "source_row": 123,
+    "split": "test",
+    "text": "National Key Laboratory of Thermostructure Composite Materials, Northwestern Polytechnical University, 547 Mailbox, Xi'an Shaanxi 710072, People's Republic of China"
+  },
+  {
+    "case_id": "s2aff-0124",
+    "source_row": 124,
+    "split": "test",
+    "text": "State Key Laboratory of Solidification Processing, Northwestern Polytechnical University, Xi’an Shaanxi 710072, People's Republic of China"
+  },
+  {
+    "case_id": "s2aff-0125",
+    "source_row": 125,
+    "split": "test",
+    "text": "National Key Laboratory of Thermostructure Composite Materials, School of Materials Science, Northwestern Polytechnical University, Xi’an Shaanxi 710072, PR China"
+  },
+  {
+    "case_id": "s2aff-0126",
+    "source_row": 126,
+    "split": "test",
+    "text": "Science and Technology on Thermostructure Composite Materials Laboratory, Northwestern Polytechnical University, West Youyi Rd, No. 127, Xi’an, Shaanxi 710072, PR China"
+  },
+  {
+    "case_id": "s2aff-0127",
+    "source_row": 127,
+    "split": "test",
+    "text": "National Key Laboratory of Thermostructure Composite Materials, Northwestern Polytechnical University, Xi'an Shaanxi 710072, People's Republic of China"
+  },
+  {
+    "case_id": "s2aff-0128",
+    "source_row": 128,
+    "split": "test",
+    "text": "National Key Laboratory of Thermostructure Composite Materials, School of Materials Science, Northwestern Polytechnical University, Xi’an, Shannxi 710072, PR China"
+  },
+  {
+    "case_id": "s2aff-0129",
+    "source_row": 129,
+    "split": "test",
+    "text": "Science and Technology on Thermostructure Composite Materials Laboratory, Northwestern Polytechnical University, Xi’an, Shaanxi 710072, China"
+  },
+  {
+    "case_id": "s2aff-0130",
+    "source_row": 130,
+    "split": "test",
+    "text": "National Key Laboratory of Thermostructure Composite Materials, Northwestern Polytechnical University, P.O. Box 547, Xi’an, Shaanxi 710072, China"
+  },
+  {
+    "case_id": "s2aff-0131",
+    "source_row": 131,
+    "split": "test",
+    "text": "National Key Laboratory of Thermostructure Composite Materials, College of Materials Science, Northwestern Polytechnical University, Xi'an 710072, PR China"
+  },
+  {
+    "case_id": "s2aff-0132",
+    "source_row": 132,
+    "split": "test",
+    "text": "National Key Laboratory of Thermostructure Composite Materials, Northwestern Polytechnical University, Xi'an 710072, China"
+  },
+  {
+    "case_id": "s2aff-0133",
+    "source_row": 133,
+    "split": "test",
+    "text": "Science and Technology on Thermostructure Composite Materials Laboratory, Northwestern Polytechnical University, Xi׳an, Shaanxi 710072, China"
+  },
+  {
+    "case_id": "s2aff-0134",
+    "source_row": 134,
+    "split": "test",
+    "text": "National Key Laboratory of Thermostructure Composite Materials, Northwestern Polytechnical University, Xi’an 710072, Shannxi, PR China"
+  },
+  {
+    "case_id": "s2aff-0135",
+    "source_row": 135,
+    "split": "test",
+    "text": "School of Computer Science and Technology, Xidian University, Xi'an 710071, China#TAB#"
+  },
+  {
+    "case_id": "s2aff-0136",
+    "source_row": 136,
+    "split": "test",
+    "text": "State Key Lab. of Integrated Service Networks, Xidian University, Xi’an, China"
+  },
+  {
+    "case_id": "s2aff-0137",
+    "source_row": 137,
+    "split": "test",
+    "text": "Broadband Wireless Commun. Lab., Xidian Univ., Xian"
+  },
+  {
+    "case_id": "s2aff-0138",
+    "source_row": 138,
+    "split": "test",
+    "text": "ISN Nat. Key Lab., Xidian Univ., Xi'an, China#TAB#"
+  },
+  {
+    "case_id": "s2aff-0139",
+    "source_row": 139,
+    "split": "test",
+    "text": "State Key Laboratory of Integrated Service Networks, Xidian University, Xi’an, China"
+  },
+  {
+    "case_id": "s2aff-0140",
+    "source_row": 140,
+    "split": "test",
+    "text": "Broadband Wireless Commun. Lab., Xidian Univ., Xi'an, , China"
+  },
+  {
+    "case_id": "s2aff-0141",
+    "source_row": 141,
+    "split": "test",
+    "text": "State Key Lab of ISN, Xidian University, Xi'an, 710071 China#TAB#"
+  },
+  {
+    "case_id": "s2aff-0142",
+    "source_row": 142,
+    "split": "test",
+    "text": "State Key Laboratories of ISN, Xidian University, Xi’an, China"
+  },
+  {
+    "case_id": "s2aff-0143",
+    "source_row": 143,
+    "split": "test",
+    "text": "Broadband Wireless Commun. Lab.& State Key Lab. (ISN), Xidian Univ., Xi'an, China"
+  },
+  {
+    "case_id": "s2aff-0144",
+    "source_row": 144,
+    "split": "test",
+    "text": "Institute of Computer Science and Technology, Xidian University, Xi’an, Shaanxi, China"
+  },
+  {
+    "case_id": "s2aff-0145",
+    "source_row": 145,
+    "split": "test",
+    "text": "Xidian University"
+  },
+  {
+    "case_id": "s2aff-0146",
+    "source_row": 146,
+    "split": "test",
+    "text": "National Key Laboratory of Antennas and Microwave Technology, Xidian University, Xi'an, Shaanxi 710071, People's Republic of China"
+  },
+  {
+    "case_id": "s2aff-0147",
+    "source_row": 147,
+    "split": "test",
+    "text": "School of Communication Engineering, Xidian University, Xi'an, China"
+  },
+  {
+    "case_id": "s2aff-0148",
+    "source_row": 148,
+    "split": "test",
+    "text": "State Key Lab. of Integrated Services Networks, Xidian University, Xi'an China"
+  },
+  {
+    "case_id": "s2aff-0149",
+    "source_row": 149,
+    "split": "test",
+    "text": "Xidian University, People¿s Republic of China"
+  },
+  {
+    "case_id": "s2aff-0150",
+    "source_row": 150,
+    "split": "test",
+    "text": "State Key Lab. of Integrated Services Networks, Xidian Univ., Xidian"
+  },
+  {
+    "case_id": "s2aff-0151",
+    "source_row": 151,
+    "split": "test",
+    "text": "State Key Laboratory of Integrated Service Networks, Xidian University, Xi'an, Shaanxi, 710071 China"
+  },
+  {
+    "case_id": "s2aff-0152",
+    "source_row": 152,
+    "split": "test",
+    "text": "National Laboratory of Antennas and Microwave Technology, Xidian University, Xi'an, Shaanxi 710071, People's Republic China"
+  },
+  {
+    "case_id": "s2aff-0153",
+    "source_row": 153,
+    "split": "test",
+    "text": "[ISN Lab, Xidian University, Xi’an, China]"
+  },
+  {
+    "case_id": "s2aff-0154",
+    "source_row": 154,
+    "split": "test",
+    "text": "Peking Univ.#TAB#"
+  },
+  {
+    "case_id": "s2aff-0155",
+    "source_row": 155,
+    "split": "test",
+    "text": "[Peking Univ., Beijing, China]"
+  },
+  {
+    "case_id": "s2aff-0156",
+    "source_row": 156,
+    "split": "test",
+    "text": "School of Materials Science and Engineering,Beijing University of Aeronautics and Astroautics,Beijing 100083"
+  },
+  {
+    "case_id": "s2aff-0157",
+    "source_row": 157,
+    "split": "test",
+    "text": "Microprocessor R&D Center, Peking Univ., Beijing, China"
+  },
+  {
+    "case_id": "s2aff-0158",
+    "source_row": 158,
+    "split": "test",
+    "text": "Associate Professor, College of Urban and Environment Sciences, Laboratory for Earth Surface Processes, Ministry of Education, Peking Univ., Beijing 100871, China."
+  },
+  {
+    "case_id": "s2aff-0159",
+    "source_row": 159,
+    "split": "test",
+    "text": "Microprocessor R&D Center, Peking Univ., Peking"
+  },
+  {
+    "case_id": "s2aff-0160",
+    "source_row": 160,
+    "split": "test",
+    "text": "Inst. of Software, Peking Univ., Beijing, China"
+  },
+  {
+    "case_id": "s2aff-0161",
+    "source_row": 161,
+    "split": "test",
+    "text": "Beijing National Laboratory for Molecular Science (BNLMS), Department of Applied Chemistry, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China"
+  },
+  {
+    "case_id": "s2aff-0162",
+    "source_row": 162,
+    "split": "test",
+    "text": "Beijing National Laboratory for Molecular Sciences (BNLMS), Department of Applied Chemistry, College of Chemistry and Molecular Engineering, Peking University, 100871 Beijing, PR China"
+  },
+  {
+    "case_id": "s2aff-0163",
+    "source_row": 163,
+    "split": "test",
+    "text": "Materials Physics Laboratory, State Key Laboratory for Mesoscope Physics, Department of Physics, Peking University, Beijing 100871, China"
+  },
+  {
+    "case_id": "s2aff-0164",
+    "source_row": 164,
+    "split": "test",
+    "text": "Department of Anesthesiology,Peking University Third Hospital,Beijing 100191,China"
+  },
+  {
+    "case_id": "s2aff-0165",
+    "source_row": 165,
+    "split": "test",
+    "text": "Institute of Heavy Ion Physics, Peking University, Beijing 100871, China"
+  },
+  {
+    "case_id": "s2aff-0166",
+    "source_row": 166,
+    "split": "test",
+    "text": "Department of Biochemistry and Molecular Biology, National Laboratory of Protein Engineering, College of Life Science, Peking University, Beijing, PR China"
+  },
+  {
+    "case_id": "s2aff-0167",
+    "source_row": 167,
+    "split": "test",
+    "text": "Department of Geography, Peking University, Beijing 100871, China"
+  },
+  {
+    "case_id": "s2aff-0168",
+    "source_row": 168,
+    "split": "test",
+    "text": "Materials Physics Laboratory, State Key Laboratory for Mesoscopic Physics, Department of Physics, Peking University, Beijing 100871, China"
+  },
+  {
+    "case_id": "s2aff-0169",
+    "source_row": 169,
+    "split": "test",
+    "text": "State Key Laboratory of Rare Earth Materials Chemistry and Applications, Peking University,Beijing,P. R. China"
+  },
+  {
+    "case_id": "s2aff-0170",
+    "source_row": 170,
+    "split": "test",
+    "text": "Key Laboratory for Environmental and Urban Sciences, Shenzhen Graduate School, Peking University, Shenzhen 518055, China"
+  },
+  {
+    "case_id": "s2aff-0171",
+    "source_row": 171,
+    "split": "test",
+    "text": "Peking University, Beijing, "
+  },
+  {
+    "case_id": "s2aff-0172",
+    "source_row": 172,
+    "split": "test",
+    "text": "#N#The Chinese University of Hong Kong#N#"
+  },
+  {
+    "case_id": "s2aff-0173",
+    "source_row": 173,
+    "split": "test",
+    "text": "Chinese University of Hong Kong, Department of Mathematics, Lady Shaw Building, Room 220, Shatin, Hong Kong"
+  },
+  {
+    "case_id": "s2aff-0174",
+    "source_row": 174,
+    "split": "test",
+    "text": "Department of Mathematics, Chinese University of Hong Kong, Shatin, Hong Kong"
+  },
+  {
+    "case_id": "s2aff-0175",
+    "source_row": 175,
+    "split": "test",
+    "text": "† Department of Mathematics, The Chinese University of Hong Kong, Shatin, Hong Kong ("
+  },
+  {
+    "case_id": "s2aff-0176",
+    "source_row": 176,
+    "split": "test",
+    "text": "Chinese University of Hong Kong "
+  },
+  {
+    "case_id": "s2aff-0177",
+    "source_row": 177,
+    "split": "test",
+    "text": "Department of Mathematics, Chinese University of Hong Kong, Hong Kong, P.R. China"
+  },
+  {
+    "case_id": "s2aff-0178",
+    "source_row": 178,
+    "split": "test",
+    "text": "Department of Mathematics, Chinese University of Hong Kong, New Territories, Hong Kong"
+  },
+  {
+    "case_id": "s2aff-0282",
+    "source_row": 282,
+    "split": "test",
+    "text": "University of Illinois at Urbana Champaign, Urbana, IL, USA."
+  },
+  {
+    "case_id": "s2aff-0283",
+    "source_row": 283,
+    "split": "test",
+    "text": "University of Illinois at Urbana-Champaign"
+  },
+  {
+    "case_id": "s2aff-0284",
+    "source_row": 284,
+    "split": "test",
+    "text": "Coordinated Science Laboratory, University of Illinois at Urbana Champaign"
+  },
+  {
+    "case_id": "s2aff-0285",
+    "source_row": 285,
+    "split": "test",
+    "text": "Univ. of Illinois at Urbana-Champaign, Urbana, IL#TAB#"
+  },
+  {
+    "case_id": "s2aff-0286",
+    "source_row": 286,
+    "split": "test",
+    "text": "Illinois Genetic Algorithms Laboratory, University of Illinois at Urbana Champaign, Urbana, IL, USA"
+  },
+  {
+    "case_id": "s2aff-0287",
+    "source_row": 287,
+    "split": "test",
+    "text": "Illinois Genetic Algorithms Laboratory, University of Illinois at Urbana-Champaign, Urbana, Illinois"
+  },
+  {
+    "case_id": "s2aff-0288",
+    "source_row": 288,
+    "split": "test",
+    "text": "Illinois Genetic Algorithms Laboratory, University of Illinois at Urbana-Champaign, Urbana-Champaign, Illinois#TAB#"
+  },
+  {
+    "case_id": "s2aff-0289",
+    "source_row": 289,
+    "split": "test",
+    "text": "University of Illinois at Urbana, Champaign, USA."
+  },
+  {
+    "case_id": "s2aff-0290",
+    "source_row": 290,
+    "split": "test",
+    "text": "Dept. of General Engineering, University of Illinois, Urbana-Champaign, IL#TAB#"
+  },
+  {
+    "case_id": "s2aff-0291",
+    "source_row": 291,
+    "split": "test",
+    "text": "Illinois Genetic Algorithms Laboratory, University of Illinois at Urbana-Champaign, USA IL 61801#TAB#"
+  },
+  {
+    "case_id": "s2aff-0292",
+    "source_row": 292,
+    "split": "test",
+    "text": "Illinois Genetic Algorithms Laboratory, University of Illinois, Urbana, IL#TAB#"
+  },
+  {
+    "case_id": "s2aff-0293",
+    "source_row": 293,
+    "split": "test",
+    "text": "Department of General Engineering University of Illinois, Urbana, IL 61801, USA#TAB#"
+  },
+  {
+    "case_id": "s2aff-0294",
+    "source_row": 294,
+    "split": "test",
+    "text": "Department of General Engineering, Illinois Genetic Algorithms Laboratory, University of Illinois, Urbana, IL 61801, USA#TAB#"
+  },
+  {
+    "case_id": "s2aff-0295",
+    "source_row": 295,
+    "split": "test",
+    "text": "Illinois Genetic Algorithms Laboratory, University of Illinois at Urbana-Champaign, Urbana, IL"
+  },
+  {
+    "case_id": "s2aff-0296",
+    "source_row": 296,
+    "split": "test",
+    "text": "Illinois Genetic Algorithms Laboratory, University of Illinois at Urbana-Champaign, 117 Transportation Building, 104 S. Mathews Av. Urbana, IL#TAB#"
+  },
+  {
+    "case_id": "s2aff-0297",
+    "source_row": 297,
+    "split": "test",
+    "text": "Illinois Genetic Algorithms Laboratory University of Illinois Urbana, IL 61801 USA deg@illigal.ge.uiuc.edu#TAB#"
+  },
+  {
+    "case_id": "s2aff-0298",
+    "source_row": 298,
+    "split": "test",
+    "text": "Illinois Genetic Algorithms Laboratory (IlliGAL), Department of General Engineering, University of Illinois at Urbana-Champaign, 104 S. Mathews Avenue, Urbana, Illinois#TAB#"
+  },
+  {
+    "case_id": "s2aff-0299",
+    "source_row": 299,
+    "split": "test",
+    "text": "Department of General Engineering, University of Illinois at Urbana-Champaign, 117 Transportation Building, 104 South Mathews, Urbana, IL 61801-2996"
+  },
+  {
+    "case_id": "s2aff-0300",
+    "source_row": 300,
+    "split": "test",
+    "text": "Comp. & Info. Sci. Dept., Kansas State University, Manhattan, KS#TAB#"
+  },
+  {
+    "case_id": "s2aff-0301",
+    "source_row": 301,
+    "split": "test",
+    "text": "#N#Kansas State University#N#"
+  },
+  {
+    "case_id": "s2aff-0302",
+    "source_row": 302,
+    "split": "test",
+    "text": "[Department of Computing and Information Sciences, Kansas State University, Manhattan, KS]"
+  },
+  {
+    "case_id": "s2aff-0303",
+    "source_row": 303,
+    "split": "test",
+    "text": "[Department of Computing and Information Sciences, Kansas State University]"
+  },
+  {
+    "case_id": "s2aff-0304",
+    "source_row": 304,
+    "split": "test",
+    "text": "Laboratory for Knowledge Discovery in Databases, Computing and Information Sciences (CIS) Department, Kansas State University, Manhattan, KS#TAB#"
+  },
+  {
+    "case_id": "s2aff-0305",
+    "source_row": 305,
+    "split": "test",
+    "text": "Laboratory for Knowledge Discovery in Databases, Kansas State University, Manhattan, KS#TAB#"
+  },
+  {
+    "case_id": "s2aff-0306",
+    "source_row": 306,
+    "split": "test",
+    "text": "Kansas State University Manhattan, KS"
+  },
+  {
+    "case_id": "s2aff-0307",
+    "source_row": 307,
+    "split": "test",
+    "text": "Kansas State Univ., Manhattan"
+  },
+  {
+    "case_id": "s2aff-0308",
+    "source_row": 308,
+    "split": "test",
+    "text": "Dept. of Comput. & Inf. Sci., Kansas State Univ., Manhattan, KS, USA"
+  },
+  {
+    "case_id": "s2aff-0309",
+    "source_row": 309,
+    "split": "test",
+    "text": "Department of Applied Computing, University of Dundee, Dundee DD1 4HN, UK#TAB#"
+  },
+  {
+    "case_id": "s2aff-0310",
+    "source_row": 310,
+    "split": "test",
+    "text": "[Department of Mathematics and Computer Science, University of Dundee, Dundee, UK]"
+  },
+  {
+    "case_id": "s2aff-0311",
+    "source_row": 311,
+    "split": "test",
+    "text": "university of dundee"
+  },
+  {
+    "case_id": "s2aff-0312",
+    "source_row": 312,
+    "split": "test",
+    "text": "Department of Applied Computing, University of Dundee, Dundee, DD1 4HN, UK"
+  },
+  {
+    "case_id": "s2aff-0313",
+    "source_row": 313,
+    "split": "test",
+    "text": "Department of Applied Computing, University of Dundee, Dundee, DD1 4HN, Scotland, UK"
+  },
+  {
+    "case_id": "s2aff-0314",
+    "source_row": 314,
+    "split": "test",
+    "text": "Department of Mathematics and Computer Science, University of Dundee, Dundee DD1 4HN, UK"
+  },
+  {
+    "case_id": "s2aff-0315",
+    "source_row": 315,
+    "split": "test",
+    "text": "Department of Mathematics and Computer Science, University of Dundee, Dundee DDI 4HN, UK"
+  },
+  {
+    "case_id": "s2aff-0316",
+    "source_row": 316,
+    "split": "test",
+    "text": "Division of Applied Computing, University of Dundee, DD1 4HN, Dundee, UK#TAB#"
+  },
+  {
+    "case_id": "s2aff-0317",
+    "source_row": 317,
+    "split": "test",
+    "text": "School of Computing, University of Dundee, Dundee DD1 4HN, UK#TAB#"
+  },
+  {
+    "case_id": "s2aff-0318",
+    "source_row": 318,
+    "split": "test",
+    "text": "Division of Applied Computing, University of Dundee, Dundee DD1 4HN, UK#TAB#"
+  },
+  {
+    "case_id": "s2aff-0319",
+    "source_row": 319,
+    "split": "test",
+    "text": "Department of Applied Computing, University of Dundee, Dundee, DD1 4HN, U.K.#TAB#"
+  },
+  {
+    "case_id": "s2aff-0320",
+    "source_row": 320,
+    "split": "test",
+    "text": "Department of Mathematics and Computer Science, University of Dundee, Dundee DD1 4HN, U.K."
+  },
+  {
+    "case_id": "s2aff-0321",
+    "source_row": 321,
+    "split": "test",
+    "text": "Department of Applied Computing, University of Dundee, Dundee, DD1 4HN, United Kingdomf1E-mail: kedwards@computing.dundee.ac.ukf1#TAB#"
+  },
+  {
+    "case_id": "s2aff-0322",
+    "source_row": 322,
+    "split": "test",
+    "text": "Division of Applied Computing, University of Dundee, Dundee, DD1 4HN, UK (e-mail: kjedwards@dundee.ac.uk)#TAB#"
+  },
+  {
+    "case_id": "s2aff-0463",
+    "source_row": 463,
+    "split": "test",
+    "text": "Inje Univ."
+  },
+  {
+    "case_id": "s2aff-0464",
+    "source_row": 464,
+    "split": "test",
+    "text": "Institute of Basic Science and School of Computer Aided Science, Inje University, Gimhae 621-749, Republic of Korea"
+  },
+  {
+    "case_id": "s2aff-0465",
+    "source_row": 465,
+    "split": "test",
+    "text": "Department of Physics, Inje University, Kimhae 621-749, South Korea"
+  },
+  {
+    "case_id": "s2aff-0466",
+    "source_row": 466,
+    "split": "test",
+    "text": "Institute of Mathematical Science and School of Computer Aided Science, Inje University, Gimhae 621-749, South Korea"
+  },
+  {
+    "case_id": "s2aff-0467",
+    "source_row": 467,
+    "split": "test",
+    "text": "Relativity Research Center and School of Computer Aided Science, Inje University, Gimhae 621-749, South Korea"
+  },
+  {
+    "case_id": "s2aff-0468",
+    "source_row": 468,
+    "split": "test",
+    "text": "Institute of Basic Sciences and Department of Computer Simulation, Inje University, Gimhae 621-749, Republic of Korea"
+  },
+  {
+    "case_id": "s2aff-0469",
+    "source_row": 469,
+    "split": "test",
+    "text": "Institute of Astronomy; Cambridge UK"
+  },
+  {
+    "case_id": "s2aff-0470",
+    "source_row": 470,
+    "split": "test",
+    "text": "Institute of Astronomy, Cambridge University, Cambridge CB3 0HA, England, UK"
+  },
+  {
+    "case_id": "s2aff-0471",
+    "source_row": 471,
+    "split": "test",
+    "text": "Institute of Astronomy, Cambridge University, Madingley Road, Cambridge CB3 0HA, England, U.K"
+  },
+  {
+    "case_id": "s2aff-0472",
+    "source_row": 472,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Theoretical Physics, Cambridge University, Wilberforce Road, CB3 0WA Cambridge, UK"
+  },
+  {
+    "case_id": "s2aff-0473",
+    "source_row": 473,
+    "split": "test",
+    "text": "Institute of Astronomy, Cambridge University, Madingley Road, Cambridge CB3 0HA, England, UK"
+  },
+  {
+    "case_id": "s2aff-0474",
+    "source_row": 474,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Theoretical Physics, Centre for Mathematical Sciences, Cambridge University, Wilberforce Road, Cambridge CB3 OWA, UK"
+  },
+  {
+    "case_id": "s2aff-0475",
+    "source_row": 475,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Theoretical Physics Silver Street Cambridge University Cambridge, England"
+  },
+  {
+    "case_id": "s2aff-0476",
+    "source_row": 476,
+    "split": "test",
+    "text": "Trinity College, Cambridge."
+  },
+  {
+    "case_id": "s2aff-0477",
+    "source_row": 477,
+    "split": "test",
+    "text": "Institute of Astronomy Cambridge, UK"
+  },
+  {
+    "case_id": "s2aff-0478",
+    "source_row": 478,
+    "split": "test",
+    "text": "Institute of Astronomy, University of Cambridge, Madingley Road, Cambridge CB3 0HA"
+  },
+  {
+    "case_id": "s2aff-0479",
+    "source_row": 479,
+    "split": "test",
+    "text": "University of Cambridge, Department of Applied Mathematics and Theoretical Physics, Silver Street, Cambridge CB3 9EW, UK"
+  },
+  {
+    "case_id": "s2aff-0480",
+    "source_row": 480,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Theoretical Physics University of Cambridge, Cambridge, England"
+  },
+  {
+    "case_id": "s2aff-0481",
+    "source_row": 481,
+    "split": "test",
+    "text": "Institute of Astronomy, University of Cambridge, Madingley Road, Cambridge CB3 0HA, UK"
+  },
+  {
+    "case_id": "s2aff-0482",
+    "source_row": 482,
+    "split": "test",
+    "text": "DAMTP, CMS, University of Cambridge, Wilberforce Road, Cambridge CB3 0WA, UK and Department of Physics, University of Regina, Regina, SK, Canada S4S 0A2#TAB#"
+  },
+  {
+    "case_id": "s2aff-0483",
+    "source_row": 483,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Theoretical Physics , University of Cambridge "
+  },
+  {
+    "case_id": "s2aff-0484",
+    "source_row": 484,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Theoretical Physics, and Institute of Theoretical Astronomy, University of Cambridge,"
+  },
+  {
+    "case_id": "s2aff-0485",
+    "source_row": 485,
+    "split": "test",
+    "text": "DAMTP, University of Cambridge, Cambridge, U.K."
+  },
+  {
+    "case_id": "s2aff-0486",
+    "source_row": 486,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Theoretical Physics and Institute of Astronomy University of Cambridge"
+  },
+  {
+    "case_id": "s2aff-0487",
+    "source_row": 487,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Theoretical Physics, University of Cambridge, Wilberforce Road, Cambridge CB3 0WA, UK"
+  },
+  {
+    "case_id": "s2aff-0488",
+    "source_row": 488,
+    "split": "test",
+    "text": "Institute for Theoretical Physics, State University of New York at Stony Brook, Stony Brook, New York 11794-3840 USA"
+  },
+  {
+    "case_id": "s2aff-0489",
+    "source_row": 489,
+    "split": "test",
+    "text": "Physics Department, State University of New York at Stony Brook, Stony Brook, NY 11794-3800, USA"
+  },
+  {
+    "case_id": "s2aff-0490",
+    "source_row": 490,
+    "split": "test",
+    "text": "Department of Physics, SUNY, Stony Brook, NY 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0491",
+    "source_row": 491,
+    "split": "test",
+    "text": "Department of Physics, State University of New York at Stony Brook, Stony Brook, New York"
+  },
+  {
+    "case_id": "s2aff-0492",
+    "source_row": 492,
+    "split": "test",
+    "text": "Department of Physics and Astronomy, State University of New York at Stony Brook, New York 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0493",
+    "source_row": 493,
+    "split": "test",
+    "text": "Physics Department, SUNY at Stony Brook, NY 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0494",
+    "source_row": 494,
+    "split": "test",
+    "text": "Institute for Theoretical Physics, State University of New York at Stony Brook, Stony Brook, New York"
+  },
+  {
+    "case_id": "s2aff-0495",
+    "source_row": 495,
+    "split": "test",
+    "text": "Department of Physics and Astronomy, University at Stony Brook, Stony Brook NY 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0496",
+    "source_row": 496,
+    "split": "test",
+    "text": "Physics Department, SUNY at Stony Brook, NY and ITP, UCSB, Santa Barbara, CA"
+  },
+  {
+    "case_id": "s2aff-0497",
+    "source_row": 497,
+    "split": "test",
+    "text": "Institute for Theoretical Physics, State University of New York at Stony Brook, Stony Brook, NY 1794–3840, USA"
+  },
+  {
+    "case_id": "s2aff-0498",
+    "source_row": 498,
+    "split": "test",
+    "text": "Institute for Theoretical Physics, State University of New York at Stony Brook, Stony Brook, NY 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0499",
+    "source_row": 499,
+    "split": "test",
+    "text": "Department of Physics and Astronomy, State University of New York at Stony Brook, Stony Brook, NY 11794-3800, USA"
+  },
+  {
+    "case_id": "s2aff-0500",
+    "source_row": 500,
+    "split": "test",
+    "text": "Physics Department, State University of New York at Stony Brook, Stony Brook, NY 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0501",
+    "source_row": 501,
+    "split": "test",
+    "text": "Physics Department State University of New York at Stony Brook, Stony Brook, USA"
+  },
+  {
+    "case_id": "s2aff-0502",
+    "source_row": 502,
+    "split": "test",
+    "text": "Department of Physics, Stale University of New York, Stony Brook, New York 11794 USA"
+  },
+  {
+    "case_id": "s2aff-0503",
+    "source_row": 503,
+    "split": "test",
+    "text": "Institute for Theoretical Physics, State University of New York at Stony Brook, Stony Brook, Long Island, NY 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0504",
+    "source_row": 504,
+    "split": "test",
+    "text": "Stony Brook University"
+  },
+  {
+    "case_id": "s2aff-0505",
+    "source_row": 505,
+    "split": "test",
+    "text": "Department of Physics, State University of New York at Stony Brook, Stony Brook, NY 11794-3800, USA"
+  },
+  {
+    "case_id": "s2aff-0506",
+    "source_row": 506,
+    "split": "test",
+    "text": "Department of Physics, State University of New York at Stony Brook, Stony Brook, NY 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0507",
+    "source_row": 507,
+    "split": "test",
+    "text": "Physics Department, State University of New York at Stony Brook, Long Island, New York 11794 USA"
+  },
+  {
+    "case_id": "s2aff-0508",
+    "source_row": 508,
+    "split": "test",
+    "text": "State University of New-York at Stony-Brook, Department of Physics, Stony-Brook, NY 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0509",
+    "source_row": 509,
+    "split": "test",
+    "text": "NORDITA and State University of New York∗, Stony Brook, N.Y., USA"
+  },
+  {
+    "case_id": "s2aff-0510",
+    "source_row": 510,
+    "split": "test",
+    "text": "Institute for Theoretical Physics, State University of New York, Stony Brook, New York 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0511",
+    "source_row": 511,
+    "split": "test",
+    "text": "Physics Department, State University of New York, Stony Brook NY 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0512",
+    "source_row": 512,
+    "split": "test",
+    "text": "Institute for Theoretical Physics, State University of New York, Stony Brook, NY 11794 USA"
+  },
+  {
+    "case_id": "s2aff-0513",
+    "source_row": 513,
+    "split": "test",
+    "text": "Institute for Theoretical Physics, State University of New York, Stony Brook, NY 11794-3800, USA"
+  },
+  {
+    "case_id": "s2aff-0514",
+    "source_row": 514,
+    "split": "test",
+    "text": "Department of Physics, State University of New York, Stony Brook, NY 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0515",
+    "source_row": 515,
+    "split": "test",
+    "text": "Department of Physics & Astronomy, State University of New York, Stony Brook, New York"
+  },
+  {
+    "case_id": "s2aff-0516",
+    "source_row": 516,
+    "split": "test",
+    "text": "Department of Physics and Astronomy, State University of New York, Stony Brook, NY 11794-3800, USA"
+  },
+  {
+    "case_id": "s2aff-0517",
+    "source_row": 517,
+    "split": "test",
+    "text": "Physics Department, State University of New York, Stony Brook, L.I., NY 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0518",
+    "source_row": 518,
+    "split": "test",
+    "text": "Physics Department, State University of New York, Stony Brook, USA"
+  },
+  {
+    "case_id": "s2aff-0519",
+    "source_row": 519,
+    "split": "test",
+    "text": "Department of Physics and Astronomy, State University of New York, Stony Brook, NY 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0520",
+    "source_row": 520,
+    "split": "test",
+    "text": "Department of Physics, State University of New York, Stony Brook, New York 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0521",
+    "source_row": 521,
+    "split": "test",
+    "text": "Department of Physics and Astronomy, State University of New York, Stony Brook, New York 11794-3800, USA"
+  },
+  {
+    "case_id": "s2aff-0522",
+    "source_row": 522,
+    "split": "test",
+    "text": "Institute for Theoretical Physics, State University of New York, Stony Brook, Long Island, New York 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0523",
+    "source_row": 523,
+    "split": "test",
+    "text": "Institute for Theoretical Physics, State University of New York, Stony Brook, NY 11794, USA"
+  },
+  {
+    "case_id": "s2aff-0524",
+    "source_row": 524,
+    "split": "test",
+    "text": "Department of Physics, State University of New York, Stony Brook, New York 11790, USA"
+  },
+  {
+    "case_id": "s2aff-0641",
+    "source_row": 641,
+    "split": "test",
+    "text": "Department of Computer Science, University of California, Los Angeles, Ca#TAB#"
+  },
+  {
+    "case_id": "s2aff-0642",
+    "source_row": 642,
+    "split": "test",
+    "text": "Department of Computer Science, University of California, Los Angeles, CA;"
+  },
+  {
+    "case_id": "s2aff-0643",
+    "source_row": 643,
+    "split": "test",
+    "text": "Dept. of Comput. Sci., Univ. of California, Los Angeles, CA, USA"
+  },
+  {
+    "case_id": "s2aff-0644",
+    "source_row": 644,
+    "split": "test",
+    "text": "Computer Science Department University of California Los Angeles, CA#TAB#"
+  },
+  {
+    "case_id": "s2aff-0645",
+    "source_row": 645,
+    "split": "test",
+    "text": "University of California at Los Angeles, Los Angeles, CA"
+  },
+  {
+    "case_id": "s2aff-0646",
+    "source_row": 646,
+    "split": "test",
+    "text": "UCLA Computer Science Department, Los Angeles CA#TAB#"
+  },
+  {
+    "case_id": "s2aff-0647",
+    "source_row": 647,
+    "split": "test",
+    "text": "Computer Science Department University of California, Los Angeles, CA, USA"
+  },
+  {
+    "case_id": "s2aff-0648",
+    "source_row": 648,
+    "split": "test",
+    "text": "University of California, Los Angeles."
+  },
+  {
+    "case_id": "s2aff-0649",
+    "source_row": 649,
+    "split": "test",
+    "text": "UCLA, LOS ANGELES, CA"
+  },
+  {
+    "case_id": "s2aff-0650",
+    "source_row": 650,
+    "split": "test",
+    "text": "Computer Science Department, UCLA, Los Angeles, CA#TAB#"
+  },
+  {
+    "case_id": "s2aff-0651",
+    "source_row": 651,
+    "split": "test",
+    "text": "UNIVERSITY OF CALIFORNIA, LOS ANGELES, CA"
+  },
+  {
+    "case_id": "s2aff-0652",
+    "source_row": 652,
+    "split": "test",
+    "text": "<org_name>University of California, Los Angeles, Los Angeles, CA</org_name>"
+  },
+  {
+    "case_id": "s2aff-0653",
+    "source_row": 653,
+    "split": "test",
+    "text": "Department of Computer Science, University of California, Los Angeles, Los Angeles, CA#TAB#"
+  },
+  {
+    "case_id": "s2aff-0654",
+    "source_row": 654,
+    "split": "test",
+    "text": "UCLA, CA,"
+  },
+  {
+    "case_id": "s2aff-0655",
+    "source_row": 655,
+    "split": "test",
+    "text": "Smart Media Institute, University College Dublin, Ireland#TAB#"
+  },
+  {
+    "case_id": "s2aff-0656",
+    "source_row": 656,
+    "split": "test",
+    "text": "University College Dublin"
+  },
+  {
+    "case_id": "s2aff-0657",
+    "source_row": 657,
+    "split": "test",
+    "text": "Dept. of Comput. Sci., Univ. Coll. Dublin, Dublin, Ireland"
+  },
+  {
+    "case_id": "s2aff-0658",
+    "source_row": 658,
+    "split": "test",
+    "text": "University College Dublin , Dublin , Ireland "
+  },
+  {
+    "case_id": "s2aff-0659",
+    "source_row": 659,
+    "split": "test",
+    "text": "Adaptive Information Cluster, University College Dublin"
+  },
+  {
+    "case_id": "s2aff-0660",
+    "source_row": 660,
+    "split": "test",
+    "text": "Adaptive Information Cluster, UCD School of Computer Science and Informatics, University College Dublin, Belfield, Dublin 4, Ireland#TAB#"
+  },
+  {
+    "case_id": "s2aff-0661",
+    "source_row": 661,
+    "split": "test",
+    "text": "Cornell Univ. "
+  },
+  {
+    "case_id": "s2aff-0662",
+    "source_row": 662,
+    "split": "test",
+    "text": "Cornell Univ, Ithica, NY"
+  },
+  {
+    "case_id": "s2aff-0663",
+    "source_row": 663,
+    "split": "test",
+    "text": "[Dept. of Comput. Sci., Cornell Univ., Ithaca, NY, USA]"
+  },
+  {
+    "case_id": "s2aff-0664",
+    "source_row": 664,
+    "split": "test",
+    "text": "Cornell University, Ithaca, NY"
+  },
+  {
+    "case_id": "s2aff-0665",
+    "source_row": 665,
+    "split": "test",
+    "text": "Dept. of Computer Science, Upson Hall, Cornell University, Ithaca, NY"
+  },
+  {
+    "case_id": "s2aff-0666",
+    "source_row": 666,
+    "split": "test",
+    "text": "Dept. of Computer Science, Cornell University Ithaca, NY#TAB#"
+  },
+  {
+    "case_id": "s2aff-0667",
+    "source_row": 667,
+    "split": "test",
+    "text": "Cornell University, Department of Computer Science, Ithaca, NY#TAB#"
+  },
+  {
+    "case_id": "s2aff-0668",
+    "source_row": 668,
+    "split": "test",
+    "text": "Computer Science Department, Cornell University, Ithaca, NY 14853, USA"
+  },
+  {
+    "case_id": "s2aff-0669",
+    "source_row": 669,
+    "split": "test",
+    "text": "Computer Science Department, Cornell University, Ithaca, NY 14853, U.S.A. E-mail: halpern@cs.cornell.edu; http://www.cs.cornell.edu/home/halpern#TAB#"
+  },
+  {
+    "case_id": "s2aff-0670",
+    "source_row": 670,
+    "split": "test",
+    "text": "Computer Science Department, Cornell University, USA. E-mail:"
+  },
+  {
+    "case_id": "s2aff-0671",
+    "source_row": 671,
+    "split": "test",
+    "text": "Kyoto Univ."
+  },
+  {
+    "case_id": "s2aff-0672",
+    "source_row": 672,
+    "split": "test",
+    "text": "Department of Applied Mathematics & Physics Kyoto University, Kyoto, Japan"
+  },
+  {
+    "case_id": "s2aff-0673",
+    "source_row": 673,
+    "split": "test",
+    "text": "Dept. of Applied Mathematics & Physics, Faculty of Engineering, Kyoto University, Kyoto, JAPAN"
+  },
+  {
+    "case_id": "s2aff-0674",
+    "source_row": 674,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Physics, Graduate School of Informatics, Kyoto University, Kyoto 606-8501, Japan"
+  },
+  {
+    "case_id": "s2aff-0675",
+    "source_row": 675,
+    "split": "test",
+    "text": "Kyoto University, Kyoto, JAPAN"
+  },
+  {
+    "case_id": "s2aff-0676",
+    "source_row": 676,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Physics, Graduate School of Informatics, Kyoto University, Kyoto 606-8301, Japan"
+  },
+  {
+    "case_id": "s2aff-0677",
+    "source_row": 677,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Physics, Kyoto University#TAB#"
+  },
+  {
+    "case_id": "s2aff-0678",
+    "source_row": 678,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Physics, Graduate School of Engineering, Kyoto University, Kyoto 606-8501, Japan"
+  },
+  {
+    "case_id": "s2aff-0679",
+    "source_row": 679,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Physics, Graduate School of Informatics, Kyoto University, Kyoto, Japan 606-8501 E-mail: ibaraki@i.kyoto-u.ac.jp#TAB#"
+  },
+  {
+    "case_id": "s2aff-0680",
+    "source_row": 680,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Physics, Kyoto University, Sakyo, Kyoto, Japan"
+  },
+  {
+    "case_id": "s2aff-0681",
+    "source_row": 681,
+    "split": "test",
+    "text": "Department of Applied Mathematics and Physics, Graduate School of Informatics, Kyoto University, Kyoto 606-8501, Japan#TAB#"
+  },
+  {
+    "case_id": "s2aff-0730",
+    "source_row": 730,
+    "split": "test",
+    "text": "Neurological and Mental Health Division, The George Institute for Global Health, University of Sydney and Royal Prince Alfred Hospital, Sydney, Australia"
+  },
+  {
+    "case_id": "s2aff-0731",
+    "source_row": 731,
+    "split": "test",
+    "text": "The George Institute for Global Health, University of Sydney and Royal Prince Alfred Hospital, Sydney, NSW, Australia."
+  },
+  {
+    "case_id": "s2aff-0732",
+    "source_row": 732,
+    "split": "test",
+    "text": "The George Institute for Global Health, Royal Prince Alfred Hospital and the University of Sydney, PO Box M201, Missenden Road, NSW 2050 Australia"
+  },
+  {
+    "case_id": "s2aff-0733",
+    "source_row": 733,
+    "split": "test",
+    "text": "Department of Internal Medicine,Yonsei University College of Medicine, Seoul, Korea"
+  },
+  {
+    "case_id": "s2aff-0734",
+    "source_row": 734,
+    "split": "test",
+    "text": "Division of Endocrinology, Department of Internal Medicine, Kangnam Severance Hospital Severance Institute for Vascular and Metabolic Research, Yonsei University College of Medicine, 146-92, Dogok-Dong, Kangnam-Ku, Seoul 135-720, Republic of Korea."
+  },
+  {
+    "case_id": "s2aff-0735",
+    "source_row": 735,
+    "split": "test",
+    "text": "Department of Surgery Yonsei University College of Medicine Seoul, Korea"
+  },
+  {
+    "case_id": "s2aff-0736",
+    "source_row": 736,
+    "split": "test",
+    "text": "Department of Dermatology, School of Medicine, The Catholic University of Daegu, Daegu, South Korea"
+  },
+  {
+    "case_id": "s2aff-0737",
+    "source_row": 737,
+    "split": "test",
+    "text": "Ajou University School of Medicine"
+  },
+  {
+    "case_id": "s2aff-0738",
+    "source_row": 738,
+    "split": "test",
+    "text": "Department of Anatomy, Ajou University School of Medicine Suwon, South Korea."
+  },
+  {
+    "case_id": "s2aff-0794",
+    "source_row": 794,
+    "split": "test",
+    "text": "Department of Computer Science and 2 Department of Biostatistics, University of North Carolina at Chapel Hill"
+  },
+  {
+    "case_id": "s2aff-0795",
+    "source_row": 795,
+    "split": "test",
+    "text": "U of North Carolina-Chapel Hill"
+  },
+  {
+    "case_id": "s2aff-0796",
+    "source_row": 796,
+    "split": "test",
+    "text": "Department of Computer Science, University of North Carolina at Chapel Hill, NC 27599, USA#TAB#"
+  },
+  {
+    "case_id": "s2aff-0797",
+    "source_row": 797,
+    "split": "test",
+    "text": "University of North Carolina at Chapel Hill"
+  },
+  {
+    "case_id": "s2aff-0798",
+    "source_row": 798,
+    "split": "test",
+    "text": "#N##TAB##TAB##TAB##TAB# University of North Carolina at Chapel Hill, Chapel Hill, NC#N##TAB##TAB##TAB#"
+  },
+  {
+    "case_id": "s2aff-0799",
+    "source_row": 799,
+    "split": "test",
+    "text": "Dept. of Computer Science, University of North Carolina at Chapel Hill, NC#TAB#"
+  },
+  {
+    "case_id": "s2aff-0800",
+    "source_row": 800,
+    "split": "test",
+    "text": "Department of Computer Science, University of North Carolina, Chapel Hill, weiwang@cs.unc.edu"
+  },
+  {
+    "case_id": "s2aff-0801",
+    "source_row": 801,
+    "split": "test",
+    "text": "Department of Computer Science, University of North Carolina at Chapel Hill, Chapel Hill, U.S.A.#TAB#"
+  },
+  {
+    "case_id": "s2aff-0802",
+    "source_row": 802,
+    "split": "test",
+    "text": "University of North Carolina, Chapel Hill, "
+  },
+  {
+    "case_id": "s2aff-0803",
+    "source_row": 803,
+    "split": "test",
+    "text": "Dept. of Comput. Sci., North Carolina Univ., Chapel Hill, NC, USA#TAB#"
+  },
+  {
+    "case_id": "s2aff-0804",
+    "source_row": 804,
+    "split": "test",
+    "text": "[Dept. of Comput. Sci., Univ. of North Carolina, Chapel Hill, NC]"
+  },
+  {
+    "case_id": "s2aff-0805",
+    "source_row": 805,
+    "split": "test",
+    "text": "UNC Chapel Hill, Computer Science Department, USA#TAB#"
+  },
+  {
+    "case_id": "s2aff-0806",
+    "source_row": 806,
+    "split": "test",
+    "text": "University of North Carolina at Chapel Hill, Chapel Hill, NC, (USA)"
+  },
+  {
+    "case_id": "s2aff-0807",
+    "source_row": 807,
+    "split": "test",
+    "text": "Computer Science Department, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA. weiwang@cs.unc.edu#TAB#"
+  },
+  {
+    "case_id": "s2aff-0808",
+    "source_row": 808,
+    "split": "test",
+    "text": "Dept. of Comput. & Information Technol., Fudan Univ., Shanghai, China"
+  },
+  {
+    "case_id": "s2aff-0809",
+    "source_row": 809,
+    "split": "test",
+    "text": "Dept. of Comput. & Inf. Technol., Fudan Univ., Shanghai"
+  },
+  {
+    "case_id": "s2aff-0810",
+    "source_row": 810,
+    "split": "test",
+    "text": "[Sch. of Comput. Sci., Fudan Univ., Shanghai, China]"
+  },
+  {
+    "case_id": "s2aff-0811",
+    "source_row": 811,
+    "split": "test",
+    "text": "Fudan Univ. Shanghai, China"
+  },
+  {
+    "case_id": "s2aff-0812",
+    "source_row": 812,
+    "split": "test",
+    "text": "[Fudan Univ., Shanghai]"
+  },
+  {
+    "case_id": "s2aff-0813",
+    "source_row": 813,
+    "split": "test",
+    "text": "Dept. of Comput. Sci. & Inf. Technol., Fudan Univ., Shanghai"
+  },
+  {
+    "case_id": "s2aff-0814",
+    "source_row": 814,
+    "split": "test",
+    "text": "Department of Computing and Information Technology, Fudan University, Shanghai 200433. P.R. China#TAB#"
+  },
+  {
+    "case_id": "s2aff-0815",
+    "source_row": 815,
+    "split": "test",
+    "text": "Department of Computing and Information Technology, Fudan University, P.O. Box 200433, Shanghai, China#TAB#"
+  },
+  {
+    "case_id": "s2aff-0816",
+    "source_row": 816,
+    "split": "test",
+    "text": "Department of Computing and Information Technology, FUDAN University, Shanghai, China#TAB#"
+  },
+  {
+    "case_id": "s2aff-0817",
+    "source_row": 817,
+    "split": "test",
+    "text": "Department of Computer Science, Fudan University;"
+  },
+  {
+    "case_id": "s2aff-0818",
+    "source_row": 818,
+    "split": "test",
+    "text": "Fudan University"
+  },
+  {
+    "case_id": "s2aff-0819",
+    "source_row": 819,
+    "split": "test",
+    "text": "Department of Computing and Information Technology Science, Fudan University, Shanghai, P.R.China"
+  },
+  {
+    "case_id": "s2aff-0820",
+    "source_row": 820,
+    "split": "test",
+    "text": "Fudan University,china"
+  },
+  {
+    "case_id": "s2aff-0821",
+    "source_row": 821,
+    "split": "test",
+    "text": "Dept. of Comput., Macquarie Univ., Sydney, NSW"
+  },
+  {
+    "case_id": "s2aff-0822",
+    "source_row": 822,
+    "split": "test",
+    "text": "Dept. of Comput., Macquarie Univ., Sydney, NSW, Australia#TAB#"
+  },
+  {
+    "case_id": "s2aff-0823",
+    "source_row": 823,
+    "split": "test",
+    "text": "Macquarie University, Sydney, NSW, Australia"
+  },
+  {
+    "case_id": "s2aff-0824",
+    "source_row": 824,
+    "split": "test",
+    "text": "Macquarie University Sydney, NSW 2109 Australia"
+  },
+  {
+    "case_id": "s2aff-0825",
+    "source_row": 825,
+    "split": "test",
+    "text": "Department of Computing Macquarie University  Sydney Australia"
+  },
+  {
+    "case_id": "s2aff-0826",
+    "source_row": 826,
+    "split": "test",
+    "text": " Macquarie University"
+  },
+  {
+    "case_id": "s2aff-0827",
+    "source_row": 827,
+    "split": "test",
+    "text": "Macquarie University  Sydney NSW"
+  },
+  {
+    "case_id": "s2aff-0828",
+    "source_row": 828,
+    "split": "test",
+    "text": "Department of Computing, Macquarie University, Sydney, Australia NSW"
+  },
+  {
+    "case_id": "s2aff-0829",
+    "source_row": 829,
+    "split": "test",
+    "text": "Department of Computing, Macquarie University, Sydney, Australia#TAB#"
+  },
+  {
+    "case_id": "s2aff-0830",
+    "source_row": 830,
+    "split": "test",
+    "text": "Macquarie University — Sydney"
+  },
+  {
+    "case_id": "s2aff-0831",
+    "source_row": 831,
+    "split": "test",
+    "text": "Department of Computing, Macquarie University, Sydney, NSW 2109, Australia (Correspd. Tel.: +61 2 98509539; Fax: +61 2 98509551; yanwang@ics.mq.edu.au)#TAB#"
+  },
+  {
+    "case_id": "s2aff-0832",
+    "source_row": 832,
+    "split": "test",
+    "text": "(Correspd. Tel.: +61 2 98509539; Fax: +61 2 98509551; E-mail: yanwang@ics.mq.edu.au) Department of Computing, Macquarie University, Sydney, Australia#TAB#"
+  },
+  {
+    "case_id": "s2aff-0833",
+    "source_row": 833,
+    "split": "test",
+    "text": "Department of Computing, Macquarie University, Sydney, NSW 2109, Australia.#TAB#"
+  },
+  {
+    "case_id": "s2aff-0834",
+    "source_row": 834,
+    "split": "test",
+    "text": "Department of Computing, Macquarie University, Sydney, NSW 2109, Australia"
+  },
+  {
+    "case_id": "s2aff-0835",
+    "source_row": 835,
+    "split": "test",
+    "text": "Dept. of Comput., Macquarie Univ., North Ryde, NSW, Australia"
+  },
+  {
+    "case_id": "s2aff-0836",
+    "source_row": 836,
+    "split": "test",
+    "text": "Dept. of Computing, Macquarie University, Sydney, NSW, Australia"
+  },
+  {
+    "case_id": "s2aff-0837",
+    "source_row": 837,
+    "split": "test",
+    "text": "Macquarie University, NSW, Australia."
+  },
+  {
+    "case_id": "s2aff-0838",
+    "source_row": 838,
+    "split": "test",
+    "text": "Sch. Of Comput. Sci. & Eng., Univ. of New South Wales, Sydney, NSW"
+  },
+  {
+    "case_id": "s2aff-0839",
+    "source_row": 839,
+    "split": "test",
+    "text": "Univ. of New South Wales (Australia)#TAB#"
+  },
+  {
+    "case_id": "s2aff-0840",
+    "source_row": 840,
+    "split": "test",
+    "text": "School of Computer Science and Engineering, University of New South Wales,Australia"
+  },
+  {
+    "case_id": "s2aff-0841",
+    "source_row": 841,
+    "split": "test",
+    "text": "The University of New South Wales, Australia"
+  },
+  {
+    "case_id": "s2aff-0842",
+    "source_row": 842,
+    "split": "test",
+    "text": "University of New South Wales Sydney NSW Australia"
+  },
+  {
+    "case_id": "s2aff-0843",
+    "source_row": 843,
+    "split": "test",
+    "text": "University of New South Wales and NICTA, Sydney, Australia#TAB#"
+  },
+  {
+    "case_id": "s2aff-0844",
+    "source_row": 844,
+    "split": "test",
+    "text": "School of Chemical Engineering and Industrial Chemistry, The University of New South Wales, UNSW, Sydney, NSW 2052, Australia"
+  },
+  {
+    "case_id": "s2aff-0845",
+    "source_row": 845,
+    "split": "test",
+    "text": "Programming Languages and Compilers Group, School of Computer Science and Engineering, The University of New South Wales, Sydney, Australia#TAB#"
+  },
+  {
+    "case_id": "s2aff-0846",
+    "source_row": 846,
+    "split": "test",
+    "text": "Univ. of New South Wales, Kensington NSW, Australia#TAB#"
+  },
+  {
+    "case_id": "s2aff-0847",
+    "source_row": 847,
+    "split": "test",
+    "text": "School of Chemical Engineering and Industrial Chemistry, The University of New South Wales, UNSW, Sydney, NSW 2052, Australia#TAB#"
+  },
+  {
+    "case_id": "s2aff-0848",
+    "source_row": 848,
+    "split": "test",
+    "text": "Programming Languages and Compilers Group, School of Computer Science and Engineering, University of New South Wales, Sydney#TAB#"
+  },
+  {
+    "case_id": "s2aff-0849",
+    "source_row": 849,
+    "split": "test",
+    "text": "NICTA, Univ. of New South Wales, NSW"
+  },
+  {
+    "case_id": "s2aff-0850",
+    "source_row": 850,
+    "split": "test",
+    "text": "The University of New South, Wales"
+  },
+  {
+    "case_id": "s2aff-0851",
+    "source_row": 851,
+    "split": "test",
+    "text": "School of Computer Science and Engineering, University of New South Wales, Sydney, "
+  },
+  {
+    "case_id": "s2aff-0852",
+    "source_row": 852,
+    "split": "test",
+    "text": "School of Chemical Engineering & Industrial Chemistry, The University of New South Wales, UNSW, Sydney, NSW, Australia#TAB#"
+  },
+  {
+    "case_id": "s2aff-0853",
+    "source_row": 853,
+    "split": "test",
+    "text": "School of Computer Science and Engineering, University of NSW, Australia and NICTA, Australia"
+  },
+  {
+    "case_id": "s2aff-0854",
+    "source_row": 854,
+    "split": "test",
+    "text": "The Univ. of New South Wales, Sydney, Australia"
+  },
+  {
+    "case_id": "s2aff-0855",
+    "source_row": 855,
+    "split": "test",
+    "text": "School of Computer Sci. and Eng., University of New South Wales, Sydney, NSW, Australia#TAB#"
+  },
+  {
+    "case_id": "s2aff-0856",
+    "source_row": 856,
+    "split": "test",
+    "text": "School of Computer Science & Engineering, University of New South Wales, Kensington, Australia"
+  },
+  {
+    "case_id": "s2aff-0857",
+    "source_row": 857,
+    "split": "test",
+    "text": "The University of New South Wales and NICTA, Sydney, Australia"
+  },
+  {
+    "case_id": "s2aff-0935",
+    "source_row": 935,
+    "split": "test",
+    "text": "Mathematics Department College of Science, King Saud University, Riyadh, Saudi Arabia"
+  },
+  {
+    "case_id": "s2aff-0936",
+    "source_row": 936,
+    "split": "test",
+    "text": "Mathematics Department, College of Science King Saud University, P.O. Box 2455, Riyadh 11451, Saudi Arabia"
+  },
+  {
+    "case_id": "s2aff-0937",
+    "source_row": 937,
+    "split": "test",
+    "text": "Mathematics Department, College of Science, King Saud University, Riyadh 11451, Saudi Arabia"
+  },
+  {
+    "case_id": "s2aff-0938",
+    "source_row": 938,
+    "split": "test",
+    "text": "Mathematics Department, College of Science King Saud University, P.O. Box 2455, Riyadh 11451, Saudi Arabia#TAB#"
+  },
+  {
+    "case_id": "s2aff-0939",
+    "source_row": 939,
+    "split": "test",
+    "text": "Mathematics Department, College of Science, P.O. Box 2455, King Saud University, Riyadh 11451, Saudi Arabia#TAB#"
+  },
+  {
+    "case_id": "s2aff-0940",
+    "source_row": 940,
+    "split": "test",
+    "text": "Mathematics Department, King Saud University, Riyadh, 11451, Saudi Arabia"
+  },
+  {
+    "case_id": "s2aff-0941",
+    "source_row": 941,
+    "split": "test",
+    "text": "Mathematics Department , College of Science King Saud University , P O Box 2455, Riyadh, 11451, Saudi Arabia "
+  },
+  {
+    "case_id": "s2aff-0942",
+    "source_row": 942,
+    "split": "test",
+    "text": "Department of Mathematics, College of Science King Saud University  Riyadh Saudi Arabia"
+  },
+  {
+    "case_id": "s2aff-0943",
+    "source_row": 943,
+    "split": "test",
+    "text": "Department of Mathematics, College of Science, King Saud University, Riyadh, 11451, Saudi Arabia"
+  },
+  {
+    "case_id": "s2aff-0944",
+    "source_row": 944,
+    "split": "test",
+    "text": "Mathematics Department, College of Science , King Saud University , P.O. Box 2455, Riyadh, 11451, Saudi Arabia "
+  },
+  {
+    "case_id": "s2aff-0945",
+    "source_row": 945,
+    "split": "test",
+    "text": "Mathematics Department , College of Science, King Saud University , Riyadh, 11451, Saudi Arabia "
+  },
+  {
+    "case_id": "s2aff-0946",
+    "source_row": 946,
+    "split": "test",
+    "text": "Mathematics Department, College of Science, King Saud University P.O. Box 2455, Riyadh 11451, Saudi Arabia"
+  },
+  {
+    "case_id": "s2aff-0947",
+    "source_row": 947,
+    "split": "test",
+    "text": "Mathematics Department, College of Science, King Saud University, P. O. Box 2455, Riyadh 11451, Saudi Arabia"
+  },
+  {
+    "case_id": "s2aff-0948",
+    "source_row": 948,
+    "split": "test",
+    "text": "MATHEMATISCHES INSTITUT UNIVERSITÄT BONN BONN"
+  },
+  {
+    "case_id": "s2aff-0949",
+    "source_row": 949,
+    "split": "test",
+    "text": "Institut für Angewandte Mathematik, Universität Bonn, Bonn,#N#Germany#N#"
+  },
+  {
+    "case_id": "s2aff-0950",
+    "source_row": 950,
+    "split": "test",
+    "text": "Mathematisches Institut der Universität Bonn, Bonn, "
+  },
+  {
+    "case_id": "s2aff-0951",
+    "source_row": 951,
+    "split": "test",
+    "text": "Universität Bonn >  >  >  > >"
+  },
+  {
+    "case_id": "s2aff-0952",
+    "source_row": 952,
+    "split": "test",
+    "text": "Institut für Angewandte Mathematik der Universität, Bonn, Federal Republic of Germany"
+  },
+  {
+    "case_id": "s2aff-0953",
+    "source_row": 953,
+    "split": "test",
+    "text": "Mathematisches Institut Universität Bonn"
+  },
+  {
+    "case_id": "s2aff-0954",
+    "source_row": 954,
+    "split": "test",
+    "text": "Mathematisches Institut , Universität Bonn , Bonn , Germany "
+  },
+  {
+    "case_id": "s2aff-0955",
+    "source_row": 955,
+    "split": "test",
+    "text": "Institut für Angewandte Mathematik, der Universität Bonn, Wegelerstraße 6, D — 53 Bonn"
+  },
+  {
+    "case_id": "s2aff-0956",
+    "source_row": 956,
+    "split": "test",
+    "text": "Institute für Angewandte Mathematik, Universität Bonn, 53 Bonn, W. Germany"
+  },
+  {
+    "case_id": "s2aff-0957",
+    "source_row": 957,
+    "split": "test",
+    "text": "Mathematisches Institut der Universität Bonn, Bonn 1, Federal Republic of Germany"
+  },
+  {
+    "case_id": "s2aff-0958",
+    "source_row": 958,
+    "split": "test",
+    "text": "Institut für Angewandte Mathematik, Universität Bonn, Wegelerstrasse 6, 53 Bonn, West Germany"
+  },
+  {
+    "case_id": "s2aff-0959",
+    "source_row": 959,
+    "split": "test",
+    "text": "Institut für Angewandte Mathematik Universität Bonn, Wegelerstraße 6 5300 Bonn, West Germany"
+  },
+  {
+    "case_id": "s2aff-0960",
+    "source_row": 960,
+    "split": "test",
+    "text": "Abt. Funktionalanalysis und Numerische Mathematik, Institut für angewandte Mathematik und Informatik der Universität Bonn, Bonn, Germany"
+  },
+  {
+    "case_id": "s2aff-0961",
+    "source_row": 961,
+    "split": "test",
+    "text": "Bonn University "
+  },
+  {
+    "case_id": "s2aff-0962",
+    "source_row": 962,
+    "split": "test",
+    "text": "Steklov Mathematical Institute, Academy of Sciences of the USSR, USSR"
+  },
+  {
+    "case_id": "s2aff-0963",
+    "source_row": 963,
+    "split": "test",
+    "text": "Steklov Mathematical Institute"
+  },
+  {
+    "case_id": "s2aff-0964",
+    "source_row": 964,
+    "split": "test",
+    "text": "V. A. Steklov Mathematical Institute, Academy of Sciences of the USSR, Moscow, USSR"
+  },
+  {
+    "case_id": "s2aff-0965",
+    "source_row": 965,
+    "split": "test",
+    "text": "Steklov Mathematical Institute, Moscow, USSR"
+  },
+  {
+    "case_id": "s2aff-0966",
+    "source_row": 966,
+    "split": "test",
+    "text": "V. A. Steklov Mathematical Institute, The Academy of Sciences of the USSR, Moscow, USSR"
+  },
+  {
+    "case_id": "s2aff-0967",
+    "source_row": 967,
+    "split": "test",
+    "text": "Steklov Mathematical Institute , Vavilov str., 42, Moscow, 117966, Russia "
+  },
+  {
+    "case_id": "s2aff-0968",
+    "source_row": 968,
+    "split": "test",
+    "text": "V. Steklov Mathematical Institute, Akad. Nauk SSSR#TAB#"
+  },
+  {
+    "case_id": "s2aff-0969",
+    "source_row": 969,
+    "split": "test",
+    "text": "Steklov Mathematical Institute, Moscow, U.S.S.R."
+  },
+  {
+    "case_id": "s2aff-0970",
+    "source_row": 970,
+    "split": "test",
+    "text": "Department of Mathematics and Statistics University of Calgary Calgary, Alberta T2N 1N4 Canada"
+  },
+  {
+    "case_id": "s2aff-0971",
+    "source_row": 971,
+    "split": "test",
+    "text": "Department of Mechanical Engineering , The University of Calgary , Calgary, Canada "
+  },
+  {
+    "case_id": "s2aff-0972",
+    "source_row": 972,
+    "split": "test",
+    "text": "Mathematics Department University of Calgary"
+  },
+  {
+    "case_id": "s2aff-0973",
+    "source_row": 973,
+    "split": "test",
+    "text": "Mathematics Department, University of Calgary, Calgary, Alberta, Canada, T2N 1N4. E-mail: ramollin@math.ucalgary.ca"
+  },
+  {
+    "case_id": "s2aff-0974",
+    "source_row": 974,
+    "split": "test",
+    "text": "Department of Mathematics and Statistics, University of Calgary, Calgary, Alberta, T2N 1N4, Canada ramollin@math.ucalgary.ca"
+  },
+  {
+    "case_id": "s2aff-0975",
+    "source_row": 975,
+    "split": "test",
+    "text": "Department of Mathematics and Statistics, University of Calgary, Calgary, Alberta, Canada, T2N 1N4"
+  },
+  {
+    "case_id": "s2aff-0976",
+    "source_row": 976,
+    "split": "test",
+    "text": "Department of Mathematics and Statistics, University of Calgary, Calgary Alberta, Canada;"
+  },
+  {
+    "case_id": "s2aff-0977",
+    "source_row": 977,
+    "split": "test",
+    "text": "Mathematics Department University of Calgary Calgary, Alberta T2N 1N4 Canada"
+  },
+  {
+    "case_id": "s2aff-1004",
+    "source_row": 1004,
+    "split": "test",
+    "text": "Research Center for Animal Hygiene and Food Safety, Obihiro University of Agriculture and Veterinary Medicine, 2-11 Inada, Obihiro, Hokkaido 080-8555, Japan"
+  },
+  {
+    "case_id": "s2aff-1005",
+    "source_row": 1005,
+    "split": "test",
+    "text": "Obihiro University of Agriculture and Veterinary Medicine"
+  },
+  {
+    "case_id": "s2aff-1006",
+    "source_row": 1006,
+    "split": "test",
+    "text": "Laboratory of Morphometry and Cardiovascular Morphology, Biomedical Center, Institute of Biology, State University of Rio de Janeiro, Brazil."
+  },
+  {
+    "case_id": "s2aff-1007",
+    "source_row": 1007,
+    "split": "test",
+    "text": "Universidade  do  Estado do Rio de Janeiro"
+  },
+  {
+    "case_id": "s2aff-1008",
+    "source_row": 1008,
+    "split": "test",
+    "text": "Department of Community MedicineFaculty of Health Sciences, University of Tromsø Tromsø Norway"
+  },
+  {
+    "case_id": "s2aff-1009",
+    "source_row": 1009,
+    "split": "test",
+    "text": "Institute of Clinical Medicine, University of Tromsø,  Tromsø, Norway."
+  },
+  {
+    "case_id": "s2aff-1010",
+    "source_row": 1010,
+    "split": "test",
+    "text": "Institute of Neuroscience, Newcastle University, Newcastle upon Tyne NE2 4HH, UK."
+  },
+  {
+    "case_id": "s2aff-1011",
+    "source_row": 1011,
+    "split": "test",
+    "text": "Institute of Neuroscience, Newcastle University, Newcastle upon Tyne, NE2 4HH, UK"
+  },
+  {
+    "case_id": "s2aff-1028",
+    "source_row": 1028,
+    "split": "test",
+    "text": "College of Animal Science and Technology, Northwest A & F University, Yangling, Shaanxi, China"
+  },
+  {
+    "case_id": "s2aff-1029",
+    "source_row": 1029,
+    "split": "test",
+    "text": "Department of Harbor and River Engineering, Taiwan Ocean University, Keelung, Taiwan, ROC"
+  },
+  {
+    "case_id": "s2aff-1030",
+    "source_row": 1030,
+    "split": "test",
+    "text": "Shanghai Xin Jinqiao Environmental Protection Company"
+  },
+  {
+    "case_id": "s2aff-1031",
+    "source_row": 1031,
+    "split": "test",
+    "text": "Institute of Scientific and Technical Information of China, Beijing, China#TAB#"
+  },
+  {
+    "case_id": "s2aff-1032",
+    "source_row": 1032,
+    "split": "test",
+    "text": "First Affiliated Hospital of Kunming Medical College Kunming China"
+  },
+  {
+    "case_id": "s2aff-1033",
+    "source_row": 1033,
+    "split": "test",
+    "text": "International Joint Cancer Institute, The Second Military Medical University, Shanghai, China"
+  },
+  {
+    "case_id": "s2aff-1034",
+    "source_row": 1034,
+    "split": "test",
+    "text": "National Laboratory of Pattern Recognition, Institute of Automation, CAS, Beijing, China"
+  },
+  {
+    "case_id": "s2aff-1035",
+    "source_row": 1035,
+    "split": "test",
+    "text": "Northwest Institute of Nuclear Technology, P"
+  },
+  {
+    "case_id": "s2aff-1036",
+    "source_row": 1036,
+    "split": "test",
+    "text": "Department of Urology, PLA General Hospital/Medical school, Beijing, China."
+  },
+  {
+    "case_id": "s2aff-1054",
+    "source_row": 1054,
+    "split": "test",
+    "text": "IEEE"
+  },
+  {
+    "case_id": "s2aff-1055",
+    "source_row": 1055,
+    "split": "test",
+    "text": "Nature Inspired Computation and Applications Laboratory, School of Information Science and Technology, USTC, Huangshan Road, Hefei, Anhui 230027, China#TAB#"
+  },
+  {
+    "case_id": "s2aff-1056",
+    "source_row": 1056,
+    "split": "test",
+    "text": "Mathematical Institute, Oxford OX1 3LB, United Kingdom"
+  },
+  {
+    "case_id": "s2aff-1057",
+    "source_row": 1057,
+    "split": "test",
+    "text": "AMSS, Beijing, China"
+  },
+  {
+    "case_id": "s2aff-1058",
+    "source_row": 1058,
+    "split": "test",
+    "text": "Institute of Microelectronics, 11 Science Park Road, Science Park II, Singapore 117685, Singapore#TAB#"
+  },
+  {
+    "case_id": "s2aff-1059",
+    "source_row": 1059,
+    "split": "test",
+    "text": "Department of Electrical Engineering, North Carolina A&T State University, Greensboro, NC#TAB#"
+  },
+  {
+    "case_id": "s2aff-1060",
+    "source_row": 1060,
+    "split": "test",
+    "text": "Henan Inst. of Sci. & Technol., Xinxiang, China"
+  },
+  {
+    "case_id": "s2aff-1075",
+    "source_row": 1075,
+    "split": "test",
+    "text": "IASF-CNR, via Bassini 15, I-20133 Milan, Italy"
+  },
+  {
+    "case_id": "s2aff-1076",
+    "source_row": 1076,
+    "split": "test",
+    "text": "Laboratori Nazionali di Frascati dell'INFN, I-00044, Frascati, Italy"
+  },
+  {
+    "case_id": "s2aff-1077",
+    "source_row": 1077,
+    "split": "test",
+    "text": "Institute of Particle Physics, Hua-Zhong Normal University, Wuhan 430070, China"
+  },
+  {
+    "case_id": "s2aff-1078",
+    "source_row": 1078,
+    "split": "test",
+    "text": "Theoretical Physics Division, Rudjer BoškovićInstitute, Zagreb, Croatia"
+  },
+  {
+    "case_id": "s2aff-1079",
+    "source_row": 1079,
+    "split": "test",
+    "text": "Institute of Theoretical and Experimental Physics, B. Cheremushkinskaya str. 25, 117218 Moscow, Russia"
+  },
+  {
+    "case_id": "s2aff-1091",
+    "source_row": 1091,
+    "split": "test",
+    "text": "IDM Almaden Research Center, San Jose, CA#TAB#"
+  },
+  {
+    "case_id": "s2aff-1092",
+    "source_row": 1092,
+    "split": "test",
+    "text": "Dept. of Comput. Sci., Virginia Polytech. Inst. & State Univ., Blacksburg, VA, USA"
+  },
+  {
+    "case_id": "s2aff-1093",
+    "source_row": 1093,
+    "split": "test",
+    "text": "Fakultät für Mathematik und Informatik, Universität Konstanz, Universitätsstraβe 10, 78434 Konstanz, Germany"
+  },
+  {
+    "case_id": "s2aff-1094",
+    "source_row": 1094,
+    "split": "test",
+    "text": "Management Intelligenter Technologien GmbH, Promenade 9, 52076 Aachen, Germany#TAB#"
+  },
+  {
+    "case_id": "s2aff-1095",
+    "source_row": 1095,
+    "split": "test",
+    "text": "VSSAD, Alpha Technology Group, Compaq Computer Corporation, 334 South Street, Mail Stop SHR3-2E/R28, Shrewsbury, MA"
+  },
+  {
+    "case_id": "s2aff-1096",
+    "source_row": 1096,
+    "split": "test",
+    "text": "Dept. of Comput., Baptist Univ., Kowloon, Hong Kong"
+  },
+  {
+    "case_id": "s2aff-1107",
+    "source_row": 1107,
+    "split": "test",
+    "text": "Research Planning & Information Division, National Institute of Agricultural Biotechnology, Suwon, Korea"
+  },
+  {
+    "case_id": "s2aff-1108",
+    "source_row": 1108,
+    "split": "test",
+    "text": "Department of DermatologyCatholic University of Daegu School of Medicine Daegu Korea"
+  },
+  {
+    "case_id": "s2aff-1126",
+    "source_row": 1126,
+    "split": "test",
+    "text": "Hugin Expert A/S"
+  },
+  {
+    "case_id": "s2aff-1127",
+    "source_row": 1127,
+    "split": "test",
+    "text": "Pattern Discovery Software Systems Ltd., Canada#TAB#"
+  },
+  {
+    "case_id": "s2aff-1128",
+    "source_row": 1128,
+    "split": "test",
+    "text": "Comput. Eng. Lab., Tech. Univ. Delft, Delft"
+  },
+  {
+    "case_id": "s2aff-1129",
+    "source_row": 1129,
+    "split": "test",
+    "text": "Department of Mathematics of the Science, Tinjin University, Tianjin, China#TAB#"
+  },
+  {
+    "case_id": "s2aff-1130",
+    "source_row": 1130,
+    "split": "test",
+    "text": "Inf. Eng. Coll., Beijing Inst. of Petrochem. Technol., Beijing"
+  },
+  {
+    "case_id": "s2aff-1131",
+    "source_row": 1131,
+    "split": "test",
+    "text": "Dept. of Electr. & Comput. Eng., Univ. Laval, Laval, QC"
+  },
+  {
+    "case_id": "s2aff-1132",
+    "source_row": 1132,
+    "split": "test",
+    "text": "Dept. of Electr. & Comput. Eng., Univ. Laval, Que."
+  },
+  {
+    "case_id": "s2aff-1133",
+    "source_row": 1133,
+    "split": "test",
+    "text": "Dept. of Comput. Sci., Alberta Univ., Edmonton, Alta., Canada"
+  },
+  {
+    "case_id": "s2aff-1134",
+    "source_row": 1134,
+    "split": "test",
+    "text": "Comput. Eng. Lab., Tech. Univ. Delft, Delft"
+  },
+  {
+    "case_id": "s2aff-1146",
+    "source_row": 1146,
+    "split": "test",
+    "text": "Mathematics Department, College of Science, Kind Saud University, Riyadh 11451, Saudi Arabia"
+  },
+  {
+    "case_id": "s2aff-1147",
+    "source_row": 1147,
+    "split": "test",
+    "text": "Universität, Institut für Angewandte Mathematik, Hamburg, "
+  },
+  {
+    "case_id": "s2aff-1148",
+    "source_row": 1148,
+    "split": "test",
+    "text": "Department of Physics, The University, Newcastle upon Tyne, England"
+  },
+  {
+    "case_id": "s2aff-1149",
+    "source_row": 1149,
+    "split": "test",
+    "text": "Institute of Computer Science, Academy of Sciences, Prague, Czech Republic"
+  },
+  {
+    "case_id": "s2aff-1150",
+    "source_row": 1150,
+    "split": "test",
+    "text": "Inst. of Problems of Inf. Transmission, Acad. of Sci., Moscow, Russia"
+  },
+  {
+    "case_id": "s2aff-1164",
+    "source_row": 1164,
+    "split": "test",
+    "text": "Department of Bioengineering, Instituto Cubano de Investigaciones de los Derivados de la Caña de Azúcar (ICIDCA), AP 4026, CP 11000, La Habana, Cuba"
+  },
+  {
+    "case_id": "s2aff-1165",
+    "source_row": 1165,
+    "split": "test",
+    "text": "Department of Pulmonary Medicine, C.S.M. Medical University, Lucknow, Uttar Pradesh, India."
+  },
+  {
+    "case_id": "s2aff-1166",
+    "source_row": 1166,
+    "split": "test",
+    "text": "Department of Medical Physics, Ipswich Hospital, Ipswich, UK"
+  },
+  {
+    "case_id": "s2aff-1167",
+    "source_row": 1167,
+    "split": "test",
+    "text": "Departments of University Hospital Maastricht, The Netherlands"
+  },
+  {
+    "case_id": "s2aff-1168",
+    "source_row": 1168,
+    "split": "test",
+    "text": "Institute of Medical Informatics, Biometry, and Epidemiology, University Duisburg-Essen, Essen, Germany"
+  },
+  {
+    "case_id": "s2aff-1169",
+    "source_row": 1169,
+    "split": "test",
+    "text": "Florence Nightingale Hospital, Division of Cardiology, Istanbul, Sisli, Turkey 34381"
+  },
+  {
+    "case_id": "s2aff-1170",
+    "source_row": 1170,
+    "split": "test",
+    "text": "Cardinal Hill Rehabilitation Hospital, Lexington, KY, USA"
+  },
+  {
+    "case_id": "s2aff-1171",
+    "source_row": 1171,
+    "split": "test",
+    "text": "Italian National Institute of Health, Department of Technology and health, Rome, 00161, Italy"
+  },
+  {
+    "case_id": "s2aff-1191",
+    "source_row": 1191,
+    "split": "test",
+    "text": "University of Maryland;"
+  },
+  {
+    "case_id": "s2aff-1192",
+    "source_row": 1192,
+    "split": "test",
+    "text": "Jiaotong University of Shanghai Department of Urology, Sixth People's Hospital Shanghai China"
+  },
+  {
+    "case_id": "s2aff-1193",
+    "source_row": 1193,
+    "split": "test",
+    "text": "Northwest A&F University College of Forestry Yangling China"
+  },
+  {
+    "case_id": "s2aff-1194",
+    "source_row": 1194,
+    "split": "test",
+    "text": "Department of Information Engineering, Chongqing Communication Institute, China"
+  },
+  {
+    "case_id": "s2aff-1195",
+    "source_row": 1195,
+    "split": "test",
+    "text": "Copenhagen University Ørsted Laboratory, Niels Bohr Institute Universitetsparken 5 DK - 2100 Copenhagen Ø Denmark#TAB#"
+  },
+  {
+    "case_id": "s2aff-1196",
+    "source_row": 1196,
+    "split": "test",
+    "text": "Laboratory of Functional Chemistry and Nutrition of Food, College of Food Science and Engineering, Northwest A&F University,Yangling,China"
+  },
+  {
+    "case_id": "s2aff-1197",
+    "source_row": 1197,
+    "split": "test",
+    "text": "Ministry of Water Resources"
+  },
+  {
+    "case_id": "s2aff-1198",
+    "source_row": 1198,
+    "split": "test",
+    "text": "Northwest A&F University, Yangling 712100, China"
+  },
+  {
+    "case_id": "s2aff-1216",
+    "source_row": 1216,
+    "split": "test",
+    "text": "[Sarnoff Corporation]"
+  },
+  {
+    "case_id": "s2aff-1217",
+    "source_row": 1217,
+    "split": "test",
+    "text": "Vision Technol. Lab, Sarnoff Corp., Princeton, NJ, USA"
+  },
+  {
+    "case_id": "s2aff-1218",
+    "source_row": 1218,
+    "split": "test",
+    "text": "[Sarnoff Corp, Princeton, NJ, USA]"
+  },
+  {
+    "case_id": "s2aff-1219",
+    "source_row": 1219,
+    "split": "test",
+    "text": "[Sarnoff Corporation]"
+  },
+  {
+    "case_id": "s2aff-1220",
+    "source_row": 1220,
+    "split": "test",
+    "text": "Sarnoff Corporation Princeton, NJ"
+  },
+  {
+    "case_id": "s2aff-1221",
+    "source_row": 1221,
+    "split": "test",
+    "text": "[Sarnoff Corp, Princeton, NJ, USA]"
+  },
+  {
+    "case_id": "s2aff-1222",
+    "source_row": 1222,
+    "split": "test",
+    "text": "Sarnoff Corporation 201 Washington Road Princeton, NJ#TAB#"
+  },
+  {
+    "case_id": "s2aff-1223",
+    "source_row": 1223,
+    "split": "test",
+    "text": "[Sarnoff Corp, Princeton, NJ, USA]"
+  },
+  {
+    "case_id": "s2aff-1224",
+    "source_row": 1224,
+    "split": "test",
+    "text": "SARNOFF CORP., PRINCETON"
+  },
+  {
+    "case_id": "s2aff-1225",
+    "source_row": 1225,
+    "split": "test",
+    "text": "[Sarnoff Corporation]"
+  },
+  {
+    "case_id": "s2aff-1245",
+    "source_row": 1245,
+    "split": "test",
+    "text": "UAB-IFAE"
+  },
+  {
+    "case_id": "s2aff-1246",
+    "source_row": 1246,
+    "split": "test",
+    "text": "SUBATECH, UMR 6457, Université de Nantes, Ecole des Mines de Nantes, IN2P3/CNRS, 4 rue Alfred Kastler, 44307 Nantes cedex 3, France"
+  },
+  {
+    "case_id": "s2aff-1247",
+    "source_row": 1247,
+    "split": "test",
+    "text": "Department of Physics, The University of Tokyo, Tokyo 113-0033, Japan"
+  },
+  {
+    "case_id": "s2aff-1248",
+    "source_row": 1248,
+    "split": "test",
+    "text": "Institute for the Physics and Mathematics of the Universe (IPMU), University of Tokyo, Chiba 277-8582, Japan"
+  },
+  {
+    "case_id": "s2aff-1249",
+    "source_row": 1249,
+    "split": "test",
+    "text": "Published under license in Journal of Physics: Conference Series by IOP Publishing Ltd"
+  },
+  {
+    "case_id": "s2aff-1250",
+    "source_row": 1250,
+    "split": "test",
+    "text": "Physik-Department E15, Technische Universität München, James-Franck-Strasse, D-85748 Garching, Germany"
+  },
+  {
+    "case_id": "s2aff-1251",
+    "source_row": 1251,
+    "split": "test",
+    "text": "Observatoire de Paris DAEC, and UMR 8631, associé au CNRS et à l'Université Paris 7, 92195 Meudon Cedex, France"
+  },
+  {
+    "case_id": "s2aff-1252",
+    "source_row": 1252,
+    "split": "test",
+    "text": "The Niels Bohr Institute"
+  },
+  {
+    "case_id": "s2aff-1253",
+    "source_row": 1253,
+    "split": "test",
+    "text": "TU Munich"
+  },
+  {
+    "case_id": "s2aff-1273",
+    "source_row": 1273,
+    "split": "test",
+    "text": "Institute for Physical Science and Technology and Department of Mathematics, University of Maryland, College Park, Maryland#TAB#"
+  },
+  {
+    "case_id": "s2aff-1274",
+    "source_row": 1274,
+    "split": "test",
+    "text": "Dept. d'Inf. et de Recherche Oper., Montreal Univ., Que., Canada"
+  },
+  {
+    "case_id": "s2aff-1275",
+    "source_row": 1275,
+    "split": "test",
+    "text": "AT&T Laboratories, Red Bank, NJ, USA"
+  },
+  {
+    "case_id": "s2aff-1276",
+    "source_row": 1276,
+    "split": "test",
+    "text": "Institute for Physical Science and Technology and Department of Mathematics, University of Maryland, College Park, Maryland#TAB#"
+  },
+  {
+    "case_id": "s2aff-1277",
+    "source_row": 1277,
+    "split": "test",
+    "text": "AT&T Bell Laboratories - Murray Hill, NJ, USA"
+  },
+  {
+    "case_id": "s2aff-1278",
+    "source_row": 1278,
+    "split": "test",
+    "text": "AT&T Bell Laboratories - Murray Hill, NJ, USA"
+  },
+  {
+    "case_id": "s2aff-1279",
+    "source_row": 1279,
+    "split": "test",
+    "text": "Department of Computer Science and Institute for Advanced Computer Studies, University of Maryland, College Park, MarylandU.S.A."
+  },
+  {
+    "case_id": "s2aff-1280",
+    "source_row": 1280,
+    "split": "test",
+    "text": "Smith-Kettlewell Eye Res Inst, San Francisco, CA"
+  },
+  {
+    "case_id": "s2aff-1308",
+    "source_row": 1308,
+    "split": "test",
+    "text": "College of Information Sciences and Technology, The Pennsylvania State University, University Park, PA#TAB#"
+  },
+  {
+    "case_id": "s2aff-1309",
+    "source_row": 1309,
+    "split": "test",
+    "text": "AT&T Labs - Research, "
+  },
+  {
+    "case_id": "s2aff-1310",
+    "source_row": 1310,
+    "split": "test",
+    "text": "Department of Computing and Information Technology, University of Fudan, Shanghai 200433, P.R. China#TAB#"
+  },
+  {
+    "case_id": "s2aff-1311",
+    "source_row": 1311,
+    "split": "test",
+    "text": "Université Pierre et Marie Curie,"
+  },
+  {
+    "case_id": "s2aff-1312",
+    "source_row": 1312,
+    "split": "test",
+    "text": "University of Paris XI"
+  },
+  {
+    "case_id": "s2aff-1313",
+    "source_row": 1313,
+    "split": "test",
+    "text": "LogicVision, SanJose, CA"
+  },
+  {
+    "case_id": "s2aff-1314",
+    "source_row": 1314,
+    "split": "test",
+    "text": "College of Information Sciences and Technology, The Pennsylvania State University, University Park, PA 16802, U.S.A.#TAB#"
+  },
+  {
+    "case_id": "s2aff-1315",
+    "source_row": 1315,
+    "split": "test",
+    "text": "Department of Computing and Information Technology, University of Fudan, Shanghai, China"
+  },
+  {
+    "case_id": "s2aff-1316",
+    "source_row": 1316,
+    "split": "test",
+    "text": "Attorney-at-Law, Knowledge Management Lawyer, Freshfields Bruckhaus Deringer, Frankfurt/M., Germany#TAB#"
+  },
+  {
+    "case_id": "s2aff-1328",
+    "source_row": 1328,
+    "split": "test",
+    "text": "Mathematics Department, University of Maryland, College Park, USA"
+  },
+  {
+    "case_id": "s2aff-1329",
+    "source_row": 1329,
+    "split": "test",
+    "text": "University of Louvain, Heverlee, Belgium#TAB#"
+  },
+  {
+    "case_id": "s2aff-1330",
+    "source_row": 1330,
+    "split": "test",
+    "text": "Department of Mathematics, Statistics and Computing Science Dalhousi University, Halifax, Nova Scotia, Canada B3H 3J5#TAB#"
+  },
+  {
+    "case_id": "s2aff-1331",
+    "source_row": 1331,
+    "split": "test",
+    "text": "Case J. URA 225, Université de Provence, Marseille, France"
+  },
+  {
+    "case_id": "s2aff-1332",
+    "source_row": 1332,
+    "split": "test",
+    "text": "LATP.CMI., Université de Provence. Rue Joliot-Curie, F-13453 Marseille Cedex 13, France"
+  },
+  {
+    "case_id": "s2aff-1333",
+    "source_row": 1333,
+    "split": "test",
+    "text": "Unité Associée au CNRS no 769, Université P. et M. Curie, Laboratoire de Physique Théorique, Institut Henri Poincaré, 11, rue Pierre et Marie Curie, 75231 Paris Cedex 05, France"
+  },
+  {
+    "case_id": "s2aff-1334",
+    "source_row": 1334,
+    "split": "test",
+    "text": "Université Pierre et Marie Curie, UFR 920 BP 172, 4, place Jussieu, 75252, Paris cedex 05, Francef1E-mail: jpf@ccr.jussieu.frf1"
+  },
+  {
+    "case_id": "s2aff-1345",
+    "source_row": 1345,
+    "split": "test",
+    "text": "Institut de Ciència de Materials de Barcelona (ICMAB-CSIC), Campus Universitari, 08193 Bellaterra,Catalonia,Spain"
+  },
+  {
+    "case_id": "s2aff-1346",
+    "source_row": 1346,
+    "split": "test",
+    "text": "Nutritional Biochemistry Laboratory, Department of Human Physiology, Tripura University (A Central University), Suryamaninagar, West Tripura, Agartala 799022, India."
+  },
+  {
+    "case_id": "s2aff-1347",
+    "source_row": 1347,
+    "split": "test",
+    "text": "3rd Department of Medicine, Technical University of Munich, Munich, Germany"
+  },
+  {
+    "case_id": "s2aff-1348",
+    "source_row": 1348,
+    "split": "test",
+    "text": "Department of Community MedicineFaculty of Health Sciences, University of Tromsø Tromsø Norway"
+  },
+  {
+    "case_id": "s2aff-1349",
+    "source_row": 1349,
+    "split": "test",
+    "text": "Institute of Clinical Medicine, University of Tromsø,  Tromsø, Norway."
+  },
+  {
+    "case_id": "s2aff-1351",
+    "source_row": 1351,
+    "split": "test",
+    "text": "Don State Technical University"
+  },
+  {
+    "case_id": "s2aff-1352",
+    "source_row": 1352,
+    "split": "test",
+    "text": "NASA Ames Res. Center"
+  },
+  {
+    "case_id": "s2aff-1354",
+    "source_row": 1354,
+    "split": "test",
+    "text": "CERN, Geneva, Switzerland†"
+  },
+  {
+    "case_id": "s2aff-1356",
+    "source_row": 1356,
+    "split": "test",
+    "text": "Instituto Federal De Educação Ciência, e Tecnologia Goiano"
+  },
+  {
+    "case_id": "s2aff-1371",
+    "source_row": 1371,
+    "split": "test",
+    "text": "Air Force Research Labs. (United States)"
+  },
+  {
+    "case_id": "s2aff-1373",
+    "source_row": 1373,
+    "split": "test",
+    "text": "Universidad Nacional del nordeste"
+  },
+  {
+    "case_id": "s2aff-1374",
+    "source_row": 1374,
+    "split": "test",
+    "text": "Universitas Kristen Duta Wacana"
+  },
+  {
+    "case_id": "s2aff-1380",
+    "source_row": 1380,
+    "split": "test",
+    "text": "School of Electrical and Computer Engineering, National Technical, University of Athens, Athens, Greece"
+  },
+  {
+    "case_id": "s2aff-1384",
+    "source_row": 1384,
+    "split": "test",
+    "text": "Franche-Comté Électronique Mécanique, Thermique et Optique - Sciences et Technologies (UMR 6174)"
+  },
+  {
+    "case_id": "s2aff-1386",
+    "source_row": 1386,
+    "split": "test",
+    "text": "School of Environmental and Rural Science Univ. of New England Armidale, NSW 2351, Australia"
+  },
+  {
+    "case_id": "s2aff-1387",
+    "source_row": 1387,
+    "split": "test",
+    "text": "Univ. of Memphis"
+  },
+  {
+    "case_id": "s2aff-1394",
+    "source_row": 1394,
+    "split": "test",
+    "text": "State Key Laboratory of Organic Electronics and Information Displays & Institute of Advanced Materials (IAM) Nanjing University of Posts & Telecommunications  9 Wenyuan Road Nanjing 210023 China"
+  },
+  {
+    "case_id": "s2aff-1398",
+    "source_row": 1398,
+    "split": "test",
+    "text": "Univ. of Rochester Medical Center"
+  },
+  {
+    "case_id": "s2aff-1402",
+    "source_row": 1402,
+    "split": "test",
+    "text": "South-Ural State Medical University."
+  },
+  {
+    "case_id": "s2aff-1405",
+    "source_row": 1405,
+    "split": "test",
+    "text": "Faculty of Information Technology, University of Jyvaskyla, Jyväskylä, Finland#TAB#"
+  },
+  {
+    "case_id": "s2aff-1410",
+    "source_row": 1410,
+    "split": "test",
+    "text": "Centro Universitário Uninorte (UNINORTE/AC"
+  },
+  {
+    "case_id": "s2aff-1413",
+    "source_row": 1413,
+    "split": "test",
+    "text": "[Physikalisch-Technische, Bundesanstalt, Germany]"
+  },
+  {
+    "case_id": "s2aff-1415",
+    "source_row": 1415,
+    "split": "test",
+    "text": "Japan Adv. Inst. of Science and Tech."
+  },
+  {
+    "case_id": "s2aff-1416",
+    "source_row": 1416,
+    "split": "test",
+    "text": "Uniwersytet Mikołaja Kopernika w Toruniu"
+  },
+  {
+    "case_id": "s2aff-1417",
+    "source_row": 1417,
+    "split": "test",
+    "text": "Prodi Peternakan, Fakultas Peternakan, Universitas Nusa Cendana"
+  },
+  {
+    "case_id": "s2aff-1419",
+    "source_row": 1419,
+    "split": "test",
+    "text": "UNINOVE"
+  },
+  {
+    "case_id": "s2aff-1422",
+    "source_row": 1422,
+    "split": "test",
+    "text": "Postech"
+  },
+  {
+    "case_id": "s2aff-1424",
+    "source_row": 1424,
+    "split": "test",
+    "text": "Heriot-Watt Univ (United Kingdom)"
+  },
+  {
+    "case_id": "s2aff-1429",
+    "source_row": 1429,
+    "split": "test",
+    "text": "(University of Agriculture, Abeokuta, Nigeria)"
+  },
+  {
+    "case_id": "s2aff-1433",
+    "source_row": 1433,
+    "split": "test",
+    "text": "Tula State Univ., Tula, Russia"
+  },
+  {
+    "case_id": "s2aff-1435",
+    "source_row": 1435,
+    "split": "test",
+    "text": "Chengdu Center, China#N#          Geological Survey, Chengdu 610081, China"
+  },
+  {
+    "case_id": "s2aff-1445",
+    "source_row": 1445,
+    "split": "test",
+    "text": "Sch. of Resources & Civil Eng., Northeastern Univ., Shenyang, China"
+  },
+  {
+    "case_id": "s2aff-1450",
+    "source_row": 1450,
+    "split": "test",
+    "text": "Vilnius Univ., Vilnius, Lithuania#TAB#"
+  },
+  {
+    "case_id": "s2aff-1457",
+    "source_row": 1457,
+    "split": "test",
+    "text": "Laureate Institute for Brain Research."
+  },
+  {
+    "case_id": "s2aff-1461",
+    "source_row": 1461,
+    "split": "test",
+    "text": "College of Food and Bioengineering, Henan University of Science & Technology, Luoyang, China."
+  },
+  {
+    "case_id": "s2aff-1464",
+    "source_row": 1464,
+    "split": "test",
+    "text": "Tver State Univ., Tver, Russia#TAB#"
+  },
+  {
+    "case_id": "s2aff-1470",
+    "source_row": 1470,
+    "split": "test",
+    "text": "School of Energy and Power Engineering, University of Shanghai for Science & Technology, Shanghai 200093, PR China"
+  },
+  {
+    "case_id": "s2aff-1473",
+    "source_row": 1473,
+    "split": "test",
+    "text": "Inst. for Marine and Antarctic Studies, Univ. of Tasmania, Hobart, Australia"
+  },
+  {
+    "case_id": "s2aff-1476",
+    "source_row": 1476,
+    "split": "test",
+    "text": "Pendidikan Anak Usia Dini, Universitas negeri Jakarta"
+  },
+  {
+    "case_id": "s2aff-1483",
+    "source_row": 1483,
+    "split": "test",
+    "text": "Department of Mechanical Engineering, Universitas Sebelas Maret, Surakarta, 57126, Indonesia"
+  },
+  {
+    "case_id": "s2aff-1488",
+    "source_row": 1488,
+    "split": "test",
+    "text": "PGS ()"
+  },
+  {
+    "case_id": "s2aff-1499",
+    "source_row": 1499,
+    "split": "test",
+    "text": "Tokyo Denki Univ., , Japan"
+  },
+  {
+    "case_id": "s2aff-1504",
+    "source_row": 1504,
+    "split": "test",
+    "text": "Gaidar Institute for Economic Policy"
+  },
+  {
+    "case_id": "s2aff-1506",
+    "source_row": 1506,
+    "split": "test",
+    "text": "Arctic & Antarctic Res. Inst., St. Petersburg, Russia"
+  },
+  {
+    "case_id": "s2aff-1509",
+    "source_row": 1509,
+    "split": "test",
+    "text": "UNIVERSITAS WARMADEWA"
+  },
+  {
+    "case_id": "s2aff-1514",
+    "source_row": 1514,
+    "split": "test",
+    "text": "Hochschule Darmstadt, Darmstadt, Deutschland"
+  },
+  {
+    "case_id": "s2aff-1533",
+    "source_row": 1533,
+    "split": "test",
+    "text": "B.S. Abdur Rahman Crescent Institute of Science and Technology, Chennai, India"
+  },
+  {
+    "case_id": "s2aff-1534",
+    "source_row": 1534,
+    "split": "test",
+    "text": "Univ. of Kashan"
+  },
+  {
+    "case_id": "s2aff-1536",
+    "source_row": 1536,
+    "split": "test",
+    "text": "Dokuz Eylül Üniv. (Turkey)"
+  },
+  {
+    "case_id": "s2aff-1550",
+    "source_row": 1550,
+    "split": "test",
+    "text": "University Hospitals Coventry & Warwickshire, NHS Trust, Coventry, UK."
+  },
+  {
+    "case_id": "s2aff-1551",
+    "source_row": 1551,
+    "split": "test",
+    "text": "College of Food Science and Engineering; Wuhan Polytechnic Univ.; Wuhan 430023 China"
+  },
+  {
+    "case_id": "s2aff-1558",
+    "source_row": 1558,
+    "split": "test",
+    "text": "University of Northern, Iowa"
+  },
+  {
+    "case_id": "s2aff-1560",
+    "source_row": 1560,
+    "split": "test",
+    "text": "Jinnah Medical and Dental College, Karachi Pakistan"
+  },
+  {
+    "case_id": "s2aff-1565",
+    "source_row": 1565,
+    "split": "test",
+    "text": "Mcgill Univ Health centre, Montreal, Canada"
+  },
+  {
+    "case_id": "s2aff-1566",
+    "source_row": 1566,
+    "split": "test",
+    "text": "Fakultas Ekonomi dan Bisnis,#R##N#Universitas Trisakti"
+  },
+  {
+    "case_id": "s2aff-1598",
+    "source_row": 1598,
+    "split": "test",
+    "text": "(Universiteit van Pretoria)"
+  },
+  {
+    "case_id": "s2aff-1603",
+    "source_row": 1603,
+    "split": "test",
+    "text": "National Institute of Animal Biotechnology  Hyderabad India"
+  },
+  {
+    "case_id": "s2aff-1606",
+    "source_row": 1606,
+    "split": "test",
+    "text": "Universitas Nasional Pasim"
+  },
+  {
+    "case_id": "s2aff-1617",
+    "source_row": 1617,
+    "split": "test",
+    "text": "Menzies Inst for Med Res, Univ of Tasmania, Hobart, Australia"
+  },
+  {
+    "case_id": "s2aff-1618",
+    "source_row": 1618,
+    "split": "test",
+    "text": "Tanta Univ., Egypt"
+  },
+  {
+    "case_id": "s2aff-1619",
+    "source_row": 1619,
+    "split": "test",
+    "text": "JIANGXI UNIVERSITY OF SCIENCE & TECHNOLOGY"
+  },
+  {
+    "case_id": "s2aff-1622",
+    "source_row": 1622,
+    "split": "test",
+    "text": "Dongbei University of Finance & Economics"
+  },
+  {
+    "case_id": "s2aff-1627",
+    "source_row": 1627,
+    "split": "test",
+    "text": "Universidade Federal de Alfenas,  Brazil"
+  },
+  {
+    "case_id": "s2aff-1632",
+    "source_row": 1632,
+    "split": "test",
+    "text": "Tanzania Wildlife Research Inst., Arusha, Tanzania"
+  },
+  {
+    "case_id": "s2aff-1635",
+    "source_row": 1635,
+    "split": "test",
+    "text": "Sch. of Eng. Sci., Univ. of Skovde, Skovde, Sweden"
+  },
+  {
+    "case_id": "s2aff-1638",
+    "source_row": 1638,
+    "split": "test",
+    "text": "University of Connecticut"
+  },
+  {
+    "case_id": "s2aff-1641",
+    "source_row": 1641,
+    "split": "test",
+    "text": "Vali-e-Asr University of Rafsanjan"
+  },
+  {
+    "case_id": "s2aff-1642",
+    "source_row": 1642,
+    "split": "test",
+    "text": "Fujian university of traditional, Chinese medicine, FuZhou China"
+  },
+  {
+    "case_id": "s2aff-1650",
+    "source_row": 1650,
+    "split": "test",
+    "text": "Indian Council of Forestry Research & Education, Dehradun, India."
+  },
+  {
+    "case_id": "s2aff-1656",
+    "source_row": 1656,
+    "split": "test",
+    "text": "Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado, Ciudad de México, México"
+  },
+  {
+    "case_id": "s2aff-1662",
+    "source_row": 1662,
+    "split": "test",
+    "text": "Dept. of Chiropractic, Macquarie Univ., Sydney, Australia"
+  },
+  {
+    "case_id": "s2aff-1663",
+    "source_row": 1663,
+    "split": "test",
+    "text": "National Inst. of Polar Research"
+  },
+  {
+    "case_id": "s2aff-1675",
+    "source_row": 1675,
+    "split": "test",
+    "text": "School of Management Science and Engineering, Shandong University, of Finance and Economics, Jinan Shandong, China"
+  },
+  {
+    "case_id": "s2aff-1679",
+    "source_row": 1679,
+    "split": "test",
+    "text": "Centro de Investigación Biomédica de Canarias (CIBICAN), Departamento de Medicina Interna, Universidad de La Laguna, Spain"
+  },
+  {
+    "case_id": "s2aff-1681",
+    "source_row": 1681,
+    "split": "test",
+    "text": "Dept. of Biological Engineering, Konkuk Univ., Seoul 05029, Republic of Korea."
+  },
+  {
+    "case_id": "s2aff-1689",
+    "source_row": 1689,
+    "split": "test",
+    "text": "Tokyo Metropolitan Univ. (Japan)"
+  },
+  {
+    "case_id": "s2aff-1691",
+    "source_row": 1691,
+    "split": "test",
+    "text": "International Univ of Health and Welfare"
+  },
+  {
+    "case_id": "s2aff-1693",
+    "source_row": 1693,
+    "split": "test",
+    "text": "Universidad Nacional del Nordeste. Facultad de Ciencias Exactas y Naturales Y Agrimensura"
+  },
+  {
+    "case_id": "s2aff-1702",
+    "source_row": 1702,
+    "split": "test",
+    "text": "Khlopin Radium Institute,St. Petersburg,Russia"
+  },
+  {
+    "case_id": "s2aff-1703",
+    "source_row": 1703,
+    "split": "test",
+    "text": "Department of Rheumatology and Immunology, Nanchong Central Hospital, The Second Clinical Medical College, North Sichuan Medical College, Nanchong, China."
+  },
+  {
+    "case_id": "s2aff-1704",
+    "source_row": 1704,
+    "split": "test",
+    "text": "Dept. of Comput. Sci., Nottingham Trent Univ., Nottingham, UK"
+  },
+  {
+    "case_id": "s2aff-1709",
+    "source_row": 1709,
+    "split": "test",
+    "text": "Universidad  de Lleida"
+  },
+  {
+    "case_id": "s2aff-1722",
+    "source_row": 1722,
+    "split": "test",
+    "text": "Oregon Res. Inst., Eugene, OR, USA"
+  },
+  {
+    "case_id": "s2aff-1737",
+    "source_row": 1737,
+    "split": "test",
+    "text": "Universität Bayreuth Bayreuth Deutschland"
+  },
+  {
+    "case_id": "s2aff-1739",
+    "source_row": 1739,
+    "split": "test",
+    "text": "University of California at San Francisco"
+  },
+  {
+    "case_id": "s2aff-1740",
+    "source_row": 1740,
+    "split": "test",
+    "text": "Herbert Wertheim College of Medicine, Florida International University, Miami, FL, USA."
+  },
+  {
+    "case_id": "s2aff-1741",
+    "source_row": 1741,
+    "split": "test",
+    "text": "Izaña Atmospheric Research Centre (IARC), State Meteorological Agency of Spain (AEMET), Santa Cruz de Tenerife, Spain"
+  },
+  {
+    "case_id": "s2aff-1743",
+    "source_row": 1743,
+    "split": "test",
+    "text": "Samara National Research Univ. (Russian Federation)"
+  },
+  {
+    "case_id": "s2aff-1746",
+    "source_row": 1746,
+    "split": "test",
+    "text": "School of Computer Science and Technology, Taiyuan University of Science & Technology, Taiyuan 030024, China."
+  },
+  {
+    "case_id": "s2aff-1755",
+    "source_row": 1755,
+    "split": "test",
+    "text": "Clarkson Univ. (USA)"
+  },
+  {
+    "case_id": "s2aff-1761",
+    "source_row": 1761,
+    "split": "test",
+    "text": "Department of Public Health, Maragheh University of Medical Sciences, Maragheh, Iran;"
+  },
+  {
+    "case_id": "s2aff-1762",
+    "source_row": 1762,
+    "split": "test",
+    "text": "Indian Institute of Technology"
+  },
+  {
+    "case_id": "s2aff-1763",
+    "source_row": 1763,
+    "split": "test",
+    "text": "Sapporo Medical Univ., Sapporo, Japan"
+  },
+  {
+    "case_id": "s2aff-1764",
+    "source_row": 1764,
+    "split": "test",
+    "text": "Tomsk State University, Tomsk, Russia"
+  },
+  {
+    "case_id": "s2aff-1768",
+    "source_row": 1768,
+    "split": "test",
+    "text": "Center for Genetic Engineering and Biotechnology (CIGB)"
+  },
+  {
+    "case_id": "s2aff-1772",
+    "source_row": 1772,
+    "split": "test",
+    "text": "LG Household & Health Care (LG H&H) Seoul Korea"
+  },
+  {
+    "case_id": "s2aff-1774",
+    "source_row": 1774,
+    "split": "test",
+    "text": "Vasavi Coll. of Eng., Hyderabad, India"
+  },
+  {
+    "case_id": "s2aff-1777",
+    "source_row": 1777,
+    "split": "test",
+    "text": "Institute of Clinical Psychology, University of Management and Technology Lahore, Pakistan"
+  },
+  {
+    "case_id": "s2aff-1779",
+    "source_row": 1779,
+    "split": "test",
+    "text": "KDI School of Public Policy & Management"
+  },
+  {
+    "case_id": "s2aff-1784",
+    "source_row": 1784,
+    "split": "test",
+    "text": "Ernst And Young"
+  },
+  {
+    "case_id": "s2aff-1788",
+    "source_row": 1788,
+    "split": "test",
+    "text": "[Tyndall Nat. Inst., Ireland]"
+  },
+  {
+    "case_id": "s2aff-1793",
+    "source_row": 1793,
+    "split": "test",
+    "text": "Department of Electronics and Telecommunication Engineering, Pravara Rural Engg. College, Loni, India"
+  },
+  {
+    "case_id": "s2aff-1796",
+    "source_row": 1796,
+    "split": "test",
+    "text": "Shanghai Acad. of Spaceflight Technol., Shanghai, China"
+  },
+  {
+    "case_id": "s2aff-1797",
+    "source_row": 1797,
+    "split": "test",
+    "text": "Institute of Optics and Electronics (China)"
+  },
+  {
+    "case_id": "s2aff-1806",
+    "source_row": 1806,
+    "split": "test",
+    "text": "Department of Functional Brain Imaging, National Institutes for Quantum and Radiological Science and Technology"
+  },
+  {
+    "case_id": "s2aff-1810",
+    "source_row": 1810,
+    "split": "test",
+    "text": "Dept. of Comput. Sci. & Eng., Nat. Inst. of Technol. Goa, Ponda, India"
+  },
+  {
+    "case_id": "s2aff-1812",
+    "source_row": 1812,
+    "split": "test",
+    "text": "Netaji Subhash Engg. College,Kolkata,India"
+  },
+  {
+    "case_id": "s2aff-1817",
+    "source_row": 1817,
+    "split": "test",
+    "text": "M.H. Saboo Siddik College of Engineering, Mumbai, India#TAB#"
+  },
+  {
+    "case_id": "s2aff-1818",
+    "source_row": 1818,
+    "split": "test",
+    "text": "UNS"
+  },
+  {
+    "case_id": "s2aff-1821",
+    "source_row": 1821,
+    "split": "test",
+    "text": "University Institute of Engineering & Technology, Kurukshetra University, Kurukshetra, India"
+  },
+  {
+    "case_id": "s2aff-1823",
+    "source_row": 1823,
+    "split": "test",
+    "text": "Dept. of Civil Eng., PSG Coll. of Technol., Coimbatore, India"
+  },
+  {
+    "case_id": "s2aff-1830",
+    "source_row": 1830,
+    "split": "test",
+    "text": "Gestion de l'Eau, Acteurs, Usages"
+  },
+  {
+    "case_id": "s2aff-1840",
+    "source_row": 1840,
+    "split": "test",
+    "text": "Instituto de Biología y Medicina Experimental, IBYME-CONICET, Ciudad Autónoma de Buenos Aires, Argentina."
+  },
+  {
+    "case_id": "s2aff-1850",
+    "source_row": 1850,
+    "split": "test",
+    "text": "College of Chemistry, Chemical Engineering and Environment, Minnan Normal University, Zhangzhou, 363000, PR China"
+  },
+  {
+    "case_id": "s2aff-1862",
+    "source_row": 1862,
+    "split": "test",
+    "text": "Universidade de Cruz Alta, Cruz Alta, RS, Brasil"
+  },
+  {
+    "case_id": "s2aff-1868",
+    "source_row": 1868,
+    "split": "test",
+    "text": "Bennett Univ. (India)"
+  },
+  {
+    "case_id": "s2aff-1869",
+    "source_row": 1869,
+    "split": "test",
+    "text": "Univ Cincinnati, Cincinnati, OH"
+  },
+  {
+    "case_id": "s2aff-1881",
+    "source_row": 1881,
+    "split": "test",
+    "text": "Shanghai Inst. of Technol., Shanghai, China"
+  },
+  {
+    "case_id": "s2aff-1885",
+    "source_row": 1885,
+    "split": "test",
+    "text": "Northeast Normal Univ, Changchun, China"
+  },
+  {
+    "case_id": "s2aff-1889",
+    "source_row": 1889,
+    "split": "test",
+    "text": "Department of Anesthesiology, The Ohio State University, Wexner Medical Center, Columbus, OH"
+  },
+  {
+    "case_id": "s2aff-1890",
+    "source_row": 1890,
+    "split": "test",
+    "text": "Singapore Inst. of Technol., Singapore, Singapore"
+  },
+  {
+    "case_id": "s2aff-1892",
+    "source_row": 1892,
+    "split": "test",
+    "text": "Indian Institute of Science, Education, and Research, Pune 411008, India."
+  },
+  {
+    "case_id": "s2aff-1895",
+    "source_row": 1895,
+    "split": "test",
+    "text": "Department of Chemistry, Moscow State University, Moscow, Russia"
+  },
+  {
+    "case_id": "s2aff-1900",
+    "source_row": 1900,
+    "split": "test",
+    "text": "CAS Key Laboratory of Tropical Forest Ecology, Xishuangbanna , Tropical Botanical Garden, Chinese Academy of Sciences, Mengla, China"
+  },
+  {
+    "case_id": "s2aff-1909",
+    "source_row": 1909,
+    "split": "test",
+    "text": "Istituto di Ricerche Farmacologiche Mario Negri IRCCS, Centro Anna Maria Astori, Science and Technology Park Kilometro Rosso, Bergamo, Italy."
+  },
+  {
+    "case_id": "s2aff-1913",
+    "source_row": 1913,
+    "split": "test",
+    "text": "National Heart Research Institute Singapore, National Heart Centre Singapore, Singapore"
+  },
+  {
+    "case_id": "s2aff-1918",
+    "source_row": 1918,
+    "split": "test",
+    "text": "University of Groningen"
+  },
+  {
+    "case_id": "s2aff-1921",
+    "source_row": 1921,
+    "split": "test",
+    "text": "Hanken Sch. of Econ., Finland"
+  },
+  {
+    "case_id": "s2aff-1928",
+    "source_row": 1928,
+    "split": "test",
+    "text": "Wesleyan Univ., Middletown, CT, USA"
+  },
+  {
+    "case_id": "s2aff-1935",
+    "source_row": 1935,
+    "split": "test",
+    "text": "Andrews Univ, Berrien Springs, MI;"
+  },
+  {
+    "case_id": "s2aff-1938",
+    "source_row": 1938,
+    "split": "test",
+    "text": "Basic Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, WA 98109, USA."
+  },
+  {
+    "case_id": "s2aff-1946",
+    "source_row": 1946,
+    "split": "test",
+    "text": "Department of Hepatobiliary and Pancreatic Surgery, Tianjin Nankai Hospital, Tianjin, China"
+  },
+  {
+    "case_id": "s2aff-1958",
+    "source_row": 1958,
+    "split": "test",
+    "text": "Western New England Univ., Springfield, MA, USA"
+  },
+  {
+    "case_id": "s2aff-1965",
+    "source_row": 1965,
+    "split": "test",
+    "text": "Department of Chemical Engineering, National Institute of Technology, Tiruchirappalli, Tamil Nadu, India"
+  },
+  {
+    "case_id": "s2aff-1967",
+    "source_row": 1967,
+    "split": "test",
+    "text": "Odesa National Medical University, Odesa, Ukraine;"
+  },
+  {
+    "case_id": "s2aff-1971",
+    "source_row": 1971,
+    "split": "test",
+    "text": "Novosibirsk State Agrarian University, Novosibirsk, Russia"
+  },
+  {
+    "case_id": "s2aff-1983",
+    "source_row": 1983,
+    "split": "test",
+    "text": "Universität Passau, Passau, Germany"
+  },
+  {
+    "case_id": "s2aff-1987",
+    "source_row": 1987,
+    "split": "test",
+    "text": "(Indian Institute of Management, Raipur, India)"
+  },
+  {
+    "case_id": "s2aff-1995",
+    "source_row": 1995,
+    "split": "test",
+    "text": "Research Institute for Fragrance Materials Inc"
+  },
+  {
+    "case_id": "s2aff-1999",
+    "source_row": 1999,
+    "split": "test",
+    "text": "University at Buffalo"
+  },
+  {
+    "case_id": "s2aff-2002",
+    "source_row": 2002,
+    "split": "test",
+    "text": "Bogomolets National Medical University , Kyiv , Ukraine"
+  },
+  {
+    "case_id": "s2aff-2008",
+    "source_row": 2008,
+    "split": "test",
+    "text": "Institut Charles Gerhardt Montpellier - Institut de Chimie Moléculaire et des Matériaux de Montpellier"
+  },
+  {
+    "case_id": "s2aff-2012",
+    "source_row": 2012,
+    "split": "test",
+    "text": "State Key Laboratory of Component-Based Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, China."
+  },
+  {
+    "case_id": "s2aff-2013",
+    "source_row": 2013,
+    "split": "test",
+    "text": "Texas Tech University, Plant and Soil Science, Campus Box 42122, Lubbock, Texas, United States, 79409, ;"
+  },
+  {
+    "case_id": "s2aff-2015",
+    "source_row": 2015,
+    "split": "test",
+    "text": "Coastal Education and Research Foundation (CERF) Coconut Creek, FL 33073, U.S.A."
+  },
+  {
+    "case_id": "s2aff-2023",
+    "source_row": 2023,
+    "split": "test",
+    "text": "Kazan State Power Engineering University, Kazan, Russia"
+  },
+  {
+    "case_id": "s2aff-2025",
+    "source_row": 2025,
+    "split": "test",
+    "text": "Kyiv National University of Construction and Architecture,"
+  },
+  {
+    "case_id": "s2aff-2028",
+    "source_row": 2028,
+    "split": "test",
+    "text": "Department of Integrative Structural, and Computational Biology, The Scripps Research Institute"
+  },
+  {
+    "case_id": "s2aff-2030",
+    "source_row": 2030,
+    "split": "test",
+    "text": "H. E. J. Research Institute of Chemistry, International Center for Chemical and Biological Sciences, University of Karachi , Karachi, Pakistan"
+  },
+  {
+    "case_id": "s2aff-2032",
+    "source_row": 2032,
+    "split": "test",
+    "text": "Institut Fresnel (France)"
+  },
+  {
+    "case_id": "s2aff-2040",
+    "source_row": 2040,
+    "split": "test",
+    "text": "College of Food Science, Shenyang Agricultural University, Shenyang 110866, China)"
+  },
+  {
+    "case_id": "s2aff-2044",
+    "source_row": 2044,
+    "split": "test",
+    "text": "Royal Victoria Hospital, Belfast, United Kingdom"
+  },
+  {
+    "case_id": "s2aff-2047",
+    "source_row": 2047,
+    "split": "test",
+    "text": "National Engineering Research Center for Biomaterials, Sichuan University, Chengdu 610064, PR China"
+  },
+  {
+    "case_id": "s2aff-2054",
+    "source_row": 2054,
+    "split": "test",
+    "text": "Institut méditerranéen de biodiversité et d'écologie marine et continentale"
+  },
+  {
+    "case_id": "s2aff-2059",
+    "source_row": 2059,
+    "split": "test",
+    "text": "Institut Paoli-Calmettes, Marseille, France"
+  },
+  {
+    "case_id": "s2aff-2069",
+    "source_row": 2069,
+    "split": "test",
+    "text": "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi - 110025, India"
+  },
+  {
+    "case_id": "s2aff-2072",
+    "source_row": 2072,
+    "split": "test",
+    "text": "Peter the Great St. Petersburg Polytechnic University, Polytechnicheskaya, 29, St., Petersburg 195251, Russia"
+  },
+  {
+    "case_id": "s2aff-2076",
+    "source_row": 2076,
+    "split": "test",
+    "text": "Department of Cardiovascular Medicine, Kobe City Medical Center General Hospital, Kobe, Japan."
+  },
+  {
+    "case_id": "s2aff-2085",
+    "source_row": 2085,
+    "split": "test",
+    "text": "Grünberg Research Centre, Nanjing University of Posts and Telecommunications , Nanjing 210003, China."
+  },
+  {
+    "case_id": "s2aff-2090",
+    "source_row": 2090,
+    "split": "test",
+    "text": "American International University-Bangladesh (AIUB),Department of Electrical and Electronic Engineering,Dhaka,Bangladesh"
+  },
+  {
+    "case_id": "s2aff-2098",
+    "source_row": 2098,
+    "split": "test",
+    "text": "Centre for Addiction and Mental Health, Toronto, Canada,"
+  },
+  {
+    "case_id": "s2aff-2100",
+    "source_row": 2100,
+    "split": "test",
+    "text": "Blueprint Medicines Corporation, Cambridge, MA;"
+  },
+  {
+    "case_id": "s2aff-2104",
+    "source_row": 2104,
+    "split": "test",
+    "text": "School of Mechanical Engineering Lovely Professional University  Phagwara Punjab India"
+  },
+  {
+    "case_id": "s2aff-2106",
+    "source_row": 2106,
+    "split": "test",
+    "text": "Department of Oceanography National Sun Yat‐sen University Kaohsiung Taiwan"
+  },
+  {
+    "case_id": "s2aff-2112",
+    "source_row": 2112,
+    "split": "test",
+    "text": "Rajasthan College of Agriculture, Maharana Pratap University of Agriculture and Technology,#R##N#Udaipur, Rajasthan 313 001, India"
+  },
+  {
+    "case_id": "s2aff-2122",
+    "source_row": 2122,
+    "split": "test",
+    "text": "Singapore Institute of Technology , Singapore"
+  },
+  {
+    "case_id": "s2aff-2123",
+    "source_row": 2123,
+    "split": "test",
+    "text": "School of Metallurgy Northeastern University Shenyang China"
+  },
+  {
+    "case_id": "s2aff-2129",
+    "source_row": 2129,
+    "split": "test",
+    "text": "Instituto Federal Catarinense - Campus Ibirama"
+  },
+  {
+    "case_id": "s2aff-2133",
+    "source_row": 2133,
+    "split": "test",
+    "text": "TRIUMF, 4004 Wesbrook Mall, Vancouver, BC V6T 2A3, Canada."
+  },
+  {
+    "case_id": "s2aff-2139",
+    "source_row": 2139,
+    "split": "test",
+    "text": "[Dept. of Electrical and Computer Eng., University of Kashan, Kashan, Iran]"
+  },
+  {
+    "case_id": "s2aff-2149",
+    "source_row": 2149,
+    "split": "test",
+    "text": "Department of Biosciences, Durham University, Durham, DH1 3LE, UK."
+  },
+  {
+    "case_id": "s2aff-2152",
+    "source_row": 2152,
+    "split": "test",
+    "text": "Institute of Molecular Plus, Tianjin University, Tianjin, 300072, China"
+  },
+  {
+    "case_id": "s2aff-2153",
+    "source_row": 2153,
+    "split": "test",
+    "text": "Department of Neurosurgery, Tohoku University, Graduate School of Medicine, Sendai, Miyagi, Japan."
+  },
+  {
+    "case_id": "s2aff-2154",
+    "source_row": 2154,
+    "split": "test",
+    "text": "Department of Respiratory Medicine, Shizuoka General Hospital, Shizuoka, Japan."
+  },
+  {
+    "case_id": "s2aff-2161",
+    "source_row": 2161,
+    "split": "test",
+    "text": "FE, Universitas Katolik Santo Thomas"
+  },
+  {
+    "case_id": "s2aff-2162",
+    "source_row": 2162,
+    "split": "test",
+    "text": "ROSNEFT OIL COMPANY"
+  },
+  {
+    "case_id": "s2aff-2178",
+    "source_row": 2178,
+    "split": "test",
+    "text": "Igor Sikorsky Kyiv Polytechnic Institute"
+  },
+  {
+    "case_id": "s2aff-2191",
+    "source_row": 2191,
+    "split": "test",
+    "text": "*Birmingham Law School."
+  },
+  {
+    "case_id": "s2aff-2192",
+    "source_row": 2192,
+    "split": "test",
+    "text": "Centro Universitário de Belo Horizonte -UniBH"
+  },
+  {
+    "case_id": "s2aff-2193",
+    "source_row": 2193,
+    "split": "test",
+    "text": "Don Bosco Institute of Technology,Department of Computer Engineering,Mumbai,India"
+  },
+  {
+    "case_id": "s2aff-2207",
+    "source_row": 2207,
+    "split": "test",
+    "text": "China Institute of Water Resources and Hydropower Research, Beijing, China"
+  },
+  {
+    "case_id": "s2aff-2218",
+    "source_row": 2218,
+    "split": "test",
+    "text": "Faculdade Satc"
+  },
+  {
+    "case_id": "s2aff-2222",
+    "source_row": 2222,
+    "split": "test",
+    "text": "Laboratoire de chimie théorique"
+  },
+  {
+    "case_id": "s2aff-2234",
+    "source_row": 2234,
+    "split": "test",
+    "text": "Aalborg University, Copenhagen#TAB#"
+  },
+  {
+    "case_id": "s2aff-2236",
+    "source_row": 2236,
+    "split": "test",
+    "text": "Department of Pharmacology, SRM Medical College Hospital & Research Centre, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, India"
+  },
+  {
+    "case_id": "s2aff-2239",
+    "source_row": 2239,
+    "split": "test",
+    "text": "Nephrology Department, Centro Hospitalar Vila Nova de Gaia/Espinho, Vila Nova de Gaia, PORTUGAL"
+  },
+  {
+    "case_id": "s2aff-2241",
+    "source_row": 2241,
+    "split": "test",
+    "text": "Cardioangiologisches Centrum Bethanien (CCB), Medizinische Klinik III, Kardiologie, Agaplesion Markuskrankenhaus, Frankfurt am Main, Germany (J.K.R.C., S.B., J.L., L.M., S.T., S.Z., L.B., F.B., T.N., L.U., S.C., B.S.)."
+  },
+  {
+    "case_id": "s2aff-2245",
+    "source_row": 2245,
+    "split": "test",
+    "text": "Department of Veterinary Microbiology, Western College of Veterinary Medicine, University of Saskatchewan"
+  },
+  {
+    "case_id": "s2aff-2247",
+    "source_row": 2247,
+    "split": "test",
+    "text": "Ecole Nationale Supérieure, des Mines de Saint-Etienne"
+  },
+  {
+    "case_id": "s2aff-2250",
+    "source_row": 2250,
+    "split": "test",
+    "text": "College of Horticulture and Plant Protection, Yangzhou University, Yangzhou 225009, China"
+  },
+  {
+    "case_id": "s2aff-2270",
+    "source_row": 2270,
+    "split": "test",
+    "text": "State Key Laboratory of Severe Weather & Key Laboratory of Atmospheric Chemistry of CMA, Chinese Academy of Meteorological Sciences, Beijing, 100081, China"
+  },
+  {
+    "case_id": "s2aff-2271",
+    "source_row": 2271,
+    "split": "test",
+    "text": "The Institute of Optics, University of Rochester, United States"
+  },
+  {
+    "case_id": "s2aff-2273",
+    "source_row": 2273,
+    "split": "test",
+    "text": "Department of Electronics and Communication Engineering, Syed Ammal Engineering College,Ramanathapuram, Tamilnadu, India"
+  },
+  {
+    "case_id": "s2aff-2280",
+    "source_row": 2280,
+    "split": "test",
+    "text": "Mälardalen University"
+  },
+  {
+    "case_id": "s2aff-2281",
+    "source_row": 2281,
+    "split": "test",
+    "text": "Orange Labs, Lannion, France"
+  },
+  {
+    "case_id": "s2aff-2282",
+    "source_row": 2282,
+    "split": "test",
+    "text": "University Institute of Engineering and Technology, Panjab University , Chandigarh, 160014, India."
+  },
+  {
+    "case_id": "s2aff-2287",
+    "source_row": 2287,
+    "split": "test",
+    "text": "Universidade de Sao Paulo Escola Superior de Agricultura Luiz de Queiroz;"
+  },
+  {
+    "case_id": "s2aff-2292",
+    "source_row": 2292,
+    "split": "test",
+    "text": "Universitas Internasional Batam"
+  },
+  {
+    "case_id": "s2aff-2299",
+    "source_row": 2299,
+    "split": "test",
+    "text": "Universitas Bina Sarana Informatika"
+  },
+  {
+    "case_id": "s2aff-2302",
+    "source_row": 2302,
+    "split": "test",
+    "text": "Universitas Negeri Gorontalo"
+  },
+  {
+    "case_id": "s2aff-2304",
+    "source_row": 2304,
+    "split": "test",
+    "text": "Universidade Tecnológica Federal do Paraná"
+  },
+  {
+    "case_id": "s2aff-2314",
+    "source_row": 2314,
+    "split": "test",
+    "text": "Politeknik Negeri Medan"
+  },
+  {
+    "case_id": "s2aff-2318",
+    "source_row": 2318,
+    "split": "test",
+    "text": "UIN Alauddin Makassar"
+  },
+  {
+    "case_id": "s2aff-2320",
+    "source_row": 2320,
+    "split": "test",
+    "text": "Farmasi, Universitas Islam Bandung"
+  },
+  {
+    "case_id": "s2aff-2323",
+    "source_row": 2323,
+    "split": "test",
+    "text": "DeepMind"
+  },
+  {
+    "case_id": "s2aff-2326",
+    "source_row": 2326,
+    "split": "test",
+    "text": "Politeknik Negeri Sriwijaya"
+  },
+  {
+    "case_id": "s2aff-2332",
+    "source_row": 2332,
+    "split": "test",
+    "text": "Universitas Budi Darma, Medan"
+  },
+  {
+    "case_id": "s2aff-2350",
+    "source_row": 2350,
+    "split": "test",
+    "text": "Politeknik Ilmu Pemasyarakatan"
+  },
+  {
+    "case_id": "s2aff-2357",
+    "source_row": 2357,
+    "split": "test",
+    "text": "Universidade do Estado do Amazonas"
+  }
+]

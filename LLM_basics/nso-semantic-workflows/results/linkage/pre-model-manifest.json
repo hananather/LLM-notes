@@ -1,0 +1,114 @@
+{
+  "stage": "before model validation; after independent preflight scoring repair",
+  "created_utc": "2026-10-06T22:14:47.809352+00:00",
+  "files": [
+    {
+      "path": "runtime.py",
+      "sha256": "ff755729544648f4c0adeb216d1f56c316e52328f9b4e22d6e0ca1c4f444c5f9"
+    },
+    {
+      "path": "batch.py",
+      "sha256": "fe32854226b671e0337a1e1ec250f03c6265ce137568b5a08fd81d8849ef32f3"
+    },
+    {
+      "path": "linkage.py",
+      "sha256": "268138f3b84eae91dcd5c26823173c903b211d89858f67f1814ea1458aeec8c1"
+    },
+    {
+      "path": "protocol-linkage.md",
+      "sha256": "dc4c04f684edb64fec938262d4cf1d3d5bc22dfa88c6d431b94431677f5d4089"
+    },
+    {
+      "path": "protocol.md",
+      "sha256": "bcbdaea10c45cb9b65b1fa522ba25974b4fb4b4484c1d5c1da49c932e3666207"
+    },
+    {
+      "path": "data/linkage/model-contract.json",
+      "sha256": "a5904e7ebff85a39ef246281570e5d3fbf03ed456009bab3a747b035c351dd4c"
+    },
+    {
+      "path": "data/linkage/nces-candidates.json",
+      "sha256": "fdc3872dad9da5020c3841fe336e691857471e1e6a6d0b7e1517b3a5c04774bb"
+    },
+    {
+      "path": "data/linkage/nces-gold.json",
+      "sha256": "4b3980711ad086f5d886021ae61d8352ecb70d4decbeb5233d5b93a5bc6898b5"
+    },
+    {
+      "path": "data/linkage/nces-inputs.json",
+      "sha256": "c0b5fd59611849fc49b53727ca6223c77f99ec362057e6db67bae09d558c3adb"
+    },
+    {
+      "path": "data/linkage/nces-selection.json",
+      "sha256": "6f5979b08a39c041d65d11deff433317f9f6aa06916db19dc535810b785407e6"
+    },
+    {
+      "path": "data/linkage/prepared-manifest.json",
+      "sha256": "4422c56b98269fe2d567679f6fa4f4a50ae6163261f594acdb3047f6e08012bd"
+    },
+    {
+      "path": "data/linkage/protocol.json",
+      "sha256": "3f4bf27f93753d2eba9aa5d4cff15f4cdc8b926cb9710750eefcb59c5059e21b"
+    },
+    {
+      "path": "data/linkage/s2aff-candidate-registry.json",
+      "sha256": "ca9824a4f09e3e172727c650bb9addf66133bf368643b66b8937dc0be93bcd1b"
+    },
+    {
+      "path": "data/linkage/s2aff-candidates.json",
+      "sha256": "886e689e3841b79d6bd43eaed90c1d51fbeb9929fe80fa0c53a17de4655267e6"
+    },
+    {
+      "path": "data/linkage/s2aff-development-gate.json",
+      "sha256": "5a425373c16769fa650c087aa1c7bf2a649877dd3d1625f7488f4a421c456830"
+    },
+    {
+      "path": "data/linkage/s2aff-gold.json",
+      "sha256": "dce7108da6643db4d57eb7c4401bc98dee9595eef4f18729919d058edc03ad84"
+    },
+    {
+      "path": "data/linkage/s2aff-inputs.json",
+      "sha256": "a6911e1fddaca4f849b3fa20a7f2d97a92dc4875d3a1d7818f3001003d7730ba"
+    },
+    {
+      "path": "data/linkage/s2aff-model-jobs.json",
+      "sha256": "b9543d6360b14e44aaa38b81a2046cb0cb7f16d938ec5bef4186558491317a68"
+    },
+    {
+      "path": "data/linkage/s2aff-selection.json",
+      "sha256": "37e08513c250cfc1a864ea6d05aa987c55420d6763bd6d06b11c57d298a93b5a"
+    },
+    {
+      "path": "data/linkage/sources.json",
+      "sha256": "d397239d6d8dc80dfd54239b014ce98f2841062fb03bf5b945cabe2cc333e846"
+    },
+    {
+      "path": "results/linkage/nces-baseline-predictions.json",
+      "sha256": "40d7e4ba0f929b8fb26b10384cc8ee8437c70d3a8d1dba471d16e8bb5fdb71bb"
+    },
+    {
+      "path": "results/linkage/nces-baseline.json",
+      "sha256": "e5bbc191337eb3ca66780dcdd9ad672c67e65ad52afa9bab82b6900eac065538"
+    },
+    {
+      "path": "results/linkage/offline-verification-prepare.json",
+      "sha256": "1b3f4cf15a545d16bc97344b661473b6415abac610edc11b4543f35e63db1247"
+    },
+    {
+      "path": "results/linkage/offline-verification.json",
+      "sha256": "1ecad2e6b00ab63eebf75f21bfc7573fe944bfd0d73307e89b2687549a9c1f0e"
+    },
+    {
+      "path": "results/linkage/s2aff-baseline-predictions.json",
+      "sha256": "e1d7cd9d51a5f606bf492117bc6cd46c7c8a4c9edcccfa16ead5f41f203e6ace"
+    },
+    {
+      "path": "results/linkage/s2aff-baseline.json",
+      "sha256": "dc3f5b8a8fa2c1bff8b76271da4a9caaaea91db710818b8a4d9fff6b15d6f48c"
+    },
+    {
+      "path": "results/linkage/s2aff-validation-selection.json",
+      "sha256": "085184d2842d128d04e5a796bae40e8ca7c3a54d980bbc39bef830104b864d56"
+    }
+  ]
+}

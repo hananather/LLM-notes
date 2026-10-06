@@ -1,0 +1,28 @@
+{
+  "protocol": "coding-v1",
+  "run_id": "gated-v1",
+  "verification": {
+    "cases": 96,
+    "families": 24,
+    "dev": 32,
+    "test": 64,
+    "official_controls": 48
+  },
+  "sha256": {
+    "data/coding/sources.json": "43ff4c695d5a4ec3281a410e539bda6458d657d057d111cbad0c572378079b4b",
+    "data/coding/source-evidence.json": "77435f977c0bf9b3ca3ba3f67b9bad3b8fa24bb267bcc020e6781c0f730c96cd",
+    "data/coding/split.json": "685765a503b33418dcec9f9f6ee324ad09c5713fc96b3e50f52121f5353a9f1f",
+    "data/coding/facts-gold.json": "a9ce7cc2d3453b1fbcf4a47c33bca8aed494d0c2a58bf6b7f36369936fadacaf",
+    "data/coding/cases.json": "12a294473ef9ca8fab0d3266924bc25273a27f703937365f7c5bd9d1bce3646b",
+    "data/coding/official-controls.json": "f4719c7390ccbffa984e28e900a6946a0714978b35c85a5737ba72859b7f68cc",
+    "data/coding/construction.json": "15b355f66c194f00a705b7cecd185a7bb965cc45369cc83a6a453b44c36fb187",
+    "data/coding/build_cases.py": "a3ef2145eaf244e835867e6782f565692e91c4541f39e2e62d9ca5c780642787",
+    "coding.py": "d2e14ad08999fd56fcec42425a29987351dec2a6e192c4fd9b7043b59577d0ce",
+    "protocol-coding.md": "7edaaff86af1ab4d213e92505924c28f5348d124aa5dda7c07d3a5d8676ee0b7"
+  },
+  "baseline_evidence": {
+    "path": "results/coding/initial-baseline.json",
+    "sha256": "1f93a9064cb5f9eddf6936ba8edb274f0fbe8a4c3787d9f456065ed6cb16a536"
+  },
+  "status": "pre-model freeze; independent label audit required before live calls"
+}

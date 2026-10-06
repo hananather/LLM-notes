@@ -1,0 +1,7 @@
+{
+  "run_id": "coding/v2/test",
+  "jobs_sha256": "5d5ab92dd1f7e1aef6d7463a38ed3641987c48bfd684cd60bb601d5007465800",
+  "case_count": 64,
+  "default_max_output_tokens": 768,
+  "workers": 4
+}

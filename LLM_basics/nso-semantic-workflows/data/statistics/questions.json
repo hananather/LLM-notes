@@ -1,0 +1,266 @@
+[
+  {
+    "family": "canonical-rate-change",
+    "id": "dev-01",
+    "question": "For all genders aged 15 years and over, how did Canada's seasonally adjusted unemployment rate change from 2024-07 to 2024-08? Give percentage points to one decimal.",
+    "split": "dev"
+  },
+  {
+    "family": "canonical-province-gap",
+    "id": "dev-02",
+    "question": "In 2024-08, what was Ontario's seasonally adjusted unemployment rate minus Canada's for all genders aged 15 years and over? Give percentage points to one decimal.",
+    "split": "dev"
+  },
+  {
+    "family": "canonical-endpoint-inflation",
+    "id": "dev-03",
+    "question": "What was the percent change in Canada's all-items CPI, not seasonally adjusted, from 2023-12 to 2024-12? Round to one decimal.",
+    "split": "dev"
+  },
+  {
+    "family": "canonical-youth-lookup",
+    "id": "dev-04",
+    "question": "Give Quebec's unadjusted unemployment rate in 2024-05, all genders aged 15 to 24 years, to one decimal.",
+    "split": "dev"
+  },
+  {
+    "family": "canonical-sa-cpi",
+    "id": "dev-05",
+    "question": "Look up Canada's seasonally adjusted Food CPI for 2025-03, to one decimal.",
+    "split": "dev"
+  },
+  {
+    "family": "canonical-annual-growth",
+    "id": "dev-06",
+    "question": "Find the percent change in Quebec's annual average Shelter CPI, not seasonally adjusted, from 2023 to 2024, to one decimal.",
+    "split": "dev"
+  },
+  {
+    "family": "canonical-unavailable-sa-province",
+    "id": "dev-07",
+    "question": "Give the seasonally adjusted Shelter CPI for Ontario in 2024-07 from this frozen corpus.",
+    "split": "dev"
+  },
+  {
+    "family": "canonical-ambiguous-rate",
+    "id": "dev-08",
+    "question": "What was the unemployment rate in 2024-06?",
+    "split": "dev"
+  },
+  {
+    "family": "canonical-outside-period",
+    "id": "dev-09",
+    "question": "Give Canada's seasonally adjusted unemployment rate for all genders aged 15 years and over in 2027-01.",
+    "split": "dev"
+  },
+  {
+    "family": "canonical-month-mean",
+    "id": "dev-10",
+    "question": "Calculate the arithmetic mean of Canada's all-items CPI, not seasonally adjusted, at 2023-01, 2023-02 and 2023-03. Round to one decimal.",
+    "split": "dev"
+  },
+  {
+    "family": "canonical-index-point-change",
+    "id": "dev-11",
+    "question": "How many index points did Canada's seasonally adjusted Shelter CPI change from 2024-04 to 2024-05? Round to one decimal.",
+    "split": "dev"
+  },
+  {
+    "family": "canonical-person-count",
+    "id": "dev-12",
+    "question": "Give Canada's seasonally adjusted Employment estimate in 2025-02 for all genders aged 15 years and over. Convert thousands to persons and round to the nearest whole person.",
+    "split": "dev"
+  },
+  {
+    "family": "briefing-unemployed-youth",
+    "id": "test-01",
+    "question": "A briefing needs the number of unemployed people in Alberta during 2025-04. Use seasonally adjusted LFS estimates, all genders, ages 15 to 24 years. Return persons, rounded to a whole person.",
+    "split": "test"
+  },
+  {
+    "family": "briefing-employed-adults",
+    "id": "test-02",
+    "question": "For British Columbia in 2023-11, report the LFS count of people in work, without seasonal adjustment, all genders aged 15 years and over. Express it as a whole number of persons.",
+    "split": "test"
+  },
+  {
+    "family": "briefing-rate-snapshot",
+    "id": "test-03",
+    "question": "In Manitoba, what share of the labour force was out of work in 2025-06? I need the seasonally adjusted unemployment rate, all genders aged 15 years and over, at one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "briefing-unadjusted-youth",
+    "id": "test-04",
+    "question": "Please supply the LFS unemployment-rate estimate for Nova Scotia's 15-to-24-year-olds, all genders, in 2023-08. Keep the seasonal pattern in the data (unadjusted) and use one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "release-rate-delta",
+    "id": "test-05",
+    "question": "Between 2025-01 and 2025-02, did Saskatchewan's seasonally adjusted jobless rate rise or fall, and by how many percentage points? Population: all genders aged 15 years and over. One decimal.",
+    "split": "test"
+  },
+  {
+    "family": "release-jobs-delta",
+    "id": "test-06",
+    "question": "Measure the change in Employment from 2023-04 to 2023-05 for New Brunswick, all genders 15 years and over, seasonally adjusted. Report later minus earlier as whole persons.",
+    "split": "test"
+  },
+  {
+    "family": "release-youth-delta",
+    "id": "test-07",
+    "question": "For Newfoundland and Labrador's labour force aged 15 to 24 years, all genders, subtract the unadjusted unemployment rate at 2025-09 from that at 2025-10. Report percentage points with one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "release-unemployed-delta",
+    "id": "test-08",
+    "question": "How much did the count of unemployed people change between 2023-02 and 2023-03 in Prince Edward Island? Use seasonally adjusted LFS, total gender, ages 15 years and over; report whole persons.",
+    "split": "test"
+  },
+  {
+    "family": "household-headline-inflation",
+    "id": "test-09",
+    "question": "For a household note, compute the percentage increase in British Columbia's all-items price index from 2024-02 to 2025-02. Use monthly CPI without seasonal adjustment and one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "household-food-inflation",
+    "id": "test-10",
+    "question": "How much higher or lower was Quebec's Food CPI at 2023-11 than at 2023-05, in percent? Use the not-seasonally-adjusted monthly series. One decimal.",
+    "split": "test"
+  },
+  {
+    "family": "household-shelter-inflation",
+    "id": "test-11",
+    "question": "Determine year-over-year inflation for Shelter in Alberta: compare 2025-08 with 2024-08 in the monthly unadjusted CPI. Give the percent change to one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "household-adjusted-growth",
+    "id": "test-12",
+    "question": "For Canada, calculate the percent movement in the seasonally adjusted all-items CPI from 2025-04 to 2025-05, rounded to one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "annual-index-level",
+    "id": "test-13",
+    "question": "Use the yearly average, not December, to report Nova Scotia's all-items CPI for 2025. This is the unadjusted index; retain one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "annual-food-comparison",
+    "id": "test-14",
+    "question": "Compare the full-year average Food CPI in Manitoba for 2024 and 2025. Return 2025 minus 2024 in index points from the unadjusted annual table, one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "annual-price-growth",
+    "id": "test-15",
+    "question": "Using annual averages, by what percent did Ontario's Shelter price index grow from 2023 to 2025? Use unadjusted CPI and one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "endpoint-not-annual",
+    "id": "test-16",
+    "question": "I need December-to-December inflation rather than an annual-average comparison: Canada's Shelter CPI, unadjusted, 2023-12 to 2024-12. Report percent, one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "province-gap-rate",
+    "id": "test-17",
+    "question": "At 2025-07, how far above or below Quebec was Alberta on the seasonally adjusted unemployment rate? Use Alberta minus Quebec, all genders aged 15 years and over, in percentage points to one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "province-gap-unadjusted",
+    "id": "test-18",
+    "question": "Report British Columbia minus Manitoba for the unadjusted jobless rate in 2023-06, all genders aged 15 to 24 years. Give percentage points to one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "two-date-index-gap",
+    "id": "test-19",
+    "question": "Use the Canadian seasonally adjusted Food index to subtract 2023-09 from 2023-12. I want an index-point difference, not a percent change, to one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "single-month-shelter",
+    "id": "test-20",
+    "question": "Find New Brunswick's Shelter index for 2025-09 in the monthly CPI. Use the non-seasonally-adjusted series and one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "calendar-year-monthly-mean",
+    "id": "test-21",
+    "question": "Calculate the arithmetic average of Canada's 12 monthly seasonally adjusted all-items CPI observations from 2024-01 through 2024-12. Return the index average to one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "winter-mean-index",
+    "id": "test-22",
+    "question": "Average Saskatchewan's monthly Food CPI at 2025-01, 2025-02 and 2025-03 using equal weights. Retain the unadjusted series and round the index to one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "summer-mean-index",
+    "id": "test-23",
+    "question": "Using the unadjusted all-items CPI for Prince Edward Island, calculate a simple arithmetic average of 2023-06, 2023-07 and 2023-08. One decimal.",
+    "split": "test"
+  },
+  {
+    "family": "three-year-index-mean",
+    "id": "test-24",
+    "question": "What is the simple arithmetic mean of Canada's annual-average Shelter CPI for 2023, 2024 and 2025? Use the annual unadjusted values and one decimal.",
+    "split": "test"
+  },
+  {
+    "family": "review-unavailable-city",
+    "id": "test-25",
+    "question": "Give Ottawa's seasonally adjusted LFS unemployment rate in 2025-05, all genders aged 15 years and over, using only the frozen corpus.",
+    "split": "test"
+  },
+  {
+    "family": "review-future-month",
+    "id": "test-26",
+    "question": "Report Canada's unadjusted all-items CPI for 2026-02 using the frozen 2023–2025 observations.",
+    "split": "test"
+  },
+  {
+    "family": "review-no-adjustment",
+    "id": "test-27",
+    "question": "What was Saskatchewan's unemployment rate in 2025-04 for all genders aged 15 years and over? I have not decided whether the seasonal pattern should be removed.",
+    "split": "test"
+  },
+  {
+    "family": "review-no-index-period",
+    "id": "test-28",
+    "question": "Was the annual inflation rate in Newfoundland and Labrador higher in 2024? I mean the all-items CPI but have not chosen annual averages or December-to-December, or a comparison year.",
+    "split": "test"
+  },
+  {
+    "family": "review-sa-provincial-index",
+    "id": "test-29",
+    "question": "From this corpus, extract British Columbia's seasonally adjusted Food CPI at 2025-03. Do not substitute an unadjusted measure.",
+    "split": "test"
+  },
+  {
+    "family": "review-standard-of-living",
+    "id": "test-30",
+    "question": "Use the all-items CPI to tell me the change in the standard of living of low-income Toronto households from 2023 to 2025.",
+    "split": "test"
+  },
+  {
+    "family": "review-missing-population",
+    "id": "test-31",
+    "question": "For Quebec in 2025-06, provide the seasonally adjusted unemployment rate for the age group we discussed earlier. No earlier conversation is supplied.",
+    "split": "test"
+  },
+  {
+    "family": "review-unweighted-national-rate",
+    "id": "test-32",
+    "question": "Add the ten provinces' seasonally adjusted unemployment rates in 2025-06 and label the sum Canada's unemployment rate, for all genders aged 15 years and over.",
+    "split": "test"
+  }
+]

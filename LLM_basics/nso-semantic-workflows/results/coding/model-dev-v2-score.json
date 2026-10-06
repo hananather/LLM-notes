@@ -1,0 +1,1461 @@
+{
+  "rows": [
+    {
+      "id": "naics-glass-installation-01",
+      "scheme": "naics",
+      "family": "glass-installation",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "238150",
+        "compatible_codes": [
+          "238150"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "238150",
+        "compatible_codes": [
+          "238150"
+        ],
+        "evidence_quotes": [
+          "fit sheets of glass into openings that builders have already prepared",
+          "We do not supply whole window assemblies",
+          "we never work on vehicles"
+        ],
+        "missing_information": null,
+        "reason": "The establishment installs glass sheets in prepared openings in buildings, matching the definition of glass and glazing contractors. It does not install whole window assemblies or work on automotive glass, so the listed exclusions do not apply.",
+        "candidate_codes": [
+          "238150",
+          "811122",
+          "236110",
+          "721310",
+          "327214",
+          "332710",
+          "812114",
+          "326111",
+          "327215",
+          "416210"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-glass-installation-02",
+      "scheme": "naics",
+      "family": "glass-installation",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "811122",
+        "compatible_codes": [
+          "811122"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "811122",
+        "compatible_codes": [
+          "811122"
+        ],
+        "evidence_quotes": [
+          "We replace cracked windscreens and mend chipped car windows.",
+          "Motor-vehicle glass is all we work on."
+        ],
+        "missing_information": null,
+        "reason": "The establishment replaces and repairs motor-vehicle glass, matching the definition of Automotive glass replacement shops. The description identifies repair and replacement services, not glass manufacturing.",
+        "candidate_codes": [
+          "811122",
+          "327214",
+          "327215",
+          "336390",
+          "321911",
+          "561721",
+          "326193",
+          "336320",
+          "336370",
+          "332321"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-glass-installation-03",
+      "scheme": "naics",
+      "family": "glass-installation",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "811122",
+        "compatible_codes": [
+          "811122"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [],
+        "evidence_quotes": [
+          "broken or chipped vehicle windows",
+          "taking out damaged panes and fitting replacements"
+        ],
+        "missing_information": "The shortlist does not include the class for replacement or repair of automotive glass; the supplied evidence identifies that activity as excluded from 238150 and points to 811122, which is not a candidate.",
+        "reason": "The description is specifically automotive glass replacement. Candidate 238150 covers glass work for buildings and explicitly excludes replacement or repair of automotive glass, directing it to 811122. Since that destination is absent from the supplied candidates, no listed code is supported.",
+        "candidate_codes": [
+          "611620",
+          "624310",
+          "513190",
+          "238150",
+          "512230",
+          "513130",
+          "333519",
+          "561990",
+          "513110",
+          "444180"
+        ]
+      },
+      "correct": false,
+      "baseline_correct": false,
+      "model_correct": false,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-glass-installation-04",
+      "scheme": "naics",
+      "family": "glass-installation",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "238150",
+          "811122"
+        ],
+        "missing_discriminator": "whether the glass work concerns building panes or motor vehicles"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "238150",
+          "811122"
+        ],
+        "evidence_quotes": [
+          "The firm only replaces glass panes.",
+          "Its incomplete return does not establish whether these go in prepared building openings or in motor vehicles."
+        ],
+        "missing_information": "Whether the glass panes are replaced in prepared building openings or in motor vehicles.",
+        "reason": "The description establishes glass-pane replacement but leaves the setting unresolved. NAICS 238150 covers glazing work for buildings, while 811122 covers replacing and repairing motor vehicle glass; the evidence does not support a unique class.",
+        "candidate_codes": [
+          "238150",
+          "811122",
+          "541110",
+          "327214",
+          "327215",
+          "238140",
+          "444180",
+          "238330",
+          "416340",
+          "449121"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-software-01",
+      "scheme": "naics",
+      "family": "software",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "513211",
+        "compatible_codes": [
+          "513211"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [],
+        "evidence_quotes": [
+          "We develop and distribute an installable bookkeeping program sold in the same packaged form to many buyers.",
+          "It is not a game, a hosted online service, or custom work for one client."
+        ],
+        "missing_information": "The shortlist contains no class for developing and distributing packaged software. The description does not establish that the establishment provides bookkeeping, billing, or payroll processing services.",
+        "reason": "The activity described is developing and distributing packaged software, not providing bookkeeping services as required by 541215. None of the supplied candidates uniquely classifies packaged software development and distribution, so review is required.",
+        "candidate_codes": [
+          "541215",
+          "512120",
+          "313240",
+          "313210",
+          "334512",
+          "315120",
+          "336120",
+          "331110",
+          "419120",
+          "315250"
+        ]
+      },
+      "correct": false,
+      "baseline_correct": false,
+      "model_correct": false,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-software-02",
+      "scheme": "naics",
+      "family": "software",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "541514",
+        "compatible_codes": [
+          "541514"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "541514",
+        "compatible_codes": [
+          "541514"
+        ],
+        "evidence_quotes": [
+          "write and test a different business application around its requirements",
+          "We do not publish packaged products, make games, or run hosted software services."
+        ],
+        "missing_information": null,
+        "reason": "The establishment writes and tests custom business applications to meet each customer's requirements, matching computer systems design and related services. The description also rules out packaged software publishing, video game development, and hosted software services.",
+        "candidate_codes": [
+          "419120",
+          "334512",
+          "911910",
+          "238910",
+          "419110",
+          "541514",
+          "561430",
+          "911240",
+          "813910",
+          "541899"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-software-03",
+      "scheme": "naics",
+      "family": "software",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "541514",
+        "compatible_codes": [
+          "541514"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "541514",
+        "compatible_codes": [
+          "541514"
+        ],
+        "evidence_quotes": [
+          "build non-game applications to an individual clients specification",
+          "test the commissioned result",
+          "There is no standard software product for sale."
+        ],
+        "missing_information": null,
+        "reason": "The description specifies custom, non-game applications built to an individual client's requirements, which supports computer systems design and related services. It also explicitly says there is no standard software product for sale, so software publishing is not supported.",
+        "candidate_codes": [
+          "419120",
+          "513211",
+          "523910",
+          "449212",
+          "541514",
+          "624190",
+          "334512",
+          "332619",
+          "911910",
+          "311990"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-software-04",
+      "scheme": "naics",
+      "family": "software",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "513211",
+          "541514"
+        ],
+        "missing_discriminator": "whether software is a standard published product or custom work for individual clients"
+      },
+      "prediction": {
+        "decision": "failed",
+        "code": null,
+        "candidate_codes": [
+          "513212",
+          "513211",
+          "449212",
+          "485510",
+          "813910",
+          "417310",
+          "518210",
+          "522190",
+          "311990",
+          "334610"
+        ]
+      },
+      "correct": false,
+      "baseline_correct": true,
+      "model_correct": false,
+      "status": "failed",
+      "missing_response": false
+    },
+    {
+      "id": "naics-landscape-01",
+      "scheme": "naics",
+      "family": "landscape",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "541320",
+        "compatible_codes": [
+          "541320"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "541320",
+        "compatible_codes": [
+          "541320"
+        ],
+        "evidence_quotes": [
+          "We plan how park land should be laid out",
+          "prepare the landscape drawings and design administration",
+          "We do not plant, build, mow or maintain the sites."
+        ],
+        "missing_information": null,
+        "reason": "The activity is planning and designing park land and administering the landscape design, matching 541320's description of planning and designing land areas for parks. The description explicitly excludes planting, construction, mowing, and maintenance, so the landscaping-services class is not supported.",
+        "candidate_codes": [
+          "541320",
+          "561730",
+          "541310",
+          "444240",
+          "541430",
+          "912910",
+          "911910",
+          "541514",
+          "561110",
+          "541420"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-landscape-02",
+      "scheme": "naics",
+      "family": "landscape",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "561730",
+        "compatible_codes": [
+          "561730"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "561730",
+        "compatible_codes": [
+          "561730"
+        ],
+        "evidence_quotes": [
+          "Our crews put in lawns, shrubs and garden beds, then maintain them.",
+          "Physical garden installation and upkeep are our service"
+        ],
+        "missing_information": null,
+        "reason": "The description explicitly identifies garden installation and upkeep as the establishment\u2019s service. NAICS 561730 covers installing lawns, shrubs, plants or gardens and providing landscape care and maintenance. The stated absence of a separate architectural practice does not change that classification.",
+        "candidate_codes": [
+          "444240",
+          "811411",
+          "238220",
+          "417110",
+          "561730",
+          "111421",
+          "333110",
+          "811199",
+          "813410",
+          "332210"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-landscape-03",
+      "scheme": "naics",
+      "family": "landscape",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "561730",
+        "compatible_codes": [
+          "561730"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "561730",
+        "compatible_codes": [
+          "561730"
+        ],
+        "evidence_quotes": [
+          "We send crews to establish lawns and planted beds and return to care for them.",
+          "Our business is the hands-on installation and upkeep of landscapes."
+        ],
+        "missing_information": null,
+        "reason": "The description identifies hands-on establishment and ongoing care of lawns, planted beds, and landscapes. This matches landscaping services, including installing plants and providing lawn care and maintenance. The landscape architectural services class concerns planning and designing landscapes, which is not described.",
+        "candidate_codes": [
+          "561730",
+          "541320",
+          "449110",
+          "522210",
+          "623310",
+          "419110",
+          "811199",
+          "444110",
+          "238350",
+          "813910"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-landscape-04",
+      "scheme": "naics",
+      "family": "landscape",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "541320",
+          "561730"
+        ],
+        "missing_discriminator": "whether the service is land-design work alone or physical landscape installation and care"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [],
+        "evidence_quotes": [
+          "The firm works on parks.",
+          "The record does not distinguish a practice providing only landscape plans and design administration from a contractor installing and maintaining the planted areas."
+        ],
+        "missing_information": "Whether the firm provides landscape plans and design administration only, or installs and maintains planted areas. The relevant class is not established by the supplied candidates.",
+        "reason": "The description explicitly leaves the decisive activity unresolved. None of the supplied candidates is supported as a unique classification for landscape design or landscape installation and maintenance.",
+        "candidate_codes": [
+          "541110",
+          "713110",
+          "712190",
+          "721211",
+          "512230",
+          "526989",
+          "459920",
+          "712130",
+          "912910",
+          "331317"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-car-dealers-01",
+      "scheme": "naics",
+      "family": "car-dealers",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "441110",
+        "compatible_codes": [
+          "441110"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "441110",
+        "compatible_codes": [
+          "441110"
+        ],
+        "evidence_quotes": [
+          "We mainly sell new cars and light trucks to final buyers.",
+          "We also take some used vehicles in trade and sell those."
+        ],
+        "missing_information": null,
+        "reason": "The establishment primarily retails new cars and light trucks to final buyers, matching 441110. Selling some used vehicles in trade is consistent with this class, which typically also retails used cars.",
+        "candidate_codes": [
+          "441110",
+          "415110",
+          "336110",
+          "415190",
+          "441120",
+          "419120",
+          "336510",
+          "336211",
+          "415290",
+          "415310"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-car-dealers-02",
+      "scheme": "naics",
+      "family": "car-dealers",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "441120",
+        "compatible_codes": [
+          "441120"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "441120",
+        "compatible_codes": [
+          "441120"
+        ],
+        "evidence_quotes": [
+          "We sell second-hand cars and light trucks.",
+          "We never sell brand-new motor vehicles."
+        ],
+        "missing_information": null,
+        "reason": "The description identifies retail sales of used cars and light trucks, matching the supplied definition of 441120, which covers retailing used automobiles and light-duty trucks and vans. The statement that no brand-new vehicles are sold does not change that classification.",
+        "candidate_codes": [
+          "418930",
+          "459510",
+          "336110",
+          "441330",
+          "336510",
+          "419120",
+          "441120",
+          "336211",
+          "415110",
+          "488210"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-car-dealers-03",
+      "scheme": "naics",
+      "family": "car-dealers",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "441120",
+        "compatible_codes": [
+          "441120"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "441120",
+        "compatible_codes": [
+          "441120"
+        ],
+        "evidence_quotes": [
+          "All vehicles on our lot have had a previous owner.",
+          "Retailing these used cars and light trucks is the business; we do not sell new ones."
+        ],
+        "missing_information": null,
+        "reason": "The establishment primarily retails used cars and light trucks and does not sell new vehicles. This matches the supplied definition of 441120 Used car dealers.",
+        "candidate_codes": [
+          "441120",
+          "336110",
+          "441110",
+          "415110",
+          "336211",
+          "336510",
+          "415190",
+          "441210",
+          "459510",
+          "813910"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "naics-car-dealers-04",
+      "scheme": "naics",
+      "family": "car-dealers",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "441110",
+          "441120"
+        ],
+        "missing_discriminator": "whether the dealership mainly sells new vehicles or sells only used vehicles"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "441110",
+          "441120"
+        ],
+        "evidence_quotes": [
+          "This dealership retails cars and light trucks.",
+          "The return does not distinguish a mainly new-vehicle dealership with some used sales from a used-only dealer."
+        ],
+        "missing_information": "Whether the dealership primarily retails new vehicles or used vehicles only.",
+        "reason": "The description does not resolve the distinction between 441110, which covers new-vehicle dealers that may also retail used cars, and 441120, which covers used-vehicle dealers. The decisive new-versus-used retail activity is explicitly unspecified.",
+        "candidate_codes": [
+          "336110",
+          "336510",
+          "441120",
+          "813910",
+          "441110",
+          "336211",
+          "415110",
+          "488210",
+          "457219",
+          "459210"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-human-resources-01",
+      "scheme": "noc",
+      "family": "human-resources",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "11200",
+        "compatible_codes": [
+          "11200"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "11200",
+        "compatible_codes": [
+          "11200"
+        ],
+        "evidence_quotes": [
+          "I develop and evaluate employment and labour-relations policies and advise employers on collective agreements.",
+          "I do not manage the HR department."
+        ],
+        "missing_information": null,
+        "reason": "The described policy development and evaluation and advice on collective agreements align with NOC 11200. The explicit statement that the worker does not manage the HR department weighs against 10011, whose class definition is for managers directing and evaluating HR department operations. No supplied evidence indicates recruitment-officer or clerical duties.",
+        "candidate_codes": [
+          "10011",
+          "11200",
+          "41321",
+          "12101",
+          "14102",
+          "60031",
+          "11202",
+          "40010",
+          "12104",
+          "10029"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-human-resources-02",
+      "scheme": "noc",
+      "family": "human-resources",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "12101",
+        "compatible_codes": [
+          "12101"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "12101",
+        "compatible_codes": [
+          "12101"
+        ],
+        "evidence_quotes": [
+          "turn staffing vacancies into advertisements",
+          "collect applications",
+          "help select candidates"
+        ],
+        "missing_information": null,
+        "reason": "The described duties directly match human resources and recruitment officers, who advertise vacancies, recruit candidates, and assist in selection. The statement that employment policies are not designed weighs against the manager class; no unresolved alternative in the supplied candidates is supported.",
+        "candidate_codes": [
+          "12101",
+          "73201",
+          "14102",
+          "10011",
+          "32129",
+          "64314",
+          "14202",
+          "14100",
+          "22221",
+          "64300"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-human-resources-03",
+      "scheme": "noc",
+      "family": "human-resources",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "12101",
+        "compatible_codes": [
+          "12101"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "14102",
+        "compatible_codes": [
+          "14102"
+        ],
+        "evidence_quotes": [
+          "When posts become vacant, I arrange the adverts, gather applicants and assist with the selection.",
+          "Employment-policy development is outside my work."
+        ],
+        "missing_information": null,
+        "reason": "The described duties are clerical support for vacancies and applicant selection, matching personnel clerks. The description explicitly excludes employment-policy development, so the policy-related alternatives are not supported.",
+        "candidate_codes": [
+          "14102",
+          "62020",
+          "12101",
+          "41403",
+          "40010",
+          "31300",
+          "40012",
+          "65329",
+          "40011",
+          "53100"
+        ]
+      },
+      "correct": false,
+      "baseline_correct": false,
+      "model_correct": false,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-human-resources-04",
+      "scheme": "noc",
+      "family": "human-resources",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "11200",
+          "12101"
+        ],
+        "missing_discriminator": "whether the work is employment-policy advice or recruitment operations"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "11200",
+          "12101"
+        ],
+        "evidence_quotes": [
+          "The worker is in human resources but not a department manager.",
+          "The record cannot distinguish policy and collective-agreement advice from advertising vacancies and recruiting candidates."
+        ],
+        "missing_information": "Whether the worker's duties involve developing or advising on human resources policies and collective agreements (11200), or advertising vacancies and recruiting candidates (12101).",
+        "reason": "The description explicitly leaves the deciding duties unresolved. Both 11200 and 12101 are supported by the supplied evidence, so a unique NOC class cannot be selected.",
+        "candidate_codes": [
+          "11200",
+          "13102",
+          "12101",
+          "92014",
+          "10011",
+          "14202",
+          "10022",
+          "14102",
+          "73201",
+          "64313"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-pharmacy-01",
+      "scheme": "noc",
+      "family": "pharmacy",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "31120",
+        "compatible_codes": [
+          "31120"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "31120",
+        "compatible_codes": [
+          "31120"
+        ],
+        "evidence_quotes": [
+          "I am a licensed pharmacist.",
+          "I review patients medication therapy, advise them on safe use and dispense their prescriptions."
+        ],
+        "missing_information": null,
+        "reason": "The description identifies the worker as a licensed pharmacist and states that they advise on medication use and dispense prescriptions, which supports NOC 31120 Pharmacists. The pharmacy technician and assistant classes do not fit the stated pharmacist occupation.",
+        "candidate_codes": [
+          "31120",
+          "32124",
+          "32109",
+          "32100",
+          "32129",
+          "32209",
+          "33103",
+          "32101",
+          "11102",
+          "31111"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-pharmacy-02",
+      "scheme": "noc",
+      "family": "pharmacy",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "32124",
+        "compatible_codes": [
+          "32124"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "32124",
+        "compatible_codes": [
+          "32124"
+        ],
+        "evidence_quotes": [
+          "I am a regulated pharmacy technician",
+          "doing the technical preparation and dispensing tasks under a pharmacist"
+        ],
+        "missing_information": null,
+        "reason": "The description identifies the worker as a regulated pharmacy technician and describes technical preparation and dispensing tasks under a pharmacist. This supports NOC 32124. The stated absence of pharmacists\u2019 clinical medication advice does not conflict with that classification.",
+        "candidate_codes": [
+          "32124",
+          "33103",
+          "31120",
+          "30010",
+          "32100",
+          "22100",
+          "60020",
+          "51112",
+          "64100",
+          "62100"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-pharmacy-03",
+      "scheme": "noc",
+      "family": "pharmacy",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "32124",
+        "compatible_codes": [
+          "32124"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "33103",
+          "32124"
+        ],
+        "evidence_quotes": [
+          "preparing and dispensing medicines under the pharmacist"
+        ],
+        "missing_information": "Whether the role performs pharmacy technician functions such as gathering patient information, product distribution, and inventory control, or instead performs pharmacy technical assistant tasks related to medication preparation and prescription filling.",
+        "reason": "The description supports a supervised technical dispensing role, but does not distinguish pharmacy technical assistants and pharmacy assistants (33103) from pharmacy technicians (32124). Calling the role regulated does not resolve the distinction because the description does not specify the duties needed to identify the class.",
+        "candidate_codes": [
+          "31120",
+          "33103",
+          "32124",
+          "32100",
+          "60020",
+          "32109",
+          "73209",
+          "31112",
+          "32129",
+          "52119"
+        ]
+      },
+      "correct": false,
+      "baseline_correct": false,
+      "model_correct": false,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-pharmacy-04",
+      "scheme": "noc",
+      "family": "pharmacy",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "31120",
+          "32124"
+        ],
+        "missing_discriminator": "whether the worker is a licensed pharmacist or a regulated pharmacy technician"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "31120",
+          "32124"
+        ],
+        "evidence_quotes": [
+          "either a licensed pharmacist or a regulated pharmacy technician",
+          "the role and clinical responsibilities are missing"
+        ],
+        "missing_information": "Whether the worker is a pharmacist or a pharmacy technician; the description explicitly leaves the role unresolved.",
+        "reason": "The description presents two alternative occupations. A licensed pharmacist is consistent with 31120, while a regulated pharmacy technician is consistent with 32124. The missing role prevents a unique classification.",
+        "candidate_codes": [
+          "32124",
+          "33103",
+          "31120",
+          "32100",
+          "60020",
+          "30010",
+          "62010",
+          "32101",
+          "31100",
+          "93101"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-dental-01",
+      "scheme": "noc",
+      "family": "dental",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "32111",
+        "compatible_codes": [
+          "32111"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "32111",
+        "compatible_codes": [
+          "32111"
+        ],
+        "evidence_quotes": [
+          "I provide dental-hygiene care",
+          "assess oral health",
+          "scale teeth to prevent gum disease",
+          "I am not a dentist or laboratory worker."
+        ],
+        "missing_information": null,
+        "reason": "The described work is dental-hygiene care, including assessing oral health and scaling teeth to prevent disease. This supports NOC 32111, Dental hygienists and dental therapists. The description explicitly rules out dentist and laboratory-worker roles.",
+        "candidate_codes": [
+          "32111",
+          "31110",
+          "14101",
+          "33100",
+          "22232",
+          "30010",
+          "31103",
+          "31102",
+          "40010",
+          "85103"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-dental-02",
+      "scheme": "noc",
+      "family": "dental",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "33100",
+        "compatible_codes": [
+          "33100"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "33100",
+        "compatible_codes": [
+          "33100"
+        ],
+        "evidence_quotes": [
+          "During dental treatment I prepare patients, pass instruments to the dentist and sterilize equipment afterwards.",
+          "I do not assess oral health independently or scale teeth."
+        ],
+        "missing_information": null,
+        "reason": "The described duties match dental assistant work: preparing patients, assisting the dentist during treatment, and sterilizing equipment. The description explicitly rules out independent oral-health assessment and scaling, supporting dental assistant rather than dental hygienist duties.",
+        "candidate_codes": [
+          "33100",
+          "32101",
+          "14101",
+          "31110",
+          "33109",
+          "32111",
+          "92101",
+          "94219",
+          "31204",
+          "32112"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-dental-03",
+      "scheme": "noc",
+      "family": "dental",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "33100",
+        "compatible_codes": [
+          "33100"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "33100",
+        "compatible_codes": [
+          "33100"
+        ],
+        "evidence_quotes": [
+          "chairside help for the dentist",
+          "readying the patient and instruments",
+          "sterilizing tools"
+        ],
+        "missing_information": null,
+        "reason": "The description identifies assisting the dentist chairside, preparing the patient and instruments, and sterilizing tools. These duties support NOC 33100, which includes assisting dentists during examinations and treatments and sterilizing instruments. The description explicitly distinguishes the work from independent hygiene assessment or scaling.",
+        "candidate_codes": [
+          "31110",
+          "32101",
+          "33100",
+          "32111",
+          "33109",
+          "32109",
+          "42201",
+          "33102",
+          "14101",
+          "42200"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": false,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-dental-04",
+      "scheme": "noc",
+      "family": "dental",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "32111",
+          "33100"
+        ],
+        "missing_discriminator": "whether the worker provides hygiene assessment and scaling or chairside assistance to the dentist"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "33100",
+          "32111"
+        ],
+        "evidence_quotes": [
+          "The description leaves unresolved whether they independently provide hygiene assessment and scaling or only assist the dentist at the chair."
+        ],
+        "missing_information": "Whether the worker independently provides dental hygiene assessment and scaling, or only assists the dentist during examinations and treatment.",
+        "reason": "The description explicitly leaves unresolved the distinction between dental hygienist duties (32111) and dental assistant duties (33100). The dental clinic setting does not resolve the worker\u2019s duties, so no unique NOC class is supported.",
+        "candidate_codes": [
+          "33100",
+          "32111",
+          "31110",
+          "14101",
+          "22302",
+          "22112",
+          "32109",
+          "32112",
+          "31204",
+          "21110"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-nursing-01",
+      "scheme": "noc",
+      "family": "nursing",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "31301",
+        "compatible_codes": [
+          "31301"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "31301",
+        "compatible_codes": [
+          "31301"
+        ],
+        "evidence_quotes": [
+          "registered nurse",
+          "providing bedside care",
+          "monitoring patients",
+          "giving medicines prescribed by a physician",
+          "I have no nurse-practitioner role",
+          "do not supervise the ward"
+        ],
+        "missing_information": null,
+        "reason": "The description identifies a registered nurse providing bedside care and medication, consistent with NOC 31301. It explicitly rules out a nurse-practitioner role and ward supervision; the supplied exclusions direct those roles to other classes.",
+        "candidate_codes": [
+          "31301",
+          "31302",
+          "32104",
+          "32121",
+          "33102",
+          "31102",
+          "32103",
+          "52100",
+          "31100",
+          "31209"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-nursing-02",
+      "scheme": "noc",
+      "family": "nursing",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "31302",
+        "compatible_codes": [
+          "31302"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "31302",
+        "compatible_codes": [
+          "31302"
+        ],
+        "evidence_quotes": [
+          "advanced-practice nurse",
+          "diagnose illnesses",
+          "prescribe treatment",
+          "I am not a physician."
+        ],
+        "missing_information": null,
+        "reason": "The description identifies the worker as an advanced-practice nurse and states that they diagnose illnesses and prescribe treatment. This supports the supplied NOC 31302 class for nurse practitioners; the explicit statement that the worker is not a physician also rules out the physician classes.",
+        "candidate_codes": [
+          "31302",
+          "31100",
+          "31102",
+          "31201",
+          "32102",
+          "31111",
+          "31110",
+          "31209",
+          "31303",
+          "41407"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-nursing-03",
+      "scheme": "noc",
+      "family": "nursing",
+      "split": "dev",
+      "reference": {
+        "decision": "code",
+        "code": "31302",
+        "compatible_codes": [
+          "31302"
+        ],
+        "missing_discriminator": null
+      },
+      "prediction": {
+        "decision": "code",
+        "code": "31302",
+        "compatible_codes": [
+          "31302"
+        ],
+        "evidence_quotes": [
+          "In my advanced nursing role",
+          "I use nurse-practitioner authority",
+          "diagnose, request diagnostic tests and prescribe treatment after examining patients."
+        ],
+        "missing_information": null,
+        "reason": "The description explicitly identifies the role as advanced nursing and states that it uses nurse-practitioner authority. This supports NOC 31302, Nurse practitioners. The statement that the worker is not a doctor does not conflict with this classification.",
+        "candidate_codes": [
+          "31302",
+          "31201",
+          "31100",
+          "31102",
+          "31209",
+          "31303",
+          "31112",
+          "32123",
+          "31110",
+          "33109"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    },
+    {
+      "id": "noc-nursing-04",
+      "scheme": "noc",
+      "family": "nursing",
+      "split": "dev",
+      "reference": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "31301",
+          "31302"
+        ],
+        "missing_discriminator": "whether the registered nurse has and uses nurse-practitioner authority to diagnose and prescribe"
+      },
+      "prediction": {
+        "decision": "review",
+        "code": null,
+        "compatible_codes": [
+          "31301",
+          "31302"
+        ],
+        "evidence_quotes": [
+          "registered nurse providing clinical care",
+          "does not establish whether they have and use nurse-practitioner diagnostic and prescribing authority"
+        ],
+        "missing_information": "Whether the employee is a nurse practitioner and performs work in that capacity, or provides clinical care as a registered nurse without nurse-practitioner status.",
+        "reason": "The description supports nursing work but explicitly leaves nurse-practitioner status and practice unresolved. NOC 31302 covers nurse practitioners, while NOC 31301 covers registered nurses; the supplied evidence does not establish which class applies.",
+        "candidate_codes": [
+          "31302",
+          "31301",
+          "31300",
+          "32123",
+          "32101",
+          "33102",
+          "32103",
+          "31102",
+          "31100",
+          "33109"
+        ]
+      },
+      "correct": true,
+      "baseline_correct": true,
+      "model_correct": true,
+      "status": "success",
+      "missing_response": false
+    }
+  ],
+  "summaries": {
+    "naics_dev": {
+      "n": 16,
+      "decision_correct": 13,
+      "decision_accuracy": 0.8125,
+      "unique_target_n": 12,
+      "unique_target_correct": 10,
+      "review_n": 4,
+      "review_correct": 3,
+      "unsupported_single_code_on_review": 0,
+      "unique_target_recall_at_10": 0.8333333333333334,
+      "review_both_candidates_retrieved": 2,
+      "interpretation": "Descriptive finite synthetic-case result; related variants remain clustered by family.",
+      "baseline_correct": 10,
+      "net_corrected": 3,
+      "new_errors": 1,
+      "development_gate": "pass"
+    },
+    "noc_dev": {
+      "n": 16,
+      "decision_correct": 14,
+      "decision_accuracy": 0.875,
+      "unique_target_n": 12,
+      "unique_target_correct": 10,
+      "review_n": 4,
+      "review_correct": 4,
+      "unsupported_single_code_on_review": 0,
+      "unique_target_recall_at_10": 1.0,
+      "review_both_candidates_retrieved": 4,
+      "interpretation": "Descriptive finite synthetic-case result; related variants remain clustered by family.",
+      "baseline_correct": 12,
+      "net_corrected": 2,
+      "new_errors": 0,
+      "development_gate": "pass"
+    }
+  },
+  "gate_rule": "Per scheme, complete 16-case dev panel; at least two net additional correct decisions and no unsupported code on four review cases. Otherwise stop that scheme before test."
+}

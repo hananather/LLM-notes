@@ -1,0 +1,29 @@
+{
+  "protocol": "coding-v2",
+  "run_id": "audited-v2",
+  "verification": {
+    "cases": 96,
+    "families": 24,
+    "dev": 32,
+    "test": 64,
+    "official_controls": 48
+  },
+  "sha256": {
+    "data/coding/sources.json": "43ff4c695d5a4ec3281a410e539bda6458d657d057d111cbad0c572378079b4b",
+    "data/coding/source-evidence.json": "77435f977c0bf9b3ca3ba3f67b9bad3b8fa24bb267bcc020e6781c0f730c96cd",
+    "data/coding/split.json": "685765a503b33418dcec9f9f6ee324ad09c5713fc96b3e50f52121f5353a9f1f",
+    "data/coding/facts-gold.json": "2d90e47846ac524b194afdfd54c19aa967ccd2106fb90ff540b32245badf6317",
+    "data/coding/cases.json": "4d351f96b44a18382e69069c956859a6e2025fb4e30a8071d2bfef8ad8faf066",
+    "data/coding/official-controls.json": "f4719c7390ccbffa984e28e900a6946a0714978b35c85a5737ba72859b7f68cc",
+    "data/coding/construction.json": "da37a08300a445c5d1bde1368c9dea0f184488345488021b949ba575889a6081",
+    "data/coding/build_cases.py": "f4dddac4e0d3e771c998298baf846c3fba50cd18f1c9376a8b46443989e9ae2a",
+    "coding.py": "1f3fd7d2f6a3d5c257c8ad96d1675f1e3fb8a75e3b32bb24d16c80056290df19",
+    "protocol-coding.md": "f5ffbdd594ed55825068d89eb34b68e36c4495d41dcdcfa80090defc5f2b025f",
+    "results/coding/audited-v2-all-direct-jobs.json": "039aef3bcbb4a987114ec8c70bd754c88bafaeb0d3706feed68aa40d3c82cc05"
+  },
+  "baseline_evidence": {
+    "path": "results/coding/audited-v2-baseline.json",
+    "sha256": "4610ec82204b5c9420980f3aa6d335935483bbf2e3f634599f772c1334dda3ad"
+  },
+  "status": "pre-model freeze; independent label audit required before live calls"
+}

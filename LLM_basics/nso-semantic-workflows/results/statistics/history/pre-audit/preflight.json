@@ -1,0 +1,52 @@
+{
+  "catalogue_baseline": {
+    "catalogue_size": 8270,
+    "n": 24,
+    "recall_at_12_count": 15,
+    "recall_at_5_count": 12,
+    "split": "test",
+    "top1_correct": 9
+  },
+  "catalogue_count": 8270,
+  "data_rows": 401944,
+  "development_baseline": {
+    "baseline": {
+      "complete_accuracy": 1.0,
+      "complete_correct": 12,
+      "errors": 0,
+      "n": 12,
+      "review_outputs": 3,
+      "wrong_nonabstaining_answers": 0
+    }
+  },
+  "live_calls": 0,
+  "lock": {
+    "blinding_boundary": "Public reproducibility files; not a fresh blind user-query sample. Test outputs must not tune this revision.",
+    "created_utc": "2026-10-06T22:08:13.545480+00:00",
+    "development_questions": 12,
+    "hashes": {
+      "manifest.json": "51e8df617e5558b8bc85c5162115dac12d93cf7f74c87e81633f42f986c275bb",
+      "prompts.json": "895ca40e620fd2bc25fba091a20e25651ebdb0349a97961431bed83c354cf98b",
+      "questions.json": "e28d951531c811f47bf83bad271e81fed01ea07f1299d379424ca43281020ee1",
+      "reference.json": "aee087340cde0cec69dba54b257ca0885239df3f769cb0084a6a96e645e3075e"
+    },
+    "question_design": "Fixed authored scenario families over genuine public observations; no evaluated model generated questions or references.",
+    "seed": "Hand-authored fixed manifest, no random sampling claimed",
+    "test_questions": 32
+  },
+  "prompt_characters": 25797,
+  "reference_check": {
+    "answer_references_checked": 33,
+    "method": "Independent boolean-filter row selection and SCALAR_ID decimal arithmetic; conceptual plans remain authored references."
+  },
+  "test_baseline": {
+    "baseline": {
+      "complete_accuracy": 0.90625,
+      "complete_correct": 29,
+      "errors": 0,
+      "n": 32,
+      "review_outputs": 9,
+      "wrong_nonabstaining_answers": 1
+    }
+  }
+}

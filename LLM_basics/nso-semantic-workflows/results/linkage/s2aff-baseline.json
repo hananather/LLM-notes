@@ -1,0 +1,289 @@
+{
+  "protocol_sha256": "3a6c9e27ce29494ef23de3c4def563e4198a6e8fc5523c81a356dd880cadcfe6",
+  "code_sha256": "39924b2236b8344e8e113c1706a630a79d59611ff13f5d899b281536bd5f28be",
+  "index": {
+    "registry_organizations": 102742,
+    "alias_rows": 181629,
+    "char_features": 170249,
+    "word_features": 300000
+  },
+  "source_hashes": [
+    {
+      "name": "gold_affiliation_annotations.csv",
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "bytes": 271014
+    },
+    {
+      "name": "v1.1-2022-06-16-ror-data.zip",
+      "url": "https://zenodo.org/records/6657125/files/v1.1-2022-06-16-ror-data.zip?download=1",
+      "sha256": "d71fd8d20d753fed8f7b5e08aa2215ad4cda2b2378c7f2a9f977ad17605504a6",
+      "bytes": 20454781
+    },
+    {
+      "name": "S2AFF-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "name": "ccd_sch_029_2122_w_0b_042922.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_029_2122_w_0b_042922.zip",
+      "sha256": "d5d8bc381e92d64124919681f5e631e9cc66f330a22cb1626be19254cafe0e1a",
+      "bytes": 12543454
+    },
+    {
+      "name": "ccd_sch_029_2223_w_0a_051023.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_029_2223_w_0a_051023.zip",
+      "sha256": "4238feed728fb0cb6eb8d1ca7f7389be57d46262ca6805a8f1acdadd3c06610a",
+      "bytes": 12605610
+    },
+    {
+      "name": "2021-22_Sch_Documentation_1a.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/2021-22_Sch_Documentation_1a.zip",
+      "sha256": "28fc6884f1b173899102d2367957d6420714d0fa58a3bf31818224ef62d6b860",
+      "bytes": 311787
+    },
+    {
+      "name": "2022-23_Sch_Documentation_prelim.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/2022-23_Sch_Documentation_prelim.zip",
+      "sha256": "93f19670cb21918d6b057e4d64290c4d4914166f13a94d1e5d24ea11988fd0ab",
+      "bytes": 200357
+    }
+  ],
+  "metrics": {
+    "val": {
+      "arms": {
+        "exact_contained_alias": {
+          "rows": 100,
+          "exact_sets": 38,
+          "exact_set_accuracy": 0.38,
+          "tp": 59,
+          "fp": 69,
+          "fn": 35,
+          "micro_precision": 0.4609375,
+          "micro_recall": 0.6276595744680851,
+          "micro_f1": 0.5315315315315315,
+          "nil_rows": 11,
+          "nil_correct": 6,
+          "false_nil_rows": 24,
+          "false_assignment_on_nil_rows": 5
+        },
+        "char_tfidf_top1": {
+          "rows": 100,
+          "exact_sets": 56,
+          "exact_set_accuracy": 0.56,
+          "tp": 59,
+          "fp": 41,
+          "fn": 35,
+          "micro_precision": 0.59,
+          "micro_recall": 0.6276595744680851,
+          "micro_f1": 0.6082474226804123,
+          "nil_rows": 11,
+          "nil_correct": 0,
+          "false_nil_rows": 0,
+          "false_assignment_on_nil_rows": 11
+        },
+        "word_tfidf_top1": {
+          "rows": 100,
+          "exact_sets": 53,
+          "exact_set_accuracy": 0.53,
+          "tp": 57,
+          "fp": 43,
+          "fn": 37,
+          "micro_precision": 0.57,
+          "micro_recall": 0.6063829787234043,
+          "micro_f1": 0.5876288659793815,
+          "nil_rows": 11,
+          "nil_correct": 0,
+          "false_nil_rows": 0,
+          "false_assignment_on_nil_rows": 11
+        },
+        "fused_top1": {
+          "rows": 100,
+          "exact_sets": 73,
+          "exact_set_accuracy": 0.73,
+          "tp": 77,
+          "fp": 23,
+          "fn": 17,
+          "micro_precision": 0.77,
+          "micro_recall": 0.8191489361702128,
+          "micro_f1": 0.7938144329896907,
+          "nil_rows": 11,
+          "nil_correct": 0,
+          "false_nil_rows": 0,
+          "false_assignment_on_nil_rows": 11
+        },
+        "fused_selective_set": {
+          "rows": 100,
+          "exact_sets": 74,
+          "exact_set_accuracy": 0.74,
+          "tp": 77,
+          "fp": 22,
+          "fn": 17,
+          "micro_precision": 0.7777777777777778,
+          "micro_recall": 0.8191489361702128,
+          "micro_f1": 0.7979274611398963,
+          "nil_rows": 11,
+          "nil_correct": 1,
+          "false_nil_rows": 0,
+          "false_assignment_on_nil_rows": 10
+        }
+      },
+      "candidate_recall": {
+        "1": {
+          "gold_targets_found": 77,
+          "gold_targets": 94,
+          "target_recall": 0.8191489361702128,
+          "all_targets_retained_rows": 73,
+          "positive_rows": 89,
+          "all_targets_row_recall": 0.8202247191011236
+        },
+        "5": {
+          "gold_targets_found": 86,
+          "gold_targets": 94,
+          "target_recall": 0.9148936170212766,
+          "all_targets_retained_rows": 81,
+          "positive_rows": 89,
+          "all_targets_row_recall": 0.9101123595505618
+        },
+        "10": {
+          "gold_targets_found": 87,
+          "gold_targets": 94,
+          "target_recall": 0.925531914893617,
+          "all_targets_retained_rows": 82,
+          "positive_rows": 89,
+          "all_targets_row_recall": 0.9213483146067416
+        },
+        "25": {
+          "gold_targets_found": 89,
+          "gold_targets": 94,
+          "target_recall": 0.9468085106382979,
+          "all_targets_retained_rows": 84,
+          "positive_rows": 89,
+          "all_targets_row_recall": 0.9438202247191011
+        }
+      }
+    },
+    "test": {
+      "arms": {
+        "exact_contained_alias": {
+          "rows": 644,
+          "exact_sets": 285,
+          "exact_set_accuracy": 0.44254658385093165,
+          "tp": 392,
+          "fp": 393,
+          "fn": 231,
+          "micro_precision": 0.49936305732484076,
+          "micro_recall": 0.6292134831460674,
+          "micro_f1": 0.5568181818181818,
+          "nil_rows": 38,
+          "nil_correct": 29,
+          "false_nil_rows": 131,
+          "false_assignment_on_nil_rows": 9
+        },
+        "char_tfidf_top1": {
+          "rows": 644,
+          "exact_sets": 411,
+          "exact_set_accuracy": 0.6381987577639752,
+          "tp": 421,
+          "fp": 223,
+          "fn": 202,
+          "micro_precision": 0.6537267080745341,
+          "micro_recall": 0.6757624398073836,
+          "micro_f1": 0.664561957379637,
+          "nil_rows": 38,
+          "nil_correct": 0,
+          "false_nil_rows": 0,
+          "false_assignment_on_nil_rows": 38
+        },
+        "word_tfidf_top1": {
+          "rows": 644,
+          "exact_sets": 337,
+          "exact_set_accuracy": 0.5232919254658385,
+          "tp": 347,
+          "fp": 297,
+          "fn": 276,
+          "micro_precision": 0.5388198757763976,
+          "micro_recall": 0.5569823434991974,
+          "micro_f1": 0.5477505919494869,
+          "nil_rows": 38,
+          "nil_correct": 0,
+          "false_nil_rows": 0,
+          "false_assignment_on_nil_rows": 38
+        },
+        "fused_top1": {
+          "rows": 644,
+          "exact_sets": 455,
+          "exact_set_accuracy": 0.7065217391304348,
+          "tp": 467,
+          "fp": 177,
+          "fn": 156,
+          "micro_precision": 0.7251552795031055,
+          "micro_recall": 0.7495987158908507,
+          "micro_f1": 0.7371744277821626,
+          "nil_rows": 38,
+          "nil_correct": 0,
+          "false_nil_rows": 0,
+          "false_assignment_on_nil_rows": 38
+        },
+        "fused_selective_set": {
+          "rows": 644,
+          "exact_sets": 456,
+          "exact_set_accuracy": 0.7080745341614907,
+          "tp": 465,
+          "fp": 174,
+          "fn": 158,
+          "micro_precision": 0.7276995305164319,
+          "micro_recall": 0.7463884430176565,
+          "micro_f1": 0.7369255150554676,
+          "nil_rows": 38,
+          "nil_correct": 3,
+          "false_nil_rows": 2,
+          "false_assignment_on_nil_rows": 35
+        }
+      },
+      "candidate_recall": {
+        "1": {
+          "gold_targets_found": 467,
+          "gold_targets": 623,
+          "target_recall": 0.7495987158908507,
+          "all_targets_retained_rows": 455,
+          "positive_rows": 606,
+          "all_targets_row_recall": 0.7508250825082509
+        },
+        "5": {
+          "gold_targets_found": 594,
+          "gold_targets": 623,
+          "target_recall": 0.9534510433386838,
+          "all_targets_retained_rows": 577,
+          "positive_rows": 606,
+          "all_targets_row_recall": 0.9521452145214522
+        },
+        "10": {
+          "gold_targets_found": 609,
+          "gold_targets": 623,
+          "target_recall": 0.9775280898876404,
+          "all_targets_retained_rows": 592,
+          "positive_rows": 606,
+          "all_targets_row_recall": 0.976897689768977
+        },
+        "25": {
+          "gold_targets_found": 614,
+          "gold_targets": 623,
+          "target_recall": 0.985553772070626,
+          "all_targets_retained_rows": 597,
+          "positive_rows": 606,
+          "all_targets_row_recall": 0.9851485148514851
+        }
+      }
+    }
+  },
+  "selected_threshold": 0.35,
+  "selected_gap": 0.0,
+  "elapsed_seconds": 28.63034020800842,
+  "paid_calls": 0,
+  "gold_universe_restriction": false,
+  "learned_s2aff_pipeline_evaluated": false,
+  "frozen_job_sha256": "b9543d6360b14e44aaa38b81a2046cb0cb7f16d938ec5bef4186558491317a68"
+}

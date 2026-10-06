@@ -84,27 +84,28 @@
     {
       "stem": "04-controlled-comparison",
       "chapter": 4,
-      "caption": "The comparison on 6 October 2026 uses the same 225 candidate pairs, including 10 true matches. Splink 5.0.0 returns 10 TP, 0 FP, 0 FN and 215 TN; LOTUS 1.2.4 with gpt-6-luna returns 8 TP, 0 FP, 2 FN and 215 TN. Splink uses supervised match parameters and the language model is zero-shot.",
-      "evidence_boundary": "Recorded result on a small structured-data slice, with unequal training-label access. It does not measure end-to-end blocking recall or a language-model treatment effect.",
+      "caption": "The comparison on 6 October 2026 uses the same 225 candidate pairs. Supervised Splink and Splink with EM each find all 10 true links and make no false links. LOTUS 1.2.4 with gpt-6-luna finds 8 true links, misses 2 and makes no false links. Each arm correctly rejects 215 nonmatches. The supervised threshold is 26%; the fixed EM threshold is 50%.",
+      "evidence_boundary": "Recorded decisions on a small enriched synthetic slice. EM and the fixed LLM instruction use no task-specific fitting or threshold-selection labels. The supervised reference uses training and validation labels. The existing partitions and slice were constructed using reference identities and had already been inspected. Prior knowledge and computation differ between procedures.",
       "sources": [
         "../../record-linkage-with-semantic-operators.ipynb",
         "../results/lotus-febrl4-gpt-6-luna.json",
-        "../data/manifest.json"
+        "../data/manifest.json",
+        "../results/unlabeled-febrl4-20261006T190913831251Z.json"
       ],
       "assets": {
         "tex": {
           "path": "04-controlled-comparison.tex",
-          "sha256": "01920ac1fa715167e2d149e9a17a987c5d5a6c7583b4b9c2b10bb5e6d1c8c1a5"
+          "sha256": "80fd6350f3c865b87bd2a5c7a14115751dda40c4719293146ceb762dad3fbfa9"
         },
         "pdf": {
           "path": "04-controlled-comparison.pdf",
-          "sha256": "c45c25ec2c0265f5d0229e2ae4125e9d930097e5de822ff936f54558880b5675"
+          "sha256": "e827f9d2b6a2aa5f87441ac3a076f71904cc6ec07341472e6e01d673ac1039b5"
         },
         "png": {
           "path": "04-controlled-comparison.png",
-          "sha256": "3e76b796179fe6ad76c4ba9faa017293237e5106ffc1b6b7ac6efe8a74f9e0ca",
-          "width_px": 1437,
-          "height_px": 616
+          "sha256": "fcfdf1fb0f6321bc37ed3fd2c19c2eb64af3e5bb988b547c652be8e6a11ef2d7",
+          "width_px": 1399,
+          "height_px": 1086
         }
       }
     },
@@ -355,23 +356,24 @@
       "stem": "14-em-learning",
       "chapter": 2,
       "caption": "EM alternates probability scoring and parameter updates over many training pairs. The displayed route holds separately estimated u values fixed. New pairs are scored after fitting.",
-      "evidence_boundary": "Training schematic; no recorded numerical convergence trace. The 80% probability only illustrates fractional counts. The notebook benchmark uses labeled m estimation. Training blocking restricts which comparisons a session can estimate.",
+      "evidence_boundary": "Training schematic; no recorded numerical convergence trace. The 80% probability illustrates fractional counts. The notebook EM arm uses this route; the supervised reference estimates m from known matching pairs. Training blocks restrict which comparisons a session can estimate.",
       "sources": [
         "https://moj-analytical-services.github.io/splink/demos/tutorials/04_Estimating_model_parameters.html",
-        "https://www.robinlinacre.com/em_intuition/"
+        "https://www.robinlinacre.com/em_intuition/",
+        "../results/unlabeled-febrl4-20261006T190913831251Z.json"
       ],
       "assets": {
         "tex": {
           "path": "14-em-learning.tex",
-          "sha256": "0b7842c1bd56a0e8354f75b5ea43a96fa635aee33c7b3aa092c748935d81be0c"
+          "sha256": "949b6c92849471f073fb1276826967efcfb6d7da95652a343b147b47adf6fa41"
         },
         "pdf": {
           "path": "14-em-learning.pdf",
-          "sha256": "f5cab5a8bfc707b6820633a052ed34b6eb3f6958cd2ef576487327ea359a4ea8"
+          "sha256": "c914a55f44a1b4164b105221182d01cf3eb167e215affb00bc355ff06bec3c80"
         },
         "png": {
           "path": "14-em-learning.png",
-          "sha256": "2a375c8152e2e071d6a037db953efa6c4381b610493f6da04396c0451995c161",
+          "sha256": "760ec2dc52d1970159d96361367114c29fd653ff50958de19b0c93d03bc72102",
           "width_px": 1427,
           "height_px": 1446
         }

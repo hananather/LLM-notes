@@ -59,9 +59,9 @@ A semantic predicate fixes the requested relation; the chosen execution plan det
 
 ### 04-controlled-comparison
 
-The comparison on 6 October 2026 uses the same 225 candidate pairs, including 10 true matches. Splink 5.0.0 returns 10 TP, 0 FP, 0 FN and 215 TN; LOTUS 1.2.4 with `gpt-6-luna` returns 8 TP, 0 FP, 2 FN and 215 TN. Splink uses supervised match parameters and the language model is zero-shot. The [model snapshot](../results/lotus-febrl4-gpt-6-luna.json) preserves all 225 decisions and provider usage.
+The comparison on 6 October 2026 uses the same 225 candidate pairs. Supervised Splink and Splink with EM each find all 10 true links and make no false links. LOTUS 1.2.4 with gpt-6-luna finds 8 true links, misses 2 and makes no false links. Each arm correctly rejects 215 nonmatches. The supervised threshold is 26%; the fixed EM threshold is 50%. The [EM record](../results/unlabeled-febrl4-20261006T190913831251Z.json) preserves the protocol, fitted parameters and decisions. The [LLM snapshot](../results/lotus-febrl4-gpt-6-luna.json) preserves all 225 responses and provider usage. Notebook §4.6 reports the current execution.
 
-**Evidence boundary.** Recorded result on a small structured-data slice, with unequal training-label access. It does not measure end-to-end blocking recall or a language-model treatment effect.
+**Evidence boundary.** Recorded decisions on a small enriched synthetic slice. EM and the fixed LLM instruction use no task-specific fitting or threshold-selection labels. The supervised reference uses training and validation labels. The existing partitions and slice were constructed using reference identities and had already been inspected. Prior knowledge and computation differ between procedures.
 
 [PNG](04-controlled-comparison.png) · [PDF](04-controlled-comparison.pdf) · [Editable source](04-controlled-comparison.tex)
 
@@ -149,7 +149,7 @@ The machine-readable [manifest](manifest.json) records source pointers and asset
 
 EM repeats two steps over many training pairs. The E step computes match probabilities. The M step uses fractional counts to update the parameters. This diagram shows a common Splink route with separately estimated, fixed `u` values. After fitting, the model scores new record pairs.
 
-**Evidence boundary.** This is a training schematic. It reports no numerical convergence trace. The 80% probability only illustrates fractional counts. The notebook's recorded benchmark estimates `m` from labeled entities. It does not fit `m` with EM. Training blocks restrict which comparisons an EM session can estimate.
+**Evidence boundary.** This is a training schematic. It reports no numerical convergence trace. The 80% probability only illustrates fractional counts. The notebook's EM arm uses this route. The supervised reference estimates `m` from known matching pairs. Training blocks restrict which comparisons an EM session can estimate.
 
 Sources: [Splink parameter estimation](https://moj-analytical-services.github.io/splink/demos/tutorials/04_Estimating_model_parameters.html) and [the Splink author's EM explanation](https://www.robinlinacre.com/em_intuition/).
 

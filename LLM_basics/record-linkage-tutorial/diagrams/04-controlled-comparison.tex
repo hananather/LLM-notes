@@ -1,21 +1,59 @@
-\documentclass[tikz,border=4pt]{standalone}
+\documentclass[tikz,border=5pt]{standalone}
 \input{diagram-style}
+\newcommand{\comparisonfont}{\fontsize{9}{11}\selectfont}
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[every node/.append style={font=\comparisonfont},
+  box/.append style={inner sep=6pt,line width=.8pt}]
 
-\useasboundingbox (-.2,.3) rectangle (16.1,-6.52);
-\node[data,text width=28mm,minimum height=17mm] (pairs) at (1.65,-2.55) {\textbf{Shared test input}\\[3pt]225 candidate pairs\\10 true matches};
-\node[model,text width=38mm,minimum height=16mm] (splink) at (7,-1.05) {\textbf{Splink}\\[3pt]supervised match parameters\\separate training entities};
-\node[llm,text width=38mm,minimum height=16mm] (lotus) at (7,-4.05) {\textbf{LOTUS + GPT-6 Luna}\\[3pt]zero-shot predicate\\reasoning disabled};
-\node[truth,text width=38mm,minimum height=16mm] (sout) at (13.6,-1.05) {\textbf{Evaluation of Splink decisions}\\[3pt]10 TP \quad 0 FP \quad 0 FN\\215 TN};
-\node[truth,text width=38mm,minimum height=16mm] (lout) at (13.6,-4.05) {\textbf{Evaluation of LOTUS decisions}\\[3pt]8 TP \quad 0 FP \quad 2 FN\\215 TN};
-\draw[route] (pairs.east) -- (4.2,-2.55);
-\draw[flow] (4.2,-2.55) |- (splink.west); \draw[flow] (4.2,-2.55) |- (lotus.west);
-\draw[flow] (splink) -- node[label,above] {compare with\\held-out truth} (sout);
-\draw[flow] (lotus) -- node[label,above] {compare with\\held-out truth} (lout);
-\node[box,text width=88mm] at (9.2,-2.55) {Training-label access differs. This is a documented comparison of two configurations,\\not an isolated estimate of the effect of using a language model.};
-\node[word,text width=143mm] at (8,-5.7) {Run: 6 October 2026; LOTUS 1.2.4 with gpt-6-luna; Splink 5.0.0.\\The fixed slice measures pair decisions. Candidate recall and native-text performance require separate evaluations.};
-\node[word] at (8,-6.25) {TP: true link; FP: false link; FN: missed true link; TN: correctly rejected nonmatch.};
+\node[title,font=\fontsize{12}{14}\selectfont\bfseries] at (8,0) {One test set, three linkage procedures};
+\node[word] at (8,-.65) {Each procedure receives the same six observed fields for the same 225 pairs.};
+\node[word,text width=42mm] at (13.5,-1.45) {Compare frozen decisions\\with reference identities};
+
+\node[data,text width=29mm,minimum height=25mm] (pairs) at (1.55,-5.45) {
+  \textbf{Shared observed records}\\[6pt]
+  15 records per table\\[4pt]
+  \textbf{225 candidate pairs}};
+\node[model,text width=47mm,minimum height=23mm] (supervised) at (7,-3.2) {
+  \textbf{Supervised Splink}\\[6pt]
+  Known matching training pairs\\
+  Validation threshold: \textbf{26\%}};
+\node[model,text width=47mm,minimum height=23mm] (em) at (7,-6.05) {
+  \textbf{Splink with EM}\\[6pt]
+  No fitting or validation labels\\
+  Fixed threshold: \textbf{50\%}};
+\node[llm,text width=47mm,minimum height=23mm] (lotus) at (7,-8.9) {
+  \textbf{LOTUS + GPT-6 Luna}\\[6pt]
+  No task-specific fitting labels\\
+  Fixed zero-shot instruction};
+
+\node[truth,text width=39mm,minimum height=23mm] (sout) at (13.5,-3.2) {
+  \textbf{10 true links found}\\[4pt]
+  0 false links\\
+  0 true links missed\\
+  215 correct rejections};
+\node[truth,text width=39mm,minimum height=23mm] (eout) at (13.5,-6.05) {
+  \textbf{10 true links found}\\[4pt]
+  0 false links\\
+  0 true links missed\\
+  215 correct rejections};
+\node[truth,text width=39mm,minimum height=23mm] (lout) at (13.5,-8.9) {
+  \textbf{8 true links found}\\[4pt]
+  0 false links\\
+  2 true links missed\\
+  215 correct rejections};
+
+\draw[route] (pairs.east) -- (3.55,-5.45);
+\draw[flow] (3.55,-5.45) |- (supervised.west);
+\draw[flow] (3.55,-5.45) |- (em.west);
+\draw[flow] (3.55,-5.45) |- (lotus.west);
+\draw[flow] (supervised) -- (sout);
+\draw[flow] (em) -- (eout);
+\draw[flow] (lotus) -- (lout);
+
+\node[word,text width=151mm,align=left] at (8,-11.2) {
+  \textbf{EM prior:} strict matching rules with assumed 80\% rule recall. No reference identities enter this estimate.\\[5pt]
+  \textbf{Evaluation:} reference identities identify 10 true links and 215 nonmatches. These labels measure errors.\\[5pt]
+  Recorded configurations on 6 October 2026: Splink 5.0.0; LOTUS 1.2.4 with gpt-6-luna.};
 
 \end{tikzpicture}
 \end{document}

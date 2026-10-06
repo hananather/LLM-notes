@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "verified_at_utc": "2026-10-06T18:59:17.094122+00:00",
+  "verified_at_utc": "2026-10-06T19:16:56.098751+00:00",
   "environment": {
     "os": "macOS-26.6.2-arm64-arm-64bit",
     "architecture": "arm64",
@@ -17,8 +17,8 @@
     }
   },
   "notebook": {
-    "cells": 127,
-    "executed_code_cells": 37,
+    "cells": 133,
+    "executed_code_cells": 39,
     "errors": 0,
     "api_key_present": false,
     "external_network_attempts": 0,
@@ -45,12 +45,16 @@
       "13-fever-workflow.png",
       "14-em-learning.png"
     ],
-    "exported_html_local_links": 12,
+    "exported_html_local_links": 13,
     "internal_anchors": "all resolve",
-    "new_diagram_assets": "new 02, 11 and 14 inspected from local PNGs; the diagram reviewer checked revised 01\u201310 for clipping and overlap",
+    "new_diagram_assets": "Revised 04 and 14 visually inspected from local PNGs; no clipping or overlapping text; all active asset hashes verified.",
     "browser_preview": "HTML regenerated and checked structurally; UI refresh unavailable because the browser policy check could not be verified",
     "opening_diagram_markdown_attachments_and_hidden_setup": "passed; 3 Markdown attachments plus 11 executed figures",
-    "diagram_manifest_hashes_and_caption_order": "passed; 14 active figures and ordered captions; historical 00 is not displayed"
+    "diagram_manifest_hashes_and_caption_order": "passed; 14 active figures and ordered captions; historical 00 is not displayed",
+    "unlabeled_fit": "Protocol frozen before fit;225 predictions frozen before identity-label evaluation; both EM passes met tolerance after 3 iterations; all nonnull levels estimated; no threshold tuning.",
+    "unlabeled_replay": "Verified original protocol and prediction files, exact ordered 225 pairs, unchanged input hashes and recorded Splink 5.0.0; counts independently recomputed in notebook.",
+    "quality_control": "Shared audit uses decisions only; accepted-union census of 10 plus a random sample of 50 of 215 rejections; estimator receives only 60 reviewed labels; full 225-pair truth census checked separately.",
+    "quality_control_intervals": "Exact finite-population bounds: all-rejected true-pair count0\u201313 at95%; no use of one-to-one constraints; interpretation separates sample uncertainty from exact benchmark result."
   },
   "agentic_result": {
     "validated": true,
@@ -84,14 +88,24 @@
     "Synthetic three-office workflow; no operational NSO accuracy or speedup result.",
     "Agentic source selection is checked independently from exact arithmetic.",
     "Model usage includes planning, map and reduction; cost is a dated token-price estimate, not an invoice.",
-    "Dated validation on macOS arm64 does not certify Linux or Windows."
+    "Dated validation on macOS arm64 does not certify Linux or Windows.",
+    "Unlabeled fitting uses an assumed 80% strict-rule recall for its prior, not a label-derived prior.",
+    "Existing identity-based partitions and previously inspected public test slice limit claims of blindness.",
+    "The frozen extension changes fitting, prior and threshold together; it does not isolate the causal effect of labels.",
+    "QC uses benchmark truth to simulate review; it does not validate human review quality or future population accuracy."
   ],
   "artifact_sha256": {
-    "LLM_basics/record-linkage-tutorial/diagrams/14-em-learning.pdf": "f5cab5a8bfc707b6820633a052ed34b6eb3f6958cd2ef576487327ea359a4ea8",
-    "LLM_basics/record-linkage-tutorial/diagrams/14-em-learning.png": "2a375c8152e2e071d6a037db953efa6c4381b610493f6da04396c0451995c161",
-    "LLM_basics/record-linkage-tutorial/diagrams/14-em-learning.tex": "0b7842c1bd56a0e8354f75b5ea43a96fa635aee33c7b3aa092c748935d81be0c",
+    "LLM_basics/record-linkage-tutorial/quality_control.py": "f5a163d2475c73a7d38899699c166316bcb7be0a336cbd39a71c69fc05681ac4",
+    "LLM_basics/record-linkage-tutorial/results/febrl4-audit-b6cbe2db2a5c-plan.json": "24e76123c05c8246bf78031a410af28393b578c3ce71e53563322ffd1bfd024d",
+    "LLM_basics/record-linkage-tutorial/results/febrl4-audit-b6cbe2db2a5c-review.json": "cb3b3fbb888e90e964e07b3f5b588ef8d0db06fd5cb516a994c516802bfd0362",
+    "LLM_basics/record-linkage-tutorial/results/unlabeled-febrl4-20261006T190913831251Z-loader-verification.json": "3f98851697a59f2b283c893b4429eff0d6078226b9956c6bc59e24922fad00c7",
+    "LLM_basics/record-linkage-tutorial/results/unlabeled-febrl4-20261006T190913831251Z-predictions.json": "ceca3072c8de78afbf964c43d58e93b4785fc971f26d8ced5118a4091731362d",
+    "LLM_basics/record-linkage-tutorial/results/unlabeled-febrl4-20261006T190913831251Z-protocol.json": "31d8090986c5e1b29ec4a4ab54be7ab6c02bd315f433fa1a8bf690c6f42905ad",
+    "LLM_basics/record-linkage-tutorial/results/unlabeled-febrl4-20261006T190913831251Z-verification.json": "e53d5d11d427be6344cc3e91750f8c0cedc6c6e90afc24c3ec50aa0afb5d0fe4",
+    "LLM_basics/record-linkage-tutorial/results/unlabeled-febrl4-20261006T190913831251Z.json": "0dec74ecef0be28b4ab201a6b9a6810eca788eb7fe4a0ad91d6cb593bf811cba",
+    "LLM_basics/record-linkage-tutorial/unlabeled_benchmark.py": "4e62eaab73074a0fb1a954e583d13c4d7774e3fa4d2f17c15fe9f4fc0e0c4110",
     "LLM_basics/record-linkage-tutorial/.gitignore": "e2db060eedf82f8a0557d4140acc5e784335287f74a6119acbc061a8aad62480",
-    "LLM_basics/record-linkage-tutorial/README.md": "e6f14f0e26354901cde572ad12bccfd895b9f7ce080dd26824a96e6b0407eaf0",
+    "LLM_basics/record-linkage-tutorial/README.md": "5f53862662aa84ca3abf878c88243ab2e5846daa7c81586060adc75c9d61df46",
     "LLM_basics/record-linkage-tutorial/agentic_demo.py": "f00e1596a4eb43c37ae2a9c1c19f1118d66f93faca0e4a8ddb1ab239f2b65d17",
     "LLM_basics/record-linkage-tutorial/data/.gitignore": "987480cc8373fe8f8d0c73ee6fe340fc054edd0bd0bca2e5ad98e239938b71df",
     "LLM_basics/record-linkage-tutorial/data/LICENSE-ANUOS-1.2.txt": "e62d06f4af00a2450c3effe40e3758bcacea0a6abd3e49404724d8d023539393",
@@ -125,9 +139,9 @@
     "LLM_basics/record-linkage-tutorial/diagrams/03-semantic-execution.pdf": "7c0698e2eb4f28348532176855be34e1ecc1f48043a9a8ff61fd7b99560a3882",
     "LLM_basics/record-linkage-tutorial/diagrams/03-semantic-execution.png": "4c4a0051c5ffd66da0a2770b5f2a6da65f871c4da4d5a4173a1ea4bae394a9c3",
     "LLM_basics/record-linkage-tutorial/diagrams/03-semantic-execution.tex": "84550c91cb41eff398b039306ee7b397b73aaee4d0992f561d8728d40127eee6",
-    "LLM_basics/record-linkage-tutorial/diagrams/04-controlled-comparison.pdf": "c45c25ec2c0265f5d0229e2ae4125e9d930097e5de822ff936f54558880b5675",
-    "LLM_basics/record-linkage-tutorial/diagrams/04-controlled-comparison.png": "3e76b796179fe6ad76c4ba9faa017293237e5106ffc1b6b7ac6efe8a74f9e0ca",
-    "LLM_basics/record-linkage-tutorial/diagrams/04-controlled-comparison.tex": "01920ac1fa715167e2d149e9a17a987c5d5a6c7583b4b9c2b10bb5e6d1c8c1a5",
+    "LLM_basics/record-linkage-tutorial/diagrams/04-controlled-comparison.pdf": "e827f9d2b6a2aa5f87441ac3a076f71904cc6ec07341472e6e01d673ac1039b5",
+    "LLM_basics/record-linkage-tutorial/diagrams/04-controlled-comparison.png": "fcfdf1fb0f6321bc37ed3fd2c19c2eb64af3e5bb988b547c652be8e6a11ef2d7",
+    "LLM_basics/record-linkage-tutorial/diagrams/04-controlled-comparison.tex": "80fd6350f3c865b87bd2a5c7a14115751dda40c4719293146ceb762dad3fbfa9",
     "LLM_basics/record-linkage-tutorial/diagrams/05-representation-paths.pdf": "7ab6030685619635646b8e1ca426a15841cd5925163b39cbf32cd1a25f395e38",
     "LLM_basics/record-linkage-tutorial/diagrams/05-representation-paths.png": "cd4a196a0e263511f247dbac408f229b3647521b7c9742f2e6964e557d209091",
     "LLM_basics/record-linkage-tutorial/diagrams/05-representation-paths.tex": "9ce973ed9de71599e82cdcd541e53ec3b8cde24fc90666fcf71e6ccea9c74ed6",
@@ -155,10 +169,13 @@
     "LLM_basics/record-linkage-tutorial/diagrams/13-fever-workflow.pdf": "fdb3b6f84ed2058ca16fd368b6014e68f1f5d4a57d0840c55c45e57972843a3b",
     "LLM_basics/record-linkage-tutorial/diagrams/13-fever-workflow.png": "8c62f8e7fcf0aef4b1f3c1c684ac4e3aff09fb12ee559a4c44e303043fecf187",
     "LLM_basics/record-linkage-tutorial/diagrams/13-fever-workflow.tex": "8f3bb610ed1c19b61d51c181bfdbd5420ee89977c2d47b9600c74065c98642d5",
-    "LLM_basics/record-linkage-tutorial/diagrams/README.md": "63ceab2e13dd4854f08f5dc6f8305c110e33c67fe8d6019dec046fac2f85ba6e",
+    "LLM_basics/record-linkage-tutorial/diagrams/14-em-learning.pdf": "c914a55f44a1b4164b105221182d01cf3eb167e215affb00bc355ff06bec3c80",
+    "LLM_basics/record-linkage-tutorial/diagrams/14-em-learning.png": "760ec2dc52d1970159d96361367114c29fd653ff50958de19b0c93d03bc72102",
+    "LLM_basics/record-linkage-tutorial/diagrams/14-em-learning.tex": "949b6c92849471f073fb1276826967efcfb6d7da95652a343b147b47adf6fa41",
+    "LLM_basics/record-linkage-tutorial/diagrams/README.md": "f378e9158801f1bb3bfd7a1bb44393f62bda08acb558ea657ff1b545bbaa4ac4",
     "LLM_basics/record-linkage-tutorial/diagrams/build.py": "4f79d8630c4266fbad42ad7b2fbaabaf0ab8efc74405bec5e1820475ea9c5188",
     "LLM_basics/record-linkage-tutorial/diagrams/diagram-style.tex": "09d04c1f13ca56dabed2c8fa9e0992362156edd82cf94a4b4f2eec837f6463ce",
-    "LLM_basics/record-linkage-tutorial/diagrams/manifest.json": "bfeeb99880f62a45b08f394c8df8d3bc5ccb7ab1a5a229e353031cc8a70609b5",
+    "LLM_basics/record-linkage-tutorial/diagrams/manifest.json": "c5fc036b40e97883e2b0b20d0483b25f23c3988a17f34067d38115ef5f4d8a75",
     "LLM_basics/record-linkage-tutorial/handbook_examples.py": "9a2b3e08ae806e074704caad9366a2dfba89f64a1270fd02399bdfa024ff97fe",
     "LLM_basics/record-linkage-tutorial/prepare_data.py": "65cb047fdc3a4cdbd761952afb59c20d877fb155d9855d117f06381eaee8c296",
     "LLM_basics/record-linkage-tutorial/requirements-lock.txt": "b6d0683c824d4693b79615506b7de2c6320d6bb90778bafebee21914da79e5de",
@@ -184,6 +201,56 @@
     "LLM_basics/record-linkage-tutorial/tutorial_helpers.py": "8354f75879b5da19ca1273460ed26aeb8ab3412471e4570c47292c7d894abf61",
     "LLM_basics/record-linkage-tutorial/unstructured_benchmark.py": "7729cfc873a0a5e9ec6f4fe74eb06ceb3d25b707747b7ba0d46dd119ab52bd4b",
     "LLM_basics/record-linkage-tutorial/unstructured_prepare.py": "d4557fdbbb136c6fcd60ec76898dfacfe4a81eafb1dcc1bb8309761fb1d71307",
-    "LLM_basics/record-linkage-with-semantic-operators.ipynb": "386aa1c1b9a02e927d16e78d27327795b999be3963f4658d533dde248b6b6680"
+    "LLM_basics/record-linkage-with-semantic-operators.ipynb": "6b2ce4158e70f461f77d69c56fed02ea26e6a6e71abedae0a9a842789ad8f538"
+  },
+  "unlabeled_result": {
+    "source": "results/unlabeled-febrl4-20261006T190913831251Z.json",
+    "main": {
+      "threshold": 0.5,
+      "metrics": {
+        "pairs": 225,
+        "TP": 10,
+        "FP": 0,
+        "FN": 0,
+        "TN": 215,
+        "precision": 1.0,
+        "recall": 1.0,
+        "F1": 1.0
+      },
+      "errors": []
+    },
+    "em_iterations": [
+      3,
+      3
+    ]
+  },
+  "quality_control_result": {
+    "plan": "results/febrl4-audit-b6cbe2db2a5c-plan.json",
+    "review": "results/febrl4-audit-b6cbe2db2a5c-review.json",
+    "reviewed_pairs": 60,
+    "strata": [
+      {
+        "stratum": "accepted_by_any",
+        "population_pairs": 10,
+        "sampled_pairs": 10,
+        "inclusion_probability": 1.0,
+        "observed_true_pairs": 10,
+        "estimated_true_pairs": 10.0,
+        "true_pairs_lower_95": 10,
+        "true_pairs_upper_95": 10,
+        "true_pairs_upper_one_sided_95": 10
+      },
+      {
+        "stratum": "rejected_by_all",
+        "population_pairs": 215,
+        "sampled_pairs": 50,
+        "inclusion_probability": 0.23255813953488372,
+        "observed_true_pairs": 0,
+        "estimated_true_pairs": 0.0,
+        "true_pairs_lower_95": 0,
+        "true_pairs_upper_95": 13,
+        "true_pairs_upper_one_sided_95": 11
+      }
+    ]
   }
 }

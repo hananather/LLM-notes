@@ -1,0 +1,4533 @@
+{
+  "schema": 1,
+  "prediction_frozen_at_utc": "2026-10-06T19:09:17.217535+00:00",
+  "protocol": {
+    "schema": 1,
+    "scope": "Unlabeled estimation on the existing FEBRL training partition",
+    "evidence_boundary": "Frozen extension of a previously inspected benchmark, not a blind preregistration. No new choices depend on this run's test outcomes.",
+    "training_columns": [
+      "source",
+      "unique_id",
+      "given_name",
+      "surname",
+      "date_of_birth",
+      "soc_sec_id",
+      "street_number",
+      "postcode"
+    ],
+    "partition_metadata": {
+      "source": "data/record_truth.csv",
+      "columns_read_before_prediction_freeze": [
+        "unique_id",
+        "split"
+      ],
+      "rule": "Keep rows whose existing split is train; discard split before fitting.",
+      "boundary": "The original partition and test slice were constructed using entity identities. Their existing membership is reused; identities are not supplied to the unlabeled estimator."
+    },
+    "prior": {
+      "method": "estimate_probability_two_random_records_match",
+      "exact_agreement_rules": [
+        [
+          "soc_sec_id"
+        ],
+        [
+          "given_name",
+          "surname",
+          "date_of_birth"
+        ]
+      ],
+      "rule_combination": "union, with duplicate pairs removed",
+      "assumed_recall": 0.8,
+      "record_sample_proportion": 1.0,
+      "assumptions": [
+        "The strict rules have approximately perfect precision.",
+        "The strict rules recover 80% of training matches; this is assumed, not measured."
+      ],
+      "not_used": "Neither entity counts nor test-slice match prevalence set the prior."
+    },
+    "u_estimation": {
+      "max_pairs": 1000000,
+      "seed": 2026,
+      "min_count_per_level": null,
+      "num_chunks": 1
+    },
+    "em": {
+      "ordered_exact_block_fields": [
+        "date_of_birth",
+        "postcode"
+      ],
+      "fix_u_probabilities": true,
+      "fix_m_probabilities": false,
+      "fix_probability_two_random_records_match": false,
+      "populate_probability_two_random_records_match_from_trained_values": false,
+      "estimate_without_term_frequencies": true,
+      "max_iterations": 100,
+      "em_convergence": 0.0001,
+      "initial_m": "Splink 5.0.0 default comparison-level values",
+      "between_passes": "Splink carries trained values forward; numeric estimates are combined by median.",
+      "outcome_driven_retries": false
+    },
+    "prediction": {
+      "comparisons": "Same six comparisons and term-frequency settings as the existing informed baseline",
+      "term_frequency_adjustments": true,
+      "blocking_rule": "1=1",
+      "input_slice": "data/evaluation_slice.csv",
+      "expected_pairs": 225,
+      "main_threshold": 0.5,
+      "threshold_sensitivity": [
+        0.1,
+        0.5,
+        0.9,
+        0.99
+      ],
+      "threshold_selection": "Fixed before fitting; no validation or test labels used"
+    },
+    "limitations": [
+      "Random-pair u estimation assumes matches are rare among sampled pairs.",
+      "EM assumes the specified comparison model and can reach a local solution.",
+      "Training blocks can induce selection bias when conditional independence fails.",
+      "The enriched 225-pair test slice does not establish population calibration or deployment accuracy.",
+      "No live LLM calls or LOTUS optimizer measurements are part of this extension."
+    ],
+    "sources": [
+      "https://moj-analytical-services.github.io/splink/demos/examples/duckdb/febrl4.html",
+      "https://moj-analytical-services.github.io/splink/topic_guides/training/training_rationale.html",
+      "https://moj-analytical-services.github.io/splink/api_docs/training.html"
+    ],
+    "input_sha256": {
+      "records.csv": "c34d8ad69aa74e9b1a01d9f59bc2615f6e5f6a870f250206d65590df7d56bb96",
+      "record_truth.csv": "283bc4526dcc3ddb59a06549be87efbb7a93861954f0f88dc783f934925064da",
+      "evaluation_slice.csv": "043fc5aaa9cfe54988ce5ba149a774670b0db8ac08f12908e2e4d14c3bc90a68"
+    },
+    "implementation_sha256": "d8ee968fa1e5834bb70f1b78428a56bf321950623e5c5252b67c2b9f48bbc106",
+    "packages": {
+      "splink": "5.0.0",
+      "duckdb": "1.5.6",
+      "pandas": "2.3.3",
+      "numpy": "1.26.4"
+    }
+  },
+  "protocol_sha256": "ec61999786462e5bbb15e7b44521351a9381b52d983f488fa5736a645ecf3309",
+  "protocol_file": "unlabeled-febrl4-20261006T190913831251Z-protocol.json",
+  "protocol_file_sha256": "31d8090986c5e1b29ec4a4ab54be7ab6c02bd315f433fa1a8bf690c6f42905ad",
+  "training": {
+    "rows": 6972,
+    "source_rows": {
+      "febrl4a": 3486,
+      "febrl4b": 3486
+    },
+    "input_columns": [
+      "source",
+      "unique_id",
+      "given_name",
+      "surname",
+      "date_of_birth",
+      "soc_sec_id",
+      "street_number",
+      "postcode"
+    ],
+    "observed_training_rows_sha256": "c7ac7092c4dca351fe6c7726e4e0bb4cee9a077b7a3a445a0f2758c3e9921c96",
+    "prior": {
+      "probability": 0.0003407820282029684,
+      "log2_odds": -11.518371396950032,
+      "deterministic_rule_counts": [
+        3175,
+        1435
+      ],
+      "union_pairs": 3313,
+      "total_possible_pairs": 12152196,
+      "assumed_recall": 0.8,
+      "estimated_matching_pairs": 4141.25,
+      "unchanged_after_em": true
+    },
+    "em_sessions": [
+      {
+        "block_field": "date_of_birth",
+        "training_pairs": 3406,
+        "excluded_comparisons": [
+          "date_of_birth"
+        ],
+        "iterations": 3,
+        "iteration_cap": 100,
+        "tolerance": 0.0001,
+        "final_max_abs_parameter_change": 6.196237757626066e-05,
+        "convergence_criterion_met": true,
+        "cap_reached": false,
+        "stopping_reason": "parameter_tolerance",
+        "history": [
+          {
+            "iteration": 0,
+            "training_match_fraction": 0.5275514044565394,
+            "max_abs_parameter_change": null,
+            "levels": [
+              {
+                "comparison": "given_name",
+                "gamma": -1,
+                "label": "given_name is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 4,
+                "label": "Exact match on given_name",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.0032995609591354273,
+                "m_effective": 0.95,
+                "u_effective": 0.0032995609591354273,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of given_name >= 0.92",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.0015422717550377125,
+                "m_effective": 0.012500000000000011,
+                "u_effective": 0.0015422717550377125,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of given_name >= 0.88",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.0008915906788247214,
+                "m_effective": 0.012500000000000011,
+                "u_effective": 0.0008915906788247214,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of given_name >= 0.7",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.023501069458516266,
+                "m_effective": 0.012500000000000011,
+                "u_effective": 0.023501069458516266,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.9707655071484859,
+                "m_effective": 0.012500000000000011,
+                "u_effective": 0.9707655071484859,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": -1,
+                "label": "surname is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 4,
+                "label": "Exact match on surname",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.003597447167198507,
+                "m_effective": 0.95,
+                "u_effective": 0.003597447167198507,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of surname >= 0.92",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.001184813741259042,
+                "m_effective": 0.012500000000000011,
+                "u_effective": 0.001184813741259042,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of surname >= 0.88",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.00038705349079242753,
+                "m_effective": 0.012500000000000011,
+                "u_effective": 0.00038705349079242753,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of surname >= 0.7",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.014571488779749361,
+                "m_effective": 0.012500000000000011,
+                "u_effective": 0.014571488779749361,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.9802591968210007,
+                "m_effective": 0.012500000000000011,
+                "u_effective": 0.9802591968210007,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": -1,
+                "label": "soc_sec_id is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 3,
+                "label": "Exact match on soc_sec_id",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.0002567635270541082,
+                "m_effective": 0.95,
+                "u_effective": 0.0002567635270541082,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 2,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 1",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 1.67000668002672e-05,
+                "m_effective": 0.01666666666666668,
+                "u_effective": 1.67000668002672e-05,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 1,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 2",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.00022545090180360722,
+                "m_effective": 0.01666666666666668,
+                "u_effective": 0.00022545090180360722,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.999501085504342,
+                "m_effective": 0.01666666666666668,
+                "u_effective": 0.999501085504342,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": -1,
+                "label": "street_number is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 1,
+                "label": "Exact match on street_number",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.01419677776130805,
+                "m_effective": 0.95,
+                "u_effective": 0.01419677776130805,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.985803222238692,
+                "m_effective": 0.050000000000000044,
+                "u_effective": 0.985803222238692,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": -1,
+                "label": "postcode is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 3,
+                "label": "Exact match on postcode",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.0012337174348697395,
+                "m_effective": 0.95,
+                "u_effective": 0.0012337174348697395,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 2,
+                "label": "Damerau-Levenshtein distance of postcode <= 1",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.012334043086172345,
+                "m_effective": 0.01666666666666668,
+                "u_effective": 0.012334043086172345,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 1,
+                "label": "Damerau-Levenshtein distance of postcode <= 2",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.1093248997995992,
+                "m_effective": 0.01666666666666668,
+                "u_effective": 0.1093248997995992,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.8771073396793587,
+                "m_effective": 0.01666666666666668,
+                "u_effective": 0.8771073396793587,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              }
+            ]
+          },
+          {
+            "iteration": 1,
+            "training_match_fraction": 0.9086259325806576,
+            "max_abs_parameter_change": 0.38107452812411824,
+            "levels": [
+              {
+                "comparison": "given_name",
+                "gamma": -1,
+                "label": "given_name is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 4,
+                "label": "Exact match on given_name",
+                "is_null": false,
+                "m_raw": 0.6865688737743186,
+                "u_raw": 0.0032995609591354273,
+                "m_effective": 0.6865688737743186,
+                "u_effective": 0.0032995609591354273,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of given_name >= 0.92",
+                "is_null": false,
+                "m_raw": 0.12857643418189832,
+                "u_raw": 0.0015422717550377125,
+                "m_effective": 0.12857643418189832,
+                "u_effective": 0.0015422717550377125,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of given_name >= 0.88",
+                "is_null": false,
+                "m_raw": 0.015657914946180882,
+                "u_raw": 0.0008915906788247214,
+                "m_effective": 0.015657914946180882,
+                "u_effective": 0.0008915906788247214,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of given_name >= 0.7",
+                "is_null": false,
+                "m_raw": 0.01451986083077305,
+                "u_raw": 0.023501069458516266,
+                "m_effective": 0.01451986083077305,
+                "u_effective": 0.023501069458516266,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.1546769162668292,
+                "u_raw": 0.9707655071484859,
+                "m_effective": 0.1546769162668292,
+                "u_effective": 0.9707655071484859,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": -1,
+                "label": "surname is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 4,
+                "label": "Exact match on surname",
+                "is_null": false,
+                "m_raw": 0.6829964898089342,
+                "u_raw": 0.003597447167198507,
+                "m_effective": 0.6829964898089342,
+                "u_effective": 0.003597447167198507,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of surname >= 0.92",
+                "is_null": false,
+                "m_raw": 0.1708408133885113,
+                "u_raw": 0.001184813741259042,
+                "m_effective": 0.1708408133885113,
+                "u_effective": 0.001184813741259042,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of surname >= 0.88",
+                "is_null": false,
+                "m_raw": 0.01357393918908466,
+                "u_raw": 0.00038705349079242753,
+                "m_effective": 0.01357393918908466,
+                "u_effective": 0.00038705349079242753,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of surname >= 0.7",
+                "is_null": false,
+                "m_raw": 0.007945728559954452,
+                "u_raw": 0.014571488779749361,
+                "m_effective": 0.007945728559954452,
+                "u_effective": 0.014571488779749361,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.1246430290535153,
+                "u_raw": 0.9802591968210007,
+                "m_effective": 0.1246430290535153,
+                "u_effective": 0.9802591968210007,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": -1,
+                "label": "soc_sec_id is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 3,
+                "label": "Exact match on soc_sec_id",
+                "is_null": false,
+                "m_raw": 0.9146197457288826,
+                "u_raw": 0.0002567635270541082,
+                "m_effective": 0.9146197457288826,
+                "u_effective": 0.0002567635270541082,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 2,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 1",
+                "is_null": false,
+                "m_raw": 0.04909637908182433,
+                "u_raw": 1.67000668002672e-05,
+                "m_effective": 0.04909637908182433,
+                "u_effective": 1.67000668002672e-05,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 1,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 2",
+                "is_null": false,
+                "m_raw": 0.0006462495064519443,
+                "u_raw": 0.00022545090180360722,
+                "m_effective": 0.0006462495064519443,
+                "u_effective": 0.00022545090180360722,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.035637625682841144,
+                "u_raw": 0.999501085504342,
+                "m_effective": 0.035637625682841144,
+                "u_effective": 0.999501085504342,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": -1,
+                "label": "street_number is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 1,
+                "label": "Exact match on street_number",
+                "is_null": false,
+                "m_raw": 0.8735543936507377,
+                "u_raw": 0.01419677776130805,
+                "m_effective": 0.8735543936507377,
+                "u_effective": 0.01419677776130805,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.12644560634926222,
+                "u_raw": 0.985803222238692,
+                "m_effective": 0.12644560634926222,
+                "u_effective": 0.985803222238692,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": -1,
+                "label": "postcode is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 3,
+                "label": "Exact match on postcode",
+                "is_null": false,
+                "m_raw": 0.8398619471193042,
+                "u_raw": 0.0012337174348697395,
+                "m_effective": 0.8398619471193042,
+                "u_effective": 0.0012337174348697395,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 2,
+                "label": "Damerau-Levenshtein distance of postcode <= 1",
+                "is_null": false,
+                "m_raw": 0.14692479828833033,
+                "u_raw": 0.012334043086172345,
+                "m_effective": 0.14692479828833033,
+                "u_effective": 0.012334043086172345,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 1,
+                "label": "Damerau-Levenshtein distance of postcode <= 2",
+                "is_null": false,
+                "m_raw": 0.005505498926546346,
+                "u_raw": 0.1093248997995992,
+                "m_effective": 0.005505498926546346,
+                "u_effective": 0.1093248997995992,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.007707755665819215,
+                "u_raw": 0.8771073396793587,
+                "m_effective": 0.007707755665819215,
+                "u_effective": 0.8771073396793587,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              }
+            ]
+          },
+          {
+            "iteration": 2,
+            "training_match_fraction": 0.9138974764918815,
+            "max_abs_parameter_change": 0.005271543911223864,
+            "levels": [
+              {
+                "comparison": "given_name",
+                "gamma": -1,
+                "label": "given_name is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 4,
+                "label": "Exact match on given_name",
+                "is_null": false,
+                "m_raw": 0.6827589799073527,
+                "u_raw": 0.0032995609591354273,
+                "m_effective": 0.6827589799073527,
+                "u_effective": 0.0032995609591354273,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of given_name >= 0.92",
+                "is_null": false,
+                "m_raw": 0.12788904822640176,
+                "u_raw": 0.0015422717550377125,
+                "m_effective": 0.12788904822640176,
+                "u_effective": 0.0015422717550377125,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of given_name >= 0.88",
+                "is_null": false,
+                "m_raw": 0.015563219220278486,
+                "u_raw": 0.0008915906788247214,
+                "m_effective": 0.015563219220278486,
+                "u_effective": 0.0008915906788247214,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of given_name >= 0.7",
+                "is_null": false,
+                "m_raw": 0.014548158731971926,
+                "u_raw": 0.023501069458516266,
+                "m_effective": 0.014548158731971926,
+                "u_effective": 0.023501069458516266,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.1592405939139951,
+                "u_raw": 0.9707655071484859,
+                "m_effective": 0.1592405939139951,
+                "u_effective": 0.9707655071484859,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": -1,
+                "label": "surname is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 4,
+                "label": "Exact match on surname",
+                "is_null": false,
+                "m_raw": 0.6794468109252101,
+                "u_raw": 0.003597447167198507,
+                "m_effective": 0.6794468109252101,
+                "u_effective": 0.003597447167198507,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of surname >= 0.92",
+                "is_null": false,
+                "m_raw": 0.17049536650793215,
+                "u_raw": 0.001184813741259042,
+                "m_effective": 0.17049536650793215,
+                "u_effective": 0.001184813741259042,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of surname >= 0.88",
+                "is_null": false,
+                "m_raw": 0.0134975148680834,
+                "u_raw": 0.00038705349079242753,
+                "m_effective": 0.0134975148680834,
+                "u_effective": 0.00038705349079242753,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of surname >= 0.7",
+                "is_null": false,
+                "m_raw": 0.007900600452731938,
+                "u_raw": 0.014571488779749361,
+                "m_effective": 0.007900600452731938,
+                "u_effective": 0.014571488779749361,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.12865970724604242,
+                "u_raw": 0.9802591968210007,
+                "m_effective": 0.12865970724604242,
+                "u_effective": 0.9802591968210007,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": -1,
+                "label": "soc_sec_id is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 3,
+                "label": "Exact match on soc_sec_id",
+                "is_null": false,
+                "m_raw": 0.9110832833975572,
+                "u_raw": 0.0002567635270541082,
+                "m_effective": 0.9110832833975572,
+                "u_effective": 0.0002567635270541082,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 2,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 1",
+                "is_null": false,
+                "m_raw": 0.048831656740723255,
+                "u_raw": 1.67000668002672e-05,
+                "m_effective": 0.048831656740723255,
+                "u_effective": 1.67000668002672e-05,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 1,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 2",
+                "is_null": false,
+                "m_raw": 0.0006425218096925892,
+                "u_raw": 0.00022545090180360722,
+                "m_effective": 0.0006425218096925892,
+                "u_effective": 0.00022545090180360722,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.03944253805202692,
+                "u_raw": 0.999501085504342,
+                "m_effective": 0.03944253805202692,
+                "u_effective": 0.999501085504342,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": -1,
+                "label": "street_number is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 1,
+                "label": "Exact match on street_number",
+                "is_null": false,
+                "m_raw": 0.8719389188896121,
+                "u_raw": 0.01419677776130805,
+                "m_effective": 0.8719389188896121,
+                "u_effective": 0.01419677776130805,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.1280610811103879,
+                "u_raw": 0.985803222238692,
+                "m_effective": 0.1280610811103879,
+                "u_effective": 0.985803222238692,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": -1,
+                "label": "postcode is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 3,
+                "label": "Exact match on postcode",
+                "is_null": false,
+                "m_raw": 0.8384065072964202,
+                "u_raw": 0.0012337174348697395,
+                "m_effective": 0.8384065072964202,
+                "u_effective": 0.0012337174348697395,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 2,
+                "label": "Damerau-Levenshtein distance of postcode <= 1",
+                "is_null": false,
+                "m_raw": 0.14742039614393992,
+                "u_raw": 0.012334043086172345,
+                "m_effective": 0.14742039614393992,
+                "u_effective": 0.012334043086172345,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 1,
+                "label": "Damerau-Levenshtein distance of postcode <= 2",
+                "is_null": false,
+                "m_raw": 0.005774751619784611,
+                "u_raw": 0.1093248997995992,
+                "m_effective": 0.005774751619784611,
+                "u_effective": 0.1093248997995992,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.008398344939855262,
+                "u_raw": 0.8771073396793587,
+                "m_effective": 0.008398344939855262,
+                "u_effective": 0.8771073396793587,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              }
+            ]
+          },
+          {
+            "iteration": 3,
+            "training_match_fraction": 0.9139582315594836,
+            "max_abs_parameter_change": 6.196237757626066e-05,
+            "levels": [
+              {
+                "comparison": "given_name",
+                "gamma": -1,
+                "label": "given_name is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 4,
+                "label": "Exact match on given_name",
+                "is_null": false,
+                "m_raw": 0.6827273533813617,
+                "u_raw": 0.0032995609591354273,
+                "m_effective": 0.6827273533813617,
+                "u_effective": 0.0032995609591354273,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of given_name >= 0.92",
+                "is_null": false,
+                "m_raw": 0.12788077160075018,
+                "u_raw": 0.0015422717550377125,
+                "m_effective": 0.12788077160075018,
+                "u_effective": 0.0015422717550377125,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of given_name >= 0.88",
+                "is_null": false,
+                "m_raw": 0.015562211726661059,
+                "u_raw": 0.0008915906788247214,
+                "m_effective": 0.015562211726661059,
+                "u_effective": 0.0008915906788247214,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of given_name >= 0.7",
+                "is_null": false,
+                "m_raw": 0.014547228736623683,
+                "u_raw": 0.023501069458516266,
+                "m_effective": 0.014547228736623683,
+                "u_effective": 0.023501069458516266,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.1592824345546033,
+                "u_raw": 0.9707655071484859,
+                "m_effective": 0.1592824345546033,
+                "u_effective": 0.9707655071484859,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": -1,
+                "label": "surname is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 4,
+                "label": "Exact match on surname",
+                "is_null": false,
+                "m_raw": 0.679401532437294,
+                "u_raw": 0.003597447167198507,
+                "m_effective": 0.679401532437294,
+                "u_effective": 0.003597447167198507,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of surname >= 0.92",
+                "is_null": false,
+                "m_raw": 0.17048839790911263,
+                "u_raw": 0.001184813741259042,
+                "m_effective": 0.17048839790911263,
+                "u_effective": 0.001184813741259042,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of surname >= 0.88",
+                "is_null": false,
+                "m_raw": 0.013496856760596074,
+                "u_raw": 0.00038705349079242753,
+                "m_effective": 0.013496856760596074,
+                "u_effective": 0.00038705349079242753,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of surname >= 0.7",
+                "is_null": false,
+                "m_raw": 0.007900087338454757,
+                "u_raw": 0.014571488779749361,
+                "m_effective": 0.007900087338454757,
+                "u_effective": 0.014571488779749361,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.12871312555454256,
+                "u_raw": 0.9802591968210007,
+                "m_effective": 0.12871312555454256,
+                "u_effective": 0.9802591968210007,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": -1,
+                "label": "soc_sec_id is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 3,
+                "label": "Exact match on soc_sec_id",
+                "is_null": false,
+                "m_raw": 0.9110246097082406,
+                "u_raw": 0.0002567635270541082,
+                "m_effective": 0.9110246097082406,
+                "u_effective": 0.0002567635270541082,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 2,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 1",
+                "is_null": false,
+                "m_raw": 0.04882841076388525,
+                "u_raw": 1.67000668002672e-05,
+                "m_effective": 0.04882841076388525,
+                "u_effective": 1.67000668002672e-05,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 1,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 2",
+                "is_null": false,
+                "m_raw": 0.0006424790982708995,
+                "u_raw": 0.00022545090180360722,
+                "m_effective": 0.0006424790982708995,
+                "u_effective": 0.00022545090180360722,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.03950450042960318,
+                "u_raw": 0.999501085504342,
+                "m_effective": 0.03950450042960318,
+                "u_effective": 0.999501085504342,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": -1,
+                "label": "street_number is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 1,
+                "label": "Exact match on street_number",
+                "is_null": false,
+                "m_raw": 0.8718933216340626,
+                "u_raw": 0.01419677776130805,
+                "m_effective": 0.8718933216340626,
+                "u_effective": 0.01419677776130805,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.12810667836593748,
+                "u_raw": 0.985803222238692,
+                "m_effective": 0.12810667836593748,
+                "u_effective": 0.985803222238692,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": -1,
+                "label": "postcode is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 3,
+                "label": "Exact match on postcode",
+                "is_null": false,
+                "m_raw": 0.8383900403730856,
+                "u_raw": 0.0012337174348697395,
+                "m_effective": 0.8383900403730856,
+                "u_effective": 0.0012337174348697395,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 2,
+                "label": "Damerau-Levenshtein distance of postcode <= 1",
+                "is_null": false,
+                "m_raw": 0.14742053949202857,
+                "u_raw": 0.012334043086172345,
+                "m_effective": 0.14742053949202857,
+                "u_effective": 0.012334043086172345,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 1,
+                "label": "Damerau-Levenshtein distance of postcode <= 2",
+                "is_null": false,
+                "m_raw": 0.005775879037061973,
+                "u_raw": 0.1093248997995992,
+                "m_effective": 0.005775879037061973,
+                "u_effective": 0.1093248997995992,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "postcode",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.008413541097823966,
+                "u_raw": 0.8771073396793587,
+                "m_effective": 0.008413541097823966,
+                "u_effective": 0.8771073396793587,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "block_field": "postcode",
+        "training_pairs": 14659,
+        "excluded_comparisons": [
+          "postcode"
+        ],
+        "iterations": 3,
+        "iteration_cap": 100,
+        "tolerance": 0.0001,
+        "final_max_abs_parameter_change": 1.236920764081939e-05,
+        "convergence_criterion_met": true,
+        "cap_reached": false,
+        "stopping_reason": "parameter_tolerance",
+        "history": [
+          {
+            "iteration": 0,
+            "training_match_fraction": 0.18808905081255337,
+            "max_abs_parameter_change": null,
+            "levels": [
+              {
+                "comparison": "given_name",
+                "gamma": -1,
+                "label": "given_name is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 4,
+                "label": "Exact match on given_name",
+                "is_null": false,
+                "m_raw": 0.6827273533813617,
+                "u_raw": 0.0032995609591354273,
+                "m_effective": 0.6827273533813617,
+                "u_effective": 0.0032995609591354273,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of given_name >= 0.92",
+                "is_null": false,
+                "m_raw": 0.12788077160075018,
+                "u_raw": 0.0015422717550377125,
+                "m_effective": 0.12788077160075018,
+                "u_effective": 0.0015422717550377125,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of given_name >= 0.88",
+                "is_null": false,
+                "m_raw": 0.015562211726661059,
+                "u_raw": 0.0008915906788247214,
+                "m_effective": 0.015562211726661059,
+                "u_effective": 0.0008915906788247214,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of given_name >= 0.7",
+                "is_null": false,
+                "m_raw": 0.014547228736623683,
+                "u_raw": 0.023501069458516266,
+                "m_effective": 0.014547228736623683,
+                "u_effective": 0.023501069458516266,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.1592824345546033,
+                "u_raw": 0.9707655071484859,
+                "m_effective": 0.1592824345546033,
+                "u_effective": 0.9707655071484859,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": -1,
+                "label": "surname is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 4,
+                "label": "Exact match on surname",
+                "is_null": false,
+                "m_raw": 0.679401532437294,
+                "u_raw": 0.003597447167198507,
+                "m_effective": 0.679401532437294,
+                "u_effective": 0.003597447167198507,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of surname >= 0.92",
+                "is_null": false,
+                "m_raw": 0.17048839790911263,
+                "u_raw": 0.001184813741259042,
+                "m_effective": 0.17048839790911263,
+                "u_effective": 0.001184813741259042,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of surname >= 0.88",
+                "is_null": false,
+                "m_raw": 0.013496856760596074,
+                "u_raw": 0.00038705349079242753,
+                "m_effective": 0.013496856760596074,
+                "u_effective": 0.00038705349079242753,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of surname >= 0.7",
+                "is_null": false,
+                "m_raw": 0.007900087338454757,
+                "u_raw": 0.014571488779749361,
+                "m_effective": 0.007900087338454757,
+                "u_effective": 0.014571488779749361,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.12871312555454256,
+                "u_raw": 0.9802591968210007,
+                "m_effective": 0.12871312555454256,
+                "u_effective": 0.9802591968210007,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": -1,
+                "label": "transformed date_of_birth is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 5,
+                "label": "Exact match on date of birth",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.000290026774286383,
+                "m_effective": 0.95,
+                "u_effective": 0.000290026774286383,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 4,
+                "label": "Levenshtein distance <= 1",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.000982059772390571,
+                "m_effective": 0.010000000000000009,
+                "u_effective": 0.000982059772390571,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 3,
+                "label": "Abs date difference <= 1 month",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.0013930243521708895,
+                "m_effective": 0.010000000000000009,
+                "u_effective": 0.0013930243521708895,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 2,
+                "label": "Abs date difference <= 1 year",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.017918951514018146,
+                "m_effective": 0.010000000000000009,
+                "u_effective": 0.017918951514018146,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 1,
+                "label": "Abs date difference <= 10 year",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.1690945677649238,
+                "m_effective": 0.010000000000000009,
+                "u_effective": 0.1690945677649238,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": null,
+                "u_raw": 0.8103213698222103,
+                "m_effective": 0.010000000000000009,
+                "u_effective": 0.8103213698222103,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": -1,
+                "label": "soc_sec_id is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 3,
+                "label": "Exact match on soc_sec_id",
+                "is_null": false,
+                "m_raw": 0.9110246097082406,
+                "u_raw": 0.0002567635270541082,
+                "m_effective": 0.9110246097082406,
+                "u_effective": 0.0002567635270541082,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 2,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 1",
+                "is_null": false,
+                "m_raw": 0.04882841076388525,
+                "u_raw": 1.67000668002672e-05,
+                "m_effective": 0.04882841076388525,
+                "u_effective": 1.67000668002672e-05,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 1,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 2",
+                "is_null": false,
+                "m_raw": 0.0006424790982708995,
+                "u_raw": 0.00022545090180360722,
+                "m_effective": 0.0006424790982708995,
+                "u_effective": 0.00022545090180360722,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.03950450042960318,
+                "u_raw": 0.999501085504342,
+                "m_effective": 0.03950450042960318,
+                "u_effective": 0.999501085504342,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": -1,
+                "label": "street_number is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 1,
+                "label": "Exact match on street_number",
+                "is_null": false,
+                "m_raw": 0.8718933216340626,
+                "u_raw": 0.01419677776130805,
+                "m_effective": 0.8718933216340626,
+                "u_effective": 0.01419677776130805,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.12810667836593748,
+                "u_raw": 0.985803222238692,
+                "m_effective": 0.12810667836593748,
+                "u_effective": 0.985803222238692,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              }
+            ]
+          },
+          {
+            "iteration": 1,
+            "training_match_fraction": 0.1999515661132441,
+            "max_abs_parameter_change": 0.03008543342162026,
+            "levels": [
+              {
+                "comparison": "given_name",
+                "gamma": -1,
+                "label": "given_name is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 4,
+                "label": "Exact match on given_name",
+                "is_null": false,
+                "m_raw": 0.6849192260300115,
+                "u_raw": 0.0032995609591354273,
+                "m_effective": 0.6849192260300115,
+                "u_effective": 0.0032995609591354273,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of given_name >= 0.92",
+                "is_null": false,
+                "m_raw": 0.13013338153573983,
+                "u_raw": 0.0015422717550377125,
+                "m_effective": 0.13013338153573983,
+                "u_effective": 0.0015422717550377125,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of given_name >= 0.88",
+                "is_null": false,
+                "m_raw": 0.016118535446043854,
+                "u_raw": 0.0008915906788247214,
+                "m_effective": 0.016118535446043854,
+                "u_effective": 0.0008915906788247214,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of given_name >= 0.7",
+                "is_null": false,
+                "m_raw": 0.0143436396775618,
+                "u_raw": 0.023501069458516266,
+                "m_effective": 0.0143436396775618,
+                "u_effective": 0.023501069458516266,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.15448521731064305,
+                "u_raw": 0.9707655071484859,
+                "m_effective": 0.15448521731064305,
+                "u_effective": 0.9707655071484859,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": -1,
+                "label": "surname is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 4,
+                "label": "Exact match on surname",
+                "is_null": false,
+                "m_raw": 0.6810059261916991,
+                "u_raw": 0.003597447167198507,
+                "m_effective": 0.6810059261916991,
+                "u_effective": 0.003597447167198507,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of surname >= 0.92",
+                "is_null": false,
+                "m_raw": 0.17116813225193267,
+                "u_raw": 0.001184813741259042,
+                "m_effective": 0.17116813225193267,
+                "u_effective": 0.001184813741259042,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of surname >= 0.88",
+                "is_null": false,
+                "m_raw": 0.013612337566269903,
+                "u_raw": 0.00038705349079242753,
+                "m_effective": 0.013612337566269903,
+                "u_effective": 0.00038705349079242753,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of surname >= 0.7",
+                "is_null": false,
+                "m_raw": 0.008379562444595154,
+                "u_raw": 0.014571488779749361,
+                "m_effective": 0.008379562444595154,
+                "u_effective": 0.014571488779749361,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.12583404154550323,
+                "u_raw": 0.9802591968210007,
+                "m_effective": 0.12583404154550323,
+                "u_effective": 0.9802591968210007,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": -1,
+                "label": "transformed date_of_birth is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 5,
+                "label": "Exact match on date of birth",
+                "is_null": false,
+                "m_raw": 0.9421645139768259,
+                "u_raw": 0.000290026774286383,
+                "m_effective": 0.9421645139768259,
+                "u_effective": 0.000290026774286383,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 4,
+                "label": "Levenshtein distance <= 1",
+                "is_null": false,
+                "m_raw": 0.0072259067947525076,
+                "u_raw": 0.000982059772390571,
+                "m_effective": 0.0072259067947525076,
+                "u_effective": 0.000982059772390571,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 3,
+                "label": "Abs date difference <= 1 month",
+                "is_null": false,
+                "m_raw": 0.00036303342007930003,
+                "u_raw": 0.0013930243521708895,
+                "m_effective": 0.00036303342007930003,
+                "u_effective": 0.0013930243521708895,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 2,
+                "label": "Abs date difference <= 1 year",
+                "is_null": false,
+                "m_raw": 0.002549480106018634,
+                "u_raw": 0.017918951514018146,
+                "m_effective": 0.002549480106018634,
+                "u_effective": 0.017918951514018146,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 1,
+                "label": "Abs date difference <= 10 year",
+                "is_null": false,
+                "m_raw": 0.0076116322807034216,
+                "u_raw": 0.1690945677649238,
+                "m_effective": 0.0076116322807034216,
+                "u_effective": 0.1690945677649238,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.04008543342162027,
+                "u_raw": 0.8103213698222103,
+                "m_effective": 0.04008543342162027,
+                "u_effective": 0.8103213698222103,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": -1,
+                "label": "soc_sec_id is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 3,
+                "label": "Exact match on soc_sec_id",
+                "is_null": false,
+                "m_raw": 0.9106523973533581,
+                "u_raw": 0.0002567635270541082,
+                "m_effective": 0.9106523973533581,
+                "u_effective": 0.0002567635270541082,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 2,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 1",
+                "is_null": false,
+                "m_raw": 0.04878685321373412,
+                "u_raw": 1.67000668002672e-05,
+                "m_effective": 0.04878685321373412,
+                "u_effective": 1.67000668002672e-05,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 1,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 2",
+                "is_null": false,
+                "m_raw": 0.0006824100515793902,
+                "u_raw": 0.00022545090180360722,
+                "m_effective": 0.0006824100515793902,
+                "u_effective": 0.00022545090180360722,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.03987833938132836,
+                "u_raw": 0.999501085504342,
+                "m_effective": 0.03987833938132836,
+                "u_effective": 0.999501085504342,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": -1,
+                "label": "street_number is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 1,
+                "label": "Exact match on street_number",
+                "is_null": false,
+                "m_raw": 0.8663245495195506,
+                "u_raw": 0.01419677776130805,
+                "m_effective": 0.8663245495195506,
+                "u_effective": 0.01419677776130805,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.13367545048044946,
+                "u_raw": 0.985803222238692,
+                "m_effective": 0.13367545048044946,
+                "u_effective": 0.985803222238692,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              }
+            ]
+          },
+          {
+            "iteration": 2,
+            "training_match_fraction": 0.20006588737239103,
+            "max_abs_parameter_change": 0.0005676780000032772,
+            "levels": [
+              {
+                "comparison": "given_name",
+                "gamma": -1,
+                "label": "given_name is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 4,
+                "label": "Exact match on given_name",
+                "is_null": false,
+                "m_raw": 0.6847440592167684,
+                "u_raw": 0.0032995609591354273,
+                "m_effective": 0.6847440592167684,
+                "u_effective": 0.0032995609591354273,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of given_name >= 0.92",
+                "is_null": false,
+                "m_raw": 0.13007558450312218,
+                "u_raw": 0.0015422717550377125,
+                "m_effective": 0.13007558450312218,
+                "u_effective": 0.0015422717550377125,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of given_name >= 0.88",
+                "is_null": false,
+                "m_raw": 0.016123350018448737,
+                "u_raw": 0.0008915906788247214,
+                "m_effective": 0.016123350018448737,
+                "u_effective": 0.0008915906788247214,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of given_name >= 0.7",
+                "is_null": false,
+                "m_raw": 0.01434122852356006,
+                "u_raw": 0.023501069458516266,
+                "m_effective": 0.01434122852356006,
+                "u_effective": 0.023501069458516266,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.15471577773810075,
+                "u_raw": 0.9707655071484859,
+                "m_effective": 0.15471577773810075,
+                "u_effective": 0.9707655071484859,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": -1,
+                "label": "surname is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 4,
+                "label": "Exact match on surname",
+                "is_null": false,
+                "m_raw": 0.6809235163608217,
+                "u_raw": 0.003597447167198507,
+                "m_effective": 0.6809235163608217,
+                "u_effective": 0.003597447167198507,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of surname >= 0.92",
+                "is_null": false,
+                "m_raw": 0.1710923131765169,
+                "u_raw": 0.001184813741259042,
+                "m_effective": 0.1710923131765169,
+                "u_effective": 0.001184813741259042,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of surname >= 0.88",
+                "is_null": false,
+                "m_raw": 0.013604790902191213,
+                "u_raw": 0.00038705349079242753,
+                "m_effective": 0.013604790902191213,
+                "u_effective": 0.00038705349079242753,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of surname >= 0.7",
+                "is_null": false,
+                "m_raw": 0.008381219640507802,
+                "u_raw": 0.014571488779749361,
+                "m_effective": 0.008381219640507802,
+                "u_effective": 0.014571488779749361,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.12599815991996247,
+                "u_raw": 0.9802591968210007,
+                "m_effective": 0.12599815991996247,
+                "u_effective": 0.9802591968210007,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": -1,
+                "label": "transformed date_of_birth is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 5,
+                "label": "Exact match on date of birth",
+                "is_null": false,
+                "m_raw": 0.941636721795325,
+                "u_raw": 0.000290026774286383,
+                "m_effective": 0.941636721795325,
+                "u_effective": 0.000290026774286383,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 4,
+                "label": "Levenshtein distance <= 1",
+                "is_null": false,
+                "m_raw": 0.007221062856759072,
+                "u_raw": 0.000982059772390571,
+                "m_effective": 0.007221062856759072,
+                "u_effective": 0.000982059772390571,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 3,
+                "label": "Abs date difference <= 1 month",
+                "is_null": false,
+                "m_raw": 0.0003575103208345625,
+                "u_raw": 0.0013930243521708895,
+                "m_effective": 0.0003575103208345625,
+                "u_effective": 0.0013930243521708895,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 2,
+                "label": "Abs date difference <= 1 year",
+                "is_null": false,
+                "m_raw": 0.0025321137832114084,
+                "u_raw": 0.017918951514018146,
+                "m_effective": 0.0025321137832114084,
+                "u_effective": 0.017918951514018146,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 1,
+                "label": "Abs date difference <= 10 year",
+                "is_null": false,
+                "m_raw": 0.007599479822246488,
+                "u_raw": 0.1690945677649238,
+                "m_effective": 0.007599479822246488,
+                "u_effective": 0.1690945677649238,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.04065311142162355,
+                "u_raw": 0.8103213698222103,
+                "m_effective": 0.04065311142162355,
+                "u_effective": 0.8103213698222103,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": -1,
+                "label": "soc_sec_id is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 3,
+                "label": "Exact match on soc_sec_id",
+                "is_null": false,
+                "m_raw": 0.9103221284537343,
+                "u_raw": 0.0002567635270541082,
+                "m_effective": 0.9103221284537343,
+                "u_effective": 0.0002567635270541082,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 2,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 1",
+                "is_null": false,
+                "m_raw": 0.04875904006249064,
+                "u_raw": 1.67000668002672e-05,
+                "m_effective": 0.04875904006249064,
+                "u_effective": 1.67000668002672e-05,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 1,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 2",
+                "is_null": false,
+                "m_raw": 0.0006822681981216365,
+                "u_raw": 0.00022545090180360722,
+                "m_effective": 0.0006822681981216365,
+                "u_effective": 0.00022545090180360722,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.040236563285653476,
+                "u_raw": 0.999501085504342,
+                "m_effective": 0.040236563285653476,
+                "u_effective": 0.999501085504342,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": -1,
+                "label": "street_number is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 1,
+                "label": "Exact match on street_number",
+                "is_null": false,
+                "m_raw": 0.8661320660527885,
+                "u_raw": 0.01419677776130805,
+                "m_effective": 0.8661320660527885,
+                "u_effective": 0.01419677776130805,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.13386793394721144,
+                "u_raw": 0.985803222238692,
+                "m_effective": 0.13386793394721144,
+                "u_effective": 0.985803222238692,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              }
+            ]
+          },
+          {
+            "iteration": 3,
+            "training_match_fraction": 0.2000691365237228,
+            "max_abs_parameter_change": 1.236920764081939e-05,
+            "levels": [
+              {
+                "comparison": "given_name",
+                "gamma": -1,
+                "label": "given_name is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 4,
+                "label": "Exact match on given_name",
+                "is_null": false,
+                "m_raw": 0.6847370340153132,
+                "u_raw": 0.0032995609591354273,
+                "m_effective": 0.6847370340153132,
+                "u_effective": 0.0032995609591354273,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of given_name >= 0.92",
+                "is_null": false,
+                "m_raw": 0.13007403628488126,
+                "u_raw": 0.0015422717550377125,
+                "m_effective": 0.13007403628488126,
+                "u_effective": 0.0015422717550377125,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of given_name >= 0.88",
+                "is_null": false,
+                "m_raw": 0.016123229627991995,
+                "u_raw": 0.0008915906788247214,
+                "m_effective": 0.016123229627991995,
+                "u_effective": 0.0008915906788247214,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of given_name >= 0.7",
+                "is_null": false,
+                "m_raw": 0.014341187538721198,
+                "u_raw": 0.023501069458516266,
+                "m_effective": 0.014341187538721198,
+                "u_effective": 0.023501069458516266,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "given_name",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.1547245125330924,
+                "u_raw": 0.9707655071484859,
+                "m_effective": 0.1547245125330924,
+                "u_effective": 0.9707655071484859,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": -1,
+                "label": "surname is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 4,
+                "label": "Exact match on surname",
+                "is_null": false,
+                "m_raw": 0.6809187666171281,
+                "u_raw": 0.003597447167198507,
+                "m_effective": 0.6809187666171281,
+                "u_effective": 0.003597447167198507,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 3,
+                "label": "Jaro-Winkler distance of surname >= 0.92",
+                "is_null": false,
+                "m_raw": 0.17109140803085546,
+                "u_raw": 0.001184813741259042,
+                "m_effective": 0.17109140803085546,
+                "u_effective": 0.001184813741259042,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 2,
+                "label": "Jaro-Winkler distance of surname >= 0.88",
+                "is_null": false,
+                "m_raw": 0.013604579926402861,
+                "u_raw": 0.00038705349079242753,
+                "m_effective": 0.013604579926402861,
+                "u_effective": 0.00038705349079242753,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 1,
+                "label": "Jaro-Winkler distance of surname >= 0.7",
+                "is_null": false,
+                "m_raw": 0.008381302934290282,
+                "u_raw": 0.014571488779749361,
+                "m_effective": 0.008381302934290282,
+                "u_effective": 0.014571488779749361,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "surname",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.1260039424913232,
+                "u_raw": 0.9802591968210007,
+                "m_effective": 0.1260039424913232,
+                "u_effective": 0.9802591968210007,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": -1,
+                "label": "transformed date_of_birth is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 5,
+                "label": "Exact match on date of birth",
+                "is_null": false,
+                "m_raw": 0.9416266022093046,
+                "u_raw": 0.000290026774286383,
+                "m_effective": 0.9416266022093046,
+                "u_effective": 0.000290026774286383,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 4,
+                "label": "Levenshtein distance <= 1",
+                "is_null": false,
+                "m_raw": 0.0072210025341635075,
+                "u_raw": 0.000982059772390571,
+                "m_effective": 0.0072210025341635075,
+                "u_effective": 0.000982059772390571,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 3,
+                "label": "Abs date difference <= 1 month",
+                "is_null": false,
+                "m_raw": 0.000357484620384305,
+                "u_raw": 0.0013930243521708895,
+                "m_effective": 0.000357484620384305,
+                "u_effective": 0.0013930243521708895,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 2,
+                "label": "Abs date difference <= 1 year",
+                "is_null": false,
+                "m_raw": 0.0025321079397936357,
+                "u_raw": 0.017918951514018146,
+                "m_effective": 0.0025321079397936357,
+                "u_effective": 0.017918951514018146,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 1,
+                "label": "Abs date difference <= 10 year",
+                "is_null": false,
+                "m_raw": 0.007599666475421621,
+                "u_raw": 0.1690945677649238,
+                "m_effective": 0.007599666475421621,
+                "u_effective": 0.1690945677649238,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "date_of_birth",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.04066313622093218,
+                "u_raw": 0.8103213698222103,
+                "m_effective": 0.04066313622093218,
+                "u_effective": 0.8103213698222103,
+                "m_has_numeric_estimate": false,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": -1,
+                "label": "soc_sec_id is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 3,
+                "label": "Exact match on soc_sec_id",
+                "is_null": false,
+                "m_raw": 0.9103105548543653,
+                "u_raw": 0.0002567635270541082,
+                "m_effective": 0.9103105548543653,
+                "u_effective": 0.0002567635270541082,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 2,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 1",
+                "is_null": false,
+                "m_raw": 0.048758249497697005,
+                "u_raw": 1.67000668002672e-05,
+                "m_effective": 0.048758249497697005,
+                "u_effective": 1.67000668002672e-05,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 1,
+                "label": "Damerau-Levenshtein distance of soc_sec_id <= 2",
+                "is_null": false,
+                "m_raw": 0.0006822631546434139,
+                "u_raw": 0.00022545090180360722,
+                "m_effective": 0.0006822631546434139,
+                "u_effective": 0.00022545090180360722,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "soc_sec_id",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.040248932493294295,
+                "u_raw": 0.999501085504342,
+                "m_effective": 0.040248932493294295,
+                "u_effective": 0.999501085504342,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": -1,
+                "label": "street_number is NULL",
+                "is_null": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 1,
+                "label": "Exact match on street_number",
+                "is_null": false,
+                "m_raw": 0.8661254876129505,
+                "u_raw": 0.01419677776130805,
+                "m_effective": 0.8661254876129505,
+                "u_effective": 0.01419677776130805,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              },
+              {
+                "comparison": "street_number",
+                "gamma": 0,
+                "label": "All other comparisons",
+                "is_null": false,
+                "m_raw": 0.1338745123870495,
+                "u_raw": 0.985803222238692,
+                "m_effective": 0.1338745123870495,
+                "u_effective": 0.985803222238692,
+                "m_has_numeric_estimate": true,
+                "u_has_numeric_estimate": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "all_nonnull_levels_estimated": true,
+      "missing_estimates_with_effective_fallbacks": [],
+      "zero_probability_levels": [],
+      "levels": [
+        {
+          "comparison": "given_name",
+          "gamma": -1,
+          "label": "given_name is NULL",
+          "is_null": true
+        },
+        {
+          "comparison": "given_name",
+          "gamma": 4,
+          "label": "Exact match on given_name",
+          "is_null": false,
+          "m_raw": 0.6837321936983374,
+          "u_raw": 0.0032995609591354273,
+          "m_effective": 0.6837321936983374,
+          "u_effective": 0.0032995609591354273,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "given_name",
+          "gamma": 3,
+          "label": "Jaro-Winkler distance of given_name >= 0.92",
+          "is_null": false,
+          "m_raw": 0.1289774039428157,
+          "u_raw": 0.0015422717550377125,
+          "m_effective": 0.1289774039428157,
+          "u_effective": 0.0015422717550377125,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "given_name",
+          "gamma": 2,
+          "label": "Jaro-Winkler distance of given_name >= 0.88",
+          "is_null": false,
+          "m_raw": 0.015842720677326526,
+          "u_raw": 0.0008915906788247214,
+          "m_effective": 0.015842720677326526,
+          "u_effective": 0.0008915906788247214,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "given_name",
+          "gamma": 1,
+          "label": "Jaro-Winkler distance of given_name >= 0.7",
+          "is_null": false,
+          "m_raw": 0.01444420813767244,
+          "u_raw": 0.023501069458516266,
+          "m_effective": 0.01444420813767244,
+          "u_effective": 0.023501069458516266,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "given_name",
+          "gamma": 0,
+          "label": "All other comparisons",
+          "is_null": false,
+          "m_raw": 0.15700347354384786,
+          "u_raw": 0.9707655071484859,
+          "m_effective": 0.15700347354384786,
+          "u_effective": 0.9707655071484859,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "surname",
+          "gamma": -1,
+          "label": "surname is NULL",
+          "is_null": true
+        },
+        {
+          "comparison": "surname",
+          "gamma": 4,
+          "label": "Exact match on surname",
+          "is_null": false,
+          "m_raw": 0.680160149527211,
+          "u_raw": 0.003597447167198507,
+          "m_effective": 0.680160149527211,
+          "u_effective": 0.003597447167198507,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "surname",
+          "gamma": 3,
+          "label": "Jaro-Winkler distance of surname >= 0.92",
+          "is_null": false,
+          "m_raw": 0.17078990296998403,
+          "u_raw": 0.001184813741259042,
+          "m_effective": 0.17078990296998403,
+          "u_effective": 0.001184813741259042,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "surname",
+          "gamma": 2,
+          "label": "Jaro-Winkler distance of surname >= 0.88",
+          "is_null": false,
+          "m_raw": 0.013550718343499468,
+          "u_raw": 0.00038705349079242753,
+          "m_effective": 0.013550718343499468,
+          "u_effective": 0.00038705349079242753,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "surname",
+          "gamma": 1,
+          "label": "Jaro-Winkler distance of surname >= 0.7",
+          "is_null": false,
+          "m_raw": 0.00814069513637252,
+          "u_raw": 0.014571488779749361,
+          "m_effective": 0.00814069513637252,
+          "u_effective": 0.014571488779749361,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "surname",
+          "gamma": 0,
+          "label": "All other comparisons",
+          "is_null": false,
+          "m_raw": 0.1273585340229329,
+          "u_raw": 0.9802591968210007,
+          "m_effective": 0.1273585340229329,
+          "u_effective": 0.9802591968210007,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "date_of_birth",
+          "gamma": -1,
+          "label": "transformed date_of_birth is NULL",
+          "is_null": true
+        },
+        {
+          "comparison": "date_of_birth",
+          "gamma": 5,
+          "label": "Exact match on date of birth",
+          "is_null": false,
+          "m_raw": 0.9416266022093046,
+          "u_raw": 0.000290026774286383,
+          "m_effective": 0.9416266022093046,
+          "u_effective": 0.000290026774286383,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "date_of_birth",
+          "gamma": 4,
+          "label": "Levenshtein distance <= 1",
+          "is_null": false,
+          "m_raw": 0.0072210025341635075,
+          "u_raw": 0.000982059772390571,
+          "m_effective": 0.0072210025341635075,
+          "u_effective": 0.000982059772390571,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "date_of_birth",
+          "gamma": 3,
+          "label": "Abs date difference <= 1 month",
+          "is_null": false,
+          "m_raw": 0.000357484620384305,
+          "u_raw": 0.0013930243521708895,
+          "m_effective": 0.000357484620384305,
+          "u_effective": 0.0013930243521708895,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "date_of_birth",
+          "gamma": 2,
+          "label": "Abs date difference <= 1 year",
+          "is_null": false,
+          "m_raw": 0.0025321079397936357,
+          "u_raw": 0.017918951514018146,
+          "m_effective": 0.0025321079397936357,
+          "u_effective": 0.017918951514018146,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "date_of_birth",
+          "gamma": 1,
+          "label": "Abs date difference <= 10 year",
+          "is_null": false,
+          "m_raw": 0.007599666475421621,
+          "u_raw": 0.1690945677649238,
+          "m_effective": 0.007599666475421621,
+          "u_effective": 0.1690945677649238,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "date_of_birth",
+          "gamma": 0,
+          "label": "All other comparisons",
+          "is_null": false,
+          "m_raw": 0.04066313622093218,
+          "u_raw": 0.8103213698222103,
+          "m_effective": 0.04066313622093218,
+          "u_effective": 0.8103213698222103,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "soc_sec_id",
+          "gamma": -1,
+          "label": "soc_sec_id is NULL",
+          "is_null": true
+        },
+        {
+          "comparison": "soc_sec_id",
+          "gamma": 3,
+          "label": "Exact match on soc_sec_id",
+          "is_null": false,
+          "m_raw": 0.910667582281303,
+          "u_raw": 0.0002567635270541082,
+          "m_effective": 0.910667582281303,
+          "u_effective": 0.0002567635270541082,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "soc_sec_id",
+          "gamma": 2,
+          "label": "Damerau-Levenshtein distance of soc_sec_id <= 1",
+          "is_null": false,
+          "m_raw": 0.048793330130791124,
+          "u_raw": 1.67000668002672e-05,
+          "m_effective": 0.048793330130791124,
+          "u_effective": 1.67000668002672e-05,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "soc_sec_id",
+          "gamma": 1,
+          "label": "Damerau-Levenshtein distance of soc_sec_id <= 2",
+          "is_null": false,
+          "m_raw": 0.0006623711264571567,
+          "u_raw": 0.00022545090180360722,
+          "m_effective": 0.0006623711264571567,
+          "u_effective": 0.00022545090180360722,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "soc_sec_id",
+          "gamma": 0,
+          "label": "All other comparisons",
+          "is_null": false,
+          "m_raw": 0.03987671646144873,
+          "u_raw": 0.999501085504342,
+          "m_effective": 0.03987671646144873,
+          "u_effective": 0.999501085504342,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "street_number",
+          "gamma": -1,
+          "label": "street_number is NULL",
+          "is_null": true
+        },
+        {
+          "comparison": "street_number",
+          "gamma": 1,
+          "label": "Exact match on street_number",
+          "is_null": false,
+          "m_raw": 0.8690094046235066,
+          "u_raw": 0.01419677776130805,
+          "m_effective": 0.8690094046235066,
+          "u_effective": 0.01419677776130805,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "street_number",
+          "gamma": 0,
+          "label": "All other comparisons",
+          "is_null": false,
+          "m_raw": 0.1309905953764935,
+          "u_raw": 0.985803222238692,
+          "m_effective": 0.1309905953764935,
+          "u_effective": 0.985803222238692,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "postcode",
+          "gamma": -1,
+          "label": "postcode is NULL",
+          "is_null": true
+        },
+        {
+          "comparison": "postcode",
+          "gamma": 3,
+          "label": "Exact match on postcode",
+          "is_null": false,
+          "m_raw": 0.8383900403730856,
+          "u_raw": 0.0012337174348697395,
+          "m_effective": 0.8383900403730856,
+          "u_effective": 0.0012337174348697395,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "postcode",
+          "gamma": 2,
+          "label": "Damerau-Levenshtein distance of postcode <= 1",
+          "is_null": false,
+          "m_raw": 0.14742053949202857,
+          "u_raw": 0.012334043086172345,
+          "m_effective": 0.14742053949202857,
+          "u_effective": 0.012334043086172345,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "postcode",
+          "gamma": 1,
+          "label": "Damerau-Levenshtein distance of postcode <= 2",
+          "is_null": false,
+          "m_raw": 0.005775879037061973,
+          "u_raw": 0.1093248997995992,
+          "m_effective": 0.005775879037061973,
+          "u_effective": 0.1093248997995992,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        },
+        {
+          "comparison": "postcode",
+          "gamma": 0,
+          "label": "All other comparisons",
+          "is_null": false,
+          "m_raw": 0.008413541097823966,
+          "u_raw": 0.8771073396793587,
+          "m_effective": 0.008413541097823966,
+          "u_effective": 0.8771073396793587,
+          "m_has_numeric_estimate": true,
+          "u_has_numeric_estimate": true
+        }
+      ],
+      "u_unchanged_during_em": true
+    },
+    "warnings": [
+      "You are using the default value for `max_pairs`, which may be too small and thus lead to inaccurate estimates for your model's u-parameters. Consider increasing to 1e8 or 1e9, which will result in more accurate estimates, but with a longer run time."
+    ],
+    "fit_seconds": 3.260382500011474,
+    "fitted_settings": {
+      "link_type": "link_only",
+      "probability_two_random_records_match": 0.0003407820282029684,
+      "retain_matching_columns": true,
+      "retain_intermediate_calculation_columns": true,
+      "additional_columns_to_retain": [],
+      "sql_dialect": "duckdb",
+      "linker_uid": "hy6fuehx",
+      "em_convergence": 0.0001,
+      "max_iterations": 100,
+      "match_weight_column_prefix": "mw_",
+      "term_frequency_adjustment_column_prefix": "tf_",
+      "comparison_vector_value_column_prefix": "gamma_",
+      "unique_id_column_name": "unique_id",
+      "source_dataset_column_name": "source",
+      "blocking_rules_to_generate_predictions": [
+        {
+          "blocking_rule": "1=1",
+          "sql_dialect": "duckdb"
+        }
+      ],
+      "comparisons": [
+        {
+          "output_column_name": "given_name",
+          "comparison_levels": [
+            {
+              "sql_condition": "\"given_name_l\" IS NULL OR \"given_name_r\" IS NULL",
+              "label_for_charts": "given_name is NULL",
+              "fix_m_probability": false,
+              "fix_u_probability": false,
+              "is_null_level": true
+            },
+            {
+              "sql_condition": "\"given_name_l\" = \"given_name_r\"",
+              "label_for_charts": "Exact match on given_name",
+              "m_probability": 0.6837321936983374,
+              "u_probability": 0.0032995609591354273,
+              "fix_m_probability": false,
+              "fix_u_probability": false,
+              "tf_adjustment_column": "given_name",
+              "tf_adjustment_weight": 1.0
+            },
+            {
+              "sql_condition": "jaro_winkler_similarity(\"given_name_l\", \"given_name_r\") >= 0.92",
+              "label_for_charts": "Jaro-Winkler distance of given_name >= 0.92",
+              "m_probability": 0.1289774039428157,
+              "u_probability": 0.0015422717550377125,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "jaro_winkler_similarity(\"given_name_l\", \"given_name_r\") >= 0.88",
+              "label_for_charts": "Jaro-Winkler distance of given_name >= 0.88",
+              "m_probability": 0.015842720677326526,
+              "u_probability": 0.0008915906788247214,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "jaro_winkler_similarity(\"given_name_l\", \"given_name_r\") >= 0.7",
+              "label_for_charts": "Jaro-Winkler distance of given_name >= 0.7",
+              "m_probability": 0.01444420813767244,
+              "u_probability": 0.023501069458516266,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "ELSE",
+              "label_for_charts": "All other comparisons",
+              "m_probability": 0.15700347354384786,
+              "u_probability": 0.9707655071484859,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            }
+          ],
+          "comparison_description": "NameComparison"
+        },
+        {
+          "output_column_name": "surname",
+          "comparison_levels": [
+            {
+              "sql_condition": "\"surname_l\" IS NULL OR \"surname_r\" IS NULL",
+              "label_for_charts": "surname is NULL",
+              "fix_m_probability": false,
+              "fix_u_probability": false,
+              "is_null_level": true
+            },
+            {
+              "sql_condition": "\"surname_l\" = \"surname_r\"",
+              "label_for_charts": "Exact match on surname",
+              "m_probability": 0.680160149527211,
+              "u_probability": 0.003597447167198507,
+              "fix_m_probability": false,
+              "fix_u_probability": false,
+              "tf_adjustment_column": "surname",
+              "tf_adjustment_weight": 1.0
+            },
+            {
+              "sql_condition": "jaro_winkler_similarity(\"surname_l\", \"surname_r\") >= 0.92",
+              "label_for_charts": "Jaro-Winkler distance of surname >= 0.92",
+              "m_probability": 0.17078990296998403,
+              "u_probability": 0.001184813741259042,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "jaro_winkler_similarity(\"surname_l\", \"surname_r\") >= 0.88",
+              "label_for_charts": "Jaro-Winkler distance of surname >= 0.88",
+              "m_probability": 0.013550718343499468,
+              "u_probability": 0.00038705349079242753,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "jaro_winkler_similarity(\"surname_l\", \"surname_r\") >= 0.7",
+              "label_for_charts": "Jaro-Winkler distance of surname >= 0.7",
+              "m_probability": 0.00814069513637252,
+              "u_probability": 0.014571488779749361,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "ELSE",
+              "label_for_charts": "All other comparisons",
+              "m_probability": 0.1273585340229329,
+              "u_probability": 0.9802591968210007,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            }
+          ],
+          "comparison_description": "NameComparison"
+        },
+        {
+          "output_column_name": "date_of_birth",
+          "comparison_levels": [
+            {
+              "sql_condition": "try_strptime(\"date_of_birth_l\", '%Y%m%d') IS NULL OR try_strptime(\"date_of_birth_r\", '%Y%m%d') IS NULL",
+              "label_for_charts": "transformed date_of_birth is NULL",
+              "fix_m_probability": false,
+              "fix_u_probability": false,
+              "is_null_level": true
+            },
+            {
+              "sql_condition": "\"date_of_birth_l\" = \"date_of_birth_r\"",
+              "label_for_charts": "Exact match on date of birth",
+              "m_probability": 0.9416266022093046,
+              "u_probability": 0.000290026774286383,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "levenshtein(\"date_of_birth_l\", \"date_of_birth_r\") <= 1",
+              "label_for_charts": "Levenshtein distance <= 1",
+              "m_probability": 0.0072210025341635075,
+              "u_probability": 0.000982059772390571,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "ABS(EPOCH(try_strptime(\"date_of_birth_l\", '%Y%m%d')) - EPOCH(try_strptime(\"date_of_birth_r\", '%Y%m%d'))) <= 2629800.0",
+              "label_for_charts": "Abs date difference <= 1 month",
+              "m_probability": 0.000357484620384305,
+              "u_probability": 0.0013930243521708895,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "ABS(EPOCH(try_strptime(\"date_of_birth_l\", '%Y%m%d')) - EPOCH(try_strptime(\"date_of_birth_r\", '%Y%m%d'))) <= 31557600.0",
+              "label_for_charts": "Abs date difference <= 1 year",
+              "m_probability": 0.0025321079397936357,
+              "u_probability": 0.017918951514018146,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "ABS(EPOCH(try_strptime(\"date_of_birth_l\", '%Y%m%d')) - EPOCH(try_strptime(\"date_of_birth_r\", '%Y%m%d'))) <= 315576000.0",
+              "label_for_charts": "Abs date difference <= 10 year",
+              "m_probability": 0.007599666475421621,
+              "u_probability": 0.1690945677649238,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "ELSE",
+              "label_for_charts": "All other comparisons",
+              "m_probability": 0.04066313622093218,
+              "u_probability": 0.8103213698222103,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            }
+          ],
+          "comparison_description": "DateOfBirthComparison"
+        },
+        {
+          "output_column_name": "soc_sec_id",
+          "comparison_levels": [
+            {
+              "sql_condition": "\"soc_sec_id_l\" IS NULL OR \"soc_sec_id_r\" IS NULL",
+              "label_for_charts": "soc_sec_id is NULL",
+              "fix_m_probability": false,
+              "fix_u_probability": false,
+              "is_null_level": true
+            },
+            {
+              "sql_condition": "\"soc_sec_id_l\" = \"soc_sec_id_r\"",
+              "label_for_charts": "Exact match on soc_sec_id",
+              "m_probability": 0.910667582281303,
+              "u_probability": 0.0002567635270541082,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "damerau_levenshtein(\"soc_sec_id_l\", \"soc_sec_id_r\") <= 1",
+              "label_for_charts": "Damerau-Levenshtein distance of soc_sec_id <= 1",
+              "m_probability": 0.048793330130791124,
+              "u_probability": 1.67000668002672e-05,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "damerau_levenshtein(\"soc_sec_id_l\", \"soc_sec_id_r\") <= 2",
+              "label_for_charts": "Damerau-Levenshtein distance of soc_sec_id <= 2",
+              "m_probability": 0.0006623711264571567,
+              "u_probability": 0.00022545090180360722,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "ELSE",
+              "label_for_charts": "All other comparisons",
+              "m_probability": 0.03987671646144873,
+              "u_probability": 0.999501085504342,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            }
+          ],
+          "comparison_description": "Exact match 'soc_sec_id' vs. Damerau-Levenshtein distance at thresholds 1, 2 vs. anything else"
+        },
+        {
+          "output_column_name": "street_number",
+          "comparison_levels": [
+            {
+              "sql_condition": "\"street_number_l\" IS NULL OR \"street_number_r\" IS NULL",
+              "label_for_charts": "street_number is NULL",
+              "fix_m_probability": false,
+              "fix_u_probability": false,
+              "is_null_level": true
+            },
+            {
+              "sql_condition": "\"street_number_l\" = \"street_number_r\"",
+              "label_for_charts": "Exact match on street_number",
+              "m_probability": 0.8690094046235066,
+              "u_probability": 0.01419677776130805,
+              "fix_m_probability": false,
+              "fix_u_probability": false,
+              "tf_adjustment_column": "street_number",
+              "tf_adjustment_weight": 1.0
+            },
+            {
+              "sql_condition": "ELSE",
+              "label_for_charts": "All other comparisons",
+              "m_probability": 0.1309905953764935,
+              "u_probability": 0.985803222238692,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            }
+          ],
+          "comparison_description": "ExactMatch"
+        },
+        {
+          "output_column_name": "postcode",
+          "comparison_levels": [
+            {
+              "sql_condition": "\"postcode_l\" IS NULL OR \"postcode_r\" IS NULL",
+              "label_for_charts": "postcode is NULL",
+              "fix_m_probability": false,
+              "fix_u_probability": false,
+              "is_null_level": true
+            },
+            {
+              "sql_condition": "\"postcode_l\" = \"postcode_r\"",
+              "label_for_charts": "Exact match on postcode",
+              "m_probability": 0.8383900403730856,
+              "u_probability": 0.0012337174348697395,
+              "fix_m_probability": false,
+              "fix_u_probability": false,
+              "tf_adjustment_column": "postcode",
+              "tf_adjustment_weight": 1.0
+            },
+            {
+              "sql_condition": "damerau_levenshtein(\"postcode_l\", \"postcode_r\") <= 1",
+              "label_for_charts": "Damerau-Levenshtein distance of postcode <= 1",
+              "m_probability": 0.14742053949202857,
+              "u_probability": 0.012334043086172345,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "damerau_levenshtein(\"postcode_l\", \"postcode_r\") <= 2",
+              "label_for_charts": "Damerau-Levenshtein distance of postcode <= 2",
+              "m_probability": 0.005775879037061973,
+              "u_probability": 0.1093248997995992,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            },
+            {
+              "sql_condition": "ELSE",
+              "label_for_charts": "All other comparisons",
+              "m_probability": 0.008413541097823966,
+              "u_probability": 0.8771073396793587,
+              "fix_m_probability": false,
+              "fix_u_probability": false
+            }
+          ],
+          "comparison_description": "Exact match 'postcode' vs. Damerau-Levenshtein distance at thresholds 1, 2 vs. anything else"
+        }
+      ]
+    }
+  },
+  "predictions": [
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 1.3756645082920062e-10,
+      "match_weight": -32.75915227459306
+    },
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 1.72796723416878e-08,
+      "match_weight": -25.78634887288951
+    },
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 5.147406387500008e-11,
+      "match_weight": -34.177363355938
+    },
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 6.221497073184835e-11,
+      "match_weight": -33.90394726714477
+    },
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 1.130231719427106e-10,
+      "match_weight": -33.042662365276314
+    },
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "7e4c45492b047b55246da1dd",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 1.3756645082920062e-10,
+      "match_weight": -32.75915227459306
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 7.860186566701765e-11,
+      "match_weight": -33.56664548744092
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 1.130231719427106e-10,
+      "match_weight": -33.042662365276314
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "c8317bf0f0d12a40c81a8f80",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 3.6426616733892494e-10,
+      "match_weight": -31.354287943053304
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 3.6426616733892494e-10,
+      "match_weight": -31.354287943053304
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 3.6426616733892494e-10,
+      "match_weight": -31.354287943053304
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 3.6426616733892494e-10,
+      "match_weight": -31.354287943053304
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 3.6426616733892494e-10,
+      "match_weight": -31.354287943053304
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 1.5098780559587556e-08,
+      "match_weight": -25.980992701121714
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 3.6426616733892494e-10,
+      "match_weight": -31.354287943053304
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 2.0062810064287275e-09,
+      "match_weight": -28.892829162295975
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 2.0062810064287275e-09,
+      "match_weight": -28.892829162295975
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 1.3103318623126995e-07,
+      "match_weight": -22.863564231744625
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 2.2522879400334584e-09,
+      "match_weight": -28.7259615725623
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 3.6426616733892494e-10,
+      "match_weight": -31.354287943053304
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 3.6426616733892494e-10,
+      "match_weight": -31.354287943053304
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 3.6426616733892494e-10,
+      "match_weight": -31.354287943053304
+    },
+    {
+      "left_id": "0d1a078a95b37d59c91fd12c",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 4.538842356667462e-07,
+      "match_weight": -21.071171628015634
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 7.860186566701765e-11,
+      "match_weight": -33.56664548744092
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 1.23206559632213e-10,
+      "match_weight": -32.91820188018794
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 1.130231719427106e-10,
+      "match_weight": -33.042662365276314
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "37820f2986053b83e533d410",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 5.147406387500008e-11,
+      "match_weight": -34.177363355938
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 1.3756645082920062e-10,
+      "match_weight": -32.75915227459306
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 1.1170182703524971e-07,
+      "match_weight": -23.093843719806777
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 1.130231719427106e-10,
+      "match_weight": -33.042662365276314
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "39aad5cd4d953a0ea65c9d01",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 0.9999999996712599,
+      "match_weight": 31.502333173191108
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 2.0280907779885954e-08,
+      "match_weight": -25.555302500564107
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 9.016887257574837e-11,
+      "match_weight": -33.368579560604864
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 6.978162327890314e-08,
+      "match_weight": -23.772577500142297
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 1.3756645082920062e-10,
+      "match_weight": -32.75915227459306
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 6.225015215338854e-10,
+      "match_weight": -30.58120358451899
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 3.8260137740037823e-10,
+      "match_weight": -31.283438880792566
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "8716bbd93eee241c960809ce",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 1.5648310755798405e-08,
+      "match_weight": -25.929417810724306
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 0.9999999999999416,
+      "match_weight": 43.96260802661065
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 1.3756645082920062e-10,
+      "match_weight": -32.75915227459306
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 5.147406387500008e-11,
+      "match_weight": -34.177363355938
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 1.130231719427106e-10,
+      "match_weight": -33.042662365276314
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "860566ae47eca1952c3df91c",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 2.678418346140366e-09,
+      "match_weight": -28.47597153517862
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 9.016887257574837e-11,
+      "match_weight": -33.368579560604864
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 0.9999999998899474,
+      "match_weight": 33.08108667257852
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 1.3756645082920062e-10,
+      "match_weight": -32.75915227459306
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 1.4082958192700748e-07,
+      "match_weight": -22.759546050238647
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 2.277659845522762e-08,
+      "match_weight": -25.38787242072965
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "075a5be8b90b12f5e318d858",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 0.9999999999999998,
+      "match_weight": 51.77638789351046
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 9.016887257574837e-11,
+      "match_weight": -33.368579560604864
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 1.23206559632213e-10,
+      "match_weight": -32.91820188018794
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 6.225015215338854e-10,
+      "match_weight": -30.58120358451899
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 8.655656744840597e-08,
+      "match_weight": -23.461781346512225
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "daffbd9753e571382bce7da6",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 9.016887257574837e-11,
+      "match_weight": -33.368579560604864
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 0.9999991334798594,
+      "match_weight": 20.138262131508277
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 7.035056784314202e-10,
+      "match_weight": -30.40471887946185
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 1.130231719427106e-10,
+      "match_weight": -33.042662365276314
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "010b76ef0b4b24a05646dda7",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 9.347973880164316e-11,
+      "match_weight": -33.316555340636114
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 0.9999999999255731,
+      "match_weight": 33.64538273904567
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 1.130231719427106e-10,
+      "match_weight": -33.042662365276314
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "53357ca49dffb83b82f1ac28",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 1.3756645082920062e-10,
+      "match_weight": -32.75915227459306
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 0.9985342732843627,
+      "match_weight": 9.412051998339555
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 1.0122523398553742e-10,
+      "match_weight": -33.20171197087119
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "9b56b5349e2d67ecc35be741",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 5.147406387500008e-11,
+      "match_weight": -34.177363355938
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 7.576793631940094e-10,
+      "match_weight": -30.29769349383573
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 0.9999999999989917,
+      "match_weight": 39.85126896127757
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 1.130231719427106e-10,
+      "match_weight": -33.042662365276314
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 9.016887257574837e-11,
+      "match_weight": -33.368579560604864
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "458a6be5baef68ff830d519a",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 9.016887257574837e-11,
+      "match_weight": -33.368579560604864
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 1.006781766538408e-10,
+      "match_weight": -33.20952995500999
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 1.3756645082920062e-10,
+      "match_weight": -32.75915227459306
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 0.9999999999999487,
+      "match_weight": 44.14958309059848
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 1.130231719427106e-10,
+      "match_weight": -33.042662365276314
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "365c00123afd6a4a671e0009",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "17ed643cb6ac1df0f094af0f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "68198c5da97ee53053ceebe7",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "48dac4f4dc0896baa6e7c58f",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "3f2241942893505c336087d1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "dc06b8f456503f8997ea2b77",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "949e2e7c08a06762b5fc94f1",
+      "match_probability": 1.3756645082920062e-10,
+      "match_weight": -32.75915227459306
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "fb95c2a3351828b96c1af4c1",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "3f14802ebeae06610f43fcba",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "97229502d38cfcf26225c2e3",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "6667be3f939d0a4a94dde997",
+      "match_probability": 0.9999999999995803,
+      "match_weight": 41.11591363228531
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "ebda542679ee492e21e800b0",
+      "match_probability": 1.130231719427106e-10,
+      "match_weight": -33.042662365276314
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "3f371aa576f8e3ebf6101397",
+      "match_probability": 7.570142242241963e-09,
+      "match_weight": -26.977032434498614
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "34f8b84ba5b496e5e0d50613",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "a635a2b1fc607d740c1722ba",
+      "match_probability": 1.8279420165797066e-11,
+      "match_weight": -35.670988735767324
+    },
+    {
+      "left_id": "b58e9b0a4f879f4c5c0cf6d6",
+      "right_id": "d7f046c05b3775784b33026b",
+      "match_probability": 1.6371320602489924e-11,
+      "match_weight": -35.8300383413622
+    }
+  ],
+  "predictions_sha256": "479f756ecebc78fb92ed2d15b83095e17c51076a0335107515d3541e868cd8d6",
+  "scoring_seconds": 0.03251195899792947,
+  "environment": {
+    "python": "3.11.15",
+    "platform": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "label_budget": {
+    "fit_identity_labels": 0,
+    "threshold_identity_labels": 0,
+    "prior_identity_labels": 0,
+    "partition_membership": "Reused existing entity-aware split and slice metadata",
+    "deterministic_prior": "Assumed strict-rule precision and recall; not labeled training"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "verified_at_utc": "2026-10-06T19:11:45.184157+00:00",
+  "result_file": "unlabeled-febrl4-20261006T190913831251Z.json",
+  "result_sha256": "0dec74ecef0be28b4ab201a6b9a6810eca788eb7fe4a0ad91d6cb593bf811cba",
+  "fit_time_implementation_sha256": "d8ee968fa1e5834bb70f1b78428a56bf321950623e5c5252b67c2b9f48bbc106",
+  "current_implementation_sha256": "4e62eaab73074a0fb1a954e583d13c4d7774e3fa4d2f17c15fe9f4fc0e0c4110",
+  "change_scope": "Loader-only integrity hardening after the original run; no estimator, protocol, threshold, prediction, label or original artifact changed; no refitting.",
+  "checks": [
+    "original result successfully loads",
+    "all frozen prediction fields, including training audit, match evaluated result",
+    "original frozen protocol body matches result protocol",
+    "all 225 ordered pairs exactly match fixed evaluation slice",
+    "pinned recorded and installed Splink version agree",
+    "training corruption rejected",
+    "prediction corruption rejected",
+    "protocol corruption rejected",
+    "duplicate_pair corruption rejected: Saved predictions contain duplicate pairs.",
+    "pair_order corruption rejected: Saved predictions differ from the fixed ordered pair universe."
+  ]
+}

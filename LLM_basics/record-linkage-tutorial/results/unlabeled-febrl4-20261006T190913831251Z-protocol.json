@@ -1,0 +1,110 @@
+{
+  "frozen_at_utc": "2026-10-06T19:09:13.837419+00:00",
+  "protocol_sha256": "ec61999786462e5bbb15e7b44521351a9381b52d983f488fa5736a645ecf3309",
+  "protocol": {
+    "schema": 1,
+    "scope": "Unlabeled estimation on the existing FEBRL training partition",
+    "evidence_boundary": "Frozen extension of a previously inspected benchmark, not a blind preregistration. No new choices depend on this run's test outcomes.",
+    "training_columns": [
+      "source",
+      "unique_id",
+      "given_name",
+      "surname",
+      "date_of_birth",
+      "soc_sec_id",
+      "street_number",
+      "postcode"
+    ],
+    "partition_metadata": {
+      "source": "data/record_truth.csv",
+      "columns_read_before_prediction_freeze": [
+        "unique_id",
+        "split"
+      ],
+      "rule": "Keep rows whose existing split is train; discard split before fitting.",
+      "boundary": "The original partition and test slice were constructed using entity identities. Their existing membership is reused; identities are not supplied to the unlabeled estimator."
+    },
+    "prior": {
+      "method": "estimate_probability_two_random_records_match",
+      "exact_agreement_rules": [
+        [
+          "soc_sec_id"
+        ],
+        [
+          "given_name",
+          "surname",
+          "date_of_birth"
+        ]
+      ],
+      "rule_combination": "union, with duplicate pairs removed",
+      "assumed_recall": 0.8,
+      "record_sample_proportion": 1.0,
+      "assumptions": [
+        "The strict rules have approximately perfect precision.",
+        "The strict rules recover 80% of training matches; this is assumed, not measured."
+      ],
+      "not_used": "Neither entity counts nor test-slice match prevalence set the prior."
+    },
+    "u_estimation": {
+      "max_pairs": 1000000,
+      "seed": 2026,
+      "min_count_per_level": null,
+      "num_chunks": 1
+    },
+    "em": {
+      "ordered_exact_block_fields": [
+        "date_of_birth",
+        "postcode"
+      ],
+      "fix_u_probabilities": true,
+      "fix_m_probabilities": false,
+      "fix_probability_two_random_records_match": false,
+      "populate_probability_two_random_records_match_from_trained_values": false,
+      "estimate_without_term_frequencies": true,
+      "max_iterations": 100,
+      "em_convergence": 0.0001,
+      "initial_m": "Splink 5.0.0 default comparison-level values",
+      "between_passes": "Splink carries trained values forward; numeric estimates are combined by median.",
+      "outcome_driven_retries": false
+    },
+    "prediction": {
+      "comparisons": "Same six comparisons and term-frequency settings as the existing informed baseline",
+      "term_frequency_adjustments": true,
+      "blocking_rule": "1=1",
+      "input_slice": "data/evaluation_slice.csv",
+      "expected_pairs": 225,
+      "main_threshold": 0.5,
+      "threshold_sensitivity": [
+        0.1,
+        0.5,
+        0.9,
+        0.99
+      ],
+      "threshold_selection": "Fixed before fitting; no validation or test labels used"
+    },
+    "limitations": [
+      "Random-pair u estimation assumes matches are rare among sampled pairs.",
+      "EM assumes the specified comparison model and can reach a local solution.",
+      "Training blocks can induce selection bias when conditional independence fails.",
+      "The enriched 225-pair test slice does not establish population calibration or deployment accuracy.",
+      "No live LLM calls or LOTUS optimizer measurements are part of this extension."
+    ],
+    "sources": [
+      "https://moj-analytical-services.github.io/splink/demos/examples/duckdb/febrl4.html",
+      "https://moj-analytical-services.github.io/splink/topic_guides/training/training_rationale.html",
+      "https://moj-analytical-services.github.io/splink/api_docs/training.html"
+    ],
+    "input_sha256": {
+      "records.csv": "c34d8ad69aa74e9b1a01d9f59bc2615f6e5f6a870f250206d65590df7d56bb96",
+      "record_truth.csv": "283bc4526dcc3ddb59a06549be87efbb7a93861954f0f88dc783f934925064da",
+      "evaluation_slice.csv": "043fc5aaa9cfe54988ce5ba149a774670b0db8ac08f12908e2e4d14c3bc90a68"
+    },
+    "implementation_sha256": "d8ee968fa1e5834bb70f1b78428a56bf321950623e5c5252b67c2b9f48bbc106",
+    "packages": {
+      "splink": "5.0.0",
+      "duckdb": "1.5.6",
+      "pandas": "2.3.3",
+      "numpy": "1.26.4"
+    }
+  }
+}

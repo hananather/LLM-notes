@@ -11,7 +11,7 @@ The experiments answer different questions:
 
 | Dataset | Target | Comparison |
 | --- | --- | --- |
-| Splink FEBRL4 (synthetic person records) | Same-person identity across two tables | Supervised Splink versus a direct LOTUS join on 225 pairs |
+| Splink FEBRL4 (synthetic person records) | Same-person identity across two tables | Supervised Splink, unlabeled Splink with EM, and a direct LOTUS join on 225 pairs |
 | BioDEX | Article–reaction category relation | Literal phrase and word baselines versus two cheap LOTUS models on 64 pairs |
 | FEVER / Wikipedia | Annotated evidence retrieval and claim support | BM25 retrieval, word-overlap support and two cheap LOTUS models on 12 claims |
 | Synthetic field-office returns | Revision selection, unit normalization and pooled completion rate | Tool-using LOTUS map/reduce checked against fixed source-derived counts |
@@ -41,13 +41,24 @@ If an environment already serves another project, use a separate environment
 directory. Select its Python kernel and run the notebook from top to bottom.
 Both the repository root and `LLM_basics/` are supported working directories.
 
-The default fits Splink locally and replays recorded, real model responses.
+The default fits the supervised Splink reference locally, verifies the saved EM run,
+and replays recorded, real LLM responses.
 It needs no API key, downloads or TeX installation. To execute and export a
 reading copy without machine-wide Jupyter configuration:
 
 ```bash
 .venv/bin/python LLM_basics/record-linkage-tutorial/run_notebook.py --html reading-copy.html
 ```
+
+To repeat the unlabeled Splink fit locally and save a new result:
+
+```bash
+.venv/bin/python LLM_basics/record-linkage-tutorial/unlabeled_benchmark.py
+```
+
+This command fixes the protocol before fitting, saves predictions before
+joining identity truth, and preserves each run under a new timestamp.
+It makes no model API calls. The notebook replays the saved 6 October run.
 
 The HTML reading copy omits the setup cell and the longer worked-pair code.
 The notebook retains both for execution and inspection.
@@ -85,8 +96,31 @@ map and reduce calls; the native LOTUS usage object excludes planning.
 
 The worked examples show record values, comparison categories and their score contributions.
 A separate diagram explains expectation–maximization (EM) with unlabeled pairs.
-The measured Splink baseline estimates match parameters from labeled training pairs; it does not run EM.
+The supervised reference uses known training matches and a validation-selected threshold.
+The new EM model uses neither training-match labels nor validation labels.
+It estimates a prior from strict matching rules with an assumed 80% recall,
+then applies a fixed 50% threshold. Both EM and the zero-shot LLM can run
+without task-specific training labels. Each still needs an independent quality check.
 Probabilities and accuracy metrics appear as percentages, while saved results retain full precision.
+
+The saved three-way comparison gives:
+
+| Procedure | True links found | False links | True links missed |
+| --- | ---: | ---: | ---: |
+| Supervised Splink | 10 | 0 | 0 |
+| Unlabeled Splink with EM | 10 | 0 | 0 |
+| LOTUS with GPT-6 Luna | 8 | 0 | 2 |
+
+Both EM passes met the stopping tolerance after three iterations. All
+nonmissing comparison levels received parameter estimates. The decisions
+were unchanged at the four declared thresholds: 10%, 50%, 90% and 99%.
+
+The shared quality check reviews all ten pairs accepted by any method,
+then randomly samples 50 of the 215 pairs rejected by every method. It
+uses benchmark truth to simulate review. None of the sampled rejections
+was a true link, but the exact 95% interval still allows 0–13 true links
+in that group without using its one-to-one constraint. The separate full truth census confirms zero. This shows
+why a zero-error sample does not prove perfect recall.
 
 Sections 1–5 define the entity relation, explain comparison evidence, introduce
 LOTUS, and run the structured and text examples. Section 5 also maps the
@@ -122,12 +156,16 @@ the fuller evidence review and experimental protocol.
 | `data/README.md` | FEBRL source, licences, entity splits and fixed evaluation slice |
 | `data/unstructured/README.md` | BioDEX/FEVER source revisions, selection, licences and annotation boundaries |
 | `tutorial_helpers.py` | Strict Boolean parsing, metrics and FEBRL replay integrity |
+| `unlabeled_benchmark.py` | Label-free EM fitting, frozen predictions, convergence records and replay checks |
+| `quality_control.py` | Shared review sample, finite-population uncertainty and a separate truth census |
 | `unstructured_benchmark.py` | Actual LOTUS joins/filters, lexical baselines, budget checks and text replay |
 | `agentic_demo.py` | Native LOTUS agentic execution, bounded tools, full-call accounting and validated replay |
 | `data/agentic-office-returns.json` | Synthetic office returns, revision states, units and definitions |
 | `prepare_data.py`, `unstructured_prepare.py` | Rebuild the frozen datasets from checked sources |
 | `handbook_examples.py` | Deterministic calculations, figures and replay displays |
 | `diagrams/` | Editable TikZ sources, PDF/PNG assets and their hashes |
+| `results/unlabeled-febrl4-20261006T190913831251Z*.json` | Frozen EM protocol, predictions, fitted parameters, convergence and verification |
+| `results/febrl4-audit-*.json` | Shared audit plan, sampled pair IDs, selection probabilities and simulated review |
 | `results/lotus-febrl4-gpt-6-luna.json` | Current FEBRL inputs, responses, prompt hashes, provider usage and timing |
 | `results/lotus-febrl4.json` | Preserved GPT-4.1 mini historical baseline |
 | `results/unstructured-*.json` | Current and historical text snapshots, failed-attempt evidence and request-settings verification |
@@ -138,8 +176,12 @@ the fuller evidence review and experimental protocol.
 
 FEBRL truth is separate from observed fields. Both records for each entity
 stay in one split; test labels do not fit the model or choose its threshold.
-Splink uses supervised training entities, whereas the LLM receives a zero-shot
-predicate. The teaching slice is enriched and contains only ten true links.
+The supervised Splink reference uses training labels and validation labels;
+the EM arm and zero-shot LLM do not. The split was originally constructed
+with identity truth, and this extension follows earlier inspection of the
+benchmark. It is not a fresh blind test. The comparison changes a complete
+fitting and decision procedure, so it does not isolate the effect of labels alone.
+The teaching slice is enriched and contains only ten true links.
 
 The text suite selects records before model scoring. BioDEX evaluates
 agreement with published annotations, whose omissions remain visible in the

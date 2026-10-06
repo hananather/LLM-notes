@@ -1,152 +1,122 @@
 \documentclass[tikz,border=5pt]{standalone}
 \input{diagram-style}
-\newcommand{\introfont}{\fontsize{9}{10.8}\selectfont}
-\newcommand{\introhead}[1]{{\fontsize{10}{12}\selectfont\bfseries #1}}
+\newcommand{\introfont}{\fontsize{9}{11}\selectfont}
+\newcommand{\introhead}[1]{{\fontsize{11}{13}\selectfont\bfseries #1}}
 \begin{document}
 \begin{tikzpicture}[
   every node/.append style={font=\introfont},
-  box/.append style={inner sep=6pt,line width=.8pt},
-  flow/.append style={line width=1.35pt},
-  branch/.append style={line width=1.1pt}
+  box/.append style={inner sep=7pt,line width=.8pt},
+  flow/.append style={line width=1.25pt},
+  branch/.append style={line width=1.05pt}
 ]
 
-\node[box,text width=145mm,minimum height=16mm] (target) at (8,-.75) {\introhead{Define the same identity target for both methods}\\[6pt]
-  $Y(a,b)=1$ when records $a$ and $b$ describe the same entity.\\
-  Fix the entity definition, population, reference period and admissible evidence.};
+\node[title,text width=148mm] (definition) at (0,0) {\introhead{A question about two rows becomes a join}\\[6pt]
+  A semantic join tests a natural-language condition with a model.\\
+  It keeps the pairs for which the model returns True.\\
+  Here the condition is: \textbf{``Do these records describe the same person?''}};
 
-\node[data,text width=145mm,minimum height=28mm] (inputs) at (8,-3.35) {\introhead{Observed records from sources $A$ and $B$}\\[6pt]
-  Fields, native text, stable record identifiers and provenance.\\[7pt]
-  \textbf{Optional text-to-comparisons bridge for Splink}\\[3pt]
-  native text $\rightarrow$ recordwise extraction $\rightarrow$ source checks $\rightarrow$ comparable fields};
-\draw[flow] (target) -- (inputs);
+\node[data,text width=65mm,anchor=north] (a) at ([xshift=-40mm,yshift=-6mm]definition.south) {\textbf{Record $a$ from table $A$}\\[6pt]
+  \begin{tabular}{@{}ll@{}}
+  Name & Amina Patel\\[3pt]
+  Date of birth & 1988-04-12\\[3pt]
+  Postcode & 3000
+  \end{tabular}};
+\node[data,text width=65mm,anchor=north] (b) at ([xshift=40mm,yshift=-6mm]definition.south) {\textbf{Record $b$ from table $B$}\\[6pt]
+  \begin{tabular}{@{}ll@{}}
+  Name & Amina Patel\\[3pt]
+  Date of birth & 1988-04-12\\[3pt]
+  Postcode & 3000
+  \end{tabular}};
+\node[fit=(a)(b),inner sep=0pt] (records) {};
+\node[word,text width=148mm,anchor=north] (toy) at ([yshift=-3mm]records.south) {A teaching example with constructed records and stipulated probabilities.};
 
-\node[box,text width=145mm,minimum height=20mm] (candidates) at (8,-6.15) {\introhead{Declare the pair universe and candidate relation}\\[6pt]
-  $C\subseteq A\times B$. Use the same $C$ for a controlled comparison of pair decisions.\\
-  The full semantic reference uses $C=A\times B$. External blocking to $C\subsetneq A\times B$\\
-  changes coverage and requires an audit of true links outside $C$.};
-\draw[flow] (inputs) -- (candidates);
+\node[model,text width=65mm,anchor=north] (fshead) at ([xshift=-40mm,yshift=-7mm]toy.south) {\introhead{Fellegi--Sunter / Splink}\\[4pt]Compare fields, then combine their evidence.};
+\node[llm,text width=65mm,anchor=north] (semhead) at ([xshift=40mm,yshift=-7mm]toy.south) {\introhead{Semantic join}\\[4pt]Give both rows and the condition to an LLM.};
+\coordinate (bus) at ([yshift=-3mm]toy.south);
+\draw[branch] (bus) -| (fshead.north);
+\draw[branch] (bus) -| (semhead.north);
 
-\node[model,text width=61mm,minimum height=10mm,anchor=north] (fshead) at ([xshift=-4cm,yshift=-9mm]candidates.south) {\introhead{Fellegi--Sunter / Splink}\\[2pt]A probability model for comparison evidence};
-\node[llm,text width=61mm,minimum height=10mm,anchor=north] (semhead) at ([xshift=4cm,yshift=-9mm]candidates.south) {\introhead{Semantic join / LOTUS}\\[2pt]A model-evaluated natural-language relation};
-\coordinate (headbus) at ([yshift=-4mm]candidates.south);
-\draw[route] (candidates.south) -- (headbus);
-\draw[branch] (headbus) -| (fshead.north);
-\draw[branch] (headbus) -| (semhead.north);
-\node[fit=(fshead)(semhead),inner sep=0pt] (headerrow) {};
+\node[data,text width=65mm,anchor=north] (comparisons) at ([yshift=-5mm]fshead.south) {\textbf{What do we observe?}\\[6pt]
+  \begin{tabular}{@{}ll@{}}
+  Name & agrees\\[2pt]
+  Date of birth & agrees\\[2pt]
+  Postcode & agrees
+  \end{tabular}\\[6pt]
+  The comparison vector is\\[3pt]
+  $\boldsymbol\gamma=(\text{agree},\text{agree},\text{agree})$.};
+\node[llm,text width=65mm,anchor=north] (question) at ([yshift=-5mm]semhead.south) {\textbf{What do we ask?}\\[6pt]
+  ``Do these records describe the same person?''\\[7pt]
+  Supply the two Amina Patel rows above.\\[5pt]
+  Fix the model, prompt and parsing rules:\\
+  together they define the \textbf{reference procedure}.};
+\draw[flow] (fshead) -- (comparisons);
+\draw[flow] (semhead) -- (question);
+\node[fit=(comparisons)(question),inner sep=0pt] (rowone) {};
 
-\node[data,text width=61mm,minimum height=25mm,anchor=north] (gamma) at ([xshift=-4cm,yshift=-7mm]headerrow.south) {\introhead{Construct comparisons}\\[6pt]
-  $\boldsymbol\gamma(a,b)=(\gamma_1,\ldots,\gamma_K)$\\[5pt]
-  Exact agreements, string-distance levels,\\
-  date discrepancies and explicit missingness.\\
-  Text-derived and learned features can enter here.};
-\node[llm,text width=61mm,minimum height=25mm,anchor=north] (predicate) at ([xshift=4cm,yshift=-7mm]headerrow.south) {\introhead{Specify the identity predicate $\mathtt p$}\\[6pt]
-  ``Do these two records describe the same person?''\\[5pt]
-  Declare which fields, original text and context\\
-  the model may use. Native text can be read directly.};
-\draw[flow] (fshead) -- (gamma);
-\draw[flow] (semhead) -- (predicate);
-\node[fit=(gamma)(predicate),inner sep=0pt] (rowone) {};
+\node[model,text width=65mm,anchor=north] (evidence) at ([xshift=-40mm,yshift=-5mm]rowone.south) {\textbf{What does agreement tell us?}\\[6pt]
+  Suppose the name agrees in\\[3pt]
+  \textbf{85 of 100 same-person pairs} ($m=0.85$),\\[3pt]
+  \textbf{1 of 100 different-person pairs} ($u=0.01$).\\[7pt]
+  Name agreement is $m/u=\mathbf{85}$ times as likely\\
+  under the same-person model.\\[5pt]
+  It multiplies the prior odds by \textbf{85}.};
+\node[llm,text width=65mm,anchor=north] (decision) at ([xshift=40mm,yshift=-5mm]rowone.south) {\textbf{What comes back?}\\[7pt]
+  A yes/no answer (True or False) for this pair.\\[9pt]
+  \begin{tabular}{@{}ll@{}}
+  \textbf{If True} & keep the pair $(a,b)$\\[8pt]
+  \textbf{If False} & omit the pair $(a,b)$
+  \end{tabular}\\[9pt]
+  This is a conditional illustration,\\
+  not a recorded model decision.};
+\draw[flow] (comparisons) -- (evidence);
+\draw[flow] (question) -- (decision);
+\node[fit=(evidence)(decision),inner sep=0pt] (rowtwo) {};
 
-\node[model,text width=61mm,minimum height=30.5mm,anchor=north] (parameters) at ([xshift=-4cm,yshift=-7mm]rowone.south) {\introhead{Estimate the evidence model and prior}\\[6pt]
-  $m_j(g)=P(\gamma_j=g\mid M)$\\[3pt]
-  $u_j(g)=P(\gamma_j=g\mid U),\qquad \pi=P(M)$\\[5pt]
-  $M$: same entity; $U$: different entities.\\
-  Use suitable labeled or unsupervised estimation;\\
-  specify the prior for the relevant pair population.};
-\node[llm,text width=61mm,minimum height=30.5mm,anchor=north] (reference) at ([xshift=4cm,yshift=-7mm]rowone.south) {\introhead{Fix the reference procedure}\\[6pt]
-  Model, prompt, serialization, generation settings\\
-  and parsing define the procedure.\\[5pt]
-  $\mathcal L_{\mathtt p}(a,b)\in\{0,1\}$\\[5pt]
-  The direct reference evaluates the predicate\\
-  once for every pair in the declared relation.};
-\draw[flow] (gamma) -- (parameters);
-\draw[flow] (predicate) -- (reference);
-\node[fit=(parameters)(reference),inner sep=0pt] (rowtwo) {};
+\node[model,text width=65mm,anchor=north] (score) at ([xshift=-40mm,yshift=-5mm]rowtwo.south) {\textbf{Use all three comparisons and the prior}\\[7pt]
+  Evidence factors: name $85$, birth date $450$,\\
+  postcode $20$.\\[5pt]
+  Before comparing fields, suppose 1 in 10,000\\
+  pairs is a match: $\pi=1/10{,}000$.\\[7pt]
+  $\underbrace{\dfrac{1}{9999}}_{\text{prior odds}}\ \times\ \underbrace{85\times450\times20}_{\text{comparison evidence}}$\\[9pt]
+  $\Longrightarrow$ \textbf{98.7\% posterior match probability}\\[6pt]
+  This calculation assumes comparisons are\\
+  conditionally independent within same-person\\
+  pairs and within different-person pairs.\\[7pt]
+  A chosen threshold/review policy determines\\
+  whether the scored pair is accepted.};
+\node[llm,text width=65mm,anchor=north] (relation) at ([xshift=40mm,yshift=-5mm]rowtwo.south) {\textbf{Apply the question across the two tables}\\[7pt]
+  The direct reference evaluates every pair in $A\times B$.\\[7pt]
+  The join returns the pairs whose answer is True:\\[7pt]
+  \begin{tabular}{@{}ll@{}}
+  \textbf{Left record} & \textbf{Right record}\\[3pt]
+  $a$ & $b$ \quad (only if True)
+  \end{tabular}\\[9pt]
+  With this identity question, retained pairs are\\
+  proposed identity links.\\[7pt]
+  A Boolean answer does not supply a calibrated\\
+  match probability.};
+\draw[flow] (evidence) -- (score);
+\draw[flow] (decision) -- (relation);
+\node[fit=(score)(relation),inner sep=0pt] (rowthree) {};
 
-\node[model,text width=61mm,minimum height=31.5mm,anchor=north] (weights) at ([xshift=-4cm,yshift=-9mm]rowtwo.south) {\introhead{Combine likelihood evidence}\\[6pt]
-  $W(\boldsymbol\gamma)=\log_2\!\dfrac{\pi}{1-\pi}+w(\boldsymbol\gamma)$\\[7pt]
-  $w(\boldsymbol\gamma)=\displaystyle\sum_j\log_2\!\dfrac{m_j(\gamma_j)}{u_j(\gamma_j)}$\\[7pt]
-  This additive form assumes conditional independence\\
-  within matches and within nonmatches.\\
-  Dependence and calibration require validation.};
-\draw[flow] (parameters) -- (weights);
-
-\node[llm,text width=26mm,minimum height=31.5mm,anchor=north] (direct) at ([xshift=2.2cm,yshift=-9mm]rowtwo.south) {\introhead{Direct}\\[8pt]
-  one call of $\mathcal L_{\mathtt p}$\\
-  per pair in $C$\\[8pt]
-  enumerate the\\
-  reference positives};
-\node[box,draw=llmline,dashed,text width=26mm,minimum height=31.5mm,anchor=north] (optimized) at ([xshift=5.8cm,yshift=-9mm]rowtwo.south) {\textbf{Optional\\optimization}\\[7pt]
-  proxy / cascade\\
-  or search\\[7pt]
-  cost reduction;\\
-  statistical\\
-  accuracy target\\
-  relative to the\\
-  reference result};
-\coordinate (execbus) at ([yshift=-4mm]reference.south);
-\draw[route] (reference.south) -- (execbus);
-\draw[branch] (execbus) -| (direct.north);
-\draw[branch] (execbus) -| (optimized.north);
-\node[fit=(weights)(direct)(optimized),inner sep=0pt] (rowthree) {};
-\coordinate (rowthreebase) at (candidates.center |- rowthree.south);
-
-\node[box,text width=61mm,minimum height=32mm,anchor=north] (fsdecision) at ([xshift=-4cm,yshift=-7mm]rowthreebase) {\introhead{Choose thresholds and review policy}\\[6pt]
-  For a two-threshold rule, $t_L<t_U$:\\[5pt]
-  $W\leq t_L$: nonlink; $W\geq t_U$: link;\\
-  $t_L<W<t_U$: review or unresolved.\\[6pt]
-  Choose the rule for the error costs and task.\\
-  Retain scores and comparison evidence.};
-\node[box,text width=61mm,minimum height=32mm,anchor=north] (semdecision) at ([xshift=4cm,yshift=-7mm]rowthreebase) {\introhead{Return the selected pair relation}\\[6pt]
-  Reference target:\\[3pt]
-  $\mathcal J_{\mathrm{ref}}(C)=\{(a,b)\in C:\mathcal L_{\mathtt p}(a,b)=1\}$.\\[6pt]
-  Accuracy targets hold at the stated confidence level.\\
-  Log invalid or failed outputs separately.\\
-  Here, an identity predicate yields proposed identity links.};
-\draw[flow] (weights) -- (fsdecision);
-\coordinate (semoutbus) at ([yshift=3.5mm]semdecision.north);
-\draw[route] (direct.south) |- (semoutbus);
-\draw[route] (optimized.south) |- (semoutbus);
-\draw[flow] (semoutbus) -- (semdecision.north);
-\node[fit=(fsdecision)(semdecision),inner sep=0pt] (rowfour) {};
-\coordinate (rowfourbase) at (candidates.center |- rowfour.south);
-
-\node[box,text width=145mm,minimum height=23.5mm,anchor=north] (policy) at ([yshift=-9mm]rowfourbase) {\introhead{Apply the task's decision and reconciliation rules}\\[6pt]
-  Pair judgments and a final entity-level result are distinct objects.\\
-  Where required, apply review, one-to-one assignment, consistency checks or entity clustering.\\
-  Record how these choices change accepted links and unresolved cases.};
-\coordinate (policybus) at ([yshift=4mm]policy.north);
-\draw[route] (fsdecision.south) |- (policybus);
-\draw[route] (semdecision.south) |- (policybus);
-\draw[flow] (policybus) -- (policy.north);
-
-\node[title,text width=145mm,anchor=north] (evalhead) at ([yshift=-11mm]policy.south) {\introhead{Evaluate both identity-linkage outputs against independent evidence}};
-\node[box,text width=39mm,minimum height=22.5mm,anchor=north] (truthsource) at ([xshift=-5.05cm,yshift=-6mm]evalhead.south) {\textbf{Identity truth / adjudication}\\[6pt]
-  Same entity definition.\\
-  Independent of model fitting,\\
-  prompt choices and\\
-  threshold selection.};
-\node[box,text width=39mm,minimum height=22.5mm,anchor=north] (pairerror) at ([yshift=-6mm]evalhead.south) {\textbf{Decisions within $C$}\\[6pt]
-  False and missed links.\\
-  Precision and recall.\\
-  Review and failure rates.\\
-  Record the evaluated population.};
-\node[box,text width=39mm,minimum height=22.5mm,anchor=north] (coverage) at ([xshift=5.05cm,yshift=-6mm]evalhead.south) {\textbf{Coverage beyond $C$}\\[6pt]
-  Investigate true counterparts\\
-  omitted by candidate selection.\\
-  Estimate candidate recall\\
-  and end-to-end missed links.};
-\node[fit=(truthsource)(pairerror)(coverage),inner sep=0pt] (evalrow) {};
-\coordinate (evalrowbase) at (candidates.center |- evalrow.south);
-\node[word,text width=139mm,anchor=north] (evalnote) at ([yshift=-5.5mm]evalrowbase) {Reference-model agreement measures execution fidelity; independent identity evidence measures linkage quality.};
-\begin{pgfonlayer}{background}
-  \node[truth,fit=(evalhead)(truthsource)(pairerror)(coverage)(evalnote),inner sep=6pt] (evaluation) {};
-\end{pgfonlayer}
-\draw[flow] (policy) -- (evaluation);
-
-\node[box,draw=llmline,text width=145mm,minimum height=16mm,anchor=north] at ([yshift=-10mm]evaluation.south) {\introhead{The semantic-join interface extends beyond identity}\\[6pt]
-  A predicate can instead ask about category membership, entailment or relatedness.\\
-  Those relations use their own labels, evaluation and structural constraints.};
+\node[title,text width=148mm,anchor=north] (newhead) at ([yshift=-8mm]rowthree.south) {\introhead{What LOTUS and Featurized-Decomposition Join add}};
+\node[box,text width=65mm,anchor=north,draw=llmline] (lotus) at ([xshift=-40mm,yshift=-5mm]newhead.south) {\textbf{LOTUS: make the question a table operation}\\[6pt]
+  Write a condition, compose table operators\\
+  and optimize their execution.\\[6pt]
+  The reference defines the intended result.\\
+  Optional optimizations reduce execution cost\\
+  under statistical accuracy targets relative to it.};
+\node[box,text width=65mm,anchor=north,draw=llmline] (fdj) at ([xshift=40mm,yshift=-5mm]newhead.south) {\textbf{FDJ: reuse work across many pairs}\\[6pt]
+  Derive reusable features for individual records\\[3pt]
+  $\downarrow$\\[3pt]
+  cheap comparisons screen candidate pairs\\[3pt]
+  $\downarrow$\\[3pt]
+  reference-LLM refinement produces the result.};
+\node[fit=(lotus)(fdj),inner sep=0pt] (contribution) {};
+\node[truth,text width=145mm,anchor=north] (validation) at ([yshift=-6mm]contribution.south) {\textbf{Check the identity links against independent identity evidence.}\\[5pt]
+  Agreement with a reference LLM measures execution fidelity; it does not establish who is the same person.\\[5pt]
+  Another condition, such as ``Does this report mention this medicine?'', defines a different relation\\
+  and needs its own evaluation.};
 
 \end{tikzpicture}
 \end{document}

@@ -3,7 +3,7 @@
 \begin{document}
 \begin{tikzpicture}
 
-\useasboundingbox (-.2,.3) rectangle (16.1,-8.2);
+\useasboundingbox (-.2,.3) rectangle (16.1,-7.55);
 \node[data,text width=30mm,minimum height=18mm] (diag) at (1.75,-1.1) {\textbf{Pair diagnostics}\\[3pt]comparison disagreements,\\parse flags, candidate margins};
 \node[model,text width=30mm,minimum height=18mm] (group) at (6,-1.1) {\textbf{Group related signatures}\\[3pt]several mechanisms may\\apply to one pair};
 \node[box,text width=30mm,minimum height=18mm] (review) at (10.25,-1.1) {\textbf{Review several members}\\[3pt]include boundaries\\and counterexamples};
@@ -17,7 +17,6 @@
 \node[truth,text width=70mm,minimum height=15mm] (test) at (11.1,-5.95) {\textbf{Test on unqueried entities}\\[3pt]held-out error loss, errors corrected and introduced,\\within and outside the repair's applicability region};
 \draw[flow] (validate) -- (freeze); \draw[flow] (freeze) -- (test);
 \node[word,text width=143mm] at (8,-7.2) {A shared diagnostic pattern motivates a hypothesis. Identity labels and repair benefit must be established separately.};
-\rolekey{8}{-8.0}
 
 \end{tikzpicture}
 \end{document}

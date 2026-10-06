@@ -3,7 +3,7 @@
 [Open the notebook](../record-linkage-with-semantic-operators.ipynb) for a
 computational companion to the LOTUS paper. It connects Fellegi–Sunter linkage
 with semantic joins, then examines how text interpretation could support
-national statistical offices. One notebook contains eight chapters, fourteen
+national statistical offices. One notebook contains eight sections, fourteen
 figures, three small experiments, an agentic dataset workflow, worked
 calculations and a source-linked research guide.
 
@@ -11,7 +11,7 @@ The experiments answer different questions:
 
 | Dataset | Target | Comparison |
 | --- | --- | --- |
-| Splink FEBRL4 | Same-person identity across two tables | Supervised Splink versus a direct LOTUS join on 225 pairs |
+| Splink FEBRL4 (synthetic person records) | Same-person identity across two tables | Supervised Splink versus a direct LOTUS join on 225 pairs |
 | BioDEX | Article–reaction category relation | Literal phrase and word baselines versus two cheap LOTUS models on 64 pairs |
 | FEVER / Wikipedia | Annotated evidence retrieval and claim support | BM25 retrieval, word-overlap support and two cheap LOTUS models on 12 claims |
 | Synthetic field-office returns | Revision selection, unit normalization and pooled completion rate | Tool-using LOTUS map/reduce checked against fixed source-derived counts |
@@ -49,7 +49,8 @@ reading copy without machine-wide Jupyter configuration:
 .venv/bin/python LLM_basics/record-linkage-tutorial/run_notebook.py --html reading-copy.html
 ```
 
-The HTML reading copy omits the setup cell; the notebook retains it for execution.
+The HTML reading copy omits the setup cell and the longer worked-pair code.
+The notebook retains both for execution and inspection.
 The opening and dataset diagrams are embedded so they display without running code.
 
 Live requests are explicit and independent:
@@ -72,7 +73,7 @@ The check bounds planned request sizes at the recorded prices, not an invoice.
 Saved notebooks return to replay mode for their next execution.
 
 Every successful live rerun writes new timestamped snapshots. Existing results
-are never overwritten. Dated prose and Figure 5 identify the saved GPT-6 Luna
+are never overwritten. Dated prose and Figure 6 identify the saved GPT-6 Luna
 comparison; result tables identify the responses used by the current execution.
 Live defaults use only the two 2026 models, with reasoning disabled. The
 Boolean experiments cap answers at 32 tokens. The agentic workflow permits
@@ -82,8 +83,13 @@ map and reduce calls; the native LOTUS usage object excludes planning.
 
 ## Follow the argument
 
-Chapters 1–5 define the entity relation, explain comparison evidence, introduce
-LOTUS, and run the structured and text examples. Chapter 5 also maps the
+The worked examples show record values, comparison categories and their score contributions.
+A separate diagram explains expectation–maximization (EM) with unlabeled pairs.
+The measured Splink baseline estimates match parameters from labeled training pairs; it does not run EM.
+Probabilities and accuracy metrics appear as percentages, while saved results retain full precision.
+
+Sections 1–5 define the entity relation, explain comparison evidence, introduce
+LOTUS, and run the structured and text examples. Section 5 also maps the
 workflows to NSO classification, catalogue search, extraction and survey
 feedback, with primary institutional references and conventional comparators.
 Section 5.6 then demonstrates the current `Corpus.agent` API: a model plans
@@ -94,8 +100,8 @@ The synthetic workflow illustrates execution; it does not estimate accuracy
 on operational NSO documents or savings over a purpose-built parser.
 
 The recorded agentic run selected every source and count correctly and returned
-1,130 completed cases out of 1,600 eligible cases (70.625%). Twelve model calls
-and seven tool calls took 13.40 seconds and an estimated $0.001594 in API tokens,
+1,130 completed cases out of 1,600 eligible cases (70.6%, rounded). Twelve model calls
+and seven tool calls took about 13.4 seconds and an estimated 0.16 US cents in API tokens,
 including planning. These are measurements of one execution on invented data.
 The helper preserves full model settings through `completer_factory`, records
 the final provider payloads, and checks each output against both its tool
@@ -103,7 +109,7 @@ observation and the independent reference. The notebook shows the plan fields
 used here; the snapshot also retains native metadata. In LOTUS 1.2.4,
 `reduce_strategy` is unused: the reducer is a single agent over all findings.
 
-Chapters 6–8 develop proposed research on diagnostic repairs, reusable LLM
+Sections 6–8 develop proposed research on diagnostic repairs, reusable LLM
 supervision and scale. The illustrative arithmetic is executed; the repair,
 distillation and 100M-by-100M studies have not been run. The supporting
 [research notes](../../research/error-guided-record-linkage/README.md) retain

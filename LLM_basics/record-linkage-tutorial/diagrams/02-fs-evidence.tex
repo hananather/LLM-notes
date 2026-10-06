@@ -1,24 +1,69 @@
-\documentclass[tikz,border=4pt]{standalone}
+\documentclass[tikz,border=5pt]{standalone}
 \input{diagram-style}
+\newcommand{\examplefont}{\fontsize{9}{11}\selectfont}
+\definecolor{negativefill}{HTML}{FFF2D8}
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[every node/.append style={font=\examplefont},
+  box/.append style={inner sep=6pt,line width=.8pt}]
 
-\useasboundingbox (-.2,.3) rectangle (16.1,-7.95);
-\node[data,text width=27mm,minimum height=16mm] (pair) at (1.5,-1.25) {\textbf{Candidate pair}\\[3pt]$(r_i,r_j)$\\observed record values};
-\node[data,text width=37mm,minimum height=16mm] (gamma) at (6,-1.25) {\textbf{Comparison vector}\\[3pt]$\gamma=(\gamma_1,\ldots,\gamma_K)$\\agreement levels by field};
-\node[model,text width=46mm,minimum height=16mm] (ratio) at (12.4,-1.25) {\textbf{Evidence for a match}\\[3pt]$w(\gamma)=\log_2\!\dfrac{P(\gamma\mid M)}{P(\gamma\mid U)}$\\$M$: match; $U$: nonmatch};
-\draw[flow] (pair) -- (gamma); \draw[flow] (gamma) -- (ratio);
-\node[model,text width=77mm,minimum height=15mm] (add) at (7.8,-3.65) {\textbf{Additive field evidence under conditional independence}\\[4pt]$w(\gamma)=\displaystyle\sum_{k=1}^{K}\log_2\!\dfrac{m_k(\gamma_k)}{u_k(\gamma_k)}$\\[3pt]$m_k(g)=P(\gamma_k=g\mid M),\quad u_k(g)=P(\gamma_k=g\mid U)$};
-\draw[flow] (ratio.south) -- (12.4,-2.22) -| (add.north);
-\node[word,text width=29mm] at (1.55,-3.65) {Agreement is stronger evidence when it is rare among nonmatches.};
-\node[word,text width=29mm] at (14.3,-3.65) {Correlated comparisons require dependence-aware modeling.};
-\node[box,text width=29mm,minimum height=12mm] (non) at (2.2,-6.05) {\textbf{Nonmatch}\\$w\leq t_L$};
-\node[box,text width=36mm,minimum height=12mm] (review) at (8,-6.05) {\textbf{Review / unresolved}\\$t_L<w<t_U$};
-\node[box,text width=29mm,minimum height=12mm] (match) at (13.8,-6.05) {\textbf{Match}\\$w\geq t_U$};
-\draw[route] (add.south) -- (7.8,-5.05);
-\draw[branch] (7.8,-5.05) -| (non.north); \draw[branch] (7.8,-5.05) -| (review.north); \draw[branch] (7.8,-5.05) -| (match.north);
-\node[word] at (8,-7.15) {Thresholds express the decision rule; posterior odds also require prior odds.};
-\rolekey{8}{-7.75}
+\node[title,font=\fontsize{12}{14}\selectfont\bfseries] at (8,0) {From two records to a match probability};
+\node[word] at (8,-.55) {Constructed records; stipulated probabilities.};
+
+\node[data,text width=65mm,minimum height=22mm,align=left] (a) at (4,-2.05) {
+  \textbf{Record $a$ in source $A$}\\[5pt]
+  Name: Amina Patel\\
+  Birth date: 1988-04-12\\
+  Postcode: 3000};
+\node[data,text width=65mm,minimum height=22mm,align=left] (b) at (12,-2.05) {
+  \textbf{Record $b$ in source $B$}\\[5pt]
+  Name: Amina Patel\\
+  Birth date: 1988-04-12\\
+  Postcode: 3000};
+
+\node[box,text width=145mm,minimum height=13mm] (gamma) at (8,-4.1) {
+  \textbf{Compare the fields in this order: name, birth date, postcode}\\[5pt]
+  $\boldsymbol\gamma(a,b)=(\mathrm{agree},\ \mathrm{agree},\ \mathrm{agree})$};
+\draw[flow] (a.south) -- ([xshift=-40mm]gamma.north);
+\draw[flow] (b.south) -- ([xshift=40mm]gamma.north);
+
+\node[title] at (8,-5.3) {Look up each outcome rate among matches ($m_j$) and nonmatches ($u_j$)};
+\node[word] at (8,-5.85) {The field weight is $w_j=\log_2(m_j/u_j)$: A positive weight supports a match.};
+
+\node[box,text width=145mm,minimum height=31mm] (evidence) at (8,-8.05) {
+  \setlength{\tabcolsep}{8pt}
+  \renewcommand{\arraystretch}{1.65}
+  \begin{tabular}{@{}lcrrrr@{}}
+  \textbf{Field} & \textbf{Outcome} & $\boldsymbol{m_j}$ & $\boldsymbol{u_j}$ & $\boldsymbol{m_j/u_j}$ & \textbf{Weight (bits)}\\
+  Name & agree & 85\% & 1\% & 85 & $+6.4$\\
+  Birth date & agree & 90\% & 0.2\% & 450 & $+8.8$\\
+  Postcode & agree & 60\% & 3\% & 20 & $+4.3$
+  \end{tabular}};
+\draw[flow] (gamma.south) -- (8,-4.95);
+\draw[flow] (8,-6.25) -- (evidence.north);
+
+\node[data,text width=40mm,minimum height=18mm] (prior) at (2.7,-11.1) {
+  \textbf{Start with prior $\pi=0.01\%$}\\[5pt]
+  1 match in 10,000 pairs\\
+  prior log odds: $-13.3$ bits};
+\node[model,text width=49mm,minimum height=18mm] (total) at (8.5,-11.1) {
+  \textbf{Add prior and field weights}\\[5pt]
+  Prior + name + birth date + postcode\\[5pt]
+  $W\approx6.3$ bits};
+\node[box,text width=29mm,minimum height=18mm] (probability) at (13.7,-11.1) {
+  \textbf{Estimated match\\probability}\\[5pt]
+  {\fontsize{18}{20}\selectfont\bfseries 98.7\%}\\[4pt]
+  $P(M\mid\boldsymbol\gamma)=\dfrac{2^W}{1+2^W}$};
+\draw[flow] (prior) -- (total);
+\draw[flow] (total) -- (probability);
+\draw[flow] (evidence.south) -- (8,-9.7) -| (total.north);
+
+\node[box,fill=negativefill,text width=145mm,minimum height=25mm,align=left] (contrast) at (8,-14.2) {
+  \textbf{Change only record $b$'s birth date to 1975-11-03}\\[6pt]
+  $\boldsymbol\gamma(a,b)=(\mathrm{agree},\ \mathrm{contradicts},\ \mathrm{agree})$.\\[5pt]
+  Birth-date evidence: $m_j=2\%$, $u_j=90\%$, so $w_j\approx-5.5$ bits.\\[5pt]
+  New score: $W\approx-8.0$ bits.
+  \quad\textbf{Estimated match probability: 0.4\%.}};
+\node[word,text width=148mm] at (8,-16.25) {This model assumes conditional independence within matches and within nonmatches.\\Totals use unrounded weights. A decision also needs a chosen threshold.};
 
 \end{tikzpicture}
 \end{document}

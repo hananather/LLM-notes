@@ -1,6 +1,6 @@
 # Record-linkage figures
 
-Fourteen editable TikZ figures accompany the chaptered record-linkage notebook. Each source uses the shared `diagram-style.tex`; the PDF and PNG are exported from that source.
+Fourteen active TikZ figures accompany the record-linkage notebook. The former chapter map is retained as a historical asset and is no longer displayed. Each source uses the shared `diagram-style.tex`; the PDF and PNG are exported from that source.
 
 ## Build
 
@@ -15,18 +15,15 @@ Select the intended TeX distribution through `PATH` if more than one is installe
 
 ## Visual notation
 
-- Slate: records and data.
-- Lavender: learned models, methods, and policies.
-- Pink: language-model components and their fallible signals.
-- Green: labels and evaluation against them.
-- White: fixed operations, equations, and explanatory annotations.
-- Dark arrows: data or evidence flow. A dashed lavender return in the teacher–student figure updates the student.
+Each box names its role. Slate boxes usually contain observed data. Lavender boxes contain statistical models or execution settings. Pink boxes contain language-model steps. Green boxes contain labels or evaluation. White boxes contain fixed operations or explanations. Color supports these labels; it does not certify correctness.
 
-The chapter figures use 7-point text and math; the overview and dataset walkthroughs use 9-point text. All use strong dark connectors, role-based pastel fills, and aligned comparative paths. Captions provide the figure-level claims; the diagrams carry local stage labels.
+Figures omit a common role legend. This avoids listing components that are absent from a figure. Dark arrows show data or evidence flow. A labeled dashed return shows a repeated update.
+
+The record-pair, EM, overview and dataset figures use 9-point text. The other workflow figures use 7-point text. The source includes an editable layout; PDF and PNG files provide portable reading copies.
 
 ## Captions and evidence
 
-### 00-chapter-map
+### 00-chapter-map (historical; not displayed)
 
 From linkage evidence to testable semantic workflows. The first four chapters establish the linkage task and recorded structured-data comparison. Chapter 5 examines source representation; Chapters 6–8 develop proposed repairs, learning methods, and scale tests.
 
@@ -44,9 +41,11 @@ Identity, shared context, and diagnostic similarity answer different questions. 
 
 ### 02-fs-evidence
 
-Fellegi–Sunter converts a comparison vector into match evidence. The joint log-likelihood ratio decomposes into field contributions under conditional independence; a decision rule applies lower and upper thresholds.
+The same constructed pair appears as record cards, a comparison vector, field evidence and a match probability. The name, birth date and postcode agree. Under the stated probabilities, the posterior is 98.7%. Changing only the second record's birth date lowers it to 0.4%.
 
-**Evidence boundary.** Lowercase w denotes likelihood evidence. Posterior log odds additionally include prior log odds. The figure asserts no calibration result.
+**Evidence boundary.** Records and probabilities are stipulated for teaching. The calculation assumes conditional independence within matches and within nonmatches. It uses the exact values in `evidence_example` in `handbook_examples.py`. Displayed weights are rounded. The prior is 0.01%. A decision still needs a chosen threshold.
+
+The layout follows the explanatory sequence in Splink's [Fellegi–Sunter guide](https://moj-analytical-services.github.io/splink/topic_guides/theory/fellegi_sunter.html) and [waterfall chart](https://moj-analytical-services.github.io/splink/charts/waterfall_chart.html): observed values, comparison evidence, prior and result. The composition and example are original.
 
 [PNG](02-fs-evidence.png) · [PDF](02-fs-evidence.pdf) · [Editable source](02-fs-evidence.tex)
 
@@ -108,7 +107,7 @@ Agentic map–reduce separates planning, tool use and validation. The operator o
 
 ### 10-agentic-evidence-loop
 
-The recorded Coastal trace shows GPT-6 Luna reading three revisions, submitting the highest approved row to a calculator, and returning its result with source identifiers. The calculator reports 200 eligible cases, 110 completed cases and 55% completion. Independent checks verify the selected rows, copied values, units, citations and reducer output across all three offices. Pooling their counts gives 1,130 completed cases out of 1,600 eligible cases, or 70.625%.
+The recorded Coastal trace shows GPT-6 Luna reading three revisions, submitting the highest approved row to a calculator, and returning its result with source identifiers. The calculator reports 200 eligible cases, 110 completed cases and 55% completion. Independent checks verify the selected rows, copied values, units, citations and reducer output across all three offices. Pooling their counts gives 1,130 completed cases out of 1,600 eligible cases, or 70.6% after rounding.
 
 **Evidence boundary.** Abbreviated observable calls and results from the validated [6 October 2026 run](../results/agentic-office-returns-gpt-6-luna.json), plus the notebook's independent checks. The source returns are synthetic. This count-based completion rate is neither a survey-weighted estimate nor an agency response-rate standard. The full arguments, tool observations and returned outputs remain in the snapshot.
 
@@ -116,11 +115,11 @@ The recorded Coastal trace shows GPT-6 Luna reading three revisions, submitting 
 
 ### 11-linkage-semantic-overview
 
-Both paths can address the same identity question. The diagram distinguishes their evidence, decision procedures and evaluation targets.
+Two methods answer the same identity question about the Amina Patel records. The figure shows the comparison vector and the effect of name agreement. The semantic join uses a written condition and a specified model procedure. The lower panels summarize LOTUS’s operator interface and FDJ’s candidate screening and reference-LLM refinement.
 
-**Evidence boundary.** Conceptual comparison on a shared identity relation. General semantic joins may target other relations. Restricted candidates, reference-relative optimization and independent identity evaluation have separate error targets; no comparative performance claim.
+**Evidence boundary.** The records and probabilities are constructed. The LLM return is conditional, not a recorded prediction. This figure reports no FDJ execution or comparative performance result.
 
-Sources: [Fellegi–Sunter](https://doi.org/10.1080/01621459.1969.10501049), [LOTUS §§2.2–2.4](https://www.vldb.org/pvldb/vol18/p4171-patel.pdf#page=3) and [FDJ §2](https://arxiv.org/html/2512.05399v1#S2).
+Sources: [Fellegi–Sunter](https://doi.org/10.1080/01621459.1969.10501049), [Patel et al., LOTUS §§2.2–2.4](https://www.vldb.org/pvldb/vol18/p4171-patel.pdf#page=3) and [Zeighami, Shankar and Parameswaran, FDJ §§2–3](https://arxiv.org/html/2512.05399v1#S2).
 
 [PNG](11-linkage-semantic-overview.png) · [PDF](11-linkage-semantic-overview.pdf) · [Editable source](11-linkage-semantic-overview.tex)
 
@@ -145,3 +144,13 @@ Sources: [FEVER](https://aclanthology.org/N18-1074/) and its archived Wikipedia 
 [PNG](13-fever-workflow.png) · [PDF](13-fever-workflow.pdf) · [Editable source](13-fever-workflow.tex)
 
 The machine-readable [manifest](manifest.json) records source pointers and asset hashes.
+
+### 14-em-learning
+
+EM repeats two steps over many training pairs. The E step computes match probabilities. The M step uses fractional counts to update the parameters. This diagram shows a common Splink route with separately estimated, fixed `u` values. After fitting, the model scores new record pairs.
+
+**Evidence boundary.** This is a training schematic. It reports no numerical convergence trace. The 80% probability only illustrates fractional counts. The notebook's recorded benchmark estimates `m` from labeled entities. It does not fit `m` with EM. Training blocks restrict which comparisons an EM session can estimate.
+
+Sources: [Splink parameter estimation](https://moj-analytical-services.github.io/splink/demos/tutorials/04_Estimating_model_parameters.html) and [the Splink author's EM explanation](https://www.robinlinacre.com/em_intuition/).
+
+[PNG](14-em-learning.png) · [PDF](14-em-learning.pdf) · [Editable source](14-em-learning.tex)

@@ -3,7 +3,7 @@
 \begin{document}
 \begin{tikzpicture}
 
-\useasboundingbox (-.2,.3) rectangle (16.1,-7.5);
+\useasboundingbox (-.2,.3) rectangle (16.1,-6.95);
 \node[data,text width=29mm,minimum height=15mm] (records) at (1.7,-2.95) {\textbf{One source corpus}\\[3pt]same records, entities,\\and evaluation split};
 \node[data,text width=37mm,minimum height=15mm] (fields) at (6.85,-.8) {\textbf{Structured fields}\\[3pt]name, address, date,\ldots};
 \node[model,text width=35mm,minimum height=15mm] (fs) at (13.8,-.8) {\textbf{Field comparisons + Splink}\\[3pt]structured baseline};
@@ -17,7 +17,6 @@
 \draw[flow] (text.south) -- (extract.north);
 \node[word,text width=33mm] at (1.75,-5.1) {Use genuine source text to test added information. Reformatting fields alone tests representation.};
 \node[truth,text width=140mm] at (8,-6.5) {\textbf{Common evaluation:} held-out identity labels, fixed candidates, common calibration budgets, and measured extraction and pairwise costs.};
-\rolekey{8}{-7.3}
 
 \end{tikzpicture}
 \end{document}

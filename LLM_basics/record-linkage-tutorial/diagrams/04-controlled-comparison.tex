@@ -3,7 +3,7 @@
 \begin{document}
 \begin{tikzpicture}
 
-\useasboundingbox (-.2,.3) rectangle (16.1,-7.15);
+\useasboundingbox (-.2,.3) rectangle (16.1,-6.52);
 \node[data,text width=28mm,minimum height=17mm] (pairs) at (1.65,-2.55) {\textbf{Shared test input}\\[3pt]225 candidate pairs\\10 true matches};
 \node[model,text width=38mm,minimum height=16mm] (splink) at (7,-1.05) {\textbf{Splink}\\[3pt]supervised match parameters\\separate training entities};
 \node[llm,text width=38mm,minimum height=16mm] (lotus) at (7,-4.05) {\textbf{LOTUS + GPT-6 Luna}\\[3pt]zero-shot predicate\\reasoning disabled};
@@ -16,7 +16,6 @@
 \node[box,text width=88mm] at (9.2,-2.55) {Training-label access differs. This is a documented comparison of two configurations,\\not an isolated estimate of the effect of using a language model.};
 \node[word,text width=143mm] at (8,-5.7) {Run: 6 October 2026; LOTUS 1.2.4 with gpt-6-luna; Splink 5.0.0.\\The fixed slice measures pair decisions. Candidate recall and native-text performance require separate evaluations.};
 \node[word] at (8,-6.25) {TP: true link; FP: false link; FN: missed true link; TN: correctly rejected nonmatch.};
-\rolekey{8}{-6.95}
 
 \end{tikzpicture}
 \end{document}

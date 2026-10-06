@@ -3,31 +3,6 @@
   "figure_count": 14,
   "figures": [
     {
-      "stem": "00-chapter-map",
-      "chapter": 0,
-      "caption": "From linkage evidence to testable semantic workflows. The first four chapters establish the linkage task and recorded structured-data comparison. Chapter 5 examines source representation; Chapters 6\u20138 develop proposed repairs, learning methods, and scale tests.",
-      "evidence_boundary": "Navigation diagram; no result claim.",
-      "sources": [
-        "../../record-linkage-with-semantic-operators.ipynb"
-      ],
-      "assets": {
-        "tex": {
-          "path": "00-chapter-map.tex",
-          "sha256": "0d395ddc2f581115ee532a6589cda91d3bd0b9edc51dc9825953e7a2594ff9de"
-        },
-        "pdf": {
-          "path": "00-chapter-map.pdf",
-          "sha256": "63021e1826a45b544a46629ac772c42d1b1819fd109b9eb27236fc9677d95beb"
-        },
-        "png": {
-          "path": "00-chapter-map.png",
-          "sha256": "c64f2ff3e2fe2a8180f630da135c134b793e4552b063c24607b5ce48ab7b708b",
-          "width_px": 1437,
-          "height_px": 640
-        }
-      }
-    },
-    {
       "stem": "01-identity-relations",
       "chapter": 1,
       "caption": "Identity, shared context, and diagnostic similarity answer different questions. The constructed records show how two people can share a clinic while one person appears under different spellings. Here, Y denotes identity and H denotes shared context.",
@@ -38,43 +13,45 @@
       "assets": {
         "tex": {
           "path": "01-identity-relations.tex",
-          "sha256": "6c3574b10814f0371e9659dfd954a785797268bdcc99466b4fc41cdbbfe8d702"
+          "sha256": "823209d6b81b34c62a92a776d1308da5e4143f3bb1d0254749ae7d10690b9d3c"
         },
         "pdf": {
           "path": "01-identity-relations.pdf",
-          "sha256": "3992f608111fe0cc282cfef35c7cc86746d72dc9332dbbb44d965e123a7fc3e4"
+          "sha256": "53f7b7431ac707d94820cde5ba4cd1f36f3c86164bb9996853e9f578feade8af"
         },
         "png": {
           "path": "01-identity-relations.png",
-          "sha256": "347a9225c6000c805a6a2608166672a689ad3e40b83e7f0d231001bf0b29fe4d",
+          "sha256": "2c28ad56e1fc9552b72ddf5a78128c5cd94e212ceea0b526c074c72c94774269",
           "width_px": 1437,
-          "height_px": 657
+          "height_px": 618
         }
       }
     },
     {
       "stem": "02-fs-evidence",
       "chapter": 2,
-      "caption": "Fellegi\u2013Sunter converts a comparison vector into match evidence. The joint log-likelihood ratio decomposes into field contributions under conditional independence; a decision rule applies lower and upper thresholds.",
-      "evidence_boundary": "Lowercase w denotes likelihood evidence. Posterior log odds additionally include prior log odds. The figure asserts no calibration result.",
+      "caption": "Constructed records become a comparison vector, field evidence and a match probability. The stated model gives 98.7% for three agreements and 0.4% after changing only the second record's birth date.",
+      "evidence_boundary": "Illustrative records and stipulated probabilities from handbook_examples.evidence_example. Prior 0.01%; conditional independence within matches and within nonmatches. Displayed weights are rounded; probabilities use full precision. Decisions need a chosen threshold.",
       "sources": [
+        "../handbook_examples.py",
         "https://doi.org/10.1080/01621459.1969.10501049",
-        "https://moj-analytical-services.github.io/splink/topic_guides/comparisons/comparisons_and_comparison_levels.html"
+        "https://moj-analytical-services.github.io/splink/topic_guides/theory/fellegi_sunter.html",
+        "https://moj-analytical-services.github.io/splink/charts/waterfall_chart.html"
       ],
       "assets": {
         "tex": {
           "path": "02-fs-evidence.tex",
-          "sha256": "3c73344cd9d53681f8f857ac33b9a759e480ee29b28bcaa0cebf8c6566612120"
+          "sha256": "9c9745f4c922c4825a5bc2016b9483490ce8a26ab8f4bdb0603fdd67ab5b93e4"
         },
         "pdf": {
           "path": "02-fs-evidence.pdf",
-          "sha256": "e2a3b463c5974c6c3a88bb6a2e4d82fff7fd53051c38cd74c38fc1330ab320b4"
+          "sha256": "48b9418f6331d24efd5905ac93e7f0d41ef3719c4a780db173d61aad6d88bc80"
         },
         "png": {
           "path": "02-fs-evidence.png",
-          "sha256": "90daaa1364f8e1da797ba4037916fd2d618d8386b939fa94d570defcdc9d3edc",
-          "width_px": 1437,
-          "height_px": 739
+          "sha256": "892f7148ce6134c7d9bff598b02d17ac573e97a8d1b79da5c115f5c65140a081",
+          "width_px": 1330,
+          "height_px": 1491
         }
       }
     },
@@ -90,17 +67,17 @@
       "assets": {
         "tex": {
           "path": "03-semantic-execution.tex",
-          "sha256": "78ab95ff62955aa147a255d2f87e498cacb10c58ee3dcf26a18a3c90f9531824"
+          "sha256": "84550c91cb41eff398b039306ee7b397b73aaee4d0992f561d8728d40127eee6"
         },
         "pdf": {
           "path": "03-semantic-execution.pdf",
-          "sha256": "3ebfcc3a994c125732077a4462da9efb199c7d99ebbc411a2f91607eefe11198"
+          "sha256": "7c0698e2eb4f28348532176855be34e1ecc1f48043a9a8ff61fd7b99560a3882"
         },
         "png": {
           "path": "03-semantic-execution.png",
-          "sha256": "be78c36e188a95044a3945e39bca1c7d8555ae5236c0d2333b944b7dc315156b",
+          "sha256": "4c4a0051c5ffd66da0a2770b5f2a6da65f871c4da4d5a4173a1ea4bae394a9c3",
           "width_px": 1437,
-          "height_px": 670
+          "height_px": 624
         }
       }
     },
@@ -117,17 +94,17 @@
       "assets": {
         "tex": {
           "path": "04-controlled-comparison.tex",
-          "sha256": "7615c85dd7b994dde219bcc53f96540a15b1fa970861c4d4d53ac4ccf04d19f8"
+          "sha256": "01920ac1fa715167e2d149e9a17a987c5d5a6c7583b4b9c2b10bb5e6d1c8c1a5"
         },
         "pdf": {
           "path": "04-controlled-comparison.pdf",
-          "sha256": "aded8eee2f6c9ae572ccd6d3a0940522f972b3d038b13ae077094f7d95026ce5"
+          "sha256": "c45c25ec2c0265f5d0229e2ae4125e9d930097e5de822ff936f54558880b5675"
         },
         "png": {
           "path": "04-controlled-comparison.png",
-          "sha256": "12c53bd76692e4c4db1c502394699fac7b00bbe216b0c7e0a75ce544917eb328",
+          "sha256": "3e76b796179fe6ad76c4ba9faa017293237e5106ffc1b6b7ac6efe8a74f9e0ca",
           "width_px": 1437,
-          "height_px": 670
+          "height_px": 616
         }
       }
     },
@@ -143,17 +120,17 @@
       "assets": {
         "tex": {
           "path": "05-representation-paths.tex",
-          "sha256": "8bcf8cae81f800b45a4be4b71fb188d37a923e476fbdf8fe40e4c5948bb9a41d"
+          "sha256": "9ce973ed9de71599e82cdcd541e53ec3b8cde24fc90666fcf71e6ccea9c74ed6"
         },
         "pdf": {
           "path": "05-representation-paths.pdf",
-          "sha256": "aca24f6e5367b67312b6cfba8d72f411fc2ec696001f89a3e0c97c0bfe01e709"
+          "sha256": "7ab6030685619635646b8e1ca426a15841cd5925163b39cbf32cd1a25f395e38"
         },
         "png": {
           "path": "05-representation-paths.png",
-          "sha256": "f996d110a04eca2dcb1df1e07f059f0449985b3011c06be2b0a647c8f47be67c",
+          "sha256": "cd4a196a0e263511f247dbac408f229b3647521b7c9742f2e6964e557d209091",
           "width_px": 1437,
-          "height_px": 700
+          "height_px": 653
         }
       }
     },
@@ -168,17 +145,17 @@
       "assets": {
         "tex": {
           "path": "06-diagnosis-repair.tex",
-          "sha256": "59f88ce5151e25bde19e9e0e2e4261eb4b826b0005a5d27e00119824230121f3"
+          "sha256": "71347f829c47c30ba8e148733e30ab5153b63caaa63a9c0764a358acdc438b62"
         },
         "pdf": {
           "path": "06-diagnosis-repair.pdf",
-          "sha256": "30d2b8431e981b4fa7d57c53a19602878a03d5e767b3b2c01551b369dffce099"
+          "sha256": "adfc69321e96916a787c094451d6baf245b464dfb82a0c1c4d5acce2080b131d"
         },
         "png": {
           "path": "06-diagnosis-repair.png",
-          "sha256": "cd0bbd1ad505bf90beff29899d7314337ee960fc1c8b1dd2fb8d6127f7a84af3",
+          "sha256": "aa4241c7117ee46ab791641fddd55c6e5814dcfafb61ac534bf10d3aa4f32efe",
           "width_px": 1437,
-          "height_px": 761
+          "height_px": 705
         }
       }
     },
@@ -193,17 +170,17 @@
       "assets": {
         "tex": {
           "path": "07-teacher-student.tex",
-          "sha256": "f8d5dc4d2947d99256a622b1189f4fc103cb028dd6d13090eb7fde6263d34e67"
+          "sha256": "e6bff56c8581660a84a82180370f2ee6f887fbbfa91efe147051526cb201932a"
         },
         "pdf": {
           "path": "07-teacher-student.pdf",
-          "sha256": "c08a3baf4a9a32f901d2960192c8fe2caf6eb8c8fe3755e4eb9370d60e20b5de"
+          "sha256": "9bac4cc64960349a841a200a7c70b65ace80bdffa726a7ff97d28146d78c7724"
         },
         "png": {
           "path": "07-teacher-student.png",
-          "sha256": "b0f92119a6b02962ff51f8110e7aa42b797fb71a9ec53a6de52d61945db9d170",
+          "sha256": "2a39babea3ab791b9c70c5fa400e54cf590a62edd1522bcc643697d38c6e7918",
           "width_px": 1437,
-          "height_px": 882
+          "height_px": 849
         }
       }
     },
@@ -219,17 +196,17 @@
       "assets": {
         "tex": {
           "path": "08-sparse-scale.tex",
-          "sha256": "6c6570de4e73d13517091a6c0061f4bc728b3c496f9775a8861ad2e729fe2ba2"
+          "sha256": "c8eb349d0b54d9f1ab7f7b9a7a483ec0525638b3e352611d6c38e6261573122f"
         },
         "pdf": {
           "path": "08-sparse-scale.pdf",
-          "sha256": "3ce2e8f4c43c9eb9aa4e62271a4d7cebae64c102d1796dfa7175070aff43b768"
+          "sha256": "8b7d0d52b91211a16f87c7ea3fc5b1a182278b03c7a8143a0e6da1bbab29c89f"
         },
         "png": {
           "path": "08-sparse-scale.png",
-          "sha256": "da97a5564768d023a3f11d8ef3756c366dcd343b61396f64808db2e4b78124dc",
+          "sha256": "40922ed39c5ca309a22f5139e5ac8a5f14bdf1486cd07e39941e6bbfd07ebd92",
           "width_px": 1437,
-          "height_px": 770
+          "height_px": 713
         }
       }
     },
@@ -247,24 +224,24 @@
       "assets": {
         "tex": {
           "path": "09-agentic-pipeline.tex",
-          "sha256": "df8b79a9021b8eddbc9c474d5d1190e31b7e83c8e4bc12c9e55a4ba8db1b96ea"
+          "sha256": "af17b48f1a3f132d9a441c19b937ceed8d9fb16e50720d3d3fca7542da974327"
         },
         "pdf": {
           "path": "09-agentic-pipeline.pdf",
-          "sha256": "b31a6a748bc98adf821500088315558cf95d9770f6b4fe7386b31e7f5217e81a"
+          "sha256": "5c102d7c7cff8f1da099503eb6d14fd68bf2a8cad55dcd497f25af54a262d212"
         },
         "png": {
           "path": "09-agentic-pipeline.png",
-          "sha256": "9746c2f0e1f5ae3028b50af0bd50d8b083267fb02b491d745fa57f745533c5fe",
+          "sha256": "4293e0036dbe16567e7073137f97a3db68ba7e7742809c61cd7b4f5cf8ec8a8c",
           "width_px": 1445,
-          "height_px": 1034
+          "height_px": 982
         }
       }
     },
     {
       "stem": "10-agentic-evidence-loop",
       "chapter": 5,
-      "caption": "The recorded Coastal trace shows GPT-6 Luna reading three revisions, submitting the highest approved row to a calculator, and returning its result with source identifiers. The calculator reports 200 eligible cases, 110 completed cases and 55% completion. Independent checks verify the selected rows, copied values, units, citations and reducer output across all three offices. Pooling their counts gives 1,130 completed cases out of 1,600 eligible cases, or 70.625%.",
+      "caption": "The recorded Coastal trace shows GPT-6 Luna reading three revisions, submitting the highest approved row to a calculator, and returning its result with source identifiers. The calculator reports 200 eligible cases, 110 completed cases and 55% completion. Independent checks verify the selected rows, copied values, units, citations and reducer output across all three offices. Pooling their counts gives 1,130 completed cases out of 1,600 eligible cases, or 70.6% after rounding.",
       "evidence_boundary": "Abbreviated observable calls and results from the validated 6 October 2026 run, plus the notebook\u2019s independent checks. The source returns are synthetic. This count-based completion rate is neither a survey-weighted estimate nor an agency response-rate standard. The full arguments, tool observations and returned outputs remain in the snapshot.",
       "sources": [
         "../results/agentic-office-returns-gpt-6-luna.json",
@@ -274,25 +251,25 @@
       "assets": {
         "tex": {
           "path": "10-agentic-evidence-loop.tex",
-          "sha256": "8f3f0b3e62e0268226a5d7dd85f3a05200f34bbf813ca6aed067bff82cc88b66"
+          "sha256": "4f6175f1bec8b9eae31e68a31ef2f2f48ceccf286ceb1264aa9e05224d1d61a8"
         },
         "pdf": {
           "path": "10-agentic-evidence-loop.pdf",
-          "sha256": "86eb3f7b9f78eefe6fddb32e9b90f35844a00051491adec911052c4b8137341b"
+          "sha256": "251170494f1a820393dcde2836de28c0b46dba259afa5e4f8d3197183b184abf"
         },
         "png": {
           "path": "10-agentic-evidence-loop.png",
-          "sha256": "158c9de039efc6209b8a439d0038badd462d66f77b50100c4a99fca6ab544b54",
+          "sha256": "96f0cbb2e8cb1117f898d0617ea5d14803c3e21759cc43791bc8721f94faea70",
           "width_px": 1445,
-          "height_px": 960
+          "height_px": 897
         }
       }
     },
     {
       "stem": "11-linkage-semantic-overview",
       "chapter": 0,
-      "caption": "Both paths can address the same identity question. The diagram distinguishes their evidence, decision procedures and evaluation targets.",
-      "evidence_boundary": "Conceptual comparison on a shared identity relation. General semantic joins may target other relations. Restricted candidates, reference-relative optimization and independent identity evaluation have separate error targets; no comparative performance claim.",
+      "caption": "Two ways to answer the same question about two records. Constructed inputs show field evidence and a written semantic-join condition. Lower panels summarize LOTUS and FDJ.",
+      "evidence_boundary": "Constructed records and stipulated probabilities. Conditional LLM return, not a measured model result. No FDJ execution or comparative performance claim.",
       "sources": [
         "https://doi.org/10.1080/01621459.1969.10501049",
         "https://www.vldb.org/pvldb/vol18/p4171-patel.pdf",
@@ -301,17 +278,17 @@
       "assets": {
         "tex": {
           "path": "11-linkage-semantic-overview.tex",
-          "sha256": "a112b90275e59176a0db7ad77252cf3b6275032a58a3c69561ac203b672088e5"
+          "sha256": "d389f532c7b8ef8d19c3033464c595bfca5785449e6008b0691e993e8e370ce7"
         },
         "pdf": {
           "path": "11-linkage-semantic-overview.pdf",
-          "sha256": "4af4d732eb9a064aca5a184ca17ce36f969a6f73eff832987f7580c72e2ccc30"
+          "sha256": "6d2cd231f87dc220c0da87f5a675a9df2f924a71bdc0ed62db488ddd2ed2d698"
         },
         "png": {
           "path": "11-linkage-semantic-overview.png",
-          "sha256": "f4e641a991a3a8726ebd40e9b4f87baad4b005a3388ed167b7d64be71f98da45",
-          "width_px": 1333,
-          "height_px": 3727
+          "sha256": "164e34bcd438a423b3fac6c662b20d6edf7bd5bd2539063d14a7f0052ca70ec4",
+          "width_px": 1332,
+          "height_px": 2882
         }
       }
     },
@@ -373,6 +350,35 @@
           "height_px": 1633
         }
       }
+    },
+    {
+      "stem": "14-em-learning",
+      "chapter": 2,
+      "caption": "EM alternates probability scoring and parameter updates over many training pairs. The displayed route holds separately estimated u values fixed. New pairs are scored after fitting.",
+      "evidence_boundary": "Training schematic; no recorded numerical convergence trace. The 80% probability only illustrates fractional counts. The notebook benchmark uses labeled m estimation. Training blocking restricts which comparisons a session can estimate.",
+      "sources": [
+        "https://moj-analytical-services.github.io/splink/demos/tutorials/04_Estimating_model_parameters.html",
+        "https://www.robinlinacre.com/em_intuition/"
+      ],
+      "assets": {
+        "tex": {
+          "path": "14-em-learning.tex",
+          "sha256": "0b7842c1bd56a0e8354f75b5ea43a96fa635aee33c7b3aa092c748935d81be0c"
+        },
+        "pdf": {
+          "path": "14-em-learning.pdf",
+          "sha256": "f5cab5a8bfc707b6820633a052ed34b6eb3f6958cd2ef576487327ea359a4ea8"
+        },
+        "png": {
+          "path": "14-em-learning.png",
+          "sha256": "2a375c8152e2e071d6a037db953efa6c4381b610493f6da04396c0451995c161",
+          "width_px": 1427,
+          "height_px": 1446
+        }
+      }
     }
+  ],
+  "historical_assets": [
+    "00-chapter-map"
   ]
 }

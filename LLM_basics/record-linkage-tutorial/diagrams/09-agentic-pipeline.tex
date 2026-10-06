@@ -3,7 +3,7 @@
 \begin{document}
 \begin{tikzpicture}
 
-\useasboundingbox (-.2,.3) rectangle (16.2,-11.35);
+\useasboundingbox (-.2,.3) rectangle (16.2,-10.75);
 \node[box,text width=32mm,minimum height=13mm] (task) at (2.3,-.6) {\textbf{Task + operator order}\\[3pt]objective and\\corpus summary};
 \node[llm,text width=32mm,minimum height=13mm] (planner) at (8,-.6) {\textbf{Planner (optional)}\\[3pt]derives instructions\\and execution choices};
 \node[model,text width=32mm,minimum height=13mm] (plan) at (13.7,-.6) {\textbf{Execution plan}\\[3pt]fixed operator order\\derived or supplied settings};
@@ -40,7 +40,6 @@
 \draw[flow] (check) -- (answer);
 
 \node[word,text width=145mm] at (8,-10.34) {Conceptual API flow. Each input unit retains an output, including when units share a batched agent.\\The notebook checks returned values against source data; timing and cost are measured for the chosen workload.};
-\rolekey{8}{-11.1}
 
 \end{tikzpicture}
 \end{document}

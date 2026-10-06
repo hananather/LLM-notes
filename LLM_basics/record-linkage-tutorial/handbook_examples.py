@@ -10,6 +10,33 @@ import numpy as np
 import pandas as pd
 
 
+def format_percent(value, decimals=1):
+    """Format a fraction for display without rounding away a rare event or error.
+
+    Use at most two decimal places near zero and one. Exact endpoints retain
+    their meaning; smaller positive tails are shown as inequalities. The input
+    and all stored calculations remain unchanged.
+    """
+    if decimals not in (0, 1, 2):
+        raise ValueError("Percentage displays support zero, one or two decimals.")
+    if pd.isna(value):
+        return "—"
+    value = float(value)
+    if not 0 <= value <= 1:
+        raise ValueError("A percentage display requires a fraction from zero to one.")
+    if value in (0, 1):
+        return f"{int(value * 100)}%"
+    percent = 100 * value
+    for places in range(decimals, 3):
+        rounded = round(percent, places)
+        if 0 < rounded < 100:
+            label = f"{percent:.{places}f}"
+            if places:
+                label = label.rstrip("0").rstrip(".")
+            return label + "%"
+    return "<0.01%" if percent < 0.01 else ">99.99%"
+
+
 def diagram(name, width=900):
     """Display a compiled TikZ figure; no TeX installation is needed for replay."""
     path = Path(__file__).parent / "diagrams" / f"{name}.png"
@@ -166,18 +193,23 @@ def show_agentic_demo(agentic_snapshot):
     agentic_offices = agentic_tables["offices"][
         ["office_id", "selected_row", "multiplier", "eligible_count", "completed_count", "rate_percent"]
     ].copy()
-    agentic_offices["rate_percent"] = agentic_offices.rate_percent.astype(float)
+    count_fields = ["multiplier", "eligible_count", "completed_count"]
+    agentic_offices[count_fields] = agentic_offices[count_fields].apply(pd.to_numeric)
+    agentic_offices["rate_percent"] = agentic_offices.rate_percent.astype(float) / 100
     display(agentic_offices.rename(columns={"office_id": "office", "selected_row": "source row",
         "multiplier": "unit multiplier", "eligible_count": "eligible cases",
-        "completed_count": "complete cases", "rate_percent": "completion (%)"})
-        .set_index("office").style.format({"completion (%)": "{:.1f}"}))
+        "completed_count": "complete cases", "rate_percent": "completion rate"})
+        .set_index("office").style.format({"completion rate": format_percent,
+            **{column: "{:,.0f}" for column in
+               ["unit multiplier", "eligible cases", "complete cases"]}}))
 
     agentic_summary = agentic_snapshot["validation"]
     display(Markdown(
         f"**Pooled completion: {agentic_summary['completed_total']:,} / "
-        f"{agentic_summary['eligible_total']:,} = {agentic_summary['pooled_completion_percent']}%.** "
+        f"{agentic_summary['eligible_total']:,} = "
+        f"{format_percent(float(agentic_summary['pooled_completion_percent']) / 100)}.** "
         f"The unweighted mean of the office percentages is "
-        f"{float(agentic_summary['unweighted_mean_office_percent']):.3f}%. "
+        f"{format_percent(float(agentic_summary['unweighted_mean_office_percent']) / 100)}. "
         "Every selected revision, count, conversion and source identifier matches the fixed reference."))
     display(pd.DataFrame([{
         "model": agentic_snapshot["spec"]["model"],
@@ -185,9 +217,12 @@ def show_agentic_demo(agentic_snapshot):
         "tool calls": agentic_summary["tool_calls"],
         "input tokens": agentic_summary["prompt_tokens"],
         "output tokens": agentic_summary["completion_tokens"],
-        "estimated USD": agentic_summary["uncached_price_estimate_usd"],
+        "estimated cost (US cents)": 100 * agentic_summary["uncached_price_estimate_usd"],
         "elapsed seconds": agentic_snapshot["elapsed_seconds"],
-    }]).set_index("model").style.format({"estimated USD": "${:.6f}", "elapsed seconds": "{:.2f}"}))
+    }]).set_index("model").style.format({"estimated cost (US cents)": "{:.2f}",
+        "elapsed seconds": "{:.1f}",
+        **{column: "{:,.0f}" for column in ["model calls (including plan)",
+            "tool calls", "input tokens", "output tokens"]}}))
 
     # Keep the complete inputs, generated plan and observable trajectory available for inspection.
     fixture = load_fixture()

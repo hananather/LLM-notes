@@ -3,7 +3,7 @@
 \begin{document}
 \begin{tikzpicture}
 
-\useasboundingbox (-.2,.3) rectangle (16.1,-7.0);
+\useasboundingbox (-.2,.3) rectangle (16.1,-6.55);
 \node[data,text width=33mm,minimum height=23mm] (a) at (1.9,-2.25) {\textbf{Record $a$}\\[3pt]Ada Khan\\12 King Street\\North Clinic};
 \node[data,text width=33mm,minimum height=19mm] (b) at (7,-.8) {\textbf{Record $b$}\\[3pt]A. Khan\\12 King St.\\North Clinic};
 \node[data,text width=33mm,minimum height=19mm] (c) at (7,-3.7) {\textbf{Record $c$}\\[3pt]Ben Rao\\88 Lake Road\\North Clinic};
@@ -15,7 +15,6 @@
 \draw[flow] (c.east) -- node[label,above] {target: context} (topic.west);
 \node[box,text width=137mm] at (8,-5.35) {A diagnostic group can contain unrelated people whose records share a failure mechanism, such as address truncation.\\Its membership is a reason to inspect a possible repair; it is not an entity label.};
 \node[word] at (8,-6.25) {Illustrative records and identity labels are defined by construction. $Y$: same entity; $H$: shared context.};
-\rolekey{8}{-6.8}
 
 \end{tikzpicture}
 \end{document}

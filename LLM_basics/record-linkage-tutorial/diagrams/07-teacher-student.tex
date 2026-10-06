@@ -3,7 +3,7 @@
 \begin{document}
 \begin{tikzpicture}
 
-\useasboundingbox (-.2,.3) rectangle (16.1,-9.6);
+\useasboundingbox (-.2,.3) rectangle (16.1,-9.22);
 \node[data,text width=25mm,minimum height=14mm] (x) at (1.5,-2.2) {\textbf{Training pairs}\\[3pt]observed records\\or diagnostics $x$};
 \node[llm,text width=27mm,minimum height=14mm] (teacher) at (5.7,-.8) {\textbf{LLM teacher}\\[3pt]fixed prompt and model};
 \node[model,text width=27mm,minimum height=14mm] (student) at (5.7,-3.6) {\textbf{Student model}\\[3pt]learned score $s_\theta(x)$};
@@ -27,6 +27,5 @@
 \draw[flow] (truth.east) -- (14.1,-8.15) -- (evaluate.south);
 \node[word,anchor=south] at (11.65,-8.02) {identity truth};
 \node[word] at (8,-8.95) {Teacher consistency and clustering geometry are training signals; independent identity labels evaluate transfer.};
-\rolekey{8}{-9.45}
 \end{tikzpicture}
 \end{document}

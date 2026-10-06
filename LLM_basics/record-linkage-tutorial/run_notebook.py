@@ -58,7 +58,8 @@ def main():
     if args.html:
         exporter = HTMLExporter(template_name="lab")
         exporter.register_preprocessor(
-            TagRemovePreprocessor(remove_cell_tags={"reader-hide-setup"}), enabled=True)
+            TagRemovePreprocessor(remove_cell_tags={"reader-hide-setup"},
+                                  remove_input_tags={"reader-hide-input"}), enabled=True)
         html, _ = exporter.from_notebook_node(notebook)
         args.html.parent.mkdir(parents=True, exist_ok=True)
         html = rebase_file_links(html, notebook_path.parent, args.html.resolve().parent)

@@ -3,7 +3,7 @@
 \begin{document}
 \begin{tikzpicture}
 
-\useasboundingbox (-.2,.3) rectangle (16.1,-8.3);
+\useasboundingbox (-.2,.3) rectangle (16.1,-7.65);
 \node[data,text width=27mm,minimum height=16mm] (files) at (1.55,-1.0) {\textbf{Two files}\\[3pt]$|A|=n_A,\ |B|=n_B$\\all pairs: $n_A n_B$};
 \node[model,text width=30mm,minimum height=16mm] (retrieval) at (6.15,-1.0) {\textbf{Candidate generation}\\[3pt]lexical and/or vector routes\\with measured pruning};
 \node[data,text width=36mm,minimum height=16mm] (graph) at (13.45,-1.0) {\textbf{Sparse candidate graph}\\[3pt]$C\subseteq A\times B$\\$|C|\leq n_A k$\\overall top-$k$ cap in $A$};
@@ -18,7 +18,6 @@
 \draw[branch] (cheap.south) -- (6.15,-5.7) -- (decision.west);
 \node[truth,text width=49mm,minimum height=18mm] at (2.75,-6.0) {\textbf{Audit missed candidates}\\[3pt]Search beyond $C$ to estimate candidate recall.\\A true pair omitted from $C$ is an end-to-end miss.};
 \node[word,text width=88mm] at (11.05,-7.15) {$\mathrm{Recall}_{\mathrm{end}}=\mathrm{Recall}_{\mathrm{candidate}}\,\mathrm{Recall}_{\mathrm{match}\mid C}$\\[2pt]for final pair decisions restricted to $C$; conditional recall uses retained true pairs};
-\rolekey{8}{-8.1}
 
 \end{tikzpicture}
 \end{document}

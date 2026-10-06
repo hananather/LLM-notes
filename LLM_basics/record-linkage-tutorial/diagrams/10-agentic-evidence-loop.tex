@@ -3,7 +3,7 @@
 \begin{document}
 \begin{tikzpicture}
 
-\useasboundingbox (-.2,.3) rectangle (16.2,-10.5);
+\useasboundingbox (-.2,.3) rectangle (16.2,-9.77);
 \node[box,text width=145mm,minimum height=8mm] at (8,-.38) {\textbf{A recorded tool-use example: Coastal}\\[3pt]Synthetic September 2026 office returns; use the highest approved revision.};
 
 \node[llm,text width=31mm,minimum height=26mm] (read) at (2,-2.5) {\textbf{1. Request the source}\\[6pt]\texttt{read\_return}\\[3pt]\texttt{office\_id = Coastal}};
@@ -29,11 +29,10 @@
 
 \node[truth,text width=145mm,minimum height=16mm] (pooled) at (8,-7.9) {\textbf{Validated pooled result}\\[5pt]
   $\text{completed}=700+320+110=1130,\qquad\text{eligible}=1000+400+200=1600$\\[5pt]
-  $\text{pooled completion}=100\times\dfrac{1130}{1600}=\mathbf{70.625\%}$};
+  $\text{pooled completion}=100\times\dfrac{1130}{1600}\approx\mathbf{70.6\%}$};
 \draw[flow] (check.south) -- (2,-6.83) -- node[label,above] {check all three offices and reducer totals} (8,-6.83) -- (pooled.north);
 
 \node[word,text width=145mm] at (8,-9.34) {Recorded 6 October 2026 with GPT-6 Luna. Calls, observations, and outputs are abbreviated from the saved trace.\\The calculator computes submitted counts; separate checks verify source selection and copied values.};
-\rolekey{8}{-10.25}
 
 \end{tikzpicture}
 \end{document}

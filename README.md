@@ -35,6 +35,23 @@ Curated notes, notebooks, and small demos covering LLM concepts, patterns, and a
 | Record Linkage | Entity resolution and record matching with LLMs | [Link](./LLM_basics/record-linkage.ipynb) |
 | Pydantic | Using Pydantic for data validation with LLMs | [Link](./LLM_basics/pydantic.ipynb) |
 
+### Model Context Protocol
+| Topic | Description | Link |
+|-------|-------------|------|
+| MCP notes | Servers, clients, reference servers, resources, and prompts | [Link](./MCP/README.md) |
+| Direct tool calling | Call arXiv tools in the notebook process | [Link](./MCP/mcp.ipynb) |
+| MCP server | Expose those tools over stdio | [Link](./MCP/mcp-server.ipynb) |
+| MCP client | Connect one chatbot to the research server | [Link](./MCP/mcp-client.ipynb) |
+| Reference servers | Connect one chatbot to several MCP servers | [Link](./MCP/reference-servers.ipynb) |
+| Prompts and resources | Read-only paper data and a search prompt | [Link](./MCP/prompts-and-resources.ipynb) |
+
+### More folders
+| Topic | Description | Link |
+|-------|-------------|------|
+| LangGraph | Small graph and agent experiments | [Link](./LangGraph/README.md) |
+| DSPy | DSPy notes and drafts | [Link](./DSPy/README.md) |
+| Prediction-powered inference | Estimator notebooks | [Link](./PPI/README.md) |
+
 ### Theory
 | Topic | Description | Link |
 |-------|-------------|------|
@@ -57,7 +74,7 @@ Curated notes, notebooks, and small demos covering LLM concepts, patterns, and a
 | Additional Topics | Extensions and case studies | [Link](./RL/5.ipynb) |
 
 ## Contributing & Naming
-- Read the contributor guide: [`AGENTS.md`](./AGENTS.md).
+- Read the contributor guide: [`agents.md`](./agents.md).
 - New docs, notebooks, and images should use kebab-case (e.g., `structured-extraction.ipynb`).
 - Python modules should use snake_case to remain importable (e.g., `research_server.py`).
 

@@ -1,0 +1,1401 @@
+{
+  "evaluated_utc": "2026-10-07T17:35:13Z",
+  "scope": "Free baseline scoring after image-model development pair gate failed; no image-model TEST calls.",
+  "methods": [
+    "ocr_lexical",
+    "ocr_splink",
+    "clip"
+  ],
+  "views": {
+    "closed": {
+      "methods": {
+        "ocr_lexical": {
+          "summary": {
+            "queries": 1000,
+            "correct_complete_decisions": 545,
+            "query_denominator_sha256": "f8d77c09661a7126dd3a518aa028443c017790273b5cae17529394023d590eae",
+            "complete_decision_accuracy": 0.545,
+            "automatic_decisions": 993,
+            "automatic_coverage": 0.993,
+            "wrong_automatic_decisions": 448,
+            "error_among_automatic": 0.4511581067472306,
+            "false_links": 448,
+            "missed_links": 455,
+            "true_links": 545,
+            "queries_with_false_assignment": 448,
+            "true_nil_queries": 0,
+            "false_nil_decisions": 0,
+            "linked_on_nil_queries": 0,
+            "review_queries": 0,
+            "failed_queries": 7,
+            "family_bootstrap": {
+              "source_families": 912,
+              "accuracy_95_percent_interval": [
+                0.5121222523459502,
+                0.5757017658011172
+              ],
+              "bootstrap_replicates": 2000,
+              "seed": 20261007,
+              "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+            }
+          },
+          "input_only_strata": {
+            "cross_split_phash_flagged": {
+              "summary": {
+                "queries": 5,
+                "correct_complete_decisions": 4,
+                "query_denominator_sha256": "d3a114e4997be5480d4f53c456cd4b761ceeee5b4850ca8701256329abe5707d",
+                "complete_decision_accuracy": 0.8,
+                "automatic_decisions": 5,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 1,
+                "error_among_automatic": 0.2,
+                "false_links": 1,
+                "missed_links": 1,
+                "true_links": 4,
+                "queries_with_false_assignment": 1,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 5,
+                "accuracy_95_percent_interval": [
+                  0.4,
+                  1.0
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "cross_split_phash_unflagged": {
+              "summary": {
+                "queries": 995,
+                "correct_complete_decisions": 541,
+                "query_denominator_sha256": "034addebb9f3fc158de54924d57ec895e52c3c5354a9803c5d90521ec38d51a5",
+                "complete_decision_accuracy": 0.5437185929648242,
+                "automatic_decisions": 988,
+                "automatic_coverage": 0.992964824120603,
+                "wrong_automatic_decisions": 447,
+                "error_among_automatic": 0.4524291497975709,
+                "false_links": 447,
+                "missed_links": 454,
+                "true_links": 541,
+                "queries_with_false_assignment": 447,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 7
+              },
+              "family_bootstrap": {
+                "source_families": 908,
+                "accuracy_95_percent_interval": [
+                  0.5133489024382903,
+                  0.5747749198142116
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "any_phash_flagged": {
+              "summary": {
+                "queries": 71,
+                "correct_complete_decisions": 31,
+                "query_denominator_sha256": "38c6852d79cc4a521b3cd724476bce4da47e1cd9786757cccaac83e7bbc59383",
+                "complete_decision_accuracy": 0.43661971830985913,
+                "automatic_decisions": 71,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 40,
+                "error_among_automatic": 0.5633802816901409,
+                "false_links": 40,
+                "missed_links": 40,
+                "true_links": 31,
+                "queries_with_false_assignment": 40,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 58,
+                "accuracy_95_percent_interval": [
+                  0.3291139240506329,
+                  0.5522789896670491
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "any_phash_unflagged": {
+              "summary": {
+                "queries": 929,
+                "correct_complete_decisions": 514,
+                "query_denominator_sha256": "7a87826c5b8486b5922d8084d206c6efa1ee12857347952febdfa58fbb22cb2a",
+                "complete_decision_accuracy": 0.5532831001076426,
+                "automatic_decisions": 922,
+                "automatic_coverage": 0.9924650161463939,
+                "wrong_automatic_decisions": 408,
+                "error_among_automatic": 0.44251626898047725,
+                "false_links": 408,
+                "missed_links": 415,
+                "true_links": 514,
+                "queries_with_false_assignment": 408,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 7
+              },
+              "family_bootstrap": {
+                "source_families": 860,
+                "accuracy_95_percent_interval": [
+                  0.5214569348153039,
+                  0.5841420319164197
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "source_similar_family": {
+              "summary": {
+                "queries": 163,
+                "correct_complete_decisions": 55,
+                "query_denominator_sha256": "6e462687415748e985bbf287bb2509d32cd42044a3ac1019ed3e5d6d95ed8238",
+                "complete_decision_accuracy": 0.3374233128834356,
+                "automatic_decisions": 163,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 108,
+                "error_among_automatic": 0.6625766871165644,
+                "false_links": 108,
+                "missed_links": 108,
+                "true_links": 55,
+                "queries_with_false_assignment": 108,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 75,
+                "accuracy_95_percent_interval": [
+                  0.27325501969754734,
+                  0.4012345679012346
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "source_singleton_family": {
+              "summary": {
+                "queries": 837,
+                "correct_complete_decisions": 490,
+                "query_denominator_sha256": "303bcfdcf1c0f101801394aa2664e793a51f5e79d675ecaf41eebacd1576c7b4",
+                "complete_decision_accuracy": 0.5854241338112306,
+                "automatic_decisions": 830,
+                "automatic_coverage": 0.991636798088411,
+                "wrong_automatic_decisions": 340,
+                "error_among_automatic": 0.40963855421686746,
+                "false_links": 340,
+                "missed_links": 347,
+                "true_links": 490,
+                "queries_with_false_assignment": 340,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 7
+              },
+              "family_bootstrap": {
+                "source_families": 837,
+                "accuracy_95_percent_interval": [
+                  0.5507765830346476,
+                  0.6177120669056151
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            }
+          }
+        },
+        "ocr_splink": {
+          "summary": {
+            "queries": 1000,
+            "correct_complete_decisions": 483,
+            "query_denominator_sha256": "f8d77c09661a7126dd3a518aa028443c017790273b5cae17529394023d590eae",
+            "complete_decision_accuracy": 0.483,
+            "automatic_decisions": 993,
+            "automatic_coverage": 0.993,
+            "wrong_automatic_decisions": 510,
+            "error_among_automatic": 0.513595166163142,
+            "false_links": 510,
+            "missed_links": 517,
+            "true_links": 483,
+            "queries_with_false_assignment": 510,
+            "true_nil_queries": 0,
+            "false_nil_decisions": 0,
+            "linked_on_nil_queries": 0,
+            "review_queries": 0,
+            "failed_queries": 7,
+            "family_bootstrap": {
+              "source_families": 912,
+              "accuracy_95_percent_interval": [
+                0.4510963236731285,
+                0.5144322195668184
+              ],
+              "bootstrap_replicates": 2000,
+              "seed": 20261007,
+              "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+            }
+          },
+          "input_only_strata": {
+            "cross_split_phash_flagged": {
+              "summary": {
+                "queries": 5,
+                "correct_complete_decisions": 4,
+                "query_denominator_sha256": "d3a114e4997be5480d4f53c456cd4b761ceeee5b4850ca8701256329abe5707d",
+                "complete_decision_accuracy": 0.8,
+                "automatic_decisions": 5,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 1,
+                "error_among_automatic": 0.2,
+                "false_links": 1,
+                "missed_links": 1,
+                "true_links": 4,
+                "queries_with_false_assignment": 1,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 5,
+                "accuracy_95_percent_interval": [
+                  0.4,
+                  1.0
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "cross_split_phash_unflagged": {
+              "summary": {
+                "queries": 995,
+                "correct_complete_decisions": 479,
+                "query_denominator_sha256": "034addebb9f3fc158de54924d57ec895e52c3c5354a9803c5d90521ec38d51a5",
+                "complete_decision_accuracy": 0.4814070351758794,
+                "automatic_decisions": 988,
+                "automatic_coverage": 0.992964824120603,
+                "wrong_automatic_decisions": 509,
+                "error_among_automatic": 0.5151821862348178,
+                "false_links": 509,
+                "missed_links": 516,
+                "true_links": 479,
+                "queries_with_false_assignment": 509,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 7
+              },
+              "family_bootstrap": {
+                "source_families": 908,
+                "accuracy_95_percent_interval": [
+                  0.45,
+                  0.5139460848196001
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "any_phash_flagged": {
+              "summary": {
+                "queries": 71,
+                "correct_complete_decisions": 29,
+                "query_denominator_sha256": "38c6852d79cc4a521b3cd724476bce4da47e1cd9786757cccaac83e7bbc59383",
+                "complete_decision_accuracy": 0.4084507042253521,
+                "automatic_decisions": 71,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 42,
+                "error_among_automatic": 0.5915492957746479,
+                "false_links": 42,
+                "missed_links": 42,
+                "true_links": 29,
+                "queries_with_false_assignment": 42,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 58,
+                "accuracy_95_percent_interval": [
+                  0.29577464788732394,
+                  0.5285714285714286
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "any_phash_unflagged": {
+              "summary": {
+                "queries": 929,
+                "correct_complete_decisions": 454,
+                "query_denominator_sha256": "7a87826c5b8486b5922d8084d206c6efa1ee12857347952febdfa58fbb22cb2a",
+                "complete_decision_accuracy": 0.48869752421959095,
+                "automatic_decisions": 922,
+                "automatic_coverage": 0.9924650161463939,
+                "wrong_automatic_decisions": 468,
+                "error_among_automatic": 0.5075921908893709,
+                "false_links": 468,
+                "missed_links": 475,
+                "true_links": 454,
+                "queries_with_false_assignment": 468,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 7
+              },
+              "family_bootstrap": {
+                "source_families": 860,
+                "accuracy_95_percent_interval": [
+                  0.4577130969223118,
+                  0.5216497476322804
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "source_similar_family": {
+              "summary": {
+                "queries": 163,
+                "correct_complete_decisions": 48,
+                "query_denominator_sha256": "6e462687415748e985bbf287bb2509d32cd42044a3ac1019ed3e5d6d95ed8238",
+                "complete_decision_accuracy": 0.294478527607362,
+                "automatic_decisions": 163,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 115,
+                "error_among_automatic": 0.7055214723926381,
+                "false_links": 115,
+                "missed_links": 115,
+                "true_links": 48,
+                "queries_with_false_assignment": 115,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 75,
+                "accuracy_95_percent_interval": [
+                  0.2356678746613954,
+                  0.3595091834202033
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "source_singleton_family": {
+              "summary": {
+                "queries": 837,
+                "correct_complete_decisions": 435,
+                "query_denominator_sha256": "303bcfdcf1c0f101801394aa2664e793a51f5e79d675ecaf41eebacd1576c7b4",
+                "complete_decision_accuracy": 0.5197132616487455,
+                "automatic_decisions": 830,
+                "automatic_coverage": 0.991636798088411,
+                "wrong_automatic_decisions": 395,
+                "error_among_automatic": 0.4759036144578313,
+                "false_links": 395,
+                "missed_links": 402,
+                "true_links": 435,
+                "queries_with_false_assignment": 395,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 7
+              },
+              "family_bootstrap": {
+                "source_families": 837,
+                "accuracy_95_percent_interval": [
+                  0.4862604540023895,
+                  0.5531660692951016
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            }
+          }
+        },
+        "clip": {
+          "summary": {
+            "queries": 1000,
+            "correct_complete_decisions": 603,
+            "query_denominator_sha256": "f8d77c09661a7126dd3a518aa028443c017790273b5cae17529394023d590eae",
+            "complete_decision_accuracy": 0.603,
+            "automatic_decisions": 1000,
+            "automatic_coverage": 1.0,
+            "wrong_automatic_decisions": 397,
+            "error_among_automatic": 0.397,
+            "false_links": 397,
+            "missed_links": 397,
+            "true_links": 603,
+            "queries_with_false_assignment": 397,
+            "true_nil_queries": 0,
+            "false_nil_decisions": 0,
+            "linked_on_nil_queries": 0,
+            "review_queries": 0,
+            "failed_queries": 0,
+            "family_bootstrap": {
+              "source_families": 912,
+              "accuracy_95_percent_interval": [
+                0.5710058437094188,
+                0.6359078475505883
+              ],
+              "bootstrap_replicates": 2000,
+              "seed": 20261007,
+              "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+            }
+          },
+          "input_only_strata": {
+            "cross_split_phash_flagged": {
+              "summary": {
+                "queries": 5,
+                "correct_complete_decisions": 3,
+                "query_denominator_sha256": "d3a114e4997be5480d4f53c456cd4b761ceeee5b4850ca8701256329abe5707d",
+                "complete_decision_accuracy": 0.6,
+                "automatic_decisions": 5,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 2,
+                "error_among_automatic": 0.4,
+                "false_links": 2,
+                "missed_links": 2,
+                "true_links": 3,
+                "queries_with_false_assignment": 2,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 5,
+                "accuracy_95_percent_interval": [
+                  0.2,
+                  1.0
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "cross_split_phash_unflagged": {
+              "summary": {
+                "queries": 995,
+                "correct_complete_decisions": 600,
+                "query_denominator_sha256": "034addebb9f3fc158de54924d57ec895e52c3c5354a9803c5d90521ec38d51a5",
+                "complete_decision_accuracy": 0.6030150753768844,
+                "automatic_decisions": 995,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 395,
+                "error_among_automatic": 0.3969849246231156,
+                "false_links": 395,
+                "missed_links": 395,
+                "true_links": 600,
+                "queries_with_false_assignment": 395,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 908,
+                "accuracy_95_percent_interval": [
+                  0.5707371304893935,
+                  0.63360574114398
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "any_phash_flagged": {
+              "summary": {
+                "queries": 71,
+                "correct_complete_decisions": 33,
+                "query_denominator_sha256": "38c6852d79cc4a521b3cd724476bce4da47e1cd9786757cccaac83e7bbc59383",
+                "complete_decision_accuracy": 0.4647887323943662,
+                "automatic_decisions": 71,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 38,
+                "error_among_automatic": 0.5352112676056338,
+                "false_links": 38,
+                "missed_links": 38,
+                "true_links": 33,
+                "queries_with_false_assignment": 38,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 58,
+                "accuracy_95_percent_interval": [
+                  0.36619718309859156,
+                  0.5676091476091474
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "any_phash_unflagged": {
+              "summary": {
+                "queries": 929,
+                "correct_complete_decisions": 570,
+                "query_denominator_sha256": "7a87826c5b8486b5922d8084d206c6efa1ee12857347952febdfa58fbb22cb2a",
+                "complete_decision_accuracy": 0.6135629709364908,
+                "automatic_decisions": 929,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 359,
+                "error_among_automatic": 0.38643702906350913,
+                "false_links": 359,
+                "missed_links": 359,
+                "true_links": 570,
+                "queries_with_false_assignment": 359,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 860,
+                "accuracy_95_percent_interval": [
+                  0.5805058798577644,
+                  0.6459724113827816
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "source_similar_family": {
+              "summary": {
+                "queries": 163,
+                "correct_complete_decisions": 51,
+                "query_denominator_sha256": "6e462687415748e985bbf287bb2509d32cd42044a3ac1019ed3e5d6d95ed8238",
+                "complete_decision_accuracy": 0.3128834355828221,
+                "automatic_decisions": 163,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 112,
+                "error_among_automatic": 0.6871165644171779,
+                "false_links": 112,
+                "missed_links": 112,
+                "true_links": 51,
+                "queries_with_false_assignment": 112,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 75,
+                "accuracy_95_percent_interval": [
+                  0.24858675418830214,
+                  0.3782051282051282
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "source_singleton_family": {
+              "summary": {
+                "queries": 837,
+                "correct_complete_decisions": 552,
+                "query_denominator_sha256": "303bcfdcf1c0f101801394aa2664e793a51f5e79d675ecaf41eebacd1576c7b4",
+                "complete_decision_accuracy": 0.6594982078853047,
+                "automatic_decisions": 837,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 285,
+                "error_among_automatic": 0.34050179211469533,
+                "false_links": 285,
+                "missed_links": 285,
+                "true_links": 552,
+                "queries_with_false_assignment": 285,
+                "true_nil_queries": 0,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 837,
+                "accuracy_95_percent_interval": [
+                  0.6284050179211469,
+                  0.6917562724014337
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            }
+          }
+        }
+      },
+      "paired_vs_clip": {
+        "ocr_lexical": {
+          "queries": 1000,
+          "source_groups": 912,
+          "corrections": 147,
+          "regressions": 205,
+          "accuracy_difference": -0.058,
+          "cluster_bootstrap_95_percent_interval": [
+            -0.09432191239603445,
+            -0.02097641424182181
+          ],
+          "bootstrap_replicates": 2000,
+          "bootstrap_seed": 20261007,
+          "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+        },
+        "ocr_splink": {
+          "queries": 1000,
+          "source_groups": 912,
+          "corrections": 129,
+          "regressions": 249,
+          "accuracy_difference": -0.12,
+          "cluster_bootstrap_95_percent_interval": [
+            -0.1602020458828104,
+            -0.08154645311565223
+          ],
+          "bootstrap_replicates": 2000,
+          "bootstrap_seed": 20261007,
+          "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+        }
+      }
+    },
+    "nil": {
+      "methods": {
+        "ocr_lexical": {
+          "summary": {
+            "queries": 1000,
+            "correct_complete_decisions": 420,
+            "query_denominator_sha256": "f8d77c09661a7126dd3a518aa028443c017790273b5cae17529394023d590eae",
+            "complete_decision_accuracy": 0.42,
+            "automatic_decisions": 772,
+            "automatic_coverage": 0.772,
+            "wrong_automatic_decisions": 352,
+            "error_among_automatic": 0.45595854922279794,
+            "false_links": 121,
+            "missed_links": 471,
+            "true_links": 329,
+            "queries_with_false_assignment": 121,
+            "true_nil_queries": 200,
+            "false_nil_decisions": 231,
+            "linked_on_nil_queries": 73,
+            "review_queries": 221,
+            "failed_queries": 7,
+            "family_bootstrap": {
+              "source_families": 912,
+              "accuracy_95_percent_interval": [
+                0.3887782819679775,
+                0.45296610429447853
+              ],
+              "bootstrap_replicates": 2000,
+              "seed": 20261007,
+              "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+            }
+          },
+          "input_only_strata": {
+            "cross_split_phash_flagged": {
+              "summary": {
+                "queries": 5,
+                "correct_complete_decisions": 4,
+                "query_denominator_sha256": "d3a114e4997be5480d4f53c456cd4b761ceeee5b4850ca8701256329abe5707d",
+                "complete_decision_accuracy": 0.8,
+                "automatic_decisions": 5,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 1,
+                "error_among_automatic": 0.2,
+                "false_links": 1,
+                "missed_links": 0,
+                "true_links": 2,
+                "queries_with_false_assignment": 1,
+                "true_nil_queries": 3,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 1,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 5,
+                "accuracy_95_percent_interval": [
+                  0.4,
+                  1.0
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "cross_split_phash_unflagged": {
+              "summary": {
+                "queries": 995,
+                "correct_complete_decisions": 416,
+                "query_denominator_sha256": "034addebb9f3fc158de54924d57ec895e52c3c5354a9803c5d90521ec38d51a5",
+                "complete_decision_accuracy": 0.41809045226130653,
+                "automatic_decisions": 767,
+                "automatic_coverage": 0.770854271356784,
+                "wrong_automatic_decisions": 351,
+                "error_among_automatic": 0.4576271186440678,
+                "false_links": 120,
+                "missed_links": 471,
+                "true_links": 327,
+                "queries_with_false_assignment": 120,
+                "true_nil_queries": 197,
+                "false_nil_decisions": 231,
+                "linked_on_nil_queries": 72,
+                "review_queries": 221,
+                "failed_queries": 7
+              },
+              "family_bootstrap": {
+                "source_families": 908,
+                "accuracy_95_percent_interval": [
+                  0.38560009267840595,
+                  0.4497989149283527
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "any_phash_flagged": {
+              "summary": {
+                "queries": 71,
+                "correct_complete_decisions": 22,
+                "query_denominator_sha256": "38c6852d79cc4a521b3cd724476bce4da47e1cd9786757cccaac83e7bbc59383",
+                "complete_decision_accuracy": 0.30985915492957744,
+                "automatic_decisions": 53,
+                "automatic_coverage": 0.7464788732394366,
+                "wrong_automatic_decisions": 31,
+                "error_among_automatic": 0.5849056603773585,
+                "false_links": 10,
+                "missed_links": 40,
+                "true_links": 15,
+                "queries_with_false_assignment": 10,
+                "true_nil_queries": 16,
+                "false_nil_decisions": 21,
+                "linked_on_nil_queries": 7,
+                "review_queries": 18,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 58,
+                "accuracy_95_percent_interval": [
+                  0.2,
+                  0.44285714285714284
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "any_phash_unflagged": {
+              "summary": {
+                "queries": 929,
+                "correct_complete_decisions": 398,
+                "query_denominator_sha256": "7a87826c5b8486b5922d8084d206c6efa1ee12857347952febdfa58fbb22cb2a",
+                "complete_decision_accuracy": 0.4284176533907427,
+                "automatic_decisions": 719,
+                "automatic_coverage": 0.7739504843918191,
+                "wrong_automatic_decisions": 321,
+                "error_among_automatic": 0.44645340751043117,
+                "false_links": 111,
+                "missed_links": 431,
+                "true_links": 314,
+                "queries_with_false_assignment": 111,
+                "true_nil_queries": 184,
+                "false_nil_decisions": 210,
+                "linked_on_nil_queries": 66,
+                "review_queries": 203,
+                "failed_queries": 7
+              },
+              "family_bootstrap": {
+                "source_families": 860,
+                "accuracy_95_percent_interval": [
+                  0.3963833042079123,
+                  0.4643346014628779
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "source_similar_family": {
+              "summary": {
+                "queries": 163,
+                "correct_complete_decisions": 14,
+                "query_denominator_sha256": "6e462687415748e985bbf287bb2509d32cd42044a3ac1019ed3e5d6d95ed8238",
+                "complete_decision_accuracy": 0.08588957055214724,
+                "automatic_decisions": 59,
+                "automatic_coverage": 0.3619631901840491,
+                "wrong_automatic_decisions": 45,
+                "error_among_automatic": 0.7627118644067796,
+                "false_links": 16,
+                "missed_links": 135,
+                "true_links": 1,
+                "queries_with_false_assignment": 16,
+                "true_nil_queries": 27,
+                "false_nil_decisions": 29,
+                "linked_on_nil_queries": 6,
+                "review_queries": 104,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 75,
+                "accuracy_95_percent_interval": [
+                  0.03067484662576687,
+                  0.15095270605759675
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "source_singleton_family": {
+              "summary": {
+                "queries": 837,
+                "correct_complete_decisions": 406,
+                "query_denominator_sha256": "303bcfdcf1c0f101801394aa2664e793a51f5e79d675ecaf41eebacd1576c7b4",
+                "complete_decision_accuracy": 0.4850657108721625,
+                "automatic_decisions": 713,
+                "automatic_coverage": 0.8518518518518519,
+                "wrong_automatic_decisions": 307,
+                "error_among_automatic": 0.4305750350631136,
+                "false_links": 105,
+                "missed_links": 336,
+                "true_links": 328,
+                "queries_with_false_assignment": 105,
+                "true_nil_queries": 173,
+                "false_nil_decisions": 202,
+                "linked_on_nil_queries": 67,
+                "review_queries": 117,
+                "failed_queries": 7
+              },
+              "family_bootstrap": {
+                "source_families": 837,
+                "accuracy_95_percent_interval": [
+                  0.4527777777777778,
+                  0.5197132616487455
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            }
+          }
+        },
+        "ocr_splink": {
+          "summary": {
+            "queries": 1000,
+            "correct_complete_decisions": 276,
+            "query_denominator_sha256": "f8d77c09661a7126dd3a518aa028443c017790273b5cae17529394023d590eae",
+            "complete_decision_accuracy": 0.276,
+            "automatic_decisions": 993,
+            "automatic_coverage": 0.993,
+            "wrong_automatic_decisions": 717,
+            "error_among_automatic": 0.7220543806646526,
+            "false_links": 27,
+            "missed_links": 721,
+            "true_links": 79,
+            "queries_with_false_assignment": 27,
+            "true_nil_queries": 200,
+            "false_nil_decisions": 690,
+            "linked_on_nil_queries": 3,
+            "review_queries": 0,
+            "failed_queries": 7,
+            "family_bootstrap": {
+              "source_families": 912,
+              "accuracy_95_percent_interval": [
+                0.24682801131281878,
+                0.3066135733385663
+              ],
+              "bootstrap_replicates": 2000,
+              "seed": 20261007,
+              "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+            }
+          },
+          "input_only_strata": {
+            "cross_split_phash_flagged": {
+              "summary": {
+                "queries": 5,
+                "correct_complete_decisions": 4,
+                "query_denominator_sha256": "d3a114e4997be5480d4f53c456cd4b761ceeee5b4850ca8701256329abe5707d",
+                "complete_decision_accuracy": 0.8,
+                "automatic_decisions": 5,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 1,
+                "error_among_automatic": 0.2,
+                "false_links": 0,
+                "missed_links": 1,
+                "true_links": 1,
+                "queries_with_false_assignment": 0,
+                "true_nil_queries": 3,
+                "false_nil_decisions": 1,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 5,
+                "accuracy_95_percent_interval": [
+                  0.4,
+                  1.0
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "cross_split_phash_unflagged": {
+              "summary": {
+                "queries": 995,
+                "correct_complete_decisions": 272,
+                "query_denominator_sha256": "034addebb9f3fc158de54924d57ec895e52c3c5354a9803c5d90521ec38d51a5",
+                "complete_decision_accuracy": 0.2733668341708543,
+                "automatic_decisions": 988,
+                "automatic_coverage": 0.992964824120603,
+                "wrong_automatic_decisions": 716,
+                "error_among_automatic": 0.7246963562753036,
+                "false_links": 27,
+                "missed_links": 720,
+                "true_links": 78,
+                "queries_with_false_assignment": 27,
+                "true_nil_queries": 197,
+                "false_nil_decisions": 689,
+                "linked_on_nil_queries": 3,
+                "review_queries": 0,
+                "failed_queries": 7
+              },
+              "family_bootstrap": {
+                "source_families": 908,
+                "accuracy_95_percent_interval": [
+                  0.2449732464601609,
+                  0.30228063705718305
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "any_phash_flagged": {
+              "summary": {
+                "queries": 71,
+                "correct_complete_decisions": 25,
+                "query_denominator_sha256": "38c6852d79cc4a521b3cd724476bce4da47e1cd9786757cccaac83e7bbc59383",
+                "complete_decision_accuracy": 0.352112676056338,
+                "automatic_decisions": 71,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 46,
+                "error_among_automatic": 0.647887323943662,
+                "false_links": 5,
+                "missed_links": 46,
+                "true_links": 9,
+                "queries_with_false_assignment": 5,
+                "true_nil_queries": 16,
+                "false_nil_decisions": 41,
+                "linked_on_nil_queries": 0,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 58,
+                "accuracy_95_percent_interval": [
+                  0.24323359073359074,
+                  0.4722222222222222
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "any_phash_unflagged": {
+              "summary": {
+                "queries": 929,
+                "correct_complete_decisions": 251,
+                "query_denominator_sha256": "7a87826c5b8486b5922d8084d206c6efa1ee12857347952febdfa58fbb22cb2a",
+                "complete_decision_accuracy": 0.27018299246501615,
+                "automatic_decisions": 922,
+                "automatic_coverage": 0.9924650161463939,
+                "wrong_automatic_decisions": 671,
+                "error_among_automatic": 0.7277657266811279,
+                "false_links": 22,
+                "missed_links": 675,
+                "true_links": 70,
+                "queries_with_false_assignment": 22,
+                "true_nil_queries": 184,
+                "false_nil_decisions": 649,
+                "linked_on_nil_queries": 3,
+                "review_queries": 0,
+                "failed_queries": 7
+              },
+              "family_bootstrap": {
+                "source_families": 860,
+                "accuracy_95_percent_interval": [
+                  0.2405609492988134,
+                  0.30001084598698474
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "source_similar_family": {
+              "summary": {
+                "queries": 163,
+                "correct_complete_decisions": 33,
+                "query_denominator_sha256": "6e462687415748e985bbf287bb2509d32cd42044a3ac1019ed3e5d6d95ed8238",
+                "complete_decision_accuracy": 0.20245398773006135,
+                "automatic_decisions": 163,
+                "automatic_coverage": 1.0,
+                "wrong_automatic_decisions": 130,
+                "error_among_automatic": 0.7975460122699386,
+                "false_links": 11,
+                "missed_links": 129,
+                "true_links": 7,
+                "queries_with_false_assignment": 11,
+                "true_nil_queries": 27,
+                "false_nil_decisions": 119,
+                "linked_on_nil_queries": 1,
+                "review_queries": 0,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 75,
+                "accuracy_95_percent_interval": [
+                  0.1277680467091295,
+                  0.2893081761006289
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "source_singleton_family": {
+              "summary": {
+                "queries": 837,
+                "correct_complete_decisions": 243,
+                "query_denominator_sha256": "303bcfdcf1c0f101801394aa2664e793a51f5e79d675ecaf41eebacd1576c7b4",
+                "complete_decision_accuracy": 0.2903225806451613,
+                "automatic_decisions": 830,
+                "automatic_coverage": 0.991636798088411,
+                "wrong_automatic_decisions": 587,
+                "error_among_automatic": 0.7072289156626506,
+                "false_links": 16,
+                "missed_links": 592,
+                "true_links": 72,
+                "queries_with_false_assignment": 16,
+                "true_nil_queries": 173,
+                "false_nil_decisions": 571,
+                "linked_on_nil_queries": 2,
+                "review_queries": 0,
+                "failed_queries": 7
+              },
+              "family_bootstrap": {
+                "source_families": 837,
+                "accuracy_95_percent_interval": [
+                  0.25925925925925924,
+                  0.3201911589008363
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            }
+          }
+        },
+        "clip": {
+          "summary": {
+            "queries": 1000,
+            "correct_complete_decisions": 260,
+            "query_denominator_sha256": "f8d77c09661a7126dd3a518aa028443c017790273b5cae17529394023d590eae",
+            "complete_decision_accuracy": 0.26,
+            "automatic_decisions": 312,
+            "automatic_coverage": 0.312,
+            "wrong_automatic_decisions": 52,
+            "error_among_automatic": 0.16666666666666666,
+            "false_links": 51,
+            "missed_links": 541,
+            "true_links": 259,
+            "queries_with_false_assignment": 51,
+            "true_nil_queries": 200,
+            "false_nil_decisions": 1,
+            "linked_on_nil_queries": 32,
+            "review_queries": 688,
+            "failed_queries": 0,
+            "family_bootstrap": {
+              "source_families": 912,
+              "accuracy_95_percent_interval": [
+                0.2324206627823982,
+                0.287425450606325
+              ],
+              "bootstrap_replicates": 2000,
+              "seed": 20261007,
+              "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+            }
+          },
+          "input_only_strata": {
+            "cross_split_phash_flagged": {
+              "summary": {
+                "queries": 5,
+                "correct_complete_decisions": 1,
+                "query_denominator_sha256": "d3a114e4997be5480d4f53c456cd4b761ceeee5b4850ca8701256329abe5707d",
+                "complete_decision_accuracy": 0.2,
+                "automatic_decisions": 1,
+                "automatic_coverage": 0.2,
+                "wrong_automatic_decisions": 0,
+                "error_among_automatic": 0.0,
+                "false_links": 0,
+                "missed_links": 1,
+                "true_links": 1,
+                "queries_with_false_assignment": 0,
+                "true_nil_queries": 3,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 4,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 5,
+                "accuracy_95_percent_interval": [
+                  0.0,
+                  0.6
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "cross_split_phash_unflagged": {
+              "summary": {
+                "queries": 995,
+                "correct_complete_decisions": 259,
+                "query_denominator_sha256": "034addebb9f3fc158de54924d57ec895e52c3c5354a9803c5d90521ec38d51a5",
+                "complete_decision_accuracy": 0.26030150753768844,
+                "automatic_decisions": 311,
+                "automatic_coverage": 0.31256281407035175,
+                "wrong_automatic_decisions": 52,
+                "error_among_automatic": 0.16720257234726688,
+                "false_links": 51,
+                "missed_links": 540,
+                "true_links": 258,
+                "queries_with_false_assignment": 51,
+                "true_nil_queries": 197,
+                "false_nil_decisions": 1,
+                "linked_on_nil_queries": 32,
+                "review_queries": 684,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 908,
+                "accuracy_95_percent_interval": [
+                  0.23299829317269077,
+                  0.29035532994923857
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "any_phash_flagged": {
+              "summary": {
+                "queries": 71,
+                "correct_complete_decisions": 11,
+                "query_denominator_sha256": "38c6852d79cc4a521b3cd724476bce4da47e1cd9786757cccaac83e7bbc59383",
+                "complete_decision_accuracy": 0.15492957746478872,
+                "automatic_decisions": 17,
+                "automatic_coverage": 0.23943661971830985,
+                "wrong_automatic_decisions": 6,
+                "error_among_automatic": 0.35294117647058826,
+                "false_links": 6,
+                "missed_links": 44,
+                "true_links": 11,
+                "queries_with_false_assignment": 6,
+                "true_nil_queries": 16,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 4,
+                "review_queries": 54,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 58,
+                "accuracy_95_percent_interval": [
+                  0.08,
+                  0.2463768115942029
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "any_phash_unflagged": {
+              "summary": {
+                "queries": 929,
+                "correct_complete_decisions": 249,
+                "query_denominator_sha256": "7a87826c5b8486b5922d8084d206c6efa1ee12857347952febdfa58fbb22cb2a",
+                "complete_decision_accuracy": 0.2680301399354144,
+                "automatic_decisions": 295,
+                "automatic_coverage": 0.317545748116254,
+                "wrong_automatic_decisions": 46,
+                "error_among_automatic": 0.15593220338983052,
+                "false_links": 45,
+                "missed_links": 497,
+                "true_links": 248,
+                "queries_with_false_assignment": 45,
+                "true_nil_queries": 184,
+                "false_nil_decisions": 1,
+                "linked_on_nil_queries": 28,
+                "review_queries": 634,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 860,
+                "accuracy_95_percent_interval": [
+                  0.23763071558624482,
+                  0.29957240705911176
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "source_similar_family": {
+              "summary": {
+                "queries": 163,
+                "correct_complete_decisions": 3,
+                "query_denominator_sha256": "6e462687415748e985bbf287bb2509d32cd42044a3ac1019ed3e5d6d95ed8238",
+                "complete_decision_accuracy": 0.018404907975460124,
+                "automatic_decisions": 6,
+                "automatic_coverage": 0.03680981595092025,
+                "wrong_automatic_decisions": 3,
+                "error_among_automatic": 0.5,
+                "false_links": 3,
+                "missed_links": 133,
+                "true_links": 3,
+                "queries_with_false_assignment": 3,
+                "true_nil_queries": 27,
+                "false_nil_decisions": 0,
+                "linked_on_nil_queries": 0,
+                "review_queries": 157,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 75,
+                "accuracy_95_percent_interval": [
+                  0.0,
+                  0.04294478527607362
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            },
+            "source_singleton_family": {
+              "summary": {
+                "queries": 837,
+                "correct_complete_decisions": 257,
+                "query_denominator_sha256": "303bcfdcf1c0f101801394aa2664e793a51f5e79d675ecaf41eebacd1576c7b4",
+                "complete_decision_accuracy": 0.3070489844683393,
+                "automatic_decisions": 306,
+                "automatic_coverage": 0.3655913978494624,
+                "wrong_automatic_decisions": 49,
+                "error_among_automatic": 0.16013071895424835,
+                "false_links": 48,
+                "missed_links": 408,
+                "true_links": 256,
+                "queries_with_false_assignment": 48,
+                "true_nil_queries": 173,
+                "false_nil_decisions": 1,
+                "linked_on_nil_queries": 32,
+                "review_queries": 531,
+                "failed_queries": 0
+              },
+              "family_bootstrap": {
+                "source_families": 837,
+                "accuracy_95_percent_interval": [
+                  0.27598566308243727,
+                  0.33811230585424135
+                ],
+                "bootstrap_replicates": 2000,
+                "seed": 20261007,
+                "scope": "This source sample and frozen input-similarity family definition, not NSO population uncertainty."
+              }
+            }
+          }
+        }
+      },
+      "paired_vs_clip": {
+        "ocr_lexical": {
+          "queries": 1000,
+          "source_groups": 912,
+          "corrections": 266,
+          "regressions": 106,
+          "accuracy_difference": 0.16,
+          "cluster_bootstrap_95_percent_interval": [
+            0.12425155960787003,
+            0.19776772395017522
+          ],
+          "bootstrap_replicates": 2000,
+          "bootstrap_seed": 20261007,
+          "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+        },
+        "ocr_splink": {
+          "queries": 1000,
+          "source_groups": 912,
+          "corrections": 239,
+          "regressions": 223,
+          "accuracy_difference": 0.016,
+          "cluster_bootstrap_95_percent_interval": [
+            -0.028287863374333366,
+            0.05841713909294155
+          ],
+          "bootstrap_replicates": 2000,
+          "bootstrap_seed": 20261007,
+          "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+        }
+      }
+    }
+  },
+  "input_duplicate_audit": {
+    "flag_pairs": 50,
+    "cross_split_flag_pairs": 5,
+    "exact_duplicate_pairs": 0,
+    "test_queries_in_any_flag": 71,
+    "test_queries_in_cross_split_flag": 5,
+    "status": "Unadjudicated pHash<=4 screen. False positives/negatives possible. No primary records dropped."
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "additional_columns_to_retain": [],
+  "blocking_rules_to_generate_predictions": [
+    {
+      "blocking_rule": "1=1",
+      "sql_dialect": "duckdb"
+    }
+  ],
+  "comparison_vector_value_column_prefix": "gamma_",
+  "comparisons": [
+    {
+      "comparison_description": "CustomComparison",
+      "comparison_levels": [
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "is_null_level": true,
+          "label_for_charts": "missing",
+          "sql_condition": "array_length(model_tokens_l)=0 OR array_length(model_tokens_r)=0"
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "shared explicit model identifier",
+          "m_probability": 0.21385491934237935,
+          "sql_condition": "array_length(list_intersect(model_tokens_l,model_tokens_r))>=1",
+          "u_probability": 0.0012315923999215174
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "primary model edit distance one",
+          "m_probability": 0.10491514467590438,
+          "sql_condition": "length(primary_model_l)>=5 AND length(primary_model_r)>=5 AND damerau_levenshtein(primary_model_l,primary_model_r)=1",
+          "u_probability": 0.0005316130811286636
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "no shared model identifier",
+          "m_probability": 0.6812299359817162,
+          "sql_condition": "ELSE",
+          "u_probability": 0.9982367945189499
+        }
+      ],
+      "output_column_name": "model"
+    },
+    {
+      "comparison_description": "ExactMatch",
+      "comparison_levels": [
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "is_null_level": true,
+          "label_for_charts": "brand is NULL",
+          "sql_condition": "\"brand_l\" IS NULL OR \"brand_r\" IS NULL"
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "Exact match on brand",
+          "m_probability": 0.9597317237559263,
+          "sql_condition": "\"brand_l\" = \"brand_r\"",
+          "tf_adjustment_column": "brand",
+          "tf_adjustment_weight": 1.0,
+          "u_probability": 0.06183495549158152
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "All other comparisons",
+          "m_probability": 0.040268276244073704,
+          "sql_condition": "ELSE",
+          "u_probability": 0.9381650445084185
+        }
+      ],
+      "output_column_name": "brand"
+    },
+    {
+      "comparison_description": "CustomComparison",
+      "comparison_levels": [
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "is_null_level": true,
+          "label_for_charts": "missing",
+          "sql_condition": "array_length(title_words_l)=0 OR array_length(title_words_r)=0"
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "Jaccard >= 0.9",
+          "m_probability": 0.05710508927020021,
+          "sql_condition": "array_length(list_intersect(title_words_l,title_words_r))::DOUBLE/nullif(array_length(list_distinct(list_concat(title_words_l,title_words_r))),0)>=0.9",
+          "u_probability": 0.00016533115831009513
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "Jaccard >= 0.7",
+          "m_probability": 0.08711265312437197,
+          "sql_condition": "array_length(list_intersect(title_words_l,title_words_r))::DOUBLE/nullif(array_length(list_distinct(list_concat(title_words_l,title_words_r))),0)>=0.7",
+          "u_probability": 0.00037675463954300463
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "Jaccard >= 0.4",
+          "m_probability": 0.3611298093561946,
+          "sql_condition": "array_length(list_intersect(title_words_l,title_words_r))::DOUBLE/nullif(array_length(list_distinct(list_concat(title_words_l,title_words_r))),0)>=0.4",
+          "u_probability": 0.0027745574385494146
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "lower similarity",
+          "m_probability": 0.49465244824923327,
+          "sql_condition": "ELSE",
+          "u_probability": 0.9966833567635975
+        }
+      ],
+      "output_column_name": "title_words"
+    },
+    {
+      "comparison_description": "CustomComparison",
+      "comparison_levels": [
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "is_null_level": true,
+          "label_for_charts": "missing",
+          "sql_condition": "array_length(description_words_l)=0 OR array_length(description_words_r)=0"
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "Jaccard >= 0.8",
+          "sql_condition": "array_length(list_intersect(description_words_l,description_words_r))::DOUBLE/nullif(array_length(list_distinct(list_concat(description_words_l,description_words_r))),0)>=0.8"
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "Jaccard >= 0.5",
+          "m_probability": 0.0023448531619667903,
+          "sql_condition": "array_length(list_intersect(description_words_l,description_words_r))::DOUBLE/nullif(array_length(list_distinct(list_concat(description_words_l,description_words_r))),0)>=0.5",
+          "u_probability": 1.56177876189121e-05
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "Jaccard >= 0.2",
+          "m_probability": 0.22023645924379898,
+          "sql_condition": "array_length(list_intersect(description_words_l,description_words_r))::DOUBLE/nullif(array_length(list_distinct(list_concat(description_words_l,description_words_r))),0)>=0.2",
+          "u_probability": 0.002488434160613328
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "lower similarity",
+          "m_probability": 0.7774186875942343,
+          "sql_condition": "ELSE",
+          "u_probability": 0.9974959480517678
+        }
+      ],
+      "output_column_name": "description_words"
+    },
+    {
+      "comparison_description": "CustomComparison",
+      "comparison_levels": [
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "is_null_level": true,
+          "label_for_charts": "no comparable title quantity",
+          "sql_condition": "array_length(list_intersect(quantity_dimensions_l,quantity_dimensions_r))=0"
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "a stated quantity agrees",
+          "m_probability": 0.7640206052360496,
+          "sql_condition": "array_length(list_intersect(quantity_tokens_l,quantity_tokens_r))>=1",
+          "u_probability": 0.11064516129032258
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "stated comparable quantities differ",
+          "m_probability": 0.27011719585334154,
+          "sql_condition": "ELSE",
+          "u_probability": 0.8893548387096775
+        }
+      ],
+      "output_column_name": "quantity"
+    },
+    {
+      "comparison_description": "CustomComparison",
+      "comparison_levels": [
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "is_null_level": true,
+          "label_for_charts": "missing or zero price",
+          "sql_condition": "price_value_l IS NULL OR price_value_r IS NULL OR price_value_l<=0 OR price_value_r<=0"
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "price within ten percent",
+          "m_probability": 0.2590166832241844,
+          "sql_condition": "abs(price_value_l-price_value_r)/greatest(price_value_l,price_value_r)<=0.10",
+          "u_probability": 0.03888506374795223
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "price within fifty percent",
+          "m_probability": 0.5808220998783339,
+          "sql_condition": "abs(price_value_l-price_value_r)/greatest(price_value_l,price_value_r)<=0.50",
+          "u_probability": 0.20899831429995963
+        },
+        {
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "label_for_charts": "larger price difference",
+          "m_probability": 0.1403455720343943,
+          "sql_condition": "ELSE",
+          "u_probability": 0.7521166219520882
+        }
+      ],
+      "output_column_name": "price"
+    }
+  ],
+  "em_convergence": 0.0001,
+  "link_type": "link_only",
+  "linker_uid": "l2wdxf42",
+  "match_weight_column_prefix": "mw_",
+  "max_iterations": 100,
+  "probability_two_random_records_match": 0.0004881604673464062,
+  "retain_intermediate_calculation_columns": true,
+  "retain_matching_columns": false,
+  "source_dataset_column_name": "source_dataset",
+  "sql_dialect": "duckdb",
+  "term_frequency_adjustment_column_prefix": "tf_",
+  "unique_id_column_name": "unique_id"
+}

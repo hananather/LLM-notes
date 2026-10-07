@@ -1,0 +1,221 @@
+{
+  "amazon-google/dev": {
+    "status": "predictions_frozen_without_truth_scoring",
+    "all_pair_count": 50688,
+    "priors": {
+      "0.5": 0.00015782828282828284,
+      "0.8": 9.864267676767677e-05,
+      "1.0": 7.891414141414142e-05,
+      "links_per_left=0.1": 0.00028409090909090913,
+      "links_per_left=0.5": 0.0014204545454545455,
+      "links_per_left=1.0": 0.002840909090909091,
+      "links_per_left=2.0": 0.005681818181818182
+    },
+    "main_prior": 9.864267676767677e-05,
+    "prior_implied_link_counts": {
+      "0.5": 8.0,
+      "0.8": 5.0,
+      "1.0": 4.0,
+      "links_per_left=0.1": 14.400000000000002,
+      "links_per_left=0.5": 72.0,
+      "links_per_left=1.0": 144.0,
+      "links_per_left=2.0": 288.0
+    },
+    "u_sampling": [
+      {
+        "actual_cross_source_pairs": 50688,
+        "sample_ids_sha256": "3b7f042fc54c1792476112ac75c86531e1538fef9f49d225c9d0b3d2eb15eea9",
+        "seed": 20261007,
+        "selection": "Splink 5 seeded observed-row hash sample; all cross-source pairs of sampled rows",
+        "source_record_counts": {
+          "product_left": 144,
+          "product_right": 352
+        }
+      }
+    ],
+    "prediction_consistency": {
+      "boundary": "Every contribution equals a final categorical likelihood weight or null weight zero; total includes saved brand term-frequency adjustment and prior; posterior agrees with total. No truth read.",
+      "invalid_rows": 0,
+      "maximum_absolute_errors": {
+        "brand": 0.0,
+        "description_words": 0.0,
+        "model": 0.0,
+        "posterior": 1.1102230246251565e-16,
+        "price": 0.0,
+        "quantity": 0.0,
+        "title_words": 0.0,
+        "total_weight": 3.552713678800501e-15
+      },
+      "status": "passed"
+    },
+    "unestimated_m_levels": 0,
+    "unestimated_u_levels": 1,
+    "wall_seconds": 4.593794041007641,
+    "convergence": [
+      {
+        "pairs": 159,
+        "iterations": 61,
+        "converged": true,
+        "last_delta": 9.073499786027561e-05
+      },
+      {
+        "pairs": 10,
+        "iterations": 31,
+        "converged": true,
+        "last_delta": 6.402603515631711e-05
+      },
+      {
+        "pairs": 87,
+        "iterations": 58,
+        "converged": true,
+        "last_delta": 9.22935233285127e-05
+      }
+    ]
+  },
+  "amazon-google/test": {
+    "status": "predictions_frozen_without_truth_scoring",
+    "all_pair_count": 3503406,
+    "priors": {
+      "0.5": 6.10834142545854e-05,
+      "0.8": 3.817713390911587e-05,
+      "1.0": 3.05417071272927e-05,
+      "links_per_left=0.1": 3.479471120389701e-05,
+      "links_per_left=0.5": 0.00017397355601948505,
+      "links_per_left=1.0": 0.0003479471120389701,
+      "links_per_left=2.0": 0.0006958942240779402
+    },
+    "main_prior": 3.817713390911587e-05,
+    "prior_implied_link_counts": {
+      "0.5": 214.0,
+      "0.8": 133.75,
+      "1.0": 107.0,
+      "links_per_left=0.1": 121.9,
+      "links_per_left=0.5": 609.5,
+      "links_per_left=1.0": 1219.0,
+      "links_per_left=2.0": 2438.0
+    },
+    "u_sampling": [
+      {
+        "actual_cross_source_pairs": 1004108,
+        "sample_ids_sha256": "ed846fa03acf4d586d374998288d53f8911afcbc56f02367769193100bbff0f4",
+        "seed": 20261007,
+        "selection": "Splink 5 seeded observed-row hash sample; all cross-source pairs of sampled rows",
+        "source_record_counts": {
+          "product_left": 658,
+          "product_right": 1526
+        }
+      }
+    ],
+    "prediction_consistency": {
+      "boundary": "Every contribution equals a final categorical likelihood weight or null weight zero; total includes saved brand term-frequency adjustment and prior; posterior agrees with total. No truth read.",
+      "invalid_rows": 0,
+      "maximum_absolute_errors": {
+        "brand": 0.0,
+        "description_words": 0.0,
+        "model": 0.0,
+        "posterior": 5.551115123125783e-17,
+        "price": 0.0,
+        "quantity": 0.0,
+        "title_words": 0.0,
+        "total_weight": 3.552713678800501e-15
+      },
+      "status": "passed"
+    },
+    "unestimated_m_levels": 0,
+    "unestimated_u_levels": 0,
+    "wall_seconds": 79.36265937499411,
+    "convergence": [
+      {
+        "pairs": 15700,
+        "iterations": 114,
+        "converged": true,
+        "last_delta": 9.668219253822219e-05
+      },
+      {
+        "pairs": 293,
+        "iterations": 39,
+        "converged": true,
+        "last_delta": 9.716077415389268e-05
+      },
+      {
+        "pairs": 1485,
+        "iterations": 43,
+        "converged": true,
+        "last_delta": 9.77063658044175e-05
+      }
+    ]
+  },
+  "abt-buy/test": {
+    "status": "predictions_frozen_without_truth_scoring",
+    "all_pair_count": 1180452,
+    "priors": {
+      "0.5": 0.00078105674775425,
+      "0.8": 0.0004881604673464062,
+      "1.0": 0.000390528373877125,
+      "links_per_left=0.1": 9.157509157509158e-05,
+      "links_per_left=0.5": 0.0004578754578754579,
+      "links_per_left=1.0": 0.0009157509157509158,
+      "links_per_left=2.0": 0.0018315018315018315
+    },
+    "main_prior": 0.0004881604673464062,
+    "prior_implied_link_counts": {
+      "0.5": 922.0,
+      "0.8": 576.2499999999999,
+      "1.0": 461.0,
+      "links_per_left=0.1": 108.1,
+      "links_per_left=0.5": 540.5,
+      "links_per_left=1.0": 1081.0,
+      "links_per_left=2.0": 2162.0
+    },
+    "u_sampling": [
+      {
+        "actual_cross_source_pairs": 1001985,
+        "sample_ids_sha256": "24aede0c4a309a483d2813aedf01aeba22f7e60bdecb6f850e2bd01ff35b9e20",
+        "seed": 20261007,
+        "selection": "Splink 5 seeded observed-row hash sample; all cross-source pairs of sampled rows",
+        "source_record_counts": {
+          "product_left": 997,
+          "product_right": 1005
+        }
+      }
+    ],
+    "prediction_consistency": {
+      "boundary": "Every contribution equals a final categorical likelihood weight or null weight zero; total includes saved brand term-frequency adjustment and prior; posterior agrees with total. No truth read.",
+      "invalid_rows": 0,
+      "maximum_absolute_errors": {
+        "brand": 0.0,
+        "description_words": 0.0,
+        "model": 0.0,
+        "posterior": 5.551115123125783e-17,
+        "price": 0.0,
+        "quantity": 0.0,
+        "title_words": 0.0,
+        "total_weight": 3.552713678800501e-15
+      },
+      "status": "passed"
+    },
+    "unestimated_m_levels": 0,
+    "unestimated_u_levels": 1,
+    "wall_seconds": 21.141249457999947,
+    "convergence": [
+      {
+        "pairs": 54429,
+        "iterations": 30,
+        "converged": true,
+        "last_delta": 9.164804435790597e-05
+      },
+      {
+        "pairs": 650,
+        "iterations": 16,
+        "converged": true,
+        "last_delta": 9.256939946367115e-05
+      },
+      {
+        "pairs": 2249,
+        "iterations": 46,
+        "converged": true,
+        "last_delta": 9.567188978210073e-05
+      }
+    ]
+  }
+}

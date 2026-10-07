@@ -1,0 +1,10 @@
+{
+  "boundary": "Candidate misses remain errors in complete-decision metrics; no target is inserted from truth.",
+  "candidate_pairs": 2222,
+  "non_nil_queries": 125,
+  "non_nil_queries_with_all_reference_targets_retrieved": 124,
+  "queries": 144,
+  "queries_with_all_reference_targets_retrieved": 143,
+  "reference_links": 145,
+  "reference_links_retrieved": 144
+}

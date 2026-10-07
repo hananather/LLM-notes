@@ -1,0 +1,11 @@
+{
+  "frozen_query_count": 1096,
+  "attempted": 1096,
+  "ready": 1096,
+  "failures": [],
+  "original_bytes": 334189016,
+  "prepared_bytes": 505939391,
+  "max_patches": 2500,
+  "duplicate_flags": 50,
+  "cross_split_exact_duplicate_flags": 0
+}

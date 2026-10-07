@@ -1,0 +1,141 @@
+{
+  "candidate_recall": [
+    {
+      "all_targets_found_positive_queries": 77,
+      "k": 1,
+      "positive_queries": 88,
+      "positive_targets": 88,
+      "targets_found": 77
+    },
+    {
+      "all_targets_found_positive_queries": 83,
+      "k": 5,
+      "positive_queries": 88,
+      "positive_targets": 88,
+      "targets_found": 83
+    },
+    {
+      "all_targets_found_positive_queries": 86,
+      "k": 10,
+      "positive_queries": 88,
+      "positive_targets": 88,
+      "targets_found": 86
+    },
+    {
+      "all_targets_found_positive_queries": 87,
+      "k": 25,
+      "positive_queries": 88,
+      "positive_targets": 88,
+      "targets_found": 87
+    },
+    {
+      "all_targets_found_positive_queries": 87,
+      "k": 40,
+      "positive_queries": 88,
+      "positive_targets": 88,
+      "targets_found": 87
+    }
+  ],
+  "common_evaluator_metrics": {
+    "lexical_fixed_policy": {
+      "automatic_coverage": 0.5504587155963303,
+      "automatic_decisions": 60,
+      "complete_decision_accuracy": 0.5504587155963303,
+      "correct_complete_decisions": 60,
+      "error_among_automatic": 0.0,
+      "failed_queries": 0,
+      "false_links": 0,
+      "false_nil_decisions": 0,
+      "linked_on_nil_queries": 0,
+      "missed_links": 28,
+      "queries": 109,
+      "queries_with_false_assignment": 0,
+      "review_queries": 49,
+      "true_links": 60,
+      "true_nil_queries": 21,
+      "wrong_automatic_decisions": 0
+    },
+    "lexical_top1_forced": {
+      "automatic_coverage": 1.0,
+      "automatic_decisions": 109,
+      "complete_decision_accuracy": 0.7064220183486238,
+      "correct_complete_decisions": 77,
+      "error_among_automatic": 0.29357798165137616,
+      "failed_queries": 0,
+      "false_links": 32,
+      "false_nil_decisions": 0,
+      "linked_on_nil_queries": 21,
+      "missed_links": 11,
+      "queries": 109,
+      "queries_with_false_assignment": 32,
+      "review_queries": 0,
+      "true_links": 77,
+      "true_nil_queries": 21,
+      "wrong_automatic_decisions": 32
+    },
+    "splink_fixed_policy": {
+      "automatic_coverage": 0.45871559633027525,
+      "automatic_decisions": 50,
+      "complete_decision_accuracy": 0.3761467889908257,
+      "correct_complete_decisions": 41,
+      "error_among_automatic": 0.18,
+      "failed_queries": 0,
+      "false_links": 0,
+      "false_nil_decisions": 9,
+      "linked_on_nil_queries": 0,
+      "missed_links": 66,
+      "queries": 109,
+      "queries_with_false_assignment": 0,
+      "review_queries": 59,
+      "true_links": 22,
+      "true_nil_queries": 21,
+      "wrong_automatic_decisions": 9
+    }
+  },
+  "freeze_manifest_sha256": "2bcaf60ddeb403c9da6150e64a16d111f568196322d27f66cc6172abbae6e52a",
+  "historical_nil_queries": 21,
+  "interpretation": "Development evidence only. Review is not a correct identity decision. Thresholds and retrieval are not tuned from these outcomes.",
+  "lexical_fixed_policy": {
+    "accepted_coverage": 0.5504587155963303,
+    "automatic_rows": 60,
+    "automatic_wrong": 0,
+    "correct_complete_decisions": 60,
+    "error_among_automatic": 0.0,
+    "false_assignment_on_nil_rows": 0,
+    "false_nil_rows": 0,
+    "false_target_assignments": 0,
+    "missed_targets": 28,
+    "queries": 109,
+    "review_rows": 49
+  },
+  "lexical_top1_forced": {
+    "accepted_coverage": 1.0,
+    "automatic_rows": 109,
+    "automatic_wrong": 32,
+    "correct_complete_decisions": 77,
+    "error_among_automatic": 0.29357798165137616,
+    "false_assignment_on_nil_rows": 21,
+    "false_nil_rows": 0,
+    "false_target_assignments": 32,
+    "missed_targets": 11,
+    "queries": 109,
+    "review_rows": 0
+  },
+  "n": 109,
+  "population": "CORDIS predeclared development groups only",
+  "positive_queries": 88,
+  "splink_fixed_policy": {
+    "accepted_coverage": 0.45871559633027525,
+    "automatic_rows": 50,
+    "automatic_wrong": 9,
+    "correct_complete_decisions": 41,
+    "error_among_automatic": 0.18,
+    "false_assignment_on_nil_rows": 0,
+    "false_nil_rows": 9,
+    "false_target_assignments": 0,
+    "missed_targets": 66,
+    "queries": 109,
+    "review_rows": 59
+  },
+  "test_metrics_opened": false
+}

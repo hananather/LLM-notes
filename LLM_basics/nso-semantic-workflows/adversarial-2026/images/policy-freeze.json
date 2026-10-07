@@ -1,0 +1,53 @@
+{
+  "files": {
+    "protocol.json": "91004a2e829cce16e8ec3eefce2e6b35a4f9a18624c1728ff16d8737388eb417",
+    "schema.json": "bbf93c5ea67cd4f1245f61e6be6fc83212125b1760633a770d9e911a0b120838",
+    "baseline.py": "4236cc83ed14eb0fef8be9d1fcf36c961e985481e29569b1698dbf5adc568b1b",
+    "prepare.py": "00edea24a7d33b8e666a22e7fa062cc86123f4b86dcef65c09f1b2140867d9b1",
+    "evaluate.py": "82465479a5768c0242d1809c7e6cf5c09a7407de2bf2cf8139a9b31bdaaf129b"
+  },
+  "development_subset_sha256": "013cdac3ffad3dde9eb9a0593b6b1f61620719db5afde81c35ea39827e706801",
+  "created_utc": "2026-10-07T17:12:03Z",
+  "test_outcomes_opened": false,
+  "amendments": [
+    {
+      "previous_files": {
+        "protocol.json": "53725b071dec01eaa506163a7a2c8654740eb5f9bc6346ee8cd485b2190b9310",
+        "schema.json": "bbf93c5ea67cd4f1245f61e6be6fc83212125b1760633a770d9e911a0b120838",
+        "baseline.py": "e76ceccbb49e1ea5b97de84f944e905d4b159fe2b1f6fe82305d8c41b01add1d",
+        "prepare.py": "00edea24a7d33b8e666a22e7fa062cc86123f4b86dcef65c09f1b2140867d9b1"
+      },
+      "reason": "Root-approved universal200-iteration fit validity policy and mechanical empty-extraction failure handling; no TEST outcomes read."
+    },
+    {
+      "previous_files": {
+        "protocol.json": "09f97cdcfb4fdab316dfd925ee6fe9a170a260d9e67b0f850a80417458d70ada",
+        "schema.json": "bbf93c5ea67cd4f1245f61e6be6fc83212125b1760633a770d9e911a0b120838",
+        "baseline.py": "f5969e9a9ed6e63eab858d6a4e5dc3441d5ac10398f447058031498282a7857d",
+        "prepare.py": "00edea24a7d33b8e666a22e7fa062cc86123f4b86dcef65c09f1b2140867d9b1",
+        "evaluate.py": "d5974a80f91cf4147ffc506018930843e74d762380d2060063669570cdadabe0"
+      },
+      "reason": "Feasible fixed-likelihood decision-prior sensitivity artifacts; primary methods unchanged; include evaluator in repeatable policy-freeze verification."
+    },
+    {
+      "previous_files": {
+        "protocol.json": "0fdf5db6998ca7cb49fb0ffd7cad6bd82778ac66770642c818af6b52245c3a90",
+        "schema.json": "bbf93c5ea67cd4f1245f61e6be6fc83212125b1760633a770d9e911a0b120838",
+        "baseline.py": "2bbd8ecd0ecedaa233f39de109b67fd68d8e43e362739c31846b26ce2079ac00",
+        "prepare.py": "00edea24a7d33b8e666a22e7fa062cc86123f4b86dcef65c09f1b2140867d9b1",
+        "evaluate.py": "d5974a80f91cf4147ffc506018930843e74d762380d2060063669570cdadabe0"
+      },
+      "reason": "Root-requested explicit linked/nil/review/failed contract; mechanical prediction augmentation; preserve predecessor hashes/evaluator; no TEST outcomes read."
+    },
+    {
+      "previous_files": {
+        "protocol.json": "91004a2e829cce16e8ec3eefce2e6b35a4f9a18624c1728ff16d8737388eb417",
+        "schema.json": "bbf93c5ea67cd4f1245f61e6be6fc83212125b1760633a770d9e911a0b120838",
+        "baseline.py": "c6d6682986842abd54bd312eba03adb5f5c86f34052956eb35844a246068595a",
+        "prepare.py": "00edea24a7d33b8e666a22e7fa062cc86123f4b86dcef65c09f1b2140867d9b1",
+        "evaluate.py": "82465479a5768c0242d1809c7e6cf5c09a7407de2bf2cf8139a9b31bdaaf129b"
+      },
+      "reason": "Mechanical sensitivity-export guard preserves a successful empty extraction as review; primary requests/scores/decisions unchanged; no TEST outcomes read."
+    }
+  ]
+}

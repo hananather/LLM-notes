@@ -1,0 +1,15 @@
+{
+  "amazon_test_outcomes_accessed": false,
+  "files": {
+    "all-fixed-rule-summaries.json": "9c3c83758bb717b15c687e1f45e200ef577dab6c3e61d38b40a25c3956d983aa",
+    "candidate-audit.json": "004a6ff6a4c375d29acffd2ead6eb9aeda0cd7935d7c53560a795def81625978",
+    "common-query-outcomes.json": "b93b8975f9163dc8a09a7a580945d1053a1598bc18c520083e5115a15aef3949",
+    "family-uncertainty.json": "496d035d02c8d0c9d8a0e7b5b788bd74fc1f306ef8f9b2204887d19018ce924d",
+    "primary-summary.json": "e502dc9fcf1166c44a86c9daaf6da64abd72de3dee52bf53ceadd18576f79d16",
+    "protocol.json": "88a8586418e753bba66fed8e48965f3179808eadad8eabb20988b2f1b34af9e7",
+    "reference-summary.md": "b09852442b1ddcfd5c40c4aa70962a0e9d44930c122f4d3109f2649ee79b74dd"
+  },
+  "paid_calls": 0,
+  "protocol_sha256": "88a8586418e753bba66fed8e48965f3179808eadad8eabb20988b2f1b34af9e7",
+  "status": "free_conventional_reference_scored"
+}

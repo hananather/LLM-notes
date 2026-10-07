@@ -1,0 +1,74 @@
+[
+  {
+    "file": "clip-dev-closed.jsonl",
+    "previous_sha256": "7f559afc2f7f66808e2459c19c341231fdb225c5a8bcbe7c73742bc9921581fb",
+    "new_sha256": "b5d30cc16161dbf84faef95ef4445678d0bbc5270a66e16cff8d9c9aa86131ce",
+    "operation": "Explicit decision status only; scores/ranks/thresholds/source rows preserved; no gold read."
+  },
+  {
+    "file": "clip-dev80-closed.jsonl",
+    "previous_sha256": "86a20a89894e8fdd819f5e83d1822e0b100e62211bc247af80f25fa5d867e058",
+    "new_sha256": "47c8bcef082b33b27be3c737a1f5637ab9c583644a00430e22105ca8d1c6c393",
+    "operation": "Explicit decision status only; scores/ranks/thresholds/source rows preserved; no gold read."
+  },
+  {
+    "file": "clip-test-closed.jsonl",
+    "previous_sha256": "d49013ac9290778aba3852895059bfc60b3daa0ab59f349ed9d0aca600db6aae",
+    "new_sha256": "95f971ef3812ecff64ed2f2d454cdad4b1e4d2c750ac41340442bab31498c0c7",
+    "operation": "Explicit decision status only; scores/ranks/thresholds/source rows preserved; no gold read."
+  },
+  {
+    "file": "clip-test-nil.jsonl",
+    "previous_sha256": "637697c72447da2b57708567f9fb79da6f1875b52368c021444a012213b467b0",
+    "new_sha256": "ab0541d3bdf3af033c767e33f5240e463caaaf3f94f47567f300065bfe350036",
+    "operation": "Explicit decision status only; scores/ranks/thresholds/source rows preserved; no gold read."
+  },
+  {
+    "file": "ocr-lexical-dev-closed.jsonl",
+    "previous_sha256": "b21e086d86ee809af12e64057d51024b1fb7a06935e2b6b9644697c0fd6842f3",
+    "new_sha256": "fa5bd1f69e5da7481e7d6101173ca13be46d45e9d115fc52a6e68a296661b67d",
+    "operation": "Explicit decision status only; scores/ranks/thresholds/source rows preserved; no gold read."
+  },
+  {
+    "file": "ocr-lexical-dev80-closed.jsonl",
+    "previous_sha256": "807ed7def87169c61aa369949332ad98fc2f3a5d138af031b44acc3eca074dd5",
+    "new_sha256": "3457fefa7fc5a08b799c1e473e82396e5326b4a8961802ba82426e55eb291277",
+    "operation": "Explicit decision status only; scores/ranks/thresholds/source rows preserved; no gold read."
+  },
+  {
+    "file": "ocr-lexical-test-closed.jsonl",
+    "previous_sha256": "f7241077019b76835ec85a62596beb68e3afd008ae3cb0216b9cfd49505fb4bc",
+    "new_sha256": "3c2616185eef4d4f169eb6d2ee06da189cf54a0bd3ebd119b61de337081f516e",
+    "operation": "Explicit decision status only; scores/ranks/thresholds/source rows preserved; no gold read."
+  },
+  {
+    "file": "ocr-lexical-test-nil.jsonl",
+    "previous_sha256": "972fe5a0251b7ca99be1531ed51a6b04ca90c692abdef32df686aae613c10541",
+    "new_sha256": "b9d573c6db7410906c408b24b0dccc18b8e7ba3d13c4cfe19442e4980ee16752",
+    "operation": "Explicit decision status only; scores/ranks/thresholds/source rows preserved; no gold read."
+  },
+  {
+    "file": "ocr-splink-dev-closed.jsonl",
+    "previous_sha256": "e1bc62d8e7e4861a1a7df58352107efcbf8cf10987a2645040672353c223dbd9",
+    "new_sha256": "2d66dcda1b628da87504977b2ae62b8503273c2455914ed8508c4d6815b3134d",
+    "operation": "Explicit decision status only; scores/ranks/thresholds/source rows preserved; no gold read."
+  },
+  {
+    "file": "ocr-splink-dev80-closed.jsonl",
+    "previous_sha256": "77eacf7adfbf74492ea9e879f1998eabf7be83e68c913fc231383d6412e5e245",
+    "new_sha256": "fbe4b49242f96dcfcc87f6182e8295c7435281fb5ee4278783d7268edfdce7c4",
+    "operation": "Explicit decision status only; scores/ranks/thresholds/source rows preserved; no gold read."
+  },
+  {
+    "file": "ocr-splink-test-closed.jsonl",
+    "previous_sha256": "288fa4639c7603589c66cfa64c1350262a8a3094184e6d27cbabf6c4d76bc9f7",
+    "new_sha256": "3f8595fab52ff13ebcbe7d1bc6ec7a67b23cc953affd8c9ec0106f015e317b78",
+    "operation": "Explicit decision status only; scores/ranks/thresholds/source rows preserved; no gold read."
+  },
+  {
+    "file": "ocr-splink-test-nil.jsonl",
+    "previous_sha256": "3a16836f91d76ab7ee90fed63803311d5552de5c5ed3826c42562157cde52386",
+    "new_sha256": "e684eb3644f90c9a42a24b22373f44fafb44f77f3c2526c4ddc959e033988658",
+    "operation": "Explicit decision status only; scores/ranks/thresholds/source rows preserved; no gold read."
+  }
+]

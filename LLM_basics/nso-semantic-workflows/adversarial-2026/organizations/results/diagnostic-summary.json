@@ -1,0 +1,17 @@
+{
+  "converged_sessions": 2,
+  "evaluation_outcomes_opened": false,
+  "failed_sessions": 0,
+  "fit_audit_sha256": "4cc08ae8c3d59b6d5cd08ca11da48650e470887d48266d2152ce1c835ca289f2",
+  "fit_status": "complete",
+  "native_selector_run": false,
+  "nonmissing_comparison_levels": 10,
+  "paid_calls": 0,
+  "unestimated_m_levels": 0,
+  "unestimated_u_levels": 0,
+  "warnings": [
+    "You are using the default value for `max_pairs`, which may be too small and thus lead to inaccurate estimates for your model's u-parameters. Consider increasing to 1e8 or 1e9, which will result in more accurate estimates, but with a longer run time."
+  ],
+  "zero_effective_m_levels": 0,
+  "zero_effective_u_levels": 0
+}

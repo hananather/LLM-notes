@@ -1,0 +1,42 @@
+{
+  "eligible_methods": [
+    "lexical_all_pairs",
+    "splink_all_pairs"
+  ],
+  "family_groups": 119,
+  "maximum_false_assignment_queries": 6,
+  "maximum_false_links": 8,
+  "minimum_automatic_decisions": 137,
+  "minimum_correct": 64,
+  "reference": "lexical_all_pairs",
+  "summary": {
+    "automatic_coverage": 1.0,
+    "automatic_decisions": 144,
+    "complete_decision_accuracy": 0.3888888888888889,
+    "correct_complete_decisions": 56,
+    "cost": {
+      "known_nominal_token_price_usd": "0",
+      "known_nominal_usd_per_attempted_query": "0",
+      "local_wall_seconds": 0.23518504200910684,
+      "nominal_token_price_complete": true,
+      "nominal_usd_per_correct_complete_decision": "0",
+      "provider_calls": 0,
+      "reserved_usd": "0",
+      "reserved_usd_per_attempted_query": "0",
+      "scope": "Offline compute time; provider cost zero; hardware and labour unpriced."
+    },
+    "error_among_automatic": 0.6111111111111112,
+    "failed_queries": 0,
+    "false_links": 8,
+    "false_nil_decisions": 78,
+    "linked_on_nil_queries": 0,
+    "missed_links": 99,
+    "queries": 144,
+    "queries_with_false_assignment": 6,
+    "query_denominator_sha256": "b2f0385c9330388dedc0ef20b1815e7e5d9de968227a1cee521a7dc17e01bd37",
+    "review_queries": 0,
+    "true_links": 46,
+    "true_nil_queries": 19,
+    "wrong_automatic_decisions": 88
+  }
+}

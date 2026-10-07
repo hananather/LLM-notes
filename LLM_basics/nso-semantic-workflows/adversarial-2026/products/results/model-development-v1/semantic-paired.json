@@ -1,0 +1,72 @@
+{
+  "extraction_splink_all_pairs": {
+    "accuracy_difference": -0.2013888888888889,
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "cluster_bootstrap_95_percent_interval": [
+      -0.27779761904761907,
+      -0.12749787314490985
+    ],
+    "corrections": 3,
+    "interval_scope": "This source sample and family definition; not NSO population uncertainty.",
+    "queries": 144,
+    "regressions": 32,
+    "source_groups": 119
+  },
+  "extraction_splink_same_candidates": {
+    "accuracy_difference": -0.2013888888888889,
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "cluster_bootstrap_95_percent_interval": [
+      -0.27779761904761907,
+      -0.12749787314490985
+    ],
+    "corrections": 3,
+    "interval_scope": "This source sample and family definition; not NSO population uncertainty.",
+    "queries": 144,
+    "regressions": 32,
+    "source_groups": 119
+  },
+  "extraction_vs_conventional_FS_same_candidates": {
+    "accuracy_difference": 0.041666666666666664,
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "cluster_bootstrap_95_percent_interval": [
+      0.013605442176870748,
+      0.07640224358974353
+    ],
+    "corrections": 6,
+    "interval_scope": "This source sample and family definition; not NSO population uncertainty.",
+    "queries": 144,
+    "regressions": 0,
+    "source_groups": 119
+  },
+  "selection_vs_conventional_FS_same_candidates": {
+    "accuracy_difference": 0.6319444444444444,
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "cluster_bootstrap_95_percent_interval": [
+      0.5374055177626607,
+      0.7322834645669292
+    ],
+    "corrections": 94,
+    "interval_scope": "This source sample and family definition; not NSO population uncertainty.",
+    "queries": 144,
+    "regressions": 3,
+    "source_groups": 119
+  },
+  "semantic_selection": {
+    "accuracy_difference": 0.3888888888888889,
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "cluster_bootstrap_95_percent_interval": [
+      0.28472095498783456,
+      0.49635036496350365
+    ],
+    "corrections": 63,
+    "interval_scope": "This source sample and family definition; not NSO population uncertainty.",
+    "queries": 144,
+    "regressions": 7,
+    "source_groups": 119
+  }
+}

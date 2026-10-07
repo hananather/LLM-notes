@@ -1,0 +1,77 @@
+{
+  "status": "integrity_checks_passed",
+  "checks": [
+    {
+      "dataset": "abt-buy",
+      "source_and_curation_hashes": "verified",
+      "records": 2173
+    },
+    {
+      "dataset": "amazon-google",
+      "source_and_curation_hashes": "verified",
+      "records": 4589
+    },
+    {
+      "curation_replay": "byte-identical with frozen implementation"
+    },
+    {
+      "candidate_split": "dev",
+      "rows": 144,
+      "candidate_references": "valid"
+    },
+    {
+      "candidate_split": "test",
+      "rows": 1219,
+      "candidate_references": "valid"
+    },
+    {
+      "predictions": "results/baseline-v1/abt-buy/test",
+      "complete_hash_manifest": "verified",
+      "fit_status": "predictions_frozen_without_truth_scoring"
+    },
+    {
+      "predictions": "results/baseline-v1/amazon-google/dev",
+      "complete_hash_manifest": "verified",
+      "fit_status": "predictions_frozen_without_truth_scoring"
+    },
+    {
+      "predictions": "results/baseline-v1/amazon-google/test",
+      "complete_hash_manifest": "verified",
+      "fit_status": "predictions_frozen_without_truth_scoring"
+    },
+    {
+      "predictions": "results/baseline-v2/amazon-google/dev",
+      "complete_hash_manifest": "verified",
+      "fit_status": "failed_fit"
+    },
+    {
+      "predictions": "results/baseline-v3/amazon-google/dev",
+      "complete_hash_manifest": "verified",
+      "fit_status": "predictions_frozen_without_truth_scoring"
+    },
+    {
+      "predictions": "results/baseline-v4/amazon-google/dev",
+      "complete_hash_manifest": "verified",
+      "fit_status": "predictions_frozen_without_truth_scoring"
+    },
+    {
+      "predictions": "results/baseline-v5/abt-buy/test",
+      "complete_hash_manifest": "verified",
+      "fit_status": "predictions_frozen_without_truth_scoring"
+    },
+    {
+      "predictions": "results/baseline-v5/amazon-google/dev",
+      "complete_hash_manifest": "verified",
+      "fit_status": "predictions_frozen_without_truth_scoring"
+    },
+    {
+      "predictions": "results/baseline-v5/amazon-google/test",
+      "complete_hash_manifest": "verified",
+      "fit_status": "failed_fit"
+    }
+  ],
+  "current_failed_fits": [
+    "results/baseline-v5/amazon-google/test"
+  ],
+  "truth_scoring": "not performed"
+}

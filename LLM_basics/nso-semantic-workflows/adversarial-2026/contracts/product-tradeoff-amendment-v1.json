@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "date": "2026-10-07",
+  "study_label": "Post-development, prospectively specified held-out tradeoff characterization",
+  "status": "frozen before evaluation requests and evaluation outcome scoring",
+  "original_policy": "protocol.json",
+  "original_gates": "products/results/model-development-v1/development-gates.json",
+  "original_gate_outcome": "failed; unchanged",
+  "deviation": "This amendment overrides the original stop instruction for the unchanged product selector once. It is a changed spending decision after development, not a gate-compliant continuation or a wholly new endpoint.",
+  "rationale": "On 144 development queries, semantic selection made 112 correct complete decisions versus 56 for the development-selected lexical reference. It reduced missed edges from 99 to 18, but increased false edges from 8 to 20 and reduced automatic decisions from 144 to 136. One untouched-outcome replication can quantify whether this nondominating tradeoff persists. It cannot establish NSO production value or repair the failed gate.",
+  "allowed_run": {
+    "source": "Amazon-GoogleProducts",
+    "source_version": "v2",
+    "baseline_version": "v6",
+    "split": "test",
+    "queries": 1219,
+    "catalog_records": 2874,
+    "arm": "unchanged semantic candidate selection",
+    "model": "gpt-6-luna",
+    "transport": "batch",
+    "max_output_tokens": 256,
+    "maximum_reserved_usd": "0.964",
+    "additional_development_calls": 0,
+    "retries_or_human_repairs": 0,
+    "paid_extraction_or_image_evaluation": false
+  },
+  "prediction_seal": "After provider terminal completion, expiration, failure or cancellation, retain all 1219 queries and hash the complete parsed decisions and execution audit before opening evaluation identity outcomes. Unreturned jobs remain failed; unknown submission outcomes stay reserved and are never resubmitted.",
+  "timeout_policy": "The provider completion window is 24 hours. Poll read-only until a terminal state; provider expiration or cancellation preserves every unresolved request as failed. Never substitute synchronous calls. If provider status remains unresolved, report the run pending and do not score a selected completed subset.",
+  "endpoints": [
+    "correct complete target-set decisions",
+    "false and missed edges",
+    "queries with false assignment",
+    "false NIL and links on NIL queries",
+    "review and failure counts",
+    "automatic decision coverage"
+  ],
+  "comparisons": {
+    "primary_reference": "Development-selected lexical all-pairs rule at threshold 0.65",
+    "retain": "All fixed lexical thresholds and all seven prior assumptions by four Splink thresholds, both all-pairs and same-candidate decisions",
+    "selection_forbidden": "No evaluation-optimal comparator, prior, threshold, candidate change, prompt change, model change or subgroup headline",
+    "identity": "Complete publisher many-to-many target sets; unmatched means absent from that mapping; candidate misses remain in the denominator"
+  },
+  "uncertainty": {
+    "unit": "source family",
+    "bootstrap_replicates": 2000,
+    "seed": 20261007,
+    "paired_metrics": ["exact decisions", "false edges", "missed edges", "false-assignment queries", "automatic coverage"],
+    "strata": ["NIL", "single-target", "multiple-target", "review", "failed"],
+    "boundary": "Descriptive paired intervals for this historical benchmark. Catalog size differs between partitions; this does not isolate a causal scale effect. Unknown pretraining exposure remains possible."
+  },
+  "descriptive_loss": {
+    "formula": "lambda * false_edges + missed_edges",
+    "lambda_grid": [0, 0.1, 0.25, 0.5, 1, 2, 5, 10, 20, 50, 100],
+    "unresolved_accounting": "A review or failure supplies no automatic links: its positive targets remain missed edges. Unresolved NIL queries are not correct decisions. Report unresolved counts and raw errors beside the loss; do not assume successful or free human review.",
+    "boundary": "Hypothetical edge-cost ratios, not estimated NSO costs, query-level utility, staff-time savings or ROI. Do not select an operational winner or report a precise crossover."
+  },
+  "stopping_rule": "Publish the result, including null or adverse findings, in the existing notebook after this one run. No further sample, variant, revival of stopped arms or automatic amendment follows from its outcome."
+}

@@ -1,0 +1,52 @@
+{
+  "protocol_sha256": "91004a2e829cce16e8ec3eefce2e6b35a4f9a18624c1728ff16d8737388eb417",
+  "schema_sha256": "bbf93c5ea67cd4f1245f61e6be6fc83212125b1760633a770d9e911a0b120838",
+  "prepare_sha256": "00edea24a7d33b8e666a22e7fa062cc86123f4b86dcef65c09f1b2140867d9b1",
+  "files": {
+    "data/catalog-dev.jsonl": "8e40757da2547945dd371e95ecad0d16efdd65585b49bb18a5e866c6ff73752a",
+    "data/catalog-test-nil.jsonl": "5b0a844572eb8661bfd9287359f9d654543a672cd057e608cf63e5d68864b09d",
+    "data/catalog-test.jsonl": "36843cb48918ac40ff1ca810085cd26a38830d01a39757439d914761e2c0b28f",
+    "data/queries-dev.jsonl": "79fb656f2d0a2dc53d4ebc0c91d7a7bdc296f10508c5cb778c9f1935f40943ad",
+    "data/queries-test.jsonl": "1ca699d1a763820a7473534129bd6d38c8c34dff7a52f5d532881096b98af24d",
+    "evaluator/ambiguity-panel.jsonl": "05c1491d46421b354e62bd37c5de2a0096bfd902e39396a6e4d399d2a9e0862c",
+    "evaluator/catalog-source-map.jsonl": "37072b1246d821b1af7814860886ea8b0b112a5dea5e2cd866c7aaac2313b8d6",
+    "evaluator/development-reserve.json": "13bfcfb8dcea227187d2b3a22cff489de49c5596ca773b9b4ffbdbc1e9d351e8",
+    "evaluator/family-edges.jsonl": "45899897e9b75d8a8774d93ce13998e24e50896b8a6c825cbd73df9cdeeb6c97",
+    "evaluator/gold-dev.jsonl": "15cad848801724a82ce6902f5529c1840a2af78fc03fe536bbaa6855b2d36d72",
+    "evaluator/gold-test-nil.jsonl": "b8091d59bf5a885e2491f4276d51257863bdcb94b2ec4157eca63b466d8b058c",
+    "evaluator/gold-test.jsonl": "e27eca1ece65a8ea9065b4b1991f7f627195a2597d6cfebf1d6291548213329a",
+    "evaluator/source-files.jsonl": "cd87ef286eea7cc41e6accb4c4e5b26110d9f105125f1b57fc6210f9bfd4f950",
+    "evaluator/source-map.jsonl": "b9685c1e57ca6ac826b753ec15ea935826dc9573fade244cc780cf8c5bb6ee78"
+  },
+  "created_utc": "2026-10-07T17:04:18Z",
+  "test_outcomes_opened": false,
+  "schema_amendments": [
+    {
+      "old_sha256": "457a062024f94de81d9a63f4f783c7c69c1ae0a5c10a018837619eabd38da1f0",
+      "new_sha256": "bbf93c5ea67cd4f1245f61e6be6fc83212125b1760633a770d9e911a0b120838",
+      "reason": "Pre-call output-format bounds requested by root for 384-token shared extraction cap; no field/input/selection changes; no test outcomes read."
+    }
+  ],
+  "protocol_amendments": [
+    {
+      "old_sha256": "d0aa4d7ae9e5dc69dfd36021589d8418d4734c4ee419b7629ea5f4e7be44fe17",
+      "new_sha256": "53725b071dec01eaa506163a7a2c8654740eb5f9bc6346ee8cd485b2190b9310",
+      "reason": "Outcome-blind DEV implementation diagnostics: avoid incompatible blocked EM aggregation; preserve lexical tie-breaking, explicit support and duplicate audit policies. No DEV or TEST outcome metrics read."
+    },
+    {
+      "old_sha256": "53725b071dec01eaa506163a7a2c8654740eb5f9bc6346ee8cd485b2190b9310",
+      "new_sha256": "09f97cdcfb4fdab316dfd925ee6fe9a170a260d9e67b0f850a80417458d70ada",
+      "reason": "Root-approved finite numerical recovery from DEV80 cap40/delta.000255, applied uniformly to all fits; mechanical empty-extraction repair. DEV summary had just been read; no TEST outcomes read. No outcome-based feature/threshold selection."
+    },
+    {
+      "old_sha256": "09f97cdcfb4fdab316dfd925ee6fe9a170a260d9e67b0f850a80417458d70ada",
+      "new_sha256": "0fdf5db6998ca7cb49fb0ffd7cad6bd82778ac66770642c818af6b52245c3a90",
+      "reason": "Prospective capacity-feasible decision-prior sensitivity [.25,.5,.8,1]/catalog_size; primary priors/fit/threshold unchanged; no TEST outcomes read."
+    },
+    {
+      "old_sha256": "0fdf5db6998ca7cb49fb0ffd7cad6bd82778ac66770642c818af6b52245c3a90",
+      "new_sha256": "91004a2e829cce16e8ec3eefce2e6b35a4f9a18624c1728ff16d8737388eb417",
+      "reason": "Mechanical explicit decision-status contract distinguishes NIL/review/failure without changing scores, thresholds, ranks or data; no TEST outcomes read."
+    }
+  ]
+}

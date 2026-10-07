@@ -1,0 +1,53 @@
+{
+  "candidate_pairs": 46960,
+  "code_sha256": "0e104cf7474de0c88d6882e82ec940ac8f79305b98bd2feedc40d69139009de6",
+  "environment": {
+    "duckdb": "1.5.6",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.17.1",
+    "splink": "5.0.0"
+  },
+  "files": [
+    {
+      "bytes": 2263738,
+      "path": "results/candidates.jsonl.gz",
+      "sha256": "5140cecd15bfe74dd5e146a36215527f0b18d09c0ebb1e094ba79c7bea52d4c6"
+    },
+    {
+      "bytes": 228186,
+      "path": "results/lexical-predictions.jsonl",
+      "sha256": "6547db5788cee62ab21ef7207ca5d6df8bf2b635742961489d0436228d2835dc"
+    },
+    {
+      "bytes": 1608840,
+      "path": "results/splink-pair-predictions.jsonl.gz",
+      "sha256": "c6738414c94443bdd6c9c768c5eeb4cfd89d00e270ce0d0acbdd53a1fa12bb48"
+    },
+    {
+      "bytes": 37486,
+      "path": "results/splink-fit-audit.json",
+      "sha256": "4cc08ae8c3d59b6d5cd08ca11da48650e470887d48266d2152ce1c835ca289f2"
+    }
+  ],
+  "fit_status": "complete",
+  "index": {
+    "alias_count": 198255,
+    "char_features": 200000,
+    "word_features": 200000
+  },
+  "input_hashes": {
+    "cordis-observed.jsonl": "9d7461fec82eb9845209b9d0d523ece850b1de8c05f25a54664d35cabeb3f180",
+    "partitions.json": "c3c4b234fd8e28ff430d538dd811ee3a26ba792601f7af2fe9402daf160a3ea6",
+    "ror-v1.41-observed.jsonl.gz": "6c79c90e40f944e703d8ea91cba06bba970e82e04257f31d15e7377c00e783ef"
+  },
+  "normalizer_code_sha256": "43cdc131f4904c9aae550b85dfaed86a177572f24de1b8dc2e840458c3f3af85",
+  "outcomes_opened": "none",
+  "paid_calls": 0,
+  "protocol_sha256": "b69d735319455faef3def98d729913bd8ebc53112650d5c2973ed6157504a534",
+  "query_count": 1174,
+  "registry_records": 108476,
+  "schema": 1,
+  "wall_seconds": 39.92995962500572
+}

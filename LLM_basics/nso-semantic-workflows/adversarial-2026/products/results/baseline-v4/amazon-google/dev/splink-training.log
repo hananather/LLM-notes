@@ -1,0 +1,55 @@
+You are using the default value for `max_pairs`, which may be too small and thus lead to inaccurate estimates for your model's u-parameters. Consider increasing to 1e8 or 1e9, which will result in more accurate estimates, but with a longer run time.
+WARNING:
+Level primary model edit distance one on comparison model not observed in dataset, unable to train m value
+
+WARNING:
+Level no shared model identifier on comparison model not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.8 on comparison description_words not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.5 on comparison description_words not observed in dataset, unable to train m value
+
+WARNING:
+Level a stated quantity agrees on comparison quantity not observed in dataset, unable to train m value
+
+WARNING:
+Level stated comparable quantities differ on comparison quantity not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.4 on comparison title_words not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.8 on comparison description_words not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.2 on comparison description_words not observed in dataset, unable to train m value
+
+WARNING:
+Level a stated quantity agrees on comparison quantity not observed in dataset, unable to train m value
+
+WARNING:
+Level stated comparable quantities differ on comparison quantity not observed in dataset, unable to train m value
+
+WARNING:
+Level price within ten percent on comparison price not observed in dataset, unable to train m value
+
+WARNING:
+Level larger price difference on comparison price not observed in dataset, unable to train m value
+
+WARNING:
+Level primary model edit distance one on comparison model not observed in dataset, unable to train m value
+
+WARNING:
+Level no shared model identifier on comparison model not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.8 on comparison description_words not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.5 on comparison description_words not observed in dataset, unable to train m value
+
+WARNING:
+Level stated comparable quantities differ on comparison quantity not observed in dataset, unable to train m value
+

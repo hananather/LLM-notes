@@ -1,0 +1,135 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "product_name": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 160
+    },
+    "manufacturer": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 80
+    },
+    "model_ids": {
+      "type": "array",
+      "maxItems": 6,
+      "items": {
+        "type": "string",
+        "maxLength": 60
+      }
+    },
+    "quantities": {
+      "type": "array",
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "number"
+          },
+          "unit": {
+            "type": "string",
+            "enum": [
+              "TB",
+              "GB",
+              "MB",
+              "kg",
+              "g",
+              "oz",
+              "lb",
+              "ml",
+              "litre",
+              "liter",
+              "GHz",
+              "MHz",
+              "inch",
+              "inches",
+              "mm",
+              "cm",
+              "pack",
+              "count",
+              "user",
+              "seat"
+            ]
+          }
+        },
+        "required": [
+          "value",
+          "unit"
+        ]
+      }
+    },
+    "edition": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 60
+    },
+    "platform": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 60
+    },
+    "license": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 60
+    },
+    "evidence": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "field": {
+            "type": "string",
+            "enum": [
+              "product_name",
+              "manufacturer",
+              "model_ids",
+              "quantities",
+              "edition",
+              "platform",
+              "license"
+            ]
+          },
+          "quote": {
+            "type": "string",
+            "maxLength": 100
+          }
+        },
+        "required": [
+          "field",
+          "quote"
+        ]
+      }
+    },
+    "uncertain": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "product_name",
+    "manufacturer",
+    "model_ids",
+    "quantities",
+    "edition",
+    "platform",
+    "license",
+    "evidence",
+    "uncertain"
+  ]
+}

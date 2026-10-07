@@ -1,0 +1,28 @@
+{
+  "actual_source_groups": 1000,
+  "completed_utc": "2026-10-07T17:52:07.714321+00:00",
+  "evaluation_queries": 1065,
+  "fit_and_prediction_hashes_unchanged": true,
+  "fits_run": 0,
+  "gold_first_opened_utc": "2026-10-07T17:52:07.434587+00:00",
+  "gold_hashes_verified": {
+    "data/gold/curation-audit.json": "859b5dfb1bbe369fd3fc14bc2427ce7ad6c96c6cb172de772959b67867117874",
+    "data/gold/reference.jsonl": "e7f4e8435b8c2455cfa1ef2dde063d8d9eb5a8a64d5459db5a247fccdc363b8d",
+    "data/gold/sampling-design.json": "6194e99cad13bcf263ac335856cd547341bd01718a912eb7ed3e27213fae20fe"
+  },
+  "group_size_counts": {
+    "1": 943,
+    "2": 50,
+    "3": 6,
+    "4": 1
+  },
+  "output_hashes": {
+    "query-outcomes.jsonl.gz": "35dc42b50df661e775ac491aaaf7baa72f98dffabb76bdc3f1a01153fe46f00a",
+    "summary.json": "673225470ba1884c88c3790573661ae212ffb95c9b1cc486c0f01f9d41c4e28c"
+  },
+  "paid_calls": 0,
+  "question_freeze_sha256": "99414dd188ac65260ca15334568616f9cfb80a19684386df0d444298e3699aa4",
+  "question_frozen_utc": "2026-10-07T17:52:02.473531+00:00",
+  "retrieval_runs": 0,
+  "source_rows_excluded": 0
+}

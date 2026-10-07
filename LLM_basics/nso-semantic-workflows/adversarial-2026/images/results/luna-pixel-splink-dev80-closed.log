@@ -1,0 +1,77 @@
+----- Estimating u probabilities using random sampling -----
+Estimating u with: max_pairs = 7,680, min_count_per_level = 1, num_chunks = 10
+
+Estimating u for: title_tokens (Comparison 1 of 3)
+  Running probe chunk (~1.00% of max_pairs)
+  Min u_count: 0 for comparison level Token containment >= 0.4 (cvv=1)
+  Probe did not converge; restarting with normal chunking
+
+  Running chunk 1/10
+  Count of 1 for level Token containment >= 0.7 (cvv=2). Chunk took 0.0 seconds.
+  Exiting early since min count of 1 exceeds min_count_per_level = 1
+
+Estimating u for: brand (Comparison 2 of 3)
+  Running probe chunk (~1.00% of max_pairs)
+  Min u_count: 10 for comparison level Exact match on brand (cvv=1)
+  Exiting early since min count of 10 exceeds min_count_per_level = 1
+
+Estimating u for: quantity (Comparison 3 of 3)
+  Running probe chunk (~1.00% of max_pairs)
+  Min u_count: 0 for comparison level Quantity differs (cvv=0)
+  Probe did not converge; restarting with normal chunking
+
+  Running chunk 1/10
+  Count of 20 for level Quantity agrees within 5% (cvv=1). Chunk took 0.0 seconds.
+  Exiting early since min count of 20 exceeds min_count_per_level = 1
+
+Estimated u probabilities using random sampling
+
+Your model is not yet fully trained. Missing estimates for:
+    - title_tokens (no m values are trained).
+    - brand (no m values are trained).
+    - quantity (no m values are trained).
+
+----- Starting EM training session -----
+
+[EM sampling] max_pairs is None — no sampling will be applied
+Estimating the m probabilities of the model by blocking on:
+1=1
+
+Parameter estimates will be made for the following comparison(s):
+    - title_tokens
+    - brand
+    - quantity
+
+Parameter estimates cannot be made for the following comparison(s) since they are used in the blocking rules: 
+
+Iteration 1: Largest change in params was -0.2 in the m_probability of title_tokens, level `Token containment >= 0.9`
+Iteration 2: Largest change in params was -0.0973 in the m_probability of title_tokens, level `Token containment >= 0.9`
+Iteration 3: Largest change in params was -0.0314 in the m_probability of title_tokens, level `Token containment >= 0.9`
+Iteration 4: Largest change in params was 0.0195 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 5: Largest change in params was 0.0203 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 6: Largest change in params was 0.0199 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 7: Largest change in params was 0.0182 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 8: Largest change in params was 0.0156 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 9: Largest change in params was 0.0127 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 10: Largest change in params was 0.00995 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 11: Largest change in params was 0.00752 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 12: Largest change in params was 0.00554 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 13: Largest change in params was 0.00402 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 14: Largest change in params was 0.00288 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 15: Largest change in params was 0.00204 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 16: Largest change in params was 0.00144 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 17: Largest change in params was 0.00102 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 18: Largest change in params was 0.000714 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 19: Largest change in params was 0.000502 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 20: Largest change in params was 0.000353 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 21: Largest change in params was 0.000249 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 22: Largest change in params was 0.000176 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 23: Largest change in params was -0.000129 in the m_probability of quantity, level `Quantity differs`
+Iteration 24: Largest change in params was -0.000111 in the m_probability of quantity, level `Quantity differs`
+Iteration 25: Largest change in params was 9.58e-05 in the m_probability of quantity, level `Quantity agrees within 5%`
+
+EM converged after 25 iterations
+
+Your model is fully trained. All comparisons have at least one estimate for their m and u values
+Blocking time: 0.00 seconds
+Predict time (post-blocking): 0.02 seconds

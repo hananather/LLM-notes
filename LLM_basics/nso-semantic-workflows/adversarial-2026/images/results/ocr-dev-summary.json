@@ -1,0 +1,12 @@
+{
+  "rows": 96,
+  "statuses": {
+    "ok": 96
+  },
+  "characters": 32912,
+  "median_characters": 276.0,
+  "p95_characters": 794.25,
+  "max_characters": 1771,
+  "mode_seconds": 46.031000000000006,
+  "engine": "tesseract 5.5.3"
+}

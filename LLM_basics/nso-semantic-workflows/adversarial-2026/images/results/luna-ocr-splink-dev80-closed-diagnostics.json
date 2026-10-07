@@ -1,0 +1,119 @@
+{
+  "method": "luna-ocr-splink",
+  "prior": 0.010416666666666666,
+  "input_missingness": {
+    "query": {
+      "brand": 29,
+      "quantity": 39,
+      "model": 80
+    },
+    "catalog": {
+      "brand": 0,
+      "quantity": 14,
+      "model": 87
+    }
+  },
+  "quantity_comparison_included": true,
+  "model_comparison_included": false,
+  "em_sessions": [
+    {
+      "rule": "1=1",
+      "status": "returned"
+    }
+  ],
+  "fit_valid": true,
+  "parameter_validity": {
+    "title_tokens": {
+      "m_probability": {
+        "positive_finite": true,
+        "sum": 1.0,
+        "normalized": true
+      },
+      "u_probability": {
+        "positive_finite": true,
+        "sum": 1.0,
+        "normalized": true
+      }
+    },
+    "brand": {
+      "m_probability": {
+        "positive_finite": true,
+        "sum": 1.0,
+        "normalized": true
+      },
+      "u_probability": {
+        "positive_finite": true,
+        "sum": 1.0,
+        "normalized": true
+      }
+    },
+    "quantity": {
+      "m_probability": {
+        "positive_finite": true,
+        "sum": 1.0,
+        "normalized": true
+      },
+      "u_probability": {
+        "positive_finite": true,
+        "sum": 1.0,
+        "normalized": true
+      }
+    }
+  },
+  "last_parameter_change": 9.91e-05,
+  "tie_break": "Frozen lexical score within exactly equal posterior values; posteriors unchanged",
+  "probability_sums": {
+    "title_tokens": {
+      "m_probability": 1.0,
+      "u_probability": 1.0
+    },
+    "brand": {
+      "m_probability": 1.0,
+      "u_probability": 1.0
+    },
+    "quantity": {
+      "m_probability": 1.0,
+      "u_probability": 1.0
+    }
+  },
+  "prior_sensitivity": {
+    "overlap_fractions": [
+      0.25,
+      0.5,
+      0.8,
+      1.0
+    ],
+    "pair_priors": [
+      0.0026041666666666665,
+      0.005208333333333333,
+      0.008333333333333333,
+      0.010416666666666666
+    ],
+    "mode": "Fitted likelihood ratios held fixed; EM not refitted; no outcome selection."
+  },
+  "status": "predictions_saved",
+  "pair_count": 7680,
+  "ranking_ties": 34,
+  "parameter_boundary_warning": "Posterior values are model outputs; conditional independence and EM identifiability are not established.",
+  "comparison_level_counts": {
+    "gamma_title_tokens": {
+      "0": 6204,
+      "-1": 1344,
+      "1": 68,
+      "3": 57,
+      "2": 7
+    },
+    "gamma_brand": {
+      "0": 4224,
+      "-1": 2784,
+      "1": 672
+    },
+    "gamma_quantity": {
+      "-1": 4318,
+      "0": 3192,
+      "1": 170
+    }
+  },
+  "last_iteration": 29,
+  "convergence_tolerance_met": true
+}

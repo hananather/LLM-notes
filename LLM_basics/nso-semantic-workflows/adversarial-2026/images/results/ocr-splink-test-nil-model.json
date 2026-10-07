@@ -1,0 +1,156 @@
+{
+  "link_type": "link_only",
+  "probability_two_random_records_match": 0.0008,
+  "retain_matching_columns": true,
+  "retain_intermediate_calculation_columns": true,
+  "additional_columns_to_retain": [],
+  "sql_dialect": "duckdb",
+  "linker_uid": "qf65ipso",
+  "em_convergence": 0.0001,
+  "max_iterations": 200,
+  "match_weight_column_prefix": "mw_",
+  "term_frequency_adjustment_column_prefix": "tf_",
+  "comparison_vector_value_column_prefix": "gamma_",
+  "unique_id_column_name": "unique_id",
+  "source_dataset_column_name": "source_dataset",
+  "blocking_rules_to_generate_predictions": [
+    {
+      "blocking_rule": "1=1",
+      "sql_dialect": "duckdb"
+    }
+  ],
+  "comparisons": [
+    {
+      "output_column_name": "title_tokens",
+      "comparison_levels": [
+        {
+          "sql_condition": "list_count(title_tokens_l) = 0 OR list_count(title_tokens_r) = 0",
+          "label_for_charts": "Missing text",
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "is_null_level": true
+        },
+        {
+          "sql_condition": "list_count(list_intersect(title_tokens_l, title_tokens_r)) * 1.0 / least(list_count(title_tokens_l), list_count(title_tokens_r)) >= 0.9",
+          "label_for_charts": "Token containment >= 0.9",
+          "m_probability": 0.04992838794364237,
+          "u_probability": 9.80392156862745e-05,
+          "fix_m_probability": false,
+          "fix_u_probability": false
+        },
+        {
+          "sql_condition": "list_count(list_intersect(title_tokens_l, title_tokens_r)) * 1.0 / least(list_count(title_tokens_l), list_count(title_tokens_r)) >= 0.7",
+          "label_for_charts": "Token containment >= 0.7",
+          "m_probability": 0.12973980013242709,
+          "u_probability": 0.0003431372549019608,
+          "fix_m_probability": false,
+          "fix_u_probability": false
+        },
+        {
+          "sql_condition": "list_count(list_intersect(title_tokens_l, title_tokens_r)) * 1.0 / least(list_count(title_tokens_l), list_count(title_tokens_r)) >= 0.4",
+          "label_for_charts": "Token containment >= 0.4",
+          "m_probability": 0.7399057577747624,
+          "u_probability": 0.005774509803921569,
+          "fix_m_probability": false,
+          "fix_u_probability": false
+        },
+        {
+          "sql_condition": "ELSE",
+          "label_for_charts": "Lower token containment",
+          "m_probability": 0.08042605414916809,
+          "u_probability": 0.9937843137254901,
+          "fix_m_probability": false,
+          "fix_u_probability": false
+        }
+      ],
+      "comparison_description": "CustomComparison"
+    },
+    {
+      "output_column_name": "brand",
+      "comparison_levels": [
+        {
+          "sql_condition": "\"brand_l\" IS NULL OR \"brand_r\" IS NULL",
+          "label_for_charts": "brand is NULL",
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "is_null_level": true
+        },
+        {
+          "sql_condition": "\"brand_l\" = \"brand_r\"",
+          "label_for_charts": "Exact match on brand",
+          "m_probability": 0.9424824513781874,
+          "u_probability": 0.27825,
+          "fix_m_probability": false,
+          "fix_u_probability": false
+        },
+        {
+          "sql_condition": "ELSE",
+          "label_for_charts": "All other comparisons",
+          "m_probability": 0.0575175486218126,
+          "u_probability": 0.72175,
+          "fix_m_probability": false,
+          "fix_u_probability": false
+        }
+      ],
+      "comparison_description": "ExactMatch"
+    },
+    {
+      "output_column_name": "quantity",
+      "comparison_levels": [
+        {
+          "sql_condition": "quantity_l IS NULL OR quantity_r IS NULL",
+          "label_for_charts": "Missing quantity",
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "is_null_level": true
+        },
+        {
+          "sql_condition": "quantity_type_l = quantity_type_r AND abs(quantity_l - quantity_r) <= 0.05 * greatest(quantity_l, quantity_r)",
+          "label_for_charts": "Quantity agrees within 5%",
+          "m_probability": 0.9999999999999877,
+          "u_probability": 0.005739795918367347,
+          "fix_m_probability": false,
+          "fix_u_probability": false
+        },
+        {
+          "sql_condition": "ELSE",
+          "label_for_charts": "Quantity differs",
+          "m_probability": 1.2379513221278325e-14,
+          "u_probability": 0.9942602040816326,
+          "fix_m_probability": false,
+          "fix_u_probability": false
+        }
+      ],
+      "comparison_description": "CustomComparison"
+    },
+    {
+      "output_column_name": "model",
+      "comparison_levels": [
+        {
+          "sql_condition": "\"model_l\" IS NULL OR \"model_r\" IS NULL",
+          "label_for_charts": "model is NULL",
+          "fix_m_probability": false,
+          "fix_u_probability": false,
+          "is_null_level": true
+        },
+        {
+          "sql_condition": "\"model_l\" = \"model_r\"",
+          "label_for_charts": "Exact match on model",
+          "m_probability": 3.775925923767067e-67,
+          "u_probability": 0.03819444444444445,
+          "fix_m_probability": false,
+          "fix_u_probability": false
+        },
+        {
+          "sql_condition": "ELSE",
+          "label_for_charts": "All other comparisons",
+          "m_probability": 1.0,
+          "u_probability": 0.9618055555555556,
+          "fix_m_probability": false,
+          "fix_u_probability": false
+        }
+      ],
+      "comparison_description": "ExactMatch"
+    }
+  ]
+}

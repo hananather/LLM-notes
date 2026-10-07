@@ -1,0 +1,125 @@
+{
+  "method": "ocr-splink",
+  "prior": 0.001,
+  "input_missingness": {
+    "query": {
+      "brand": 630,
+      "quantity": 605,
+      "model": 828
+    },
+    "catalog": {
+      "brand": 0,
+      "quantity": 222,
+      "model": 846
+    }
+  },
+  "quantity_comparison_included": true,
+  "model_comparison_included": true,
+  "em_sessions": [
+    {
+      "rule": "1=1",
+      "status": "returned"
+    }
+  ],
+  "fit_valid": true,
+  "parameter_validity": {
+    "title_tokens": {
+      "m_probability": {
+        "positive_finite": true,
+        "sum": 0.9999999999999999,
+        "normalized": true
+      },
+      "u_probability": {
+        "positive_finite": true,
+        "sum": 1.0,
+        "normalized": true
+      }
+    },
+    "brand": {
+      "m_probability": {
+        "positive_finite": true,
+        "sum": 1.0,
+        "normalized": true
+      },
+      "u_probability": {
+        "positive_finite": true,
+        "sum": 1.0,
+        "normalized": true
+      }
+    },
+    "quantity": {
+      "m_probability": {
+        "positive_finite": true,
+        "sum": 1.0,
+        "normalized": true
+      },
+      "u_probability": {
+        "positive_finite": true,
+        "sum": 1.0,
+        "normalized": true
+      }
+    },
+    "model": {
+      "m_probability": {
+        "positive_finite": true,
+        "sum": 1.0,
+        "normalized": true
+      },
+      "u_probability": {
+        "positive_finite": true,
+        "sum": 1.0,
+        "normalized": true
+      }
+    }
+  },
+  "last_parameter_change": 9.71e-05,
+  "tie_break": "Frozen lexical score within exactly equal posterior values; posteriors unchanged",
+  "probability_sums": {
+    "title_tokens": {
+      "m_probability": 0.9999999999999999,
+      "u_probability": 1.0
+    },
+    "brand": {
+      "m_probability": 1.0,
+      "u_probability": 1.0
+    },
+    "quantity": {
+      "m_probability": 1.0,
+      "u_probability": 1.0
+    },
+    "model": {
+      "m_probability": 1.0,
+      "u_probability": 1.0
+    }
+  },
+  "status": "predictions_saved",
+  "pair_count": 1000000,
+  "ranking_ties": 631,
+  "parameter_boundary_warning": "Posterior values are model outputs; conditional independence and EM identifiability are not established.",
+  "comparison_level_counts": {
+    "gamma_title_tokens": {
+      "0": 984931,
+      "-1": 8000,
+      "1": 6356,
+      "2": 546,
+      "3": 167
+    },
+    "gamma_brand": {
+      "-1": 630000,
+      "0": 280540,
+      "1": 89460
+    },
+    "gamma_quantity": {
+      "-1": 692690,
+      "0": 297380,
+      "1": 9930
+    },
+    "gamma_model": {
+      "-1": 973512,
+      "0": 25416,
+      "1": 1072
+    }
+  },
+  "last_iteration": 50,
+  "convergence_tolerance_met": true
+}

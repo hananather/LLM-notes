@@ -1,0 +1,64 @@
+You are using the default value for `max_pairs`, which may be too small and thus lead to inaccurate estimates for your model's u-parameters. Consider increasing to 1e8 or 1e9, which will result in more accurate estimates, but with a longer run time.
+WARNING:
+Level Jaccard >= 0.9 on comparison title_words not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.7 on comparison title_words not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.4 on comparison title_words not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.5 on comparison description_words not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.2 on comparison description_words not observed in dataset, unable to train m value
+
+WARNING:
+Level lower similarity on comparison description_words not observed in dataset, unable to train m value
+
+WARNING:
+Level All other comparisons on comparison brand not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.9 on comparison title_words not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.7 on comparison title_words not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.4 on comparison title_words not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.5 on comparison description_words not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.2 on comparison description_words not observed in dataset, unable to train m value
+
+WARNING:
+Level lower similarity on comparison description_words not observed in dataset, unable to train m value
+
+WARNING:
+Level stated comparable quantities differ on comparison quantity not observed in dataset, unable to train m value
+
+WARNING:
+Level price within fifty percent on comparison price not observed in dataset, unable to train m value
+
+WARNING:
+Level larger price difference on comparison price not observed in dataset, unable to train m value
+
+
+ -- WARNING --
+You have called predict(), but there are some parameter estimates which have neither been estimated or specified in your settings dictionary.  To produce predictions the following untrained parameters will use default values.
+Comparison: 'brand':
+    m values not fully trained
+Comparison: 'brand':
+    u values not fully trained
+Comparison: 'title_words':
+    m values not fully trained
+Comparison: 'title_words':
+    u values not fully trained
+Comparison: 'description_words':
+    m values not fully trained
+Comparison: 'description_words':
+    u values not fully trained

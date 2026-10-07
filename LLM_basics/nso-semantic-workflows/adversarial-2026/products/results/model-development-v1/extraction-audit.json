@@ -1,0 +1,3015 @@
+{
+  "failed_extraction_ids": [
+    "p_02c418e62420cbec5a4711bb",
+    "p_03a7501ffa6c8401f09b845b",
+    "p_0648e8a1d04a2e38c51e0180",
+    "p_08090234e259f35490f22550",
+    "p_08679f4a71621d2584ad17bc",
+    "p_107cce64bce477478caaee99",
+    "p_12e837f8dc4733d497153035",
+    "p_1ac58dd5875a52edc962f9d7",
+    "p_1c4b68767dfa36246e344226",
+    "p_3bd7ea74a5913556ff70b566",
+    "p_48c0e743e051f4cf93a926e4",
+    "p_57638cffbd66b9c8c8b7f7ff",
+    "p_5ac7bdc263444b850d887b4d",
+    "p_5cd7c07853670226ef598bcc",
+    "p_5d947fa1d3179061ddbba95a",
+    "p_68ede5a6d314ddc50ae9c3c0",
+    "p_6ba2f235ab379fd5894f2e10",
+    "p_6c49bf1ba04b1ee58a1fe527",
+    "p_760a0cd8a3166f21dbca4126",
+    "p_782bfbdb688055b94db4a717",
+    "p_84392ed7a5f8bdc5b874798e",
+    "p_8f9c6df50a56a9c4665c8cab",
+    "p_a513f7c4f8c062a5102a6eb2",
+    "p_ad74c9effa144bc5972aea47",
+    "p_ae0c693823311f13d0e409d3",
+    "p_af2ab1f79641ac186fcab8e1",
+    "p_bca14bd408b2e025aa7030e8",
+    "p_c10cacb57fc664f1f1b9e977",
+    "p_c459e043408e45280a6d53d5",
+    "p_cf8f4abbc812464588650756",
+    "p_ddaaafc87bb0d3bc1f5d2223",
+    "p_e64aec186b854d9e1356c163",
+    "p_f360852c2c1485ffba482034"
+  ],
+  "records": [
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_0077280814d1132fe69441ce",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_0554b53d07653d0b86479efd",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_0bebbd7ce8ec2c986d3c6f75",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_0e079cdae4b2f7be0be8983e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_0f0ac68bbbc629f4439e589e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_152a35ae59c6184671e12e00",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_177f1c8bc41dfe73649028fb",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_18926601120b864e02d3f022",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_18d874f7383ff6667a442132",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_1afdf8aea884c62fa3cc1dbc",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_1c2f3ecf333e7c830ae25b86",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_1cbfd52821c56b1758b8a164",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_1d1de4ba535073d9506f31e2",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_1d9cf0f3dc3e55424ef986d8",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_1df0d94969298173a05524a9",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_1fb990b0c73a7ce7b50373d7",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_1fcba46ad3aaafdcd51cc138",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2567345d574cc726d21eb762",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2a2da4be96363d954417467c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2b44e0e1723b6ee0a93c1f83",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2b97f2656647e48a05894b1e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2e8f1bc7a60d572ef9920a3c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_31c9ae75635000373aecbcf7",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_31fe3272f9017ae2142882c5",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_32f5684678948ca92770d83c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_336f6b5bc2205d9882e6f435",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_39702dcbf9411c0c559f65ce",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3b11b10e8287b5e0cf8e41ac",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3b6ccf30b1916bf80d3e1a79",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3b8104a8c1e15b1d4761ec85",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3c6575c1eda15a809b80ef15",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3caa4e8511aba030bf4a7757",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3cb56e38b35c604107814466",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_405716e59441233349e6d20a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_40813bd75c92131af7f59fce",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_44a1bde381fc808f3de24431",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_45fee834d6e96b7903947327",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_46e22a8b97b67d3d4715cdb0",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_46fdeb11d6153546294d13ed",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4a0251f9e5498335d5cb8e72",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4c989c47b65f0907962e253b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4d52637cc20169d4a2f8e257",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_50ac9bfcef79f88c7fd80fde",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_50f87cfc3131f08864972f05",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_55b5c9b079bed1f0607ef462",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_58de4eadf30fd1bf045c2c97",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_593010476658cecab1a3a003",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_5a2718ae28243d01cb57036f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_5cd7c07853670226ef598bcc",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_5d524230629df03b18238ad5",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_5efb7fea9da46dc88078cb15",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_63cbe6118fba44f2af4f00b0",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_653cc41b92df52bb7b6cf38e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_65afd95a69935924f89e0d30",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_65b619e0505f7ed01b3e4776",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_6603b6d7eb4071a38c5b51c4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_669e46da625ead8179df068e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_67814ea71152d836020f650f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_690042c3cdf9c6ed91889d50",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_6c49bf1ba04b1ee58a1fe527",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_6fa7d70ff82213151053599a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_6fdf819eefb5bba933f71e7c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_70b1baefd2be4996c33479d0",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_715c205d6e32eab56a3be340",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_74841f8d171fcc26f2385770",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_753ad8ed45cfa2d4dfe77462",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7959a34774773251008bfcd7",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7b8b35e368da40c50c8a1b29",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7c1630afe1d1ad5c63300a5f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7c67e5546e623e91065eed60",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7cbc9d8204db79b304672313",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7e2538835cd89629a07a89de",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_80e5a87d691886a6252127db",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_8357c6ddc62f805c2386cd1f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_84e88d64b7ca80c49cf9f536",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_860451dd898fbe808f5acb5e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_864faedfb91c73efb24e0d20",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_89bc1d3760f23e5e0ad30b6c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_8ba14877649b73f160756afd",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_8e03582733f705958148b13f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_8e33013f01231a8d4ee1abe8",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_91b9819f688cabab959e267d",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_94d7410a10b481fe260868c7",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_951471c81d725e5f17e25d60",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_977899bfed0daad269a6f37e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_97a8034020a3daa524e512a2",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_9885037c4a6eed1fe0ab4f40",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_9ac4c473044a0eb0ab671756",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_9c3ff3cd1e4281749b466dbc",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_9cf0418e4f683bdb0ffe5e08",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_9e35dfc37af546e0575f809f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a065cf32872ee9b0a4b2ef09",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a220fa7e1b6359c58f5c2194",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a2c995493954af72bda7e7c6",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a3c312aa0bdaf7461772556e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a4fb6b84b7a0013dcb6f4747",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a70ad18840dfbc8ab8bed120",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a7a1dd4024b3dd44f3e02b61",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_aaa576f57912c61ea8913c11",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ab3c9e2e3f685b697165a17d",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ab84ef34c31b3b8393b51770",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ace826eb7835632064e71fa5",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ad5f9d36b55965089df15cbd",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_adbc3891ad2dd3dbb1f785e0",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_afb4579cf1c6975a38e6ecce",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b0e557d49c16375c8fb11adb",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b1536453d88283a1cb7f75bf",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b17f432eac498a31281689e0",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b2139ad0364be2bf2e087e91",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b2e6865afcd36237f120df70",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b3a02fb892e384dacd88fb61",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b41bf92f3ca6d0ffeb9314c1",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b5922248a552b3d901664f18",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b7e336bd5eacf0e42c06ef27",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b95f044b5e489a0ce19f81d4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ba65e33e2e9ee9caab2a748f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_bca22b6d20357e08816c6570",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_bd2c9601a11a68e1065d724c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c03db8672b5b1a5fd952f382",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_c10cacb57fc664f1f1b9e977",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c610979ef984c664ec413383",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c642050a5b8b1f09b0c1dd49",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c65aa582dbfefed16b6b4e0e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c91de880e24078f44be348df",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ca050d4a0daf5752a67baa67",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_cd473c7e4d187f03cd527439",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_cf66787999c3c08b807b57c5",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_d65506924825a81e0cd42b60",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_da3f72f4dffc49e38081cc06",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_dc0cf22eb5ce1ba0e691cb6c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_dfab4ea78615555c4ad214a1",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_dfc6a725067db9b445af4253",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e8fcaf77fa7bb769a8d7a000",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e9d65a849bb565f8b4fff80f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ed6c80d9d5e32ee9a2aab567",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ed7eb640951504293ef981b2",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_edfd6dde23ff47eccff36dff",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ef6ad0b571780926037dacdb",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f24a6e964b473318b8783f99",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f250c6bbad9c9e59ca9a2ffb",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f39c6825cc4c55040930e00a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f921aa05d27aa8f97e00b368",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_fc72f5d6a3070f3fae86c405",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ff82c47f2c4e9b9ff4475087",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_027793ed99c0cdf82ae01228",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_02c418e62420cbec5a4711bb",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_02ee5f1056017bf323583c04",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_034efb6cce70c07e89f21328",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_03a7501ffa6c8401f09b845b",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_048bb95039e27d56ec346f5e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_0574d7b95c11d1fd27f6a2aa",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_0648e8a1d04a2e38c51e0180",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_07e28285cbd1469d44eb1bc1",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_08090234e259f35490f22550",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_08095fa7cefcdb9ac44c6305",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_08297f609869e0ba56f35ed1",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_08679f4a71621d2584ad17bc",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_08b9550fc94c04930df57db5",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_08e2c693696aa2d417fbcb2c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_09290215484a12d0df437899",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_0b0f4ee7e938cb70c9fea7c1",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_0b698b28009ba3bb14754ea6",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_0bfa548fad345029f8bb49af",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_0c1f7e35a3e9d5eb8942d625",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_0c5678ca698c377280bb1d8f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_0ce5fb9ee955aa6302fc64b4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_0d09f691ff255fc89e1f0f5a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_0f9419d8429e0e866bad2f3a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_107cce64bce477478caaee99",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_10a2aa4c751bd56e29d10802",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_129f8fb00d0b258dfb6c8828",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_12e837f8dc4733d497153035",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_143c281fa1f0ff490ba24445",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_153aec45277f79d802eedde3",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_15968d1fbfe3dc758b576d5a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_15ed45ecc2565bb8b0fc67d8",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_1853c08d89c727b8f4286774",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_19c28577014f099d381b5794",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": false,
+      "provider_status": "valid",
+      "record_id": "p_1ac58dd5875a52edc962f9d7",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_1c4b68767dfa36246e344226",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_1d432e29e7fbf9d8a72f6957",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_1dd2d94fe363e45e3ef0152e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_1df2dfc89c9026e4dd63dc81",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_1fe2e61545268b741c262d04",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_1ff2e53c53116e1430530ce7",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_21048e1a90fb3e34a13c8efa",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_21c602160fb2d9d6d6a3f149",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_229634fcfcb27cd22f7d9968",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_22981ee4626dcc66ecee9bfd",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_231c1fa49481ee823adda7f7",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_235bd9c9f9197ec5512c374a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2401636e5d8b59a4c7c2664d",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_241571497721f9fd4acebf7d",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_243204869469998d4c0ff4e2",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2571f796a1b65852247be393",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_25e0ee0e312544c2dcb09df0",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_26cbfe3c017a2276475b76e6",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2713b7f20c3fa0ea905623ce",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2806b8831ef74e1341fa6872",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2b31ff893ca3ca9d0cbeb5c1",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2ba8f20ff95aada9824567d4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2bc70d6d31c271407ef8f128",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2d01b298fcb369ebb308df88",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2e71b5393998e242667f3697",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_2e85dd450a3f3e54dafd4d03",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_301720c8b565c2fc227ea1eb",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_30389be0e587a7b218d38582",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_30a87a4e2a1537781ee9e12c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3154589252aa3316f07fe53a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_33ca84a458572dee43157713",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_34b8dc85062d8cba255beb0b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_355923f8b3277a5f4d59ab6a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3571ddaa59289643f2709ab6",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_361640c77468b82d874e633b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_365b767ee816c4d7113700a2",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_367b1d71690c93ad1fd10b86",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_375615d437670dbed0036430",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_37710f1675e4e3043c70facf",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_37b490bcdbbf5d29c8bd7247",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_38d1ce2ac8d10e46d7caee5d",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3a5e17e732c5c50c5ff99743",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_3bd7ea74a5913556ff70b566",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3dd4b1653d4d7bb60651d3d1",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3e6d59d2d7f706b3edfa2e44",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3e6f94f6b0298839cb372dae",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3ee169ce964d075f9694b105",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3f3ae20d23c42c8f955abee7",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_3fc7f197f81be9841543f42f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_404acea509b2af59496cb7e5",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4240bc33629e815fbc26080b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_42dd0de49badcaee22576ac9",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_43c8396fb58ec143155bdff3",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4453395bbc86054b8ba6898a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_44e77532aff938868613776e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4513bca891aaf84fe5f0a234",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_45b0875f4425d50115769bd4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_45b8c0ede1ad62da2e1014cd",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_46603f585c5f520ae2100a09",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_475769f9b8d3a1fd89fe185c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4789a5f32951a100d433d2de",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_47a8bd55f5f814aa3e4e0cce",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": false,
+      "provider_status": "valid",
+      "record_id": "p_48c0e743e051f4cf93a926e4",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_492c8a234d6b4fdb470ac6a2",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4a28e3bf7fa50bb2cda703d5",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4bcb86d435d9e0b9edaea094",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4c3b22fcdbc0b0c67d68347d",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4c3b684ca0762623159f81a5",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4c7723aad81c9e1170162db4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4cac2f7451e1ca20b6868f4a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4ec9c3ee020eb8574e022625",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_4ffa1e5df00a67b130cfb268",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_50621e6e0abba77c13a57c0a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_513be74bce2ed52d5116244c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_516eca2e8154c34ff6c0d5e6",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_518c7d6ae3303ebe95fc95c5",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_519acaede7e8da9678e96a3b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_51a648a44a90696510153762",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_536ab5e95b8325b5102967f0",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_539e0074dcd3d976aa7bdf4a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_56afa71614e084a604c8e8f3",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_56cea8b0d7c30da86a1e93c8",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_572e8a7878b3ba5f6ea89480",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_57638cffbd66b9c8c8b7f7ff",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_57ad010c0aabaacf018e80fb",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_57c57823b2eabfd9f9022b92",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_581a790b0e351e9584f14284",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_588d7c5514bfb046a5bdad40",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_58c298ab0ba770f7a92879c1",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_5a3838d8dc2fa18e0f3105c7",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_5ac7bdc263444b850d887b4d",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_5b3fe63c10cdcb10a6255ac8",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_5b7dc71f362774fdf9f6d31e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_5bcb09e77d8b85243e3ab842",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_5c4356bec525ada2f4ac5f9b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_5cb4b4926fc24ed3973af0c9",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_5d0e2237b585b5af9d34ff33",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_5d947fa1d3179061ddbba95a",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_5e8611f5b666fca23b2b9e1f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_5ec91e65664806120ea83e13",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_5f902bd44692673f158b1188",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_605c34f71fdca305e485b155",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_6061c48083272ca1bfb343ae",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_60fc62d97b0dc7f9783b5e99",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_63b67b65275e25a89a54fbb5",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_645bd3c9637b003a596a3c49",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_646a3746736d57ebfa39cc9b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_655509d1fd4ad57863d6be08",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_6697b316f85899eb70ea9bf7",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_66da02d195ee46fbf515bfcb",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_66f833ec77f9eb1ee27d7232",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_6738d5c3c1418185dde8a140",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_689e22d536c183c416dde150",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_68ede5a6d314ddc50ae9c3c0",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_69c9f8bb693b3df0745d254b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_6adc65165a6186c4556c5d30",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_6ba2f235ab379fd5894f2e10",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_6cc637d21e3b63f4c6f4634e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_6d190f820d2f161c463782e4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_708e08d453b4c0e534d654a1",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_71b4e069a0682d07f6bf04c4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_720963ab703efb92af8a202d",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7228b1d39279f578488fdc47",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_722faa73dab93af87a4d26a6",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_73b21f0eceeeb859a5be4a25",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_748a23933066b66904ce0153",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_760a0cd8a3166f21dbca4126",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_767758bb62be3f1a1ca02698",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_76d1ba5322c8cb20f2c08dac",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_77c8f4f41d7059726797ecd1",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_77e608c4ba28e4446716e2d2",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_782bfbdb688055b94db4a717",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7893924cd665c1071b1c15b3",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_79e24df3f402c9e2ee13986f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_79fc8703d85c210a2ae7649d",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7a0ad8835369d38454e67080",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7a2f6c38f33d05b99437c392",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7a5f1006d0dcf75514aa534b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7b18e4554fafe0bce2fde74a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7b5e3cb0007b7757531f8dcf",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7df373e5027033363451f4ba",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7e023c59d20ec16302d055d8",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7ec043e935c5951a341b780f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7ef70194c7cf1615afba8947",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7f222e74553eb6b8e036e3b2",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_7f7a08dd494977142df022d9",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_80035497397091b514305f1a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_80f25435f4c0943d64eb4f8d",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_8230a2cc374f75de3db6e526",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_84392ed7a5f8bdc5b874798e",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_84af2a34c11ac7d654af8c91",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_8576a5a03bd2bc5755b6a754",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_8593f293fca4da8209d5e167",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_85d512b8da41c2aab015b143",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_861c95dfe2aea35025ea588a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_86800a48c0d167924678d3db",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_88a5f138309d3efae92b342a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_8ab7fff80cccde37d775250d",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_8b81ca9659b3dc7f963e0662",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_8ca8c8f212433d99bd3d3978",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_8d84939244ea5975cdf6d420",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_8db8c168c9b09288474bd208",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_8e38bcff0af0fbcb65e77702",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_8f47a98e6e325f76735900c0",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": false,
+      "provider_status": "valid",
+      "record_id": "p_8f9c6df50a56a9c4665c8cab",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_9006700d0f1c76b191ea961b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_911799f8f8f83e7203cf5ac5",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_9195b097e7240baa9dad1d43",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_91ccabe1c0855d77a4bd0895",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_930b057bf7a08c5c6d95868d",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_9442d0364a1df532c688a98b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_96ab2b65c886e35282336282",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_971949c16873663cff4c7fff",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_98117dd62278ad5a9a126e32",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_98197d8ed4f4279313c7b2c2",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_98eb43a1449c5db7b1594444",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_998daf24ff888fb731d966dd",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_9b5ab682e72d6c91ff90da7e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_9eab3fe18cd606aa6f1edc70",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_9ec4ca7994df2614beed499c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_9ee6a20a3eb04ca997f8f1c5",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a08ea990cee46443c3b56ce5",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a09efe6493261dff2012559a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a33dbe9c352656ad103430e0",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a4ca2397664c2f88f0f3de81",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_a513f7c4f8c062a5102a6eb2",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a6881425f08e2b36eab5b900",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a7015e463c39ba108fa1c7bc",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a76cad4d198329afef060f72",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a833f1601d9758846f5aa326",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a84e9cfe9540c1637e99aab9",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a8845e5fd6a396436b63e5f3",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a88d102dbff158f58006ff85",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_a92608cd44e5487663062ade",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_aa0afa0929d7909abf5e2192",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ab2f5cc7649a146cd58ed315",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ab35ecd05c86e33c673944a2",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_abe5f65aa7c83b029c8dcfdc",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ac97616e748d22861bd600b5",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ac9eb3754cf2b25a6f7f5c4e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_aca863a7aa944b88c3d5fc29",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_ad74c9effa144bc5972aea47",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ad74d45da56b59a13bb79f7a",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ad7c9adc4b8f58f39ba7158e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": false,
+      "provider_status": "valid",
+      "record_id": "p_ae0c693823311f13d0e409d3",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ae567d2e8a58879e7baf96be",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_af2ab1f79641ac186fcab8e1",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_af751892155d52f63c20879e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b005f3fde711f492f0398e69",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b1d9069fb34ab2a324ef54b3",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b202d8685d8b9229478ff7f6",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b32dc2e9d1fa13551b8cf451",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b3b8e15f9e08efbb79091ddd",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b61f6add832893555ebc0e9b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b62656e8b617f5e72a2ab4c3",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b7a3beea4b46da6ff9f6fb95",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b8a046833dc801fdc431711e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_b924164ca3d0d55bf976007e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_bad1e86f46f4c64cdc2da73c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_bb40f1f35318c6816c9ed6a4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_bc6e0065cb04aa0952ce4a34",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_bca14bd408b2e025aa7030e8",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_bce990f39c4bc33c46e90ef9",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_bdfecfda8622c1c69288fe15",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_be1551b6b339d71bd3861222",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_be6d96c5f8f80c56b1222e7c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_bf2e73f498be710cb0ff0530",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_bf51f9a9d7d5bdf98e3e9ad8",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_bf79c44a4f9d18fd509bade0",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c0ee116f1e812c05d8209246",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c1713584037807ff057ad9c8",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c1c376b3e004aa76fb617676",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c23817cd4918d63a48b26f1f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c2ae63cd07316e2abb63ae39",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_c459e043408e45280a6d53d5",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c46ebe27a7222f531061085e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c4831aff4be8fbb225d910ab",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c48e0d19e0b78149b44ac8c9",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c49bc42ddc945cc3bceebbf7",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c5396e84695f9247e1146066",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c956ed949d7f49f4e7778a2f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c9aac935bda738b9181ecf4d",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_c9c09dc6e8a3fff758760b63",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ca7a8927db063d1b4f0446cd",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ca97c5b6a02e22582c61b914",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_caea7f950e94b721074a4ea4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_cb66189256865a3f29759753",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_cb842974b37dc6ed18b8cb2e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_cc76bfaeb3911a827010f299",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ced29901cff0f7486ad8d588",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_cf8f4abbc812464588650756",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_d16c6391ecd71d477a953436",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_d16ccaf94688e9d5f1cffda6",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_d17c09d6894627dd2a9069f8",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_d20f56dfeb46617df09ef149",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_d2484abad04d137d871fb288",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_d2b2f169aa3044d8a795f1f9",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_d5d434d3464556541efdeaeb",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_d61baffc1bc97d4018c12331",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_d76373cbc4bbdec15d7b2421",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_d78fa0d6fa25f24674f77ec2",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_d950aedc59d560342b55ceb0",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_da23b28bf302f40e271b6ffa",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_db15f7cbd2955dce1da5cc18",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_db5003733748d71bbc01df32",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_dc91e67e613c593ae97098ae",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_dcaa2022b6b8de26969e11b4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_dd3eb58f56749ac73b22e55f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_ddaaafc87bb0d3bc1f5d2223",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ddd6713fb2d6b9fe12aadb6e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_df540b3728774bb2168fc483",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_dfb20033a935129221761110",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_dfe8553ceb9eaf4f1b2af687",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e148fdd332fd40048575ee65",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e19e0f678ff1e7cd858605f2",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e2bee00810b6451741eadc33",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e33c19ce8f3a6de3bc1dd7ab",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e3e800007653e068f06fde19",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e4133604da6d8f22f6af476b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e4a8af1c99bc835d4511b090",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e4e16019ce611d18fc9376f4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e620238625d1a9898ea65269",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_e64aec186b854d9e1356c163",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e6e9b979a6aa027e6bf22fa4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e6ed927bfa76aae8647dc0ba",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e80ede84ddbb407b21fc8336",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e8a778174db6e93b6433a57f",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_e9b1df3b74ed5ea78c084be0",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ea5f9bbca6005519933eab66",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ea986373362a899856a163f8",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_eac0283b8171a688fc6f9bd4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ee838d1d207326f8ff7f33f7",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ee8dff4bf13ae015c89bccae",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ef528da4a1feacaaeceabd43",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f015e80ec281cb45f259de78",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f0d364c15fd2602a0a87de58",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f17118dd36b10fb001eedea6",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f295565be20d3736ee40fa61",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f2f12bfb4d65ebea55a95f7c",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": null,
+      "provider_status": "failed",
+      "record_id": "p_f360852c2c1485ffba482034",
+      "status": "failed"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f44141b77e54ba750eb92bc4",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f55e243eceb6978910daa02d",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f58b7f1c452014f31a703cc2",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f6bea6dbea024e4ebdd9ff1e",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f73fd69fadb3c6badab91664",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f7661aab5a3b04c5edb0fe4b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f7755b09e0f2ab8ef6099449",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f7a7de1f654bde10e5215a30",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f7e11d2ab463ac4f14db2830",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f8431af2b9aedbfb229ddf9b",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f8551946c22381d8d778bad2",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_f9a522db175b4d598bf4b9b9",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_fae5f13b4c3a6eabb6eeaf01",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_fca227e8bb6da982128336cd",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_fd5bd15d70fb6bbc429a91a8",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_fdfc520adabc66388f1f1fdb",
+      "status": "valid"
+    },
+    {
+      "evidence_quote_presence_valid": true,
+      "provider_status": "valid",
+      "record_id": "p_ffd72c22d9ad4ca97294dc0f",
+      "status": "valid"
+    }
+  ]
+}

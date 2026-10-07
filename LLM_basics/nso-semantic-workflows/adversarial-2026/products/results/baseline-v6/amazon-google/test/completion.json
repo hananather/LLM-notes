@@ -1,0 +1,30 @@
+{
+  "dataset": "amazon-google",
+  "files": {
+    "candidates.json": "172abe39e9d7630d65dbba3c6dae44a7e96248b957708ba73cfd15a789e009ab",
+    "input-lengths.json": "788bd15e9f530a11b6df6eeb9d079b09e077b6c1c539a48c0f0388497e5be43b",
+    "lexical-all-pair-scores.npz": "263cbf6899c1d2fbac46dd8fff9254a5341eea48c94fa8966d6088619f2c6564",
+    "lexical-decisions.json": "9a9542741f2c3afebc62e7ed0501450d320d855bce183cdfcf907a509d207762",
+    "protocol.json": "1c177a5a62ac8967fe22c490d03a8addc42fffd5e068288fd60e8151ba757c6c",
+    "splink-all-pairs.parquet": "88d49adee5cabbb8e8676cdb4e0cb7fd10967b0d3bc932cfd197aaff899e6f6f",
+    "splink-candidate-scores.parquet": "6ff79f124d6b6a8bfd8b09a3bcda06bcaf6243cd74b2c47cb004a7e1f45e8b9e",
+    "splink-decisions.json": "eda2bdb116cbdc7fe469094b325bc399cb2d9f5817dc2454bb6ebe124ad51a95",
+    "splink-fit-audit.json": "5178fc8bb61e80bb41a4624ee2e80a76da6d64abadc4cfaf434c0aa4a9cebf5f",
+    "splink-model.json": "b57c3ce45f6b142015d4232504cc277d89a6c480dadeed0259a661abe6de3330",
+    "splink-training.log": "ce9a8b01033c013b1aa173e0b1e35b93da14532fa2b2e679749747ce92fc4b84"
+  },
+  "lexical": {
+    "candidate_pairs": 17943,
+    "wall_seconds": 2.959976333004306
+  },
+  "splink": {
+    "all_pair_count": 3503406,
+    "failure": null,
+    "status": "predictions_frozen_without_truth_scoring",
+    "unestimated_m_levels": 0,
+    "unestimated_u_levels": 0,
+    "wall_seconds": 79.36265937499411
+  },
+  "split": "test",
+  "status": "predictions_frozen_without_truth_scoring"
+}

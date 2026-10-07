@@ -1,0 +1,18 @@
+{
+  "figure": "product-and-image-comparisons",
+  "source_sha256": "ca525f5a0b366142b7fc668f4f7c4746d60e6a8a3789c89d6c44c52f174cca0a",
+  "matplotlib_version": "3.11.2",
+  "font": "DejaVuSans.ttf",
+  "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+  "size_inches": [
+    18,
+    14.7
+  ],
+  "png_dpi": 144,
+  "minimum_font_points": 14.0,
+  "artifact_sha256": {
+    "svg": "62f2cb7aeb5ef5e414d4febf144046735bca0d0535837a198b1f30e3594fdd41",
+    "png": "898f8898984488f92d2007503872c0b381bc0ae8fca84aa46ab7fa451404b816"
+  },
+  "scope": "Scientific design and execution scope; no result chart or outcome data read"
+}

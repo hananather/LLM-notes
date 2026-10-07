@@ -1,0 +1,30 @@
+{
+  "dataset": "amazon-google",
+  "files": {
+    "candidates.json": "db7c328ae498e3fd609a19087038735f748403b861dafb36bbd28e04875c8182",
+    "input-lengths.json": "ee736da4ec707925bb4a265d579e42ce1790f8cf6640dd7cbed63f1ce8ffa295",
+    "lexical-all-pair-scores.npz": "c56a1a07e076676136c80061ffeaef893b01273391a27013977eb9ff4cc86565",
+    "lexical-decisions.json": "67a8e9576738eb1aec0a33970fe6108b67921369f9a26584763b522e0c63aadc",
+    "protocol.json": "155a360cc0639ddff8902875103e851777bbf2d0da1ec0596506a858afd87e2c",
+    "splink-all-pairs.parquet": "79cbdd113b248c40f1148bbbd01a3fa567cba6de270dd8c2c10817c1e02a6632",
+    "splink-candidate-scores.parquet": "38617f6c34a57f242755e65cfad25735bbc354f978849b744d876ac9cf66df2b",
+    "splink-decisions.json": "8ad85bd2bf8e550604687ad7ea114613bb532fefc5e7e46a8f4a24eecb6e2f39",
+    "splink-fit-audit.json": "baf1bb63a9311580df272cfcb7815e20cc5762d5fc4d10aa909e224b59b27f2b",
+    "splink-model.json": "5bca320f3a6819493e0b4fb5ea00fd16219a9fb96feacf7410020d489ace6f64",
+    "splink-training.log": "4dd58d959084d86609db32bbb152f422aebf7dc7dc29dd2bb6274e35e8ae7278"
+  },
+  "lexical": {
+    "candidate_pairs": 2222,
+    "wall_seconds": 0.23518504200910684
+  },
+  "splink": {
+    "all_pair_count": 50688,
+    "failure": null,
+    "status": "predictions_frozen_without_truth_scoring",
+    "unestimated_m_levels": 0,
+    "unestimated_u_levels": 1,
+    "wall_seconds": 4.593794041007641
+  },
+  "split": "dev",
+  "status": "predictions_frozen_without_truth_scoring"
+}

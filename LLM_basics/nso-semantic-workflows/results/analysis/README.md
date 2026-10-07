@@ -1,6 +1,6 @@
 # Offline result analysis
 
-Snapshot: 2026-10-06T22:49:58.195710+00:00
+Snapshot: 2026-10-07T18:26:50.806684+00:00
 
 Counts below use complete saved runs and reconstructed task validation. The full paired cases, source-label references and deterministic examples are in the JSON files beside this report.
 

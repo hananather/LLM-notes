@@ -1,0 +1,125 @@
+----- Estimating u probabilities using random sampling -----
+Estimating u with: max_pairs = 7,680, min_count_per_level = 1, num_chunks = 10
+
+Estimating u for: title_tokens (Comparison 1 of 3)
+  Running probe chunk (~1.00% of max_pairs)
+  Min u_count: 0 for comparison level Token containment >= 0.4 (cvv=1)
+  Probe did not converge; restarting with normal chunking
+
+  Running chunk 1/10
+  Count of 2 for level Token containment >= 0.9 (cvv=3). Chunk took 0.0 seconds.
+  Exiting early since min count of 2 exceeds min_count_per_level = 1
+
+Estimating u for: brand (Comparison 2 of 3)
+  Running probe chunk (~1.00% of max_pairs)
+  Min u_count: 10 for comparison level Exact match on brand (cvv=1)
+  Exiting early since min count of 10 exceeds min_count_per_level = 1
+
+Estimating u for: quantity (Comparison 3 of 3)
+  Running probe chunk (~1.00% of max_pairs)
+  Min u_count: 0 for comparison level Quantity differs (cvv=0)
+  Probe did not converge; restarting with normal chunking
+
+  Running chunk 1/10
+  Count of 17 for level Quantity agrees within 5% (cvv=1). Chunk took 0.0 seconds.
+  Exiting early since min count of 17 exceeds min_count_per_level = 1
+
+Estimated u probabilities using random sampling
+
+Your model is not yet fully trained. Missing estimates for:
+    - title_tokens (no m values are trained).
+    - brand (no m values are trained).
+    - quantity (no m values are trained).
+
+----- Starting EM training session -----
+
+[EM sampling] max_pairs is None — no sampling will be applied
+Estimating the m probabilities of the model by blocking on:
+1=1
+
+Parameter estimates will be made for the following comparison(s):
+    - title_tokens
+    - brand
+    - quantity
+
+Parameter estimates cannot be made for the following comparison(s) since they are used in the blocking rules: 
+
+Iteration 1: Largest change in params was -0.4 in the m_probability of title_tokens, level `Token containment >= 0.9`
+Iteration 2: Largest change in params was -0.235 in the m_probability of title_tokens, level `Token containment >= 0.9`
+Iteration 3: Largest change in params was 0.0823 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 4: Largest change in params was 0.0872 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 5: Largest change in params was 0.0746 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 6: Largest change in params was 0.0542 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 7: Largest change in params was 0.0355 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 8: Largest change in params was 0.0222 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 9: Largest change in params was 0.0137 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 10: Largest change in params was 0.00847 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 11: Largest change in params was 0.00535 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 12: Largest change in params was 0.00346 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 13: Largest change in params was 0.0023 in the m_probability of title_tokens, level `Lower token containment`
+Iteration 14: Largest change in params was -0.00174 in the m_probability of brand, level `All other comparisons`
+Iteration 15: Largest change in params was -0.00135 in the m_probability of brand, level `All other comparisons`
+Iteration 16: Largest change in params was -0.00105 in the m_probability of brand, level `All other comparisons`
+Iteration 17: Largest change in params was 0.00082 in the m_probability of brand, level `Exact match on brand`
+Iteration 18: Largest change in params was 0.000646 in the m_probability of brand, level `Exact match on brand`
+Iteration 19: Largest change in params was 0.000513 in the m_probability of brand, level `Exact match on brand`
+Iteration 20: Largest change in params was -0.00041 in the m_probability of brand, level `All other comparisons`
+Iteration 21: Largest change in params was -0.000331 in the m_probability of brand, level `All other comparisons`
+Iteration 22: Largest change in params was 0.000324 in the m_probability of quantity, level `Quantity differs`
+Iteration 23: Largest change in params was -0.000324 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 24: Largest change in params was 0.000323 in the m_probability of quantity, level `Quantity differs`
+Iteration 25: Largest change in params was -0.000322 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 26: Largest change in params was 0.00032 in the m_probability of quantity, level `Quantity differs`
+Iteration 27: Largest change in params was 0.000317 in the m_probability of quantity, level `Quantity differs`
+Iteration 28: Largest change in params was -0.000313 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 29: Largest change in params was -0.00031 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 30: Largest change in params was 0.000306 in the m_probability of quantity, level `Quantity differs`
+Iteration 31: Largest change in params was -0.000301 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 32: Largest change in params was -0.000297 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 33: Largest change in params was 0.000292 in the m_probability of quantity, level `Quantity differs`
+Iteration 34: Largest change in params was -0.000287 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 35: Largest change in params was 0.000282 in the m_probability of quantity, level `Quantity differs`
+Iteration 36: Largest change in params was -0.000277 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 37: Largest change in params was 0.000271 in the m_probability of quantity, level `Quantity differs`
+Iteration 38: Largest change in params was 0.000266 in the m_probability of quantity, level `Quantity differs`
+Iteration 39: Largest change in params was -0.000261 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 40: Largest change in params was -0.000255 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 41: Largest change in params was 0.000249 in the m_probability of quantity, level `Quantity differs`
+Iteration 42: Largest change in params was -0.000244 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 43: Largest change in params was 0.000238 in the m_probability of quantity, level `Quantity differs`
+Iteration 44: Largest change in params was -0.000232 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 45: Largest change in params was -0.000227 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 46: Largest change in params was 0.000221 in the m_probability of quantity, level `Quantity differs`
+Iteration 47: Largest change in params was 0.000216 in the m_probability of quantity, level `Quantity differs`
+Iteration 48: Largest change in params was -0.00021 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 49: Largest change in params was 0.000205 in the m_probability of quantity, level `Quantity differs`
+Iteration 50: Largest change in params was -0.000199 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 51: Largest change in params was -0.000194 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 52: Largest change in params was 0.000188 in the m_probability of quantity, level `Quantity differs`
+Iteration 53: Largest change in params was -0.000183 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 54: Largest change in params was -0.000178 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 55: Largest change in params was -0.000173 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 56: Largest change in params was 0.000168 in the m_probability of quantity, level `Quantity differs`
+Iteration 57: Largest change in params was -0.000163 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 58: Largest change in params was -0.000158 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 59: Largest change in params was 0.000153 in the m_probability of quantity, level `Quantity differs`
+Iteration 60: Largest change in params was -0.000149 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 61: Largest change in params was 0.000144 in the m_probability of quantity, level `Quantity differs`
+Iteration 62: Largest change in params was -0.000139 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 63: Largest change in params was 0.000135 in the m_probability of quantity, level `Quantity differs`
+Iteration 64: Largest change in params was -0.000131 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 65: Largest change in params was -0.000127 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 66: Largest change in params was 0.000123 in the m_probability of quantity, level `Quantity differs`
+Iteration 67: Largest change in params was -0.000119 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 68: Largest change in params was 0.000115 in the m_probability of quantity, level `Quantity differs`
+Iteration 69: Largest change in params was 0.000111 in the m_probability of quantity, level `Quantity differs`
+Iteration 70: Largest change in params was -0.000107 in the m_probability of quantity, level `Quantity agrees within 5%`
+Iteration 71: Largest change in params was 0.000104 in the m_probability of quantity, level `Quantity differs`
+Iteration 72: Largest change in params was 0.0001 in the m_probability of quantity, level `Quantity differs`
+Iteration 73: Largest change in params was -9.67e-05 in the m_probability of quantity, level `Quantity agrees within 5%`
+
+EM converged after 73 iterations
+
+Your model is fully trained. All comparisons have at least one estimate for their m and u values
+Blocking time: 0.01 seconds
+Predict time (post-blocking): 0.06 seconds

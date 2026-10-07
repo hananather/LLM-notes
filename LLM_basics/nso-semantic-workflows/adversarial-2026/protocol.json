@@ -1,0 +1,149 @@
+{
+  "version": "2026-10-07-v1",
+  "status": "prospective policies; lane manifests bind final inputs before model admission",
+  "question": "When does semantic interpretation improve record association beyond capable conventional representations and unlabeled Fellegi-Sunter EM?",
+  "lanes": {
+    "products": {
+      "primary": "Amazon-GoogleProducts",
+      "reference": "Abt-Buy offline replication",
+      "identity": "Publisher supplied many-to-many product mapping; unmatched means absent from that complete benchmark mapping.",
+      "source_split_version": "v2",
+      "development_left": 144,
+      "development_right": 352,
+      "evaluation_left": 1219,
+      "evaluation_right": 2874,
+      "paid_arms": [
+        "recordwise text extraction plus fresh unlabeled Splink",
+        "direct semantic candidate selection"
+      ]
+    },
+    "images": {
+      "primary": "ABO grocery native main-image to catalog association",
+      "identity": "Publisher item association, not independently verified physical SKU identity.",
+      "paid_arms": [
+        "OCR-text extraction plus fresh unlabeled Splink",
+        "pixel extraction plus fresh unlabeled Splink"
+      ],
+      "model": "gpt-5.6-luna",
+      "same_prepared_pixels_for_ocr_and_vision": true,
+      "secondary_nil_population": "Designed missing-counterpart stress; prevalence is constructed."
+    },
+    "organizations": {
+      "primary": "AffilGood CORDIS against ROR v1.41",
+      "identity": "Published affiliation annotation, not legal-unit identity.",
+      "default_paid": false,
+      "native_populations_kept_separate": true
+    }
+  },
+  "estimation": {
+    "supervised_training_labels": false,
+    "em": "Transductive on each declared unlabeled split; comparison specification and finite fitting policy frozen before outcome inspection.",
+    "u": "Unlabeled random pairs from the same complete pair universe as the prior.",
+    "primary_posterior_threshold": 0.9,
+    "descriptive_thresholds": [
+      0.5,
+      0.99,
+      0.999
+    ],
+    "candidate_construction": "Only observed fields; never insert gold targets.",
+    "lexical_rule": "Lane-specific fixed rule saved before outcomes.",
+    "null_fields": "Missing evidence; not disagreement.",
+    "cardinality": "Preserve each source relation; no forced one-to-one assignment.",
+    "organization_operating_rule_override": "CORDIS primary uses top posterior>=0.99 with second<0.5, NIL when top<0.1; .5/.9/.99/.999 descriptive grid. See organizations/protocol.json.",
+    "image_operating_rule_override": "See images/protocol.json: closed-catalog top1 rules and designed-NIL rules differ; Splink threshold .95 applies where declared by the lane, not the product .9 default."
+  },
+  "models": {
+    "native_text": "gpt-6-luna",
+    "ocr_and_pixels": "gpt-5.6-luna",
+    "temperature": 0,
+    "reasoning_effort": "none",
+    "retries": 0,
+    "max_output_tokens": {
+      "product_extraction": 512,
+      "selection": 256,
+      "image_extraction": 384
+    },
+    "model_weights": "Hosted model aliases; returned model identifiers and date are recorded. Training-data exposure is unknown."
+  },
+  "value_gate": {
+    "scope": "Development spending decision only; not a production acceptance or statistical power rule.",
+    "reference": "Fixed conventional method with highest complete development decision count; alphabetic method-name tie break.",
+    "minimum_extra_correct_fraction": 0.05,
+    "minimum_extra_correct_rounding": "ceil(n*0.05)",
+    "additional_false_links_allowed": 0,
+    "additional_queries_with_false_assignment_allowed": 0,
+    "maximum_automatic_coverage_loss_fraction": 0.05,
+    "maximum_coverage_loss_rounding": "floor(n*0.05)",
+    "failure": "Retain and report development outcomes; stop the unchanged paid lane/arm. Do not tune and retest the same holdout.",
+    "attribution_pair": "The image pixel and OCR-text arms are evaluated as a pair; if either passes, both unchanged arms may continue as the necessary modality control, subject to complete-batch admission.",
+    "eligible_operational_methods": {
+      "products": [
+        "lexical_all_pairs",
+        "splink_all_pairs"
+      ],
+      "images_closed": [
+        "ocr_lexical",
+        "ocr_splink",
+        "clip"
+      ],
+      "organizations": [
+        "lexical",
+        "splink"
+      ]
+    },
+    "forced_ranking_diagnostics": "Excluded from the gate unless a lane explicitly declares a closed-catalog top1 decision task. Image closed-catalog top1 is an operational rule. CORDIS forced top1 is diagnostic and excluded.",
+    "image_development": "80 prospectively hash-selected queries against the96-record development catalog; baseline and semantic fits/scoring use identical80 queries. Exact IDs in contracts/image-development-subset.json."
+  },
+  "scoring": {
+    "decision_states": [
+      "linked",
+      "nil",
+      "review",
+      "failed"
+    ],
+    "primary": "Exact target-set correctness on the complete frozen query denominator.",
+    "abstention": "Review and failed are never correct identity or NIL decisions.",
+    "secondary": [
+      "false links",
+      "missed links",
+      "wrong automatic decisions",
+      "automatic coverage",
+      "error among automatic decisions",
+      "false NIL",
+      "links on NIL queries",
+      "candidate recall",
+      "paired corrections/regressions",
+      "source-family bootstrap uncertainty"
+    ],
+    "bootstrap_seed": 20261007,
+    "bootstrap_replicates": 2000,
+    "multiple_arms": "Report all prespecified comparisons; intervals are descriptive, with no best-test-threshold selection."
+  },
+  "budget": {
+    "currency": "USD",
+    "previous_reserved": 0.9303031250000006,
+    "new_max_reserved": 9.0,
+    "new_development_max_reserved": 1.0,
+    "combined_max_reserved": 9.930303125,
+    "unit": "Conservative token-price reservations, not billing invoices.",
+    "admission": "Complete immutable batch reserved before first request; unknown outcomes and failures retain full reservations.",
+    "input_bound": "UTF8 byte bound plus512 framing tokens; image high-detail maximum3000 tokens; input cache-write premium1.25; overall margin1.25.",
+    "processing": "Development uses synchronous Standard calls. Larger admitted evaluation runs use the Batch API at verified50-percent rates, with identical per-record requests; each whole evaluation manifest is reserved before submission. Batch submission may take up to24hours. No fallback to higher-priced synchronous service under a discounted reservation.",
+    "processing_price_source": "https://developers.openai.com/api/docs/guides/batch",
+    "prospective_full_portfolio_preflight": {
+      "standard_development": 0.985343125,
+      "all_planned_evaluation_arms_at_standard": 9.71056046875,
+      "all_planned_evaluation_arms_at_batch": 4.855280234375,
+      "development_plus_all_evaluation_batch": 5.840623359375,
+      "interpretation": "Unpaid preflight only; failed development gates still stop their planned evaluation arms."
+    }
+  },
+  "synthetic_controls": {
+    "truth": "Immutable observed source record association; no LLM-generated gold or invented aliases.",
+    "sampling": "Hash selection and transformation assignment fixed before performance outcomes.",
+    "layout": "Paired deterministic source-fact documents and real OCR; untouched original retained.",
+    "independence": "Views of the same source entity remain in one split and cluster; view count is not independent entity count.",
+    "claims": "Mechanism controls, not representative NSO incidence."
+  },
+  "completion_boundary": "One complete test per admitted unchanged lane. Preserve negative results and failed source/value gates. Fresh questions need fresh outcome evidence; do not reopen a test to force a gain."
+}

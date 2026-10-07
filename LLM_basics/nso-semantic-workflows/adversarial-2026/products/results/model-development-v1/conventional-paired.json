@@ -1,0 +1,14 @@
+{
+  "accuracy_difference": -0.24305555555555555,
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20261007,
+  "cluster_bootstrap_95_percent_interval": [
+    -0.31852430555555555,
+    -0.17263636851712674
+  ],
+  "corrections": 0,
+  "interval_scope": "This source sample and family definition; not NSO population uncertainty.",
+  "queries": 144,
+  "regressions": 35,
+  "source_groups": 119
+}

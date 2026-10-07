@@ -1,0 +1,98 @@
+{
+  "curation": "v2",
+  "dataset": "amazon-google",
+  "decision_policy": "Pair thresholds emit sets; never force one-to-one or a fixed number of targets. Every full-universe and candidate-restricted decision is preserved.",
+  "fitting_scope": "Transductive unlabeled fitting on the observed left/right records in this split. No identity labels, family metadata, source identifiers or outcome scores are loaded. Development and test fits are separate.",
+  "implementation_sha256": {
+    "baseline.py": "eb91093132ec2ce5887e98e4feb0555732f59aff7803ce76c176202eb271a4f3",
+    "product_features.py": "b348d65c1809809fca271bba421d951f1fb013bd0663483f01bc73c71309fb6b"
+  },
+  "input_counts": {
+    "all_pairs": 3503406,
+    "left": 1219,
+    "right": 2874
+  },
+  "lexical": {
+    "calibrated_probability": false,
+    "candidate_k": 20,
+    "candidate_union": "Union top 10 each by title word cosine, title character cosine and explicit combined score; include any shared model identifier; order union by combined score then opaque ID; retain first 20.",
+    "char_title": "TF-IDF char_wb 3-5 grams",
+    "description": "TF-IDF word 1-2 grams; all observed description text",
+    "primary_threshold": 0.65,
+    "score": "clip(0.55*title_word+0.30*title_char+0.15*description+0.07*brand_agreement+0.18*model_intersection-0.15*quantity_conflict-0.10*primary_model_conflict,0,1)",
+    "thresholds": [
+      0.5,
+      0.65,
+      0.8,
+      0.9
+    ],
+    "word_title": "TF-IDF word 1-2 grams"
+  },
+  "prior_attribution_policy": "Recordwise extraction must reuse conventional split numeric prior and sensitivity grid exactly; agreement counts from extracted data never set its prior.",
+  "python": "3.11.15",
+  "run": "baseline-v5",
+  "schema": 1,
+  "seed": 20261007,
+  "source_sha256": {
+    "partitions.json": "65112f0240dd25ca9e23c4e1655bd18c1d9f9cb6e6b63dd685f9f9cc8632fab8",
+    "records.json": "348231e9bf0ec59acf9a13e65e74c5cb1d1e80344c7b9a897c8469d17ba93a5c"
+  },
+  "splink": {
+    "calibrated_probability_established": false,
+    "comparisons": [
+      "model tokens",
+      "brand",
+      "remaining title token Jaccard",
+      "remaining description token Jaccard",
+      "explicit title quantities",
+      "observed numeric price"
+    ],
+    "em_blocks": [
+      "l.brand = r.brand AND substr(l.title_norm, 1, 4) = substr(r.title_norm, 1, 4)",
+      "l.primary_model = r.primary_model",
+      "array_length(list_intersect(l.title_words, r.title_words)) >= 3 AND jaro_winkler_similarity(l.title_norm, r.title_norm) >= 0.80"
+    ],
+    "fix_probability_two_random_records_match": false,
+    "fix_u_probabilities": true,
+    "max_iterations": 100,
+    "prediction": "all cross-source pairs",
+    "primary_threshold": 0.9,
+    "prior": {
+      "assumed_strict_rule_recall": [
+        0.5,
+        0.8,
+        1.0
+      ],
+      "bounds": "Exclude probability outside (0,1); no one-to-one cap imposed on a many-target relation. These assumptions are not measured recall.",
+      "main_recall": 0.8,
+      "rule": "exact nonmissing brand and primary model OR exact nonempty normalized title",
+      "zero_rule_fallback": "1/max(left_count,right_count), an explicitly assumed sparse-overlap prior, with multipliers0.5/1/2."
+    },
+    "prior_boundary": "EM may update each blocked sample's match fraction; populate-global-prior is false, so the separately specified population prior stays unchanged.",
+    "term_frequency_adjustment": "exact brand agreement only; fit EM without TF then apply at prediction",
+    "thresholds": [
+      0.5,
+      0.9,
+      0.99,
+      0.999
+    ],
+    "tolerance": 0.0001,
+    "u": {
+      "max_pairs": 1000000,
+      "method": "random unlabeled cross-source pairs",
+      "min_count_per_level": null,
+      "seed": 20261007
+    },
+    "version": "5.0.0"
+  },
+  "split": "test",
+  "stage_boundary": "Predictions saved before evaluation. This runner has no scoring command and does not load truth.json, metadata.json or source-map.json.",
+  "unestimated_level_policy": "Baseline-v5 adds fixed 1e-6 mass per nonnull level then normalizes at initialization, after random-u, and each EM M-step. Session/final aggregation only normalizes already positive masses, avoiding repeated smoothing. Levels marked unobserved get zero raw mass, including numeric u with no estimated sampling value. All-zero u becomes uniform; all-zero m copies fixed u for an uninformative comparison. Restore exact normalized random-u after every Splink aggregation. Save raw/default values and flags. Require every nonempty EM block to converge; failure emits failed_fit without ordinary decisions. No truth-guided retries.",
+  "versions": {
+    "duckdb": "1.5.6",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "splink": "5.0.0"
+  }
+}

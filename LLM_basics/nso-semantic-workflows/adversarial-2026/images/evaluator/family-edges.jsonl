@@ -1,0 +1,564 @@
+{"a": "B00K4VNACU", "b": "B074MHLW57", "rule": "normalized_name_brand"}
+{"a": "B015GK1AJI", "b": "B071XFHZNR", "rule": "normalized_name_brand"}
+{"a": "B01FGRH6OE", "b": "B01H28GNNA", "rule": "normalized_name_brand"}
+{"a": "B01FGRHBJO", "b": "B01H2AYVA0", "rule": "normalized_name_brand"}
+{"a": "B01FRJ0P62", "b": "B072R6KL7D", "rule": "normalized_name_brand"}
+{"a": "B01LPYA7R0", "b": "B01LY9L9AJ", "rule": "normalized_name_brand"}
+{"a": "B01LPYA7R0", "b": "B0759R4BWB", "rule": "normalized_name_brand"}
+{"a": "B01LPYA7R0", "b": "B075CTDQM2", "rule": "normalized_name_brand"}
+{"a": "B01LQ6ZP10", "b": "B01LWMY18E", "rule": "normalized_name_brand"}
+{"a": "B01LYJW1S7", "b": "B06XD2Y8LP", "rule": "normalized_name_brand"}
+{"a": "B01N0APDVS", "b": "B01N3LCEDL", "rule": "normalized_name_brand"}
+{"a": "B01N1SRHF3", "b": "B06XT54PM6", "rule": "normalized_name_brand"}
+{"a": "B071WY9YHB", "b": "B072R8MTJ4", "rule": "normalized_name_brand"}
+{"a": "B072V5XHBK", "b": "B07359R9V9", "rule": "normalized_name_brand"}
+{"a": "B0742HS41J", "b": "B07RFSB6DP", "rule": "normalized_name_brand"}
+{"a": "B0748NKCK1", "b": "B07BL276GS", "rule": "normalized_name_brand"}
+{"a": "B074H4WRNG", "b": "B074VDDDJ8", "rule": "normalized_name_brand"}
+{"a": "B074H51HDD", "b": "B074MFKJJ6", "rule": "normalized_name_brand"}
+{"a": "B074H51HRP", "b": "B074H57S5G", "rule": "normalized_name_brand"}
+{"a": "B074H51J11", "b": "B07656W2H9", "rule": "normalized_name_brand"}
+{"a": "B074H54R1Q", "b": "B074MG1G67", "rule": "normalized_name_brand"}
+{"a": "B074H577W3", "b": "B074MFT11J", "rule": "normalized_name_brand"}
+{"a": "B074H5782L", "b": "B074MGT7G9", "rule": "normalized_name_brand"}
+{"a": "B074H57843", "b": "B07RFS9858", "rule": "normalized_name_brand"}
+{"a": "B074H578N7", "b": "B074MG12QS", "rule": "normalized_name_brand"}
+{"a": "B074H57SBR", "b": "B074H6M2W7", "rule": "normalized_name_brand"}
+{"a": "B074H58Y6K", "b": "B074H5HFMS", "rule": "normalized_name_brand"}
+{"a": "B074H58Y6K", "b": "B074VDX7CT", "rule": "normalized_name_brand"}
+{"a": "B074H5B5ZY", "b": "B07KQVLY7M", "rule": "normalized_name_brand"}
+{"a": "B074H5BVD3", "b": "B074MG12PM", "rule": "normalized_name_brand"}
+{"a": "B074H5H17J", "b": "B07KQVX9W2", "rule": "normalized_name_brand"}
+{"a": "B074H5H1P5", "b": "B075N44HV4", "rule": "normalized_name_brand"}
+{"a": "B074H5HG2V", "b": "B07BS4YGL5", "rule": "normalized_name_brand"}
+{"a": "B074H5J318", "b": "B074H81LXT", "rule": "normalized_name_brand"}
+{"a": "B074H5J9FY", "b": "B07656ZDT4", "rule": "normalized_name_brand"}
+{"a": "B074H5J9HH", "b": "B074H6G77K", "rule": "normalized_name_brand"}
+{"a": "B074H5J9JV", "b": "B07656BFZH", "rule": "normalized_name_brand"}
+{"a": "B074H5J9PK", "b": "B075MBH2CS", "rule": "normalized_name_brand"}
+{"a": "B074H5J9R2", "b": "B074MF89MV", "rule": "normalized_name_brand"}
+{"a": "B074H5LWHY", "b": "B074MFT175", "rule": "normalized_name_brand"}
+{"a": "B074H5LWYM", "b": "B074M9NT8R", "rule": "normalized_name_brand"}
+{"a": "B074H5LY19", "b": "B074MGP5MV", "rule": "normalized_name_brand"}
+{"a": "B074H5LY66", "b": "B074MFBW2K", "rule": "normalized_name_brand"}
+{"a": "B074H5QQ6D", "b": "B074H64C8Z", "rule": "normalized_name_brand"}
+{"a": "B074H5QQ6D", "b": "B074H6X4KN", "rule": "normalized_name_brand"}
+{"a": "B074H5QQ6D", "b": "B07PDH3LP4", "rule": "normalized_name_brand"}
+{"a": "B074H5QQ6D", "b": "B07PDH5138", "rule": "normalized_name_brand"}
+{"a": "B074H5SRYG", "b": "B074VDNHY9", "rule": "normalized_name_brand"}
+{"a": "B074H5TP96", "b": "B07RM4LNSJ", "rule": "normalized_name_brand"}
+{"a": "B074H5Z5DZ", "b": "B074VDM7ZD", "rule": "normalized_name_brand"}
+{"a": "B074H5Z5NX", "b": "B074MGJZV8", "rule": "normalized_name_brand"}
+{"a": "B074H5ZHG9", "b": "B074V3XKQ2", "rule": "normalized_name_brand"}
+{"a": "B074H5ZHG9", "b": "B07FW6T2PW", "rule": "normalized_name_brand"}
+{"a": "B074H5ZHL2", "b": "B074HHZ7BQ", "rule": "normalized_name_brand"}
+{"a": "B074H5ZHL2", "b": "B074VDFDKK", "rule": "normalized_name_brand"}
+{"a": "B074H5ZHL2", "b": "B078814KFD", "rule": "normalized_name_brand"}
+{"a": "B074H5ZHQN", "b": "B074H6VR3T", "rule": "normalized_name_brand"}
+{"a": "B074H5ZKFB", "b": "B074M9NT2M", "rule": "normalized_name_brand"}
+{"a": "B074H5ZKPS", "b": "B07656VKNR", "rule": "normalized_name_brand"}
+{"a": "B074H64BRP", "b": "B074H64QFZ", "rule": "normalized_name_brand"}
+{"a": "B074H64BRP", "b": "B074VDNHMR", "rule": "normalized_name_brand"}
+{"a": "B074H64C91", "b": "B075N3TLP4", "rule": "normalized_name_brand"}
+{"a": "B074H64CB7", "b": "B074VBMYYQ", "rule": "normalized_name_brand"}
+{"a": "B074H64QMY", "b": "B074MFDHFP", "rule": "normalized_name_brand"}
+{"a": "B074H65ZHY", "b": "B07KQWY8G3", "rule": "normalized_name_brand"}
+{"a": "B074H6611M", "b": "B074MHRGFS", "rule": "normalized_name_brand"}
+{"a": "B074H66138", "b": "B074H7KL9D", "rule": "normalized_name_brand"}
+{"a": "B074H67H6B", "b": "B074H6R3J4", "rule": "normalized_name_brand"}
+{"a": "B074H67KQ5", "b": "B075M4K9VP", "rule": "normalized_name_brand"}
+{"a": "B074H67L11", "b": "B074MHJZXM", "rule": "normalized_name_brand"}
+{"a": "B074H67L25", "b": "B074M9BRYR", "rule": "normalized_name_brand"}
+{"a": "B074H67LM2", "b": "B074MFBVX4", "rule": "normalized_name_brand"}
+{"a": "B074H681F5", "b": "B074MFQVZ8", "rule": "normalized_name_brand"}
+{"a": "B074H6F6VR", "b": "B075MXHG2C", "rule": "normalized_name_brand"}
+{"a": "B074H6G85V", "b": "B074H6X6QX", "rule": "normalized_name_brand"}
+{"a": "B074H6GRKD", "b": "B074MHPDJT", "rule": "normalized_name_brand"}
+{"a": "B074H6M3XY", "b": "B074MG4K86", "rule": "normalized_name_brand"}
+{"a": "B074H6M3ZJ", "b": "B074MFVDBV", "rule": "normalized_name_brand"}
+{"a": "B074H6M41F", "b": "B074MHYRNJ", "rule": "normalized_name_brand"}
+{"a": "B074H6M4LN", "b": "B074MGTNCK", "rule": "normalized_name_brand"}
+{"a": "B074H6MCJW", "b": "B074MFQVXW", "rule": "normalized_name_brand"}
+{"a": "B074H6PJR2", "b": "B074MGW2VX", "rule": "normalized_name_brand"}
+{"a": "B074H6PK2V", "b": "B07KQMKZ7J", "rule": "normalized_name_brand"}
+{"a": "B074H6QSRW", "b": "B07KCMR44N", "rule": "normalized_name_brand"}
+{"a": "B074H6QW1V", "b": "B074H6R5XP", "rule": "normalized_name_brand"}
+{"a": "B074H6R3W7", "b": "B0812LWS2R", "rule": "normalized_name_brand"}
+{"a": "B074H6S987", "b": "B075MBCRM1", "rule": "normalized_name_brand"}
+{"a": "B074H6VRKY", "b": "B074M9BZJ2", "rule": "normalized_name_brand"}
+{"a": "B074H6X45F", "b": "B074MG76LC", "rule": "normalized_name_brand"}
+{"a": "B074H6X5R5", "b": "B074VDNJSY", "rule": "normalized_name_brand"}
+{"a": "B074H6X64W", "b": "B074MFQVPH", "rule": "normalized_name_brand"}
+{"a": "B074H6X6BK", "b": "B074MFL1ZY", "rule": "normalized_name_brand"}
+{"a": "B074H6X6FX", "b": "B075N542P8", "rule": "normalized_name_brand"}
+{"a": "B074H6X7DQ", "b": "B075N4KX3T", "rule": "normalized_name_brand"}
+{"a": "B074H6ZXSM", "b": "B074MJ5PT3", "rule": "normalized_name_brand"}
+{"a": "B074H6ZY4W", "b": "B074MH3FRN", "rule": "normalized_name_brand"}
+{"a": "B074H732NY", "b": "B075MBS8RC", "rule": "normalized_name_brand"}
+{"a": "B074H739XR", "b": "B074H76RNW", "rule": "normalized_name_brand"}
+{"a": "B074H739XR", "b": "B07PFDYT9T", "rule": "normalized_name_brand"}
+{"a": "B074H73HNW", "b": "B074MH2R44", "rule": "normalized_name_brand"}
+{"a": "B074H76RXL", "b": "B074MFVDCG", "rule": "normalized_name_brand"}
+{"a": "B074H76S87", "b": "B074MG737J", "rule": "normalized_name_brand"}
+{"a": "B074H77YBF", "b": "B07KQML69N", "rule": "normalized_name_brand"}
+{"a": "B074H77YZV", "b": "B074MFKYM8", "rule": "normalized_name_brand"}
+{"a": "B074H78XK4", "b": "B075M8YLH9", "rule": "normalized_name_brand"}
+{"a": "B074H7J2VW", "b": "B074MHK3ZH", "rule": "normalized_name_brand"}
+{"a": "B074H7K3SB", "b": "B074MH2R4C", "rule": "normalized_name_brand"}
+{"a": "B074H7KKJT", "b": "B074VD7756", "rule": "normalized_name_brand"}
+{"a": "B074H7L7D2", "b": "B074MFZ2KW", "rule": "normalized_name_brand"}
+{"a": "B074H7L7JC", "b": "B074MFDR9G", "rule": "normalized_name_brand"}
+{"a": "B074H7L7WD", "b": "B07KQKV4YK", "rule": "normalized_name_brand"}
+{"a": "B074H7L7XX", "b": "B074MGWWV4", "rule": "normalized_name_brand"}
+{"a": "B074H7L85Y", "b": "B074MFN7DG", "rule": "normalized_name_brand"}
+{"a": "B074H7LFMC", "b": "B074MH4QDJ", "rule": "normalized_name_brand"}
+{"a": "B074H7LFNJ", "b": "B075N44HT2", "rule": "normalized_name_brand"}
+{"a": "B074H7Y7XJ", "b": "B074M96Y1J", "rule": "normalized_name_brand"}
+{"a": "B074H81LY1", "b": "B074MFVDBY", "rule": "normalized_name_brand"}
+{"a": "B074H81LY5", "b": "B074MHGDNV", "rule": "normalized_name_brand"}
+{"a": "B074H8KM4W", "b": "B074VBQHHQ", "rule": "normalized_name_brand"}
+{"a": "B074H8KMFV", "b": "B074MGW2KM", "rule": "normalized_name_brand"}
+{"a": "B074HBKS4K", "b": "B0765686WG", "rule": "normalized_name_brand"}
+{"a": "B074HBKS4K", "b": "B07KQWY8HN", "rule": "normalized_name_brand"}
+{"a": "B074HBQZST", "b": "B07656W1ZB", "rule": "normalized_name_brand"}
+{"a": "B074HBVVVB", "b": "B074V3VTXH", "rule": "normalized_name_brand"}
+{"a": "B074HBVVVB", "b": "B074VD76SB", "rule": "normalized_name_brand"}
+{"a": "B074HBVVVB", "b": "B074VDDD9T", "rule": "normalized_name_brand"}
+{"a": "B074HBVVVB", "b": "B079N52K8H", "rule": "normalized_name_brand"}
+{"a": "B074HC7WGQ", "b": "B074MGTN4R", "rule": "normalized_name_brand"}
+{"a": "B074HCGPDS", "b": "B076563TSS", "rule": "normalized_name_brand"}
+{"a": "B074HCR473", "b": "B074MFKJ6F", "rule": "normalized_name_brand"}
+{"a": "B074HCSTJG", "b": "B074MFKG58", "rule": "normalized_name_brand"}
+{"a": "B074HHZ7CJ", "b": "B074MGTN8Z", "rule": "normalized_name_brand"}
+{"a": "B074HJF6QK", "b": "B074M9H72P", "rule": "normalized_name_brand"}
+{"a": "B074J5KFHG", "b": "B076577XC6", "rule": "normalized_name_brand"}
+{"a": "B074J6FCWZ", "b": "B075MCS61C", "rule": "normalized_name_brand"}
+{"a": "B074J6RQZB", "b": "B074M9T81H", "rule": "normalized_name_brand"}
+{"a": "B074J6TMD3", "b": "B074MFVZKX", "rule": "normalized_name_brand"}
+{"a": "B074J6X78V", "b": "B074MHHQHW", "rule": "normalized_name_brand"}
+{"a": "B074J75CG9", "b": "B074MHHQJF", "rule": "normalized_name_brand"}
+{"a": "B074J7C8K2", "b": "B07657LLWQ", "rule": "normalized_name_brand"}
+{"a": "B074J9RL65", "b": "B07656DR1J", "rule": "normalized_name_brand"}
+{"a": "B074RK7WL4", "b": "B081QSFH2Q", "rule": "normalized_name_brand"}
+{"a": "B074RQD6XS", "b": "B081QR72R3", "rule": "normalized_name_brand"}
+{"a": "B074RQJC8S", "b": "B081QQW37Y", "rule": "normalized_name_brand"}
+{"a": "B074RQJC92", "b": "B081QR5YRC", "rule": "normalized_name_brand"}
+{"a": "B074T3D5XP", "b": "B081QRH6XC", "rule": "normalized_name_brand"}
+{"a": "B074V3XKWF", "b": "B074VD5TFG", "rule": "normalized_name_brand"}
+{"a": "B074VBMJXF", "b": "B079N3GH2K", "rule": "normalized_name_brand"}
+{"a": "B074VCN7HW", "b": "B079WR32V1", "rule": "normalized_name_brand"}
+{"a": "B074VD2YK4", "b": "B074VDX7JM", "rule": "normalized_name_brand"}
+{"a": "B074VD2YK4", "b": "B074VDX7MT", "rule": "normalized_name_brand"}
+{"a": "B074VDM7P4", "b": "B079WWVMQ5", "rule": "normalized_name_brand"}
+{"a": "B074VDNHKW", "b": "B07813841L", "rule": "normalized_name_brand"}
+{"a": "B074Y74CGM", "b": "B079H1MBW1", "rule": "normalized_name_brand"}
+{"a": "B074YBXJ83", "b": "B079H6D3L9", "rule": "normalized_name_brand"}
+{"a": "B0754GWCP6", "b": "B07BXS2CDV", "rule": "normalized_name_brand"}
+{"a": "B0754GWCP6", "b": "B07ZGWPDV7", "rule": "normalized_name_brand"}
+{"a": "B0754GWCP6", "b": "B085CXBZWJ", "rule": "normalized_name_brand"}
+{"a": "B0754HKQZ6", "b": "B07CDXP9N4", "rule": "normalized_name_brand"}
+{"a": "B077ZCTBFG", "b": "B07J2CHBY7", "rule": "normalized_name_brand"}
+{"a": "B07816CB93", "b": "B078J13FYR", "rule": "normalized_name_brand"}
+{"a": "B078K592ZX", "b": "B07J2BVD5L", "rule": "normalized_name_brand"}
+{"a": "B079MG4C6D", "b": "B07G5PK17L", "rule": "normalized_name_brand"}
+{"a": "B079SYQHC2", "b": "B07F2WB86T", "rule": "normalized_name_brand"}
+{"a": "B079SYQHC3", "b": "B07F2WBNVB", "rule": "normalized_name_brand"}
+{"a": "B079T3KZFN", "b": "B07F2VY6GC", "rule": "normalized_name_brand"}
+{"a": "B079TC4XPM", "b": "B07F2VS9DB", "rule": "normalized_name_brand"}
+{"a": "B079TD735X", "b": "B07F2ZPMHW", "rule": "normalized_name_brand"}
+{"a": "B07B1LZR85", "b": "B07WP645ZL", "rule": "normalized_name_brand"}
+{"a": "B07B1M38B5", "b": "B086FBVGV1", "rule": "normalized_name_brand"}
+{"a": "B07BG76NV2", "b": "B07ZB242BG", "rule": "normalized_name_brand"}
+{"a": "B07BXNYZR6", "b": "B07ZGW68QN", "rule": "normalized_name_brand"}
+{"a": "B07BXNYZR6", "b": "B085CWFXRW", "rule": "normalized_name_brand"}
+{"a": "B07BXWC1MH", "b": "B07C5ZTVQP", "rule": "normalized_name_brand"}
+{"a": "B07CNVGJV5", "b": "B07NH99NBF", "rule": "normalized_name_brand"}
+{"a": "B07CWX1LJV", "b": "B07RJYBW9L", "rule": "normalized_name_brand"}
+{"a": "B07CWZ2YFV", "b": "B07RM37CJ3", "rule": "normalized_name_brand"}
+{"a": "B07CWZ7NGW", "b": "B07RM4DW5X", "rule": "normalized_name_brand"}
+{"a": "B07CX28WY6", "b": "B07KQMKRZS", "rule": "normalized_name_brand"}
+{"a": "B07D6SXF1C", "b": "B07RL34G9D", "rule": "normalized_name_brand"}
+{"a": "B07D6SXGY4", "b": "B07RJYB2N1", "rule": "normalized_name_brand"}
+{"a": "B07D6TBK5P", "b": "B07RM46TFG", "rule": "normalized_name_brand"}
+{"a": "B07D6VLB7H", "b": "B07RFS8XSK", "rule": "normalized_name_brand"}
+{"a": "B07DFQMZVG", "b": "B07RM2ZPJ8", "rule": "normalized_name_brand"}
+{"a": "B07DFQPB9Y", "b": "B07RL33V9N", "rule": "normalized_name_brand"}
+{"a": "B07DG1GRDX", "b": "B07RM2ZNR7", "rule": "normalized_name_brand"}
+{"a": "B07FZGWPF3", "b": "B07G5TYM7F", "rule": "normalized_name_brand"}
+{"a": "B07G5QWMVR", "b": "B07G5S1YV9", "rule": "normalized_name_brand"}
+{"a": "B07GBLYHZ4", "b": "B07GBW9V3Z", "rule": "normalized_name_brand"}
+{"a": "B07GBLYHZ4", "b": "B07PFQ5VP4", "rule": "normalized_name_brand"}
+{"a": "B07GBLYHZ4", "b": "B07PFQ68BP", "rule": "normalized_name_brand"}
+{"a": "B07GKVKQYY", "b": "B07M9LKKL1", "rule": "normalized_name_brand"}
+{"a": "B07GKVSRJF", "b": "B07MC73B23", "rule": "normalized_name_brand"}
+{"a": "B07GL15ZT9", "b": "B07KG245P9", "rule": "normalized_name_brand"}
+{"a": "B07GL6KMXP", "b": "B07RFS8XTS", "rule": "normalized_name_brand"}
+{"a": "B07GL6KNDK", "b": "B07MR5WW9G", "rule": "normalized_name_brand"}
+{"a": "B07GL9GNZP", "b": "B07MLZLL8K", "rule": "normalized_name_brand"}
+{"a": "B07GLBGBV9", "b": "B07RJY9ZFJ", "rule": "normalized_name_brand"}
+{"a": "B07GLDWM8R", "b": "B07RM3YL4N", "rule": "normalized_name_brand"}
+{"a": "B07GLDWMB4", "b": "B07MKDGPDB", "rule": "normalized_name_brand"}
+{"a": "B07GLDXFB4", "b": "B07M5V7MVB", "rule": "normalized_name_brand"}
+{"a": "B07GLJFSXJ", "b": "B07RM3YRL1", "rule": "normalized_name_brand"}
+{"a": "B07H2FSN84", "b": "B07H34BBMQ", "rule": "normalized_name_brand"}
+{"a": "B07H2SZV43", "b": "B07H3P1PFF", "rule": "normalized_name_brand"}
+{"a": "B07HCN9STL", "b": "B07NSQ4D78", "rule": "normalized_name_brand"}
+{"a": "B07JDR48JD", "b": "B07KG3DQL6", "rule": "normalized_name_brand"}
+{"a": "B07JGX3TPW", "b": "B07JX13LXL", "rule": "normalized_name_brand"}
+{"a": "B07JHP6V19", "b": "B07JWZ39C6", "rule": "normalized_name_brand"}
+{"a": "B07JHPSZY1", "b": "B07JJ7TLP6", "rule": "normalized_name_brand"}
+{"a": "B07JMKSM13", "b": "B07RM4DKZL", "rule": "normalized_name_brand"}
+{"a": "B07KY9TB2C", "b": "B07KYX65PN", "rule": "normalized_name_brand"}
+{"a": "B07KZ5LG78", "b": "B07L14TNSM", "rule": "normalized_name_brand"}
+{"a": "B07LCH8HRM", "b": "B087F1H5K1", "rule": "normalized_name_brand"}
+{"a": "B07LCKP5DC", "b": "B087CS93VZ", "rule": "normalized_name_brand"}
+{"a": "B07MF7K9HD", "b": "B07MFZ37M8", "rule": "normalized_name_brand"}
+{"a": "B07N4C74YP", "b": "B07TV62C7B", "rule": "normalized_name_brand"}
+{"a": "B07RTMSSG4", "b": "B087DWF915", "rule": "normalized_name_brand"}
+{"a": "B07TS27ML1", "b": "B07WC9NK19", "rule": "normalized_name_brand"}
+{"a": "B07TT5GBHC", "b": "B07WC9MMPD", "rule": "normalized_name_brand"}
+{"a": "B07TT5GBHC", "b": "B07YSWXTPC", "rule": "normalized_name_brand"}
+{"a": "B07TV6638S", "b": "B07W97CVMS", "rule": "normalized_name_brand"}
+{"a": "B07TW9129B", "b": "B07W97F9DN", "rule": "normalized_name_brand"}
+{"a": "B07WNKMXS3", "b": "B0812LWS2S", "rule": "normalized_name_brand"}
+{"a": "B07XVZZR5L", "b": "B086WXRXN9", "rule": "normalized_name_brand"}
+{"a": "B07Y451QNR", "b": "B07Y45T383", "rule": "normalized_name_brand"}
+{"a": "B07ZDWL6ZC", "b": "B087F5RNM7", "rule": "normalized_name_brand"}
+{"a": "B07ZGWTWR4", "b": "B085CX5PZV", "rule": "normalized_name_brand"}
+{"a": "B0812L6HMM", "b": "B0812L7FCZ", "rule": "normalized_name_brand"}
+{"a": "B082VZ7VVN", "b": "B0841RZWGQ", "rule": "normalized_name_brand"}
+{"a": "B083321D3Y", "b": "B083C93Y9L", "rule": "normalized_name_brand"}
+{"a": "B083B1GWRC", "b": "B087DY7LDC", "rule": "normalized_name_brand"}
+{"a": "B083NFZLP9", "b": "B083NX3LH6", "rule": "normalized_name_brand"}
+{"a": "B086WXDNM5", "b": "B087ZL4W7S", "rule": "normalized_name_brand"}
+{"a": "B00K4VNACU", "b": "B074MHLW57", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B014X2CB16", "b": "B015GK14CQ", "cosine": 0.96228911, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B014X5QHW2", "b": "B015GK13QS", "cosine": 0.98142841, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B015GK1AJI", "b": "B071XFHZNR", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B01FGRH6OE", "b": "B01H28GNNA", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B01FGRHBJO", "b": "B01H2AYVA0", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B01FRJ0P62", "b": "B072R6KL7D", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B01LPYA7R0", "b": "B075CTDQM2", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B01LPYA7R0", "b": "B0759R4BWB", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B01LPYA7R0", "b": "B01LY9L9AJ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B01LQ6ZP10", "b": "B01LWMY18E", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B01LY9L9AJ", "b": "B075CTDQM2", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B01LY9L9AJ", "b": "B0759R4BWB", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B01LYJW1S7", "b": "B06XD2Y8LP", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B01N0APDVS", "b": "B01N3LCEDL", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B01N1SRHF3", "b": "B06XT54PM6", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B071WY9YHB", "b": "B072R8MTJ4", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B072V5XHBK", "b": "B07359R9V9", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B0742HS41J", "b": "B07RFSB6DP", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B0748NKCK1", "b": "B07BL276GS", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H4WRNG", "b": "B074VDDDJ8", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H51HDD", "b": "B074MFKJJ6", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H51HRP", "b": "B074H57S5G", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H51J11", "b": "B07656W2H9", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H54R1Q", "b": "B074MG1G67", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H55G6B", "b": "B074MG1NMH", "cosine": 0.99216442, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H577W3", "b": "B074MFT11J", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5782L", "b": "B074MGT7G9", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H57843", "b": "B07RFS9858", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H578N7", "b": "B074MG12QS", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H57SBR", "b": "B074H6M2W7", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H57SBR", "b": "B074H5HG3G", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H57SBR", "b": "B074H5GVST", "cosine": 0.96963416, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H57SJ7", "b": "B0812LP6PJ", "cosine": 0.96963998, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H58Y6K", "b": "B074VDX7CT", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H58Y6K", "b": "B074H5HFMS", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5B5ZY", "b": "B07KQVLY7M", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5BVD3", "b": "B074MG12PM", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5CN2N", "b": "B074MGT7F6", "cosine": 0.96431106, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5GVST", "b": "B074H6M2W7", "cosine": 0.96963416, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5GVST", "b": "B074H5HG3G", "cosine": 0.96963416, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5H17J", "b": "B07KQVX9W2", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5H1P5", "b": "B084NJ5JDX", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5H1P5", "b": "B075N44HV4", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5HFMS", "b": "B074VDX7CT", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5HG2V", "b": "B07BS4YGL5", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5HG3G", "b": "B074H6M2W7", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5J318", "b": "B074H81LXT", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5J9FY", "b": "B07656ZDT4", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5J9HH", "b": "B074H6G77K", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5J9JV", "b": "B07656BFZH", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5J9PK", "b": "B075MBH2CS", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5J9R2", "b": "B074MF89MV", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5LWHY", "b": "B074MFT175", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5LWYM", "b": "B074M9NT8R", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5LY19", "b": "B074MGP5MV", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5LY66", "b": "B074MFBW2K", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5LYGT", "b": "B074MFQH3Z", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5QQ6D", "b": "B07PFDYT9T", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5QQ6D", "b": "B07PDH5138", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5QQ6D", "b": "B07PDH3LP4", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5QQ6D", "b": "B074H76RNW", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5QQ6D", "b": "B074H739XR", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5QQ6D", "b": "B074H6X4KN", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5QQ6D", "b": "B074H64C8Z", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5SRYG", "b": "B074VDNHY9", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5TP96", "b": "B07RM4LNSJ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5Z5DZ", "b": "B074VDM7ZD", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5Z5NX", "b": "B074MGJZV8", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5ZHG9", "b": "B07FW6T2PW", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5ZHG9", "b": "B074V3XKQ2", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5ZHL2", "b": "B078814KFD", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5ZHL2", "b": "B074VDFDKK", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5ZHL2", "b": "B074HHZ7BQ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5ZHQN", "b": "B074H6VR3T", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5ZKFB", "b": "B074M9NT2M", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H5ZKPS", "b": "B07656VKNR", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H64BRP", "b": "B074VDNHMR", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H64BRP", "b": "B074H64QFZ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H64C8Z", "b": "B07PFDYT9T", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H64C8Z", "b": "B07PDH5138", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H64C8Z", "b": "B07PDH3LP4", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H64C8Z", "b": "B074H76RNW", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H64C8Z", "b": "B074H739XR", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H64C8Z", "b": "B074H6X4KN", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H64C91", "b": "B075N3TLP4", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H64CB7", "b": "B074VBMYYQ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H64QFZ", "b": "B074VDNHMR", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H64QMY", "b": "B074MFDHFP", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H65ZHY", "b": "B07KQWY8G3", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6611M", "b": "B074MHRGFS", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H66138", "b": "B074H7KL9D", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H67H6B", "b": "B074H6R3J4", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H67HTN", "b": "B074H7382T", "cosine": 0.96214367, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H67KQ5", "b": "B075M4K9VP", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H67L11", "b": "B074MHJZXM", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H67L25", "b": "B074M9BRYR", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H67LM2", "b": "B074MFBVX4", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H681F5", "b": "B074MFQVZ8", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6F6VR", "b": "B075MXHG2C", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6G85V", "b": "B074H6X6QX", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6GRKD", "b": "B074MHPDJT", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6M3XY", "b": "B074MG4K86", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6M3ZJ", "b": "B074MFVDBV", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6M41F", "b": "B074MHYRNJ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6M4LN", "b": "B074MGTNCK", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6MCJW", "b": "B074MFQVXW", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6PJR2", "b": "B074MGW2VX", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6PK2V", "b": "B07KQMKZ7J", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6QSRW", "b": "B07KCMR44N", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6QW1V", "b": "B074H6R5XP", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6R3W7", "b": "B0812LWS2R", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6S987", "b": "B075MBCRM1", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6VRKY", "b": "B074M9BZJ2", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6X45F", "b": "B074MG76LC", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6X4KN", "b": "B07PFDYT9T", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6X4KN", "b": "B07PDH5138", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6X4KN", "b": "B07PDH3LP4", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6X4KN", "b": "B074H76RNW", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6X4KN", "b": "B074H739XR", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6X5R5", "b": "B074VDNJSY", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6X64W", "b": "B074MFQVPH", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6X6BK", "b": "B074MFL1ZY", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6X6FX", "b": "B075N542P8", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6X7DQ", "b": "B075N4KX3T", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6ZXSM", "b": "B074MJ5PT3", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H6ZY4W", "b": "B074MH3FRN", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H73279", "b": "B07FW8TYT1", "cosine": 0.97815965, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H732NY", "b": "B075MBS8RC", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H737KJ", "b": "B075N4RWX3", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H739XR", "b": "B07PFDYT9T", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H739XR", "b": "B07PDH5138", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H739XR", "b": "B07PDH3LP4", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H739XR", "b": "B074H76RNW", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H73HNW", "b": "B074MH2R44", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H76RNW", "b": "B07PFDYT9T", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H76RNW", "b": "B07PDH5138", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H76RNW", "b": "B07PDH3LP4", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H76RXL", "b": "B074MFVDCG", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H76S87", "b": "B074MG737J", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H77YBF", "b": "B07KQML69N", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H77YZV", "b": "B074MFKYM8", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H78XK4", "b": "B075M8YLH9", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H78XSM", "b": "B074MHLX1C", "cosine": 0.9638962, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H7J2VW", "b": "B074MHK3ZH", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H7K3SB", "b": "B074MH2R4C", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H7KKJT", "b": "B074VD7756", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H7L7D2", "b": "B074MFZ2KW", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H7L7JC", "b": "B074MFDR9G", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H7L7WD", "b": "B07KQKV4YK", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H7L7XX", "b": "B074MGWWV4", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H7L85Y", "b": "B074MFN7DG", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H7LFMC", "b": "B074MH4QDJ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H7LFNJ", "b": "B075N44HT2", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H7Y7XJ", "b": "B074M96Y1J", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H81LY1", "b": "B074MFVDBY", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H81LY5", "b": "B074MHGDNV", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H8KM4W", "b": "B074VBQHHQ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074H8KMFV", "b": "B074MGW2KM", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HBKS4K", "b": "B07KQWY8HN", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HBKS4K", "b": "B0765686WG", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HBQZST", "b": "B07656W1ZB", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HBVVVB", "b": "B079N52K8H", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HBVVVB", "b": "B074VDDD9T", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HBVVVB", "b": "B074VD76SB", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HBVVVB", "b": "B074V3VTXH", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HC7WGQ", "b": "B074MGTN4R", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HCGPDS", "b": "B07FWN12D3", "cosine": 0.96387272, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HCGPDS", "b": "B076563TSS", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HCR473", "b": "B074MFKJ6F", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HCSTJG", "b": "B074MFKG58", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HHZ7BQ", "b": "B078814KFD", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HHZ7BQ", "b": "B074VDFDKK", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HHZ7CJ", "b": "B074MGTN8Z", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074HJF6QK", "b": "B074M9H72P", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074J5KFHG", "b": "B076577XC6", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074J6FCWZ", "b": "B075MCS61C", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074J6RQZB", "b": "B074M9T81H", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074J6TMD3", "b": "B074MFVZKX", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074J6X78V", "b": "B074MHHQHW", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074J75CG9", "b": "B074MHHQJF", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074J7C8K2", "b": "B07657LLWQ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074J9RL65", "b": "B07656DR1J", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074MFLL7F", "b": "B07RL358Y3", "cosine": 0.96489209, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074RK7WL4", "b": "B081QSFH2Q", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074RQD6XS", "b": "B081QR72R3", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074RQJC8S", "b": "B081QQW37Y", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074RQJC92", "b": "B081QR5YRC", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074T3D5XP", "b": "B081QRH6XC", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074V3VTXH", "b": "B079N52K8H", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074V3VTXH", "b": "B074VDDD9T", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074V3VTXH", "b": "B074VD76SB", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074V3XKQ2", "b": "B07FW6T2PW", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074V3XKWF", "b": "B074VD5TFG", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074VBL8R9", "b": "B07NRSVSZT", "cosine": 0.9662898, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074VBMJXF", "b": "B079N3GH2K", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074VCN7HW", "b": "B07FW265FS", "cosine": 0.96704658, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074VCN7HW", "b": "B079WR32V1", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074VD2YK4", "b": "B074VDX7MT", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074VD2YK4", "b": "B074VDX7JM", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074VD76SB", "b": "B079N52K8H", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074VD76SB", "b": "B074VDDD9T", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074VDDD9T", "b": "B079N52K8H", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074VDFDKK", "b": "B078814KFD", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074VDM7P4", "b": "B079WWVMQ5", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074VDNHKW", "b": "B07813841L", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074VDX7JM", "b": "B074VDX7MT", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074Y74CGM", "b": "B079H1MBW1", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B074YBXJ83", "b": "B079H6D3L9", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07549XKFN", "b": "B083SN5YGQ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B0754GWCP6", "b": "B085CXBZWJ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B0754GWCP6", "b": "B07ZGWPDV7", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B0754GWCP6", "b": "B07BXS2CDV", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B0754HKQZ6", "b": "B07CDXP9N4", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B0759R4BWB", "b": "B075CTDQM2", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B075N44HV4", "b": "B084NJ5JDX", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B076563TSS", "b": "B07FWN12D3", "cosine": 0.96387272, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B0765686WG", "b": "B07KQWY8HN", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B077ZCTBFG", "b": "B07J2CHBY7", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07816CB93", "b": "B078J13FYR", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B078J11TLH", "b": "B078J15LC1", "cosine": 0.96796014, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B078K592ZX", "b": "B07J2BVD5L", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B079MG4C6D", "b": "B07G5PK17L", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B079SYQHC2", "b": "B07F2WB86T", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B079SYQHC3", "b": "B07F2WBNVB", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B079T3KZFN", "b": "B07F2VY6GC", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B079TC4XPM", "b": "B07F2VS9DB", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B079TD735X", "b": "B07F2ZPMHW", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B079WR32V1", "b": "B07FW265FS", "cosine": 0.96704658, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07B1LZR85", "b": "B07WP645ZL", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07B1M38B5", "b": "B086FBVGV1", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07BG76NV2", "b": "B07ZB242BG", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07BXNYZR6", "b": "B085CWFXRW", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07BXNYZR6", "b": "B07ZGW68QN", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07BXS2CDV", "b": "B085CXBZWJ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07BXS2CDV", "b": "B07ZGWPDV7", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07BXWC1MH", "b": "B07C5ZTVQP", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07CNVGJV5", "b": "B07NH99NBF", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07CWX1LJV", "b": "B07RJYBW9L", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07CWZ2YFV", "b": "B07RM37CJ3", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07CWZ7NGW", "b": "B07RM4DW5X", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07CX28WY6", "b": "B07KQMKRZS", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07D6SXF1C", "b": "B07RL34G9D", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07D6SXGY4", "b": "B07RJYB2N1", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07D6TBK5P", "b": "B07RM46TFG", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07D6VLB7H", "b": "B07RFS8XSK", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07DFQMZVG", "b": "B07RM2ZPJ8", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07DFQPB9Y", "b": "B07RL33V9N", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07DG1GRDX", "b": "B07RM2ZNR7", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07FW76LSM", "b": "B07KCNQ1WK", "cosine": 0.96284714, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07FWD1MWH", "b": "B07RFS896R", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07FZGWPF3", "b": "B07G5TYM7F", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07FZGWPF3", "b": "B07G5S1YV9", "cosine": 0.98067809, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07FZGWPF3", "b": "B07G5QWMVR", "cosine": 0.98067809, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07FZHVKN5", "b": "B07PFQ68BP", "cosine": 0.9778338, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07FZHVKN5", "b": "B07PFQ5VP4", "cosine": 0.9778338, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07FZHVKN5", "b": "B07GBW9V3Z", "cosine": 0.9778338, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07FZHVKN5", "b": "B07GBLYHZ4", "cosine": 0.9778338, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07FZJLGG4", "b": "B07G5G1QM8", "cosine": 0.98110166, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07G5QWMVR", "b": "B07G5TYM7F", "cosine": 0.98067809, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07G5QWMVR", "b": "B07G5S1YV9", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07G5S1YV9", "b": "B07G5TYM7F", "cosine": 0.98067809, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GBLYHZ4", "b": "B07PFQ68BP", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GBLYHZ4", "b": "B07PFQ5VP4", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GBLYHZ4", "b": "B07GBW9V3Z", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GBW9V3Z", "b": "B07PFQ68BP", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GBW9V3Z", "b": "B07PFQ5VP4", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GKVKQYY", "b": "B07M9LKKL1", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GKVSRJF", "b": "B07MC73B23", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GL15ZT9", "b": "B07KG245P9", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GL6KMXP", "b": "B07RFS8XTS", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GL6KNDK", "b": "B07MR5WW9G", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GL9GNZP", "b": "B07MLZLL8K", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GLBGBV9", "b": "B07RJY9ZFJ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GLDWM8R", "b": "B07RM3YL4N", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GLDWMB4", "b": "B07MKDGPDB", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GLDXFB4", "b": "B07M5V7MVB", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07GLJFSXJ", "b": "B07RM3YRL1", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07H2FSN84", "b": "B07H34BBMQ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07H2SZV43", "b": "B07H3P1PFF", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07HCN9STL", "b": "B07NSQ4D78", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07JDR48JD", "b": "B07KG3DQL6", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07JGX3TPW", "b": "B07JX13LXL", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07JH6G77P", "b": "B07JHQBL7L", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07JHP6V19", "b": "B07JWZ39C6", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07JHPSZY1", "b": "B07JJ7TLP6", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07JMKSM13", "b": "B07RM4DKZL", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07KY9TB2C", "b": "B07KYX65PN", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07KYX75D9", "b": "B07KZ5SPJ8", "cosine": 0.96290114, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07KZ5LG78", "b": "B07L14TNSM", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07KZ5YS3N", "b": "B07KZ6GQFV", "cosine": 0.96654832, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07LCH8HRM", "b": "B087F1H5K1", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07LCKP5DC", "b": "B087CS93VZ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07MF7K9HD", "b": "B07MFZ37M8", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07N4C74YP", "b": "B07TV62C7B", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07NQKHX95", "b": "B07NR7BGWJ", "cosine": 0.9619368, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07PDH3LP4", "b": "B07PFDYT9T", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07PDH3LP4", "b": "B07PDH5138", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07PDH5138", "b": "B07PFDYT9T", "cosine": 0.96271803, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07PFQ5VP4", "b": "B07PFQ68BP", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07RHV2ZLL", "b": "B07RM4LNB4", "cosine": 0.96814868, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07RTMSSG4", "b": "B087DWF915", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07TS27ML1", "b": "B07WC9NK19", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07TT5GBHC", "b": "B07YSWXTPC", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07TT5GBHC", "b": "B07WC9MMPD", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07TV6638S", "b": "B07W97CVMS", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07TW9129B", "b": "B07W97F9DN", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07TZRJR9Y", "b": "B07WTS1P21", "cosine": 0.97270327, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07VJJVKPP", "b": "B07VKJ7TWB", "cosine": 0.97579852, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07WC9MMPD", "b": "B07YSWXTPC", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07WNKMXS3", "b": "B0812LWS2S", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07XVZZR5L", "b": "B086WXRXN9", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07XW1BZRB", "b": "B07XW2GW6F", "cosine": 0.9736655, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07XW1BZRN", "b": "B07XW1RWXG", "cosine": 0.96707071, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07Y451QNR", "b": "B07Y45T383", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07Y451QNR", "b": "B07Y45N39Z", "cosine": 0.96514734, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07Y45N39Z", "b": "B07Y45T383", "cosine": 0.96514734, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07Y45P8VG", "b": "B07Y45VPTX", "cosine": 0.97261595, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07YNJ3H44", "b": "B07YNJ4241", "cosine": 0.97166697, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07YVMR1DW", "b": "B082PWSF3W", "cosine": 0.9622547, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07ZDWL6ZC", "b": "B087F5RNM7", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07ZGW68QN", "b": "B085CWFXRW", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07ZGWPDV7", "b": "B085CXBZWJ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B07ZGWTWR4", "b": "B085CX5PZV", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B0812L6HMM", "b": "B0812L7FCZ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B082VZ7VVN", "b": "B0841RZWGQ", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B083321D3Y", "b": "B083C93Y9L", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B083B1GWRC", "b": "B087DY7LDC", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B083NFZLP9", "b": "B083NX3LH6", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B084Q6G36T", "b": "B084Q6J42V", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}
+{"a": "B086WXDNM5", "b": "B087ZL4W7S", "cosine": 1.0, "rule": "same_brand_number_signature_char_cosine"}

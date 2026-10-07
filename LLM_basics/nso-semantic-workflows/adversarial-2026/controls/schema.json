@@ -1,0 +1,29 @@
+{
+  "five_field_row": {
+    "additional_fields": false,
+    "description": "Always empty in inference tables",
+    "fields": {
+      "description": "string",
+      "manufacturer": "string",
+      "name": "string",
+      "price": "string",
+      "record_id": "string"
+    }
+  },
+  "manifest_record": {
+    "control_family_id": "Source record ID shared by every view",
+    "image_sha256": "SHA256 PNG bytes",
+    "ocr_sha256": "SHA256 raw OCR UTF8",
+    "original_query_id": "Original opaque source ID",
+    "pixel_sha256": "SHA256 raw RGB pixels",
+    "rendered_source_fields": "Literal original field values; audit-only",
+    "split": "Inherited partition",
+    "view": "Predeclared condition"
+  },
+  "ocr_wrapper": {
+    "modes": "Both PSM11 and PSM6 raw stdout, hashes and status",
+    "record_id": "Original opaque source ID",
+    "text": "Fixed ordered line union",
+    "view_id": "Audit-only unique condition ID"
+  }
+}

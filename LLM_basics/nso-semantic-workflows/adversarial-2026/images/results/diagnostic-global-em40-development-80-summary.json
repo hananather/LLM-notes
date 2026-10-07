@@ -1,0 +1,107 @@
+[
+  {
+    "predictions": "ocr-lexical-dev80-closed.jsonl",
+    "split": "dev80",
+    "view": "closed",
+    "queries": 80,
+    "correct": 61,
+    "accuracy": 0.7625,
+    "coverage": 1.0,
+    "selective_precision": 0.7625,
+    "recall_at_5": 0.8875,
+    "recall_at_20": 0.925,
+    "mrr_at_20_lower_bound": 0.8264823717948717,
+    "nil_queries": 0,
+    "nil_false_links": 0,
+    "link_abstentions": 0,
+    "missing_prediction_rows": 0,
+    "families": 71,
+    "target": "native catalog association, not physical SKU identity",
+    "family_bootstrap_accuracy_95pct": [
+      0.6666666666666666,
+      0.8513513513513513
+    ],
+    "input_family_strata": {
+      "source_similar_family": {
+        "queries": 21,
+        "correct": 9,
+        "accuracy": 0.42857142857142855
+      },
+      "source_singleton_family": {
+        "queries": 59,
+        "correct": 52,
+        "accuracy": 0.8813559322033898
+      }
+    }
+  },
+  {
+    "predictions": "ocr-splink-dev80-closed.jsonl",
+    "split": "dev80",
+    "view": "closed",
+    "queries": 80,
+    "correct": 45,
+    "accuracy": 0.5625,
+    "coverage": 1.0,
+    "selective_precision": 0.5625,
+    "recall_at_5": 0.75,
+    "recall_at_20": 0.9125,
+    "mrr_at_20_lower_bound": 0.6617956002331004,
+    "nil_queries": 0,
+    "nil_false_links": 0,
+    "link_abstentions": 0,
+    "missing_prediction_rows": 0,
+    "families": 71,
+    "target": "native catalog association, not physical SKU identity",
+    "family_bootstrap_accuracy_95pct": [
+      0.45121951219512196,
+      0.68
+    ],
+    "input_family_strata": {
+      "source_similar_family": {
+        "queries": 21,
+        "correct": 4,
+        "accuracy": 0.19047619047619047
+      },
+      "source_singleton_family": {
+        "queries": 59,
+        "correct": 41,
+        "accuracy": 0.6949152542372882
+      }
+    }
+  },
+  {
+    "predictions": "clip-dev80-closed.jsonl",
+    "split": "dev80",
+    "view": "closed",
+    "queries": 80,
+    "correct": 63,
+    "accuracy": 0.7875,
+    "coverage": 1.0,
+    "selective_precision": 0.7875,
+    "recall_at_5": 1.0,
+    "recall_at_20": 1.0,
+    "mrr_at_20_lower_bound": 0.8864583333333333,
+    "nil_queries": 0,
+    "nil_false_links": 0,
+    "link_abstentions": 0,
+    "missing_prediction_rows": 0,
+    "families": 71,
+    "target": "native catalog association, not physical SKU identity",
+    "family_bootstrap_accuracy_95pct": [
+      0.7073170731707317,
+      0.8666666666666667
+    ],
+    "input_family_strata": {
+      "source_similar_family": {
+        "queries": 21,
+        "correct": 12,
+        "accuracy": 0.5714285714285714
+      },
+      "source_singleton_family": {
+        "queries": 59,
+        "correct": 51,
+        "accuracy": 0.864406779661017
+      }
+    }
+  }
+]

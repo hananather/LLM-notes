@@ -1,0 +1,20 @@
+{
+  "code_sha256": "8b2a925b69d05144e9c45a5a98fce70eb72d2188e39492b9bda7424c8cd9c643",
+  "contract": "method -> query_id -> {status: linked|nil|review|failed, target_ids: opaque IDs}",
+  "evaluation_metrics_opened": false,
+  "files": [
+    {
+      "path": "results/conventional-development.json",
+      "queries": 109,
+      "sha256": "5612da4461d29b2bf06c21c387d56b6707c72bf891c451f1d23ed0fa280a1fd0"
+    },
+    {
+      "path": "results/conventional-evaluation.json",
+      "queries": 1065,
+      "sha256": "697853cf87aa5c73c8c0d1f828a9c667e0623e15d5d9c8b377745ee722a35d32"
+    }
+  ],
+  "freeze_manifest_sha256": "2bcaf60ddeb403c9da6150e64a16d111f568196322d27f66cc6172abbae6e52a",
+  "gold_opened": false,
+  "policies": "Exactly the predeclared lexical, forced top-1 and Splink policies; no outcome-based changes."
+}

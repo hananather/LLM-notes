@@ -1,0 +1,68 @@
+{
+  "checks": [
+    {
+      "file": "ocr-lexical-dev-closed.jsonl",
+      "rows": 96,
+      "interface_valid": true
+    },
+    {
+      "file": "ocr-splink-dev-closed.jsonl",
+      "rows": 96,
+      "interface_valid": true
+    },
+    {
+      "file": "clip-dev-closed.jsonl",
+      "rows": 96,
+      "interface_valid": true
+    },
+    {
+      "file": "ocr-lexical-dev80-closed.jsonl",
+      "rows": 80,
+      "interface_valid": true
+    },
+    {
+      "file": "ocr-splink-dev80-closed.jsonl",
+      "rows": 80,
+      "interface_valid": true
+    },
+    {
+      "file": "clip-dev80-closed.jsonl",
+      "rows": 80,
+      "interface_valid": true
+    },
+    {
+      "file": "ocr-lexical-test-closed.jsonl",
+      "rows": 1000,
+      "interface_valid": true
+    },
+    {
+      "file": "ocr-splink-test-closed.jsonl",
+      "rows": 1000,
+      "interface_valid": true
+    },
+    {
+      "file": "clip-test-closed.jsonl",
+      "rows": 1000,
+      "interface_valid": true
+    },
+    {
+      "file": "ocr-lexical-test-nil.jsonl",
+      "rows": 1000,
+      "interface_valid": true
+    },
+    {
+      "file": "ocr-splink-test-nil.jsonl",
+      "rows": 1000,
+      "interface_valid": true
+    },
+    {
+      "file": "clip-test-nil.jsonl",
+      "rows": 1000,
+      "interface_valid": true
+    }
+  ],
+  "frozen_code_hashes_valid": true,
+  "query_catalog_identity_fields_separated": true,
+  "all1096_input_hash_records_present": true,
+  "test_outcomes_read": false
+}

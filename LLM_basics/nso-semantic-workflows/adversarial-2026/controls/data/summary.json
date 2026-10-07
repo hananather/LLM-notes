@@ -1,0 +1,74 @@
+{
+  "distinct_real_entity_count": "Not asserted; counterpart labels were not read",
+  "image_bytes": 6987065,
+  "manifest_sha256": "a6821034d568cabf06465d4f73b4bbd32bd3959d79563204ed334e473bf180e0",
+  "ocr_mode_failures": 0,
+  "ocr_summary": {
+    "dev": {
+      "clean_structured": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 127,
+        "ocr_characters_median": 87.5,
+        "ocr_characters_min": 71,
+        "views": 16
+      },
+      "compact_degraded": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 211,
+        "ocr_characters_median": 156.5,
+        "ocr_characters_min": 126,
+        "views": 16
+      },
+      "compact_reordered": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 222,
+        "ocr_characters_median": 156.0,
+        "ocr_characters_min": 123,
+        "views": 16
+      },
+      "missing_identity": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 32,
+        "ocr_characters_median": 31.0,
+        "ocr_characters_min": 27,
+        "views": 16
+      }
+    },
+    "test": {
+      "clean_structured": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 264,
+        "ocr_characters_median": 98.5,
+        "ocr_characters_min": 72,
+        "views": 64
+      },
+      "compact_degraded": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 233,
+        "ocr_characters_median": 133.0,
+        "ocr_characters_min": 73,
+        "views": 64
+      },
+      "compact_reordered": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 238,
+        "ocr_characters_median": 101.0,
+        "ocr_characters_min": 74,
+        "views": 64
+      },
+      "missing_identity": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 39,
+        "ocr_characters_median": 31.0,
+        "ocr_characters_min": 27,
+        "views": 64
+      }
+    }
+  },
+  "rendered_views": 320,
+  "renderer_sha256": "68e7852b1bdf4d92b495d6c87441f3765dfbe65b6db110f317ebc5f71bb0aabe",
+  "scope": "No model outputs, counterparty truth, counterpart decisions, baseline performance or entity matching scores generated",
+  "source_records": 80,
+  "unchanged_predecessor_image_hashes": 320,
+  "unique_image_hashes": 284
+}

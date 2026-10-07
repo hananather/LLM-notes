@@ -1,0 +1,11 @@
+# Direct dependencies used by this image study; Tesseract 5.5.3 is a separate executable.
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.9.1
+Pillow==12.3.0
+torch==2.14.1
+transformers==4.57.6
+huggingface-hub==0.36.2
+splink==5.0.0
+duckdb==1.5.6

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "scope": "Observed-input and serialization validation only; no identity evaluation",
+  "checks": [
+    "Hash-only selection exactly recomputed",
+    "Every structured left and right row equals original five-field source row with description empty",
+    "Every OCR inference row equals its stored fixed line union with all other content fields empty",
+    "Fixed candidate helper preserves supplied target order",
+    "Manifest and renderer hashes match summary",
+    "All duplicate images occur only in price-only missing-identity condition"
+  ],
+  "source_records": 80,
+  "views": 320,
+  "unique_image_hashes": 284,
+  "duplicate_image_groups": 11,
+  "manifest_sha256": "a6821034d568cabf06465d4f73b4bbd32bd3959d79563204ed334e473bf180e0",
+  "renderer_sha256": "68e7852b1bdf4d92b495d6c87441f3765dfbe65b6db110f317ebc5f71bb0aabe"
+}

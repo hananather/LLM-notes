@@ -1,0 +1,97 @@
+{
+  "code_sha256": "43cdc131f4904c9aae550b85dfaed86a177572f24de1b8dc2e840458c3f3af85",
+  "inference_fields": {
+    "cordis": [
+      "query_id",
+      "ORG",
+      "CITY",
+      "COUNTRY"
+    ],
+    "native": [
+      "query_id",
+      "source_population",
+      "raw_affiliation_string"
+    ]
+  },
+  "label_boundary": "Entire source label column, ROR IDs, gold target links and grouping links are confined to sources/ and data/gold/. Baseline reads only inference files and query-ID partitions.",
+  "prepared_files": [
+    {
+      "bytes": 6220699,
+      "path": "data/ror-v1.41-observed.jsonl.gz",
+      "sha256": "6c79c90e40f944e703d8ea91cba06bba970e82e04257f31d15e7377c00e783ef"
+    },
+    {
+      "bytes": 6400087,
+      "path": "data/gold/registry-identifiers.json",
+      "sha256": "83f6610d5a0ed9704ec81738c474ffcde423ca41f2c2dab7a07d6b198142e3d9"
+    },
+    {
+      "bytes": 380140,
+      "path": "data/cordis-observed.jsonl",
+      "sha256": "9d7461fec82eb9845209b9d0d523ece850b1de8c05f25a54664d35cabeb3f180"
+    },
+    {
+      "bytes": 214703,
+      "path": "data/native-observed.jsonl",
+      "sha256": "d0af4e54d4e43218fcc65dc49c738095f08a33076be35a9e7318d0addc430e55"
+    },
+    {
+      "bytes": 1504136,
+      "path": "data/gold/reference.jsonl",
+      "sha256": "e7f4e8435b8c2455cfa1ef2dde063d8d9eb5a8a64d5459db5a247fccdc363b8d"
+    },
+    {
+      "bytes": 106597,
+      "path": "data/partitions.json",
+      "sha256": "c3c4b234fd8e28ff430d538dd811ee3a26ba792601f7af2fe9402daf160a3ea6"
+    },
+    {
+      "bytes": 345303,
+      "path": "data/gold/sampling-design.json",
+      "sha256": "6194e99cad13bcf263ac335856cd547341bd01718a912eb7ed3e27213fae20fe"
+    },
+    {
+      "bytes": 41527,
+      "path": "data/gold/curation-audit.json",
+      "sha256": "859b5dfb1bbe369fd3fc14bc2427ce7ad6c96c6cb172de772959b67867117874"
+    }
+  ],
+  "registry": {
+    "bytes": 32504396,
+    "licence": "ROR CC0; GeoNames attribution retained",
+    "rows": 108476,
+    "sha256": "0c532997867d205097f0be3ba13250ec3f3b322d580b1e88c23d0e9f4a25eafe",
+    "url": "https://github.com/ror-community/ror-data/raw/main/v1.41-2024-02-13-ror-data.zip"
+  },
+  "schema": 1,
+  "sources": [
+    {
+      "bytes": 316974,
+      "file": "sources/cordis.csv",
+      "licence": "Apache-2.0; owning repository notice retained",
+      "sha256": "a402aa3e2f798d7cc0acf29e1502c504fad2178bfc68ca1b812f4742ae03c7e3",
+      "url": "https://raw.githubusercontent.com/sirisacademic/affilgood/9be394d5a8b11360b877ce59fb2355b0a7fa867e/data/entity%20linking/CORDIS.csv"
+    },
+    {
+      "bytes": 185933,
+      "file": "sources/french.csv",
+      "licence": "Apache-2.0; owning repository notice retained",
+      "sha256": "a83a7ded6fccc324a018c5c5534bb08417549212bbefa84f80c777a396cc61fe",
+      "url": "https://raw.githubusercontent.com/sirisacademic/affilgood/9be394d5a8b11360b877ce59fb2355b0a7fa867e/data/entity%20linking/French%20affiliations.csv"
+    },
+    {
+      "bytes": 44783,
+      "file": "sources/multilingual.csv",
+      "licence": "Apache-2.0; owning repository notice retained",
+      "sha256": "4953ba2b4400abd389fa7ba31fffe91f60eff8e64f3da97e9ff93e6d0a6a4f92",
+      "url": "https://raw.githubusercontent.com/sirisacademic/affilgood/9be394d5a8b11360b877ce59fb2355b0a7fa867e/data/entity%20linking/Multilingual%20affiliations.csv"
+    },
+    {
+      "bytes": 48913,
+      "file": "sources/multi-org.csv",
+      "licence": "Apache-2.0; owning repository notice retained",
+      "sha256": "2394bc7efcc1cce16f2e88c4bb8af74a06af93fef1d6deea6c38e56a67a9b9d9",
+      "url": "https://raw.githubusercontent.com/sirisacademic/affilgood/9be394d5a8b11360b877ce59fb2355b0a7fa867e/data/entity%20linking/Non-related%20multi-organizations.csv"
+    }
+  ]
+}

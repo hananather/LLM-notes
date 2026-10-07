@@ -1,0 +1,20 @@
+You are using the default value for `max_pairs`, which may be too small and thus lead to inaccurate estimates for your model's u-parameters. Consider increasing to 1e8 or 1e9, which will result in more accurate estimates, but with a longer run time.
+WARNING:
+Level Jaccard >= 0.8 on comparison description_words not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.8 on comparison description_words not observed in dataset, unable to train m value
+
+WARNING:
+Level stated comparable quantities differ on comparison quantity not observed in dataset, unable to train m value
+
+WARNING:
+Level Jaccard >= 0.8 on comparison description_words not observed in dataset, unable to train m value
+
+
+ -- WARNING --
+You have called predict(), but there are some parameter estimates which have neither been estimated or specified in your settings dictionary.  To produce predictions the following untrained parameters will use default values.
+Comparison: 'description_words':
+    m values not fully trained
+Comparison: 'description_words':
+    u values not fully trained

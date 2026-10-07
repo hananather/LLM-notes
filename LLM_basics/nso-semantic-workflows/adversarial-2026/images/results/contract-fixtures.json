@@ -1,0 +1,43 @@
+{
+  "fixtures": [
+    {
+      "case": "empty OCR",
+      "decision_status": "failed",
+      "correct_on_nil_truth": false,
+      "passed": true
+    },
+    {
+      "case": "failed fit",
+      "decision_status": "failed",
+      "correct_on_nil_truth": false,
+      "passed": true
+    },
+    {
+      "case": "ambiguous margin",
+      "decision_status": "review",
+      "correct_on_nil_truth": false,
+      "passed": true
+    },
+    {
+      "case": "successful null extraction",
+      "decision_status": "review",
+      "correct_on_nil_truth": false,
+      "passed": true
+    },
+    {
+      "case": "valid low score",
+      "decision_status": "nil",
+      "correct_on_nil_truth": true,
+      "passed": true
+    },
+    {
+      "case": "valid link",
+      "decision_status": "linked",
+      "correct_on_nil_truth": false,
+      "passed": true
+    }
+  ],
+  "dev80_queries": 80,
+  "catalog_records": 96,
+  "test_outcomes_read": false
+}

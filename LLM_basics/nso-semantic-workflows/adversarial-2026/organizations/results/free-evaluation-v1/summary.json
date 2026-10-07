@@ -1,0 +1,644 @@
+{
+  "bootstrap": {
+    "estimand": "Query-weighted metric rates; resample entire evaluation groups with replacement",
+    "interval": "Percentile 95%; descriptive for this historical source and grouping, not NSO population or calibration uncertainty",
+    "replicates": 2000,
+    "seed": 20261007,
+    "unit": "Actual frozen connected groups of shared positive ROR identity or normalized duplicate inputs"
+  },
+  "candidate_recall": [
+    {
+      "all_targets_found_positive_queries": 820,
+      "k": 1,
+      "positive_queries": 873,
+      "positive_targets": 873,
+      "targets_found": 820
+    },
+    {
+      "all_targets_found_positive_queries": 856,
+      "k": 5,
+      "positive_queries": 873,
+      "positive_targets": 873,
+      "targets_found": 856
+    },
+    {
+      "all_targets_found_positive_queries": 861,
+      "k": 10,
+      "positive_queries": 873,
+      "positive_targets": 873,
+      "targets_found": 861
+    },
+    {
+      "all_targets_found_positive_queries": 866,
+      "k": 25,
+      "positive_queries": 873,
+      "positive_targets": 873,
+      "targets_found": 866
+    },
+    {
+      "all_targets_found_positive_queries": 868,
+      "k": 40,
+      "positive_queries": 873,
+      "positive_targets": 873,
+      "targets_found": 868
+    }
+  ],
+  "forced_top1_is_diagnostic": true,
+  "historical_nil_queries": 192,
+  "methods": {
+    "lexical_fixed_policy": {
+      "automatic_coverage": 0.6009389671361502,
+      "automatic_decisions": 640,
+      "complete_decision_accuracy": 0.5943661971830986,
+      "correct_complete_decisions": 633,
+      "error_among_automatic": 0.0109375,
+      "failed_queries": 0,
+      "false_links": 6,
+      "false_nil_decisions": 1,
+      "family_bootstrap_95_percent_intervals": {
+        "automatic_coverage": [
+          0.5728688907651788,
+          0.6326195681510293
+        ],
+        "complete_decision_accuracy": [
+          0.5666339430744407,
+          0.6260730745178567
+        ],
+        "failed_query_rate": [
+          0.0,
+          0.0
+        ],
+        "false_assignment_query_rate": [
+          0.0018744142455482662,
+          0.010357815442561206
+        ],
+        "false_links_per_query": [
+          0.0018744142455482662,
+          0.010357815442561206
+        ],
+        "false_nil_query_rate": [
+          0.0,
+          0.0028517110266159697
+        ],
+        "missed_links_per_query": [
+          0.20185697452087686,
+          0.2549203373945642
+        ],
+        "review_query_rate": [
+          0.3673804318489708,
+          0.4271311092348211
+        ],
+        "wrong_automatic_per_query": [
+          0.002785515320334262,
+          0.011374677374389595
+        ]
+      },
+      "linked_on_nil_queries": 4,
+      "missed_links": 243,
+      "queries": 1065,
+      "queries_with_false_assignment": 6,
+      "query_denominator_sha256": "8b21b04806ae18278df164b69bc4c4030c2f7de6499e3f2e60b92d12da06e8dd",
+      "review_queries": 425,
+      "true_links": 630,
+      "true_nil_queries": 192,
+      "wrong_automatic_decisions": 7
+    },
+    "lexical_top1_forced": {
+      "automatic_coverage": 1.0,
+      "automatic_decisions": 1065,
+      "complete_decision_accuracy": 0.7699530516431925,
+      "correct_complete_decisions": 820,
+      "error_among_automatic": 0.2300469483568075,
+      "failed_queries": 0,
+      "false_links": 245,
+      "false_nil_decisions": 0,
+      "family_bootstrap_95_percent_intervals": {
+        "automatic_coverage": [
+          1.0,
+          1.0
+        ],
+        "complete_decision_accuracy": [
+          0.7445561484206217,
+          0.7953308243853885
+        ],
+        "failed_query_rate": [
+          0.0,
+          0.0
+        ],
+        "false_assignment_query_rate": [
+          0.2046691756146115,
+          0.2554438515793784
+        ],
+        "false_links_per_query": [
+          0.2046691756146115,
+          0.2554438515793784
+        ],
+        "false_nil_query_rate": [
+          0.0,
+          0.0
+        ],
+        "missed_links_per_query": [
+          0.03672230017379658,
+          0.06350821632634983
+        ],
+        "review_query_rate": [
+          0.0,
+          0.0
+        ],
+        "wrong_automatic_per_query": [
+          0.2046691756146115,
+          0.2554438515793784
+        ]
+      },
+      "linked_on_nil_queries": 192,
+      "missed_links": 53,
+      "queries": 1065,
+      "queries_with_false_assignment": 245,
+      "query_denominator_sha256": "8b21b04806ae18278df164b69bc4c4030c2f7de6499e3f2e60b92d12da06e8dd",
+      "review_queries": 0,
+      "true_links": 820,
+      "true_nil_queries": 192,
+      "wrong_automatic_decisions": 245
+    },
+    "splink_fixed_policy": {
+      "automatic_coverage": 0.4225352112676056,
+      "automatic_decisions": 450,
+      "complete_decision_accuracy": 0.3032863849765258,
+      "correct_complete_decisions": 323,
+      "error_among_automatic": 0.2822222222222222,
+      "failed_queries": 0,
+      "false_links": 3,
+      "false_nil_decisions": 124,
+      "family_bootstrap_95_percent_intervals": {
+        "automatic_coverage": [
+          0.39227676582094934,
+          0.45170527764761015
+        ],
+        "complete_decision_accuracy": [
+          0.2741776695129378,
+          0.33021353011825566
+        ],
+        "failed_query_rate": [
+          0.0,
+          0.0
+        ],
+        "false_assignment_query_rate": [
+          0.0,
+          0.00657910209437045
+        ],
+        "false_links_per_query": [
+          0.0,
+          0.00657910209437045
+        ],
+        "false_nil_query_rate": [
+          0.09604425791067861,
+          0.13696251129177958
+        ],
+        "missed_links_per_query": [
+          0.6260671451464055,
+          0.6847616493352923
+        ],
+        "review_query_rate": [
+          0.54829472235239,
+          0.6077232341790506
+        ],
+        "wrong_automatic_per_query": [
+          0.0995347745387051,
+          0.14004044201412622
+        ]
+      },
+      "linked_on_nil_queries": 3,
+      "missed_links": 697,
+      "queries": 1065,
+      "queries_with_false_assignment": 3,
+      "query_denominator_sha256": "8b21b04806ae18278df164b69bc4c4030c2f7de6499e3f2e60b92d12da06e8dd",
+      "review_queries": 615,
+      "true_links": 176,
+      "true_nil_queries": 192,
+      "wrong_automatic_decisions": 127
+    }
+  },
+  "native_sources_scored": false,
+  "paired_comparisons": {
+    "lexical_top1_forced_minus_lexical_fixed_policy": {
+      "candidate": "lexical_top1_forced",
+      "corrections": 190,
+      "family_bootstrap_95_percent_intervals": {
+        "automatic_coverage": [
+          0.36738043184897073,
+          0.42713110923482117
+        ],
+        "complete_decision_accuracy": [
+          0.15188256157280716,
+          0.20036938724117204
+        ],
+        "failed_query_rate": [
+          0.0,
+          0.0
+        ],
+        "false_assignment_query_rate": [
+          0.19869963384374884,
+          0.24953679225764921
+        ],
+        "false_links_per_query": [
+          0.19869963384374884,
+          0.24953679225764921
+        ],
+        "false_nil_query_rate": [
+          -0.0028517110266159697,
+          0.0
+        ],
+        "missed_links_per_query": [
+          -0.2028301886792453,
+          -0.15507354456557274
+        ],
+        "review_query_rate": [
+          -0.42713110923482117,
+          -0.3673804318489708
+        ],
+        "wrong_automatic_per_query": [
+          0.1977818853974122,
+          0.2488176298408553
+        ]
+      },
+      "point_differences_per_query": {
+        "automatic_coverage": 0.39906103286384975,
+        "complete_decision_accuracy": 0.1755868544600939,
+        "failed_query_rate": 0.0,
+        "false_assignment_query_rate": 0.2244131455399061,
+        "false_links_per_query": 0.2244131455399061,
+        "false_nil_query_rate": -0.0009389671361502347,
+        "missed_links_per_query": -0.1784037558685446,
+        "review_query_rate": -0.39906103286384975,
+        "wrong_automatic_per_query": 0.22347417840375586
+      },
+      "reference": "lexical_fixed_policy",
+      "regressions": 3
+    },
+    "splink_fixed_policy_minus_lexical_fixed_policy": {
+      "candidate": "splink_fixed_policy",
+      "corrections": 156,
+      "family_bootstrap_95_percent_intervals": {
+        "automatic_coverage": [
+          -0.22816901408450707,
+          -0.1318618188576033
+        ],
+        "complete_decision_accuracy": [
+          -0.335212791226041,
+          -0.25069318270897395
+        ],
+        "failed_query_rate": [
+          0.0,
+          0.0
+        ],
+        "false_assignment_query_rate": [
+          -0.007483980245883171,
+          0.0009425070688030158
+        ],
+        "false_links_per_query": [
+          -0.007483980245883171,
+          0.0009425070688030158
+        ],
+        "false_nil_query_rate": [
+          0.09492135997576881,
+          0.1359095335551771
+        ],
+        "missed_links_per_query": [
+          0.3962397135622725,
+          0.45709749861802096
+        ],
+        "review_query_rate": [
+          0.13186181885760317,
+          0.22816901408450702
+        ],
+        "wrong_automatic_per_query": [
+          0.09271476672371456,
+          0.1339622641509434
+        ]
+      },
+      "point_differences_per_query": {
+        "automatic_coverage": -0.1784037558685446,
+        "complete_decision_accuracy": -0.29107981220657275,
+        "failed_query_rate": 0.0,
+        "false_assignment_query_rate": -0.0028169014084507044,
+        "false_links_per_query": -0.0028169014084507044,
+        "false_nil_query_rate": 0.11549295774647887,
+        "missed_links_per_query": 0.4262910798122066,
+        "review_query_rate": 0.1784037558685446,
+        "wrong_automatic_per_query": 0.11267605633802817
+      },
+      "reference": "lexical_fixed_policy",
+      "regressions": 466
+    },
+    "splink_fixed_policy_minus_lexical_top1_forced": {
+      "candidate": "splink_fixed_policy",
+      "corrections": 147,
+      "family_bootstrap_95_percent_intervals": {
+        "automatic_coverage": [
+          -0.6077232341790506,
+          -0.54829472235239
+        ],
+        "complete_decision_accuracy": [
+          -0.5103005934780772,
+          -0.42343136542096854
+        ],
+        "failed_query_rate": [
+          0.0,
+          0.0
+        ],
+        "false_assignment_query_rate": [
+          -0.25283045668953685,
+          -0.2013292219783283
+        ],
+        "false_links_per_query": [
+          -0.25283045668953685,
+          -0.2013292219783283
+        ],
+        "false_nil_query_rate": [
+          0.09604425791067861,
+          0.13696251129177958
+        ],
+        "missed_links_per_query": [
+          0.575871090978407,
+          0.6355161961832925
+        ],
+        "review_query_rate": [
+          0.54829472235239,
+          0.6077232341790506
+        ],
+        "wrong_automatic_per_query": [
+          -0.14300174031280966,
+          -0.07850467289719626
+        ]
+      },
+      "point_differences_per_query": {
+        "automatic_coverage": -0.5774647887323944,
+        "complete_decision_accuracy": -0.4666666666666667,
+        "failed_query_rate": 0.0,
+        "false_assignment_query_rate": -0.2272300469483568,
+        "false_links_per_query": -0.2272300469483568,
+        "false_nil_query_rate": 0.11643192488262911,
+        "missed_links_per_query": 0.6046948356807512,
+        "review_query_rate": 0.5774647887323944,
+        "wrong_automatic_per_query": -0.1107981220657277
+      },
+      "reference": "lexical_top1_forced",
+      "regressions": 644
+    }
+  },
+  "positive_queries": 873,
+  "queries": 1065,
+  "question": "On 1065 held-out CORDIS queries, do the development accuracy, false-assignment and coverage trade-offs persist for three unchanged conventional policies?",
+  "scope": "One unchanged free evaluation; no paid arm or operational gate, and no method changes from results.",
+  "source_groups": 1000,
+  "source_policy_strata": {
+    "flagged_inconsistent_duplicate_labels": {
+      "methods": {
+        "lexical_fixed_policy": {
+          "automatic_coverage": 0.0,
+          "automatic_decisions": 0,
+          "complete_decision_accuracy": 0.0,
+          "correct_complete_decisions": 0,
+          "error_among_automatic": null,
+          "failed_queries": 0,
+          "false_links": 0,
+          "false_nil_decisions": 0,
+          "linked_on_nil_queries": 0,
+          "missed_links": 4,
+          "queries": 4,
+          "queries_with_false_assignment": 0,
+          "query_denominator_sha256": "68e56997b8ac3d97fa52e55984c0bc1b2287b0a0b104f316b1000d3db62e6fb2",
+          "review_queries": 4,
+          "true_links": 0,
+          "true_nil_queries": 0,
+          "wrong_automatic_decisions": 0
+        },
+        "lexical_top1_forced": {
+          "automatic_coverage": 1.0,
+          "automatic_decisions": 4,
+          "complete_decision_accuracy": 0.5,
+          "correct_complete_decisions": 2,
+          "error_among_automatic": 0.5,
+          "failed_queries": 0,
+          "false_links": 2,
+          "false_nil_decisions": 0,
+          "linked_on_nil_queries": 0,
+          "missed_links": 2,
+          "queries": 4,
+          "queries_with_false_assignment": 2,
+          "query_denominator_sha256": "68e56997b8ac3d97fa52e55984c0bc1b2287b0a0b104f316b1000d3db62e6fb2",
+          "review_queries": 0,
+          "true_links": 2,
+          "true_nil_queries": 0,
+          "wrong_automatic_decisions": 2
+        },
+        "splink_fixed_policy": {
+          "automatic_coverage": 0.0,
+          "automatic_decisions": 0,
+          "complete_decision_accuracy": 0.0,
+          "correct_complete_decisions": 0,
+          "error_among_automatic": null,
+          "failed_queries": 0,
+          "false_links": 0,
+          "false_nil_decisions": 0,
+          "linked_on_nil_queries": 0,
+          "missed_links": 4,
+          "queries": 4,
+          "queries_with_false_assignment": 0,
+          "query_denominator_sha256": "68e56997b8ac3d97fa52e55984c0bc1b2287b0a0b104f316b1000d3db62e6fb2",
+          "review_queries": 4,
+          "true_links": 0,
+          "true_nil_queries": 0,
+          "wrong_automatic_decisions": 0
+        }
+      },
+      "queries": 4
+    },
+    "historical_nil": {
+      "methods": {
+        "lexical_fixed_policy": {
+          "automatic_coverage": 0.036458333333333336,
+          "automatic_decisions": 7,
+          "complete_decision_accuracy": 0.015625,
+          "correct_complete_decisions": 3,
+          "error_among_automatic": 0.5714285714285714,
+          "failed_queries": 0,
+          "false_links": 4,
+          "false_nil_decisions": 0,
+          "linked_on_nil_queries": 4,
+          "missed_links": 0,
+          "queries": 192,
+          "queries_with_false_assignment": 4,
+          "query_denominator_sha256": "ea901c95a55542246728e9cbb335c440030fca956ee973f91420a8f5de414df2",
+          "review_queries": 185,
+          "true_links": 0,
+          "true_nil_queries": 192,
+          "wrong_automatic_decisions": 4
+        },
+        "lexical_top1_forced": {
+          "automatic_coverage": 1.0,
+          "automatic_decisions": 192,
+          "complete_decision_accuracy": 0.0,
+          "correct_complete_decisions": 0,
+          "error_among_automatic": 1.0,
+          "failed_queries": 0,
+          "false_links": 192,
+          "false_nil_decisions": 0,
+          "linked_on_nil_queries": 192,
+          "missed_links": 0,
+          "queries": 192,
+          "queries_with_false_assignment": 192,
+          "query_denominator_sha256": "ea901c95a55542246728e9cbb335c440030fca956ee973f91420a8f5de414df2",
+          "review_queries": 0,
+          "true_links": 0,
+          "true_nil_queries": 192,
+          "wrong_automatic_decisions": 192
+        },
+        "splink_fixed_policy": {
+          "automatic_coverage": 0.78125,
+          "automatic_decisions": 150,
+          "complete_decision_accuracy": 0.765625,
+          "correct_complete_decisions": 147,
+          "error_among_automatic": 0.02,
+          "failed_queries": 0,
+          "false_links": 3,
+          "false_nil_decisions": 0,
+          "linked_on_nil_queries": 3,
+          "missed_links": 0,
+          "queries": 192,
+          "queries_with_false_assignment": 3,
+          "query_denominator_sha256": "ea901c95a55542246728e9cbb335c440030fca956ee973f91420a8f5de414df2",
+          "review_queries": 42,
+          "true_links": 0,
+          "true_nil_queries": 192,
+          "wrong_automatic_decisions": 3
+        }
+      },
+      "queries": 192
+    },
+    "inactive_or_withdrawn_target": {
+      "methods": {
+        "lexical_fixed_policy": {
+          "automatic_coverage": 0.5833333333333334,
+          "automatic_decisions": 7,
+          "complete_decision_accuracy": 0.5833333333333334,
+          "correct_complete_decisions": 7,
+          "error_among_automatic": 0.0,
+          "failed_queries": 0,
+          "false_links": 0,
+          "false_nil_decisions": 0,
+          "linked_on_nil_queries": 0,
+          "missed_links": 5,
+          "queries": 12,
+          "queries_with_false_assignment": 0,
+          "query_denominator_sha256": "c4357351834d333e784e5ece053e4b2e30f724bead82cde869bd6ad72f8c09df",
+          "review_queries": 5,
+          "true_links": 7,
+          "true_nil_queries": 0,
+          "wrong_automatic_decisions": 0
+        },
+        "lexical_top1_forced": {
+          "automatic_coverage": 1.0,
+          "automatic_decisions": 12,
+          "complete_decision_accuracy": 0.9166666666666666,
+          "correct_complete_decisions": 11,
+          "error_among_automatic": 0.08333333333333333,
+          "failed_queries": 0,
+          "false_links": 1,
+          "false_nil_decisions": 0,
+          "linked_on_nil_queries": 0,
+          "missed_links": 1,
+          "queries": 12,
+          "queries_with_false_assignment": 1,
+          "query_denominator_sha256": "c4357351834d333e784e5ece053e4b2e30f724bead82cde869bd6ad72f8c09df",
+          "review_queries": 0,
+          "true_links": 11,
+          "true_nil_queries": 0,
+          "wrong_automatic_decisions": 1
+        },
+        "splink_fixed_policy": {
+          "automatic_coverage": 0.25,
+          "automatic_decisions": 3,
+          "complete_decision_accuracy": 0.25,
+          "correct_complete_decisions": 3,
+          "error_among_automatic": 0.0,
+          "failed_queries": 0,
+          "false_links": 0,
+          "false_nil_decisions": 0,
+          "linked_on_nil_queries": 0,
+          "missed_links": 9,
+          "queries": 12,
+          "queries_with_false_assignment": 0,
+          "query_denominator_sha256": "c4357351834d333e784e5ece053e4b2e30f724bead82cde869bd6ad72f8c09df",
+          "review_queries": 9,
+          "true_links": 3,
+          "true_nil_queries": 0,
+          "wrong_automatic_decisions": 0
+        }
+      },
+      "queries": 12
+    },
+    "positive_target": {
+      "methods": {
+        "lexical_fixed_policy": {
+          "automatic_coverage": 0.7250859106529209,
+          "automatic_decisions": 633,
+          "complete_decision_accuracy": 0.7216494845360825,
+          "correct_complete_decisions": 630,
+          "error_among_automatic": 0.004739336492890996,
+          "failed_queries": 0,
+          "false_links": 2,
+          "false_nil_decisions": 1,
+          "linked_on_nil_queries": 0,
+          "missed_links": 243,
+          "queries": 873,
+          "queries_with_false_assignment": 2,
+          "query_denominator_sha256": "094883102a8442db38b868798a902985ae487d49d596eca0a4652f1151986393",
+          "review_queries": 240,
+          "true_links": 630,
+          "true_nil_queries": 0,
+          "wrong_automatic_decisions": 3
+        },
+        "lexical_top1_forced": {
+          "automatic_coverage": 1.0,
+          "automatic_decisions": 873,
+          "complete_decision_accuracy": 0.9392898052691867,
+          "correct_complete_decisions": 820,
+          "error_among_automatic": 0.06071019473081329,
+          "failed_queries": 0,
+          "false_links": 53,
+          "false_nil_decisions": 0,
+          "linked_on_nil_queries": 0,
+          "missed_links": 53,
+          "queries": 873,
+          "queries_with_false_assignment": 53,
+          "query_denominator_sha256": "094883102a8442db38b868798a902985ae487d49d596eca0a4652f1151986393",
+          "review_queries": 0,
+          "true_links": 820,
+          "true_nil_queries": 0,
+          "wrong_automatic_decisions": 53
+        },
+        "splink_fixed_policy": {
+          "automatic_coverage": 0.3436426116838488,
+          "automatic_decisions": 300,
+          "complete_decision_accuracy": 0.2016036655211913,
+          "correct_complete_decisions": 176,
+          "error_among_automatic": 0.41333333333333333,
+          "failed_queries": 0,
+          "false_links": 0,
+          "false_nil_decisions": 124,
+          "linked_on_nil_queries": 0,
+          "missed_links": 697,
+          "queries": 873,
+          "queries_with_false_assignment": 0,
+          "query_denominator_sha256": "094883102a8442db38b868798a902985ae487d49d596eca0a4652f1151986393",
+          "review_queries": 573,
+          "true_links": 176,
+          "true_nil_queries": 0,
+          "wrong_automatic_decisions": 124
+        }
+      },
+      "queries": 873
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "candidates_sha256": "fa1612b87d9479d88b2a771f4d3200331d8df12d4feb50f009335aeb729e44a1",
+  "conventional_prior_bundle": {
+    "main_prior": 9.864267676767677e-05,
+    "priors": {
+      "0.5": 0.00015782828282828284,
+      "0.8": 9.864267676767677e-05,
+      "1.0": 7.891414141414142e-05,
+      "links_per_left=0.1": 0.00028409090909090913,
+      "links_per_left=0.5": 0.0014204545454545455,
+      "links_per_left=1.0": 0.002840909090909091,
+      "links_per_left=2.0": 0.005681818181818182
+    }
+  },
+  "extractions_sha256": "c91abe0dd0766f93c45553712d802bd220e8b788a1b6872ddeca7831da6432a8",
+  "failed_extraction_ids": [
+    "p_02c418e62420cbec5a4711bb",
+    "p_03a7501ffa6c8401f09b845b",
+    "p_0648e8a1d04a2e38c51e0180",
+    "p_08090234e259f35490f22550",
+    "p_08679f4a71621d2584ad17bc",
+    "p_107cce64bce477478caaee99",
+    "p_12e837f8dc4733d497153035",
+    "p_1ac58dd5875a52edc962f9d7",
+    "p_1c4b68767dfa36246e344226",
+    "p_3bd7ea74a5913556ff70b566",
+    "p_48c0e743e051f4cf93a926e4",
+    "p_57638cffbd66b9c8c8b7f7ff",
+    "p_5ac7bdc263444b850d887b4d",
+    "p_5cd7c07853670226ef598bcc",
+    "p_5d947fa1d3179061ddbba95a",
+    "p_68ede5a6d314ddc50ae9c3c0",
+    "p_6ba2f235ab379fd5894f2e10",
+    "p_6c49bf1ba04b1ee58a1fe527",
+    "p_760a0cd8a3166f21dbca4126",
+    "p_782bfbdb688055b94db4a717",
+    "p_84392ed7a5f8bdc5b874798e",
+    "p_8f9c6df50a56a9c4665c8cab",
+    "p_a513f7c4f8c062a5102a6eb2",
+    "p_ad74c9effa144bc5972aea47",
+    "p_ae0c693823311f13d0e409d3",
+    "p_af2ab1f79641ac186fcab8e1",
+    "p_bca14bd408b2e025aa7030e8",
+    "p_c10cacb57fc664f1f1b9e977",
+    "p_c459e043408e45280a6d53d5",
+    "p_cf8f4abbc812464588650756",
+    "p_ddaaafc87bb0d3bc1f5d2223",
+    "p_e64aec186b854d9e1356c163",
+    "p_f360852c2c1485ffba482034"
+  ],
+  "failed_extractions": 33,
+  "implementation_sha256": {
+    "baseline.py": "e89bdcf8cc680eca1d19bad3760da7d81ef065941fe17ee6066d0fb1a3aae03c",
+    "product_features.py": "b348d65c1809809fca271bba421d951f1fb013bd0663483f01bc73c71309fb6b",
+    "schema.json": "dd3433c1950f78a3ede4c52b2f785d2cc7b5b443521cc8e1ac5663a90ac4016f"
+  },
+  "left_count": 144,
+  "observed_sha256": "69897466f706068ee6aebeaf3b517a380654ace0f42d2e098fbb38c7fd8a129f",
+  "right_count": 352,
+  "scope": "Same comparisons and fresh transductive unlabeled EM. Full-pair and unchanged-candidate results are separate. No truth is read."
+}

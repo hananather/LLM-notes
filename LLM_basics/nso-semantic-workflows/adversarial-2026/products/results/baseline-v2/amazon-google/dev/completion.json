@@ -1,0 +1,27 @@
+{
+  "dataset": "amazon-google",
+  "files": {
+    "candidates.json": "db7c328ae498e3fd609a19087038735f748403b861dafb36bbd28e04875c8182",
+    "failed-fit-decisions.json": "a3e833901dc33acc8e345e0f00cbf624b0cd9cfcf0736570a57d4eff0c137057",
+    "input-lengths.json": "ee736da4ec707925bb4a265d579e42ce1790f8cf6640dd7cbed63f1ce8ffa295",
+    "lexical-all-pair-scores.npz": "c56a1a07e076676136c80061ffeaef893b01273391a27013977eb9ff4cc86565",
+    "lexical-decisions.json": "67a8e9576738eb1aec0a33970fe6108b67921369f9a26584763b522e0c63aadc",
+    "protocol.json": "12ad15d3626047eaca40ca57097f2a8228f43ceea0c63bc5cc65c455fc15f8ba",
+    "splink-fit-audit.json": "cb799c9a3f575ef43ca362a657158d491d0e6f29f2f89579927d80e4138b25ca",
+    "splink-training.log": "5e83dc22dedb9142640f4598701350062e89a8f84c8d436e87d1d7e1da8e6513"
+  },
+  "lexical": {
+    "candidate_pairs": 2222,
+    "wall_seconds": 0.29068916699907277
+  },
+  "splink": {
+    "all_pair_count": 50688,
+    "failure": "ValueError: At least one nonempty EM block failed or did not converge",
+    "status": "failed_fit",
+    "unestimated_m_levels": 0,
+    "unestimated_u_levels": 0,
+    "wall_seconds": 2.595175417009159
+  },
+  "split": "dev",
+  "status": "failed_fit"
+}

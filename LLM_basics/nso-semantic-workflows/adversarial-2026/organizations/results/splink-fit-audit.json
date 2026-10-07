@@ -1,0 +1,942 @@
+{
+  "fit_seconds": 1.6852093749912456,
+  "fit_status": "complete",
+  "levels": [
+    {
+      "comparison": "organization_name",
+      "gamma": -1,
+      "is_null_level": true,
+      "sql_condition": "name_l IS NULL OR name_r IS NULL"
+    },
+    {
+      "comparison": "organization_name",
+      "gamma": 4,
+      "is_null_level": false,
+      "m": 0.07182938503302988,
+      "m_estimated": true,
+      "m_raw": 0.07182938503302988,
+      "sql_condition": "name_l = name_r OR list_has_any(names_l, names_r)",
+      "u": 7.033818599827973e-06,
+      "u_estimated": true,
+      "u_raw": 7.033818599827973e-06
+    },
+    {
+      "comparison": "organization_name",
+      "gamma": 3,
+      "is_null_level": false,
+      "m": 0.014629055760476272,
+      "m_estimated": true,
+      "m_raw": 0.014629055760476272,
+      "sql_condition": "org_name_similarity(names_l, names_r) >= 0.95",
+      "u": 9.04348105692168e-06,
+      "u_estimated": true,
+      "u_raw": 9.04348105692168e-06
+    },
+    {
+      "comparison": "organization_name",
+      "gamma": 2,
+      "is_null_level": false,
+      "m": 0.23408484571456095,
+      "m_estimated": true,
+      "m_raw": 0.23408484571456095,
+      "sql_condition": "org_name_similarity(names_l, names_r) >= 0.85",
+      "u": 0.0025723679450799443,
+      "u_estimated": true,
+      "u_raw": 0.0025723679450799443
+    },
+    {
+      "comparison": "organization_name",
+      "gamma": 1,
+      "is_null_level": false,
+      "m": 0.6794302148803374,
+      "m_estimated": true,
+      "m_raw": 0.6794302148803374,
+      "sql_condition": "org_name_similarity(names_l, names_r) >= 0.7",
+      "u": 0.018931020345822714,
+      "u_estimated": true,
+      "u_raw": 0.018931020345822714
+    },
+    {
+      "comparison": "organization_name",
+      "gamma": 0,
+      "is_null_level": false,
+      "m": 2.6498611595325964e-05,
+      "m_estimated": true,
+      "m_raw": 2.6498611595325964e-05,
+      "sql_condition": "ELSE",
+      "u": 0.9784805344094406,
+      "u_estimated": true,
+      "u_raw": 0.9784805344094406
+    },
+    {
+      "comparison": "city_evidence",
+      "gamma": -1,
+      "is_null_level": true,
+      "sql_condition": "city_l IS NULL OR city_r IS NULL"
+    },
+    {
+      "comparison": "city_evidence",
+      "gamma": 2,
+      "is_null_level": false,
+      "m": 0.6978344990538429,
+      "m_estimated": true,
+      "m_raw": 0.6978344990538429,
+      "sql_condition": "city_l = city_r OR list_has_any(city_names_l, city_names_r)",
+      "u": 0.0014479618003360156,
+      "u_estimated": true,
+      "u_raw": 0.0014479618003360156
+    },
+    {
+      "comparison": "city_evidence",
+      "gamma": 1,
+      "is_null_level": false,
+      "m": 0.1011463137902225,
+      "m_estimated": true,
+      "m_raw": 0.1011463137902225,
+      "sql_condition": "org_name_similarity(city_names_l, city_names_r) >= 0.9",
+      "u": 0.00020297590816646435,
+      "u_estimated": true,
+      "u_raw": 0.00020297590816646435
+    },
+    {
+      "comparison": "city_evidence",
+      "gamma": 0,
+      "is_null_level": false,
+      "m": 0.20101918715593464,
+      "m_estimated": true,
+      "m_raw": 0.20101918715593464,
+      "sql_condition": "ELSE",
+      "u": 0.9983490622914976,
+      "u_estimated": true,
+      "u_raw": 0.9983490622914976
+    },
+    {
+      "comparison": "country_evidence",
+      "gamma": -1,
+      "is_null_level": true,
+      "sql_condition": "country_l IS NULL OR country_r IS NULL"
+    },
+    {
+      "comparison": "country_evidence",
+      "gamma": 1,
+      "is_null_level": false,
+      "m": 0.8627291920013648,
+      "m_estimated": true,
+      "m_raw": 0.8627291920013648,
+      "sql_condition": "country_l = country_r",
+      "u": 0.034039662698253204,
+      "u_estimated": true,
+      "u_raw": 0.034039662698253204
+    },
+    {
+      "comparison": "country_evidence",
+      "gamma": 0,
+      "is_null_level": false,
+      "m": 0.13727080799863522,
+      "m_estimated": true,
+      "m_raw": 0.13727080799863522,
+      "sql_condition": "ELSE",
+      "u": 0.9659603373017468,
+      "u_estimated": true,
+      "u_raw": 0.9659603373017468
+    }
+  ],
+  "main_prior": {
+    "assumed_anchor_recall": 0.8,
+    "feasible": true,
+    "implied_matches": 2051.25,
+    "prior": 5.680298211931568e-06
+  },
+  "model": {
+    "additional_columns_to_retain": [],
+    "blocking_rules_to_generate_predictions": [
+      {
+        "blocking_rule": "l.\"name\" = r.\"name\"",
+        "sql_dialect": "duckdb"
+      }
+    ],
+    "comparison_vector_value_column_prefix": "gamma_",
+    "comparisons": [
+      {
+        "comparison_description": "CustomComparison",
+        "comparison_levels": [
+          {
+            "fix_m_probability": false,
+            "fix_u_probability": false,
+            "is_null_level": true,
+            "label_for_charts": "Missing name",
+            "sql_condition": "name_l IS NULL OR name_r IS NULL"
+          },
+          {
+            "fix_m_probability": false,
+            "fix_u_probability": false,
+            "label_for_charts": "Exact primary or alias",
+            "m_probability": 0.07182938503302988,
+            "sql_condition": "name_l = name_r OR list_has_any(names_l, names_r)",
+            "u_probability": 7.033818599827973e-06
+          },
+          {
+            "fix_m_probability": false,
+            "fix_u_probability": false,
+            "label_for_charts": "Best alias Jaro-Winkler >= 0.95",
+            "m_probability": 0.014629055760476272,
+            "sql_condition": "org_name_similarity(names_l, names_r) >= 0.95",
+            "u_probability": 9.04348105692168e-06
+          },
+          {
+            "fix_m_probability": false,
+            "fix_u_probability": false,
+            "label_for_charts": "Best alias Jaro-Winkler >= 0.85",
+            "m_probability": 0.23408484571456095,
+            "sql_condition": "org_name_similarity(names_l, names_r) >= 0.85",
+            "u_probability": 0.0025723679450799443
+          },
+          {
+            "fix_m_probability": false,
+            "fix_u_probability": false,
+            "label_for_charts": "Best alias Jaro-Winkler >= 0.7",
+            "m_probability": 0.6794302148803374,
+            "sql_condition": "org_name_similarity(names_l, names_r) >= 0.7",
+            "u_probability": 0.018931020345822714
+          },
+          {
+            "fix_m_probability": false,
+            "fix_u_probability": false,
+            "label_for_charts": "Other name",
+            "m_probability": 2.6498611595325964e-05,
+            "sql_condition": "ELSE",
+            "u_probability": 0.9784805344094406
+          }
+        ],
+        "output_column_name": "organization_name"
+      },
+      {
+        "comparison_description": "CustomComparison",
+        "comparison_levels": [
+          {
+            "fix_m_probability": false,
+            "fix_u_probability": false,
+            "is_null_level": true,
+            "label_for_charts": "Missing city",
+            "sql_condition": "city_l IS NULL OR city_r IS NULL"
+          },
+          {
+            "fix_m_probability": false,
+            "fix_u_probability": false,
+            "label_for_charts": "Exact city",
+            "m_probability": 0.6978344990538429,
+            "sql_condition": "city_l = city_r OR list_has_any(city_names_l, city_names_r)",
+            "u_probability": 0.0014479618003360156
+          },
+          {
+            "fix_m_probability": false,
+            "fix_u_probability": false,
+            "label_for_charts": "City Jaro-Winkler >= 0.9",
+            "m_probability": 0.1011463137902225,
+            "sql_condition": "org_name_similarity(city_names_l, city_names_r) >= 0.9",
+            "u_probability": 0.00020297590816646435
+          },
+          {
+            "fix_m_probability": false,
+            "fix_u_probability": false,
+            "label_for_charts": "Other city",
+            "m_probability": 0.20101918715593464,
+            "sql_condition": "ELSE",
+            "u_probability": 0.9983490622914976
+          }
+        ],
+        "output_column_name": "city_evidence"
+      },
+      {
+        "comparison_description": "CustomComparison",
+        "comparison_levels": [
+          {
+            "fix_m_probability": false,
+            "fix_u_probability": false,
+            "is_null_level": true,
+            "label_for_charts": "Missing country",
+            "sql_condition": "country_l IS NULL OR country_r IS NULL"
+          },
+          {
+            "fix_m_probability": false,
+            "fix_u_probability": false,
+            "label_for_charts": "Country agreement",
+            "m_probability": 0.8627291920013648,
+            "sql_condition": "country_l = country_r",
+            "u_probability": 0.034039662698253204
+          },
+          {
+            "fix_m_probability": false,
+            "fix_u_probability": false,
+            "label_for_charts": "Country disagreement",
+            "m_probability": 0.13727080799863522,
+            "sql_condition": "ELSE",
+            "u_probability": 0.9659603373017468
+          }
+        ],
+        "output_column_name": "country_evidence"
+      }
+    ],
+    "em_convergence": 0.0001,
+    "link_type": "link_only",
+    "linker_uid": "18m0xy7v",
+    "match_weight_column_prefix": "mw_",
+    "max_iterations": 30,
+    "probability_two_random_records_match": 5.680298211931568e-06,
+    "retain_intermediate_calculation_columns": true,
+    "retain_matching_columns": true,
+    "source_dataset_column_name": "source",
+    "sql_dialect": "duckdb",
+    "term_frequency_adjustment_column_prefix": "tf_",
+    "unique_id_column_name": "unique_id"
+  },
+  "model_calibration": "unestablished",
+  "prior_scenarios": [
+    {
+      "assumed_anchor_recall": 0.5,
+      "feasible": true,
+      "implied_matches": 3282.0,
+      "prior": 9.088477139090508e-06
+    },
+    {
+      "assumed_anchor_recall": 0.8,
+      "feasible": true,
+      "implied_matches": 2051.25,
+      "prior": 5.680298211931568e-06
+    },
+    {
+      "assumed_anchor_recall": 0.95,
+      "feasible": true,
+      "implied_matches": 1727.3684210526317,
+      "prior": 4.783409020573952e-06
+    },
+    {
+      "assumed_anchor_recall": 1.0,
+      "feasible": true,
+      "implied_matches": 1641.0,
+      "prior": 4.544238569545254e-06
+    }
+  ],
+  "sessions": [
+    {
+      "block": "<splink.internals.blocking_rule_library.And object at 0x14ef1de50>",
+      "convergence_criterion_met": true,
+      "excluded_comparisons": [
+        "city_evidence",
+        "country_evidence"
+      ],
+      "history": [
+        {
+          "iteration": 0,
+          "maximum_absolute_change": null,
+          "parameters": {
+            "organization_name:0:m": 0.012500000000000011,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.012500000000000011,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.012500000000000011,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.012500000000000011,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.95,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.00015850505508222464
+          }
+        },
+        {
+          "iteration": 1,
+          "maximum_absolute_change": 0.024569221987987944,
+          "parameters": {
+            "organization_name:0:m": 0.0005351925987976407,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.0015260267370440967,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.0030450189489205685,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.037069221987987955,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.9578245397272497,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.003520995050284577
+          }
+        },
+        {
+          "iteration": 2,
+          "maximum_absolute_change": 0.13407242817272536,
+          "parameters": {
+            "organization_name:0:m": 0.0004205172469867797,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.0034182957550028675,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.013566420672017167,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.1588426547714688,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.8237521115545243,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.004276388253909558
+          }
+        },
+        {
+          "iteration": 3,
+          "maximum_absolute_change": 0.05615732978907162,
+          "parameters": {
+            "organization_name:0:m": 0.00037419246664480263,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.0086672560778491,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.06721461053714405,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.15614915915290925,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.7675947817654527,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.0045896620943740914
+          }
+        },
+        {
+          "iteration": 4,
+          "maximum_absolute_change": 0.18889735549711506,
+          "parameters": {
+            "organization_name:0:m": 0.00028057598209308804,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.01849348004773432,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.2561119660342591,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.12264275529602171,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.6024712226398916,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.005847588016002231
+          }
+        },
+        {
+          "iteration": 5,
+          "maximum_absolute_change": 0.275355987972816,
+          "parameters": {
+            "organization_name:0:m": 0.00016213783257598095,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.030301319404788887,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.5314679540070751,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.07409442922312949,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.3639741595324305,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.009679292458907343
+          }
+        },
+        {
+          "iteration": 6,
+          "maximum_absolute_change": 0.1184295937699125,
+          "parameters": {
+            "organization_name:0:m": 0.00010503128431445089,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.05511268322590478,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.6492500526747873,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.04998766705247556,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.245544565762518,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.01434786081497297
+          }
+        },
+        {
+          "iteration": 7,
+          "maximum_absolute_change": 0.06568670298876894,
+          "parameters": {
+            "organization_name:0:m": 8.415110182663661e-05,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.12079938621467372,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.6336887552495324,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.04151446403851746,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.2039132433954498,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.017277308826303583
+          }
+        },
+        {
+          "iteration": 8,
+          "maximum_absolute_change": 0.1289271427780091,
+          "parameters": {
+            "organization_name:0:m": 6.784840114500371e-05,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.2497265289926828,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.5457093157574403,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.0345917573248104,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.16990454952392137,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.02073571731373664
+          }
+        },
+        {
+          "iteration": 9,
+          "maximum_absolute_change": 0.16784091998945258,
+          "parameters": {
+            "organization_name:0:m": 5.0896181476428396e-05,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.4175674489821354,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.4244086522900293,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.026722878919278027,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.13125012362708083,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.026842771119998766
+          }
+        },
+        {
+          "iteration": 10,
+          "maximum_absolute_change": 0.13599422521041704,
+          "parameters": {
+            "organization_name:0:m": 3.805610410107717e-05,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.5535616741925524,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.3255183806440057,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.020449601481304154,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.10043228757803671,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.03507995320051847
+          }
+        },
+        {
+          "iteration": 11,
+          "maximum_absolute_change": 0.07423114009139742,
+          "parameters": {
+            "organization_name:0:m": 3.12241230252625e-05,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.6277928142839498,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.27153420189375826,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.017026808541050247,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.08361495115821656,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.042136218582070485
+          }
+        },
+        {
+          "iteration": 12,
+          "maximum_absolute_change": 0.0320342089781156,
+          "parameters": {
+            "organization_name:0:m": 2.8296258375325595e-05,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.6598270232620654,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.2482736557898457,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.01554392399878208,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.07632710069093145,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.046160111886147666
+          }
+        },
+        {
+          "iteration": 13,
+          "maximum_absolute_change": 0.012403887311224104,
+          "parameters": {
+            "organization_name:0:m": 2.7160975707937826e-05,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.6722309105732895,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.23928675330513016,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.014966522850021495,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.07348865229585098,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.04794339999541281
+          }
+        },
+        {
+          "iteration": 14,
+          "maximum_absolute_change": 0.004602470600488351,
+          "parameters": {
+            "organization_name:0:m": 2.673817601719199e-05,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.6768333811737779,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.23595893456360514,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.014751160516579162,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.0724297855700207,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.048644468540352696
+          }
+        },
+        {
+          "iteration": 15,
+          "maximum_absolute_change": 0.0016821551430626913,
+          "parameters": {
+            "organization_name:0:m": 2.6583142058416353e-05,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.6785155363168406,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.2347444605964965,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.014672146931426778,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.0720412730131778,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.04890687273938784
+          }
+        },
+        {
+          "iteration": 16,
+          "maximum_absolute_change": 0.0006118051107518729,
+          "parameters": {
+            "organization_name:0:m": 2.6526630441202247e-05,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.6791273414275925,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.23430316932160122,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.01464333974776269,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.07189962287260235,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.0490032503934395
+          }
+        },
+        {
+          "iteration": 17,
+          "maximum_absolute_change": 0.00022219973338843957,
+          "parameters": {
+            "organization_name:0:m": 2.6506078804028234e-05,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.6793495411609809,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.23414298580660792,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.014632862617758702,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.07184810433584848,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.049038397540425986
+          }
+        },
+        {
+          "iteration": 18,
+          "maximum_absolute_change": 8.067371935649437e-05,
+          "parameters": {
+            "organization_name:0:m": 2.6498611595325964e-05,
+            "organization_name:0:u": 0.9784805344094406,
+            "organization_name:1:m": 0.6794302148803374,
+            "organization_name:1:u": 0.018931020345822714,
+            "organization_name:2:m": 0.23408484571456095,
+            "organization_name:2:u": 0.0025723679450799443,
+            "organization_name:3:m": 0.014629055760476272,
+            "organization_name:3:u": 9.04348105692168e-06,
+            "organization_name:4:m": 0.07182938503302988,
+            "organization_name:4:u": 7.033818599827973e-06,
+            "prior": 0.04905118078577725
+          }
+        }
+      ],
+      "iterations": 18
+    },
+    {
+      "block": "<splink.internals.blocking_rule_library.ExactMatchRule object at 0x14edaa510>",
+      "convergence_criterion_met": true,
+      "excluded_comparisons": [
+        "organization_name"
+      ],
+      "history": [
+        {
+          "iteration": 0,
+          "maximum_absolute_change": null,
+          "parameters": {
+            "city_evidence:0:m": 0.025000000000000022,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.025000000000000022,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.95,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.050000000000000044,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.95,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 5.680298211931567e-06
+          }
+        },
+        {
+          "iteration": 1,
+          "maximum_absolute_change": 0.04964596163804158,
+          "parameters": {
+            "city_evidence:0:m": 1.2367167108342716e-05,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.031725126042314596,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.968262506790577,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.00035403836195850325,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.9996459616380415,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.04902324901772072
+          }
+        },
+        {
+          "iteration": 2,
+          "maximum_absolute_change": 0.5415322304294644,
+          "parameters": {
+            "city_evidence:0:m": 4.868501651656623e-06,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.13773843731210572,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.8622566941862426,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.0019125829900496732,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.9980874170099503,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.5905554794471851
+          }
+        },
+        {
+          "iteration": 3,
+          "maximum_absolute_change": 0.08944389309795366,
+          "parameters": {
+            "city_evidence:0:m": 4.863477507495868e-05,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.13072648267584452,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.8692248825490806,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.09135647608800333,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.9086435239119967,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.6518200998805712
+          }
+        },
+        {
+          "iteration": 4,
+          "maximum_absolute_change": 0.044852677785209294,
+          "parameters": {
+            "city_evidence:0:m": 0.0005460799574323942,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.12659888968752783,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.8728550303550399,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.13620915387321256,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.8637908461267874,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.6859750526936285
+          }
+        },
+        {
+          "iteration": 5,
+          "maximum_absolute_change": 0.006042688590110423,
+          "parameters": {
+            "city_evidence:0:m": 0.0065887685475428176,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.12579040193845878,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.8676208295139983,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.13588947139890148,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.8641105286010986,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.6904996186157136
+          }
+        },
+        {
+          "iteration": 6,
+          "maximum_absolute_change": 0.051294491478105525,
+          "parameters": {
+            "city_evidence:0:m": 0.05788326002564834,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.11929457902778554,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.822822160946566,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.12933456892522718,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.8706654310747729,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.7277989413162876
+          }
+        },
+        {
+          "iteration": 7,
+          "maximum_absolute_change": 0.09730840432408935,
+          "parameters": {
+            "city_evidence:0:m": 0.1551916643497377,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.10696950546481918,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.7378388301854433,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.1197052644940771,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.880294735505923,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.8110485373622924
+          }
+        },
+        {
+          "iteration": 8,
+          "maximum_absolute_change": 0.031642827180689864,
+          "parameters": {
+            "city_evidence:0:m": 0.18683449153042755,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.10295261760219991,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.7102128908673725,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.12608459894595275,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.8739154010540472,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.8425683104979995
+          }
+        },
+        {
+          "iteration": 9,
+          "maximum_absolute_change": 0.009044698152833708,
+          "parameters": {
+            "city_evidence:0:m": 0.19543217063782867,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.10185768793103775,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.7027101414311336,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.13226377170355796,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.867736228296442,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.8516130086508332
+          }
+        },
+        {
+          "iteration": 10,
+          "maximum_absolute_change": 0.003443244539308332,
+          "parameters": {
+            "city_evidence:0:m": 0.1986582006097421,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.10144682193458406,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.6998949774556739,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.13510313961697465,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.8648968603830255,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.8550562531901416
+          }
+        },
+        {
+          "iteration": 11,
+          "maximum_absolute_change": 0.0014503043219202816,
+          "parameters": {
+            "city_evidence:0:m": 0.20001045208162258,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.10127468366903226,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.6987148642493451,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.13633826867535775,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.8636617313246423,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.8565065575120618
+          }
+        },
+        {
+          "iteration": 12,
+          "maximum_absolute_change": 0.0006303376917324854,
+          "parameters": {
+            "city_evidence:0:m": 0.2005970029233823,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.10120003606742246,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.6982029610091953,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.13687949870024213,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.8631205012997579,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.8571368952037943
+          }
+        },
+        {
+          "iteration": 13,
+          "maximum_absolute_change": 0.00027727002596455996,
+          "parameters": {
+            "city_evidence:0:m": 0.2008547881430619,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.10116723259824506,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.697977979258693,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.1371182657475811,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.862881734252419,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.8574141652297589
+          }
+        },
+        {
+          "iteration": 14,
+          "maximum_absolute_change": 0.00012258522131414207,
+          "parameters": {
+            "city_evidence:0:m": 0.2009687151481713,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.10115273596107163,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.6978785488907572,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.13722395398684398,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.8627760460131559,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.857536750451073
+          }
+        },
+        {
+          "iteration": 15,
+          "maximum_absolute_change": 5.431700025093633e-05,
+          "parameters": {
+            "city_evidence:0:m": 0.20101918715593464,
+            "city_evidence:0:u": 0.9983490622914976,
+            "city_evidence:1:m": 0.1011463137902225,
+            "city_evidence:1:u": 0.00020297590816646435,
+            "city_evidence:2:m": 0.6978344990538429,
+            "city_evidence:2:u": 0.0014479618003360156,
+            "country_evidence:0:m": 0.13727080799863522,
+            "country_evidence:0:u": 0.9659603373017468,
+            "country_evidence:1:m": 0.8627291920013648,
+            "country_evidence:1:u": 0.034039662698253204,
+            "prior": 0.857591067451324
+          }
+        }
+      ],
+      "iterations": 15
+    }
+  ],
+  "strict_unique_anchor_count": 1641,
+  "warnings": [
+    "You are using the default value for `max_pairs`, which may be too small and thus lead to inaccurate estimates for your model's u-parameters. Consider increasing to 1e8 or 1e9, which will result in more accurate estimates, but with a longer run time."
+  ]
+}

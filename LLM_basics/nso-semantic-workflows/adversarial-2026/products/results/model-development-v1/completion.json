@@ -1,0 +1,75 @@
+{
+  "extracted_fit_status": "predictions_frozen_without_truth_scoring",
+  "files": {
+    "candidate-audit.json": "79cb0dba9e43f11508802e86e76699275c5c09df6df8187e73d613a4ab60cc56",
+    "common-query-outcomes.json": "a9fc3f44171432eba8776c96dd9654ddb59492aa845106aee71a536425fbfa68",
+    "conventional-paired.json": "3e3d12aa6fd2ece26428c29354a1c1b78894ce822336125e540daa160a734755",
+    "conventional-primary.json": "d8a25d37f0a9802d41a995bdcb188b20c06f6d994aa75196c3fe0c08b057772e",
+    "conventional-query-outcomes.json": "a3afbf9335f0141cb385194113d52cbdd7af71f75f0cb9174ad3cb82be0a3649",
+    "conventional-sensitivity.json": "965b2a05bba42e052e5260122500e0f8b75a5ec3004e3202db9543f34a3fa873",
+    "development-gates.json": "0a9b1248775b35c54e153c56c7f3bf78b4a467af77c422c60b077410f139dc38",
+    "development-reference.json": "cdae230ec5f6bed7b52cbaf1e30a7c4921ff844b8b173e94ae05faa5263f6feb",
+    "extraction-audit.json": "073964c2982a6d2a09df38489d70a6dfcb5c9d03b7c466f808506d298c62cd77",
+    "extraction-fit/recordwise-input-manifest.json": "899d56642a117f0f8d3b1457b032ca4b76d47c6117e4181d649641f21b128028",
+    "extraction-fit/splink-all-pairs.parquet": "c3294dda3eb4b8e7855bc1e9ad196b0d1c563d10c903740ce29f68f6e201ef20",
+    "extraction-fit/splink-candidate-scores.parquet": "cae962b1993bb8de9c336a88cd88825a2c3ddc5893ec897e82c4c272a874b770",
+    "extraction-fit/splink-decisions.json": "78224359be7c71e1708b21f6290ad39e0da0c00c98fa5f912309123604b4ade7",
+    "extraction-fit/splink-fit-audit.json": "6fe7368edfd8e7936425d98e3e857b5cc319e9a11a4ff8db1df1673afbadea79",
+    "extraction-fit/splink-model.json": "95f01b357233cf8fb44f4cc6ef28b3854833322658502631b51e7281562200d1",
+    "extraction-fit/splink-training.log": "e85d33a6482de421ebade4e2b63b9a7a92985169a425f126c52460371a00433a",
+    "extraction-status.json": "16f1dc5067f6a1f8b45c8c927a6222491c9e0a6933da7d0db468d82aaa4ef1d6",
+    "extractions.json": "6c615923eece02153ce112ef40492683f09799adb7e2ebdff5cc71ab2cdf8784",
+    "selection-decisions.json": "68089dadc661d8faa34ae8dbe14d1d9f5faf4448a2cdcd0059749c19789272eb",
+    "semantic-extraction-sensitivity.json": "ad802e4f429980e5e0bc7fe688a127a7c897ea81e6f65189cec5c9902e90774d",
+    "semantic-paired.json": "03b45d8df291934332140832ae853ad479957db341e64ba29e4509c281dcf2bf",
+    "semantic-primary.json": "0bbce3b833cd8e7bf397eb3b68afe02b32ebae66fdfa75693a35af03048b9269",
+    "terminal-collection.json": "3a20d4a03148f0a0d0e0e5dcaaba40399d94995b43ee5a140fd863d520d751f4"
+  },
+  "gates": {
+    "extraction_splink_all_pairs": {
+      "conditions": {
+        "at_least_five_extra_correct_per_hundred": false,
+        "coverage_loss_at_most_five_percentage_points": true,
+        "no_additional_false_links": true,
+        "no_additional_queries_with_false_assignment": true
+      },
+      "eligible_methods": [
+        "lexical_all_pairs",
+        "splink_all_pairs"
+      ],
+      "interpretation": "A prospective budget decision, not evidence of production safety.",
+      "observed_additional_correct": -29,
+      "pass": false,
+      "queries": 144,
+      "reference": "lexical_all_pairs",
+      "required_additional_correct": 8
+    },
+    "semantic_selection": {
+      "conditions": {
+        "at_least_five_extra_correct_per_hundred": true,
+        "coverage_loss_at_most_five_percentage_points": false,
+        "no_additional_false_links": false,
+        "no_additional_queries_with_false_assignment": false
+      },
+      "eligible_methods": [
+        "lexical_all_pairs",
+        "splink_all_pairs"
+      ],
+      "interpretation": "A prospective budget decision, not evidence of production safety.",
+      "observed_additional_correct": 56,
+      "pass": false,
+      "queries": 144,
+      "reference": "lexical_all_pairs",
+      "required_additional_correct": 8
+    }
+  },
+  "integration_sha256": "ff38208a4cfbdf3cde0431e4d544bcb58a0ba8351677638fcd9c9a7cf839fb85",
+  "jobs": 640,
+  "manifest_file_sha256": "6371cc2fce29aa1d2c52853b1b2f3b46bc96af536e3d9ebf638cb0148229db8f",
+  "manifest_sha256": "792ed7904c721d96a56b159531abb3010759d4d198b03a8302f4da785ed797c3",
+  "queries": 144,
+  "reference": "lexical_all_pairs",
+  "source_families": 119,
+  "status": "development_scored_only",
+  "test_identity_outcomes_scored": false
+}

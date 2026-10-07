@@ -1,0 +1,38 @@
+{
+  "extraction_splink_all_pairs": {
+    "conditions": {
+      "at_least_five_extra_correct_per_hundred": false,
+      "coverage_loss_at_most_five_percentage_points": true,
+      "no_additional_false_links": true,
+      "no_additional_queries_with_false_assignment": true
+    },
+    "eligible_methods": [
+      "lexical_all_pairs",
+      "splink_all_pairs"
+    ],
+    "interpretation": "A prospective budget decision, not evidence of production safety.",
+    "observed_additional_correct": -29,
+    "pass": false,
+    "queries": 144,
+    "reference": "lexical_all_pairs",
+    "required_additional_correct": 8
+  },
+  "semantic_selection": {
+    "conditions": {
+      "at_least_five_extra_correct_per_hundred": true,
+      "coverage_loss_at_most_five_percentage_points": false,
+      "no_additional_false_links": false,
+      "no_additional_queries_with_false_assignment": false
+    },
+    "eligible_methods": [
+      "lexical_all_pairs",
+      "splink_all_pairs"
+    ],
+    "interpretation": "A prospective budget decision, not evidence of production safety.",
+    "observed_additional_correct": 56,
+    "pass": false,
+    "queries": 144,
+    "reference": "lexical_all_pairs",
+    "required_additional_correct": 8
+  }
+}

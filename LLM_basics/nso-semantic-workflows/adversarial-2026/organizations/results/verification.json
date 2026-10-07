@@ -1,0 +1,15 @@
+{
+  "candidate_pairs_compared": 200,
+  "em_blocks_in_session_order": [
+    "l.city = r.city AND l.country = r.country",
+    "l.name = r.name"
+  ],
+  "em_sampling": "max_pairs is an approximate sampled-pair target in Splink5, not a strict count cap",
+  "gold_used_for_scoring_kernel_check": false,
+  "maximum_absolute_probability_difference": 2.220446049250313e-16,
+  "native_baseline": "not run; separately prepared source population",
+  "prepared_file_hashes_verified": 8,
+  "probed_development_queries": 5,
+  "scoring_kernel": "saved SQL/likelihood application equals native Splink5 inference",
+  "test_outcomes_opened": false
+}

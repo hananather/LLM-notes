@@ -1,0 +1,80 @@
+{
+  "fit_population": "All 3329 observed CORDIS records, including evaluation inputs; transductive unsupervised fit",
+  "fit_seed": 2026100722,
+  "label_use": "None in normalization, retrieval, fitting, threshold or prior choice. Source labels only determined split grouping during separate curation.",
+  "lexical_decisions": {
+    "linked": "top fused score >=0.85 and top-minus-second >=0.10",
+    "nil": "top fused score <0.25",
+    "otherwise": "review",
+    "top1": "Always retain separate top-ranked retrieval result"
+  },
+  "native": "Prepared separately; this run does not score native affiliation sets or fit a multi-target policy",
+  "normalization": "Unicode NFKD, remove combining marks, casefold, retain Unicode word characters; preserve non-Latin scripts",
+  "population": "CORDIS structured organization/city/country against all 108476 ROR v1.41 rows, including inactive and withdrawn records",
+  "retrieval": {
+    "alias_char_ngrams": [
+      3,
+      5
+    ],
+    "exact_alias": "Complete normalized name/alias/acronym/multilingual-label equality; union all owners before reranking",
+    "final_candidates": 40,
+    "fusion": {
+      "best_alias_character_cosine": 0.6,
+      "city": 0.06,
+      "country": 0.04,
+      "exact_alias": 1.0,
+      "registry_word_cosine": 0.3
+    },
+    "gold_target_insertion": false,
+    "max_features_each": 200000,
+    "min_df": 1,
+    "per_route_top": 100,
+    "ties": "Opaque registry record ID ascending",
+    "word_ngrams": [
+      1,
+      2
+    ]
+  },
+  "splink": {
+    "assumed_anchor_recall_grid": [
+      0.5,
+      0.8,
+      0.95,
+      1.0
+    ],
+    "calibration": "Unestablished; fixed rules and descriptive sensitivity only",
+    "capacity": "At most one target per CORDIS query, many queries may map to same registry entity; no one-to-one assignment",
+    "city_jaro_winkler_threshold": 0.9,
+    "comparisons": [
+      "Joint exact/alias/fuzzy organization name",
+      "City exact/fuzzy",
+      "Country"
+    ],
+    "convergence_tolerance": 0.0001,
+    "decision": "Top posterior >=0.99 and no second candidate >=0.5 -> linked; top<0.1 -> nil; otherwise review",
+    "em_blocks": [
+      "exact city and country",
+      "exact primary normalized name"
+    ],
+    "main_prior_rule": "Recall 0.8 if implied matches <=3329, otherwise 0.95 then 1.0; choice uses observed anchor count only",
+    "maximum_iterations": 30,
+    "maximum_pairs_per_em_pass": 100000,
+    "name_jaro_winkler_thresholds": [
+      0.95,
+      0.85,
+      0.7
+    ],
+    "posterior_grid": [
+      0.5,
+      0.9,
+      0.99,
+      0.999
+    ],
+    "sensitivity": "Fit at main feasible prior once; recompute posterior sensitivity with fixed learned likelihood ratios for every feasible prior scenario",
+    "sparse_levels": "Record estimated/missing/default/zero probabilities; use explicit effective Splink values, never silently replace a failed fit",
+    "strict_prior_rule": "One unique complete-registry exact alias candidate with agreeing nonmissing country, one anchor per query",
+    "u_random_pairs": 1000000,
+    "version": "5.0.0"
+  },
+  "version": "organizations-offline-v1"
+}

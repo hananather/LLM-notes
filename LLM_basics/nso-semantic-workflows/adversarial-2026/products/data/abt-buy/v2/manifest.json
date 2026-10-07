@@ -1,0 +1,70 @@
+{
+  "curation_implementation_sha256": {
+    "prepare_products.py": "247993c3d1d514debb73103df27a9f77c965c3d6043225b6e43f0671c6fd54bf",
+    "product_features.py": "7ce8c82cc964402c3204f67f85b8876464caee343bdc172f7cff3fa27753399c"
+  },
+  "curation_version": "v2",
+  "dataset": "abt-buy",
+  "file_sha256": {
+    "development-source-audit.json": "06589205c4493a2fb1abadfb2f08e370a80bc6aabff71f6d5b91c828a1fd8080",
+    "metadata.json": "07fa1bbc3dcaa27b780cf43c713c0690a5c83ff34f305017d40042debf746b14",
+    "partitions.json": "21bd9adf63397cbe6289ea690e9d704fc6cc312a4114e9dc49cfc0cef2694769",
+    "records.json": "015db54ff8bc27cd77ea9e34dc79fd56a5ec4c8257ef778b0a6af805f96a0b26",
+    "source-map.json": "94d311f9f1aff9941c43e4425085b23a1d9d0f969ec7e20cb102b8315643c44e",
+    "truth.json": "cdedfb3d171d5caa8bb039623cda635c5d2cc5394291732ec50af426a940eb52"
+  },
+  "full_source": {
+    "families_spanning_multiple_positive_components": 161,
+    "family_groups": 459,
+    "largest_family_records": 98,
+    "left": 1081,
+    "links": 1097,
+    "positive_components": 1076,
+    "right": 1092
+  },
+  "label_caveats": [
+    "Published mappings are the scoring convention; unmapped does not independently prove real-world absence.",
+    "Product matching is many-to-many; one-to-one assignment is prohibited.",
+    "Public historical benchmarks may have appeared in model pretraining.",
+    "Title-derived family detection is incomplete, particularly for software versions and undocumented product lineages.",
+    "Greedy family-group sampling is a reproducible development screen, not a probability sample of the product market.",
+    "Truth is used only for leakage-resistant curation and later independent evaluation, never by candidate generation or baseline fitting."
+  ],
+  "licence": {
+    "checked": "2026-10-07",
+    "name": "CC BY 4.0",
+    "publisher_statement": "https://dbs.uni-leipzig.de/research/projects/benchmark-datasets-for-entity-resolution",
+    "statement_date": "January 2019",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "partitions": {
+    "dev": {
+      "family_groups": 0,
+      "gold_links": 0,
+      "left": 0,
+      "positive_components": 0,
+      "right": 0,
+      "unmapped_left": 0,
+      "unmapped_right": 0
+    },
+    "test": {
+      "family_groups": 459,
+      "gold_links": 1097,
+      "left": 1081,
+      "positive_components": 1076,
+      "right": 1092,
+      "unmapped_left": 0,
+      "unmapped_right": 0
+    }
+  },
+  "revision_note": "v1 is preserved in the parent directory. Inspection of its explicitly saved 12-record development source audit identified software edition/platform/licence families missed by model-prefix grouping. v2 adds a generic observed-title family key before any predictions or test outcome inspection.",
+  "schema": 1,
+  "seed": "products-20261007-v1",
+  "source": {
+    "bytes": 134745,
+    "sha256": "b9ff2937d97371b7a00b0a97033213bfbdee24e8f1a0718a41ea8364472a8ff8",
+    "url": "https://dbs.uni-leipzig.de/files/datasets/Abt-Buy.zip"
+  },
+  "split_policy": "Whole published-link components, exact duplicate normalized observed texts, same-brand title model prefixes of 2-8 letters followed by digits, and same-brand first two substantive title words after generic version/platform/licence removal are grouped. Seeded family ordering greedily fills the fixed positive-component development target without splitting a family. Unmapped families use the same component sampling fraction. All other records remain test.",
+  "target_development_positive_components": 0
+}

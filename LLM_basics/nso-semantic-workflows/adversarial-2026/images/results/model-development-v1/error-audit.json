@@ -1,0 +1,118 @@
+{
+  "failed_rows": 8,
+  "by_arm": {
+    "pixel": 7,
+    "ocr": 1
+  },
+  "by_error_type": {
+    "ValidationError": 6,
+    "ValueError": 2
+  },
+  "by_finish_reason": {
+    "stop": 6,
+    "length": 2
+  },
+  "interpretation": "These are rejected model outputs under the frozen parser/schema; responses were received. Do not call them proven HTTP/transport failures or treat them as OCR comprehension errors. No repair, salvage or retry was applied.",
+  "cases": [
+    {
+      "tag": "images/dev/pixel-extraction/q_8b05863c40fc3417b2ed",
+      "arm": "pixel",
+      "query_id": "q_8b05863c40fc3417b2ed",
+      "error_type": "ValidationError",
+      "finish_reason": "stop",
+      "extra_output_keys": [
+        "additionalProperties"
+      ],
+      "classification": "invalid_output_schema",
+      "response_received": true,
+      "http_status_recorded": null
+    },
+    {
+      "tag": "images/dev/ocr-extraction/q_21f83de138e699d07aeb",
+      "arm": "ocr",
+      "query_id": "q_21f83de138e699d07aeb",
+      "error_type": "ValidationError",
+      "finish_reason": "stop",
+      "extra_output_keys": [
+        "$schema"
+      ],
+      "classification": "invalid_output_schema",
+      "response_received": true,
+      "http_status_recorded": null
+    },
+    {
+      "tag": "images/dev/pixel-extraction/q_594c9f04f438edaa9cea",
+      "arm": "pixel",
+      "query_id": "q_594c9f04f438edaa9cea",
+      "error_type": "ValidationError",
+      "finish_reason": "stop",
+      "extra_output_keys": [
+        "additionalProperties"
+      ],
+      "classification": "invalid_output_schema",
+      "response_received": true,
+      "http_status_recorded": null
+    },
+    {
+      "tag": "images/dev/pixel-extraction/q_bff10e4fb7d6cc76f80d",
+      "arm": "pixel",
+      "query_id": "q_bff10e4fb7d6cc76f80d",
+      "error_type": "ValueError",
+      "finish_reason": "length",
+      "extra_output_keys": null,
+      "classification": "incomplete_or_invalid_output",
+      "response_received": true,
+      "http_status_recorded": null
+    },
+    {
+      "tag": "images/dev/pixel-extraction/q_f26d1d718ef4889b071e",
+      "arm": "pixel",
+      "query_id": "q_f26d1d718ef4889b071e",
+      "error_type": "ValidationError",
+      "finish_reason": "stop",
+      "extra_output_keys": [
+        "required"
+      ],
+      "classification": "invalid_output_schema",
+      "response_received": true,
+      "http_status_recorded": null
+    },
+    {
+      "tag": "images/dev/pixel-extraction/q_ffe04dd0d5bcc18ac1a6",
+      "arm": "pixel",
+      "query_id": "q_ffe04dd0d5bcc18ac1a6",
+      "error_type": "ValidationError",
+      "finish_reason": "stop",
+      "extra_output_keys": [
+        "additionalProperties"
+      ],
+      "classification": "invalid_output_schema",
+      "response_received": true,
+      "http_status_recorded": null
+    },
+    {
+      "tag": "images/dev/pixel-extraction/q_4ae108a6772c476fcdf6",
+      "arm": "pixel",
+      "query_id": "q_4ae108a6772c476fcdf6",
+      "error_type": "ValueError",
+      "finish_reason": "length",
+      "extra_output_keys": null,
+      "classification": "incomplete_or_invalid_output",
+      "response_received": true,
+      "http_status_recorded": null
+    },
+    {
+      "tag": "images/dev/pixel-extraction/q_dc39c0121e64f0bdf985",
+      "arm": "pixel",
+      "query_id": "q_dc39c0121e64f0bdf985",
+      "error_type": "ValidationError",
+      "finish_reason": "stop",
+      "extra_output_keys": [
+        "additionalProperties"
+      ],
+      "classification": "invalid_output_schema",
+      "response_received": true,
+      "http_status_recorded": null
+    }
+  ]
+}

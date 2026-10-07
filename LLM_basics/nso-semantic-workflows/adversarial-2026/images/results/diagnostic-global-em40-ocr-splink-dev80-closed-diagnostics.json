@@ -1,0 +1,64 @@
+{
+  "method": "ocr-splink",
+  "prior": 0.010416666666666666,
+  "input_missingness": {
+    "query": {
+      "brand": 44,
+      "quantity": 49,
+      "model": 80
+    },
+    "catalog": {
+      "brand": 0,
+      "quantity": 14,
+      "model": 87
+    }
+  },
+  "quantity_comparison_included": true,
+  "model_comparison_included": false,
+  "em_sessions": [
+    {
+      "rule": "1=1",
+      "status": "returned"
+    }
+  ],
+  "tie_break": "Frozen lexical score within exactly equal posterior values; posteriors unchanged",
+  "probability_sums": {
+    "title_tokens": {
+      "m_probability": 1.0,
+      "u_probability": 1.0
+    },
+    "brand": {
+      "m_probability": 1.0,
+      "u_probability": 1.0
+    },
+    "quantity": {
+      "m_probability": 1.0,
+      "u_probability": 1.0
+    }
+  },
+  "status": "predictions_saved",
+  "pair_count": 7680,
+  "ranking_ties": 43,
+  "parameter_boundary_warning": "Posterior values are model outputs; conditional independence and EM identifiability are not established.",
+  "comparison_level_counts": {
+    "gamma_title_tokens": {
+      "0": 7569,
+      "1": 70,
+      "3": 23,
+      "2": 18
+    },
+    "gamma_brand": {
+      "-1": 4224,
+      "0": 2753,
+      "1": 703
+    },
+    "gamma_quantity": {
+      "-1": 5138,
+      "0": 2407,
+      "1": 135
+    }
+  },
+  "last_iteration": 40,
+  "last_parameter_change": 0.000255,
+  "convergence_tolerance_met": false
+}

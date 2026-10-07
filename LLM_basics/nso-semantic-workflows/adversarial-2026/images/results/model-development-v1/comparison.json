@@ -1,0 +1,430 @@
+{
+  "queries": 80,
+  "catalog_records": 96,
+  "source_families": 71,
+  "summaries": {
+    "ocr_lexical": {
+      "queries": 80,
+      "correct_complete_decisions": 61,
+      "query_denominator_sha256": "3813ee2b5a8ac71316dce13ce9c70a2501d82839ca688a5d48390af38e3fd787",
+      "complete_decision_accuracy": 0.7625,
+      "automatic_decisions": 80,
+      "automatic_coverage": 1.0,
+      "wrong_automatic_decisions": 19,
+      "error_among_automatic": 0.2375,
+      "false_links": 19,
+      "missed_links": 19,
+      "true_links": 61,
+      "queries_with_false_assignment": 19,
+      "true_nil_queries": 0,
+      "false_nil_decisions": 0,
+      "linked_on_nil_queries": 0,
+      "review_queries": 0,
+      "failed_queries": 0
+    },
+    "ocr_splink": {
+      "queries": 80,
+      "correct_complete_decisions": 46,
+      "query_denominator_sha256": "3813ee2b5a8ac71316dce13ce9c70a2501d82839ca688a5d48390af38e3fd787",
+      "complete_decision_accuracy": 0.575,
+      "automatic_decisions": 80,
+      "automatic_coverage": 1.0,
+      "wrong_automatic_decisions": 34,
+      "error_among_automatic": 0.425,
+      "false_links": 34,
+      "missed_links": 34,
+      "true_links": 46,
+      "queries_with_false_assignment": 34,
+      "true_nil_queries": 0,
+      "false_nil_decisions": 0,
+      "linked_on_nil_queries": 0,
+      "review_queries": 0,
+      "failed_queries": 0
+    },
+    "clip": {
+      "queries": 80,
+      "correct_complete_decisions": 63,
+      "query_denominator_sha256": "3813ee2b5a8ac71316dce13ce9c70a2501d82839ca688a5d48390af38e3fd787",
+      "complete_decision_accuracy": 0.7875,
+      "automatic_decisions": 80,
+      "automatic_coverage": 1.0,
+      "wrong_automatic_decisions": 17,
+      "error_among_automatic": 0.2125,
+      "false_links": 17,
+      "missed_links": 17,
+      "true_links": 63,
+      "queries_with_false_assignment": 17,
+      "true_nil_queries": 0,
+      "false_nil_decisions": 0,
+      "linked_on_nil_queries": 0,
+      "review_queries": 0,
+      "failed_queries": 0
+    },
+    "luna_ocr_lexical": {
+      "queries": 80,
+      "correct_complete_decisions": 58,
+      "query_denominator_sha256": "3813ee2b5a8ac71316dce13ce9c70a2501d82839ca688a5d48390af38e3fd787",
+      "complete_decision_accuracy": 0.725,
+      "automatic_decisions": 74,
+      "automatic_coverage": 0.925,
+      "wrong_automatic_decisions": 16,
+      "error_among_automatic": 0.21621621621621623,
+      "false_links": 16,
+      "missed_links": 22,
+      "true_links": 58,
+      "queries_with_false_assignment": 16,
+      "true_nil_queries": 0,
+      "false_nil_decisions": 0,
+      "linked_on_nil_queries": 0,
+      "review_queries": 5,
+      "failed_queries": 1
+    },
+    "luna_ocr_splink": {
+      "queries": 80,
+      "correct_complete_decisions": 55,
+      "query_denominator_sha256": "3813ee2b5a8ac71316dce13ce9c70a2501d82839ca688a5d48390af38e3fd787",
+      "complete_decision_accuracy": 0.6875,
+      "automatic_decisions": 74,
+      "automatic_coverage": 0.925,
+      "wrong_automatic_decisions": 19,
+      "error_among_automatic": 0.25675675675675674,
+      "false_links": 19,
+      "missed_links": 25,
+      "true_links": 55,
+      "queries_with_false_assignment": 19,
+      "true_nil_queries": 0,
+      "false_nil_decisions": 0,
+      "linked_on_nil_queries": 0,
+      "review_queries": 5,
+      "failed_queries": 1
+    },
+    "luna_pixel_lexical": {
+      "queries": 80,
+      "correct_complete_decisions": 63,
+      "query_denominator_sha256": "3813ee2b5a8ac71316dce13ce9c70a2501d82839ca688a5d48390af38e3fd787",
+      "complete_decision_accuracy": 0.7875,
+      "automatic_decisions": 71,
+      "automatic_coverage": 0.8875,
+      "wrong_automatic_decisions": 8,
+      "error_among_automatic": 0.11267605633802817,
+      "false_links": 8,
+      "missed_links": 17,
+      "true_links": 63,
+      "queries_with_false_assignment": 8,
+      "true_nil_queries": 0,
+      "false_nil_decisions": 0,
+      "linked_on_nil_queries": 0,
+      "review_queries": 2,
+      "failed_queries": 7
+    },
+    "luna_pixel_splink": {
+      "queries": 80,
+      "correct_complete_decisions": 58,
+      "query_denominator_sha256": "3813ee2b5a8ac71316dce13ce9c70a2501d82839ca688a5d48390af38e3fd787",
+      "complete_decision_accuracy": 0.725,
+      "automatic_decisions": 71,
+      "automatic_coverage": 0.8875,
+      "wrong_automatic_decisions": 13,
+      "error_among_automatic": 0.18309859154929578,
+      "false_links": 13,
+      "missed_links": 22,
+      "true_links": 58,
+      "queries_with_false_assignment": 13,
+      "true_nil_queries": 0,
+      "false_nil_decisions": 0,
+      "linked_on_nil_queries": 0,
+      "review_queries": 2,
+      "failed_queries": 7
+    }
+  },
+  "gates": {
+    "luna_ocr_lexical": {
+      "pass": false,
+      "reference": "clip",
+      "eligible_methods": [
+        "clip",
+        "ocr_lexical",
+        "ocr_splink"
+      ],
+      "queries": 80,
+      "required_additional_correct": 4,
+      "observed_additional_correct": -5,
+      "conditions": {
+        "at_least_five_extra_correct_per_hundred": false,
+        "no_additional_false_links": true,
+        "no_additional_queries_with_false_assignment": true,
+        "coverage_loss_at_most_five_percentage_points": false
+      },
+      "interpretation": "A prospective budget decision, not evidence of production safety."
+    },
+    "luna_ocr_splink": {
+      "pass": false,
+      "reference": "clip",
+      "eligible_methods": [
+        "clip",
+        "ocr_lexical",
+        "ocr_splink"
+      ],
+      "queries": 80,
+      "required_additional_correct": 4,
+      "observed_additional_correct": -8,
+      "conditions": {
+        "at_least_five_extra_correct_per_hundred": false,
+        "no_additional_false_links": false,
+        "no_additional_queries_with_false_assignment": false,
+        "coverage_loss_at_most_five_percentage_points": false
+      },
+      "interpretation": "A prospective budget decision, not evidence of production safety."
+    },
+    "luna_pixel_lexical": {
+      "pass": false,
+      "reference": "clip",
+      "eligible_methods": [
+        "clip",
+        "ocr_lexical",
+        "ocr_splink"
+      ],
+      "queries": 80,
+      "required_additional_correct": 4,
+      "observed_additional_correct": 0,
+      "conditions": {
+        "at_least_five_extra_correct_per_hundred": false,
+        "no_additional_false_links": true,
+        "no_additional_queries_with_false_assignment": true,
+        "coverage_loss_at_most_five_percentage_points": false
+      },
+      "interpretation": "A prospective budget decision, not evidence of production safety."
+    },
+    "luna_pixel_splink": {
+      "pass": false,
+      "reference": "clip",
+      "eligible_methods": [
+        "clip",
+        "ocr_lexical",
+        "ocr_splink"
+      ],
+      "queries": 80,
+      "required_additional_correct": 4,
+      "observed_additional_correct": -5,
+      "conditions": {
+        "at_least_five_extra_correct_per_hundred": false,
+        "no_additional_false_links": true,
+        "no_additional_queries_with_false_assignment": true,
+        "coverage_loss_at_most_five_percentage_points": false
+      },
+      "interpretation": "A prospective budget decision, not evidence of production safety."
+    }
+  },
+  "paired_comparisons": {
+    "luna_ocr_lexical": {
+      "ocr_lexical": {
+        "queries": 80,
+        "source_groups": 71,
+        "corrections": 0,
+        "regressions": 3,
+        "accuracy_difference": -0.0375,
+        "cluster_bootstrap_95_percent_interval": [
+          -0.08641975308641975,
+          0.0
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 20261007,
+        "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+      },
+      "ocr_splink": {
+        "queries": 80,
+        "source_groups": 71,
+        "corrections": 15,
+        "regressions": 3,
+        "accuracy_difference": 0.15,
+        "cluster_bootstrap_95_percent_interval": [
+          0.05126582278481013,
+          0.25
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 20261007,
+        "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+      },
+      "clip": {
+        "queries": 80,
+        "source_groups": 71,
+        "corrections": 5,
+        "regressions": 10,
+        "accuracy_difference": -0.0625,
+        "cluster_bootstrap_95_percent_interval": [
+          -0.15384615384615385,
+          0.025
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 20261007,
+        "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+      }
+    },
+    "luna_ocr_splink": {
+      "ocr_lexical": {
+        "queries": 80,
+        "source_groups": 71,
+        "corrections": 0,
+        "regressions": 6,
+        "accuracy_difference": -0.075,
+        "cluster_bootstrap_95_percent_interval": [
+          -0.13515181848515181,
+          -0.024691358024691357
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 20261007,
+        "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+      },
+      "ocr_splink": {
+        "queries": 80,
+        "source_groups": 71,
+        "corrections": 14,
+        "regressions": 5,
+        "accuracy_difference": 0.1125,
+        "cluster_bootstrap_95_percent_interval": [
+          0.012048192771084338,
+          0.21794871794871795
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 20261007,
+        "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+      },
+      "clip": {
+        "queries": 80,
+        "source_groups": 71,
+        "corrections": 5,
+        "regressions": 13,
+        "accuracy_difference": -0.1,
+        "cluster_bootstrap_95_percent_interval": [
+          -0.19736842105263158,
+          -0.012341915085817544
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 20261007,
+        "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+      }
+    },
+    "luna_pixel_lexical": {
+      "ocr_lexical": {
+        "queries": 80,
+        "source_groups": 71,
+        "corrections": 7,
+        "regressions": 5,
+        "accuracy_difference": 0.025,
+        "cluster_bootstrap_95_percent_interval": [
+          -0.060240963855421686,
+          0.1111111111111111
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 20261007,
+        "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+      },
+      "ocr_splink": {
+        "queries": 80,
+        "source_groups": 71,
+        "corrections": 20,
+        "regressions": 3,
+        "accuracy_difference": 0.2125,
+        "cluster_bootstrap_95_percent_interval": [
+          0.10522898154477102,
+          0.32052469135802464
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 20261007,
+        "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+      },
+      "clip": {
+        "queries": 80,
+        "source_groups": 71,
+        "corrections": 8,
+        "regressions": 8,
+        "accuracy_difference": 0.0,
+        "cluster_bootstrap_95_percent_interval": [
+          -0.08860759493670886,
+          0.09213596491228053
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 20261007,
+        "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+      }
+    },
+    "luna_pixel_splink": {
+      "ocr_lexical": {
+        "queries": 80,
+        "source_groups": 71,
+        "corrections": 5,
+        "regressions": 8,
+        "accuracy_difference": -0.0375,
+        "cluster_bootstrap_95_percent_interval": [
+          -0.1282051282051282,
+          0.05333333333333334
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 20261007,
+        "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+      },
+      "ocr_splink": {
+        "queries": 80,
+        "source_groups": 71,
+        "corrections": 17,
+        "regressions": 5,
+        "accuracy_difference": 0.15,
+        "cluster_bootstrap_95_percent_interval": [
+          0.0375,
+          0.2625466954022986
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 20261007,
+        "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+      },
+      "clip": {
+        "queries": 80,
+        "source_groups": 71,
+        "corrections": 7,
+        "regressions": 12,
+        "accuracy_difference": -0.0625,
+        "cluster_bootstrap_95_percent_interval": [
+          -0.1605355355355355,
+          0.0379746835443038
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 20261007,
+        "interval_scope": "This source sample and family definition; not NSO population uncertainty."
+      }
+    }
+  },
+  "extraction_failures": {
+    "ocr": {
+      "queries": 80,
+      "valid_extraction_rows": 79,
+      "failed_extraction_rows": 1,
+      "failed_query_ids": [
+        "q_21f83de138e699d07aeb"
+      ]
+    },
+    "pixel": {
+      "queries": 80,
+      "valid_extraction_rows": 73,
+      "failed_extraction_rows": 7,
+      "failed_query_ids": [
+        "q_8b05863c40fc3417b2ed",
+        "q_594c9f04f438edaa9cea",
+        "q_bff10e4fb7d6cc76f80d",
+        "q_f26d1d718ef4889b071e",
+        "q_ffe04dd0d5bcc18ac1a6",
+        "q_4ae108a6772c476fcdf6",
+        "q_dc39c0121e64f0bdf985"
+      ]
+    }
+  },
+  "primary_semantic_fits": [
+    "luna_ocr_splink",
+    "luna_pixel_splink"
+  ],
+  "normalization_comparisons": [
+    "luna_ocr_lexical",
+    "luna_pixel_lexical"
+  ],
+  "test_outcomes_read": false,
+  "policy_changed_from_results": false
+}

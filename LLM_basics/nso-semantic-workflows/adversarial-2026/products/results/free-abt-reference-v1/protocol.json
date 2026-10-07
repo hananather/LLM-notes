@@ -1,0 +1,95 @@
+{
+  "amazon_test_outcomes_accessed": false,
+  "baseline": "v6",
+  "curation": "v2",
+  "failure_policy": "Every left record remains in the denominator; review/failure is unresolved and not correct NIL. Preserve the publisher many-to-many relation.",
+  "files": {
+    "decision_adapters.py": "b7b151d78821e3e81082693c3074c7a13e3edc3a30425e595a274bfd8b62cdfe",
+    "evaluation.py": "8fdf3ffc5e43edc2bedcd0492bdf15c99930ea4bd8babab5d518ae1b068d868c",
+    "model_jobs.py": "cdf047f2aa4858e22efd748fd0060c4e4b61a34e07836dd36550fed9722834bc",
+    "products/data/abt-buy/v2/development-source-audit.json": "06589205c4493a2fb1abadfb2f08e370a80bc6aabff71f6d5b91c828a1fd8080",
+    "products/data/abt-buy/v2/manifest.json": "edebfab66fdd7d1576148f645f60c24136cfb8c3c5e6cd762a9e75fb46efc824",
+    "products/data/abt-buy/v2/metadata.json": "07fa1bbc3dcaa27b780cf43c713c0690a5c83ff34f305017d40042debf746b14",
+    "products/data/abt-buy/v2/partitions.json": "21bd9adf63397cbe6289ea690e9d704fc6cc312a4114e9dc49cfc0cef2694769",
+    "products/data/abt-buy/v2/records.json": "015db54ff8bc27cd77ea9e34dc79fd56a5ec4c8257ef778b0a6af805f96a0b26",
+    "products/data/abt-buy/v2/source-map.json": "94d311f9f1aff9941c43e4425085b23a1d9d0f969ec7e20cb102b8315643c44e",
+    "products/data/abt-buy/v2/truth.json": "cdedfb3d171d5caa8bb039623cda635c5d2cc5394291732ec50af426a940eb52",
+    "products/results/baseline-v6/abt-buy/test/candidates.json": "1c68bf47ec319462e6dfba19e107aece6d98c3b83c1ac4b69fef17f0a2451fc2",
+    "products/results/baseline-v6/abt-buy/test/completion.json": "c39ec63a9aea6addcadd074edd1a3984ff4f3cc901865cd1a01edbedfb9f43c6",
+    "products/results/baseline-v6/abt-buy/test/input-lengths.json": "12ad107373717515c13d0ced1286b66d508608aed5e565abd17b55626d72b39a",
+    "products/results/baseline-v6/abt-buy/test/lexical-all-pair-scores.npz": "3881cd41f7ae2c45e88813af5eb2b3569825ff0adfd2e05ba84ad1c41fa735a8",
+    "products/results/baseline-v6/abt-buy/test/lexical-decisions.json": "dd6645cba73a99feb38c98df39cd0f8f9288a542c11901a0e1d90a7b063756b3",
+    "products/results/baseline-v6/abt-buy/test/protocol.json": "108af30e79a6338160d37faa7d8cf0216e90ed632cf9fe684e289645a5b8b7f5",
+    "products/results/baseline-v6/abt-buy/test/splink-all-pairs.parquet": "18bd6de35c801a2e3c74f0131130ebf10a54537684369dbd5a5e3145d53ba3ef",
+    "products/results/baseline-v6/abt-buy/test/splink-candidate-scores.parquet": "31f71f9602d7d627430e3f45a3c657f4f16592b931527b9df42dcc90fb1783fe",
+    "products/results/baseline-v6/abt-buy/test/splink-decisions.json": "e43071c6dcfa67f78323c7e4e1038ff65a07fbb217621328bb33f83db577936d",
+    "products/results/baseline-v6/abt-buy/test/splink-fit-audit.json": "8f2df791ffcf711f41caaebbe88aa05fd9eff1e20d7e44250ffb9e532d25361e",
+    "products/results/baseline-v6/abt-buy/test/splink-model.json": "1c7c916da548b9454af7cc9bb47daf0c19f95d3f75f4fb0f5a9a45694c159464",
+    "products/results/baseline-v6/abt-buy/test/splink-training.log": "c9e9656b32dfa55333eb436699b2574b70a854732cb3de3044534ecd15757cd7",
+    "products/score_abt_reference.py": "cd6592b47b245ca9a3d7b953a21f60f1e3c3d36df9ed4285bff6c61b4da65402",
+    "products/score_evaluation.py": "a641c963814246d04bae1ad61113480566dc39bfa7d7312f0e5a81880629ae97",
+    "runtime.py": "1923e0668234ab1be239b3b0f90302ac3ef5bee05ff06018102cc68471ea9b9a"
+  },
+  "freeze_boundary": "This file is saved before this evaluator parses Abt reference identities. Existing v6 predictions are neither refitted nor retuned.",
+  "frozen_at_utc": "2026-10-07T17:59:51.910591+00:00",
+  "left_records": 1081,
+  "lexical_thresholds": [
+    "0.5",
+    "0.65",
+    "0.8",
+    "0.9"
+  ],
+  "main_prior": 0.0004881604673464062,
+  "numeric_priors": {
+    "0.5": 0.00078105674775425,
+    "0.8": 0.0004881604673464062,
+    "1.0": 0.000390528373877125,
+    "links_per_left=0.1": 9.157509157509158e-05,
+    "links_per_left=0.5": 0.0004578754578754579,
+    "links_per_left=1.0": 0.0009157509157509158,
+    "links_per_left=2.0": 0.0018315018315018315
+  },
+  "paid_calls": 0,
+  "primary_methods": {
+    "lexical_all_pairs": "lexical/threshold=0.65/all_pairs",
+    "lexical_same_candidates": "lexical/threshold=0.65/same_candidates",
+    "splink_all_pairs": "splink/assumed_recall=0.8;threshold=0.9/all_pairs",
+    "splink_same_candidates": "splink/assumed_recall=0.8;threshold=0.9/same_candidates"
+  },
+  "question": "How do the already fixed conventional operating rules recover complete publisher target sets on the intact Abt–Buy graph?",
+  "reporting": "All fixed grids and candidate scopes remain visible. No outcome-selected winner, threshold or prior. Compare each rule with lexical threshold 0.65 all-pairs only as a fixed descriptive reference.",
+  "right_records": 1092,
+  "scope": "Free conventional reference on the whole source graph; no paid semantic method, no semantic replication and no NSO-population inference.",
+  "source": "abt-buy",
+  "splink_prior_labels": [
+    "assumed_recall=0.5",
+    "assumed_recall=0.8",
+    "assumed_recall=1.0",
+    "links_per_left=0.1",
+    "links_per_left=0.5",
+    "links_per_left=1.0",
+    "links_per_left=2.0"
+  ],
+  "splink_thresholds": [
+    "0.5",
+    "0.9",
+    "0.99",
+    "0.999"
+  ],
+  "study": "Free conventional Abt–Buy source reference",
+  "uncertainty": {
+    "intervals": "pointwise descriptive; no multiplicity adjustment",
+    "metrics": [
+      "exact_complete_decision_rate",
+      "false_edges_per_query",
+      "missed_edges_per_query",
+      "false_assignment_query_rate",
+      "automatic_coverage",
+      "false_nil_query_rate",
+      "linked_on_nil_query_rate"
+    ],
+    "replicates": 2000,
+    "seed": 20261007,
+    "unit": "actual source families among all left records"
+  }
+}

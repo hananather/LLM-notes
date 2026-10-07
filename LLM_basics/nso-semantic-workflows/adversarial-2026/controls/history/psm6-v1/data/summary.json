@@ -1,0 +1,72 @@
+{
+  "distinct_real_entity_count": "Not asserted; counterpart labels were not read",
+  "image_bytes": 6987065,
+  "manifest_sha256": "d985c3d17e07f624e2f059ca6cf59facbdd196b9fe539e34155661adb11d22e8",
+  "ocr_summary": {
+    "dev": {
+      "clean_structured": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 134,
+        "ocr_characters_median": 92.0,
+        "ocr_characters_min": 76,
+        "views": 16
+      },
+      "compact_degraded": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 120,
+        "ocr_characters_median": 89.5,
+        "ocr_characters_min": 75,
+        "views": 16
+      },
+      "compact_reordered": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 129,
+        "ocr_characters_median": 88.5,
+        "ocr_characters_min": 72,
+        "views": 16
+      },
+      "missing_identity": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 33,
+        "ocr_characters_median": 32.0,
+        "ocr_characters_min": 28,
+        "views": 16
+      }
+    },
+    "test": {
+      "clean_structured": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 157,
+        "ocr_characters_median": 20.0,
+        "ocr_characters_min": 20,
+        "views": 64
+      },
+      "compact_degraded": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 117,
+        "ocr_characters_median": 68.0,
+        "ocr_characters_min": 20,
+        "views": 64
+      },
+      "compact_reordered": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 122,
+        "ocr_characters_median": 47.0,
+        "ocr_characters_min": 20,
+        "views": 64
+      },
+      "missing_identity": {
+        "empty_ocr": 0,
+        "ocr_characters_max": 35,
+        "ocr_characters_median": 32.0,
+        "ocr_characters_min": 26,
+        "views": 64
+      }
+    }
+  },
+  "rendered_views": 320,
+  "renderer_sha256": "a395f6713450dc329318556f5c6a98640b2b785fc6412b6bdd3cf5c3aa889310",
+  "scope": "No model outputs, counterparty truth, counterpart decisions, baseline performance or entity matching scores generated",
+  "source_records": 80,
+  "unique_image_hashes": 284
+}

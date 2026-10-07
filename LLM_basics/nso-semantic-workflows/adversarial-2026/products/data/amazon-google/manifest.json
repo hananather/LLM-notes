@@ -1,0 +1,68 @@
+{
+  "curation_implementation_sha256": {
+    "prepare_products.py": "7e2ca8b2f39cf52b4475b73469b917ca56f1eaa2a7159f6130fd3e615810a243",
+    "product_features.py": "7ba355a4f325b753877cbac54003a4d3fc8489380d417fd40829c42e61385b6c"
+  },
+  "dataset": "amazon-google",
+  "file_sha256": {
+    "development-source-audit.json": "868eec96265f72bf9e0360abdedd06911e83c59caffc8d31ddb42212bbbedfbf",
+    "metadata.json": "68868c243a207274d6ddeb25bd99b3313c6e364e189232d0a77ee11db38fda9d",
+    "partitions.json": "268666945e735e6d8eb1c630107596e6938c5c55ddcf0bc2f09439599b71d225",
+    "records.json": "348231e9bf0ec59acf9a13e65e74c5cb1d1e80344c7b9a897c8469d17ba93a5c",
+    "source-map.json": "a1d213c0e9d2f0ee4c435412dfaa207cbb26fe927b283eb8d0593183ecc73bfe",
+    "truth.json": "12b7b99079a419889f0755692b62d07ff3acb2fd5da48893e8f5b5a5d5240d73"
+  },
+  "full_source": {
+    "families_spanning_multiple_positive_components": 10,
+    "family_groups": 3096,
+    "largest_family_records": 9,
+    "left": 1363,
+    "links": 1300,
+    "positive_components": 1105,
+    "right": 3226
+  },
+  "label_caveats": [
+    "Published mappings are the scoring convention; unmapped does not independently prove real-world absence.",
+    "Product matching is many-to-many; one-to-one assignment is prohibited.",
+    "Public historical benchmarks may have appeared in model pretraining.",
+    "Title-derived family detection is incomplete, particularly for software versions and undocumented product lineages.",
+    "Greedy family-group sampling is a reproducible development screen, not a probability sample of the product market.",
+    "Truth is used only for leakage-resistant curation and later independent evaluation, never by candidate generation or baseline fitting."
+  ],
+  "licence": {
+    "checked": "2026-10-07",
+    "name": "CC BY 4.0",
+    "publisher_statement": "https://dbs.uni-leipzig.de/research/projects/benchmark-datasets-for-entity-resolution",
+    "statement_date": "January 2019",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "partitions": {
+    "dev": {
+      "family_groups": 327,
+      "gold_links": 140,
+      "left": 145,
+      "positive_components": 125,
+      "right": 344,
+      "unmapped_left": 20,
+      "unmapped_right": 204
+    },
+    "test": {
+      "family_groups": 2769,
+      "gold_links": 1160,
+      "left": 1218,
+      "positive_components": 980,
+      "right": 2882,
+      "unmapped_left": 230,
+      "unmapped_right": 1731
+    }
+  },
+  "schema": 1,
+  "seed": "products-20261007-v1",
+  "source": {
+    "bytes": 904417,
+    "sha256": "fcd72e223d51ce5b0d6b1d68034a438ba95cf2940431e209a57910b067cc4811",
+    "url": "https://dbs.uni-leipzig.de/files/datasets/Amazon-GoogleProducts.zip"
+  },
+  "split_policy": "Whole published-link components, exact duplicate normalized observed texts and same-brand title model prefixes of 2-8 letters followed by digits are grouped. Seeded family ordering greedily fills the fixed positive-component development target without splitting a family. Unmapped families use the same component sampling fraction. All other records remain test.",
+  "target_development_positive_components": 125
+}

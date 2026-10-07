@@ -1,0 +1,775 @@
+{
+  "decisions": {
+    "assumed_recall=0.5;threshold=0.5": [
+      {
+        "record_id": "a0",
+        "target_ids": [
+          "b0"
+        ]
+      },
+      {
+        "record_id": "a1",
+        "target_ids": [
+          "b1"
+        ]
+      },
+      {
+        "record_id": "a2",
+        "target_ids": [
+          "b2"
+        ]
+      },
+      {
+        "record_id": "a3",
+        "target_ids": [
+          "b3"
+        ]
+      },
+      {
+        "record_id": "a4",
+        "target_ids": [
+          "b4"
+        ]
+      },
+      {
+        "record_id": "a5",
+        "target_ids": [
+          "b5"
+        ]
+      },
+      {
+        "record_id": "a6",
+        "target_ids": [
+          "b6"
+        ]
+      },
+      {
+        "record_id": "a7",
+        "target_ids": [
+          "b7"
+        ]
+      },
+      {
+        "record_id": "a8",
+        "target_ids": [
+          "b8"
+        ]
+      },
+      {
+        "record_id": "a9",
+        "target_ids": [
+          "b9"
+        ]
+      },
+      {
+        "record_id": "a10",
+        "target_ids": [
+          "b10"
+        ]
+      },
+      {
+        "record_id": "a11",
+        "target_ids": [
+          "b11"
+        ]
+      }
+    ],
+    "assumed_recall=0.5;threshold=0.9": [
+      {
+        "record_id": "a0",
+        "target_ids": [
+          "b0"
+        ]
+      },
+      {
+        "record_id": "a1",
+        "target_ids": [
+          "b1"
+        ]
+      },
+      {
+        "record_id": "a2",
+        "target_ids": [
+          "b2"
+        ]
+      },
+      {
+        "record_id": "a3",
+        "target_ids": [
+          "b3"
+        ]
+      },
+      {
+        "record_id": "a4",
+        "target_ids": [
+          "b4"
+        ]
+      },
+      {
+        "record_id": "a5",
+        "target_ids": [
+          "b5"
+        ]
+      },
+      {
+        "record_id": "a6",
+        "target_ids": [
+          "b6"
+        ]
+      },
+      {
+        "record_id": "a7",
+        "target_ids": [
+          "b7"
+        ]
+      },
+      {
+        "record_id": "a8",
+        "target_ids": [
+          "b8"
+        ]
+      },
+      {
+        "record_id": "a9",
+        "target_ids": [
+          "b9"
+        ]
+      },
+      {
+        "record_id": "a10",
+        "target_ids": [
+          "b10"
+        ]
+      },
+      {
+        "record_id": "a11",
+        "target_ids": [
+          "b11"
+        ]
+      }
+    ],
+    "assumed_recall=0.5;threshold=0.99": [
+      {
+        "record_id": "a0",
+        "target_ids": [
+          "b0"
+        ]
+      },
+      {
+        "record_id": "a1",
+        "target_ids": [
+          "b1"
+        ]
+      },
+      {
+        "record_id": "a2",
+        "target_ids": [
+          "b2"
+        ]
+      },
+      {
+        "record_id": "a3",
+        "target_ids": [
+          "b3"
+        ]
+      },
+      {
+        "record_id": "a4",
+        "target_ids": [
+          "b4"
+        ]
+      },
+      {
+        "record_id": "a5",
+        "target_ids": [
+          "b5"
+        ]
+      },
+      {
+        "record_id": "a6",
+        "target_ids": [
+          "b6"
+        ]
+      },
+      {
+        "record_id": "a7",
+        "target_ids": [
+          "b7"
+        ]
+      },
+      {
+        "record_id": "a8",
+        "target_ids": [
+          "b8"
+        ]
+      },
+      {
+        "record_id": "a9",
+        "target_ids": [
+          "b9"
+        ]
+      },
+      {
+        "record_id": "a10",
+        "target_ids": [
+          "b10"
+        ]
+      },
+      {
+        "record_id": "a11",
+        "target_ids": [
+          "b11"
+        ]
+      }
+    ],
+    "assumed_recall=0.5;threshold=0.999": [
+      {
+        "record_id": "a0",
+        "target_ids": []
+      },
+      {
+        "record_id": "a1",
+        "target_ids": []
+      },
+      {
+        "record_id": "a2",
+        "target_ids": []
+      },
+      {
+        "record_id": "a3",
+        "target_ids": []
+      },
+      {
+        "record_id": "a4",
+        "target_ids": []
+      },
+      {
+        "record_id": "a5",
+        "target_ids": []
+      },
+      {
+        "record_id": "a6",
+        "target_ids": []
+      },
+      {
+        "record_id": "a7",
+        "target_ids": []
+      },
+      {
+        "record_id": "a8",
+        "target_ids": []
+      },
+      {
+        "record_id": "a9",
+        "target_ids": []
+      },
+      {
+        "record_id": "a10",
+        "target_ids": []
+      },
+      {
+        "record_id": "a11",
+        "target_ids": []
+      }
+    ],
+    "assumed_recall=0.8;threshold=0.5": [
+      {
+        "record_id": "a0",
+        "target_ids": [
+          "b0"
+        ]
+      },
+      {
+        "record_id": "a1",
+        "target_ids": [
+          "b1"
+        ]
+      },
+      {
+        "record_id": "a2",
+        "target_ids": [
+          "b2"
+        ]
+      },
+      {
+        "record_id": "a3",
+        "target_ids": [
+          "b3"
+        ]
+      },
+      {
+        "record_id": "a4",
+        "target_ids": [
+          "b4"
+        ]
+      },
+      {
+        "record_id": "a5",
+        "target_ids": [
+          "b5"
+        ]
+      },
+      {
+        "record_id": "a6",
+        "target_ids": [
+          "b6"
+        ]
+      },
+      {
+        "record_id": "a7",
+        "target_ids": [
+          "b7"
+        ]
+      },
+      {
+        "record_id": "a8",
+        "target_ids": [
+          "b8"
+        ]
+      },
+      {
+        "record_id": "a9",
+        "target_ids": [
+          "b9"
+        ]
+      },
+      {
+        "record_id": "a10",
+        "target_ids": [
+          "b10"
+        ]
+      },
+      {
+        "record_id": "a11",
+        "target_ids": [
+          "b11"
+        ]
+      }
+    ],
+    "assumed_recall=0.8;threshold=0.9": [
+      {
+        "record_id": "a0",
+        "target_ids": [
+          "b0"
+        ]
+      },
+      {
+        "record_id": "a1",
+        "target_ids": [
+          "b1"
+        ]
+      },
+      {
+        "record_id": "a2",
+        "target_ids": [
+          "b2"
+        ]
+      },
+      {
+        "record_id": "a3",
+        "target_ids": [
+          "b3"
+        ]
+      },
+      {
+        "record_id": "a4",
+        "target_ids": [
+          "b4"
+        ]
+      },
+      {
+        "record_id": "a5",
+        "target_ids": [
+          "b5"
+        ]
+      },
+      {
+        "record_id": "a6",
+        "target_ids": [
+          "b6"
+        ]
+      },
+      {
+        "record_id": "a7",
+        "target_ids": [
+          "b7"
+        ]
+      },
+      {
+        "record_id": "a8",
+        "target_ids": [
+          "b8"
+        ]
+      },
+      {
+        "record_id": "a9",
+        "target_ids": [
+          "b9"
+        ]
+      },
+      {
+        "record_id": "a10",
+        "target_ids": [
+          "b10"
+        ]
+      },
+      {
+        "record_id": "a11",
+        "target_ids": [
+          "b11"
+        ]
+      }
+    ],
+    "assumed_recall=0.8;threshold=0.99": [
+      {
+        "record_id": "a0",
+        "target_ids": []
+      },
+      {
+        "record_id": "a1",
+        "target_ids": []
+      },
+      {
+        "record_id": "a2",
+        "target_ids": []
+      },
+      {
+        "record_id": "a3",
+        "target_ids": []
+      },
+      {
+        "record_id": "a4",
+        "target_ids": []
+      },
+      {
+        "record_id": "a5",
+        "target_ids": []
+      },
+      {
+        "record_id": "a6",
+        "target_ids": []
+      },
+      {
+        "record_id": "a7",
+        "target_ids": []
+      },
+      {
+        "record_id": "a8",
+        "target_ids": []
+      },
+      {
+        "record_id": "a9",
+        "target_ids": []
+      },
+      {
+        "record_id": "a10",
+        "target_ids": []
+      },
+      {
+        "record_id": "a11",
+        "target_ids": []
+      }
+    ],
+    "assumed_recall=0.8;threshold=0.999": [
+      {
+        "record_id": "a0",
+        "target_ids": []
+      },
+      {
+        "record_id": "a1",
+        "target_ids": []
+      },
+      {
+        "record_id": "a2",
+        "target_ids": []
+      },
+      {
+        "record_id": "a3",
+        "target_ids": []
+      },
+      {
+        "record_id": "a4",
+        "target_ids": []
+      },
+      {
+        "record_id": "a5",
+        "target_ids": []
+      },
+      {
+        "record_id": "a6",
+        "target_ids": []
+      },
+      {
+        "record_id": "a7",
+        "target_ids": []
+      },
+      {
+        "record_id": "a8",
+        "target_ids": []
+      },
+      {
+        "record_id": "a9",
+        "target_ids": []
+      },
+      {
+        "record_id": "a10",
+        "target_ids": []
+      },
+      {
+        "record_id": "a11",
+        "target_ids": []
+      }
+    ],
+    "assumed_recall=1.0;threshold=0.5": [
+      {
+        "record_id": "a0",
+        "target_ids": [
+          "b0"
+        ]
+      },
+      {
+        "record_id": "a1",
+        "target_ids": [
+          "b1"
+        ]
+      },
+      {
+        "record_id": "a2",
+        "target_ids": [
+          "b2"
+        ]
+      },
+      {
+        "record_id": "a3",
+        "target_ids": [
+          "b3"
+        ]
+      },
+      {
+        "record_id": "a4",
+        "target_ids": [
+          "b4"
+        ]
+      },
+      {
+        "record_id": "a5",
+        "target_ids": [
+          "b5"
+        ]
+      },
+      {
+        "record_id": "a6",
+        "target_ids": [
+          "b6"
+        ]
+      },
+      {
+        "record_id": "a7",
+        "target_ids": [
+          "b7"
+        ]
+      },
+      {
+        "record_id": "a8",
+        "target_ids": [
+          "b8"
+        ]
+      },
+      {
+        "record_id": "a9",
+        "target_ids": [
+          "b9"
+        ]
+      },
+      {
+        "record_id": "a10",
+        "target_ids": [
+          "b10"
+        ]
+      },
+      {
+        "record_id": "a11",
+        "target_ids": [
+          "b11"
+        ]
+      }
+    ],
+    "assumed_recall=1.0;threshold=0.9": [
+      {
+        "record_id": "a0",
+        "target_ids": [
+          "b0"
+        ]
+      },
+      {
+        "record_id": "a1",
+        "target_ids": [
+          "b1"
+        ]
+      },
+      {
+        "record_id": "a2",
+        "target_ids": [
+          "b2"
+        ]
+      },
+      {
+        "record_id": "a3",
+        "target_ids": [
+          "b3"
+        ]
+      },
+      {
+        "record_id": "a4",
+        "target_ids": [
+          "b4"
+        ]
+      },
+      {
+        "record_id": "a5",
+        "target_ids": [
+          "b5"
+        ]
+      },
+      {
+        "record_id": "a6",
+        "target_ids": [
+          "b6"
+        ]
+      },
+      {
+        "record_id": "a7",
+        "target_ids": [
+          "b7"
+        ]
+      },
+      {
+        "record_id": "a8",
+        "target_ids": [
+          "b8"
+        ]
+      },
+      {
+        "record_id": "a9",
+        "target_ids": [
+          "b9"
+        ]
+      },
+      {
+        "record_id": "a10",
+        "target_ids": [
+          "b10"
+        ]
+      },
+      {
+        "record_id": "a11",
+        "target_ids": [
+          "b11"
+        ]
+      }
+    ],
+    "assumed_recall=1.0;threshold=0.99": [
+      {
+        "record_id": "a0",
+        "target_ids": []
+      },
+      {
+        "record_id": "a1",
+        "target_ids": []
+      },
+      {
+        "record_id": "a2",
+        "target_ids": []
+      },
+      {
+        "record_id": "a3",
+        "target_ids": []
+      },
+      {
+        "record_id": "a4",
+        "target_ids": []
+      },
+      {
+        "record_id": "a5",
+        "target_ids": []
+      },
+      {
+        "record_id": "a6",
+        "target_ids": []
+      },
+      {
+        "record_id": "a7",
+        "target_ids": []
+      },
+      {
+        "record_id": "a8",
+        "target_ids": []
+      },
+      {
+        "record_id": "a9",
+        "target_ids": []
+      },
+      {
+        "record_id": "a10",
+        "target_ids": []
+      },
+      {
+        "record_id": "a11",
+        "target_ids": []
+      }
+    ],
+    "assumed_recall=1.0;threshold=0.999": [
+      {
+        "record_id": "a0",
+        "target_ids": []
+      },
+      {
+        "record_id": "a1",
+        "target_ids": []
+      },
+      {
+        "record_id": "a2",
+        "target_ids": []
+      },
+      {
+        "record_id": "a3",
+        "target_ids": []
+      },
+      {
+        "record_id": "a4",
+        "target_ids": []
+      },
+      {
+        "record_id": "a5",
+        "target_ids": []
+      },
+      {
+        "record_id": "a6",
+        "target_ids": []
+      },
+      {
+        "record_id": "a7",
+        "target_ids": []
+      },
+      {
+        "record_id": "a8",
+        "target_ids": []
+      },
+      {
+        "record_id": "a9",
+        "target_ids": []
+      },
+      {
+        "record_id": "a10",
+        "target_ids": []
+      },
+      {
+        "record_id": "a11",
+        "target_ids": []
+      }
+    ]
+  },
+  "main_assumed_recall": 0.8,
+  "main_threshold": 0.9,
+  "sensitivity_boundary": "Prior-only shift at fixed fitted m/u, not a complete refit of each prior."
+}

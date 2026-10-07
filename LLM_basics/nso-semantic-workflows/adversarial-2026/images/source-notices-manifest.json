@@ -1,0 +1,20 @@
+[
+  {
+    "name": "abo-registry.yaml",
+    "url": "https://raw.githubusercontent.com/awslabs/open-data-registry/main/datasets/amazon-berkeley-objects.yaml",
+    "sha256": "5697732e2acc9d3b1a4ae8325f207813af72c83ea2146accaad30a4cd2014073",
+    "bytes": 1548
+  },
+  {
+    "name": "clip-license.txt",
+    "url": "https://raw.githubusercontent.com/openai/CLIP/main/LICENSE",
+    "sha256": "987e63b32f6c89ff5160e429458a872ff048e6860b590a3912e938f9da8f14db",
+    "bytes": 1064
+  },
+  {
+    "name": "clip-readme.md",
+    "url": "https://raw.githubusercontent.com/openai/CLIP/main/README.md",
+    "sha256": "f82c5c75e140532eb37a7d943921e1bdd57d740c6b40d0030985bc5b5d11d6f1",
+    "bytes": 7306
+  }
+]

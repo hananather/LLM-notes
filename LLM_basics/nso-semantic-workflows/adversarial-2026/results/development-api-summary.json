@@ -1,0 +1,15 @@
+{
+  "admitted_jobs": 800,
+  "attempted_calls": 800,
+  "valid_calls": 763,
+  "failed_calls": 37,
+  "unresolved_attempts": 0,
+  "unattempted_jobs": 0,
+  "new_reserved_usd": "0.98534312500",
+  "development_reserved_usd": "0.98534312500",
+  "prior_reserved_usd": "0.9303031250000006",
+  "combined_reserved_usd": "1.9156462500000006",
+  "nominal_token_price_usd": "0.1491891",
+  "new_ceiling_usd": "9.00",
+  "all_prices_are_estimates_not_invoices": true
+}

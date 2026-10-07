@@ -1,0 +1,8 @@
+{
+  "boundary": "Candidate misses count in end-to-end errors; no true target was inserted.",
+  "candidate_pairs": 16585,
+  "queries": 1081,
+  "queries_with_complete_reference_set_available": 1077,
+  "reference_edges": 1097,
+  "reference_edges_retrieved": 1093
+}

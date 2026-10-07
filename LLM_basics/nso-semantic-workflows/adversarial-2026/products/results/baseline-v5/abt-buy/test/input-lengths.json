@@ -1,0 +1,36 @@
+{
+  "left": {
+    "boundary": "Observed JSON token count; provider message/image overhead is not included.",
+    "count": 1081,
+    "encoding": "o200k_base",
+    "max": 205,
+    "min": 66,
+    "p50": 120.0,
+    "p90": 156.0,
+    "p99": 191.20000000000005,
+    "total": 132515
+  },
+  "right": {
+    "boundary": "Observed JSON token count; provider message/image overhead is not included.",
+    "count": 1092,
+    "encoding": "o200k_base",
+    "max": 141,
+    "min": 41,
+    "p50": 68.0,
+    "p90": 95.0,
+    "p99": 126.08999999999992,
+    "total": 79094
+  },
+  "selection_bundles_all_fields": {
+    "boundary": "Observed JSON token count; provider message/image overhead is not included.",
+    "count": 1081,
+    "encoding": "o200k_base",
+    "max": 2115,
+    "min": 712,
+    "p50": 1219.0,
+    "p90": 1585.0,
+    "p99": 1907.2,
+    "total": 1329094
+  },
+  "truncation": "none"
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Visible package evidence; no catalog identity inference",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "brand",
+    "product_name",
+    "variant",
+    "net_quantity_value",
+    "net_quantity_unit",
+    "pack_count",
+    "model_number",
+    "barcode",
+    "evidence_text"
+  ],
+  "properties": {
+    "brand": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 80
+    },
+    "product_name": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 160
+    },
+    "variant": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 80
+    },
+    "net_quantity_value": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "net_quantity_unit": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "g",
+        "kg",
+        "oz",
+        "lb",
+        "ml",
+        "l",
+        "fl_oz",
+        "pint",
+        "quart",
+        "gallon",
+        null
+      ]
+    },
+    "pack_count": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 10000
+    },
+    "model_number": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 80
+    },
+    "barcode": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 80
+    },
+    "evidence_text": {
+      "type": "string",
+      "maxLength": 240
+    }
+  }
+}

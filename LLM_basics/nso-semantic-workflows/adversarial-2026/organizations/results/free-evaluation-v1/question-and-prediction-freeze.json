@@ -1,0 +1,59 @@
+{
+  "evaluator_sha256": "8fdf3ffc5e43edc2bedcd0492bdf15c99930ea4bd8babab5d518ae1b068d868c",
+  "expected_gold_hashes_from_existing_curation_manifest": {
+    "data/gold/curation-audit.json": "859b5dfb1bbe369fd3fc14bc2427ce7ad6c96c6cb172de772959b67867117874",
+    "data/gold/reference.jsonl": "e7f4e8435b8c2455cfa1ef2dde063d8d9eb5a8a64d5459db5a247fccdc363b8d",
+    "data/gold/sampling-design.json": "6194e99cad13bcf263ac335856cd547341bd01718a912eb7ed3e27213fae20fe"
+  },
+  "frozen_utc": "2026-10-07T17:52:02.473531+00:00",
+  "prediction_and_fit_hashes": {
+    "baseline.py": "0e104cf7474de0c88d6882e82ec940ac8f79305b98bd2feedc40d69139009de6",
+    "data/partitions.json": "c3c4b234fd8e28ff430d538dd811ee3a26ba792601f7af2fe9402daf160a3ea6",
+    "data/source-manifest.json": "e107b4625d02d1da3c3297ba7fa0d2a0bb44e176de8a467573f77c54cf81f50b",
+    "export_predictions.py": "8b2a925b69d05144e9c45a5a98fce70eb72d2188e39492b9bda7424c8cd9c643",
+    "prepare.py": "43cdc131f4904c9aae550b85dfaed86a177572f24de1b8dc2e840458c3f3af85",
+    "protocol.json": "b69d735319455faef3def98d729913bd8ebc53112650d5c2973ed6157504a534",
+    "results/candidates.jsonl.gz": "5140cecd15bfe74dd5e146a36215527f0b18d09c0ebb1e094ba79c7bea52d4c6",
+    "results/conventional-evaluation.json": "697853cf87aa5c73c8c0d1f828a9c667e0623e15d5d9c8b377745ee722a35d32",
+    "results/export-manifest.json": "e58a63b92a69125d9ba45d41f18aa0a10424a9bad86dd8bba03f1595062d3b2e",
+    "results/freeze-manifest.json": "2bcaf60ddeb403c9da6150e64a16d111f568196322d27f66cc6172abbae6e52a",
+    "results/splink-fit-audit.json": "4cc08ae8c3d59b6d5cd08ca11da48650e470887d48266d2152ce1c835ca289f2",
+    "results/splink-pair-predictions.jsonl.gz": "c6738414c94443bdd6c9c768c5eeb4cfd89d00e270ce0d0acbdd53a1fa12bb48"
+  },
+  "question": {
+    "bootstrap": {
+      "estimand": "Query-weighted metric rates; resample entire evaluation groups with replacement",
+      "interval": "Percentile 95%; descriptive for this historical source and grouping, not NSO population or calibration uncertainty",
+      "replicates": 2000,
+      "seed": 20261007,
+      "unit": "Actual frozen connected groups of shared positive ROR identity or normalized duplicate inputs"
+    },
+    "candidate_recall_ranks": [
+      1,
+      5,
+      10,
+      25,
+      40
+    ],
+    "denominator": "Every one of the 1065 predeclared evaluation query IDs, including NIL, review, failed and inconsistent source annotations.",
+    "forced_top1_role": "Ranking diagnostic only; never an eligible operational gate comparator.",
+    "methods": [
+      "lexical_fixed_policy",
+      "lexical_top1_forced",
+      "splink_fixed_policy"
+    ],
+    "metrics": "Complete decisions, automatic coverage, wrong automatic decisions, false/missed links, false-assignment queries, false NIL, links on NIL, review and failure.",
+    "paired_comparisons": "Every pair of the three frozen policies, with the same source-group bootstrap draws.",
+    "prediction_changes": "None: no model calls, refitting, retrieval, threshold selection, prior selection, repairs or row exclusions.",
+    "question": "On 1065 held-out CORDIS queries, do the development accuracy, false-assignment and coverage trade-offs persist for three unchanged conventional policies?",
+    "scope": "Historical CORDIS structured organization linkage against all 108476 ROR v1.41 entries; transductive unlabeled fitting already complete.",
+    "source_policy_strata": [
+      "historical NIL",
+      "positive target",
+      "inactive or withdrawn target",
+      "flagged inconsistent duplicate-input labels"
+    ],
+    "stopping": "One scoring pass; preserve every result and do not change methods from outcomes. Native affiliation sources remain unscored."
+  },
+  "scorer_sha256": "1af82f6ecb88f21ee92ba4670cb5c04e951c06719d739c34577614e2aa43a9d5"
+}

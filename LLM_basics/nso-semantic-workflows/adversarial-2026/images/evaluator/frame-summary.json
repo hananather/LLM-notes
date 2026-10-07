@@ -1,0 +1,25 @@
+{
+  "listing_rows": 147702,
+  "unique_item_ids": 145615,
+  "grocery_eligible_two_exclusive_images": 3673,
+  "main_image_frame": 3319,
+  "grocery_items": 3673,
+  "families": 3401,
+  "non_singleton_families": 239,
+  "items_in_non_singleton_families": 511,
+  "normalized_name_brand_duplicate_groups": 211,
+  "items_in_normalized_name_brand_duplicate_groups": 444,
+  "dev_queries": 96,
+  "test_queries": 1000,
+  "closed_test_catalog": 1000,
+  "nil_test_catalog": 1000,
+  "nil_queries": 200,
+  "dev_families": 83,
+  "test_families": 912,
+  "forced_development_ids": 38,
+  "forced_outside_main_frame": [
+    "B074MGW29M",
+    "B07RM3WJZN",
+    "B07VZWS11S"
+  ]
+}

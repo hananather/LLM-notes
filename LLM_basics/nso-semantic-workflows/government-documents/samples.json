@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "status": "curated_source_showcase_no_model_evaluation",
+  "provenance_file": "provenance.json",
+  "source_notice_file": "SOURCE-NOTICE.md",
+  "examples": [
+    {
+      "example_id": "consent-decree-interpretation",
+      "title": "Consent-decree interpretation",
+      "row_idx": 12,
+      "observed_relation": "dataset_extracted_quotation_link",
+      "interpretation": "The surrounding argument describes long-standing coupon rules, government acquiescence, and interpretation of a consent decree. The observed quotation gives conditions for retaining an interpretation accepted by the parties.",
+      "caution": "The row is a source-extracted quotation link. It does not establish that this is the only relevant precedent.",
+      "raw_row": {
+        "dest_id": 3525339,
+        "source_id": 8895,
+        "dest_date": "1972-07-14",
+        "dest_court": "United States District Court for the Eastern District of Missouri",
+        "dest_name": "United States v. Associated Credit Bureaus, Inc.",
+        "dest_cite": "United States v. Associated Credit Bureaus, Inc., 345 F. Supp. 940 (1972)",
+        "source_date": "1959-06-08",
+        "source_court": "Supreme Court of the United States",
+        "source_name": "United States v. Atlantic Refining Co.",
+        "source_cite": "United States v. Atlantic Refining Co., 360 U.S. 19 (1959)",
+        "passage_id": "8895_1",
+        "quote": "We merely hold that where the language of a consent decree in its normal meaning supports an interpretation; where that interpretation has been adhered to over many years by all the parties, including those government officials who drew up and administered the decree from the start (citation omitted); and where the trial court concludes that this interpretation is in fact the one the parties intended, we will not reject it simply because another reading might seem more consistent with the Government’s reasons for entering into the agreement in the first place.",
+        "destination_context": " It does not prohibit the members from using other organizations as sources of credit information.\nIf the 1933 decree were equally susceptible to the interpretations the government is now urging, the Court would not accept those interpretations. ACB’s “coupon rules” have been in existence since the establishment of ACB’s parent organization in 1906 and the wording of those rules has not been substantially changed since that time. The consent order of 1953 refers to the use of inter-bureau coupons. The government has continually worked closely with ACB and has relied on ACB to keep its members in compliance with the 1933 decree and the 1953 order. ACB used the “coupon rules” in 1950 to prevent its California member-bureaus from using mediums of exchange other than ACB coupons. The government contends in its brief that while the “coupon rules” had been in existence for an extended period of time it had never acquiesced in the use which ACB has recently made of the “coupon rules”. That use is simply the enforcement of the rules. Even if the government had never acquiesced in the enforcement of the rules this does not mean that the government has not acquiesced in the rules themselves. Section III of the 1933 decree provides in part:\n“That the defendants shall forthwith abrogate and cancel all by-laws, rules, regulations, conditions, contracts, provisions or resolutions which suggest, authorize, encourage, permit or direct any of the acts and things hereinabove specifically enjoined * * * ft\nIf the government believed in 1933 that the “coupon rules” violated the 1933 decree they had an obligation to enforce the cancellation of those “coupon rules”. The fact that they did not must be considered an acquiescence in those rules.\n“"
+      }
+    },
+    {
+      "example_id": "university-tax-collection",
+      "title": "University admissions-tax collection",
+      "row_idx": 23,
+      "observed_relation": "dataset_extracted_quotation_link",
+      "interpretation": "The context distinguishes a taxpayer from an alleged debtor who collected admissions taxes. The observed quotation concerns executive enforcement of a debt.",
+      "caution": "The context itself cites United States v. Johnston. That citation is part of the argument, not the observed Pool v. Walsh target for this row.",
+      "raw_row": {
+        "dest_id": 938787,
+        "source_id": 5706389,
+        "dest_date": "1936-01-20",
+        "dest_court": "United States Court of Appeals for the Fifth Circuit",
+        "dest_name": "Regents of University System of Georgia v. Page",
+        "dest_cite": "Regents of University System of Georgia v. Page, 81 F.2d 577 (1936)",
+        "source_date": "1922-08-07",
+        "source_court": "United States Court of Appeals for the Ninth Circuit",
+        "source_name": "Pool v. Walsh",
+        "source_cite": "Pool v. Walsh, 282 F. 620 (1922)",
+        "passage_id": "5706389_1",
+        "quote": "be enforced through the secret findings and summary action of executive officers.",
+        "destination_context": " If the tax was due by appellant or it was legally required to collect the same, it is the duty of the collecting agent to pay it over; if the admissions were immune from federal taxation, there was no valid agency and certainly no obligation to pay anything over to the appellee. We find nothing in the conduct of the Board of Regents to estop it from standing upon its constitutional rights and asserting the invalidity - or inapplicability of the alleged tax.\nLet us now look at the remedy pursued by, and inquire what remedy is available to, appellee. If his contention is correct, the appellant voluntarily acted as agent in the collection of the tax and became the debtor of the United States. The money collected does not belong to the gov- eminent; the title to it is in appellee. Nevertheless, treating the amounts claimed to be due as a tax, the Collector of Internal Revenue prepared and filed returns on behalf of appellant’s athletic departments and, thereafter, admissions taxes in the respective amounts were duly assessed against them. Appellee then gave notice to and made demand of the respective departments for the payment of the admissions taxes so assessed on account thereof. As the appellant is not the taxpayer but merely an alleged debtor for money had and received (United States v. Johnston, 268 U.S. 220, 226, 45 S.Ct. 496, 69 L.Ed. 925), if the appellee is correct in his contention that the appellant voluntarily acted as agent in the collection of the admission taxes, the question immediately presents itself whether the collection of a debt against one other than a taxpayer may “"
+      }
+    },
+    {
+      "example_id": "generic-tax-phrase",
+      "title": "Ambiguity: a generic statutory phrase",
+      "row_idx": 24,
+      "observed_relation": "dataset_extracted_quotation_link",
+      "interpretation": "The observed quotation is a short phrase about assessment or collection of tax. The phrase alone cannot establish a uniquely suitable precedent.",
+      "caution": "An extracted positive link to Pool v. Walsh is preserved. No uncited pair is labelled negative, and no exhaustive set of relevant precedents is claimed.",
+      "raw_row": {
+        "dest_id": 918731,
+        "source_id": 5706389,
+        "dest_date": "1932-06-13",
+        "dest_court": "United States Court of Appeals for the Fourth Circuit",
+        "dest_name": "Hubbard Inv. Co. v. Brast",
+        "dest_cite": "Hubbard Inv. Co. v. Brast, 59 F.2d 709 (1932)",
+        "source_date": "1922-08-07",
+        "source_court": "United States Court of Appeals for the Ninth Circuit",
+        "source_name": "Pool v. Walsh",
+        "source_cite": "Pool v. Walsh, 282 F. 620 (1922)",
+        "passage_id": "5706389_0",
+        "quote": "assessment or collection of any tax.",
+        "destination_context": " With respect to. the acquisition of the trust property, he stated that the investment company had financed the purchase by the use of a stock certificate and that it had paid certain relatively small installments of interest and an assessment of $500. He produced the checks covering the interest payments and the assessment, but did not produce the note given for the inoney to make the initial payment and did not remember whether it had been signed bji the investment company or by himself. He admitted that the amount due for the purchase money was rapidly reduced as a result of sales made by the trustees. So far as the testimony shows, the company paid nothing for the interest in the property at the time of its acquisition and has paid nothing since except interest amounting to approximately $175 and the $500 assessment. A number of other matters, such as the income tax returns of Hubbard and of the investment company, were covered by his testimony; but we deem them immaterial.\nSo far as the interest 'of creditors is concerned, while Hubbard.testified that both he and the investment company had lost money and that neither was able to meet outstanding obligations, there is no evidence that upon a final adjustment of accounts and equities between Hubbard and the company, either the company or its creditors would be injured as a result of the sale of the property under the distraint warrant. No receiver for the company.has been appointed, and no creditor of the company has intervened or asked relief at the hands of the court. That section forbids the maintenance of a suit, the purpose of which is to restrain the “"
+      }
+    }
+  ]
+}

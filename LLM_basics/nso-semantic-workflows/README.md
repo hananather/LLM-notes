@@ -2,11 +2,15 @@
 
 [Read the notebook](../nso-semantic-workflows.ipynb) for measured comparisons of language-based selection, conventional matching and statistical-query tools. This extends the [Splink and LOTUS tutorial](../record-linkage-with-semantic-operators.ipynb) with public-source and explicitly synthetic experiments.
 
+The notebook keeps the strongest affiliation result, the product recovery/error trade-off, actual input/decision examples, stopped comparisons and a finite next-step checklist. Its [selected examples](../nso-semantic-workflows.ipynb#dataset-showcase) include a correction and an incorrect automatic link. A government-text pair is explicitly unscored. Detailed grids and the earlier gallery remain supporting evidence rather than the main reading path.
+
 On the frozen tests, GPT-6 Luna produced 593 valid annotated affiliation sets out of 644, compared with 456 for the lexical baseline. It produced 28/32 correct synthetic industry decisions versus 18/32, and 27/32 occupation decisions versus 23/32. The affiliation comparison is against the implemented lexical methods, not the trained S2AFF pipeline. Coding cases are a convenience sample of authored classification boundaries, not observed survey returns.
 
 The school screen stopped model work: conventional matching was correct for all 300 records in its probability sample. A separate changed-name-and-street sample scored 72/100. These populations are reported separately. The statistical-query comparison uses 401,944 frozen observations and separates catalog discovery from planning over four known tables. Rules, one-shot planning and the iterative controller each score 29/32; the controller uses 1.85 times the one-shot tokens and returns three wrong answers without review instead of one. Catalog selection recovers 15/24 designated sources versus 9/24 for lexical first choice, reaching the fixed shortlist ceiling.
 
 Every scored model attempt is preserved, including invalid evidence quotations. The affiliation review flag passed through 30 incorrect cases among 576 automatic decisions. Selection gains therefore do not establish a reliable acceptance policy or measured staff-time savings.
+
+The later [product holdout](adversarial-2026/products/README.md#scored-comparisons) retained all 1,219 queries. Semantic selection made 702 correct complete decisions versus 382 for the development-selected lexical rule, with 508 versus 264 false links and 151 versus 788 missed links. It left 68 queries for review and 26 failed responses unresolved. This run followed an explicit post-development spending amendment; the original continuation gate remains failed. The [access chronology](../nso-semantic-workflows.ipynb#product-access-chronology) discloses limited test metadata exposure after request freeze and before prediction sealing.
 
 ## Read and verify without paid calls
 
@@ -39,6 +43,7 @@ If `.venv` already belongs to another project, use a different environment direc
 | Historical affiliations and school continuity | [Linkage protocol](protocol-linkage.md) |
 | Catalog discovery and exact statistical queries | [Statistics protocol](protocol-statistics.md) |
 | Complete paired results, corrections and regressions | [Offline analysis](results/analysis/README.md) |
+| Completed amended product holdout, costs and offline replay | [Product evidence](adversarial-2026/products/README.md#scored-comparisons) |
 | Raw public requests, responses, usage and failures | [API ledger](results/api-ledger.jsonl) |
 
 The classification and affiliation systems implement blocked semantic selection through the provider API. The statistics system uses a bounded Python controller with JSON actions and deterministic tools. These are measurements of those implementations; they are not native LOTUS optimizer or `Corpus.agent` benchmarks. The earlier tutorial contains the native LOTUS examples.

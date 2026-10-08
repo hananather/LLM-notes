@@ -1,0 +1,38 @@
+{
+  "evaluator_sha256": "a641c963814246d04bae1ad61113480566dc39bfa7d7312f0e5a81880629ae97",
+  "manifest_sha256": "dd82a77d1d7f48051c03133db62963418f4258d8b3cc4bf0e120546a28721d8e",
+  "seal": {
+    "evaluator_sha256": "a641c963814246d04bae1ad61113480566dc39bfa7d7312f0e5a81880629ae97",
+    "execution_audit": {
+      "attempted_requests": 1219,
+      "boundary": "Usage-price estimates, not invoices. All failures retained. No identity labels loaded.",
+      "decision_status_counts": {
+        "failed": 26,
+        "linked": 1072,
+        "nil": 53,
+        "review": 68
+      },
+      "nominal_token_price_usd": "0.119846250",
+      "parsed_result_status_counts": {
+        "failed": 26,
+        "valid": 1193
+      },
+      "provider_model_id_counts": {
+        "gpt-6-luna": 1219
+      },
+      "reserved_usd": "0.963497421875",
+      "terminal_result_count": 1219,
+      "terminal_status": "completed",
+      "unpriced_results": 0
+    },
+    "manifest_sha256": "dd82a77d1d7f48051c03133db62963418f4258d8b3cc4bf0e120546a28721d8e",
+    "predictions_path": "results/product-holdout-v1/selection-decisions.json",
+    "predictions_sha256": "690cf639bbdede87727942cde424ca6b2cb45e1bdc3c3635cf13e6f127d6817d",
+    "query_count": 1219,
+    "sealed_at_utc": "2026-10-08T05:37:56Z",
+    "status": "predictions_sealed",
+    "terminal_result_count": 1219
+  },
+  "seal_file_sha256": "84ff20c4596371fe0bd9c4e89be6c638d717d6558404173368e70bd6d0d8dab6",
+  "status": "verified_before_truth_access"
+}

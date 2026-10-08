@@ -1,6 +1,6 @@
 # Public product linkage: frozen inputs and offline baselines
 
-This experiment asks whether interpreting product text improves linkage over declared conventional comparators without task-specific training labels. It preserves two complete historical source graphs and supports separate recordwise extraction and candidate-controlled selection. Development shows a tradeoff: semantic selection recovers more complete published target sets and adds false links. Recordwise extraction does not pass the continuation gate.
+This experiment asks whether interpreting product text improves linkage over declared conventional comparators without task-specific training labels. It preserves two complete historical source graphs and supports separate recordwise extraction and candidate-controlled selection. Development and the completed amended holdout show a tradeoff: semantic selection recovers more complete published target sets than the fixed primary lexical rule and adds false links. The original continuation gates remain failed; recordwise extraction stays development-only.
 
 | Source | Complete left / right records | Supplied links | Development left / right | Test left / right |
 |---|---:|---:|---:|---:|
@@ -68,6 +68,48 @@ These experiments measure product identity under the stated source policy. They 
 
 [Development results](results/model-development-v1/semantic-primary.json) retain all 144 queries. The fixed lexical rule makes 56 correct complete decisions with eight false links; primary Splink makes 21 with none; extraction plus fresh Splink makes 27 with one; semantic selection makes 112 with 20. Semantic selection also leaves eight queries for review. Both model arms fail the original spending rule. Extraction differences change across the complete fixed prior grid, so its primary gain is not a general representational advantage.
 
-The [explicit amendment](../contracts/product-tradeoff-amendment-v1.json) overrides the spending stop once to characterize the unchanged selector on the reserved 1,219-query partition. It preserves the failed gate, all fixed comparisons and full failure denominator. Prediction sealing precedes outcome scoring. The runtime and evaluator are bound by the request manifest; notebook replay never initiates this paid run.
+The [explicit amendment](../contracts/product-tradeoff-amendment-v1.json) overrode the spending stop once to characterize the unchanged selector on the reserved 1,219-query partition. It preserved the failed gate, all fixed comparisons and full failure denominator. The provider completed all 1,219 requests, and the [complete prediction seal](../results/product-holdout-v1/prediction-seal.json) was written at 2026-10-08 05:37:56 UTC. The frozen evaluator [verified that seal](results/model-evaluation-v1/seal-verification.json) before opening reference identities. The [completion manifest](results/model-evaluation-v1/completion.json) binds the saved result hashes. Notebook replay never initiates a paid run.
+
+<a id="access-chronology"></a>
+On 7 October 2026, after evaluation requests and scoring rules were frozen and the requests submitted, editorial inspection exposed reference-derived counterpart-presence and grouping metadata for two held-out records: one query and one catalog record. Prediction collection and sealing were incomplete. The inspection did not open the test reference-link file or test prediction/outcome files. No prompts, candidates, methods, requests, thresholds or scoring rules changed following this access. This deviated from the intended pre-seal access restriction. All 1,219 predictions were sealed on 8 October before the frozen evaluator read the full outcome labels and scored the complete query set. The [short notebook disclosure](../../../nso-semantic-workflows.ipynb#product-access-chronology) preserves this distinction.
+
+All methods below use the complete 1,219-query denominator across 916 observed source families. A correct complete decision returns the entire published reference set or a valid no-match decision when that set is empty. False and missed links count individual query–catalog edges; a query can contribute several errors.
+
+| Fixed primary method | Correct complete decisions / 1,219 | False links | Missed links | Queries with false assignment | Automatic decisions | Review / failed |
+|---|---:|---:|---:|---:|---:|---:|
+| Lexical, all pairs, threshold 0.65 | 382 (31.3%) | 264 | 788 | 210 | 1,219 | 0 / 0 |
+| Splink, all pairs, primary prior and threshold 0.9 | 275 (22.6%) | 45 | 1,082 | 39 | 1,219 | 0 / 0 |
+| Lexical, same candidates, threshold 0.65 | 382 (31.3%) | 264 | 788 | 210 | 1,219 | 0 / 0 |
+| Splink, same candidates, primary prior and threshold 0.9 | 275 (22.6%) | 45 | 1,082 | 39 | 1,219 | 0 / 0 |
+| Semantic candidate selection | 702 (57.6%) | 508 | 151 | 388 | 1,125 | 68 / 26 |
+
+The lexical all-pairs rule remains the development-selected reference. The selector leaves 94 queries unresolved: 68 reviews and 26 failed responses. Its automatic coverage is 92.3%, with 423 wrong decisions among 1,125 automatic decisions (37.6%). Positive reference links on unresolved queries remain missed; unresolved no-match queries are not correct decisions. Of the 1,219 provider responses, 1,193 met the parsing contract and 26 failed. Valid parsing includes requests for review and does not imply a correct linkage decision.
+
+The [paired comparison](results/model-evaluation-v1/paired-family-uncertainty.json) against that lexical reference shows 320 more correct complete decisions, 244 more false links and 637 fewer missed links. Corresponding differences are +26.3 percentage points (95% interval 22.0 to 30.6), +0.200 false links per query (0.150 to 0.247) and −0.523 missed links per query (−0.565 to −0.481). The saved file reports all seven endpoints for all 64 conventional rules. Its 2,000 paired bootstrap replicates resample the 916 observed source families. Intervals are pointwise and descriptive, with no multiplicity correction or NSO-population interpretation.
+
+The [candidate audit](results/model-evaluation-v1/candidate-audit.json) records 17,943 candidate pairs. Retrieval included 1,137 of 1,155 reference links and every reference target for 971 of 988 matched queries. Including the 231 reference no-match queries, complete reference sets were available for 1,202 of 1,219 queries. No missing target was inserted for scoring.
+
+The reference-cardinality groups expose the no-match errors alongside recovery of single and multiple targets. Every cell reports correct complete decisions over the full group size; the [full subgroup file](results/model-evaluation-v1/subgroup-summaries.json) retains review, failure and edge counts.
+
+| Reference group | Queries | Lexical primary | Splink primary | Selector |
+|---|---:|---:|---:|---:|
+| No supplied target (NIL) | 231 | 152 / 231 | 216 / 231 | 27 / 231 |
+| One supplied target | 859 | 221 / 859 | 58 / 859 | 605 / 859 |
+| Multiple supplied targets | 129 | 9 / 129 | 1 / 129 | 70 / 129 |
+
+The [full fixed-rule summaries](results/model-evaluation-v1/all-fixed-rule-summaries.json) preserve eight lexical and 56 Splink policies plus the selector, with all-pairs and same-candidate scopes separate. No held-out threshold or prior is selected. The [loss grid](results/model-evaluation-v1/descriptive-loss-grid.json) evaluates `lambda × false links + missed links` at the predeclared ratios 0, 0.1, 0.25, 0.5, 1, 2, 5, 10, 20, 50 and 100. These are hypothetical edge-cost ratios; staff time, review costs and ROI were not measured. The edge loss must be read alongside the selector's 63 unresolved positive and 31 unresolved NIL queries, without assuming successful or free review or selecting an operational winner. The [query audit](results/model-evaluation-v1/common-query-outcomes.json) retains every method's decision and outcome.
+
+The [execution audit](results/model-evaluation-v1/primary-summary.json) records `gpt-6-luna` for every returned model identifier. The batch reserved US$0.963497421875 against the amendment's US$0.964 cap. Its nominal token-price estimate is US$0.119846250, with zero unpriced results. This estimate is not an invoice and excludes local compute and labour. The [request ledger](../results/api-ledger.jsonl), [batch plan](../results/product-holdout-v1/batch-plan.json) and [terminal transport payload](../results/product-holdout-v1/batch-plan-evidence/chunk-0000/output.jsonl) retain request and response evidence.
+
+From the repository root, verify and replay the completed evaluation without provider requests:
+
+```bash
+.venv/bin/python LLM_basics/nso-semantic-workflows/adversarial-2026/products/score_evaluation.py \
+  --manifest LLM_basics/nso-semantic-workflows/adversarial-2026/contracts/products-tradeoff-test-v1.json \
+  --seal LLM_basics/nso-semantic-workflows/adversarial-2026/results/product-holdout-v1/prediction-seal.json \
+  --score-sealed
+```
+
+With the saved completion manifest present, this checks the bound inputs and output hashes and replays the completed summary. Omitting `--score-sealed` verifies the seal only, without parsing reference labels. Different evidence stops replay. The amendment ends after this one run; it does not authorize another sample or a revived extraction arm.
 
 The independent [Abt–Buy conventional reference](results/free-abt-reference-v1/reference-summary.md) has 1,081 queries in 459 source families. The primary lexical rule makes 341 correct complete sets with 13 false links; primary Splink makes 310 with 455. All rules, same-candidate comparisons and family intervals are retained. No semantic model ran on Abt–Buy.

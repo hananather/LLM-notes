@@ -1,0 +1,10 @@
+{
+  "boundary": "No true target is inserted; every candidate miss remains in end-to-end denominators.",
+  "candidate_pairs": 17943,
+  "matched_queries": 988,
+  "matched_queries_with_all_reference_targets_retrieved": 971,
+  "queries": 1219,
+  "queries_with_all_reference_targets_retrieved": 1202,
+  "reference_edges": 1155,
+  "reference_edges_retrieved": 1137
+}

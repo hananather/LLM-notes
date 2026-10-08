@@ -1,0 +1,2563 @@
+{
+  "schema_version": 1,
+  "selection_notice": "Deliberately selected teaching illustrations from saved results, not a representative sample or performance estimate. Full evaluation denominators and outcomes are reported in Section 9.",
+  "inventory": [
+    {
+      "Dataset": "ABO grocery images → native catalog",
+      "What we prepared": "96 development images/catalog rows; 80 development queries compared. 1,000 holdout images with 1,000 catalog rows per view.",
+      "Observed fields": "Query: prepared image and opaque record_id. Catalog: title, brand, bullet_points, model_number.",
+      "Reference / status": "Originating item/domain association. Development conventional and model decisions saved; holdout conventional only."
+    },
+    {
+      "Dataset": "Amazon–GoogleProducts",
+      "What we prepared": "1,363 Amazon + 3,226 Google rows; 1,300 published links. Development: 144 × 352; holdout: 1,219 × 2,874.",
+      "Observed fields": "record_id, name, description, manufacturer, price",
+      "Reference / status": "Published product links. Gallery uses saved development decisions only."
+    },
+    {
+      "Dataset": "Abt–Buy",
+      "What we prepared": "1,081 Abt + 1,092 Buy rows; 1,097 published links.",
+      "Observed fields": "Same five-field product schema; absent manufacturer is an empty string.",
+      "Reference / status": "Published product links; conventional evaluation saved. No semantic-model run."
+    },
+    {
+      "Dataset": "AffilGood CORDIS → ROR",
+      "What we prepared": "3,329 source rows; 108,476 registry rows. 109 development, 1,065 evaluation and 2,155 unscored remainder queries.",
+      "Observed fields": "Source: ORG, CITY, COUNTRY. Registry: name, labels, aliases, acronyms, cities, country, status.",
+      "Reference / status": "Historical research-organization identity in ROR v1.41 (2024-02-13). Conventional evaluation saved; semantic model unrun."
+    },
+    {
+      "Dataset": "Native AffilGood affiliation strings",
+      "What we prepared": "1,104 rows: 614 French, 322 multilingual, 168 multi-organization; 1,081 distinct strings.",
+      "Observed fields": "raw_affiliation_string, source_population, query_id",
+      "Reference / status": "Published organization target sets. Prepared; selection and evaluation unrun."
+    },
+    {
+      "Dataset": "Synthetic source-fact document controls",
+      "What we prepared": "80 observed source records (16 development + 64 test) × four views = 320 images.",
+      "Observed fields": "Source name, manufacturer and price; layout/blur/rotation views; price-only missing-identity view; saved OCR.",
+      "Reference / status": "Controlled source association. Prepared and OCR-run; model and linkage evaluation unrun."
+    }
+  ],
+  "products": {
+    "datasets": {
+      "amazon-google": {
+        "name": "Amazon–GoogleProducts",
+        "source_zip": "Amazon-GoogleProducts.zip",
+        "left_name": "Amazon",
+        "right_name": "GoogleProducts",
+        "left_source_file": "Amazon.csv",
+        "right_source_file": "GoogleProducts.csv",
+        "left_original_fields": [
+          "id",
+          "title",
+          "description",
+          "manufacturer",
+          "price"
+        ],
+        "right_original_fields": [
+          "id",
+          "name",
+          "description",
+          "manufacturer",
+          "price"
+        ],
+        "left_rows": 1363,
+        "right_rows": 3226,
+        "published_links": 1300,
+        "source_url": "https://dbs.uni-leipzig.de/files/datasets/Amazon-GoogleProducts.zip",
+        "source_archive_provenance": {
+          "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/sources/Amazon-GoogleProducts.zip",
+          "sha256": "fcd72e223d51ce5b0d6b1d68034a438ba95cf2940431e209a57910b067cc4811"
+        },
+        "prepared_files": {
+          "records": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/data/amazon-google/v2/records.json",
+            "sha256": "348231e9bf0ec59acf9a13e65e74c5cb1d1e80344c7b9a897c8469d17ba93a5c"
+          },
+          "partitions": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/data/amazon-google/v2/partitions.json",
+            "sha256": "65112f0240dd25ca9e23c4e1655bd18c1d9f9cb6e6b63dd685f9f9cc8632fab8"
+          }
+        },
+        "prepared_columns": [
+          "record_id",
+          "name",
+          "description",
+          "manufacturer",
+          "price"
+        ],
+        "prepared_dimensions": {
+          "dev": {
+            "left": [
+              144,
+              5
+            ],
+            "right": [
+              352,
+              5
+            ]
+          },
+          "test": {
+            "left": [
+              1219,
+              5
+            ],
+            "right": [
+              2874,
+              5
+            ]
+          }
+        },
+        "curation_note": "Public source rows were curated into a shared schema with opaque IDs and separate split membership; the source products were not synthetically authored.",
+        "schema_note": "Amazon title becomes name. Missing Abt manufacturer is the empty string in the shared input schema. Source IDs were replaced with opaque record_id values; this showcase uses exact experiment input IDs and source-file hashes, without importing original publisher IDs.",
+        "licence": "CC BY 4.0, as recorded in SOURCE-NOTICES.md; credit Leipzig University Database Group and Köpcke, Thor and Rahm (PVLDB 2010).",
+        "observed_record_strings": "Exact values copied from current v2 records.json; no cleaning or fabrication was applied for illustration."
+      },
+      "abt-buy": {
+        "name": "Abt–Buy",
+        "source_zip": "Abt-Buy.zip",
+        "left_name": "Abt",
+        "right_name": "Buy",
+        "left_source_file": "Abt.csv",
+        "right_source_file": "Buy.csv",
+        "left_original_fields": [
+          "id",
+          "name",
+          "description",
+          "price"
+        ],
+        "right_original_fields": [
+          "id",
+          "name",
+          "description",
+          "manufacturer",
+          "price"
+        ],
+        "left_rows": 1081,
+        "right_rows": 1092,
+        "published_links": 1097,
+        "source_url": "https://dbs.uni-leipzig.de/files/datasets/Abt-Buy.zip",
+        "source_archive_provenance": {
+          "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/sources/Abt-Buy.zip",
+          "sha256": "b9ff2937d97371b7a00b0a97033213bfbdee24e8f1a0718a41ea8364472a8ff8"
+        },
+        "prepared_files": {
+          "records": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/data/abt-buy/v2/records.json",
+            "sha256": "015db54ff8bc27cd77ea9e34dc79fd56a5ec4c8257ef778b0a6af805f96a0b26"
+          },
+          "partitions": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/data/abt-buy/v2/partitions.json",
+            "sha256": "21bd9adf63397cbe6289ea690e9d704fc6cc312a4114e9dc49cfc0cef2694769"
+          }
+        },
+        "prepared_columns": [
+          "record_id",
+          "name",
+          "description",
+          "manufacturer",
+          "price"
+        ],
+        "prepared_dimensions": {
+          "dev": {
+            "left": [
+              0,
+              5
+            ],
+            "right": [
+              0,
+              5
+            ]
+          },
+          "test": {
+            "left": [
+              1081,
+              5
+            ],
+            "right": [
+              1092,
+              5
+            ]
+          }
+        },
+        "curation_note": "Public source rows were curated into a shared schema with opaque IDs and separate split membership; the source products were not synthetically authored.",
+        "schema_note": "Amazon title becomes name. Missing Abt manufacturer is the empty string in the shared input schema. Source IDs were replaced with opaque record_id values; this showcase uses exact experiment input IDs and source-file hashes, without importing original publisher IDs.",
+        "licence": "CC BY 4.0, as recorded in SOURCE-NOTICES.md; credit Leipzig University Database Group and Köpcke, Thor and Rahm (PVLDB 2010).",
+        "observed_record_strings": "Exact values copied from current v2 records.json; no cleaning or fabrication was applied for illustration."
+      }
+    },
+    "cases": [
+      {
+        "id": "product-quake-dev",
+        "dataset": "amazon-google",
+        "split": "dev",
+        "query_id": "p_0554b53d07653d0b86479efd",
+        "title": "One game, two ways to write its name",
+        "caption": "Amazon calls the game “quake 4 (mac)”; Google calls it “aspyr quake iv”. The Google description specifies Mac OS X, while the Amazon manufacturer is “aspyr media”. The saved semantic selector returns the publisher’s link. The primary lexical and Splink rules return no link for this query.",
+        "left_record": {
+          "description": "quake 4 takes you back to the front as you fight against an unrelenting alien enemy. armed with advanced weaponry and vehicles and aided by an elite squad of marines you take the battle to the heart of the strogg home planet and become earth's only hope for victory. they're regrouping but with their planetary defenses ruined you have a chance to deliver a full and final assault. you are matthew kane an elite member of rhino squad and part of earth's next invasion wave. with the makron assumed dead your squad is taking part in an operation to take advantage of the disarray and mop up the rest of the enemy forces on the strogg planet. but your drop ship gets hit and comes down hard killing a large chunk of your squadmates at the opening of the game. from there you'll pull yourself up out of the muck and get down to business.",
+          "manufacturer": "aspyr media",
+          "name": "quake 4 (mac)",
+          "price": "39.99",
+          "record_id": "p_0554b53d07653d0b86479efd"
+        },
+        "right_records": [
+          {
+            "description": "system requirements: operating system: mac os x 10.3.9 or later cpu processor: powerpc g4/g5 or intel chipset cpu speed: 1.67 ghz or faster memory: 512 mb or higher hard disk space: 3.0 gb free disk space video card (ati): radeon 9600 video card ( ...",
+            "manufacturer": "",
+            "name": "aspyr quake iv",
+            "price": "45.99",
+            "record_id": "p_572e8a7878b3ba5f6ea89480"
+          }
+        ],
+        "reference_target_ids": [
+          "p_572e8a7878b3ba5f6ea89480"
+        ],
+        "reference_relation": "publisher supplied product links",
+        "observed_methods": {
+          "lexical_all_pairs": {
+            "decision": {
+              "status": "nil",
+              "target_ids": []
+            },
+            "outcome": {
+              "automatic": true,
+              "correct": false,
+              "false_assignment": false,
+              "false_links": 0,
+              "false_nil": true,
+              "linked_on_nil": false,
+              "missed_links": 1,
+              "query_id": "p_0554b53d07653d0b86479efd",
+              "status": "nil",
+              "true_links": 0,
+              "true_nil": false
+            }
+          },
+          "splink_all_pairs": {
+            "decision": {
+              "status": "nil",
+              "target_ids": []
+            },
+            "outcome": {
+              "automatic": true,
+              "correct": false,
+              "false_assignment": false,
+              "false_links": 0,
+              "false_nil": true,
+              "linked_on_nil": false,
+              "missed_links": 1,
+              "query_id": "p_0554b53d07653d0b86479efd",
+              "status": "nil",
+              "true_links": 0,
+              "true_nil": false
+            }
+          },
+          "semantic_selection": {
+            "decision": {
+              "status": "linked",
+              "target_ids": [
+                "p_572e8a7878b3ba5f6ea89480"
+              ]
+            },
+            "outcome": {
+              "automatic": true,
+              "correct": true,
+              "false_assignment": false,
+              "false_links": 0,
+              "false_nil": false,
+              "linked_on_nil": false,
+              "missed_links": 0,
+              "query_id": "p_0554b53d07653d0b86479efd",
+              "status": "linked",
+              "true_links": 1,
+              "true_nil": false
+            }
+          }
+        },
+        "candidate_count": 18,
+        "displayed_right_candidate_ranks": {
+          "p_572e8a7878b3ba5f6ea89480": 1
+        },
+        "provenance": {
+          "records": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/data/amazon-google/v2/records.json",
+            "sha256": "348231e9bf0ec59acf9a13e65e74c5cb1d1e80344c7b9a897c8469d17ba93a5c"
+          },
+          "partitions": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/data/amazon-google/v2/partitions.json",
+            "sha256": "65112f0240dd25ca9e23c4e1655bd18c1d9f9cb6e6b63dd685f9f9cc8632fab8"
+          },
+          "common_query_outcomes": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/model-development-v1/common-query-outcomes.json",
+            "sha256": "a9fc3f44171432eba8776c96dd9654ddb59492aa845106aee71a536425fbfa68"
+          },
+          "completion": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/model-development-v1/completion.json",
+            "sha256": "bd7f0182cffb9966fb2031d1d7e3796d2e95e880f57739ad1d16181b67dae97e"
+          },
+          "candidates": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/baseline-v6/amazon-google/dev/candidates.json",
+            "sha256": "db7c328ae498e3fd609a19087038735f748403b861dafb36bbd28e04875c8182"
+          },
+          "selection_decisions": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/model-development-v1/selection-decisions.json",
+            "sha256": "68089dadc661d8faa34ae8dbe14d1d9f5faf4448a2cdcd0059749c19789272eb"
+          }
+        },
+        "recommended_exact_excerpts": [
+          {
+            "record_id": "p_572e8a7878b3ba5f6ea89480",
+            "field": "description",
+            "start": 0,
+            "end": 63,
+            "text": "system requirements: operating system: mac os x 10.3.9 or later"
+          }
+        ]
+      },
+      {
+        "id": "product-adobe-nil-dev",
+        "dataset": "amazon-google",
+        "split": "dev",
+        "query_id": "p_0077280814d1132fe69441ce",
+        "title": "A plausible link that the reference does not contain",
+        "caption": "The selector links these Adobe Encore DVD 2.0 listings. The published mapping gives the Amazon record no counterpart, so this is counted as a false link; the primary lexical and Splink rules return no link. The similar names make the evidence boundary visible: publisher NIL means no supplied counterpart, not independently proven physical nonidentity.",
+        "left_record": {
+          "description": "adobe encoredvd 2.0 reflects your best work on the very best dvds. packed with a rich set of creative tools you'll design and produce striking dvd titles for film business training and special events. its unmatched photoshop integration and intelligent workflow make encoredvd 2.0 the right choice for easy production of full-featured menu-driven dvds. add chapter points to let viewers skip content at certain intervals pick whip for convenient setting assignment use the library panel to organize text layers vector shapes background layers layer sets buttons images and menu templates slide show transitions with audio and panning & zooming effects type and format subtitles directly over video or import & format a scrpt containing multiple subtitles total menu control - specify the number of times a menu should loop or set it to time out & navigate to another part of the disc create your own dvd menu routing for arrow keys or a remote control add up to 99 separate timelines each with up to 99 chapter points 8 audio streams and 32 subtitle streams layers panel lets users access all layers of an imported photoshop panel external video monitor preview automatic conversion of mpeg-2 video and dolby digital audio; manually adjust settings to optimize dvd compression integrates with adobe after effects and premiere pro closed-captioning support support for dual layer discs",
+          "manufacturer": "adobe",
+          "name": "adobe encore dvd 2.0",
+          "price": "349",
+          "record_id": "p_0077280814d1132fe69441ce"
+        },
+        "right_records": [
+          {
+            "description": "adobe systems 22030094 : usually ships in 24 hours : : adobe encore dvd software takes dvd authoring to a new level of creativity and efficiency.",
+            "manufacturer": "",
+            "name": "22030094 adobe encore dvd - ( v. 2.0 ) - complete package - 1 user - dvd - win - universa",
+            "price": "377.61",
+            "record_id": "p_19c28577014f099d381b5794"
+          }
+        ],
+        "reference_target_ids": [],
+        "reference_relation": "publisher NIL (empty supplied target set)",
+        "observed_methods": {
+          "lexical_all_pairs": {
+            "decision": {
+              "status": "nil",
+              "target_ids": []
+            },
+            "outcome": {
+              "automatic": true,
+              "correct": true,
+              "false_assignment": false,
+              "false_links": 0,
+              "false_nil": false,
+              "linked_on_nil": false,
+              "missed_links": 0,
+              "query_id": "p_0077280814d1132fe69441ce",
+              "status": "nil",
+              "true_links": 0,
+              "true_nil": true
+            }
+          },
+          "splink_all_pairs": {
+            "decision": {
+              "status": "nil",
+              "target_ids": []
+            },
+            "outcome": {
+              "automatic": true,
+              "correct": true,
+              "false_assignment": false,
+              "false_links": 0,
+              "false_nil": false,
+              "linked_on_nil": false,
+              "missed_links": 0,
+              "query_id": "p_0077280814d1132fe69441ce",
+              "status": "nil",
+              "true_links": 0,
+              "true_nil": true
+            }
+          },
+          "semantic_selection": {
+            "decision": {
+              "status": "linked",
+              "target_ids": [
+                "p_19c28577014f099d381b5794"
+              ]
+            },
+            "outcome": {
+              "automatic": true,
+              "correct": false,
+              "false_assignment": true,
+              "false_links": 1,
+              "false_nil": false,
+              "linked_on_nil": true,
+              "missed_links": 0,
+              "query_id": "p_0077280814d1132fe69441ce",
+              "status": "linked",
+              "true_links": 0,
+              "true_nil": true
+            }
+          }
+        },
+        "candidate_count": 16,
+        "displayed_right_candidate_ranks": {
+          "p_19c28577014f099d381b5794": 1
+        },
+        "provenance": {
+          "records": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/data/amazon-google/v2/records.json",
+            "sha256": "348231e9bf0ec59acf9a13e65e74c5cb1d1e80344c7b9a897c8469d17ba93a5c"
+          },
+          "partitions": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/data/amazon-google/v2/partitions.json",
+            "sha256": "65112f0240dd25ca9e23c4e1655bd18c1d9f9cb6e6b63dd685f9f9cc8632fab8"
+          },
+          "common_query_outcomes": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/model-development-v1/common-query-outcomes.json",
+            "sha256": "a9fc3f44171432eba8776c96dd9654ddb59492aa845106aee71a536425fbfa68"
+          },
+          "completion": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/model-development-v1/completion.json",
+            "sha256": "bd7f0182cffb9966fb2031d1d7e3796d2e95e880f57739ad1d16181b67dae97e"
+          },
+          "candidates": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/baseline-v6/amazon-google/dev/candidates.json",
+            "sha256": "db7c328ae498e3fd609a19087038735f748403b861dafb36bbd28e04875c8182"
+          },
+          "selection_decisions": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/model-development-v1/selection-decisions.json",
+            "sha256": "68089dadc661d8faa34ae8dbe14d1d9f5faf4448a2cdcd0059749c19789272eb"
+          }
+        },
+        "recommended_exact_excerpts": [
+          {
+            "record_id": "p_19c28577014f099d381b5794",
+            "field": "description",
+            "start": 55,
+            "end": 145,
+            "text": "adobe encore dvd software takes dvd authoring to a new level of creativity and efficiency."
+          }
+        ]
+      },
+      {
+        "id": "product-canon-abt",
+        "dataset": "abt-buy",
+        "split": "test",
+        "query_id": "p_d225abd28c44351a78f0ab54",
+        "title": "Silver or black: conflicting fields in a product record",
+        "caption": "The Abt title and finish say silver. The publisher links it to Buy’s silver camera, but both primary conventional rules select Buy’s black camera. The source description also contains “2756B003”, the model code shown in the black listing. Showing the conflicting fields preserves the actual linkage problem. No semantic model was run on Abt–Buy.",
+        "left_record": {
+          "description": "Canon EOS Rebel XSi Silver Digital SLR Camera - XSIREB1855S/ 12.2 Megapixel/ DIGIC III Image Processor/ Extensive Noise Reduction Technology/ Auto Optimization/ 3.0' LCD Monitor/ Compatible With Compact SD And SDHC Memory Cards/ EOS Integrated Cleaning System/ 18-55MM Lens Included/ 2756B003/ Silver Finish",
+          "manufacturer": "",
+          "name": "Canon EOS Rebel XSi Silver Digital SLR Camera - XSIREB1855S",
+          "price": "$799.00",
+          "record_id": "p_d225abd28c44351a78f0ab54"
+        },
+        "right_records": [
+          {
+            "description": "Canon EOS Rebel XSi 12 Megapixel Digital SLR Camera with 18-55mm IS Lens - Silver",
+            "manufacturer": "Canon",
+            "name": "Canon EOS Rebel XSi Digital SLR Camera with EF-S 18-55mm f/3.5-5.6 IS Lens - Silver - 2757B003",
+            "price": "$649.88",
+            "record_id": "p_bd4a13c9c7b303bed3d7cf32"
+          },
+          {
+            "description": "Canon EOS Rebel XSi 12 Megapixel Digital SLR Camera with 18-55mm IS Lens - Black",
+            "manufacturer": "Canon",
+            "name": "Canon EOS Rebel XSi Digital SLR Camera with EF-S 18-55mm f/3.5-5.6 IS Lens - Black - 2756B003",
+            "price": "$649.88",
+            "record_id": "p_e6757f6a6fe437e478841325"
+          }
+        ],
+        "reference_target_ids": [
+          "p_bd4a13c9c7b303bed3d7cf32"
+        ],
+        "reference_relation": "publisher supplied product links",
+        "observed_methods": {
+          "lexical/threshold=0.65/all_pairs": {
+            "decision": {
+              "status": "linked",
+              "target_ids": [
+                "p_e6757f6a6fe437e478841325"
+              ]
+            },
+            "outcome": {
+              "automatic": true,
+              "correct": false,
+              "false_assignment": true,
+              "false_links": 1,
+              "false_nil": false,
+              "linked_on_nil": false,
+              "missed_links": 1,
+              "query_id": "p_d225abd28c44351a78f0ab54",
+              "status": "linked",
+              "true_links": 0,
+              "true_nil": false
+            }
+          },
+          "splink/assumed_recall=0.8;threshold=0.9/all_pairs": {
+            "decision": {
+              "status": "linked",
+              "target_ids": [
+                "p_e6757f6a6fe437e478841325"
+              ]
+            },
+            "outcome": {
+              "automatic": true,
+              "correct": false,
+              "false_assignment": true,
+              "false_links": 1,
+              "false_nil": false,
+              "linked_on_nil": false,
+              "missed_links": 1,
+              "query_id": "p_d225abd28c44351a78f0ab54",
+              "status": "linked",
+              "true_links": 0,
+              "true_nil": false
+            }
+          }
+        },
+        "candidate_count": 15,
+        "displayed_right_candidate_ranks": {
+          "p_bd4a13c9c7b303bed3d7cf32": 3,
+          "p_e6757f6a6fe437e478841325": 1
+        },
+        "provenance": {
+          "records": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/data/abt-buy/v2/records.json",
+            "sha256": "015db54ff8bc27cd77ea9e34dc79fd56a5ec4c8257ef778b0a6af805f96a0b26"
+          },
+          "partitions": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/data/abt-buy/v2/partitions.json",
+            "sha256": "21bd9adf63397cbe6289ea690e9d704fc6cc312a4114e9dc49cfc0cef2694769"
+          },
+          "common_query_outcomes": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/free-abt-reference-v1/common-query-outcomes.json",
+            "sha256": "b93b8975f9163dc8a09a7a580945d1053a1598bc18c520083e5115a15aef3949"
+          },
+          "completion": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/free-abt-reference-v1/completion.json",
+            "sha256": "bca717cf2f90f2a2774733df0c41aa0a5eefcbe945c5c1c87dc9e6437b5c85d5"
+          },
+          "candidates": {
+            "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/baseline-v6/abt-buy/test/candidates.json",
+            "sha256": "1c68bf47ec319462e6dfba19e107aece6d98c3b83c1ac4b69fef17f0a2451fc2"
+          }
+        },
+        "recommended_exact_excerpts": [
+          {
+            "record_id": "p_d225abd28c44351a78f0ab54",
+            "field": "description",
+            "start": 261,
+            "end": 307,
+            "text": "18-55MM Lens Included/ 2756B003/ Silver Finish"
+          }
+        ]
+      }
+    ]
+  },
+  "images": {
+    "cases": [
+      {
+        "query_id": "q_552df6bae11e5a2914fa",
+        "title": "Clear package text reaches the correct catalog row",
+        "teaching_role": "success",
+        "split": "dev",
+        "comparison_denominator": 80,
+        "catalog_size": 96,
+        "caption": "The package name and 9 oz quantity survive OCR. All seven saved development pipelines select the originating catalog row.",
+        "source": {
+          "catalog_id": "c_62e52a3b44503891f656",
+          "domain_name": "primenow.amazon.com",
+          "family_id": "f_8703bba295a5dc02c96c",
+          "image_cache_key": "prepared/q_552df6bae11e5a2914fa.jpg",
+          "image_id": "716iJiEoZwL",
+          "image_path": "01/01efd394.jpg",
+          "input_ambiguous_family": false,
+          "item_id": "B08331CLYK",
+          "original_cache_key": "original/q_552df6bae11e5a2914fa.jpg",
+          "original_url": "https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/images/original/01/01efd394.jpg",
+          "record_id": "q_552df6bae11e5a2914fa",
+          "source_height": 1500,
+          "source_width": 1173,
+          "split": "dev"
+        },
+        "reference": {
+          "catalog_id": "c_62e52a3b44503891f656",
+          "family_id": "f_8703bba295a5dc02c96c",
+          "input_ambiguous_family": false,
+          "query_id": "q_552df6bae11e5a2914fa"
+        },
+        "ocr": {
+          "exact_excerpt": "Artichoke Stuffed\nCrimini Mushrooms\nNET WT. 9 OZ (255 g)",
+          "excerpt_is_contiguous": true,
+          "full_character_count": 327,
+          "saved_file": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/results/ocr-dev80.jsonl",
+          "status": "ok"
+        },
+        "model_ocr_extraction": {
+          "fields": {
+            "barcode": null,
+            "brand": null,
+            "evidence_text": "Artichoke Stuffed Crimini Mushrooms; NET WT. 9 OZ (255 g)",
+            "model_number": null,
+            "net_quantity_unit": "oz",
+            "net_quantity_value": 9,
+            "pack_count": null,
+            "product_name": "Artichoke Stuffed Crimini Mushrooms",
+            "variant": null
+          },
+          "record_id": "q_552df6bae11e5a2914fa",
+          "status": "ok"
+        },
+        "model_pixel_extraction": {
+          "fields": {
+            "barcode": null,
+            "brand": "fresh",
+            "evidence_text": "fresh; Artichoke Stuffed Crimini Mushrooms; NET WT. 9 OZ (255 g)",
+            "model_number": null,
+            "net_quantity_unit": "oz",
+            "net_quantity_value": 9,
+            "pack_count": null,
+            "product_name": "Artichoke Stuffed Crimini Mushrooms",
+            "variant": null
+          },
+          "record_id": "q_552df6bae11e5a2914fa",
+          "status": "ok"
+        },
+        "catalog_rows": [
+          {
+            "role": "reference",
+            "source_identity": {
+              "domain_name": "primenow.amazon.com",
+              "family_id": "f_8703bba295a5dc02c96c",
+              "item_id": "B08331CLYK",
+              "record_id": "c_62e52a3b44503891f656"
+            },
+            "brand": "Fresh",
+            "bullet_points": [
+              "9-ounce tray of artichoke stuffed crimini mushrooms",
+              "Ready to cook",
+              "Great for a quick side dish or appetizer",
+              "Our Fresh brand products are all about high-quality food that fits every budget, every day."
+            ],
+            "catalog_text": "Fresh Brand – Artichoke Stuffed Crimini Mushrooms, 9 oz\nBrand: Fresh\n9-ounce tray of artichoke stuffed crimini mushrooms\nReady to cook\nGreat for a quick side dish or appetizer\nOur Fresh brand products are all about high-quality food that fits every budget, every day.",
+            "model_number": null,
+            "record_id": "c_62e52a3b44503891f656",
+            "title": "Fresh Brand – Artichoke Stuffed Crimini Mushrooms, 9 oz"
+          }
+        ],
+        "decisions": [
+          {
+            "method": "ocr_lexical",
+            "status": "linked",
+            "target_ids": [
+              "c_62e52a3b44503891f656"
+            ],
+            "correct_complete_decision": true,
+            "selected_titles": [
+              "Fresh Brand – Artichoke Stuffed Crimini Mushrooms, 9 oz"
+            ]
+          },
+          {
+            "method": "ocr_splink",
+            "status": "linked",
+            "target_ids": [
+              "c_62e52a3b44503891f656"
+            ],
+            "correct_complete_decision": true,
+            "selected_titles": [
+              "Fresh Brand – Artichoke Stuffed Crimini Mushrooms, 9 oz"
+            ]
+          },
+          {
+            "method": "clip",
+            "status": "linked",
+            "target_ids": [
+              "c_62e52a3b44503891f656"
+            ],
+            "correct_complete_decision": true,
+            "selected_titles": [
+              "Fresh Brand – Artichoke Stuffed Crimini Mushrooms, 9 oz"
+            ]
+          },
+          {
+            "method": "luna_ocr_lexical",
+            "status": "linked",
+            "target_ids": [
+              "c_62e52a3b44503891f656"
+            ],
+            "correct_complete_decision": true,
+            "selected_titles": [
+              "Fresh Brand – Artichoke Stuffed Crimini Mushrooms, 9 oz"
+            ]
+          },
+          {
+            "method": "luna_ocr_splink",
+            "status": "linked",
+            "target_ids": [
+              "c_62e52a3b44503891f656"
+            ],
+            "correct_complete_decision": true,
+            "selected_titles": [
+              "Fresh Brand – Artichoke Stuffed Crimini Mushrooms, 9 oz"
+            ]
+          },
+          {
+            "method": "luna_pixel_lexical",
+            "status": "linked",
+            "target_ids": [
+              "c_62e52a3b44503891f656"
+            ],
+            "correct_complete_decision": true,
+            "selected_titles": [
+              "Fresh Brand – Artichoke Stuffed Crimini Mushrooms, 9 oz"
+            ]
+          },
+          {
+            "method": "luna_pixel_splink",
+            "status": "linked",
+            "target_ids": [
+              "c_62e52a3b44503891f656"
+            ],
+            "correct_complete_decision": true,
+            "selected_titles": [
+              "Fresh Brand – Artichoke Stuffed Crimini Mushrooms, 9 oz"
+            ]
+          }
+        ],
+        "asset": {
+          "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/abo-artichoke-mushrooms-dev.jpg",
+          "sha256": "b1dcb7e36434bdc5c342a32d936df3e419486509bac24046894430549c83b030",
+          "bytes": 384185,
+          "kind": "curated_public_package_image",
+          "dataset": "Amazon Berkeley Objects (ABO)",
+          "publisher": "Amazon",
+          "split": "dev",
+          "query_record_id": "q_552df6bae11e5a2914fa",
+          "reference_catalog_id": "c_62e52a3b44503891f656",
+          "source_item_id": "B08331CLYK",
+          "source_domain": "primenow.amazon.com",
+          "source_image_id": "716iJiEoZwL",
+          "original_source_url": "https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/images/original/01/01efd394.jpg",
+          "original_source_sha256": "d9e0b03ec8fb8ae8ec188eb950afa3067eec51feab5f90b41b6ddd2e83524087",
+          "portable_cache_key": "prepared/q_552df6bae11e5a2914fa.jpg",
+          "input_manifest": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/data/input-manifest.jsonl",
+          "source_map": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/evaluator/source-map.jsonl",
+          "source_urls": [
+            "https://registry.opendata.aws/amazon-berkeley-objects/",
+            "https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/README.md"
+          ],
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "changes": "Existing evaluation preparation: EXIF transpose, RGB conversion, bounded downsize, JPEG quality 95. This gallery copies the prepared bytes unchanged. Original photograph was not generated by this study."
+        }
+      },
+      {
+        "query_id": "q_c81cc1b200047efe130d",
+        "title": "Visible package text is lost by OCR",
+        "teaching_role": "ocr-versus-pixels",
+        "split": "dev",
+        "comparison_denominator": 80,
+        "catalog_size": 96,
+        "caption": "The rotated Vedaka branding is visible in the image, but the saved OCR is mostly noise. Ordinary OCR matchers choose a brownie-cookie row. The model given OCR text sends the case to review; the model given pixels extracts Vedaka and Rice and links the source target. CLIP also links the target.",
+        "source": {
+          "catalog_id": "c_cb41202c6ba5f7b314e8",
+          "domain_name": "amazon.in",
+          "family_id": "f_9f39bddec9d8b2596502",
+          "image_cache_key": "prepared/q_c81cc1b200047efe130d.jpg",
+          "image_id": "715I+gzOAtL",
+          "image_path": "bd/bdcf404f.jpg",
+          "input_ambiguous_family": false,
+          "item_id": "B079T3MD7G",
+          "original_cache_key": "original/q_c81cc1b200047efe130d.jpg",
+          "original_url": "https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/images/original/bd/bdcf404f.jpg",
+          "record_id": "q_c81cc1b200047efe130d",
+          "source_height": 1500,
+          "source_width": 1500,
+          "split": "dev"
+        },
+        "reference": {
+          "catalog_id": "c_cb41202c6ba5f7b314e8",
+          "family_id": "f_9f39bddec9d8b2596502",
+          "input_ambiguous_family": false,
+          "query_id": "q_c81cc1b200047efe130d"
+        },
+        "ocr": {
+          "exact_excerpt": "ki\ni$\nee\nanaes.\nHi,\nay\nj\nit\niit\n‘O",
+          "excerpt_is_contiguous": true,
+          "full_character_count": 792,
+          "saved_file": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/results/ocr-dev80.jsonl",
+          "status": "ok"
+        },
+        "model_ocr_extraction": {
+          "fields": {
+            "barcode": null,
+            "brand": null,
+            "evidence_text": "",
+            "model_number": null,
+            "net_quantity_unit": null,
+            "net_quantity_value": null,
+            "pack_count": null,
+            "product_name": null,
+            "variant": null
+          },
+          "record_id": "q_c81cc1b200047efe130d",
+          "status": "ok"
+        },
+        "model_pixel_extraction": {
+          "fields": {
+            "barcode": null,
+            "brand": "Vedaka",
+            "evidence_text": "Vedaka Rice; HYGIENICALLY PACKED • NATURAL",
+            "model_number": null,
+            "net_quantity_unit": null,
+            "net_quantity_value": null,
+            "pack_count": null,
+            "product_name": "Rice",
+            "variant": null
+          },
+          "record_id": "q_c81cc1b200047efe130d",
+          "status": "ok"
+        },
+        "catalog_rows": [
+          {
+            "role": "selected alternative",
+            "source_identity": {
+              "domain_name": "amazon.com",
+              "family_id": "f_6b8e1975a45bb853e5e2",
+              "item_id": "B083B5LZNP",
+              "record_id": "c_5c09f18b5927304d2902"
+            },
+            "brand": "365 by Whole Foods Market",
+            "bullet_points": [
+              "Brought to you by Whole Foods Market.  The packaging for this product has a fresh new look. During this transition, you may get the original packaging or the new packaging in your order, but the product and quality is staying exactly the same. Enjoy!",
+              "These cookies are crazy thin, shatteringly crispy and chocolatey for days. In fact, their chocolatey-ness lingers in your dreams way longer than the actual cookies, which will be gone in a heartbeat.",
+              "While they’re here, dunk them in frosting or melted chocolate.",
+              "Vegetarian",
+              "Certified Kosher"
+            ],
+            "catalog_text": "365 by Whole Foods Market, Cookie Thins, Brownie, 7 Ounce\nBrand: 365 by Whole Foods Market\nModel: 0099482494704\nBrought to you by Whole Foods Market.  The packaging for this product has a fresh new look. During this transition, you may get the original packaging or the new packaging in your order, but the product and quality is staying exactly the same. Enjoy!\nThese cookies are crazy thin, shatteringly crispy and chocolatey for days. In fact, their chocolatey-ness lingers in your dreams way longer than the actual cookies, which will be gone in a heartbeat.\nWhile they’re here, dunk them in frosting or melted chocolate.\nVegetarian\nCertified Kosher",
+            "model_number": "0099482494704",
+            "record_id": "c_5c09f18b5927304d2902",
+            "title": "365 by Whole Foods Market, Cookie Thins, Brownie, 7 Ounce"
+          },
+          {
+            "role": "reference",
+            "source_identity": {
+              "domain_name": "amazon.in",
+              "family_id": "f_9f39bddec9d8b2596502",
+              "item_id": "B079T3MD7G",
+              "record_id": "c_cb41202c6ba5f7b314e8"
+            },
+            "brand": "Vedaka",
+            "bullet_points": [
+              "Net weight: 5 kg",
+              "Ponni raw rice",
+              "Processed and graded from aged paddy",
+              "Hygienically packed in facility meeting food safety standards",
+              "Consistency in quality across the year",
+              "Ideal for daily use"
+            ],
+            "catalog_text": "Amazon Brand - Vedaka Ponni Rice, Raw, 5kg\nBrand: Vedaka\nNet weight: 5 kg\nPonni raw rice\nProcessed and graded from aged paddy\nHygienically packed in facility meeting food safety standards\nConsistency in quality across the year\nIdeal for daily use",
+            "model_number": null,
+            "record_id": "c_cb41202c6ba5f7b314e8",
+            "title": "Amazon Brand - Vedaka Ponni Rice, Raw, 5kg"
+          }
+        ],
+        "decisions": [
+          {
+            "method": "ocr_lexical",
+            "status": "linked",
+            "target_ids": [
+              "c_5c09f18b5927304d2902"
+            ],
+            "correct_complete_decision": false,
+            "selected_titles": [
+              "365 by Whole Foods Market, Cookie Thins, Brownie, 7 Ounce"
+            ]
+          },
+          {
+            "method": "ocr_splink",
+            "status": "linked",
+            "target_ids": [
+              "c_5c09f18b5927304d2902"
+            ],
+            "correct_complete_decision": false,
+            "selected_titles": [
+              "365 by Whole Foods Market, Cookie Thins, Brownie, 7 Ounce"
+            ]
+          },
+          {
+            "method": "clip",
+            "status": "linked",
+            "target_ids": [
+              "c_cb41202c6ba5f7b314e8"
+            ],
+            "correct_complete_decision": true,
+            "selected_titles": [
+              "Amazon Brand - Vedaka Ponni Rice, Raw, 5kg"
+            ]
+          },
+          {
+            "method": "luna_ocr_lexical",
+            "status": "review",
+            "target_ids": [],
+            "correct_complete_decision": false,
+            "selected_titles": []
+          },
+          {
+            "method": "luna_ocr_splink",
+            "status": "review",
+            "target_ids": [],
+            "correct_complete_decision": false,
+            "selected_titles": []
+          },
+          {
+            "method": "luna_pixel_lexical",
+            "status": "linked",
+            "target_ids": [
+              "c_cb41202c6ba5f7b314e8"
+            ],
+            "correct_complete_decision": true,
+            "selected_titles": [
+              "Amazon Brand - Vedaka Ponni Rice, Raw, 5kg"
+            ]
+          },
+          {
+            "method": "luna_pixel_splink",
+            "status": "linked",
+            "target_ids": [
+              "c_cb41202c6ba5f7b314e8"
+            ],
+            "correct_complete_decision": true,
+            "selected_titles": [
+              "Amazon Brand - Vedaka Ponni Rice, Raw, 5kg"
+            ]
+          }
+        ],
+        "asset": {
+          "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/abo-vedaka-rice-dev.jpg",
+          "sha256": "62a90d4ba9f11818b40d44cf11e9223b579744ae86ac5562bf4853fdc59f56f9",
+          "bytes": 425467,
+          "kind": "curated_public_package_image",
+          "dataset": "Amazon Berkeley Objects (ABO)",
+          "publisher": "Amazon",
+          "split": "dev",
+          "query_record_id": "q_c81cc1b200047efe130d",
+          "reference_catalog_id": "c_cb41202c6ba5f7b314e8",
+          "source_item_id": "B079T3MD7G",
+          "source_domain": "amazon.in",
+          "source_image_id": "715I+gzOAtL",
+          "original_source_url": "https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/images/original/bd/bdcf404f.jpg",
+          "original_source_sha256": "1f1dda5c58ce3ff0447b7c78493ee162f81aa83786b90a59a091cf439f60536f",
+          "portable_cache_key": "prepared/q_c81cc1b200047efe130d.jpg",
+          "input_manifest": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/data/input-manifest.jsonl",
+          "source_map": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/evaluator/source-map.jsonl",
+          "source_urls": [
+            "https://registry.opendata.aws/amazon-berkeley-objects/",
+            "https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/README.md"
+          ],
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "changes": "Existing evaluation preparation: EXIF transpose, RGB conversion, bounded downsize, JPEG quality 95. This gallery copies the prepared bytes unchanged. Original photograph was not generated by this study."
+        }
+      },
+      {
+        "query_id": "q_f26d1d718ef4889b071e",
+        "title": "A readable label still leaves an ambiguous source association",
+        "teaching_role": "difficult-source-association-and-failed-output",
+        "split": "dev",
+        "comparison_denominator": 80,
+        "catalog_size": 96,
+        "caption": "The reference and the commonly selected alternative have the same title and brand. They are different publisher item/domain records. The pixel-model response also fails the frozen schema because of an extra `required` key, so both pixel pipelines record failure.",
+        "source": {
+          "catalog_id": "c_99983f223047f84b3887",
+          "domain_name": "fresh.amazon.com",
+          "family_id": "f_15a36f8db3dfdc4ab035",
+          "image_cache_key": "prepared/q_f26d1d718ef4889b071e.jpg",
+          "image_id": "81Iyj7VC47L",
+          "image_path": "31/3106bc38.jpg",
+          "input_ambiguous_family": true,
+          "item_id": "B074H5782L",
+          "original_cache_key": "original/q_f26d1d718ef4889b071e.jpg",
+          "original_url": "https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/images/original/31/3106bc38.jpg",
+          "record_id": "q_f26d1d718ef4889b071e",
+          "source_height": 2560,
+          "source_width": 1961,
+          "split": "dev"
+        },
+        "reference": {
+          "catalog_id": "c_99983f223047f84b3887",
+          "family_id": "f_15a36f8db3dfdc4ab035",
+          "input_ambiguous_family": true,
+          "query_id": "q_f26d1d718ef4889b071e"
+        },
+        "ocr": {
+          "exact_excerpt": "Organic\nGROUND SEED BLEND\nChia & Flax\n4 SOUR!\nCocoa Coconut Flavor",
+          "excerpt_is_contiguous": true,
+          "full_character_count": 428,
+          "saved_file": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/results/ocr-dev80.jsonl",
+          "status": "ok"
+        },
+        "model_ocr_extraction": {
+          "fields": {
+            "barcode": null,
+            "brand": "365",
+            "evidence_text": "365 WHOLE FOODS MARKET; Organic GROUND SEED BLEND Chia & Flax Cocoa Coconut Flavor; NET WT 12 OZ (340 g)",
+            "model_number": null,
+            "net_quantity_unit": "g",
+            "net_quantity_value": 340,
+            "pack_count": null,
+            "product_name": "Organic Ground Seed Blend",
+            "variant": "Chia & Flax Cocoa Coconut Flavor"
+          },
+          "record_id": "q_f26d1d718ef4889b071e",
+          "status": "ok"
+        },
+        "model_pixel_extraction": {
+          "fields": {},
+          "record_id": "q_f26d1d718ef4889b071e",
+          "status": "failed"
+        },
+        "catalog_rows": [
+          {
+            "role": "selected alternative",
+            "source_identity": {
+              "domain_name": "amazon.com",
+              "family_id": "f_15a36f8db3dfdc4ab035",
+              "item_id": "B074MGT7G9",
+              "record_id": "c_37d29939021f8b9554cf"
+            },
+            "brand": "365 by Whole Foods Market",
+            "bullet_points": [
+              "Brought to you by Whole Foods Market.  The packaging for this product has a fresh new look. During this transition, you may get the original packaging or the new packaging in your order, but the product and quality is staying exactly the same. Enjoy!",
+              "Suggested Uses: Hot cereals, cool smoothies, topping yogurts, baked treats (yep, you can bake with it).",
+              "Excellent Source of Fiber - 8g Per Serving",
+              "3741mg Omega-3",
+              "Contains Tree Nut (Coconut) Ingredients",
+              "Vegan",
+              "Certified Kosher",
+              "USDA Certified Organic",
+              "QAI Certified Organic - If It's Organic It's Non-GMO"
+            ],
+            "catalog_text": "365 by Whole Foods Market, Organic Ground Seed Blend, Chia & Flax - Cocoa Coconut Flavor, 12 Ounce\nBrand: 365 by Whole Foods Market\nModel: 180097\nBrought to you by Whole Foods Market.  The packaging for this product has a fresh new look. During this transition, you may get the original packaging or the new packaging in your order, but the product and quality is staying exactly the same. Enjoy!\nSuggested Uses: Hot cereals, cool smoothies, topping yogurts, baked treats (yep, you can bake with it).\nExcellent Source of Fiber - 8g Per Serving\n3741mg Omega-3\nContains Tree Nut (Coconut) Ingredients\nVegan\nCertified Kosher\nUSDA Certified Organic\nQAI Certified Organic - If It's Organic It's Non-GMO",
+            "model_number": "180097",
+            "record_id": "c_37d29939021f8b9554cf",
+            "title": "365 by Whole Foods Market, Organic Ground Seed Blend, Chia & Flax - Cocoa Coconut Flavor, 12 Ounce"
+          },
+          {
+            "role": "selected alternative",
+            "source_identity": {
+              "domain_name": "amazon.com",
+              "family_id": "f_03917fedd53cf7f9ced9",
+              "item_id": "B07RM4LN59",
+              "record_id": "c_72fc4337bfd347493ab8"
+            },
+            "brand": "Whole Foods Market",
+            "bullet_points": [
+              "Brought to you by Whole Foods Market.  When it comes to innovative flavors and products sourced from artisans and producers around the world, the Whole Foods Market brand has you covered. Amazing products, exceptional ingredients, no compromises.",
+              "Cooling, moisturizing spray for irritated throat & mouth tissues.",
+              "Does not contain artificial colors, artificial flavors, or artificial preservatives.",
+              "Targeted complex of 8 herbs & botanical liquid extracts with soothing honey.",
+              "Certified Kosher, Certified Vegetarian."
+            ],
+            "catalog_text": "Whole Foods Market, Throat Spray, Raspberry Spearmint Flavor, 1 fl oz\nBrand: Whole Foods Market\nBrought to you by Whole Foods Market.  When it comes to innovative flavors and products sourced from artisans and producers around the world, the Whole Foods Market brand has you covered. Amazing products, exceptional ingredients, no compromises.\nCooling, moisturizing spray for irritated throat & mouth tissues.\nDoes not contain artificial colors, artificial flavors, or artificial preservatives.\nTargeted complex of 8 herbs & botanical liquid extracts with soothing honey.\nCertified Kosher, Certified Vegetarian.",
+            "model_number": null,
+            "record_id": "c_72fc4337bfd347493ab8",
+            "title": "Whole Foods Market, Throat Spray, Raspberry Spearmint Flavor, 1 fl oz"
+          },
+          {
+            "role": "reference",
+            "source_identity": {
+              "domain_name": "fresh.amazon.com",
+              "family_id": "f_15a36f8db3dfdc4ab035",
+              "item_id": "B074H5782L",
+              "record_id": "c_99983f223047f84b3887"
+            },
+            "brand": "365 by Whole Foods Market",
+            "bullet_points": [
+              "Brought to you by Whole Foods Market.  The packaging for this product has a fresh new look. During this transition, you may get the original packaging or the new packaging in your order, but the product and quality is staying exactly the same. Enjoy!",
+              "Suggested Uses: Hot cereals, cool smoothies, topping yogurts, baked treats (yep, you can bake with it).",
+              "Excellent Source of Fiber - 8g Per Serving",
+              "3741mg Omega-3",
+              "Contains Tree Nut (Coconut) Ingredients",
+              "Vegan",
+              "Certified Kosher",
+              "USDA Certified Organic",
+              "QAI Certified Organic - If It's Organic It's Non-GMO"
+            ],
+            "catalog_text": "365 by Whole Foods Market, Organic Ground Seed Blend, Chia & Flax - Cocoa Coconut Flavor, 12 Ounce\nBrand: 365 by Whole Foods Market\nBrought to you by Whole Foods Market.  The packaging for this product has a fresh new look. During this transition, you may get the original packaging or the new packaging in your order, but the product and quality is staying exactly the same. Enjoy!\nSuggested Uses: Hot cereals, cool smoothies, topping yogurts, baked treats (yep, you can bake with it).\nExcellent Source of Fiber - 8g Per Serving\n3741mg Omega-3\nContains Tree Nut (Coconut) Ingredients\nVegan\nCertified Kosher\nUSDA Certified Organic\nQAI Certified Organic - If It's Organic It's Non-GMO",
+            "model_number": null,
+            "record_id": "c_99983f223047f84b3887",
+            "title": "365 by Whole Foods Market, Organic Ground Seed Blend, Chia & Flax - Cocoa Coconut Flavor, 12 Ounce"
+          }
+        ],
+        "decisions": [
+          {
+            "method": "ocr_lexical",
+            "status": "linked",
+            "target_ids": [
+              "c_37d29939021f8b9554cf"
+            ],
+            "correct_complete_decision": false,
+            "selected_titles": [
+              "365 by Whole Foods Market, Organic Ground Seed Blend, Chia & Flax - Cocoa Coconut Flavor, 12 Ounce"
+            ]
+          },
+          {
+            "method": "ocr_splink",
+            "status": "linked",
+            "target_ids": [
+              "c_72fc4337bfd347493ab8"
+            ],
+            "correct_complete_decision": false,
+            "selected_titles": [
+              "Whole Foods Market, Throat Spray, Raspberry Spearmint Flavor, 1 fl oz"
+            ]
+          },
+          {
+            "method": "clip",
+            "status": "linked",
+            "target_ids": [
+              "c_37d29939021f8b9554cf"
+            ],
+            "correct_complete_decision": false,
+            "selected_titles": [
+              "365 by Whole Foods Market, Organic Ground Seed Blend, Chia & Flax - Cocoa Coconut Flavor, 12 Ounce"
+            ]
+          },
+          {
+            "method": "luna_ocr_lexical",
+            "status": "linked",
+            "target_ids": [
+              "c_37d29939021f8b9554cf"
+            ],
+            "correct_complete_decision": false,
+            "selected_titles": [
+              "365 by Whole Foods Market, Organic Ground Seed Blend, Chia & Flax - Cocoa Coconut Flavor, 12 Ounce"
+            ]
+          },
+          {
+            "method": "luna_ocr_splink",
+            "status": "linked",
+            "target_ids": [
+              "c_37d29939021f8b9554cf"
+            ],
+            "correct_complete_decision": false,
+            "selected_titles": [
+              "365 by Whole Foods Market, Organic Ground Seed Blend, Chia & Flax - Cocoa Coconut Flavor, 12 Ounce"
+            ]
+          },
+          {
+            "method": "luna_pixel_lexical",
+            "status": "failed",
+            "target_ids": [],
+            "correct_complete_decision": false,
+            "selected_titles": []
+          },
+          {
+            "method": "luna_pixel_splink",
+            "status": "failed",
+            "target_ids": [],
+            "correct_complete_decision": false,
+            "selected_titles": []
+          }
+        ],
+        "asset": {
+          "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/abo-ground-seed-blend-dev.jpg",
+          "sha256": "3443e171ecea9baec0e75bf0a6a3a4581eb61f846c486c908e5177621b82c25e",
+          "bytes": 497026,
+          "kind": "curated_public_package_image",
+          "dataset": "Amazon Berkeley Objects (ABO)",
+          "publisher": "Amazon",
+          "split": "dev",
+          "query_record_id": "q_f26d1d718ef4889b071e",
+          "reference_catalog_id": "c_99983f223047f84b3887",
+          "source_item_id": "B074H5782L",
+          "source_domain": "fresh.amazon.com",
+          "source_image_id": "81Iyj7VC47L",
+          "original_source_url": "https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/images/original/31/3106bc38.jpg",
+          "original_source_sha256": "179ea2b90582ac415932a6ab0406e7dbb0dabd9c2748ff2001b48d6d8e9f9585",
+          "portable_cache_key": "prepared/q_f26d1d718ef4889b071e.jpg",
+          "input_manifest": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/data/input-manifest.jsonl",
+          "source_map": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/evaluator/source-map.jsonl",
+          "source_urls": [
+            "https://registry.opendata.aws/amazon-berkeley-objects/",
+            "https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/README.md"
+          ],
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "changes": "Existing evaluation preparation: EXIF transpose, RGB conversion, bounded downsize, JPEG quality 95. This gallery copies the prepared bytes unchanged. Original photograph was not generated by this study."
+        }
+      }
+    ],
+    "source_attribution": {
+      "publisher": "Amazon",
+      "dataset": "Amazon Berkeley Objects (ABO)",
+      "licence": "Creative Commons Attribution 4.0 International (per maintained local source notice and registry snapshot)",
+      "dataset_url": "https://registry.opendata.aws/amazon-berkeley-objects/",
+      "documentation_url": "https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/README.md",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "suggested_caption_credit": "Image and catalog data: Amazon Berkeley Objects (Amazon), CC BY 4.0. Curated and resized for this study.",
+      "notice_file": {
+        "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/NOTICES.md",
+        "sha256": "68a95c7d9b7d670165ea76a331efd8c445aad935b6112b7f48fe7490e056b818"
+      },
+      "source_notice_manifest": {
+        "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/source-notices-manifest.json",
+        "sha256": "f011e892e2b2638f94028e23419e6f78b9743da2b11f5cfc02a2b72b53ecdd60"
+      }
+    }
+  },
+  "organizations": {
+    "inventory": {
+      "structured_source": "AffilGood CORDIS, original ORG/CITY/COUNTRY rows",
+      "structured_rows": 3329,
+      "registry": "ROR v1.41 dated 2024-02-13",
+      "registry_rows": 108476,
+      "development_queries": 109,
+      "evaluation_queries": 1065,
+      "unscored_remainder_queries": 2155,
+      "native_population_rows": {
+        "french": 614,
+        "multilingual": 322,
+        "multi-org": 168
+      },
+      "native_total_rows": 1104,
+      "native_distinct_strings": 1081,
+      "native_status": "Prepared, no selector inference or evaluation."
+    },
+    "identity_boundary": "The target is the historically annotated research-organization identity in the pinned ROR registry. These records do not establish NSO establishment or legal-unit continuity. A blank source label is the dataset’s historical no-target reference, not a verified claim that the organization has no current ROR entry.",
+    "examples": [
+      {
+        "example_id": "registry-alias-match",
+        "title": "A Croatian name links through a published registry label",
+        "population": "cordis",
+        "partition": "evaluation",
+        "source_query": {
+          "CITY": "DUBROVNIK",
+          "COUNTRY": "HR",
+          "ORG": "SVEUCILISTE U DUBROVNIKU",
+          "query_id": "007e3e5965254cc1da8b0e93"
+        },
+        "source_reference": {
+          "historical_nil": false,
+          "query_id": "007e3e5965254cc1da8b0e93",
+          "ror_ids": [
+            "https://ror.org/05yptqp13"
+          ],
+          "source_label": "University of Dubrovnik {https://ror.org/05yptqp13}",
+          "source_population": "cordis",
+          "source_row_zero_based": 2054,
+          "target_ids": [
+            "ff46b999bc1fa2ed639826de"
+          ],
+          "target_statuses": [
+            "active"
+          ]
+        },
+        "candidate_records": [
+          {
+            "observed_registry_record": {
+              "acronyms": [],
+              "aliases": [],
+              "cities": [
+                "Dubrovnik"
+              ],
+              "country": "Croatia",
+              "country_code": "HR",
+              "labels": [
+                {
+                  "iso639": "hr",
+                  "label": "Sveučilište u Dubrovniku"
+                }
+              ],
+              "name": "University of Dubrovnik",
+              "record_id": "ff46b999bc1fa2ed639826de",
+              "status": "active",
+              "ror_id_for_display_only": "https://ror.org/05yptqp13"
+            },
+            "retrieval_evidence": {
+              "char_cosine": 1.0,
+              "city_agreement": true,
+              "country_agreement": true,
+              "exact_alias": true,
+              "query_id": "007e3e5965254cc1da8b0e93",
+              "rank": 1,
+              "record_id": "ff46b999bc1fa2ed639826de",
+              "score": 1.8967787802219391,
+              "word_cosine": 0.6559292674064636
+            },
+            "splink_pair_evidence": {
+              "log2_likelihood_ratio": 26.894315111130794,
+              "match_probability": 0.998590651714808,
+              "prior_sensitivity": [
+                {
+                  "assumed_anchor_recall": 0.5,
+                  "probability": 0.9991186945463221
+                },
+                {
+                  "assumed_anchor_recall": 0.8,
+                  "probability": 0.998590651714808
+                },
+                {
+                  "assumed_anchor_recall": 0.95,
+                  "probability": 0.9983268395501421
+                },
+                {
+                  "assumed_anchor_recall": 1.0,
+                  "probability": 0.9982389331347851
+                }
+              ],
+              "query_id": "007e3e5965254cc1da8b0e93",
+              "record_id": "ff46b999bc1fa2ed639826de"
+            }
+          },
+          {
+            "observed_registry_record": {
+              "acronyms": [
+                "DIU"
+              ],
+              "aliases": [
+                "DIU Libertas International University"
+              ],
+              "cities": [
+                "Dubrovnik"
+              ],
+              "country": "Croatia",
+              "country_code": "HR",
+              "labels": [
+                {
+                  "iso639": "hr",
+                  "label": "Libertas međunarodno sveučilište - Dubrovnik"
+                }
+              ],
+              "name": "Dubrovnik International University",
+              "record_id": "ef3238b5ba4ae2609ff7fa07",
+              "status": "active",
+              "ror_id_for_display_only": "https://ror.org/03wz5pw26"
+            },
+            "retrieval_evidence": {
+              "char_cosine": 0.6595145463943481,
+              "city_agreement": true,
+              "country_agreement": true,
+              "exact_alias": false,
+              "query_id": "007e3e5965254cc1da8b0e93",
+              "rank": 2,
+              "record_id": "ef3238b5ba4ae2609ff7fa07",
+              "score": 0.5268525429069996,
+              "word_cosine": 0.10381271690130234
+            },
+            "splink_pair_evidence": {
+              "log2_likelihood_ratio": -1.5960020626623308,
+              "match_probability": 1.8790065472515284e-06,
+              "prior_sensitivity": [
+                {
+                  "assumed_anchor_recall": 0.5,
+                  "probability": 3.0064173326028845e-06
+                },
+                {
+                  "assumed_anchor_recall": 0.8,
+                  "probability": 1.8790065472515284e-06
+                },
+                {
+                  "assumed_anchor_recall": 0.95,
+                  "probability": 1.58232035322834e-06
+                },
+                {
+                  "assumed_anchor_recall": 1.0,
+                  "probability": 1.5032040949712943e-06
+                }
+              ],
+              "query_id": "007e3e5965254cc1da8b0e93",
+              "record_id": "ef3238b5ba4ae2609ff7fa07"
+            }
+          },
+          {
+            "observed_registry_record": {
+              "acronyms": [],
+              "aliases": [],
+              "cities": [
+                "Koprivnica"
+              ],
+              "country": "Croatia",
+              "country_code": "HR",
+              "labels": [
+                {
+                  "iso639": "hr",
+                  "label": "Sveučilište Sjever"
+                }
+              ],
+              "name": "University North",
+              "record_id": "21f567c272d81b93c2c2b977",
+              "status": "active",
+              "ror_id_for_display_only": "https://ror.org/01afbkc02"
+            },
+            "retrieval_evidence": {
+              "char_cosine": 0.5757742524147034,
+              "city_agreement": false,
+              "country_agreement": true,
+              "exact_alias": false,
+              "query_id": "007e3e5965254cc1da8b0e93",
+              "rank": 3,
+              "record_id": "21f567c272d81b93c2c2b977",
+              "score": 0.46407782673835746,
+              "word_cosine": 0.2620442509651184
+            },
+            "splink_pair_evidence": {
+              "log2_likelihood_ratio": 8.859198724432034,
+              "match_probability": 0.0026309587588105253,
+              "prior_sensitivity": [
+                {
+                  "assumed_anchor_recall": 0.5,
+                  "probability": 0.004202913685229647
+                },
+                {
+                  "assumed_anchor_recall": 0.8,
+                  "probability": 0.0026309587588105253
+                },
+                {
+                  "assumed_anchor_recall": 0.95,
+                  "probability": 0.0022164629861966437
+                },
+                {
+                  "assumed_anchor_recall": 1.0,
+                  "probability": 0.0021058727137844143
+                }
+              ],
+              "query_id": "007e3e5965254cc1da8b0e93",
+              "record_id": "21f567c272d81b93c2c2b977"
+            }
+          }
+        ],
+        "frozen_decisions": {
+          "lexical_fixed_policy": {
+            "status": "linked",
+            "target_ids": [
+              "ff46b999bc1fa2ed639826de"
+            ]
+          },
+          "lexical_top1_forced": {
+            "status": "linked",
+            "target_ids": [
+              "ff46b999bc1fa2ed639826de"
+            ]
+          },
+          "splink_fixed_policy": {
+            "status": "linked",
+            "target_ids": [
+              "ff46b999bc1fa2ed639826de"
+            ]
+          }
+        },
+        "lexical_decision_evidence": {
+          "decision": "linked",
+          "gap": 1.3699262373149397,
+          "query_id": "007e3e5965254cc1da8b0e93",
+          "target_ids": [
+            "ff46b999bc1fa2ed639826de"
+          ],
+          "top1_target_ids": [
+            "ff46b999bc1fa2ed639826de"
+          ],
+          "top_score": 1.8967787802219391
+        },
+        "splink_top_pair": {
+          "log2_likelihood_ratio": 26.894315111130794,
+          "match_probability": 0.998590651714808,
+          "prior_sensitivity": [
+            {
+              "assumed_anchor_recall": 0.5,
+              "probability": 0.9991186945463221
+            },
+            {
+              "assumed_anchor_recall": 0.8,
+              "probability": 0.998590651714808
+            },
+            {
+              "assumed_anchor_recall": 0.95,
+              "probability": 0.9983268395501421
+            },
+            {
+              "assumed_anchor_recall": 1.0,
+              "probability": 0.9982389331347851
+            }
+          ],
+          "query_id": "007e3e5965254cc1da8b0e93",
+          "record_id": "ff46b999bc1fa2ed639826de"
+        },
+        "splink_second_pair": {
+          "log2_likelihood_ratio": 8.859198724432034,
+          "match_probability": 0.0026309587588105253,
+          "prior_sensitivity": [
+            {
+              "assumed_anchor_recall": 0.5,
+              "probability": 0.004202913685229647
+            },
+            {
+              "assumed_anchor_recall": 0.8,
+              "probability": 0.0026309587588105253
+            },
+            {
+              "assumed_anchor_recall": 0.95,
+              "probability": 0.0022164629861966437
+            },
+            {
+              "assumed_anchor_recall": 1.0,
+              "probability": 0.0021058727137844143
+            }
+          ],
+          "query_id": "007e3e5965254cc1da8b0e93",
+          "record_id": "21f567c272d81b93c2c2b977"
+        },
+        "evaluation_outcomes": [
+          {
+            "automatic": true,
+            "correct": true,
+            "false_assignment": false,
+            "false_links": 0,
+            "false_nil": false,
+            "linked_on_nil": false,
+            "method": "lexical_fixed_policy",
+            "missed_links": 0,
+            "query_id": "007e3e5965254cc1da8b0e93",
+            "source_group": "007e3e5965254cc1da8b0e93",
+            "status": "linked",
+            "true_links": 1,
+            "true_nil": false
+          },
+          {
+            "automatic": true,
+            "correct": true,
+            "false_assignment": false,
+            "false_links": 0,
+            "false_nil": false,
+            "linked_on_nil": false,
+            "method": "lexical_top1_forced",
+            "missed_links": 0,
+            "query_id": "007e3e5965254cc1da8b0e93",
+            "source_group": "007e3e5965254cc1da8b0e93",
+            "status": "linked",
+            "true_links": 1,
+            "true_nil": false
+          },
+          {
+            "automatic": true,
+            "correct": true,
+            "false_assignment": false,
+            "false_links": 0,
+            "false_nil": false,
+            "linked_on_nil": false,
+            "method": "splink_fixed_policy",
+            "missed_links": 0,
+            "query_id": "007e3e5965254cc1da8b0e93",
+            "source_group": "007e3e5965254cc1da8b0e93",
+            "status": "linked",
+            "true_links": 1,
+            "true_nil": false
+          }
+        ],
+        "semantic_decision": {
+          "status": "not_run",
+          "caption": "No semantic-model decision exists for this new organization lane."
+        },
+        "caption": "The CORDIS name SVEUCILISTE U DUBROVNIKU matches the registry label Sveučilište u Dubrovniku after case and accent normalization. The city and country also agree. Both saved acceptance policies link to University of Dubrovnik, matching the historical reference."
+      },
+      {
+        "example_id": "reference-nil-review",
+        "title": "A similar name remains unresolved",
+        "population": "cordis",
+        "partition": "evaluation",
+        "source_query": {
+          "CITY": "VIENNA",
+          "COUNTRY": "AT",
+          "ORG": "Climate Change Centre Austria",
+          "query_id": "25975d9a793c441a3bf9d395"
+        },
+        "source_reference": {
+          "historical_nil": true,
+          "query_id": "25975d9a793c441a3bf9d395",
+          "ror_ids": [],
+          "source_label": "",
+          "source_population": "cordis",
+          "source_row_zero_based": 2651,
+          "target_ids": [],
+          "target_statuses": []
+        },
+        "candidate_records": [
+          {
+            "observed_registry_record": {
+              "acronyms": [],
+              "aliases": [],
+              "cities": [
+                "The Hague"
+              ],
+              "country": "Netherlands",
+              "country_code": "NL",
+              "labels": [],
+              "name": "Climate Centre",
+              "record_id": "ca848a7cd5fedd27bc31b40b",
+              "status": "active",
+              "ror_id_for_display_only": "https://ror.org/028x4en59"
+            },
+            "retrieval_evidence": {
+              "char_cosine": 0.6837653517723083,
+              "city_agreement": false,
+              "country_agreement": false,
+              "exact_alias": false,
+              "query_id": "25975d9a793c441a3bf9d395",
+              "rank": 1,
+              "record_id": "ca848a7cd5fedd27bc31b40b",
+              "score": 0.5431403517723083,
+              "word_cosine": 0.44293713569641113
+            },
+            "splink_pair_evidence": {
+              "log2_likelihood_ratio": 1.3806404998564834,
+              "match_probability": 1.4790449864366534e-05,
+              "prior_sensitivity": [
+                {
+                  "assumed_anchor_recall": 0.5,
+                  "probability": 2.3664590429447137e-05
+                },
+                {
+                  "assumed_anchor_recall": 0.8,
+                  "probability": 1.4790449864366534e-05
+                },
+                {
+                  "assumed_anchor_recall": 0.95,
+                  "probability": 1.2455133591382416e-05
+                },
+                {
+                  "assumed_anchor_recall": 1.0,
+                  "probability": 1.1832381450573564e-05
+                }
+              ],
+              "query_id": "25975d9a793c441a3bf9d395",
+              "record_id": "ca848a7cd5fedd27bc31b40b"
+            }
+          },
+          {
+            "observed_registry_record": {
+              "acronyms": [
+                "QCCCE"
+              ],
+              "aliases": [
+                "Queensland Climate Change Centre for Excellence"
+              ],
+              "cities": [
+                "Brisbane"
+              ],
+              "country": "Australia",
+              "country_code": "AU",
+              "labels": [],
+              "name": "Queensland Climate Change Centre of Excellence",
+              "record_id": "ff8f4b497ec6879a88a100aa",
+              "status": "inactive",
+              "ror_id_for_display_only": "https://ror.org/01sxj8p89"
+            },
+            "retrieval_evidence": {
+              "char_cosine": 0.5370217561721802,
+              "city_agreement": false,
+              "country_agreement": false,
+              "exact_alias": false,
+              "query_id": "25975d9a793c441a3bf9d395",
+              "rank": 2,
+              "record_id": "ff8f4b497ec6879a88a100aa",
+              "score": 0.5220033645629882,
+              "word_cosine": 0.6659677028656006
+            },
+            "splink_pair_evidence": {
+              "log2_likelihood_ratio": -20.299488971707937,
+              "match_probability": 4.401680607214591e-12,
+              "prior_sensitivity": [
+                {
+                  "assumed_anchor_recall": 0.5,
+                  "probability": 7.042712974487077e-12
+                },
+                {
+                  "assumed_anchor_recall": 0.8,
+                  "probability": 4.401680607214591e-12
+                },
+                {
+                  "assumed_anchor_recall": 0.95,
+                  "probability": 3.706675081582341e-12
+                },
+                {
+                  "assumed_anchor_recall": 1.0,
+                  "probability": 3.5213404852992423e-12
+                }
+              ],
+              "query_id": "25975d9a793c441a3bf9d395",
+              "record_id": "ff8f4b497ec6879a88a100aa"
+            }
+          },
+          {
+            "observed_registry_record": {
+              "acronyms": [],
+              "aliases": [],
+              "cities": [
+                "Vienna"
+              ],
+              "country": "Austria",
+              "country_code": "AT",
+              "labels": [
+                {
+                  "iso639": "de",
+                  "label": "Klima und Energiefonds"
+                }
+              ],
+              "name": "Climate and Energy Fund",
+              "record_id": "fa08140992d07e353313cd80",
+              "status": "active",
+              "ror_id_for_display_only": "https://ror.org/044ym4p17"
+            },
+            "retrieval_evidence": {
+              "char_cosine": 0.40043020248413086,
+              "city_agreement": true,
+              "country_agreement": true,
+              "exact_alias": false,
+              "query_id": "25975d9a793c441a3bf9d395",
+              "rank": 28,
+              "record_id": "fa08140992d07e353313cd80",
+              "score": 0.3773548737168312,
+              "word_cosine": 0.12365584075450897
+            },
+            "splink_pair_evidence": {
+              "log2_likelihood_ratio": 20.08412740890209,
+              "match_probability": 0.8632742276428741,
+              "prior_sensitivity": [
+                {
+                  "assumed_anchor_recall": 0.5,
+                  "probability": 0.9099284963215277
+                },
+                {
+                  "assumed_anchor_recall": 0.8,
+                  "probability": 0.8632742276428741
+                },
+                {
+                  "assumed_anchor_recall": 0.95,
+                  "probability": 0.8416963092051959
+                },
+                {
+                  "assumed_anchor_recall": 1.0,
+                  "probability": 0.8347413999125265
+                }
+              ],
+              "query_id": "25975d9a793c441a3bf9d395",
+              "record_id": "fa08140992d07e353313cd80"
+            }
+          },
+          {
+            "observed_registry_record": {
+              "acronyms": [],
+              "aliases": [],
+              "cities": [
+                "Vienna"
+              ],
+              "country": "Austria",
+              "country_code": "AT",
+              "labels": [],
+              "name": "EmergenTec (Austria)",
+              "record_id": "3a3a01978f2edbd7483ed7a3",
+              "status": "active",
+              "ror_id_for_display_only": "https://ror.org/04f8y1a51"
+            },
+            "retrieval_evidence": {
+              "char_cosine": 0.28483709692955017,
+              "city_agreement": true,
+              "country_agreement": true,
+              "exact_alias": false,
+              "query_id": "25975d9a793c441a3bf9d395",
+              "rank": 34,
+              "record_id": "3a3a01978f2edbd7483ed7a3",
+              "score": 0.37205251753330226,
+              "word_cosine": 0.33716753125190735
+            },
+            "splink_pair_evidence": {
+              "log2_likelihood_ratio": 18.741837997234374,
+              "match_probability": 0.713481013576357,
+              "prior_sensitivity": [
+                {
+                  "assumed_anchor_recall": 0.5,
+                  "probability": 0.7993694479500281
+                },
+                {
+                  "assumed_anchor_recall": 0.8,
+                  "probability": 0.713481013576357
+                },
+                {
+                  "assumed_anchor_recall": 0.95,
+                  "probability": 0.6771051539959143
+                },
+                {
+                  "assumed_anchor_recall": 1.0,
+                  "probability": 0.6657903487085071
+                }
+              ],
+              "query_id": "25975d9a793c441a3bf9d395",
+              "record_id": "3a3a01978f2edbd7483ed7a3"
+            }
+          }
+        ],
+        "frozen_decisions": {
+          "lexical_fixed_policy": {
+            "status": "review",
+            "target_ids": []
+          },
+          "lexical_top1_forced": {
+            "status": "linked",
+            "target_ids": [
+              "ca848a7cd5fedd27bc31b40b"
+            ]
+          },
+          "splink_fixed_policy": {
+            "status": "review",
+            "target_ids": []
+          }
+        },
+        "lexical_decision_evidence": {
+          "decision": "review",
+          "gap": 0.021136987209320113,
+          "query_id": "25975d9a793c441a3bf9d395",
+          "target_ids": [],
+          "top1_target_ids": [
+            "ca848a7cd5fedd27bc31b40b"
+          ],
+          "top_score": 0.5431403517723083
+        },
+        "splink_top_pair": {
+          "log2_likelihood_ratio": 20.08412740890209,
+          "match_probability": 0.8632742276428741,
+          "prior_sensitivity": [
+            {
+              "assumed_anchor_recall": 0.5,
+              "probability": 0.9099284963215277
+            },
+            {
+              "assumed_anchor_recall": 0.8,
+              "probability": 0.8632742276428741
+            },
+            {
+              "assumed_anchor_recall": 0.95,
+              "probability": 0.8416963092051959
+            },
+            {
+              "assumed_anchor_recall": 1.0,
+              "probability": 0.8347413999125265
+            }
+          ],
+          "query_id": "25975d9a793c441a3bf9d395",
+          "record_id": "fa08140992d07e353313cd80"
+        },
+        "splink_second_pair": {
+          "log2_likelihood_ratio": 18.741837997234374,
+          "match_probability": 0.713481013576357,
+          "prior_sensitivity": [
+            {
+              "assumed_anchor_recall": 0.5,
+              "probability": 0.7993694479500281
+            },
+            {
+              "assumed_anchor_recall": 0.8,
+              "probability": 0.713481013576357
+            },
+            {
+              "assumed_anchor_recall": 0.95,
+              "probability": 0.6771051539959143
+            },
+            {
+              "assumed_anchor_recall": 1.0,
+              "probability": 0.6657903487085071
+            }
+          ],
+          "query_id": "25975d9a793c441a3bf9d395",
+          "record_id": "3a3a01978f2edbd7483ed7a3"
+        },
+        "evaluation_outcomes": [
+          {
+            "automatic": false,
+            "correct": false,
+            "false_assignment": false,
+            "false_links": 0,
+            "false_nil": false,
+            "linked_on_nil": false,
+            "method": "lexical_fixed_policy",
+            "missed_links": 0,
+            "query_id": "25975d9a793c441a3bf9d395",
+            "source_group": "25975d9a793c441a3bf9d395",
+            "status": "review",
+            "true_links": 0,
+            "true_nil": true
+          },
+          {
+            "automatic": true,
+            "correct": false,
+            "false_assignment": true,
+            "false_links": 1,
+            "false_nil": false,
+            "linked_on_nil": true,
+            "method": "lexical_top1_forced",
+            "missed_links": 0,
+            "query_id": "25975d9a793c441a3bf9d395",
+            "source_group": "25975d9a793c441a3bf9d395",
+            "status": "linked",
+            "true_links": 0,
+            "true_nil": true
+          },
+          {
+            "automatic": false,
+            "correct": false,
+            "false_assignment": false,
+            "false_links": 0,
+            "false_nil": false,
+            "linked_on_nil": false,
+            "method": "splink_fixed_policy",
+            "missed_links": 0,
+            "query_id": "25975d9a793c441a3bf9d395",
+            "source_group": "25975d9a793c441a3bf9d395",
+            "status": "review",
+            "true_links": 0,
+            "true_nil": true
+          }
+        ],
+        "semantic_decision": {
+          "status": "not_run",
+          "caption": "No semantic-model decision exists for this new organization lane."
+        },
+        "caption": "Climate Change Centre Austria has no target in the published historical annotation. Its top lexical candidate is Climate Centre in The Hague, Netherlands. Both saved acceptance policies send the query to review. Forcing the first lexical candidate produces a false link under this reference."
+      },
+      {
+        "example_id": "native-two-organizations",
+        "title": "One native string names two organizations",
+        "population": "multi-org",
+        "partition": "unscored native population",
+        "source_query": {
+          "query_id": "68a3e2ad07777ca95d429523",
+          "raw_affiliation_string": "Monash University & RMIT, Melbourne, VIC, Australia",
+          "source_population": "multi-org"
+        },
+        "source_reference": {
+          "historical_nil": false,
+          "query_id": "68a3e2ad07777ca95d429523",
+          "ror_ids": [
+            "https://ror.org/02bfwt286",
+            "https://ror.org/04ttjf776"
+          ],
+          "source_label": "RMIT University {https://ror.org/04ttjf776}|Monash University {https://ror.org/02bfwt286}",
+          "source_population": "multi-org",
+          "source_row_zero_based": 7,
+          "target_ids": [
+            "f57502c37fb59d9420da5a37",
+            "652ff51ed6f2c9ae2bf9c7a5"
+          ],
+          "target_statuses": [
+            "active",
+            "active"
+          ]
+        },
+        "reference_registry_records": [
+          {
+            "acronyms": [],
+            "aliases": [],
+            "cities": [
+              "Melbourne"
+            ],
+            "country": "Australia",
+            "country_code": "AU",
+            "labels": [],
+            "name": "Monash University",
+            "record_id": "f57502c37fb59d9420da5a37",
+            "status": "active",
+            "ror_id_for_display_only": "https://ror.org/02bfwt286"
+          },
+          {
+            "acronyms": [
+              "RMIT"
+            ],
+            "aliases": [
+              "Royal Melbourne Institute of Technology University"
+            ],
+            "cities": [
+              "Melbourne"
+            ],
+            "country": "Australia",
+            "country_code": "AU",
+            "labels": [],
+            "name": "RMIT University",
+            "record_id": "652ff51ed6f2c9ae2bf9c7a5",
+            "status": "active",
+            "ror_id_for_display_only": "https://ror.org/04ttjf776"
+          }
+        ],
+        "frozen_decisions": null,
+        "semantic_decision": {
+          "status": "not_run"
+        },
+        "caption": "Monash University & RMIT, Melbourne, VIC, Australia is one original affiliation string. Its published target set contains Monash University and RMIT University. These are reference annotations: no selector has been run or scored on this native-text population."
+      }
+    ],
+    "upstream_sources": [
+      {
+        "bytes": 316974,
+        "file": "sources/cordis.csv",
+        "licence": "Apache-2.0; owning repository notice retained",
+        "sha256": "a402aa3e2f798d7cc0acf29e1502c504fad2178bfc68ca1b812f4742ae03c7e3",
+        "url": "https://raw.githubusercontent.com/sirisacademic/affilgood/9be394d5a8b11360b877ce59fb2355b0a7fa867e/data/entity%20linking/CORDIS.csv"
+      },
+      {
+        "bytes": 185933,
+        "file": "sources/french.csv",
+        "licence": "Apache-2.0; owning repository notice retained",
+        "sha256": "a83a7ded6fccc324a018c5c5534bb08417549212bbefa84f80c777a396cc61fe",
+        "url": "https://raw.githubusercontent.com/sirisacademic/affilgood/9be394d5a8b11360b877ce59fb2355b0a7fa867e/data/entity%20linking/French%20affiliations.csv"
+      },
+      {
+        "bytes": 44783,
+        "file": "sources/multilingual.csv",
+        "licence": "Apache-2.0; owning repository notice retained",
+        "sha256": "4953ba2b4400abd389fa7ba31fffe91f60eff8e64f3da97e9ff93e6d0a6a4f92",
+        "url": "https://raw.githubusercontent.com/sirisacademic/affilgood/9be394d5a8b11360b877ce59fb2355b0a7fa867e/data/entity%20linking/Multilingual%20affiliations.csv"
+      },
+      {
+        "bytes": 48913,
+        "file": "sources/multi-org.csv",
+        "licence": "Apache-2.0; owning repository notice retained",
+        "sha256": "2394bc7efcc1cce16f2e88c4bb8af74a06af93fef1d6deea6c38e56a67a9b9d9",
+        "url": "https://raw.githubusercontent.com/sirisacademic/affilgood/9be394d5a8b11360b877ce59fb2355b0a7fa867e/data/entity%20linking/Non-related%20multi-organizations.csv"
+      }
+    ],
+    "upstream_registry": {
+      "bytes": 32504396,
+      "licence": "ROR CC0; GeoNames attribution retained",
+      "rows": 108476,
+      "sha256": "0c532997867d205097f0be3ba13250ec3f3b322d580b1e88c23d0e9f4a25eafe",
+      "url": "https://github.com/ror-community/ror-data/raw/main/v1.41-2024-02-13-ror-data.zip"
+    }
+  },
+  "controls": {
+    "record_id": "p_31c9ae75635000373aecbcf7",
+    "shown_source_fields": {
+      "name": "microsoft word 2004 (mac)",
+      "manufacturer": "microsoft",
+      "price": "229.99"
+    },
+    "counts": {
+      "source_records": 80,
+      "development_source_records": 16,
+      "test_source_records": 64,
+      "views_per_source": 4,
+      "rendered_images": 320,
+      "ocr_mode_runs": 640
+    },
+    "status": "Prepared and OCR-run. No model responses, linkage decisions, comparative accuracy, or physical-entity count established.",
+    "caption": "These are synthetic catalog-observation cards made from observed source fields. Three views retain microsoft word 2004 (mac), microsoft and 229.99; the fourth intentionally retains only the historical price. A price-only card should lead to review or uncertainty, not a forced identity guess or a true-NIL label.",
+    "views": [
+      {
+        "view": "clean_structured",
+        "asset": {
+          "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/control-word-2004-clean-structured-dev.png",
+          "sha256": "767602f8b69e57a3126ae11a234f1d6a14ab8bd0576c63baa8aa70a39bcebda5",
+          "bytes": 22258,
+          "kind": "generated_source_fact_document_control",
+          "dataset": "Amazon–GoogleProducts source-fact controls",
+          "split": "dev",
+          "source_record_id": "p_31c9ae75635000373aecbcf7",
+          "view": "clean_structured",
+          "portable_source_render_path": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/.cache/rendered/dev/clean_structured/p_31c9ae75635000373aecbcf7.png",
+          "source_record_sha256": "d74a0931e8d00c1b91d04eac23ff103843a5b60f0f59a37fb344c39df7760b70",
+          "manifest": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/data/manifest.json",
+          "source_audit": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/data/source-records-audit-only.json",
+          "source_urls": [
+            "https://dbs.uni-leipzig.de/research/projects/benchmark-datasets-for-entity-resolution",
+            "https://dbs.uni-leipzig.de/files/datasets/Amazon-GoogleProducts.zip"
+          ],
+          "source_license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_attribution": "H. Köpcke, A. Thor and E. Rahm. Evaluation of Entity Resolution Approaches on Real-World Match Problems. PVLDB 3(1–2), 2010.",
+          "changes": "Synthetic catalog-observation card rendered from observed source fields under the retained control recipe. Description is omitted in every view; missing_identity also omits name and manufacturer. This gallery copies the existing PNG bytes unchanged.",
+          "linkage_status": "Prepared and OCR-run; model and linkage evaluation unrun."
+        },
+        "ocr_text": "CATALOG OBSERVATION\nNAME\nmicrosoft word 2004 (mac)\nMANUFACTURER\nmicrosoft\nPRICE\n229.99",
+        "manifest_record": {
+          "control_family_id": "p_31c9ae75635000373aecbcf7",
+          "degradation": null,
+          "description_exposed": false,
+          "expected_evidence_state": "source_identity_fields_present",
+          "ground_truth": "Source-record association only; no counterpart label loaded",
+          "image_path": ".cache/rendered/dev/clean_structured/p_31c9ae75635000373aecbcf7.png",
+          "image_sha256": "767602f8b69e57a3126ae11a234f1d6a14ab8bd0576c63baa8aa70a39bcebda5",
+          "image_size": [
+            1000,
+            464
+          ],
+          "ocr_characters": 86,
+          "ocr_modes": [
+            {
+              "psm": 11,
+              "returncode": 0,
+              "stderr": "Estimating resolution as 260\n",
+              "stdout_sha256": "1ee945dec4804547ec173b06657bb1bddee4d7a1c3858a780cc0e68ba6a1326b"
+            },
+            {
+              "psm": 6,
+              "returncode": 0,
+              "stderr": "",
+              "stdout_sha256": "14de2ce689d83ca55f68d676b904a6fd39699f9e7317ac5e0c5087c2c39e5386"
+            }
+          ],
+          "ocr_sha256": "bbca9dc29b00f6ff1c5d735266a30ae2745a75038f05a43814e04cac96192c47",
+          "ocr_words": 11,
+          "original_query_id": "p_31c9ae75635000373aecbcf7",
+          "pixel_sha256": "10b3430d173cc6affd71127bc102b43f68d4cb59aa6a2343bfa1217f66d1d196",
+          "rendered_generic_labels": [
+            "Catalog observation",
+            "Name",
+            "Manufacturer",
+            "Price"
+          ],
+          "rendered_source_fields": {
+            "manufacturer": "microsoft",
+            "name": "microsoft word 2004 (mac)",
+            "price": "229.99"
+          },
+          "source_id_rendered": false,
+          "source_record_sha256": "d74a0931e8d00c1b91d04eac23ff103843a5b60f0f59a37fb344c39df7760b70",
+          "split": "dev",
+          "view": "clean_structured",
+          "view_id": "p_31c9ae75635000373aecbcf7:clean_structured"
+        }
+      },
+      {
+        "view": "compact_reordered",
+        "asset": {
+          "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/control-word-2004-compact-reordered-dev.png",
+          "sha256": "c49a93a4ec8e8786d5eac20ef3a8897aae58efe80dda915742ad227ad4758a96",
+          "bytes": 14705,
+          "kind": "generated_source_fact_document_control",
+          "dataset": "Amazon–GoogleProducts source-fact controls",
+          "split": "dev",
+          "source_record_id": "p_31c9ae75635000373aecbcf7",
+          "view": "compact_reordered",
+          "portable_source_render_path": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/.cache/rendered/dev/compact_reordered/p_31c9ae75635000373aecbcf7.png",
+          "source_record_sha256": "d74a0931e8d00c1b91d04eac23ff103843a5b60f0f59a37fb344c39df7760b70",
+          "manifest": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/data/manifest.json",
+          "source_audit": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/data/source-records-audit-only.json",
+          "source_urls": [
+            "https://dbs.uni-leipzig.de/research/projects/benchmark-datasets-for-entity-resolution",
+            "https://dbs.uni-leipzig.de/files/datasets/Amazon-GoogleProducts.zip"
+          ],
+          "source_license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_attribution": "H. Köpcke, A. Thor and E. Rahm. Evaluation of Entity Resolution Approaches on Real-World Match Problems. PVLDB 3(1–2), 2010.",
+          "changes": "Synthetic catalog-observation card rendered from observed source fields under the retained control recipe. Description is omitted in every view; missing_identity also omits name and manufacturer. This gallery copies the existing PNG bytes unchanged.",
+          "linkage_status": "Prepared and OCR-run; model and linkage evaluation unrun."
+        },
+        "ocr_text": "CATALOG OBSERVATION\nPRICE\nMANUFACTURER\nNAME\n229.99\nmicrosoft\nmicrosoft word 2004 (mac)\nPRICE MANUFACTURER NAME\n229.99 microsoft microsoft word 2004 (mac)",
+        "manifest_record": {
+          "control_family_id": "p_31c9ae75635000373aecbcf7",
+          "degradation": null,
+          "description_exposed": false,
+          "expected_evidence_state": "source_identity_fields_present",
+          "ground_truth": "Source-record association only; no counterpart label loaded",
+          "image_path": ".cache/rendered/dev/compact_reordered/p_31c9ae75635000373aecbcf7.png",
+          "image_sha256": "c49a93a4ec8e8786d5eac20ef3a8897aae58efe80dda915742ad227ad4758a96",
+          "image_size": [
+            1180,
+            180
+          ],
+          "ocr_characters": 153,
+          "ocr_modes": [
+            {
+              "psm": 11,
+              "returncode": 0,
+              "stderr": "Estimating resolution as 224\n",
+              "stdout_sha256": "3177909d072ae0c3e0a3bcf9a2e347615fe75a092f97b0be751a1741adf81d40"
+            },
+            {
+              "psm": 6,
+              "returncode": 0,
+              "stderr": "",
+              "stdout_sha256": "c1bf844cfb4b5db316140c97dec74efe1bd29878a814de22609cf6dd4415428a"
+            }
+          ],
+          "ocr_sha256": "5247b3860af8a0b0e0ed8163d1f5b5ba8aaf576fbb10c9273cc6a43a415bac0b",
+          "ocr_words": 20,
+          "original_query_id": "p_31c9ae75635000373aecbcf7",
+          "pixel_sha256": "0c05b2898e70e37618220b8c360638946505845f50b03575b1ec61b879d0b06d",
+          "rendered_generic_labels": [
+            "Catalog observation",
+            "Name",
+            "Manufacturer",
+            "Price"
+          ],
+          "rendered_source_fields": {
+            "manufacturer": "microsoft",
+            "name": "microsoft word 2004 (mac)",
+            "price": "229.99"
+          },
+          "source_id_rendered": false,
+          "source_record_sha256": "d74a0931e8d00c1b91d04eac23ff103843a5b60f0f59a37fb344c39df7760b70",
+          "split": "dev",
+          "view": "compact_reordered",
+          "view_id": "p_31c9ae75635000373aecbcf7:compact_reordered"
+        }
+      },
+      {
+        "view": "compact_degraded",
+        "asset": {
+          "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/control-word-2004-compact-degraded-dev.png",
+          "sha256": "faab8eaed42e25ff317b7184110506b173d5192c72b7914b92a03515313e5fc1",
+          "bytes": 30412,
+          "kind": "generated_source_fact_document_control",
+          "dataset": "Amazon–GoogleProducts source-fact controls",
+          "split": "dev",
+          "source_record_id": "p_31c9ae75635000373aecbcf7",
+          "view": "compact_degraded",
+          "portable_source_render_path": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/.cache/rendered/dev/compact_degraded/p_31c9ae75635000373aecbcf7.png",
+          "source_record_sha256": "d74a0931e8d00c1b91d04eac23ff103843a5b60f0f59a37fb344c39df7760b70",
+          "manifest": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/data/manifest.json",
+          "source_audit": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/data/source-records-audit-only.json",
+          "source_urls": [
+            "https://dbs.uni-leipzig.de/research/projects/benchmark-datasets-for-entity-resolution",
+            "https://dbs.uni-leipzig.de/files/datasets/Amazon-GoogleProducts.zip"
+          ],
+          "source_license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_attribution": "H. Köpcke, A. Thor and E. Rahm. Evaluation of Entity Resolution Approaches on Real-World Match Problems. PVLDB 3(1–2), 2010.",
+          "changes": "Synthetic catalog-observation card rendered from observed source fields under the retained control recipe. Description is omitted in every view; missing_identity also omits name and manufacturer. This gallery copies the existing PNG bytes unchanged.",
+          "linkage_status": "Prepared and OCR-run; model and linkage evaluation unrun."
+        },
+        "ocr_text": "CATALOG OBSERVATION\nPRICE\nMANUFACTURER\nNAME\n229.99\nmicrosoft\nmicrosoft word 2004 (mac)\nPRICE MANUFACTURER WANE\n229.99 | microsoft microsoft word 2004 (mac)",
+        "manifest_record": {
+          "control_family_id": "p_31c9ae75635000373aecbcf7",
+          "degradation": {
+            "blur_radius_output_pixels": 0.6,
+            "downsample_factor": 0.55,
+            "downsample_resampling": "LANCZOS",
+            "expand": true,
+            "fill": "white",
+            "rotation_degrees": -1.5,
+            "rotation_resampling": "BICUBIC"
+          },
+          "description_exposed": false,
+          "expected_evidence_state": "source_identity_fields_present",
+          "ground_truth": "Source-record association only; no counterpart label loaded",
+          "image_path": ".cache/rendered/dev/compact_degraded/p_31c9ae75635000373aecbcf7.png",
+          "image_sha256": "faab8eaed42e25ff317b7184110506b173d5192c72b7914b92a03515313e5fc1",
+          "image_size": [
+            653,
+            117
+          ],
+          "ocr_characters": 155,
+          "ocr_modes": [
+            {
+              "psm": 11,
+              "returncode": 0,
+              "stderr": "Estimating resolution as 163\n",
+              "stdout_sha256": "3177909d072ae0c3e0a3bcf9a2e347615fe75a092f97b0be751a1741adf81d40"
+            },
+            {
+              "psm": 6,
+              "returncode": 0,
+              "stderr": "",
+              "stdout_sha256": "a4757943f9726467e8b660938b11f95bbff0116b0727ffbd6dfe7d7522f909b3"
+            }
+          ],
+          "ocr_sha256": "f2b2dad8597a6a65894be5a89b3af1eb5eadc69eb1c2f3b62135a223c85a9693",
+          "ocr_words": 21,
+          "original_query_id": "p_31c9ae75635000373aecbcf7",
+          "pixel_sha256": "af6727ae0e4910b85c35a63e77ee00493b3a58e7d65a7ae8f77773a9511f226e",
+          "rendered_generic_labels": [
+            "Catalog observation",
+            "Name",
+            "Manufacturer",
+            "Price"
+          ],
+          "rendered_source_fields": {
+            "manufacturer": "microsoft",
+            "name": "microsoft word 2004 (mac)",
+            "price": "229.99"
+          },
+          "source_id_rendered": false,
+          "source_record_sha256": "d74a0931e8d00c1b91d04eac23ff103843a5b60f0f59a37fb344c39df7760b70",
+          "split": "dev",
+          "view": "compact_degraded",
+          "view_id": "p_31c9ae75635000373aecbcf7:compact_degraded"
+        }
+      },
+      {
+        "view": "missing_identity",
+        "asset": {
+          "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/control-word-2004-missing-identity-dev.png",
+          "sha256": "9707f8c351de3327bf434f267b9d100074fd99164307572493b11409672b24c7",
+          "bytes": 7712,
+          "kind": "generated_source_fact_document_control",
+          "dataset": "Amazon–GoogleProducts source-fact controls",
+          "split": "dev",
+          "source_record_id": "p_31c9ae75635000373aecbcf7",
+          "view": "missing_identity",
+          "portable_source_render_path": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/.cache/rendered/dev/missing_identity/p_31c9ae75635000373aecbcf7.png",
+          "source_record_sha256": "d74a0931e8d00c1b91d04eac23ff103843a5b60f0f59a37fb344c39df7760b70",
+          "manifest": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/data/manifest.json",
+          "source_audit": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/data/source-records-audit-only.json",
+          "source_urls": [
+            "https://dbs.uni-leipzig.de/research/projects/benchmark-datasets-for-entity-resolution",
+            "https://dbs.uni-leipzig.de/files/datasets/Amazon-GoogleProducts.zip"
+          ],
+          "source_license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_attribution": "H. Köpcke, A. Thor and E. Rahm. Evaluation of Entity Resolution Approaches on Real-World Match Problems. PVLDB 3(1–2), 2010.",
+          "changes": "Synthetic catalog-observation card rendered from observed source fields under the retained control recipe. Description is omitted in every view; missing_identity also omits name and manufacturer. This gallery copies the existing PNG bytes unchanged.",
+          "linkage_status": "Prepared and OCR-run; model and linkage evaluation unrun."
+        },
+        "ocr_text": "Catalog observation\nPrice\n229.99",
+        "manifest_record": {
+          "control_family_id": "p_31c9ae75635000373aecbcf7",
+          "degradation": null,
+          "description_exposed": false,
+          "expected_evidence_state": "insufficient_identity_evidence",
+          "ground_truth": "Source-record association only; no counterpart label loaded",
+          "image_path": ".cache/rendered/dev/missing_identity/p_31c9ae75635000373aecbcf7.png",
+          "image_sha256": "9707f8c351de3327bf434f267b9d100074fd99164307572493b11409672b24c7",
+          "image_size": [
+            660,
+            260
+          ],
+          "ocr_characters": 32,
+          "ocr_modes": [
+            {
+              "psm": 11,
+              "returncode": 0,
+              "stderr": "Estimating resolution as 260\n",
+              "stdout_sha256": "a30f06c460e1b8454b902f92bdd8857150ad9737fee5e7b37b6315627e51a36b"
+            },
+            {
+              "psm": 6,
+              "returncode": 0,
+              "stderr": "",
+              "stdout_sha256": "d1dce5556dbd2eb8da9e703f786ef57d2a2c329f99a5280e12f24806d30705c1"
+            }
+          ],
+          "ocr_sha256": "f914e5505270b117cf18ac11c8eee970078b4fce614c12e438921ebfdbbadec0",
+          "ocr_words": 4,
+          "original_query_id": "p_31c9ae75635000373aecbcf7",
+          "pixel_sha256": "7dd84f9e39ae9a5ffb9e7842e1d256486038ed2623c23cbfd462040c841b7ded",
+          "rendered_generic_labels": [
+            "Catalog observation",
+            "Price"
+          ],
+          "rendered_source_fields": {
+            "price": "229.99"
+          },
+          "source_id_rendered": false,
+          "source_record_sha256": "d74a0931e8d00c1b91d04eac23ff103843a5b60f0f59a37fb344c39df7760b70",
+          "split": "dev",
+          "view": "missing_identity",
+          "view_id": "p_31c9ae75635000373aecbcf7:missing_identity"
+        }
+      }
+    ]
+  },
+  "source_files": [
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/data/amazon-google/v2/records.json",
+      "sha256": "348231e9bf0ec59acf9a13e65e74c5cb1d1e80344c7b9a897c8469d17ba93a5c"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/data/amazon-google/v2/partitions.json",
+      "sha256": "65112f0240dd25ca9e23c4e1655bd18c1d9f9cb6e6b63dd685f9f9cc8632fab8"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/model-development-v1/common-query-outcomes.json",
+      "sha256": "a9fc3f44171432eba8776c96dd9654ddb59492aa845106aee71a536425fbfa68"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/model-development-v1/completion.json",
+      "sha256": "bd7f0182cffb9966fb2031d1d7e3796d2e95e880f57739ad1d16181b67dae97e"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/baseline-v6/amazon-google/dev/candidates.json",
+      "sha256": "db7c328ae498e3fd609a19087038735f748403b861dafb36bbd28e04875c8182"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/model-development-v1/selection-decisions.json",
+      "sha256": "68089dadc661d8faa34ae8dbe14d1d9f5faf4448a2cdcd0059749c19789272eb"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/data/abt-buy/v2/records.json",
+      "sha256": "015db54ff8bc27cd77ea9e34dc79fd56a5ec4c8257ef778b0a6af805f96a0b26"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/data/abt-buy/v2/partitions.json",
+      "sha256": "21bd9adf63397cbe6289ea690e9d704fc6cc312a4114e9dc49cfc0cef2694769"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/free-abt-reference-v1/common-query-outcomes.json",
+      "sha256": "b93b8975f9163dc8a09a7a580945d1053a1598bc18c520083e5115a15aef3949"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/free-abt-reference-v1/completion.json",
+      "sha256": "bca717cf2f90f2a2774733df0c41aa0a5eefcbe945c5c1c87dc9e6437b5c85d5"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/products/results/baseline-v6/abt-buy/test/candidates.json",
+      "sha256": "1c68bf47ec319462e6dfba19e107aece6d98c3b83c1ac4b69fef17f0a2451fc2"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/organizations/protocol.json",
+      "sha256": "b69d735319455faef3def98d729913bd8ebc53112650d5c2973ed6157504a534"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/organizations/data/source-manifest.json",
+      "sha256": "e107b4625d02d1da3c3297ba7fa0d2a0bb44e176de8a467573f77c54cf81f50b"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/organizations/data/cordis-observed.jsonl",
+      "sha256": "9d7461fec82eb9845209b9d0d523ece850b1de8c05f25a54664d35cabeb3f180"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/organizations/data/native-observed.jsonl",
+      "sha256": "d0af4e54d4e43218fcc65dc49c738095f08a33076be35a9e7318d0addc430e55"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/organizations/data/ror-v1.41-observed.jsonl.gz",
+      "sha256": "6c79c90e40f944e703d8ea91cba06bba970e82e04257f31d15e7377c00e783ef"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/organizations/data/gold/reference.jsonl",
+      "sha256": "e7f4e8435b8c2455cfa1ef2dde063d8d9eb5a8a64d5459db5a247fccdc363b8d"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/organizations/data/gold/registry-identifiers.json",
+      "sha256": "83f6610d5a0ed9704ec81738c474ffcde423ca41f2c2dab7a07d6b198142e3d9"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/organizations/data/partitions.json",
+      "sha256": "c3c4b234fd8e28ff430d538dd811ee3a26ba792601f7af2fe9402daf160a3ea6"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/organizations/results/candidates.jsonl.gz",
+      "sha256": "5140cecd15bfe74dd5e146a36215527f0b18d09c0ebb1e094ba79c7bea52d4c6"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/organizations/results/lexical-predictions.jsonl",
+      "sha256": "6547db5788cee62ab21ef7207ca5d6df8bf2b635742961489d0436228d2835dc"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/organizations/results/splink-pair-predictions.jsonl.gz",
+      "sha256": "c6738414c94443bdd6c9c768c5eeb4cfd89d00e270ce0d0acbdd53a1fa12bb48"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/organizations/results/conventional-evaluation.json",
+      "sha256": "697853cf87aa5c73c8c0d1f828a9c667e0623e15d5d9c8b377745ee722a35d32"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/organizations/results/free-evaluation-v1/query-outcomes.jsonl.gz",
+      "sha256": "35dc42b50df661e775ac491aaaf7baa72f98dffabb76bdc3f1a01153fe46f00a"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/organizations/results/free-evaluation-v1/summary.json",
+      "sha256": "673225470ba1884c88c3790573661ae212ffb95c9b1cc486c0f01f9d41c4e28c"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/data/queries-dev.jsonl",
+      "sha256": "79fb656f2d0a2dc53d4ebc0c91d7a7bdc296f10508c5cb778c9f1935f40943ad"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/data/catalog-dev.jsonl",
+      "sha256": "8e40757da2547945dd371e95ecad0d16efdd65585b49bb18a5e866c6ff73752a"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/data/input-manifest.jsonl",
+      "sha256": "a03de1178a947a9ce77e98d90b9b2b132f9d1f8f2ddb05bd786a2793360af295"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/evaluator/gold-dev.jsonl",
+      "sha256": "15cad848801724a82ce6902f5529c1840a2af78fc03fe536bbaa6855b2d36d72"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/evaluator/source-map.jsonl",
+      "sha256": "b9685c1e57ca6ac826b753ec15ea935826dc9573fade244cc780cf8c5bb6ee78"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/evaluator/catalog-source-map.jsonl",
+      "sha256": "37072b1246d821b1af7814860886ea8b0b112a5dea5e2cd866c7aaac2313b8d6"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/evaluator/fetch-manifest.jsonl",
+      "sha256": "588a290a796dcf0e6c9323e8951c8eb076bfc2746a85fc3363d4a2fc550b3bc1"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/results/ocr-dev80.jsonl",
+      "sha256": "378cb79de58e8ec9b4c79922be3f64638b6b5726eb23029ffe47d2876857385c"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/results/model-development-v1/common-decisions.json",
+      "sha256": "483d05efb23a1bbfd6a0a8e7728446b0db34ac410144f608190ef7e3f5a1de64"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/results/model-development-v1/ocr-extraction.jsonl",
+      "sha256": "00bf661285a25a01ac5696932df54d8cda54f4ee371de019c5298cac67648907"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/results/model-development-v1/pixel-extraction.jsonl",
+      "sha256": "f9a7d33124803e8d142645f812288473230cfb9b100e4c0c3d64f1cb53e8c9b8"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/images/results/model-development-v1/error-audit.json",
+      "sha256": "159b9042b9cdc7b03101e2d6c33facf777ae606fca3cf18a43fa054817bdf40b"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/data/manifest.json",
+      "sha256": "a6821034d568cabf06465d4f73b4bbd32bd3959d79563204ed334e473bf180e0"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/data/source-records-audit-only.json",
+      "sha256": "0ae4e8dd4c43e39c27f9e6f25b4ea452aec88a4c46172823ce609bb884354416"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/data/summary.json",
+      "sha256": "dedfcbffabecd7793da066ac0165fb507f3908b34a143901dd94b163b576d464"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/controls/data/selection.json",
+      "sha256": "9cd6488b2b4e7591d1ed60f80223391b7252393985c35d765e24b4b1845ab691"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/abo-artichoke-mushrooms-dev.jpg",
+      "sha256": "b1dcb7e36434bdc5c342a32d936df3e419486509bac24046894430549c83b030"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/abo-vedaka-rice-dev.jpg",
+      "sha256": "62a90d4ba9f11818b40d44cf11e9223b579744ae86ac5562bf4853fdc59f56f9"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/abo-ground-seed-blend-dev.jpg",
+      "sha256": "3443e171ecea9baec0e75bf0a6a3a4581eb61f846c486c908e5177621b82c25e"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/control-word-2004-clean-structured-dev.png",
+      "sha256": "767602f8b69e57a3126ae11a234f1d6a14ab8bd0576c63baa8aa70a39bcebda5"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/control-word-2004-compact-reordered-dev.png",
+      "sha256": "c49a93a4ec8e8786d5eac20ef3a8897aae58efe80dda915742ad227ad4758a96"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/control-word-2004-compact-degraded-dev.png",
+      "sha256": "faab8eaed42e25ff317b7184110506b173d5192c72b7914b92a03515313e5fc1"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/control-word-2004-missing-identity-dev.png",
+      "sha256": "9707f8c351de3327bf434f267b9d100074fd99164307572493b11409672b24c7"
+    },
+    {
+      "path": "LLM_basics/nso-semantic-workflows/adversarial-2026/figures/dataset-showcase/source-attribution.json",
+      "sha256": "9b958c82ec587a35edbc47818758a17332efe833f8df6da61f788a173cf55ade"
+    }
+  ]
+}

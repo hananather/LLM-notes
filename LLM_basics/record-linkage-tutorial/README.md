@@ -1,11 +1,10 @@
 # Record linkage with Splink and LOTUS
 
-[Open the notebook](../record-linkage-with-semantic-operators.ipynb) for a
-computational companion to the LOTUS paper. It connects Fellegi–Sunter linkage
-with semantic joins, then examines how text interpretation could support
-national statistical offices. One notebook contains eight sections, fourteen
-figures, three small experiments, an agentic dataset workflow, worked
-calculations and a source-linked research guide.
+[Open the short primer](../record-linkage-with-semantic-operators.ipynb) for the
+relation definition, one Fellegi–Sunter calculation, the saved person-linkage
+comparison and native LOTUS text examples. It ends with a compact check of the
+synthetic tool-use demonstration. Detailed evidence and reproduction commands
+remain here; exploratory research is linked separately.
 
 A [separate NSO experiment notebook](../nso-semantic-workflows.ipynb) adds public affiliation linkage, synthetic NAICS/NOC coding, a school-linkage screen, catalog discovery and statistical-query comparisons, with frozen baselines and complete outcomes.
 
@@ -62,9 +61,9 @@ This command fixes the protocol before fitting, saves predictions before
 joining identity truth, and preserves each run under a new timestamp.
 It makes no model API calls. The notebook replays the saved 6 October run.
 
-The HTML reading copy omits the setup cell and the longer worked-pair code.
-The notebook retains both for execution and inspection.
-The opening and dataset diagrams are embedded so they display without running code.
+The HTML reading copy omits setup and execution inputs. The notebook retains
+the code for execution and inspection.
+The retained BioDEX diagram is embedded so it displays without running code.
 
 Live requests are explicit and independent:
 
@@ -86,7 +85,7 @@ The check bounds planned request sizes at the recorded prices, not an invoice.
 Saved notebooks return to replay mode for their next execution.
 
 Every successful live rerun writes new timestamped snapshots. Existing results
-are never overwritten. Dated prose and Figure 6 identify the saved GPT-6 Luna
+are never overwritten. The result sections identify the saved GPT-6 Luna
 comparison; result tables identify the responses used by the current execution.
 Live defaults use only the two 2026 models, with reasoning disabled. The
 Boolean experiments cap answers at 32 tokens. The agentic workflow permits
@@ -127,16 +126,12 @@ was a true link, but the exact 95% interval still allows 0–13 true links
 in that group without using its one-to-one constraint. The separate full truth census confirms zero. This shows
 why a zero-error sample does not prove perfect recall.
 
-Sections 1–5 define the entity relation, explain comparison evidence, introduce
-LOTUS, and run the structured and text examples. Section 5 also maps the
-workflows to NSO classification, catalogue search, extraction and survey
-feedback, with primary institutional references and conventional comparators.
-Section 5.6 then demonstrates the current `Corpus.agent` API: a model plans
-instructions, three agents read source returns and call an exact calculator,
-and a reducer combines their findings. Recorded tool observations and an
-independent check make revision selection and unit conversion inspectable.
-The synthetic workflow illustrates execution; it does not estimate accuracy
-on operational NSO documents or savings over a purpose-built parser.
+The primer distinguishes the requested relation, evidence scoring, identity
+comparison and native text operators. Its final section verifies the saved
+`Corpus.agent` demonstration in one row. The supporting trace records planning,
+source selection, unit conversion and calculation. This synthetic workflow
+illustrates execution; it does not estimate accuracy on operational NSO
+documents or savings over a purpose-built parser.
 
 The recorded agentic run selected every source and count correctly and returned
 1,130 completed cases out of 1,600 eligible cases (70.6%, rounded). Twelve model calls
@@ -148,9 +143,9 @@ observation and the independent reference. The notebook shows the plan fields
 used here; the snapshot also retains native metadata. In LOTUS 1.2.4,
 `reduce_strategy` is unused: the reducer is a single agent over all findings.
 
-Sections 6–8 develop proposed research on diagnostic repairs, reusable LLM
-supervision and scale. The illustrative arithmetic is executed; the repair,
-distillation and 100M-by-100M studies have not been run. The supporting
+Diagnostic repairs, reusable LLM supervision and large-scale deployment remain
+research proposals outside the short reader. The repair, distillation and
+100M-by-100M studies have not been run. The supporting
 [research notes](../../research/error-guided-record-linkage/README.md) retain
 the fuller evidence review and experimental protocol.
 

@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "retrieved_at_utc": "2026-10-08T05:49:04.380734+00:00",
+  "dataset": {
+    "name": "rmahari/LePaRD",
+    "url": "https://huggingface.co/datasets/rmahari/LePaRD",
+    "revision": "0194f95c3091acceab3b887c9b09ef432cf84052",
+    "metadata_url": "https://huggingface.co/api/datasets/rmahari/LePaRD",
+    "config": "default",
+    "split": "train",
+    "license": "CC-BY-NC-SA-4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "card": {
+      "url": "https://huggingface.co/datasets/rmahari/LePaRD/raw/0194f95c3091acceab3b887c9b09ef432cf84052/README.md",
+      "file": "source-dataset-card.md",
+      "sha256": "ce31ca1e848f3c046eee81d74fcce54848f19562ef85c10619ba33203acc44fb"
+    }
+  },
+  "authors": [
+    "Robert Mahari",
+    "Dominik Stammbach",
+    "Elliott Ash",
+    "Alex Pentland"
+  ],
+  "paper_url": "https://aclanthology.org/2024.acl-long.532/",
+  "author_code": {
+    "url": "https://github.com/rmahari/LePaRD",
+    "revision": "cf9d84534a24c118041061eae7bc3f4f9b69e2a9",
+    "extraction_source_url": "https://raw.githubusercontent.com/rmahari/LePaRD/cf9d84534a24c118041061eae7bc3f4f9b69e2a9/src/data/precedent_data_extraction.py",
+    "extraction_source_sha256": "577e1609da7b1a055cb328ef92d61ec5d62a573bedbdb9cdb5508dac8996cf63",
+    "inspected_functions": [
+      "extract_case_precedent",
+      "citation_matcher",
+      "assign_passage_id",
+      "get_destination_context"
+    ]
+  },
+  "retrieval_documentation": "https://huggingface.co/docs/dataset-viewer/en/rows",
+  "row_hash_encoding": "UTF-8 json.dumps(row, ensure_ascii=False, sort_keys=True, separators=(comma, colon))",
+  "selection": {
+    "type": "purposive_illustration",
+    "inspected_viewer_indices": "0 through 29",
+    "retained_viewer_indices": [
+      12,
+      23,
+      24
+    ],
+    "reason": "Civil and tax context; one example retains generic quotation ambiguity. This is not a random or representative sample.",
+    "scope": "Complete row fields from three viewer rows, not full opinions or the canonical passage dictionary.",
+    "viewer_warning": "The endpoint reported partial=true. Its 3,990,000-row count is the accessible viewer subset, not a claim about full LePaRD corpus size."
+  },
+  "rows": [
+    {
+      "row_idx": 12,
+      "request_url": "https://datasets-server.huggingface.co/rows?dataset=rmahari%2FLePaRD&config=default&split=train&offset=12&length=1",
+      "response_file": "source-responses/row-12.json",
+      "response_sha256": "737a698cbe72d406d1f5427c4fb7c86a2bbeefc926627f793e6783dda566df68",
+      "response_bytes": 4089,
+      "response_revision": "0194f95c3091acceab3b887c9b09ef432cf84052",
+      "row_sha256": "587de3c1adee833eb4a9d9de72413a2fbbef887ccf292e64c5b6b870222a59d8",
+      "quote_sha256": "3b8c2b207b52768b371061d6ac230c29dc82e779200a508fcc9aaf4b0cd05444",
+      "destination_context_sha256": "a953a08f208d08f8f0207ebecefe9afe99c2cd7a63d68f283b1be1f630041b22",
+      "truncated_cells": [],
+      "viewer_partial": true,
+      "viewer_num_rows_total": 3990000
+    },
+    {
+      "row_idx": 23,
+      "request_url": "https://datasets-server.huggingface.co/rows?dataset=rmahari%2FLePaRD&config=default&split=train&offset=23&length=1",
+      "response_file": "source-responses/row-23.json",
+      "response_sha256": "be706fce66382ac0eb8b7fa64a4604fc85c88af67f39bec4fb0f3f874496efe6",
+      "response_bytes": 3385,
+      "response_revision": "0194f95c3091acceab3b887c9b09ef432cf84052",
+      "row_sha256": "12bbc21b3e66694c13359edd102ac70250eedd17b7e9a6e2b9b00cf4deacb6cc",
+      "quote_sha256": "db1b8b1a51922856262b53b587e6d2e119696750199ef6a47fe78a090244137f",
+      "destination_context_sha256": "a2a901347dcce1deada739070b0ec6987c24f801c5436e522436afe19ffa0872",
+      "truncated_cells": [],
+      "viewer_partial": true,
+      "viewer_num_rows_total": 3990000
+    },
+    {
+      "row_idx": 24,
+      "request_url": "https://datasets-server.huggingface.co/rows?dataset=rmahari%2FLePaRD&config=default&split=train&offset=24&length=1",
+      "response_file": "source-responses/row-24.json",
+      "response_sha256": "5a71dcb180173ab5245f1af63b1d2841825fee6e552ca8c0f253b3eaf8bcc482",
+      "response_bytes": 3319,
+      "response_revision": "0194f95c3091acceab3b887c9b09ef432cf84052",
+      "row_sha256": "f870f7df65262de93fa522bc3fc43875a84b8115c7abff04ad0333d19c3a2edf",
+      "quote_sha256": "83e13102b75b74439b96739d772021cba1e226d5302a0377a5f05632780ffa84",
+      "destination_context_sha256": "dfa289d40dfafd27e285e49076fc91a57ac2192b6f2c7f944bc0e78255eb1a00",
+      "truncated_cells": [],
+      "viewer_partial": true,
+      "viewer_num_rows_total": 3990000
+    }
+  ]
+}

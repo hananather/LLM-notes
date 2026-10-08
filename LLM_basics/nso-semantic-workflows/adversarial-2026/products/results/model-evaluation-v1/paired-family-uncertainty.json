@@ -1,0 +1,4802 @@
+{
+  "lexical/threshold=0.5/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 399,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.19588348765432098,
+          0.2714180622096615
+        ],
+        "difference": 0.23379819524200163,
+        "total_difference": 285,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09163874983044859,
+          -0.015447030743627943
+        ],
+        "difference": -0.052502050861361775,
+        "total_difference": -64,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.4863891632102179,
+          -0.16765372616112317
+        ],
+        "difference": -0.3059885151763741,
+        "total_difference": -373,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.27907407762154707,
+          -0.21859639339911344
+        ],
+        "difference": -0.24856439704675964,
+        "total_difference": -303,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.01993203629660538,
+          0.047788299388245165
+        ],
+        "difference": 0.033634126333059886,
+        "total_difference": 41,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.3187279866043074,
+          -0.2379728971008575
+        ],
+        "difference": -0.27891714520098443,
+        "total_difference": -340,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 114,
+    "source_families": 916
+  },
+  "lexical/threshold=0.5/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 399,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.19588348765432098,
+          0.2714180622096615
+        ],
+        "difference": 0.23379819524200163,
+        "total_difference": 285,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09163874983044859,
+          -0.015447030743627943
+        ],
+        "difference": -0.052502050861361775,
+        "total_difference": -64,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.4863891632102179,
+          -0.16765372616112317
+        ],
+        "difference": -0.3059885151763741,
+        "total_difference": -373,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.27907407762154707,
+          -0.21859639339911344
+        ],
+        "difference": -0.24856439704675964,
+        "total_difference": -303,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.01993203629660538,
+          0.047788299388245165
+        ],
+        "difference": 0.033634126333059886,
+        "total_difference": 41,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.3187279866043074,
+          -0.2379728971008575
+        ],
+        "difference": -0.27891714520098443,
+        "total_difference": -340,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 114,
+    "source_families": 916
+  },
+  "lexical/threshold=0.65/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 482,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2196308997199789,
+          0.3055713897937024
+        ],
+        "difference": 0.26251025430680885,
+        "total_difference": 320,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11596057030981834,
+          0.17510889781615996
+        ],
+        "difference": 0.14602132895816242,
+        "total_difference": 178,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.1496542491888154,
+          0.24695976487280832
+        ],
+        "difference": 0.20016406890894176,
+        "total_difference": 244,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.498295394440145,
+          -0.4321978277577768
+        ],
+        "difference": -0.4643150123051682,
+        "total_difference": -566,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.060798602885345485,
+          0.0950051907120597
+        ],
+        "difference": 0.0771123872026251,
+        "total_difference": 94,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.5652911504300607,
+          -0.48120639471503956
+        ],
+        "difference": -0.5225594749794914,
+        "total_difference": -637,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 162,
+    "source_families": 916
+  },
+  "lexical/threshold=0.65/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 482,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2196308997199789,
+          0.3055713897937024
+        ],
+        "difference": 0.26251025430680885,
+        "total_difference": 320,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11596057030981834,
+          0.17510889781615996
+        ],
+        "difference": 0.14602132895816242,
+        "total_difference": 178,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.1496542491888154,
+          0.24695976487280832
+        ],
+        "difference": 0.20016406890894176,
+        "total_difference": 244,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.498295394440145,
+          -0.4321978277577768
+        ],
+        "difference": -0.4643150123051682,
+        "total_difference": -566,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.060798602885345485,
+          0.0950051907120597
+        ],
+        "difference": 0.0771123872026251,
+        "total_difference": 94,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.5652911504300607,
+          -0.48120639471503956
+        ],
+        "difference": -0.5225594749794914,
+        "total_difference": -637,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 162,
+    "source_families": 916
+  },
+  "lexical/threshold=0.8/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 607,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.31880543655967386,
+          0.4068802916881776
+        ],
+        "difference": 0.36177194421657094,
+        "total_difference": 441,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.22354497538039472,
+          0.2813997552726621
+        ],
+        "difference": 0.2526661197703035,
+        "total_difference": 308,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.295713524439021,
+          0.39627775882168953
+        ],
+        "difference": 0.34618539786710417,
+        "total_difference": 422,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7151234385511938,
+          -0.6556593287167676
+        ],
+        "difference": -0.6858080393765381,
+        "total_difference": -836,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.08333154506437768,
+          0.1213953600825256
+        ],
+        "difference": 0.10172272354388844,
+        "total_difference": 124,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7801304314163574,
+          -0.6956866664308204
+        ],
+        "difference": -0.7366694011484823,
+        "total_difference": -898,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 166,
+    "source_families": 916
+  },
+  "lexical/threshold=0.8/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 607,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.31880543655967386,
+          0.4068802916881776
+        ],
+        "difference": 0.36177194421657094,
+        "total_difference": 441,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.22354497538039472,
+          0.2813997552726621
+        ],
+        "difference": 0.2526661197703035,
+        "total_difference": 308,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.295713524439021,
+          0.39627775882168953
+        ],
+        "difference": 0.34618539786710417,
+        "total_difference": 422,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7151234385511938,
+          -0.6556593287167676
+        ],
+        "difference": -0.6858080393765381,
+        "total_difference": -836,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.08333154506437768,
+          0.1213953600825256
+        ],
+        "difference": 0.10172272354388844,
+        "total_difference": 124,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7801304314163574,
+          -0.6956866664308204
+        ],
+        "difference": -0.7366694011484823,
+        "total_difference": -898,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 166,
+    "source_families": 916
+  },
+  "lexical/threshold=0.9/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 655,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.34666441251056634,
+          0.4375581303710319
+        ],
+        "difference": 0.3921246923707957,
+        "total_difference": 478,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2575239465489377,
+          0.3140397336769759
+        ],
+        "difference": 0.2863002461033634,
+        "total_difference": 349,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33192158791654636,
+          0.43424220645193656
+        ],
+        "difference": 0.3831009023789992,
+        "total_difference": 467,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7859477124183006,
+          -0.7310440878114929
+        ],
+        "difference": -0.7588187038556193,
+        "total_difference": -925,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.09613373863449097,
+          0.13475831358684442
+        ],
+        "difference": 0.11484823625922888,
+        "total_difference": 140,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8413418595131578,
+          -0.75420532688448
+        ],
+        "difference": -0.7973748974569319,
+        "total_difference": -972,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 177,
+    "source_families": 916
+  },
+  "lexical/threshold=0.9/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 655,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.34666441251056634,
+          0.4375581303710319
+        ],
+        "difference": 0.3921246923707957,
+        "total_difference": 478,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2575239465489377,
+          0.3140397336769759
+        ],
+        "difference": 0.2863002461033634,
+        "total_difference": 349,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33192158791654636,
+          0.43424220645193656
+        ],
+        "difference": 0.3831009023789992,
+        "total_difference": 467,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7859477124183006,
+          -0.7310440878114929
+        ],
+        "difference": -0.7588187038556193,
+        "total_difference": -925,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.09613373863449097,
+          0.13475831358684442
+        ],
+        "difference": 0.11484823625922888,
+        "total_difference": 140,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8413418595131578,
+          -0.75420532688448
+        ],
+        "difference": -0.7973748974569319,
+        "total_difference": -972,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 177,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.5;threshold=0.5/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 562,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2606838923077236,
+          0.35083405172413795
+        ],
+        "difference": 0.30680885972108285,
+        "total_difference": 374,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.17685790603168805,
+          0.24339523700116394
+        ],
+        "difference": 0.21082854799015588,
+        "total_difference": 257,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.20048668885191348,
+          0.3090213903743315
+        ],
+        "difference": 0.2559474979491386,
+        "total_difference": 312,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6215144316697322,
+          -0.5521080102685466
+        ],
+        "difference": -0.5857260049220673,
+        "total_difference": -714,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.0869210303599467,
+          0.1257100034413432
+        ],
+        "difference": 0.10582444626743231,
+        "total_difference": 129,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6815597798259089,
+          -0.5991854830120354
+        ],
+        "difference": -0.6406890894175554,
+        "total_difference": -781,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 188,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.5;threshold=0.5/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 562,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2606838923077236,
+          0.35083405172413795
+        ],
+        "difference": 0.30680885972108285,
+        "total_difference": 374,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.17685790603168805,
+          0.24339523700116394
+        ],
+        "difference": 0.21082854799015588,
+        "total_difference": 257,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.20048668885191348,
+          0.3090213903743315
+        ],
+        "difference": 0.2559474979491386,
+        "total_difference": 312,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6215144316697322,
+          -0.5521080102685466
+        ],
+        "difference": -0.5857260049220673,
+        "total_difference": -714,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.0869210303599467,
+          0.1257100034413432
+        ],
+        "difference": 0.10582444626743231,
+        "total_difference": 129,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6815597798259089,
+          -0.5991854830120354
+        ],
+        "difference": -0.6406890894175554,
+        "total_difference": -781,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 188,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.5;threshold=0.9/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 603,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.28477850244128444,
+          0.37858326429163214
+        ],
+        "difference": 0.3314191960623462,
+        "total_difference": 404,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2399604091476372,
+          0.3024815608293647
+        ],
+        "difference": 0.2723543888433142,
+        "total_difference": 332,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3117595066846979,
+          0.4153283121156543
+        ],
+        "difference": 0.3642329778506973,
+        "total_difference": 444,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7144071656518667,
+          -0.6504189844952065
+        ],
+        "difference": -0.682526661197703,
+        "total_difference": -832,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.10185764195186948,
+          0.14310498425367685
+        ],
+        "difference": 0.12223133716160788,
+        "total_difference": 149,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.780281144133676,
+          -0.6923076923076923
+        ],
+        "difference": -0.7350287120590648,
+        "total_difference": -896,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 199,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.5;threshold=0.9/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 603,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.28477850244128444,
+          0.37858326429163214
+        ],
+        "difference": 0.3314191960623462,
+        "total_difference": 404,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2399604091476372,
+          0.3024815608293647
+        ],
+        "difference": 0.2723543888433142,
+        "total_difference": 332,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3117595066846979,
+          0.4153283121156543
+        ],
+        "difference": 0.3642329778506973,
+        "total_difference": 444,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7144071656518667,
+          -0.6504189844952065
+        ],
+        "difference": -0.682526661197703,
+        "total_difference": -832,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.10185764195186948,
+          0.14310498425367685
+        ],
+        "difference": 0.12223133716160788,
+        "total_difference": 149,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.780281144133676,
+          -0.6923076923076923
+        ],
+        "difference": -0.7350287120590648,
+        "total_difference": -896,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 199,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.5;threshold=0.99/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 663,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33001106711341255,
+          0.42657419705385174
+        ],
+        "difference": 0.37899917965545526,
+        "total_difference": 462,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.27433271481587207,
+          0.33624154847352083
+        ],
+        "difference": 0.3059885151763741,
+        "total_difference": 373,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.34671683735208325,
+          0.4522297466542618
+        ],
+        "difference": 0.39950779327317476,
+        "total_difference": 487,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7959222852963711,
+          -0.7411855895449779
+        ],
+        "difference": -0.7686628383921247,
+        "total_difference": -937,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11556322926386618,
+          0.15932789090067676
+        ],
+        "difference": 0.1361771944216571,
+        "total_difference": 166,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8493264968602035,
+          -0.765625
+        ],
+        "difference": -0.8072190319934373,
+        "total_difference": -984,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 201,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.5;threshold=0.99/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 663,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33001106711341255,
+          0.42657419705385174
+        ],
+        "difference": 0.37899917965545526,
+        "total_difference": 462,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.27433271481587207,
+          0.33624154847352083
+        ],
+        "difference": 0.3059885151763741,
+        "total_difference": 373,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.34671683735208325,
+          0.4522297466542618
+        ],
+        "difference": 0.39950779327317476,
+        "total_difference": 487,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7959222852963711,
+          -0.7411855895449779
+        ],
+        "difference": -0.7686628383921247,
+        "total_difference": -937,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11556322926386618,
+          0.15932789090067676
+        ],
+        "difference": 0.1361771944216571,
+        "total_difference": 166,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8493264968602035,
+          -0.765625
+        ],
+        "difference": -0.8072190319934373,
+        "total_difference": -984,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 201,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.5;threshold=0.999/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 670,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33409447715166807,
+          0.4324330064984271
+        ],
+        "difference": 0.38392124692370794,
+        "total_difference": 468,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2858375606408714,
+          0.3444091026388792
+        ],
+        "difference": 0.3158326497128794,
+        "total_difference": 385,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3624974350199128,
+          0.4657737662370228
+        ],
+        "difference": 0.4142739950779327,
+        "total_difference": 505,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8115829652702313,
+          -0.7555002465533891
+        ],
+        "difference": -0.7842493847415914,
+        "total_difference": -956,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11784836538290913,
+          0.16246798151689826
+        ],
+        "difference": 0.13945857260049221,
+        "total_difference": 170,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8605673707349168,
+          -0.7747647121906224
+        ],
+        "difference": -0.8187038556193601,
+        "total_difference": -998,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 202,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.5;threshold=0.999/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 670,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33409447715166807,
+          0.4324330064984271
+        ],
+        "difference": 0.38392124692370794,
+        "total_difference": 468,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2858375606408714,
+          0.3444091026388792
+        ],
+        "difference": 0.3158326497128794,
+        "total_difference": 385,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3624974350199128,
+          0.4657737662370228
+        ],
+        "difference": 0.4142739950779327,
+        "total_difference": 505,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8115829652702313,
+          -0.7555002465533891
+        ],
+        "difference": -0.7842493847415914,
+        "total_difference": -956,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11784836538290913,
+          0.16246798151689826
+        ],
+        "difference": 0.13945857260049221,
+        "total_difference": 170,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8605673707349168,
+          -0.7747647121906224
+        ],
+        "difference": -0.8187038556193601,
+        "total_difference": -998,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 202,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.8;threshold=0.5/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 572,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.26947376984239274,
+          0.35947942557304613
+        ],
+        "difference": 0.31501230516817064,
+        "total_difference": 384,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.1860273980238344,
+          0.2519022679448211
+        ],
+        "difference": 0.21903199343724364,
+        "total_difference": 267,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.20997229789719707,
+          0.31922036909302776
+        ],
+        "difference": 0.26579163248564397,
+        "total_difference": 324,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6402647666887407,
+          -0.5716443510014386
+        ],
+        "difference": -0.605414273995078,
+        "total_difference": -738,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.08863513930203874,
+          0.12735215053763438
+        ],
+        "difference": 0.10746513535684987,
+        "total_difference": 131,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7003918566332377,
+          -0.6191991154791154
+        ],
+        "difference": -0.6595570139458573,
+        "total_difference": -804,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 188,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.8;threshold=0.5/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 572,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.26947376984239274,
+          0.35947942557304613
+        ],
+        "difference": 0.31501230516817064,
+        "total_difference": 384,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.1860273980238344,
+          0.2519022679448211
+        ],
+        "difference": 0.21903199343724364,
+        "total_difference": 267,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.20997229789719707,
+          0.31922036909302776
+        ],
+        "difference": 0.26579163248564397,
+        "total_difference": 324,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6402647666887407,
+          -0.5716443510014386
+        ],
+        "difference": -0.605414273995078,
+        "total_difference": -738,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.08863513930203874,
+          0.12735215053763438
+        ],
+        "difference": 0.10746513535684987,
+        "total_difference": 131,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7003918566332377,
+          -0.6191991154791154
+        ],
+        "difference": -0.6595570139458573,
+        "total_difference": -804,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 188,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.8;threshold=0.9/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 631,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3029550633012949,
+          0.3974385245901639
+        ],
+        "difference": 0.3502871205906481,
+        "total_difference": 427,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.25401533837807444,
+          0.31630273663572156
+        ],
+        "difference": 0.2863002461033634,
+        "total_difference": 349,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.32763420920291675,
+          0.4326611515495672
+        ],
+        "difference": 0.37981952420016407,
+        "total_difference": 463,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7469094975304824,
+          -0.6859969788017023
+        ],
+        "difference": -0.716160787530763,
+        "total_difference": -873,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.10933465000679145,
+          0.15196380378829524
+        ],
+        "difference": 0.12961443806398687,
+        "total_difference": 158,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8080766976400525,
+          -0.7218778286332629
+        ],
+        "difference": -0.7637407711238721,
+        "total_difference": -931,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 204,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.8;threshold=0.9/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 631,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3029550633012949,
+          0.3974385245901639
+        ],
+        "difference": 0.3502871205906481,
+        "total_difference": 427,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.25401533837807444,
+          0.31630273663572156
+        ],
+        "difference": 0.2863002461033634,
+        "total_difference": 349,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.32763420920291675,
+          0.4326611515495672
+        ],
+        "difference": 0.37981952420016407,
+        "total_difference": 463,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7469094975304824,
+          -0.6859969788017023
+        ],
+        "difference": -0.716160787530763,
+        "total_difference": -873,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.10933465000679145,
+          0.15196380378829524
+        ],
+        "difference": 0.12961443806398687,
+        "total_difference": 158,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8080766976400525,
+          -0.7218778286332629
+        ],
+        "difference": -0.7637407711238721,
+        "total_difference": -931,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 204,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.8;threshold=0.99/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 666,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33195442796111546,
+          0.4286879245336884
+        ],
+        "difference": 0.3806398687448728,
+        "total_difference": 464,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.27655653062999425,
+          0.33801669884402735
+        ],
+        "difference": 0.30762920426579166,
+        "total_difference": 375,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3495242509143943,
+          0.4551359647086456
+        ],
+        "difference": 0.40196882690730107,
+        "total_difference": 490,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7990117340181542,
+          -0.7449968211648893
+        ],
+        "difference": -0.7719442165709598,
+        "total_difference": -941,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11598485695269353,
+          0.1601951901057383
+        ],
+        "difference": 0.13699753896636588,
+        "total_difference": 167,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8516097677700617,
+          -0.768091550050165
+        ],
+        "difference": -0.8096800656275636,
+        "total_difference": -987,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 202,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.8;threshold=0.99/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 666,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33195442796111546,
+          0.4286879245336884
+        ],
+        "difference": 0.3806398687448728,
+        "total_difference": 464,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.27655653062999425,
+          0.33801669884402735
+        ],
+        "difference": 0.30762920426579166,
+        "total_difference": 375,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3495242509143943,
+          0.4551359647086456
+        ],
+        "difference": 0.40196882690730107,
+        "total_difference": 490,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7990117340181542,
+          -0.7449968211648893
+        ],
+        "difference": -0.7719442165709598,
+        "total_difference": -941,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11598485695269353,
+          0.1601951901057383
+        ],
+        "difference": 0.13699753896636588,
+        "total_difference": 167,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8516097677700617,
+          -0.768091550050165
+        ],
+        "difference": -0.8096800656275636,
+        "total_difference": -987,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 202,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.8;threshold=0.999/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 670,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.333060419848684,
+          0.4314426905849591
+        ],
+        "difference": 0.3831009023789992,
+        "total_difference": 467,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2867645565537344,
+          0.34529904306220094
+        ],
+        "difference": 0.3166529942575882,
+        "total_difference": 386,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3628053690801907,
+          0.46692929260858523
+        ],
+        "difference": 0.41509433962264153,
+        "total_difference": 506,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8115829652702313,
+          -0.7555002465533891
+        ],
+        "difference": -0.7842493847415914,
+        "total_difference": -956,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11871633887633547,
+          0.1635929105374277
+        ],
+        "difference": 0.140278917145201,
+        "total_difference": 171,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8605673707349168,
+          -0.7747647121906224
+        ],
+        "difference": -0.8187038556193601,
+        "total_difference": -998,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 203,
+    "source_families": 916
+  },
+  "splink/assumed_recall=0.8;threshold=0.999/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 670,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.333060419848684,
+          0.4314426905849591
+        ],
+        "difference": 0.3831009023789992,
+        "total_difference": 467,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2867645565537344,
+          0.34529904306220094
+        ],
+        "difference": 0.3166529942575882,
+        "total_difference": 386,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3628053690801907,
+          0.46692929260858523
+        ],
+        "difference": 0.41509433962264153,
+        "total_difference": 506,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8115829652702313,
+          -0.7555002465533891
+        ],
+        "difference": -0.7842493847415914,
+        "total_difference": -956,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11871633887633547,
+          0.1635929105374277
+        ],
+        "difference": 0.140278917145201,
+        "total_difference": 171,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8605673707349168,
+          -0.7747647121906224
+        ],
+        "difference": -0.8187038556193601,
+        "total_difference": -998,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 203,
+    "source_families": 916
+  },
+  "splink/assumed_recall=1.0;threshold=0.5/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 570,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2687808979453245,
+          0.3587248879895939
+        ],
+        "difference": 0.31419196062346183,
+        "total_difference": 383,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.19388829954424014,
+          0.25993543046357614
+        ],
+        "difference": 0.22723543888433143,
+        "total_difference": 277,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.23349682715915657,
+          0.3481365438102693
+        ],
+        "difference": 0.2912223133716161,
+        "total_difference": 355,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6469646479281368,
+          -0.5789055635303841
+        ],
+        "difference": -0.6127973748974569,
+        "total_difference": -747,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.08863513930203874,
+          0.12735215053763438
+        ],
+        "difference": 0.10746513535684987,
+        "total_difference": 131,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7108155204177121,
+          -0.6271868488511888
+        ],
+        "difference": -0.6685808039376538,
+        "total_difference": -815,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 187,
+    "source_families": 916
+  },
+  "splink/assumed_recall=1.0;threshold=0.5/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 570,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2687808979453245,
+          0.3587248879895939
+        ],
+        "difference": 0.31419196062346183,
+        "total_difference": 383,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.19388829954424014,
+          0.25993543046357614
+        ],
+        "difference": 0.22723543888433143,
+        "total_difference": 277,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.23349682715915657,
+          0.3481365438102693
+        ],
+        "difference": 0.2912223133716161,
+        "total_difference": 355,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6469646479281368,
+          -0.5789055635303841
+        ],
+        "difference": -0.6127973748974569,
+        "total_difference": -747,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.08863513930203874,
+          0.12735215053763438
+        ],
+        "difference": 0.10746513535684987,
+        "total_difference": 131,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7108155204177121,
+          -0.6271868488511888
+        ],
+        "difference": -0.6685808039376538,
+        "total_difference": -815,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 187,
+    "source_families": 916
+  },
+  "splink/assumed_recall=1.0;threshold=0.9/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 632,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.30281034989410965,
+          0.398557192709802
+        ],
+        "difference": 0.3502871205906481,
+        "total_difference": 427,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2563652036729794,
+          0.31968519137810475
+        ],
+        "difference": 0.2887612797374898,
+        "total_difference": 352,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.32926829268292684,
+          0.4346827710162098
+        ],
+        "difference": 0.3822805578342904,
+        "total_difference": 466,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.748557765514225,
+          -0.6877521027183757
+        ],
+        "difference": -0.7178014766201805,
+        "total_difference": -875,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11010585603271066,
+          0.15252856745755553
+        ],
+        "difference": 0.13043478260869565,
+        "total_difference": 159,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8092819328311515,
+          -0.7235952810397319
+        ],
+        "difference": -0.7653814602132896,
+        "total_difference": -933,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 205,
+    "source_families": 916
+  },
+  "splink/assumed_recall=1.0;threshold=0.9/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 632,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.30281034989410965,
+          0.398557192709802
+        ],
+        "difference": 0.3502871205906481,
+        "total_difference": 427,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2563652036729794,
+          0.31968519137810475
+        ],
+        "difference": 0.2887612797374898,
+        "total_difference": 352,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.32926829268292684,
+          0.4346827710162098
+        ],
+        "difference": 0.3822805578342904,
+        "total_difference": 466,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.748557765514225,
+          -0.6877521027183757
+        ],
+        "difference": -0.7178014766201805,
+        "total_difference": -875,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11010585603271066,
+          0.15252856745755553
+        ],
+        "difference": 0.13043478260869565,
+        "total_difference": 159,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8092819328311515,
+          -0.7235952810397319
+        ],
+        "difference": -0.7653814602132896,
+        "total_difference": -933,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 205,
+    "source_families": 916
+  },
+  "splink/assumed_recall=1.0;threshold=0.99/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 667,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33277807196464526,
+          0.4295690873603446
+        ],
+        "difference": 0.38146021328958163,
+        "total_difference": 465,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2791590897672546,
+          0.33863046101647487
+        ],
+        "difference": 0.3092698933552092,
+        "total_difference": 377,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.35218694882465196,
+          0.45598861489720366
+        ],
+        "difference": 0.4036095159967186,
+        "total_difference": 492,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8009823903632993,
+          -0.7470782194220966
+        ],
+        "difference": -0.7744052502050861,
+        "total_difference": -944,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11598485695269353,
+          0.1601951901057383
+        ],
+        "difference": 0.13699753896636588,
+        "total_difference": 167,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8523051865136436,
+          -0.7689132162900798
+        ],
+        "difference": -0.8105004101722724,
+        "total_difference": -988,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 202,
+    "source_families": 916
+  },
+  "splink/assumed_recall=1.0;threshold=0.99/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 667,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33277807196464526,
+          0.4295690873603446
+        ],
+        "difference": 0.38146021328958163,
+        "total_difference": 465,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2791590897672546,
+          0.33863046101647487
+        ],
+        "difference": 0.3092698933552092,
+        "total_difference": 377,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.35218694882465196,
+          0.45598861489720366
+        ],
+        "difference": 0.4036095159967186,
+        "total_difference": 492,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8009823903632993,
+          -0.7470782194220966
+        ],
+        "difference": -0.7744052502050861,
+        "total_difference": -944,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11598485695269353,
+          0.1601951901057383
+        ],
+        "difference": 0.13699753896636588,
+        "total_difference": 167,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8523051865136436,
+          -0.7689132162900798
+        ],
+        "difference": -0.8105004101722724,
+        "total_difference": -988,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 202,
+    "source_families": 916
+  },
+  "splink/assumed_recall=1.0;threshold=0.999/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 672,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33584450713847697,
+          0.43398247557878183
+        ],
+        "difference": 0.3855619360131255,
+        "total_difference": 470,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2867645565537344,
+          0.34529904306220094
+        ],
+        "difference": 0.3166529942575882,
+        "total_difference": 386,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3628053690801907,
+          0.46692929260858523
+        ],
+        "difference": 0.41509433962264153,
+        "total_difference": 506,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8136710461239012,
+          -0.7587022206042957
+        ],
+        "difference": -0.7867104183757178,
+        "total_difference": -959,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11871633887633547,
+          0.1635929105374277
+        ],
+        "difference": 0.140278917145201,
+        "total_difference": 171,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8627840249371548,
+          -0.7788122468876556
+        ],
+        "difference": -0.8211648892534865,
+        "total_difference": -1001,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 202,
+    "source_families": 916
+  },
+  "splink/assumed_recall=1.0;threshold=0.999/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 672,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33584450713847697,
+          0.43398247557878183
+        ],
+        "difference": 0.3855619360131255,
+        "total_difference": 470,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2867645565537344,
+          0.34529904306220094
+        ],
+        "difference": 0.3166529942575882,
+        "total_difference": 386,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3628053690801907,
+          0.46692929260858523
+        ],
+        "difference": 0.41509433962264153,
+        "total_difference": 506,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8136710461239012,
+          -0.7587022206042957
+        ],
+        "difference": -0.7867104183757178,
+        "total_difference": -959,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11871633887633547,
+          0.1635929105374277
+        ],
+        "difference": 0.140278917145201,
+        "total_difference": 171,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8627840249371548,
+          -0.7788122468876556
+        ],
+        "difference": -0.8211648892534865,
+        "total_difference": -1001,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 202,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.1;threshold=0.5/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 570,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.26803911001517255,
+          0.35791658036454016
+        ],
+        "difference": 0.3133716160787531,
+        "total_difference": 382,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.19388829954424014,
+          0.25993543046357614
+        ],
+        "difference": 0.22723543888433143,
+        "total_difference": 277,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.23349682715915657,
+          0.3481365438102693
+        ],
+        "difference": 0.2912223133716161,
+        "total_difference": 355,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6460784051689872,
+          -0.5784060154241646
+        ],
+        "difference": -0.6119770303527482,
+        "total_difference": -746,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.08863513930203874,
+          0.12735215053763438
+        ],
+        "difference": 0.10746513535684987,
+        "total_difference": 131,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7096545774903877,
+          -0.6265822873147175
+        ],
+        "difference": -0.667760459392945,
+        "total_difference": -814,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 188,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.1;threshold=0.5/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 570,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.26803911001517255,
+          0.35791658036454016
+        ],
+        "difference": 0.3133716160787531,
+        "total_difference": 382,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.19388829954424014,
+          0.25993543046357614
+        ],
+        "difference": 0.22723543888433143,
+        "total_difference": 277,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.23349682715915657,
+          0.3481365438102693
+        ],
+        "difference": 0.2912223133716161,
+        "total_difference": 355,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6460784051689872,
+          -0.5784060154241646
+        ],
+        "difference": -0.6119770303527482,
+        "total_difference": -746,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.08863513930203874,
+          0.12735215053763438
+        ],
+        "difference": 0.10746513535684987,
+        "total_difference": 131,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7096545774903877,
+          -0.6265822873147175
+        ],
+        "difference": -0.667760459392945,
+        "total_difference": -814,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 188,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.1;threshold=0.9/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 631,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3029550633012949,
+          0.3974385245901639
+        ],
+        "difference": 0.3502871205906481,
+        "total_difference": 427,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.25401533837807444,
+          0.31630273663572156
+        ],
+        "difference": 0.2863002461033634,
+        "total_difference": 349,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.32763420920291675,
+          0.4326611515495672
+        ],
+        "difference": 0.37981952420016407,
+        "total_difference": 463,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7469094975304824,
+          -0.6859969788017023
+        ],
+        "difference": -0.716160787530763,
+        "total_difference": -873,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.10933465000679145,
+          0.15196380378829524
+        ],
+        "difference": 0.12961443806398687,
+        "total_difference": 158,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8080766976400525,
+          -0.7218778286332629
+        ],
+        "difference": -0.7637407711238721,
+        "total_difference": -931,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 204,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.1;threshold=0.9/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 631,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3029550633012949,
+          0.3974385245901639
+        ],
+        "difference": 0.3502871205906481,
+        "total_difference": 427,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.25401533837807444,
+          0.31630273663572156
+        ],
+        "difference": 0.2863002461033634,
+        "total_difference": 349,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.32763420920291675,
+          0.4326611515495672
+        ],
+        "difference": 0.37981952420016407,
+        "total_difference": 463,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7469094975304824,
+          -0.6859969788017023
+        ],
+        "difference": -0.716160787530763,
+        "total_difference": -873,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.10933465000679145,
+          0.15196380378829524
+        ],
+        "difference": 0.12961443806398687,
+        "total_difference": 158,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8080766976400525,
+          -0.7218778286332629
+        ],
+        "difference": -0.7637407711238721,
+        "total_difference": -931,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 204,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.1;threshold=0.99/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 667,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33277807196464526,
+          0.4295690873603446
+        ],
+        "difference": 0.38146021328958163,
+        "total_difference": 465,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.27655653062999425,
+          0.33801669884402735
+        ],
+        "difference": 0.30762920426579166,
+        "total_difference": 375,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3495242509143943,
+          0.4551359647086456
+        ],
+        "difference": 0.40196882690730107,
+        "total_difference": 490,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7996716926555839,
+          -0.7456896858010604
+        ],
+        "difference": -0.7727645611156686,
+        "total_difference": -942,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11598485695269353,
+          0.1601951901057383
+        ],
+        "difference": 0.13699753896636588,
+        "total_difference": 167,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8523051865136436,
+          -0.7689132162900798
+        ],
+        "difference": -0.8105004101722724,
+        "total_difference": -988,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 202,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.1;threshold=0.99/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 667,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33277807196464526,
+          0.4295690873603446
+        ],
+        "difference": 0.38146021328958163,
+        "total_difference": 465,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.27655653062999425,
+          0.33801669884402735
+        ],
+        "difference": 0.30762920426579166,
+        "total_difference": 375,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3495242509143943,
+          0.4551359647086456
+        ],
+        "difference": 0.40196882690730107,
+        "total_difference": 490,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7996716926555839,
+          -0.7456896858010604
+        ],
+        "difference": -0.7727645611156686,
+        "total_difference": -942,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11598485695269353,
+          0.1601951901057383
+        ],
+        "difference": 0.13699753896636588,
+        "total_difference": 167,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8523051865136436,
+          -0.7689132162900798
+        ],
+        "difference": -0.8105004101722724,
+        "total_difference": -988,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 202,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.1;threshold=0.999/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 670,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.333060419848684,
+          0.4314426905849591
+        ],
+        "difference": 0.3831009023789992,
+        "total_difference": 467,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2867645565537344,
+          0.34529904306220094
+        ],
+        "difference": 0.3166529942575882,
+        "total_difference": 386,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3628053690801907,
+          0.46692929260858523
+        ],
+        "difference": 0.41509433962264153,
+        "total_difference": 506,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8115829652702313,
+          -0.7555002465533891
+        ],
+        "difference": -0.7842493847415914,
+        "total_difference": -956,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11871633887633547,
+          0.1635929105374277
+        ],
+        "difference": 0.140278917145201,
+        "total_difference": 171,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8605673707349168,
+          -0.7747647121906224
+        ],
+        "difference": -0.8187038556193601,
+        "total_difference": -998,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 203,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.1;threshold=0.999/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 670,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.333060419848684,
+          0.4314426905849591
+        ],
+        "difference": 0.3831009023789992,
+        "total_difference": 467,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2867645565537344,
+          0.34529904306220094
+        ],
+        "difference": 0.3166529942575882,
+        "total_difference": 386,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3628053690801907,
+          0.46692929260858523
+        ],
+        "difference": 0.41509433962264153,
+        "total_difference": 506,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8115829652702313,
+          -0.7555002465533891
+        ],
+        "difference": -0.7842493847415914,
+        "total_difference": -956,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11871633887633547,
+          0.1635929105374277
+        ],
+        "difference": 0.140278917145201,
+        "total_difference": 171,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8605673707349168,
+          -0.7747647121906224
+        ],
+        "difference": -0.8187038556193601,
+        "total_difference": -998,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 203,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.5;threshold=0.5/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 562,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.26452093275120997,
+          0.3577598028517387
+        ],
+        "difference": 0.31091058244462677,
+        "total_difference": 379,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11418722759660249,
+          0.1929386136572145
+        ],
+        "difference": 0.1542247744052502,
+        "total_difference": 188,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.0832608641269858,
+          0.20799535496394894
+        ],
+        "difference": 0.1468416735028712,
+        "total_difference": 179,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.5762176794283724,
+          -0.49497035216645274
+        ],
+        "difference": -0.534864643150123,
+        "total_difference": -652,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.07789137098915817,
+          0.11726944816302247
+        ],
+        "difference": 0.09762100082034454,
+        "total_difference": 119,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6399505217751361,
+          -0.5389827697669843
+        ],
+        "difference": -0.5914684167350287,
+        "total_difference": -721,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 183,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.5;threshold=0.5/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 560,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2601993437578965,
+          0.3551174874729445
+        ],
+        "difference": 0.30762920426579166,
+        "total_difference": 375,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11893294205794207,
+          0.19646226608163195
+        ],
+        "difference": 0.15914684167350288,
+        "total_difference": 194,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.1093724130794702,
+          0.22964143498699563
+        ],
+        "difference": 0.17145200984413453,
+        "total_difference": 209,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.5762176794283724,
+          -0.49497035216645274
+        ],
+        "difference": -0.534864643150123,
+        "total_difference": -652,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.07789137098915817,
+          0.11726944816302247
+        ],
+        "difference": 0.09762100082034454,
+        "total_difference": 119,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6399505217751361,
+          -0.5389827697669843
+        ],
+        "difference": -0.5914684167350287,
+        "total_difference": -721,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 185,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.5;threshold=0.9/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 577,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2718019158417452,
+          0.363865014351598
+        ],
+        "difference": 0.31829368334700575,
+        "total_difference": 388,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.21055889173748055,
+          0.27222056806166445
+        ],
+        "difference": 0.24200164068908941,
+        "total_difference": 295,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2707396630618499,
+          0.36821167213539413
+        ],
+        "difference": 0.3199343724364233,
+        "total_difference": 390,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6666666666666666,
+          -0.6008599326244869
+        ],
+        "difference": -0.6333059885151764,
+        "total_difference": -772,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.09035599394852219,
+          0.12898022851636437
+        ],
+        "difference": 0.10910582444626743,
+        "total_difference": 133,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7296322560774794,
+          -0.6460358000085723
+        ],
+        "difference": -0.6874487284659557,
+        "total_difference": -838,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 189,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.5;threshold=0.9/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 577,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2718019158417452,
+          0.363865014351598
+        ],
+        "difference": 0.31829368334700575,
+        "total_difference": 388,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.21055889173748055,
+          0.27222056806166445
+        ],
+        "difference": 0.24200164068908941,
+        "total_difference": 295,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2707396630618499,
+          0.36821167213539413
+        ],
+        "difference": 0.3199343724364233,
+        "total_difference": 390,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6666666666666666,
+          -0.6008599326244869
+        ],
+        "difference": -0.6333059885151764,
+        "total_difference": -772,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.09035599394852219,
+          0.12898022851636437
+        ],
+        "difference": 0.10910582444626743,
+        "total_difference": 133,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7296322560774794,
+          -0.6460358000085723
+        ],
+        "difference": -0.6874487284659557,
+        "total_difference": -838,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 189,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.5;threshold=0.99/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 639,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3149808456784962,
+          0.40888020458147234
+        ],
+        "difference": 0.36177194421657094,
+        "total_difference": 441,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.26328686092460724,
+          0.3243265841091928
+        ],
+        "difference": 0.2945036915504512,
+        "total_difference": 359,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33586251501432135,
+          0.43933567622236763
+        ],
+        "difference": 0.38802296964725186,
+        "total_difference": 473,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7680967297854996,
+          -0.7079743925801864
+        ],
+        "difference": -0.7374897456931911,
+        "total_difference": -899,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11010585603271066,
+          0.15252856745755553
+        ],
+        "difference": 0.13043478260869565,
+        "total_difference": 159,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8237541499213699,
+          -0.7379327971898688
+        ],
+        "difference": -0.7801476620180475,
+        "total_difference": -951,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 198,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.5;threshold=0.99/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 639,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3149808456784962,
+          0.40888020458147234
+        ],
+        "difference": 0.36177194421657094,
+        "total_difference": 441,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.26328686092460724,
+          0.3243265841091928
+        ],
+        "difference": 0.2945036915504512,
+        "total_difference": 359,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33586251501432135,
+          0.43933567622236763
+        ],
+        "difference": 0.38802296964725186,
+        "total_difference": 473,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7680967297854996,
+          -0.7079743925801864
+        ],
+        "difference": -0.7374897456931911,
+        "total_difference": -899,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11010585603271066,
+          0.15252856745755553
+        ],
+        "difference": 0.13043478260869565,
+        "total_difference": 159,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8237541499213699,
+          -0.7379327971898688
+        ],
+        "difference": -0.7801476620180475,
+        "total_difference": -951,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 198,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.5;threshold=0.999/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 669,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3333333333333333,
+          0.4323438322093079
+        ],
+        "difference": 0.3831009023789992,
+        "total_difference": 467,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.28105610706843903,
+          0.340652887946779
+        ],
+        "difference": 0.31091058244462677,
+        "total_difference": 379,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.35426642739236447,
+          0.4580731018847794
+        ],
+        "difference": 0.40607054963084493,
+        "total_difference": 495,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.805907849725417,
+          -0.7513954214779437
+        ],
+        "difference": -0.77850697292863,
+        "total_difference": -949,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11688918498072254,
+          0.1616011978483095
+        ],
+        "difference": 0.13863822805578344,
+        "total_difference": 169,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8564748030372684,
+          -0.7723057807735955
+        ],
+        "difference": -0.8146021328958163,
+        "total_difference": -993,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 202,
+    "source_families": 916
+  },
+  "splink/links_per_left=0.5;threshold=0.999/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 669,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3333333333333333,
+          0.4323438322093079
+        ],
+        "difference": 0.3831009023789992,
+        "total_difference": 467,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.28105610706843903,
+          0.340652887946779
+        ],
+        "difference": 0.31091058244462677,
+        "total_difference": 379,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.35426642739236447,
+          0.4580731018847794
+        ],
+        "difference": 0.40607054963084493,
+        "total_difference": 495,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.805907849725417,
+          -0.7513954214779437
+        ],
+        "difference": -0.77850697292863,
+        "total_difference": -949,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11688918498072254,
+          0.1616011978483095
+        ],
+        "difference": 0.13863822805578344,
+        "total_difference": 169,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8564748030372684,
+          -0.7723057807735955
+        ],
+        "difference": -0.8146021328958163,
+        "total_difference": -993,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 202,
+    "source_families": 916
+  },
+  "splink/links_per_left=1.0;threshold=0.5/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 569,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2815261422017379,
+          0.3708510444221472
+        ],
+        "difference": 0.32649712879409354,
+        "total_difference": 398,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.07002916634357219,
+          0.15908352271976298
+        ],
+        "difference": 0.11566858080393766,
+        "total_difference": 141,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.11072970060511114,
+          0.10661258158085563
+        ],
+        "difference": 0.009023789991796555,
+        "total_difference": 11,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.55602090569965,
+          -0.47269121922106927
+        ],
+        "difference": -0.5143560295324036,
+        "total_difference": -627,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.07288377457388347,
+          0.11138426571843657
+        ],
+        "difference": 0.0918785890073831,
+        "total_difference": 112,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.622336342039669,
+          -0.5247480872180692
+        ],
+        "difference": -0.5750615258408531,
+        "total_difference": -701,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 171,
+    "source_families": 916
+  },
+  "splink/links_per_left=1.0;threshold=0.5/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 567,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2785686523489168,
+          0.3674915557126585
+        ],
+        "difference": 0.3232157506152584,
+        "total_difference": 394,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.07673438584507584,
+          0.1639288865607822
+        ],
+        "difference": 0.12059064807219032,
+        "total_difference": 147,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.0392916412284017,
+          0.1587318618434498
+        ],
+        "difference": 0.06972928630024611,
+        "total_difference": 85,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.5570049220627161,
+          -0.4735586658436817
+        ],
+        "difference": -0.5151763740771124,
+        "total_difference": -628,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.07358892250459563,
+          0.11234423263279025
+        ],
+        "difference": 0.09269893355209188,
+        "total_difference": 113,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.622336342039669,
+          -0.5247480872180692
+        ],
+        "difference": -0.5750615258408531,
+        "total_difference": -701,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 173,
+    "source_families": 916
+  },
+  "splink/links_per_left=1.0;threshold=0.9/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 572,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.26947376984239274,
+          0.35947942557304613
+        ],
+        "difference": 0.31501230516817064,
+        "total_difference": 384,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.1860273980238344,
+          0.2519022679448211
+        ],
+        "difference": 0.21903199343724364,
+        "total_difference": 267,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.20997229789719707,
+          0.31922036909302776
+        ],
+        "difference": 0.26579163248564397,
+        "total_difference": 324,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6402647666887407,
+          -0.5716443510014386
+        ],
+        "difference": -0.605414273995078,
+        "total_difference": -738,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.08863513930203874,
+          0.12735215053763438
+        ],
+        "difference": 0.10746513535684987,
+        "total_difference": 131,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7003918566332377,
+          -0.6191991154791154
+        ],
+        "difference": -0.6595570139458573,
+        "total_difference": -804,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 188,
+    "source_families": 916
+  },
+  "splink/links_per_left=1.0;threshold=0.9/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 572,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.26947376984239274,
+          0.35947942557304613
+        ],
+        "difference": 0.31501230516817064,
+        "total_difference": 384,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.1860273980238344,
+          0.2519022679448211
+        ],
+        "difference": 0.21903199343724364,
+        "total_difference": 267,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.20997229789719707,
+          0.31922036909302776
+        ],
+        "difference": 0.26579163248564397,
+        "total_difference": 324,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6402647666887407,
+          -0.5716443510014386
+        ],
+        "difference": -0.605414273995078,
+        "total_difference": -738,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.08863513930203874,
+          0.12735215053763438
+        ],
+        "difference": 0.10746513535684987,
+        "total_difference": 131,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7003918566332377,
+          -0.6191991154791154
+        ],
+        "difference": -0.6595570139458573,
+        "total_difference": -804,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 188,
+    "source_families": 916
+  },
+  "splink/links_per_left=1.0;threshold=0.99/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 632,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.30281034989410965,
+          0.398557192709802
+        ],
+        "difference": 0.3502871205906481,
+        "total_difference": 427,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2563652036729794,
+          0.31968519137810475
+        ],
+        "difference": 0.2887612797374898,
+        "total_difference": 352,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.32926829268292684,
+          0.4346827710162098
+        ],
+        "difference": 0.3822805578342904,
+        "total_difference": 466,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.748557765514225,
+          -0.6877521027183757
+        ],
+        "difference": -0.7178014766201805,
+        "total_difference": -875,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11010585603271066,
+          0.15252856745755553
+        ],
+        "difference": 0.13043478260869565,
+        "total_difference": 159,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8092819328311515,
+          -0.7235952810397319
+        ],
+        "difference": -0.7653814602132896,
+        "total_difference": -933,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 205,
+    "source_families": 916
+  },
+  "splink/links_per_left=1.0;threshold=0.99/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 632,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.30281034989410965,
+          0.398557192709802
+        ],
+        "difference": 0.3502871205906481,
+        "total_difference": 427,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2563652036729794,
+          0.31968519137810475
+        ],
+        "difference": 0.2887612797374898,
+        "total_difference": 352,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.32926829268292684,
+          0.4346827710162098
+        ],
+        "difference": 0.3822805578342904,
+        "total_difference": 466,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.748557765514225,
+          -0.6877521027183757
+        ],
+        "difference": -0.7178014766201805,
+        "total_difference": -875,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11010585603271066,
+          0.15252856745755553
+        ],
+        "difference": 0.13043478260869565,
+        "total_difference": 159,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8092819328311515,
+          -0.7235952810397319
+        ],
+        "difference": -0.7653814602132896,
+        "total_difference": -933,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 205,
+    "source_families": 916
+  },
+  "splink/links_per_left=1.0;threshold=0.999/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 667,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33277807196464526,
+          0.4295690873603446
+        ],
+        "difference": 0.38146021328958163,
+        "total_difference": 465,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.27655653062999425,
+          0.33801669884402735
+        ],
+        "difference": 0.30762920426579166,
+        "total_difference": 375,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3495242509143943,
+          0.4551359647086456
+        ],
+        "difference": 0.40196882690730107,
+        "total_difference": 490,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7996716926555839,
+          -0.7456896858010604
+        ],
+        "difference": -0.7727645611156686,
+        "total_difference": -942,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11598485695269353,
+          0.1601951901057383
+        ],
+        "difference": 0.13699753896636588,
+        "total_difference": 167,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8523051865136436,
+          -0.7689132162900798
+        ],
+        "difference": -0.8105004101722724,
+        "total_difference": -988,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 202,
+    "source_families": 916
+  },
+  "splink/links_per_left=1.0;threshold=0.999/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 667,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33277807196464526,
+          0.4295690873603446
+        ],
+        "difference": 0.38146021328958163,
+        "total_difference": 465,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.27655653062999425,
+          0.33801669884402735
+        ],
+        "difference": 0.30762920426579166,
+        "total_difference": 375,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3495242509143943,
+          0.4551359647086456
+        ],
+        "difference": 0.40196882690730107,
+        "total_difference": 490,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7996716926555839,
+          -0.7456896858010604
+        ],
+        "difference": -0.7727645611156686,
+        "total_difference": -942,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11598485695269353,
+          0.1601951901057383
+        ],
+        "difference": 0.13699753896636588,
+        "total_difference": 167,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8523051865136436,
+          -0.7689132162900798
+        ],
+        "difference": -0.8105004101722724,
+        "total_difference": -988,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 202,
+    "source_families": 916
+  },
+  "splink/links_per_left=2.0;threshold=0.5/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 517,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.24432537183639197,
+          0.33305652975928
+        ],
+        "difference": 0.2895816242821985,
+        "total_difference": 353,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.008100660556603516,
+          0.09768963078546489
+        ],
+        "difference": 0.054142739950779326,
+        "total_difference": 66,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.25040204171080027,
+          -0.012435386186830773
+        ],
+        "difference": -0.11977030352748154,
+        "total_difference": -146,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.44680898598672825,
+          -0.370907207683699
+        ],
+        "difference": -0.4077112387202625,
+        "total_difference": -497,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.06533834511201425,
+          0.10339129164231442
+        ],
+        "difference": 0.08367514356029532,
+        "total_difference": 102,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.523516511511709,
+          -0.42892328888535003
+        ],
+        "difference": -0.4774405250205086,
+        "total_difference": -582,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 164,
+    "source_families": 916
+  },
+  "splink/links_per_left=2.0;threshold=0.5/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 513,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.23969353992519857,
+          0.32984274193548385
+        ],
+        "difference": 0.28547990155865466,
+        "total_difference": 348,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.013392044233436883,
+          0.1042619712201988
+        ],
+        "difference": 0.06070549630844955,
+        "total_difference": 74,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.16201917033312382,
+          0.05394360905066696
+        ],
+        "difference": -0.044298605414273995,
+        "total_difference": -54,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.44891289812264984,
+          -0.37216346696906194
+        ],
+        "difference": -0.40935192780968005,
+        "total_difference": -499,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.06628880112203056,
+          0.10442105690891726
+        ],
+        "difference": 0.0844954881050041,
+        "total_difference": 103,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.523516511511709,
+          -0.42892328888535003
+        ],
+        "difference": -0.4774405250205086,
+        "total_difference": -582,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 165,
+    "source_families": 916
+  },
+  "splink/links_per_left=2.0;threshold=0.9/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 565,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2634165996010323,
+          0.35398380719261907
+        ],
+        "difference": 0.3092698933552092,
+        "total_difference": 377,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.1601658907667915,
+          0.23730719192339714
+        ],
+        "difference": 0.20016406890894176,
+        "total_difference": 244,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.1806772306694955,
+          0.2998425398942647
+        ],
+        "difference": 0.2428219852337982,
+        "total_difference": 296,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.61695006985704,
+          -0.5441471698113207
+        ],
+        "difference": -0.5799835931091059,
+        "total_difference": -707,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.0869210303599467,
+          0.1257100034413432
+        ],
+        "difference": 0.10582444626743231,
+        "total_difference": 129,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6784572543426916,
+          -0.5968
+        ],
+        "difference": -0.6374077112387203,
+        "total_difference": -777,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 188,
+    "source_families": 916
+  },
+  "splink/links_per_left=2.0;threshold=0.9/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 565,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2634165996010323,
+          0.35398380719261907
+        ],
+        "difference": 0.3092698933552092,
+        "total_difference": 377,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.1601658907667915,
+          0.23730719192339714
+        ],
+        "difference": 0.20016406890894176,
+        "total_difference": 244,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.1806772306694955,
+          0.2998425398942647
+        ],
+        "difference": 0.2428219852337982,
+        "total_difference": 296,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.61695006985704,
+          -0.5441471698113207
+        ],
+        "difference": -0.5799835931091059,
+        "total_difference": -707,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.0869210303599467,
+          0.1257100034413432
+        ],
+        "difference": 0.10582444626743231,
+        "total_difference": 129,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.6784572543426916,
+          -0.5968
+        ],
+        "difference": -0.6374077112387203,
+        "total_difference": -777,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 188,
+    "source_families": 916
+  },
+  "splink/links_per_left=2.0;threshold=0.99/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 603,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2848721008403361,
+          0.37925244659267215
+        ],
+        "difference": 0.33223954060705496,
+        "total_difference": 405,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.23565080937605143,
+          0.29812868396843145
+        ],
+        "difference": 0.2682526661197703,
+        "total_difference": 327,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3075577731092437,
+          0.4112793058120767
+        ],
+        "difference": 0.3601312551271534,
+        "total_difference": 439,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7115080725595312,
+          -0.6480129764801298
+        ],
+        "difference": -0.6800656275635767,
+        "total_difference": -829,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.10088932004362272,
+          0.1425001029654036
+        ],
+        "difference": 0.1214109926168991,
+        "total_difference": 148,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7789673495825736,
+          -0.6907196394432632
+        ],
+        "difference": -0.7333880229696472,
+        "total_difference": -894,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 198,
+    "source_families": 916
+  },
+  "splink/links_per_left=2.0;threshold=0.99/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 603,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.2848721008403361,
+          0.37925244659267215
+        ],
+        "difference": 0.33223954060705496,
+        "total_difference": 405,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.23565080937605143,
+          0.29812868396843145
+        ],
+        "difference": 0.2682526661197703,
+        "total_difference": 327,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.3075577731092437,
+          0.4112793058120767
+        ],
+        "difference": 0.3601312551271534,
+        "total_difference": 439,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7115080725595312,
+          -0.6480129764801298
+        ],
+        "difference": -0.6800656275635767,
+        "total_difference": -829,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.10088932004362272,
+          0.1425001029654036
+        ],
+        "difference": 0.1214109926168991,
+        "total_difference": 148,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7789673495825736,
+          -0.6907196394432632
+        ],
+        "difference": -0.7333880229696472,
+        "total_difference": -894,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 198,
+    "source_families": 916
+  },
+  "splink/links_per_left=2.0;threshold=0.999/all_pairs": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 663,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33001106711341255,
+          0.42657419705385174
+        ],
+        "difference": 0.37899917965545526,
+        "total_difference": 462,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.27433271481587207,
+          0.33624154847352083
+        ],
+        "difference": 0.3059885151763741,
+        "total_difference": 373,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.34671683735208325,
+          0.4522297466542618
+        ],
+        "difference": 0.39950779327317476,
+        "total_difference": 487,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7959222852963711,
+          -0.7411855895449779
+        ],
+        "difference": -0.7686628383921247,
+        "total_difference": -937,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11556322926386618,
+          0.15932789090067676
+        ],
+        "difference": 0.1361771944216571,
+        "total_difference": 166,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8493264968602035,
+          -0.765625
+        ],
+        "difference": -0.8072190319934373,
+        "total_difference": -984,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 201,
+    "source_families": 916
+  },
+  "splink/links_per_left=2.0;threshold=0.999/same_candidates": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261007,
+    "corrections": 663,
+    "direction": "semantic selector minus named conventional rule",
+    "interval_scope": "Pointwise descriptive paired family-bootstrap intervals for this historical source sample; no multiplicity correction or NSO-population claim.",
+    "metrics": {
+      "automatic_coverage": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.09272273154990376,
+          -0.06275772736840401
+        ],
+        "difference": -0.0771123872026251,
+        "total_difference": -94,
+        "unit": "fraction of queries"
+      },
+      "exact_complete_decision_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.33001106711341255,
+          0.42657419705385174
+        ],
+        "difference": 0.37899917965545526,
+        "total_difference": 462,
+        "unit": "fraction of queries"
+      },
+      "false_assignment_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.27433271481587207,
+          0.33624154847352083
+        ],
+        "difference": 0.3059885151763741,
+        "total_difference": 373,
+        "unit": "fraction of queries"
+      },
+      "false_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.34671683735208325,
+          0.4522297466542618
+        ],
+        "difference": 0.39950779327317476,
+        "total_difference": 487,
+        "unit": "edges per query"
+      },
+      "false_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.7959222852963711,
+          -0.7411855895449779
+        ],
+        "difference": -0.7686628383921247,
+        "total_difference": -937,
+        "unit": "fraction of queries"
+      },
+      "linked_on_nil_query_rate": {
+        "cluster_bootstrap_95_percent_interval": [
+          0.11556322926386618,
+          0.15932789090067676
+        ],
+        "difference": 0.1361771944216571,
+        "total_difference": 166,
+        "unit": "fraction of queries"
+      },
+      "missed_edges_per_query": {
+        "cluster_bootstrap_95_percent_interval": [
+          -0.8493264968602035,
+          -0.765625
+        ],
+        "difference": -0.8072190319934373,
+        "total_difference": -984,
+        "unit": "edges per query"
+      }
+    },
+    "queries": 1219,
+    "regressions": 201,
+    "source_families": 916
+  }
+}

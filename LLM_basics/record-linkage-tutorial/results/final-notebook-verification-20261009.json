@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-10-09T20:41:00.474529+00:00",
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "notebook_python": "3.11.15",
+    "splink": "5.0.0",
+    "lotus_ai": "1.2.4"
+  },
+  "artifact_sha256": {
+    "LLM_basics/record-linkage-with-semantic-operators.ipynb": "53d63011ef419567eef3915838e6f3e462fe21eb7e2db5590864b31abf0f6f02",
+    "LLM_basics/record-linkage-tutorial/report_visuals.py": "ae6e44406563ab668835154b3d5da0c7342743fdf3a8546cc813bd0f0ad32188",
+    "LLM_basics/record-linkage-tutorial/diagrams/manifest.json": "263b995910826ff34b99abd51a7d31b5caa29176a579851cdf5d03370015b20b",
+    "LLM_basics/record-linkage-tutorial/diagrams/README.md": "98a2767a9eb323e7e32bc601654d66d4a10e105074dd228e4f810eae88d43f57",
+    "LLM_basics/record-linkage-tutorial/diagrams/15-clustering-bridge.tex": "5afd8ce74abc499a72183b262e43898744efccac9b982394b5c083562278d84d",
+    "LLM_basics/record-linkage-tutorial/diagrams/15-clustering-bridge.pdf": "3774e2d4a708270b51c13f34a77d4af1e04126ef484b85402c65118854617096",
+    "LLM_basics/record-linkage-tutorial/diagrams/15-clustering-bridge.png": "20dbda37e4cf9355ba26b25a22a15dd794141cb93b6eb2e36ef6c06b9e585257",
+    "LLM_basics/record-linkage-tutorial/run_notebook.py": "5a265741428226190647ec8d9be1e8caee71c24eb0eea772a45a8a4085766114"
+  },
+  "checks": {
+    "notebook_schema": "passed",
+    "executed_code_cells": 35,
+    "saved_errors": 0,
+    "original_cells_preserved_in_order": 69,
+    "current_cells": 84,
+    "existing_scientific_files_unchanged": 599,
+    "diagram_asset_hashes": "passed",
+    "reading_copy_images": 25,
+    "reading_copy_code_inputs": 0,
+    "reading_copy_image_descriptions": "passed",
+    "notebook_relative_file_links": "passed",
+    "reading_copy_figures": 12,
+    "reading_copy_math_expressions": 13,
+    "remote_math_renderer_required": false,
+    "browser_broken_images": 0
+  },
+  "model_api_calls": 0,
+  "evidence_scope": "Editorial and deterministic display verification. Existing empirical predictions, labels and protocols are unchanged. No empirical clustering result or operational NSO superiority is established."
+}

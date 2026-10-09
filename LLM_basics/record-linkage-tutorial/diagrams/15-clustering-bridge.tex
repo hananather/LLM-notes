@@ -1,0 +1,78 @@
+\documentclass[tikz,border=4pt]{standalone}
+\input{diagram-style}
+\definecolor{errorink}{HTML}{B3213D}
+\begin{document}
+\begin{tikzpicture}[
+  every node/.append style={font=\fontsize{9}{11}\selectfont},
+  record/.style={circle,draw=ink,line width=.55pt,minimum size=1.5mm,inner sep=0pt},
+  falseedge/.style={draw=errorink,line width=1.6pt},
+  inferred/.style={draw=errorink,line width=1pt,dash pattern=on 3pt off 2pt},
+]
+\useasboundingbox (-.2,.3) rectangle (16.1,-8.95);
+
+\node[font=\fontsize{10}{12}\selectfont\bfseries] at (3.4,-.2)
+  {1. Accepted pair decisions};
+\node[font=\fontsize{10}{12}\selectfont\bfseries] at (12.5,-.2)
+  {2. Connected-components result};
+
+\node[data,text width=21mm,minimum height=42mm,inner sep=4pt]
+  (a) at (1.7,-2.9) {};
+\node[model,text width=21mm,minimum height=42mm,inner sep=4pt]
+  (b) at (5.1,-2.9) {};
+\node[font=\fontsize{9}{11}\selectfont\bfseries] at (1.7,-1.08) {True entity A};
+\node[font=\fontsize{9}{11}\selectfont\bfseries] at (5.1,-1.08) {True entity B};
+\node at (1.7,-1.51) {50 records};
+\node at (5.1,-1.51) {50 records};
+\foreach \i in {0,...,4} {
+  \foreach \j in {0,...,9} {
+    \node[record,fill=datafill] at ({1.7+(.28*(\i-2))},{-1.95-.25*\j}) {};
+    \node[record,fill=modelfill] at ({5.1+(.28*(\i-2))},{-1.95-.25*\j}) {};
+  }
+}
+\draw[falseedge] (2.33,-2.95) -- (4.47,-2.95);
+\node[text=errorink,text width=10mm,font=\fontsize{9}{11}\selectfont\bfseries]
+  at (3.4,-2.35) {False\\edge};
+\node at (1.7,-4.58) {1,225 true pairs};
+\node at (5.1,-4.58) {1,225 true pairs};
+
+\draw[flow] (6.55,-3.05) -- (9,-3.05);
+\node[label,text width=18mm,font=\fontsize{9}{11}\selectfont]
+  at (7.8,-2.37) {Transitive\\closure};
+
+\draw[draw=dataline,fill=white,rounded corners=3pt,line width=.9pt]
+  (9.3,-.8) rectangle (15.7,-5.0);
+\node[font=\fontsize{9}{11}\selectfont\bfseries] at (12.5,-1.08)
+  {One inferred entity: 100 records};
+\node at (10.8,-1.58) {Records of A};
+\node at (14.2,-1.58) {Records of B};
+\foreach \i in {0,...,4} {
+  \foreach \j in {0,...,9} {
+    \node[record,fill=datafill] at ({10.8+(.28*(\i-2))},{-1.95-.25*\j}) {};
+    \node[record,fill=modelfill] at ({14.2+(.28*(\i-2))},{-1.95-.25*\j}) {};
+  }
+}
+\draw[falseedge] (11.43,-2.95) -- (13.57,-2.95);
+\draw[inferred] (11.43,-1.95) -- (13.57,-4.20);
+\draw[inferred] (11.43,-4.20) -- (13.57,-1.95);
+\draw[inferred] (11.43,-2.45) -- (13.57,-3.70);
+\draw[inferred] (11.43,-3.70) -- (13.57,-2.45);
+\node[text=errorink] at (12.5,-4.61) {$50\times50 = 2,500$ false pairs};
+
+\node[box,text width=59mm,minimum height=18mm,align=left]
+  at (3.4,-6.14)
+  {\textbf{Accepted edges}\\[3pt]
+   $2,451$ accepted pairs; $1$ false pair\\[2pt]
+   Pair precision: $2,450/2,451 = \mathbf{99.959\%}$};
+\node[box,text width=59mm,minimum height=18mm,align=left]
+  at (12.5,-6.14)
+  {\textbf{Pairs implied by the component}\\[3pt]
+   $4,950$ co-clustered pairs; $2,500$ false\\[2pt]
+   Pair precision: $2,450/4,950 = \mathbf{49.495\%}$};
+
+\node[text width=153mm,font=\fontsize{9}{11}\selectfont]
+  at (7.95,-8.30)
+  {\textbf{Illustrative.} All $2,450$ true within-entity pairs are accepted.
+   The groups compress those edges. Dashed red lines illustrate implied false relationships.\\[3pt]
+   A merge of groups of sizes $n_1$ and $n_2$ asserts $n_1n_2$ cross-group relationships.};
+\end{tikzpicture}
+\end{document}

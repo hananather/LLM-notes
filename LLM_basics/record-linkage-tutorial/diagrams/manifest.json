@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "figure_count": 14,
+  "figure_count": 15,
   "figures": [
     {
       "stem": "01-identity-relations",
@@ -214,7 +214,7 @@
     {
       "stem": "09-agentic-pipeline",
       "chapter": 5,
-      "caption": "Agentic map–reduce separates planning, tool use and validation. The operator order is specified; the optional planner derives instructions and execution settings. Map agents process units or bounded batches and retain per-unit outputs. One reducer combines those outputs with access to the same tools. The green check represents this notebook’s independent source validation.",
+      "caption": "Agentic map\u2013reduce separates planning, tool use and validation. The operator order is specified; the optional planner derives instructions and execution settings. Map agents process units or bounded batches and retain per-unit outputs. One reducer combines those outputs with access to the same tools. The green check represents this notebook\u2019s independent source validation.",
       "evidence_boundary": "Conceptual API flow, checked against LOTUS 1.2.4 and source commit 136ae4f4a344a2f75d89f811e516dfcb0de30e46. The three lanes illustrate parallel work; they do not establish a speedup. Source validation is outside the native agentic operators.",
       "sources": [
         "https://lotus-ai.readthedocs.io/en/latest/agentic_operators.html",
@@ -243,7 +243,7 @@
       "stem": "10-agentic-evidence-loop",
       "chapter": 5,
       "caption": "The recorded Coastal trace shows GPT-6 Luna reading three revisions, submitting the highest approved row to a calculator, and returning its result with source identifiers. The calculator reports 200 eligible cases, 110 completed cases and 55% completion. Independent checks verify the selected rows, copied values, units, citations and reducer output across all three offices. Pooling their counts gives 1,130 completed cases out of 1,600 eligible cases, or 70.6% after rounding.",
-      "evidence_boundary": "Abbreviated observable calls and results from the validated 6 October 2026 run, plus the notebook’s independent checks. The source returns are synthetic. This count-based completion rate is neither a survey-weighted estimate nor an agency response-rate standard. The full arguments, tool observations and returned outputs remain in the snapshot.",
+      "evidence_boundary": "Abbreviated observable calls and results from the validated 6 October 2026 run, plus the notebook\u2019s independent checks. The source returns are synthetic. This count-based completion rate is neither a survey-weighted estimate nor an agency response-rate standard. The full arguments, tool observations and returned outputs remain in the snapshot.",
       "sources": [
         "../results/agentic-office-returns-gpt-6-luna.json",
         "../data/agentic-office-returns.json",
@@ -376,6 +376,32 @@
           "sha256": "f7491e6b1dc3a9b96729f6cac4f21e299bb5276e12c3d3cc707de34abeea4059",
           "width_px": 1427,
           "height_px": 1516
+        }
+      }
+    },
+    {
+      "stem": "15-clustering-bridge",
+      "chapter": 12,
+      "caption": "One incorrect accepted edge joins two otherwise correct 50-record entities. Connected-component closure then asserts 2,500 false cross-entity relationships. Direct edge precision and pairwise co-clustering precision have different denominators.",
+      "evidence_boundary": "Constructed calculation with every true within-entity edge accepted: 2,450 true edges and one false edge. Closure produces 4,950 unordered pairs, of which 2,500 are false. No empirical clustering result or entity-level precision claim.",
+      "sources": [
+        "../handbook_examples.py",
+        "../../../research/error-guided-record-linkage/llm-similarity-for-clustering.md"
+      ],
+      "assets": {
+        "tex": {
+          "path": "15-clustering-bridge.tex",
+          "sha256": "5afd8ce74abc499a72183b262e43898744efccac9b982394b5c083562278d84d"
+        },
+        "pdf": {
+          "path": "15-clustering-bridge.pdf",
+          "sha256": "3774e2d4a708270b51c13f34a77d4af1e04126ef484b85402c65118854617096"
+        },
+        "png": {
+          "path": "15-clustering-bridge.png",
+          "sha256": "20dbda37e4cf9355ba26b25a22a15dd794141cb93b6eb2e36ef6c06b9e585257",
+          "width_px": 1437,
+          "height_px": 826
         }
       }
     }

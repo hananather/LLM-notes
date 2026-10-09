@@ -172,6 +172,7 @@ the fuller evidence review and experimental protocol.
 | `results/unstructured-*.json` | Current and historical text snapshots, failed-attempt evidence and request-settings verification |
 | `results/agentic-*.json` | Agentic plan, tool calls and observations, provider usage and source checks |
 | `results/review-verification.json` | Execution, integrity and rendering checks for the reviewed revision |
+| `results/final-notebook-verification-20261009.json` | Current complete-report artifact hashes, 35 executed cells, preserved evidence and reading-copy checks |
 | `results/review-verification-20261006-text.json` | Preserved verification before the agentic section was added |
 | `results/verification.json`, `results/handbook-verification.json` | Preserved verification of earlier revisions |
 
@@ -199,7 +200,9 @@ The pinned environment uses LOTUS 1.2.4, Splink 5.0.0 and Python 3.11.15.
 the installed versions. Splink 5 registers data with `DuckDBAPI.register`
 before constructing a `Linker`.
 
-The [current verification record](results/review-verification.json) identifies
-the exact artifact hashes and checks on macOS 26.6.2, arm64. Linux and Windows
-have not been tested for this tutorial. Earlier verification records describe
-their own dated revisions; they do not certify subsequent edits.
+The [9 October verification record](results/final-notebook-verification-20261009.json)
+identifies the current notebook and figure hashes: all 35 executable cells pass,
+the reading copy includes 12 described figures and 13 embedded mathematical expressions, and 599 existing scientific files
+are unchanged. The checks ran on macOS, arm64. Linux and Windows have not been
+tested for this tutorial. Earlier verification records describe their own dated
+revisions; they do not certify subsequent edits.

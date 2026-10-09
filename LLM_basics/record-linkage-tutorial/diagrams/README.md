@@ -1,6 +1,6 @@
 # Record-linkage figures
 
-Fourteen active TikZ figures accompany the record-linkage notebook. The former chapter map is retained as a historical asset and is no longer displayed. Each source uses the shared `diagram-style.tex`; the PDF and PNG are exported from that source.
+Fifteen active TikZ figures accompany the record-linkage notebook. The former chapter map is retained as a historical asset and is no longer displayed. Each source uses the shared `diagram-style.tex`; the PDF and PNG are exported from that source.
 
 ## Build
 
@@ -16,6 +16,8 @@ Select the intended TeX distribution through `PATH` if more than one is installe
 ## Visual notation
 
 Each box names its role. Slate boxes usually contain observed data. Lavender boxes contain statistical models or execution settings. Pink boxes contain language-model steps. Green boxes contain labels or evaluation. White boxes contain fixed operations or explanations. Color supports these labels; it does not certify correctness.
+
+The notebook's affiliation and product outcome charts are drawn by [report_visuals.py](../report_visuals.py). They reconstruct counts from saved predictions, check recorded hashes, and keep review outcomes and query/pair units distinct. They make no model calls.
 
 Figures omit a common role legend. This avoids listing components that are absent from a figure. Dark arrows show data or evidence flow. A labeled dashed return shows a repeated update.
 
@@ -59,7 +61,7 @@ A semantic predicate fixes the requested relation; the chosen execution plan det
 
 ### 04-controlled-comparison
 
-The comparison on 6 October 2026 uses the same 225 candidate pairs. Supervised Splink and Splink with EM each find all 10 true links and make no false links. LOTUS 1.2.4 with gpt-6-luna finds 8 true links, misses 2 and makes no false links. Each arm correctly rejects 215 nonmatches. The supervised threshold is 26%; the fixed EM threshold is 50%. The [EM record](../results/unlabeled-febrl4-20261006T190913831251Z.json) preserves the protocol, fitted parameters and decisions. The [LLM snapshot](../results/lotus-febrl4-gpt-6-luna.json) preserves all 225 responses and provider usage. Notebook §4.6 reports the current execution.
+The comparison on 6 October 2026 uses the same 225 candidate pairs. Supervised Splink and Splink with EM each find all 10 true links and make no false links. LOTUS 1.2.4 with gpt-6-luna finds 8 true links, misses 2 and makes no false links. Each arm correctly rejects 215 nonmatches. The supervised threshold is 26%; the fixed EM threshold is 50%. The [EM record](../results/unlabeled-febrl4-20261006T190913831251Z.json) preserves the protocol, fitted parameters and decisions. The [LLM snapshot](../results/lotus-febrl4-gpt-6-luna.json) preserves all 225 responses and provider usage. Notebook Section 3 reports the comparison.
 
 **Evidence boundary.** Recorded decisions on a small enriched synthetic slice. EM and the fixed LLM instruction use no task-specific fitting or threshold-selection labels. The supervised reference uses training and validation labels. The existing partitions and slice were constructed using reference identities and had already been inspected. Prior knowledge and computation differ between procedures.
 
@@ -154,3 +156,11 @@ EM repeats two steps over many training pairs. The E step computes match probabi
 Sources: [Splink parameter estimation](https://moj-analytical-services.github.io/splink/demos/tutorials/04_Estimating_model_parameters.html) and [the Splink author's EM explanation](https://www.robinlinacre.com/em_intuition/).
 
 [PNG](14-em-learning.png) · [PDF](14-em-learning.pdf) · [Editable source](14-em-learning.tex)
+
+### 15-clustering-bridge
+
+One false accepted edge joins two otherwise correct 50-record entities. All 2,450 true within-entity edges are accepted. Direct edge precision is 2,450/2,451, or 99.959%. Connected-component closure asserts all 4,950 pairs, including 2,500 false cross-entity relationships. Pairwise co-clustering precision becomes 49.495%.
+
+**Evidence boundary.** Constructed calculation, checked by `bridge_example` in `handbook_examples.py`. The drawing compresses the true internal edges and illustrates only some implied cross-entity relationships. It reports no empirical clustering benefit or entity-level cluster metric.
+
+[PNG](15-clustering-bridge.png) · [PDF](15-clustering-bridge.pdf) · [Editable source](15-clustering-bridge.tex)

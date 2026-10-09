@@ -13,9 +13,65 @@ from nbconvert import HTMLExporter
 from nbconvert.preprocessors import TagRemovePreprocessor
 
 
+class StaticMathHTMLExporter(HTMLExporter):
+    """Embed mathematical notation so a reading copy needs no remote renderer."""
+
+    def from_notebook_node(self, notebook, resources=None, **kwargs):
+        html, resources = super().from_notebook_node(notebook, resources, **kwargs)
+        return render_static_math(html), resources
+
+
+def render_static_math(html):
+    """Render Markdown math as described SVG images, preserving its TeX source."""
+    import base64
+    from io import BytesIO
+
+    from bs4 import BeautifulSoup
+    from matplotlib.font_manager import FontProperties
+    from matplotlib.mathtext import MathTextParser, math_to_image
+
+    pattern = re.compile(r"\$\$([\s\S]*?)\$\$|(?<![\\$])\$([^$\n]+?)\$(?!\$)")
+    soup = BeautifulSoup(html, "html.parser")
+    parser = MathTextParser("path")
+    font = FontProperties(size=11)
+    for block in soup.select(".jp-RenderedMarkdown"):
+        for text in list(block.find_all(string=True)):
+            if text.parent.name in {"script", "style", "code", "pre"}:
+                continue
+            value = str(text)
+            matches = list(pattern.finditer(value))
+            if not matches:
+                continue
+            pieces, offset = [], 0
+            for match in matches:
+                pieces.append(value[offset:match.start()])
+                tex = (match.group(1) or match.group(2)).replace("\n", " ")
+                expression = "$" + tex + "$"
+                geometry = parser.parse(expression, dpi=72, prop=font)
+                buffer = BytesIO()
+                math_to_image(expression, buffer, prop=font, format="svg", color="#1E3342")
+                image = soup.new_tag("img", alt=tex)
+                image["src"] = "data:image/svg+xml;base64," + base64.b64encode(buffer.getvalue()).decode()
+                image["class"] = "report-static-math"
+                if match.group(1) is not None:
+                    image["style"] = (f"display:block;margin:1em auto;max-width:100%;"
+                                      f"width:{geometry.width / 11:.3f}em;height:auto")
+                else:
+                    image["style"] = (f"width:{geometry.width / 11:.3f}em;height:auto;"
+                                      f"vertical-align:{-geometry.depth / 11:.3f}em")
+                pieces.append(image)
+                offset = match.end()
+            pieces.append(value[offset:])
+            text.replace_with(*pieces)
+    for script in list(soup.find_all("script")):
+        if "mathjax" in script.get("src", "").lower() or script.get("type") == "text/x-mathjax-config":
+            script.decompose()
+    return str(soup)
+
+
 def reading_exporter():
     """Retain image descriptions when the Lab template renders PNG outputs."""
-    exporter = HTMLExporter(template_name="lab", raw_template='''
+    exporter = StaticMathHTMLExporter(template_name="lab", raw_template='''
 {% extends 'lab/index.html.j2' %}
 {% block data_png scoped %}
 {%- set description = (output | get_metadata('alt', 'image/png')) or (cell | get_metadata('alt')) or '' -%}

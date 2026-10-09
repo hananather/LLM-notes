@@ -41,6 +41,12 @@ python3.11 -m venv .venv
 If `.venv` already belongs to another project, use a different environment directory. The full report uses the adjacent pinned `requirements-lock.txt`, which includes
 LOTUS, Splink and every direct dependency listed in this directory's `requirements.txt`. The latter remains sufficient only for the standalone NSO scripts. The runner creates a temporary kernel that uses its launching Python interpreter, so it requires no global kernel registration. When opening the notebook interactively, select a kernel from the same environment. The HTML export retains figure descriptions and source links.
 
+The [9 October complete-report verification](../record-linkage-tutorial/results/final-notebook-verification-20261009.json)
+records 35 successful executable cells, 12 figures and 13 mathematical expressions with descriptions, preserved
+original cells and unchanged scientific evidence. The report includes result
+charts and a dedicated clustering section with proposed comparisons; it does
+not report a measured clustering gain.
+
 `run_selection.py` checks complete saved batches without changing their measured wall time. `--split dev` checks the development runs. Its `--live` flag permits only unfinished declared cases; completed results remain unchanged. The shared ledger prevents repeating an attempted request tag. A new experimental revision requires new artifact names and an explicit protocol rather than overwriting this test.
 
 ## Follow the evidence

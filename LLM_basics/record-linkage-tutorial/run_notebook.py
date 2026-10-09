@@ -1,6 +1,7 @@
-"""Execute the tutorial without loading machine-wide Jupyter configuration."""
+"""Execute the complete semantic-join report without machine-wide Jupyter configuration."""
 
 import argparse
+import importlib.util
 from html import escape, unescape
 import os
 from pathlib import Path
@@ -8,7 +9,6 @@ import re
 from urllib.parse import quote, unquote, urlsplit, urlunsplit
 
 import nbformat
-from nbclient import NotebookClient
 from nbconvert import HTMLExporter
 from nbconvert.preprocessors import TagRemovePreprocessor
 
@@ -61,8 +61,11 @@ def main():
     config_cell.source = re.sub(r"^RUN_AGENTIC_LIVE = (?:True|False)$",
                                f"RUN_AGENTIC_LIVE = {args.live_agentic}",
                                config_cell.source, flags=re.M)
-    NotebookClient(notebook, timeout=240, kernel_name="python3",
-                   resources={"metadata": {"path": str(notebook_path.parent)}}).execute()
+    runner_path = notebook_path.parent / "nso-semantic-workflows" / "run_notebook.py"
+    spec = importlib.util.spec_from_file_location("report_replay", runner_path)
+    runner = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(runner)
+    runner.execute_saved(notebook, notebook_path.parent)
     # A saved notebook always starts in the free replay mode on its next execution.
     config_cell.source = re.sub(r"^RUN_LIVE = (?:True|False)$", "RUN_LIVE = False", config_cell.source, flags=re.M)
     config_cell.source = re.sub(r"^RUN_UNSTRUCTURED_LIVE = (?:True|False)$", "RUN_UNSTRUCTURED_LIVE = False",
@@ -72,7 +75,8 @@ def main():
     nbformat.write(notebook, notebook_path)
     if args.html:
         exporter = reading_exporter()
-        html, _ = exporter.from_notebook_node(notebook)
+        html, _ = exporter.from_notebook_node(
+            notebook, resources={"metadata": {"name": "Semantic joins and record linkage"}})
         args.html.parent.mkdir(parents=True, exist_ok=True)
         html = rebase_file_links(html, notebook_path.parent, args.html.resolve().parent)
         args.html.write_text(html, encoding="utf-8")

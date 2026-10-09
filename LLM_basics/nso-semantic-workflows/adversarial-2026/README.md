@@ -2,9 +2,9 @@
 
 Semantic product selection recovered more complete reference sets than the fixed primary lexical rule in development and in the amended holdout, while adding false links. Recordwise extraction and package-image extraction did not meet the rule for a larger paid evaluation. This folder preserves those outcomes, the conventional comparisons, the source data and the explicit post-development amendment used for one unchanged product selector holdout.
 
-The reader-facing report is the [single NSO notebook](../../nso-semantic-workflows.ipynb). These files provide its reproducible evidence. They extend the earlier affiliation, NAICS, NOC, school and statistical-query experiments without replacing their results.
+The reader-facing report is the [complete report notebook](../../record-linkage-with-semantic-operators.ipynb). These files provide its reproducible evidence. They extend the earlier affiliation, NAICS, NOC, school and statistical-query experiments without replacing their results.
 
-The short notebook shows [selected input/decision examples](../../nso-semantic-workflows.ipynb#dataset-showcase). The earlier product, image and control gallery remains in [the source-linked showcase file](dataset-showcase.json) and its adjacent assets. These illustrations explain the data; the complete evaluations supply the performance estimates.
+The complete report shows [selected input/decision examples](../../record-linkage-with-semantic-operators.ipynb#dataset-showcase). The earlier product, image and control gallery remains in [the source-linked showcase file](dataset-showcase.json) and its adjacent assets. These illustrations explain the data; the complete evaluations supply the performance estimates.
 
 ## Why these tasks matter
 
@@ -37,7 +37,7 @@ The product methods and both image extraction pipelines failed the [original con
 
 The [dated amendment](contracts/product-tradeoff-amendment-v1.json) allowed one unchanged product selector holdout to characterize the development tradeoff. It explicitly overrode the original spending stop after development. The endpoints are not newly discovered questions, and the amended run is not a gate pass. Prompts, candidates, thresholds and failure rules stayed fixed. The complete predictions were sealed before outcome scoring. No extraction or image model holdout was authorized by this amendment.
 
-The [access chronology](../../nso-semantic-workflows.ipynb#product-access-chronology) records limited reference-derived metadata exposure after request freeze and before prediction sealing.
+The [access chronology](../../record-linkage-with-semantic-operators.ipynb#product-access-chronology) records limited reference-derived metadata exposure after request freeze and before prediction sealing.
 
 On the 80 image development queries, CLIP made 63 correct decisions out of 80 automatic decisions. Pixel extraction followed by lexical matching also made 63, with 71 automatic decisions; seven schema/completion failures and two reviews reduced coverage. That is not an improvement in complete-decision accuracy. On 1,000 held-out images, CLIP made 603 correct decisions, OCR plus lexical matching 545, and OCR plus Splink 483. No image-model holdout result exists. The designed missing-counterpart view and similarity-flagged strata remain in the [complete free results](images/results/free-test-summary.json).
 

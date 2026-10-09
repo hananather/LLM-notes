@@ -33,7 +33,7 @@ Curated notes, notebooks, and small demos covering LLM concepts, patterns, and a
 | Structured Extraction | Extracting structured data with LLMs | [Link](./LLM_basics/structured-extraction.ipynb) |
 | Structured Extraction with Llama | Using Llama for data extraction | [Link](./LLM_basics/structured-extraction-with-llama.ipynb) |
 | Record Linkage | Entity resolution and record matching with LLMs | [Link](./LLM_basics/record-linkage.ipynb) |
-| Record-linkage handbook | Splink–LOTUS companion with FEBRL, BioDEX, Wikipedia and agentic dataset workflows; eight chapters and fourteen figures | [Notebook](./LLM_basics/record-linkage-with-semantic-operators.ipynb) |
+| Semantic joins and record linkage | Complete report: methods, NSO experiments, adverse results, costs and next actions | [Notebook](./LLM_basics/record-linkage-with-semantic-operators.ipynb) |
 | Pydantic | Using Pydantic for data validation with LLMs | [Link](./LLM_basics/pydantic.ipynb) |
 
 ### Model Context Protocol

@@ -1,8 +1,16 @@
 # Semantic joins in NSO workflows
 
-[Read the notebook](../nso-semantic-workflows.ipynb) for measured comparisons of language-based selection, conventional matching and statistical-query tools. This extends the [Splink and LOTUS tutorial](../record-linkage-with-semantic-operators.ipynb) with public-source and explicitly synthetic experiments.
+[Read the complete report](../record-linkage-with-semantic-operators.ipynb).
+This is the single notebook for the methodological explanation, all completed
+experiment families, source examples, adverse results, costs, research lessons
+and next decisions. This directory preserves NSO experiment code and evidence;
+[native LOTUS and Splink support](../record-linkage-tutorial/README.md) is adjacent.
 
-The notebook keeps the strongest affiliation result, the product recovery/error trade-off, actual input/decision examples, stopped comparisons and a finite next-step checklist. Its [selected examples](../nso-semantic-workflows.ipynb#dataset-showcase) include a correction and an incorrect automatic link. A government-text pair is explicitly unscored. Detailed grids and the earlier gallery remain supporting evidence rather than the main reading path.
+The report's [selected examples](../record-linkage-with-semantic-operators.ipynb#dataset-showcase)
+include both a correction and an incorrect automatic affiliation link. It also
+contains the product, conventional-only, synthetic and unscored branches with
+their distinct evidence boundaries. Detailed grids and complete source records
+remain supporting evidence.
 
 On the frozen tests, GPT-6 Luna produced 593 valid annotated affiliation sets out of 644, compared with 456 for the lexical baseline. It produced 28/32 correct synthetic industry decisions versus 18/32, and 27/32 occupation decisions versus 23/32. The affiliation comparison is against the implemented lexical methods, not the trained S2AFF pipeline. Coding cases are a convenience sample of authored classification boundaries, not observed survey returns.
 
@@ -10,7 +18,7 @@ The school screen stopped model work: conventional matching was correct for all 
 
 Every scored model attempt is preserved, including invalid evidence quotations. The affiliation review flag passed through 30 incorrect cases among 576 automatic decisions. Selection gains therefore do not establish a reliable acceptance policy or measured staff-time savings.
 
-The later [product holdout](adversarial-2026/products/README.md#scored-comparisons) retained all 1,219 queries. Semantic selection made 702 correct complete decisions versus 382 for the development-selected lexical rule, with 508 versus 264 false links and 151 versus 788 missed links. It left 68 queries for review and 26 failed responses unresolved. This run followed an explicit post-development spending amendment; the original continuation gate remains failed. The [access chronology](../nso-semantic-workflows.ipynb#product-access-chronology) discloses limited test metadata exposure after request freeze and before prediction sealing.
+The later [product holdout](adversarial-2026/products/README.md#scored-comparisons) retained all 1,219 queries. Semantic selection made 702 correct complete decisions versus 382 for the development-selected lexical rule, with 508 versus 264 false links and 151 versus 788 missed links. It left 68 queries for review and 26 failed responses unresolved. This run followed an explicit post-development spending amendment; the original continuation gate remains failed. The [access chronology](../record-linkage-with-semantic-operators.ipynb#product-access-chronology) discloses limited test metadata exposure after request freeze and before prediction sealing.
 
 ## Read and verify without paid calls
 
@@ -21,7 +29,7 @@ From the repository root, use an isolated environment:
 ```bash
 python3.11 --version  # Must report Python 3.11.15.
 python3.11 -m venv .venv
-.venv/bin/python -m pip install -r LLM_basics/nso-semantic-workflows/requirements.txt
+.venv/bin/python -m pip install -r LLM_basics/record-linkage-tutorial/requirements-lock.txt
 .venv/bin/python LLM_basics/nso-semantic-workflows/verify.py
 .venv/bin/python LLM_basics/nso-semantic-workflows/run_selection.py linkage
 .venv/bin/python LLM_basics/nso-semantic-workflows/run_selection.py coding
@@ -30,7 +38,8 @@ python3.11 -m venv .venv
 .venv/bin/python LLM_basics/nso-semantic-workflows/run_notebook.py --html nso-results.html
 ```
 
-If `.venv` already belongs to another project, use a different environment directory. `requirements.txt` records tested direct versions; it is not a complete transitive dependency lock. The runner creates a temporary kernel that uses its launching Python interpreter, so it requires no global kernel registration. When opening the notebook interactively, select a kernel from the same environment. The HTML export retains figure descriptions and source links.
+If `.venv` already belongs to another project, use a different environment directory. The full report uses the adjacent pinned `requirements-lock.txt`, which includes
+LOTUS, Splink and every direct dependency listed in this directory's `requirements.txt`. The latter remains sufficient only for the standalone NSO scripts. The runner creates a temporary kernel that uses its launching Python interpreter, so it requires no global kernel registration. When opening the notebook interactively, select a kernel from the same environment. The HTML export retains figure descriptions and source links.
 
 `run_selection.py` checks complete saved batches without changing their measured wall time. `--split dev` checks the development runs. Its `--live` flag permits only unfinished declared cases; completed results remain unchanged. The shared ledger prevents repeating an attempted request tag. A new experimental revision requires new artifact names and an explicit protocol rather than overwriting this test.
 
@@ -46,7 +55,7 @@ If `.venv` already belongs to another project, use a different environment direc
 | Completed amended product holdout, costs and offline replay | [Product evidence](adversarial-2026/products/README.md#scored-comparisons) |
 | Raw public requests, responses, usage and failures | [API ledger](results/api-ledger.jsonl) |
 
-The classification and affiliation systems implement blocked semantic selection through the provider API. The statistics system uses a bounded Python controller with JSON actions and deterministic tools. These are measurements of those implementations; they are not native LOTUS optimizer or `Corpus.agent` benchmarks. The earlier tutorial contains the native LOTUS examples.
+The classification and affiliation systems implement blocked semantic selection through the provider API. The statistics system uses a bounded Python controller with JSON actions and deterministic tools. These are measurements of those implementations; they are not native LOTUS optimizer or `Corpus.agent` benchmarks. The same report contains the native LOTUS examples, with their implementation boundaries stated.
 
 ## Rebuild sources and conventional baselines
 

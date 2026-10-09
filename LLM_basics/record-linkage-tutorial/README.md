@@ -1,12 +1,11 @@
 # Record linkage with Splink and LOTUS
 
-[Open the short primer](../record-linkage-with-semantic-operators.ipynb) for the
-relation definition, one Fellegi–Sunter calculation, the saved person-linkage
-comparison and native LOTUS text examples. It ends with a compact check of the
-synthetic tool-use demonstration. Detailed evidence and reproduction commands
-remain here; exploratory research is linked separately.
-
-A [separate NSO experiment notebook](../nso-semantic-workflows.ipynb) adds public affiliation linkage, synthetic NAICS/NOC coding, a school-linkage screen, catalog discovery and statistical-query comparisons, with frozen baselines and complete outcomes.
+[Open the complete report](../record-linkage-with-semantic-operators.ipynb).
+One notebook contains the methods, FEBRL/BioDEX/FEVER experiments, native tool-use
+demonstration, all NSO experiment families, adverse results, costs, research
+lessons and next actions. This directory supplies the native LOTUS and Splink
+methods; [NSO support](../nso-semantic-workflows/README.md) supplies the other
+frozen experiments. Neither support directory is a separate reader notebook.
 
 The experiments answer different questions:
 
@@ -30,7 +29,8 @@ by Splink remains a proposed comparison.
 
 ## Run or read
 
-From the repository root, create an isolated Python 3.11 environment:
+From the repository root, create an isolated Python **3.11.15** environment
+(the NSO statistics execution contract pins that patch version):
 
 ```bash
 python3.11 -m venv .venv
@@ -48,7 +48,7 @@ It needs no API key, downloads or TeX installation. To execute and export a
 reading copy without machine-wide Jupyter configuration:
 
 ```bash
-.venv/bin/python LLM_basics/record-linkage-tutorial/run_notebook.py --html reading-copy.html
+.venv/bin/python LLM_basics/nso-semantic-workflows/run_notebook.py --html semantic-joins-report.html
 ```
 
 To repeat the unlabeled Splink fit locally and save a new result:
@@ -63,7 +63,8 @@ It makes no model API calls. The notebook replays the saved 6 October run.
 
 The HTML reading copy omits setup and execution inputs. The notebook retains
 the code for execution and inspection.
-The retained BioDEX diagram is embedded so it displays without running code.
+The overview and BioDEX diagrams are embedded; the EM diagram and source image
+are included in saved outputs, so all display without running code.
 
 Live requests are explicit and independent:
 
@@ -126,9 +127,9 @@ was a true link, but the exact 95% interval still allows 0–13 true links
 in that group without using its one-to-one constraint. The separate full truth census confirms zero. This shows
 why a zero-error sample does not prove perfect recall.
 
-The primer distinguishes the requested relation, evidence scoring, identity
-comparison and native text operators. Its final section verifies the saved
-`Corpus.agent` demonstration in one row. The supporting trace records planning,
+The report distinguishes the requested relation, evidence scoring, identity
+comparison and native text operators. Its tool-use section explains and verifies the saved
+`Corpus.agent` demonstration. The supporting trace records planning,
 source selection, unit conversion and calculation. This synthetic workflow
 illustrates execution; it does not estimate accuracy on operational NSO
 documents or savings over a purpose-built parser.
@@ -144,7 +145,7 @@ used here; the snapshot also retains native metadata. In LOTUS 1.2.4,
 `reduce_strategy` is unused: the reducer is a single agent over all findings.
 
 Diagnostic repairs, reusable LLM supervision and large-scale deployment remain
-research proposals outside the short reader. The repair, distillation and
+research proposals summarized in the report. The repair, distillation and
 100M-by-100M studies have not been run. The supporting
 [research notes](../../research/error-guided-record-linkage/README.md) retain
 the fuller evidence review and experimental protocol.

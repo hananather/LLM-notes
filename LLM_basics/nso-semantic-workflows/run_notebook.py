@@ -1,4 +1,4 @@
-"""Execute the NSO experiment report from saved evidence, without model calls."""
+"""Execute the complete semantic-join report from saved evidence, without model calls."""
 from __future__ import annotations
 
 import argparse
@@ -37,7 +37,7 @@ def main():
     parser.add_argument("--html", type=Path, help="Export an HTML reading copy.")
     args = parser.parse_args()
     root = Path(__file__).resolve().parent
-    notebook_path = root.parent / "nso-semantic-workflows.ipynb"
+    notebook_path = root.parent / "record-linkage-with-semantic-operators.ipynb"
     notebook = nbformat.read(notebook_path, as_version=4)
     execute_saved(notebook, root.parent)
     nbformat.write(notebook, notebook_path)
@@ -46,7 +46,8 @@ def main():
         spec = importlib.util.spec_from_file_location("tutorial_export", helper)
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
-        html, _ = module.reading_exporter().from_notebook_node(notebook)
+        html, _ = module.reading_exporter().from_notebook_node(
+            notebook, resources={"metadata": {"name": "Semantic joins and record linkage"}})
         args.html.parent.mkdir(parents=True, exist_ok=True)
         html = module.rebase_file_links(html, notebook_path.parent, args.html.resolve().parent)
         args.html.write_text(html, encoding="utf-8")

@@ -1,0 +1,97 @@
+{
+  "cases": {
+    "llm_correct_trained_wrong": {
+      "candidate_complete": true,
+      "case_id": "s2aff-0137",
+      "methods": {
+        "hist_gradient_boosting": {
+          "automatic_correct": false,
+          "status": "automatic",
+          "targets": [],
+          "valid_set_correct": false
+        },
+        "lexical": {
+          "automatic_correct": false,
+          "status": "automatic",
+          "targets": [],
+          "valid_set_correct": false
+        },
+        "logistic": {
+          "automatic_correct": true,
+          "status": "automatic",
+          "targets": [
+            "https://ror.org/05s92vm98"
+          ],
+          "valid_set_correct": true
+        },
+        "saved_llm": {
+          "automatic_correct": true,
+          "status": "automatic",
+          "targets": [
+            "https://ror.org/05s92vm98"
+          ],
+          "valid_set_correct": true
+        }
+      },
+      "reference_targets": [
+        "https://ror.org/05s92vm98"
+      ],
+      "source_row": 137,
+      "target_names": {
+        "https://ror.org/05s92vm98": "Xidian University"
+      },
+      "text": "Broadband Wireless Commun. Lab., Xidian Univ., Xian"
+    },
+    "trained_correct_llm_wrong": {
+      "candidate_complete": true,
+      "case_id": "s2aff-0482",
+      "methods": {
+        "hist_gradient_boosting": {
+          "automatic_correct": true,
+          "status": "automatic",
+          "targets": [
+            "https://ror.org/013meh722"
+          ],
+          "valid_set_correct": true
+        },
+        "lexical": {
+          "automatic_correct": false,
+          "status": "automatic",
+          "targets": [
+            "https://ror.org/03dzc0485"
+          ],
+          "valid_set_correct": false
+        },
+        "logistic": {
+          "automatic_correct": false,
+          "status": "automatic",
+          "targets": [
+            "https://ror.org/013meh722",
+            "https://ror.org/03dzc0485"
+          ],
+          "valid_set_correct": false
+        },
+        "saved_llm": {
+          "automatic_correct": false,
+          "status": "automatic",
+          "targets": [
+            "https://ror.org/013meh722",
+            "https://ror.org/03dzc0485"
+          ],
+          "valid_set_correct": false
+        }
+      },
+      "reference_targets": [
+        "https://ror.org/013meh722"
+      ],
+      "source_row": 482,
+      "target_names": {
+        "https://ror.org/013meh722": "University of Cambridge",
+        "https://ror.org/03dzc0485": "University of Regina"
+      },
+      "text": "DAMTP, CMS, University of Cambridge, Wilberforce Road, Cambridge CB3 0WA, UK and Department of Physics, University of Regina, Regina, SK, Canada S4S 0A2#TAB#"
+    }
+  },
+  "primary_model": "hist_gradient_boosting",
+  "selection": "first case ID in each paired-disagreement direction, after scoring"
+}

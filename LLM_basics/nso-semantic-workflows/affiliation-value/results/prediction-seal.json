@@ -1,0 +1,35 @@
+{
+  "artifact_sha256": {
+    "protocol.json": "ae1494790edd193d79c5e94436f039d4c7b65f612d1764b10484845353b955ca",
+    "results/candidates.json.gz": "dfbbf56fd3b3e12fa857e20ca1153565576c5710c727c50cc616aacb8c4e4ed4",
+    "results/hist_gradient_boosting-scores.json.gz": "a073a71eede93710a374a3d85332fee3f112bb4e907c22dac64198341b3d918c",
+    "results/logistic-scores.json.gz": "ff0d6cd0bc45d1b2b17613ea68fe64e9f9b4fa437c1e027769ca768723e2aa4b",
+    "results/pair-features.json.gz": "97ceafae8981a4a1c8e42f3e8dcb92fadae7df957f63f1edd6296b3f81570a91",
+    "results/preparation.json": "aac5ad52204f92508c2d031798d6e5eb02a8a36cde369cb9466b1d49d42c6b96",
+    "results/test-predictions.json": "cef3bd2442b61ef6036dc22fb98ccd7b81c1e9098fb6c4848675d7845f1fddae",
+    "results/validation-selection.json": "f6cb750bee8cf44576eea8f49fef8c0d6e354a55294a040fa94a0a8981c4f45a",
+    "run.py": "ccad7973efafcda3677acf3be559e5b2feeb9e56d578a06d5ba08b5250b256e4"
+  },
+  "evaluation_must_verify_this_seal": true,
+  "paid_calls": 0,
+  "sealed_at": "2026-10-09T16:38:12.300124+00:00",
+  "source_sha256": {
+    "cache/linkage/gold_affiliation_annotations.csv": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+    "cache/linkage/v1.1-2022-06-16-ror-data.zip": "d71fd8d20d753fed8f7b5e08aa2215ad4cda2b2378c7f2a9f977ad17605504a6",
+    "data/linkage/model-contract.json": "a5904e7ebff85a39ef246281570e5d3fbf03ed456009bab3a747b035c351dd4c",
+    "data/linkage/s2aff-candidate-registry.json": "ca9824a4f09e3e172727c650bb9addf66133bf368643b66b8937dc0be93bcd1b",
+    "data/linkage/s2aff-candidates.json": "886e689e3841b79d6bd43eaed90c1d51fbeb9929fe80fa0c53a17de4655267e6",
+    "data/linkage/s2aff-gold.json": "dce7108da6643db4d57eb7c4401bc98dee9595eef4f18729919d058edc03ad84",
+    "data/linkage/s2aff-inputs.json": "a6911e1fddaca4f849b3fa20a7f2d97a92dc4875d3a1d7818f3001003d7730ba",
+    "data/linkage/s2aff-model-jobs.json": "b9543d6360b14e44aaa38b81a2046cb0cb7f16d938ec5bef4186558491317a68",
+    "linkage.py": "268138f3b84eae91dcd5c26823173c903b211d89858f67f1814ea1458aeec8c1",
+    "results/linkage/model-test-v1-score.json": "89bc7163594665a1c9551fbc53dd0bf0308cbf665a5358520e1899ab4ae3938f",
+    "results/linkage/model-test-v1.json": "7b76b42fd8c50bbc06cbfb48bff25f55dc7363617d733d974fe1c1c509d205a3",
+    "results/linkage/s2aff-baseline-predictions.json": "e1d7cd9d51a5f606bf492117bc6cd46c7c8a4c9edcccfa16ead5f41f203e6ace"
+  },
+  "test_labels_parsed_during_fit": false,
+  "test_prediction_rows_per_arm": {
+    "hist_gradient_boosting": 644,
+    "logistic": 644
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "artifact_sha256": {
+    "results/candidates.json.gz": "dfbbf56fd3b3e12fa857e20ca1153565576c5710c727c50cc616aacb8c4e4ed4",
+    "results/pair-features.json.gz": "97ceafae8981a4a1c8e42f3e8dcb92fadae7df957f63f1edd6296b3f81570a91"
+  },
+  "created_at": "2026-10-09T16:38:10.528448+00:00",
+  "elapsed_seconds": 66.01366204200895,
+  "excluded_training_case_ids": [
+    "s2aff-0329",
+    "s2aff-0555",
+    "s2aff-1038",
+    "s2aff-1061",
+    "s2aff-1227"
+  ],
+  "existing_validation_lists_reproduced": 100,
+  "feature_names": [
+    "char_tfidf",
+    "word_tfidf",
+    "location_score",
+    "contained_alias",
+    "fused_score",
+    "candidate_rank_fraction",
+    "fused_gap_from_top",
+    "fused_gap_to_next",
+    "char_gap_from_best",
+    "word_gap_from_best",
+    "best_name_token_precision",
+    "best_name_token_recall",
+    "best_name_token_f1",
+    "best_name_token_jaccard",
+    "best_name_character_ratio",
+    "best_name_idf_coverage",
+    "best_name_abbreviation_coverage",
+    "any_whole_name_contained",
+    "earliest_contained_name_position",
+    "exact_acronym_token",
+    "acronym_query_coverage",
+    "city_token_recall",
+    "whole_city_contained",
+    "country_token_recall",
+    "whole_country_contained",
+    "country_code_token",
+    "query_token_count",
+    "query_character_count",
+    "minimum_name_token_count",
+    "maximum_name_token_count",
+    "number_of_names",
+    "number_of_acronyms"
+  ],
+  "full_registry_index": {
+    "alias_rows": 181629,
+    "char_features": 170249,
+    "registry_organizations": 102742,
+    "word_features": 300000
+  },
+  "implementation_sha256": "ccad7973efafcda3677acf3be559e5b2feeb9e56d578a06d5ba08b5250b256e4",
+  "original_test_lists_reused": 644,
+  "protocol_sha256": "ae1494790edd193d79c5e94436f039d4c7b65f612d1764b10484845353b955ca",
+  "rows_by_split": {
+    "test": 644,
+    "train": 1127,
+    "val": 588
+  },
+  "source_versions": {
+    "numpy": "1.26.4",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.11.15",
+    "sklearn": "1.9.1"
+  },
+  "split_metadata": {
+    "train": {
+      "candidate_coverage": {
+        "1": {
+          "all_targets_retained_rows": 696,
+          "all_targets_row_recall": 0.6783625730994152,
+          "gold_targets": 1144,
+          "gold_targets_found": 785,
+          "positive_rows": 1026,
+          "target_recall": 0.6861888111888111
+        },
+        "10": {
+          "all_targets_retained_rows": 932,
+          "all_targets_row_recall": 0.9083820662768031,
+          "gold_targets": 1144,
+          "gold_targets_found": 1045,
+          "positive_rows": 1026,
+          "target_recall": 0.9134615384615384
+        },
+        "25": {
+          "all_targets_retained_rows": 960,
+          "all_targets_row_recall": 0.935672514619883,
+          "gold_targets": 1144,
+          "gold_targets_found": 1075,
+          "positive_rows": 1026,
+          "target_recall": 0.9396853146853147
+        },
+        "5": {
+          "all_targets_retained_rows": 903,
+          "all_targets_row_recall": 0.8801169590643275,
+          "gold_targets": 1144,
+          "gold_targets_found": 1016,
+          "positive_rows": 1026,
+          "target_recall": 0.8881118881118881
+        }
+      },
+      "label_cardinalities": {
+        "0": 101,
+        "1": 918,
+        "2": 99,
+        "3": 8,
+        "4": 1
+      },
+      "pair_rows": 28175,
+      "query_rows": 1127
+    },
+    "val": {
+      "candidate_coverage": {
+        "1": {
+          "all_targets_retained_rows": 412,
+          "all_targets_row_recall": 0.7672253258845437,
+          "gold_targets": 573,
+          "gold_targets_found": 444,
+          "positive_rows": 537,
+          "target_recall": 0.774869109947644
+        },
+        "10": {
+          "all_targets_retained_rows": 503,
+          "all_targets_row_recall": 0.9366852886405959,
+          "gold_targets": 573,
+          "gold_targets_found": 539,
+          "positive_rows": 537,
+          "target_recall": 0.9406631762652705
+        },
+        "25": {
+          "all_targets_retained_rows": 512,
+          "all_targets_row_recall": 0.9534450651769087,
+          "gold_targets": 573,
+          "gold_targets_found": 548,
+          "positive_rows": 537,
+          "target_recall": 0.956369982547993
+        },
+        "5": {
+          "all_targets_retained_rows": 491,
+          "all_targets_row_recall": 0.9143389199255121,
+          "gold_targets": 573,
+          "gold_targets_found": 527,
+          "positive_rows": 537,
+          "target_recall": 0.9197207678883071
+        }
+      },
+      "label_cardinalities": {
+        "0": 51,
+        "1": 501,
+        "2": 36
+      },
+      "pair_rows": 14700,
+      "query_rows": 588
+    }
+  },
+  "test_labels_parsed": false
+}

@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "audit_type": "exploratory_source_consistency",
+  "adjudicated": false,
+  "scores_changed": false,
+  "boundary": "These observations concern only the fixed 17 trained-correct/LLM-disagreement cases under recorded label-set agreement. They do not adjudicate real-world identity, replace labels, alter scores or characterize all LLM errors.",
+  "selection": {
+    "primary_model": "hist_gradient_boosting",
+    "fixed_all_cases": true,
+    "case_count": 17,
+    "source_field": "paired_comparisons.hist_gradient_boosting.all.versus_llm_valid_set.corrected_case_ids",
+    "meaning": "Trained output agrees with the recorded reference set; validated saved LLM output does not."
+  },
+  "evidence_path_base": "LLM_basics/nso-semantic-workflows",
+  "source_sha256": {
+    "affiliation-value/results/evaluation.json": "4ec843719eb3eefd9e6dfcadae614ca4570e606c04455e2e03a9a1a638421194",
+    "affiliation-value/results/case-outcomes.json.gz": "2b9c39bb0beabe0c8cae869159af659cf1c07d31142d7aea2b01e06c675ec5e3",
+    "data/linkage/s2aff-inputs.json": "a6911e1fddaca4f849b3fa20a7f2d97a92dc4875d3a1d7818f3001003d7730ba",
+    "data/linkage/s2aff-gold.json": "dce7108da6643db4d57eb7c4401bc98dee9595eef4f18729919d058edc03ad84",
+    "data/linkage/s2aff-candidate-registry.json": "ca9824a4f09e3e172727c650bb9addf66133bf368643b66b8937dc0be93bcd1b",
+    "linkage.py": "268138f3b84eae91dcd5c26823173c903b211d89858f67f1814ea1458aeec8c1"
+  },
+  "raw_prediction_sha256": {
+    "results/linkage/model-test-v1.json": "7b76b42fd8c50bbc06cbfb48bff25f55dc7363617d733d974fe1c1c509d205a3",
+    "affiliation-value/results/test-predictions.json": "cef3bd2442b61ef6036dc22fb98ccd7b81c1e9098fb6c4848675d7845f1fddae"
+  },
+  "category_counts": {
+    "source_explicit_extra_targets": 12,
+    "review_without_selection": 3,
+    "exact_source_quote_invalid": 1,
+    "historical_nil_parent_inference": 1
+  },
+  "cases": [
+    {
+      "case_id": "s2aff-0482",
+      "category": "source_explicit_extra_targets",
+      "reference_target_ids": [
+        "https://ror.org/013meh722"
+      ],
+      "raw_llm_target_ids": [
+        "https://ror.org/013meh722",
+        "https://ror.org/03dzc0485"
+      ],
+      "validated_llm_status": "automatic",
+      "observation": "The source names Cambridge and Regina; the LLM retains Cambridge and adds Regina, while the reference lists Cambridge only."
+    },
+    {
+      "case_id": "s2aff-0664",
+      "category": "exact_source_quote_invalid",
+      "reference_target_ids": [
+        "https://ror.org/05bnh6r87"
+      ],
+      "raw_llm_target_ids": [
+        "https://ror.org/05bnh6r87"
+      ],
+      "validated_llm_status": "invalid",
+      "observation": "The raw target is the annotated Cornell ID. Its evidence quote replaces source U+00A0 before NY with U+0020, failing exact-span validation. See the hashed original model response and case input."
+    },
+    {
+      "case_id": "s2aff-0731",
+      "category": "source_explicit_extra_targets",
+      "reference_target_ids": [
+        "https://ror.org/0384j8v12",
+        "https://ror.org/05gpvde20"
+      ],
+      "raw_llm_target_ids": [
+        "https://ror.org/023331s46",
+        "https://ror.org/0384j8v12",
+        "https://ror.org/05gpvde20"
+      ],
+      "validated_llm_status": "automatic",
+      "observation": "The source names the George Institute, Sydney and Royal Prince Alfred Hospital; the LLM returns all three, while the reference lists the latter two."
+    },
+    {
+      "case_id": "s2aff-0857",
+      "category": "source_explicit_extra_targets",
+      "reference_target_ids": [
+        "https://ror.org/03r8z3t63"
+      ],
+      "raw_llm_target_ids": [
+        "https://ror.org/03r8z3t63",
+        "https://ror.org/03q397159"
+      ],
+      "validated_llm_status": "automatic",
+      "observation": "NICTA is explicit alongside UNSW. The added Data61 candidate lists NICTA as an acronym; historical attribution and reference scope remain unadjudicated."
+    },
+    {
+      "case_id": "s2aff-1127",
+      "category": "review_without_selection",
+      "reference_target_ids": [
+        "https://ror.org/04hs39d68"
+      ],
+      "raw_llm_target_ids": [],
+      "validated_llm_status": "review",
+      "observation": "The LLM requests review without selecting a target. The source says Software Systems Ltd.; the annotated candidate says Technologies and supplies no alias resolving the difference."
+    },
+    {
+      "case_id": "s2aff-1168",
+      "category": "source_explicit_extra_targets",
+      "reference_target_ids": [
+        "https://ror.org/04mz5ra38"
+      ],
+      "raw_llm_target_ids": [
+        "https://ror.org/00wqjrk21",
+        "https://ror.org/04mz5ra38"
+      ],
+      "validated_llm_status": "automatic",
+      "observation": "The source names the institute and university. The additional candidate is the corresponding German-named institute in Essen; whether both units require assignment remains unadjudicated."
+    },
+    {
+      "case_id": "s2aff-1245",
+      "category": "source_explicit_extra_targets",
+      "reference_target_ids": [
+        "https://ror.org/01sdrjx85"
+      ],
+      "raw_llm_target_ids": [
+        "https://ror.org/01sdrjx85",
+        "https://ror.org/052g8jq94"
+      ],
+      "validated_llm_status": "automatic",
+      "observation": "Both UAB and IFAE appear in the short source. The LLM adds the UAB candidate; the reference records IFAE only. Required attribution units remain unresolved."
+    },
+    {
+      "case_id": "s2aff-1246",
+      "category": "source_explicit_extra_targets",
+      "reference_target_ids": [
+        "https://ror.org/03gnr7b55"
+      ],
+      "raw_llm_target_ids": [
+        "https://ror.org/01kxesq83",
+        "https://ror.org/03gnr7b55",
+        "https://ror.org/03fd77x13",
+        "https://ror.org/02feahw73"
+      ],
+      "validated_llm_status": "automatic",
+      "observation": "SUBATECH, IN2P3 and CNRS appear alongside Nantes. The LLM retains Nantes and adds those registry records; the reference lists Nantes alone."
+    },
+    {
+      "case_id": "s2aff-1248",
+      "category": "source_explicit_extra_targets",
+      "reference_target_ids": [
+        "https://ror.org/02chw6z69"
+      ],
+      "raw_llm_target_ids": [
+        "https://ror.org/02chw6z69",
+        "https://ror.org/057zh3y96"
+      ],
+      "validated_llm_status": "automatic",
+      "observation": "University of Tokyo is explicitly named after IPMU. The LLM retains IPMU and adds the university; the reference records the institute only."
+    },
+    {
+      "case_id": "s2aff-1251",
+      "category": "source_explicit_extra_targets",
+      "reference_target_ids": [
+        "https://ror.org/029nkcm90"
+      ],
+      "raw_llm_target_ids": [
+        "https://ror.org/029nkcm90",
+        "https://ror.org/02feahw73"
+      ],
+      "validated_llm_status": "automatic",
+      "observation": "CNRS appears in associated-with wording. The LLM adds it to Paris Observatory; whether that relation belongs in the affiliation output is unresolved."
+    },
+    {
+      "case_id": "s2aff-1329",
+      "category": "review_without_selection",
+      "reference_target_ids": [
+        "https://ror.org/02495e989"
+      ],
+      "raw_llm_target_ids": [],
+      "validated_llm_status": "review",
+      "observation": "The LLM requests review without selecting a target. The source gives University of Louvain and Heverlee; the annotated candidate gives Universite Catholique de Louvain and Louvain-la-Neuve."
+    },
+    {
+      "case_id": "s2aff-1761",
+      "category": "review_without_selection",
+      "reference_target_ids": [
+        "https://ror.org/0037djy87"
+      ],
+      "raw_llm_target_ids": [],
+      "validated_llm_status": "review",
+      "observation": "The LLM requests review without selecting a target. The source specifies Maragheh University of Medical Sciences; the annotated University of Maragheh candidate supplies no medical-sciences alias."
+    },
+    {
+      "case_id": "s2aff-1840",
+      "category": "source_explicit_extra_targets",
+      "reference_target_ids": [
+        "https://ror.org/03hnwy706"
+      ],
+      "raw_llm_target_ids": [
+        "https://ror.org/03hnwy706",
+        "https://ror.org/03cqe8w59"
+      ],
+      "validated_llm_status": "automatic",
+      "observation": "CONICET appears explicitly with IByME. The LLM retains IByME and adds the CONICET candidate; required attribution levels remain unresolved."
+    },
+    {
+      "case_id": "s2aff-1889",
+      "category": "source_explicit_extra_targets",
+      "reference_target_ids": [
+        "https://ror.org/00c01js51"
+      ],
+      "raw_llm_target_ids": [
+        "https://ror.org/00c01js51",
+        "https://ror.org/00rs6vg23"
+      ],
+      "validated_llm_status": "automatic",
+      "observation": "The source names Ohio State University and Wexner Medical Center. The LLM returns both records; the reference lists the medical center only."
+    },
+    {
+      "case_id": "s2aff-1900",
+      "category": "source_explicit_extra_targets",
+      "reference_target_ids": [
+        "https://ror.org/02rz58g17"
+      ],
+      "raw_llm_target_ids": [
+        "https://ror.org/02rz58g17",
+        "https://ror.org/034t30j35"
+      ],
+      "validated_llm_status": "automatic",
+      "observation": "Chinese Academy of Sciences appears with Xishuangbanna Tropical Botanical Garden. The LLM retains the garden and adds the Academy; reference scope remains unadjudicated."
+    },
+    {
+      "case_id": "s2aff-2030",
+      "category": "source_explicit_extra_targets",
+      "reference_target_ids": [
+        "https://ror.org/024ghrf67"
+      ],
+      "raw_llm_target_ids": [
+        "https://ror.org/024ghrf67",
+        "https://ror.org/05bbbc791"
+      ],
+      "validated_llm_status": "automatic",
+      "observation": "University of Karachi appears after the institute and center names. The LLM retains the annotated center and adds the university; required attribution levels remain unresolved."
+    },
+    {
+      "case_id": "s2aff-2191",
+      "category": "historical_nil_parent_inference",
+      "reference_target_ids": [],
+      "raw_llm_target_ids": [
+        "https://ror.org/03angcq70"
+      ],
+      "validated_llm_status": "automatic",
+      "observation": "The LLM infers University of Birmingham from Birmingham Law School against no-ROR reference labels. The supplied candidate fields do not establish that relationship; real-world identity and label completeness were not adjudicated."
+    }
+  ]
+}

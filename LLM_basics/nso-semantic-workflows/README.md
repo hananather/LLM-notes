@@ -12,7 +12,7 @@ contains the product, conventional-only, synthetic and unscored branches with
 their distinct evidence boundaries. Detailed grids and complete source records
 remain supporting evidence.
 
-On the frozen tests, GPT-6 Luna produced 593 valid annotated affiliation sets out of 644, compared with 456 for the lexical baseline. It produced 28/32 correct synthetic industry decisions versus 18/32, and 27/32 occupation decisions versus 23/32. The affiliation comparison is against the implemented lexical methods, not the trained S2AFF pipeline. Coding cases are a convenience sample of authored classification boundaries, not observed survey returns.
+On the frozen tests, GPT-6 Luna produced 593 valid annotated affiliation sets out of 644, compared with 456 for the lexical baseline. It produced 28/32 correct synthetic industry decisions versus 18/32, and 27/32 occupation decisions versus 23/32. The original affiliation comparison uses implemented lexical methods. The [9 October trained comparison](affiliation-value/README.md) adds logistic regression and a boosted tree on the same candidates: the validation-selected tree gets 492/644 annotated sets, compared with 593 for the saved LLM selections, or 546 correct LLM automatic decisions. It uses no new model API calls. The official S2AFF pipeline remains unmeasured. Coding cases are a convenience sample of authored classification boundaries, not observed survey returns.
 
 The school screen stopped model work: conventional matching was correct for all 300 records in its probability sample. A separate changed-name-and-street sample scored 72/100. These populations are reported separately. The statistical-query comparison uses 401,944 frozen observations and separates catalog discovery from planning over four known tables. Rules, one-shot planning and the iterative controller each score 29/32; the controller uses 1.85 times the one-shot tokens and returns three wrong answers without review instead of one. Catalog selection recovers 15/24 designated sources versus 9/24 for lexical first choice, reaching the fixed shortlist ceiling.
 
@@ -50,6 +50,7 @@ LOTUS, Splink and every direct dependency listed in this directory's `requiremen
 | Portfolio, scope and common cost controls | [Protocol](protocol.md) |
 | Synthetic NAICS/NOC facts, sources and full-index comparison | [Coding protocol](protocol-coding.md) |
 | Historical affiliations and school continuity | [Linkage protocol](protocol-linkage.md) |
+| Trained same-candidate affiliation comparison | [Frozen extension and independent scoring](affiliation-value/README.md) |
 | Catalog discovery and exact statistical queries | [Statistics protocol](protocol-statistics.md) |
 | Complete paired results, corrections and regressions | [Offline analysis](results/analysis/README.md) |
 | Completed amended product holdout, costs and offline replay | [Product evidence](adversarial-2026/products/README.md#scored-comparisons) |

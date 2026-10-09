@@ -1,0 +1,115 @@
+{
+  "additional_queries": [
+    100,
+    200
+  ],
+  "baseline": "all_ten",
+  "baseline_candidates": [
+    "official_six_comparison",
+    "ten_field_sensitivity"
+  ],
+  "baseline_nomination": "Shared400audit labels; primary Bayes cutoff2/3. Ten-field model0audit errors versus official six9misses. The earlier cutoff error is preserved in preflight-original-cutoff-error.json.",
+  "bootstrap": "2000Poissonrecord-weightreplicates, clusterbyoriginalentity; crossentityfalseedgesgetendpointproductweights;pairedallarms",
+  "calibration_queries": 400,
+  "calibration_query_count": 255,
+  "common_audit_queries": 400,
+  "common_seed_queries": 100,
+  "created_utc": "2026-10-09T21:37:38.568442+00:00",
+  "diagnostic_clustering": "KMeans(k=12,n_init=10,random_state7100),fitonbaseline-fit observedfeatures; no truth or repair features in selection",
+  "graph_secondary": "Connected components versus descending-score greedy one-to-one assignment; graph closure measured separately from pair decisions. Two observations per true FEBRL4 entity limits entity-clustering complexity.",
+  "independent_review": "Probability orientation, matched budgets and retained baseline reviewed before final evaluation.",
+  "input_sha256": {
+    "manifest.json": "8bce2ba8d2210c31f5f6b27a432b400827e3d952112777d4efebc218d586c665",
+    "record_truth.csv": "283bc4526dcc3ddb59a06549be87efbb7a93861954f0f88dc783f934925064da",
+    "records.csv": "c34d8ad69aa74e9b1a01d9f59bc2615f6e5f6a870f250206d65590df7d56bb96"
+  },
+  "maximum_repair_groups": 2,
+  "negative_controls": [
+    "Shuffled diagnostic group assignments preserving group sizes",
+    "Twelve baseline-score quantile groups; source labels are constant in this cross-source data"
+  ],
+  "ordinary_features": "frozenbaselinegammaandscoreplusmissingness,candidatecounts,ranks,gaps; lexicalfeaturesfororiginalbaselinefields",
+  "packages": {
+    "duckdb": "1.5.6",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.17.1",
+    "splink": "5.0.0"
+  },
+  "pair_decision": "Sparse accepted edges may abstain; missed candidates remain false negatives.",
+  "partition_rule": "Reuse original train/test, SHA256(clustering-febrl-v1:entity_id) validation ordering:450 discovery/140 repair-validation/143 calibration",
+  "partitions": {
+    "baseline_fit": 3486,
+    "calibration": 143,
+    "discovery": 450,
+    "repair_validation": 140,
+    "test": 781
+  },
+  "primary_loss": "2*FP+FN; cost sensitivity1,2,5; no official-statistics cost claim",
+  "prior_exposure": "Original tutorial supervised training used3,486train entities;100validation entities and20test entities were selected previously. This pilot is exploratory, not a pristine confirmation.",
+  "repair_library": {
+    "combined_address": [
+      "repair_address_tokens",
+      "repair_address_swap"
+    ],
+    "date_components": [
+      "repair_birth_year",
+      "repair_birth_month",
+      "repair_birth_day"
+    ],
+    "name_structure": [
+      "repair_name_swap",
+      "repair_given_initial",
+      "repair_surname_initial"
+    ],
+    "phonetic": [
+      "repair_given_soundex",
+      "repair_surname_soundex"
+    ]
+  },
+  "repair_selection": "Atmostelevenpredeterminedproposals(all0/1/2groups); validationloss selection only; tiespreferfewergroups,thenlexicalname. No newlibrary entriesafter outcomes.",
+  "repair_validation_queries": 400,
+  "replication": "Five acquisition seeds on same fixed corpus, not five independent populations.",
+  "reproduction_boundary": "Saved-results replay requires no paid inference. Local raw fitting artifacts and seals are retained with their original hashes; the publication record omits authorization wording.",
+  "seeds": [
+    7101,
+    7102,
+    7103,
+    7104,
+    7105
+  ],
+  "selection": "onebatch; eacharm20percentrandomcoverage; remaining:scorestratifiedrandom/uncertainty+farthestfirst/kmeanscoverage/errorrisk",
+  "serialization": "Outcome CSV and all predictions remained unchanged. A separate exporter corrected nullable-seed JSON serialization; the initial incomplete export is retained in private provenance.",
+  "source_urls": [
+    "https://moj-analytical-services.github.io/splink/demos/examples/duckdb/febrl4.html",
+    "https://moj-analytical-services.github.io/splink/api_docs/training.html"
+  ],
+  "status": "Prospectively frozen exploratory scientific specification; publication copy",
+  "stopping": "Run one bounded experiment. Retain nulls/adverse results; do not weaken baseline. If audit shows zero sampled errors, report insufficient audited headroom and do not claim acquisition superiority.",
+  "study": "Exploratory public FEBRL diagnostic acquisition",
+  "teacher_jobs_sha256": "3c38fcc76adddd7061e6c0d4142ac0b6e9386f4b064bc411f7409250fd9f0b34",
+  "teacher_plan": {
+    "abstentions": "Invalid or insufficient teacher outputs retained; exclude those pairs from every comparative student's training; report coverage and identity accuracy conditional on valid judgments.",
+    "budget_usd": 0.5,
+    "conservative_runtime_reserved_usd": 0.07724359374999991,
+    "created_utc": "2026-10-09T21:35:19.231734+00:00",
+    "input_estimate_with_framing_max": 640,
+    "input_estimate_with_framing_min": 614,
+    "jobs": 300,
+    "jobs_sha256": "3c38fcc76adddd7061e6c0d4142ac0b6e9386f4b064bc411f7409250fd9f0b34",
+    "max_calls": 400,
+    "model": "gpt-6-luna",
+    "new_paid_test_calls": 0,
+    "output_token_cap_each": 256,
+    "privacy_boundary": "Only ten observed fields from public synthetic FEBRL4 discovery entities; no gold identity, score, split or record identifier in prompts.",
+    "query_set": "seed7101 fixed100common plus200uncertainty/diversity acquisitions; prospective set independent of teacher outcomes",
+    "reasoning_effort": "none",
+    "student": "Identical LogisticRegression(C=1,max_iter1000,no class weighting), frozen cheap observed diagnostics and reusable feature groups; teacher vs baseline pseudo-label vs gold labels on same valid teacher pairs. Independent common calibration selects thresholds only.",
+    "temperature": 0
+  },
+  "teacher_runner_sha256": "93a302ef740e2ce8589c4b9bfffb17a1e62abd1db42b9b29939ac78c22a21437",
+  "test_unblinding": "All model configurations, thresholds and predictions were saved and hashed before final identity labels were used for outcomes.",
+  "update": "L2regularizedlogisticresidualaroundfrozenbaseline logodds; objective meanloss+0.1*l2; no intercept penalty; C is not tuned",
+  "validation_query_count": 241
+}

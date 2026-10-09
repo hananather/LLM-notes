@@ -1,0 +1,12 @@
+{
+  "all_prediction_seals_before_full_outcome_access": true,
+  "allocation_group_rows_verified": 364,
+  "full_denominator_nil_review_invalid_accounting_verified": true,
+  "method_policy_outputs_verified": 91,
+  "metric_view_group_rows_verified": 1638,
+  "paid_verification_calls": 0,
+  "raw_extracted_common_candidate_recall_verified": true,
+  "reference_labels_independently_reconstructed_from_publisher_csv": 1104,
+  "sealed_hashes_verified": 35,
+  "source_scope": "Public historical affiliation benchmark; no NSO population or official publication-count claim."
+}

@@ -1,0 +1,161 @@
+{
+  "bootstrap": "2000paired normalized-duplicate-group draws, stratified by observedsource-population mixture, seed20261009. Descriptive cohort intervals.",
+  "candidate_pool": "Exact same40candidate IDs and frozenraw/extracted19feature matrices from ../native-affiliation-study-20261009/data/prepared-pairs.json.gz; optional precomputed32rawfeaturefamily if available atdata binding beforelabels. No candidate regeneration or gold insertion.",
+  "claim_boundary": "Within-curated-cohort unseen-text holdout, not unseen organizations, source transfer, population production, or replacement of complete external evaluation.",
+  "families": [
+    "raw19_logistic",
+    "raw19_tree",
+    "raw19_splink_compact",
+    "raw19_splink_expanded",
+    "extracted19_logistic",
+    "extracted19_tree",
+    "extracted19_splink_compact",
+    "extracted19_splink_expanded",
+    "raw32_logistic_if_precomputed_before_gold",
+    "raw32_tree_if_precomputed_before_gold"
+  ],
+  "frozen_at_utc": "2026-10-09T21:55:17.138521+00:00",
+  "gold_access_gate": "No gold access until main native prediction-seal.json exists and native investigator confirms completion. Only adaptation train/validation labels enter fitting/threshold/model nomination; adaptationtest labels onlyafter newprediction seal.",
+  "group_hash": "SHA256('native-adaptation-v1:'+normalized_text); integer(first8hex,16)mod100",
+  "metrics": [
+    "complete-set accuracy",
+    "TP/FP/FN edges",
+    "FP/FN weighted losses 1/2/5",
+    "NIL/false NIL",
+    "automatic coverage",
+    "review/invalid",
+    "candidate target and complete-set recall",
+    "source population",
+    "paired duplicate-group intervals",
+    "organization-allocation countL1,over/underallocation units",
+    "same-subset legacy-transfer, adaptedcontrol and semanticcomparison"
+  ],
+  "model_family_nomination": "Separate raw and extracted champions chosen onlyon validation risk2; tie: higherexactsets, fewerFP,fewerFN,lexicalmodelname. Individual model/policy rows retained.",
+  "models": {
+    "logistic": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 2000,
+      "standardize": true
+    },
+    "splink": {
+      "city_country_levels": [
+        "missing",
+        "any observed agreement",
+        "observed disagreement"
+      ],
+      "expanded_char_bins": [
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "expanded_rarity_coverage_bins": [
+        2.0,
+        4.0,
+        7.0,
+        10.0
+      ],
+      "expanded_word_bins": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "name_levels": [
+        "exact alias/whole contained",
+        ">=0.95 JW",
+        ">=0.85 JW",
+        ">=0.70 JW",
+        "other"
+      ],
+      "prior": "retrieved training-positive pair proportion",
+      "probability_calibration": "not established; validation chooses operating policy",
+      "profiles": [
+        "compact name/city/country",
+        "expanded adds character TF-IDF, word TF-IDF and registry-only name rarity weighted by observed IDF coverage"
+      ],
+      "smoothing": "Dirichlet 0.5 per nonmissing comparison level",
+      "supervised_m": "estimate_m_from_pairwise_labels on retrieved positive training pairs",
+      "u": "candidate-conditional negative training pairs",
+      "version": "5.0.0"
+    },
+    "tree": {
+      "class_weight": "balanced",
+      "early_stopping": false,
+      "l2_regularization": 1.0,
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "max_iter": 200,
+      "min_samples_leaf": 20
+    }
+  },
+  "native_gold_opened_at_freeze": false,
+  "native_protocol_sha256": "8d2830d115c1e5b451a08ce67d00948c7c71b8e3664e217322c27bbc51ec0ce9",
+  "normalization": "Exact native study.norm: UnicodeNFKD thencasefold, removeUnicodeMn combining marks, joinUnicode\\w+tokens withsingle spaces.",
+  "paid_calls": 0,
+  "policies": {
+    "quality_1": "maximize exact sets with <=1 validation false edge per 100 queries",
+    "quality_2": "same <=2",
+    "quality_5": "same <=5",
+    "risk_1": "minimize FP+FN",
+    "risk_2": "minimize 2FP+FN",
+    "risk_5": "minimize 5FP+FN"
+  },
+  "population": "All1104 native affiliation rows; deterministic normalized duplicate groups assigned before label access.",
+  "purpose": "Secondary within-curated-cohort unseen-normalized-text control for training label-policy mismatch; preserves complete1104-row external evaluation as primary.",
+  "review_policy": "LLM review/invalid is unresolved for automatic metrics, stays in source denominator, and emits no automatic edges. Valid reviewed sets are diagnostic only. Extractor review/invalid propagates to extracted selection arms.",
+  "seed": 20261009,
+  "semantic_reference": "Reuse allalready frozen semantic selections on adaptationtest; no newcalls, prompts, thresholds or tuning. Also reuse old-label-trained conventional predictions on the same subset.",
+  "split": "0-19train;20-39validation;40-99test; all normalized duplicates sharea partition.",
+  "stopping": "One locked adaptation comparison; no outcome-driven retuning. Fit/score within15minutes after preparedfeaturesandmainseal ready.",
+  "thresholds": [
+    0.001,
+    0.005,
+    0.01,
+    0.025,
+    0.05,
+    0.075,
+    0.1,
+    0.125,
+    0.15,
+    0.175,
+    0.2,
+    0.225,
+    0.25,
+    0.275,
+    0.3,
+    0.325,
+    0.35,
+    0.375,
+    0.4,
+    0.425,
+    0.45,
+    0.475,
+    0.5,
+    0.525,
+    0.55,
+    0.575,
+    0.6,
+    0.625,
+    0.65,
+    0.675,
+    0.7,
+    0.725,
+    0.75,
+    0.775,
+    0.8,
+    0.825,
+    0.85,
+    0.875,
+    0.9,
+    0.925,
+    0.95,
+    0.975,
+    0.99,
+    0.995,
+    0.999,
+    1.0
+  ],
+  "uncertainty": "2000 paired bootstrap draws of normalized duplicate-input groups; benchmark-sample descriptive intervals, not national population inference",
+  "version": "native-affiliation-adaptation-v1"
+}

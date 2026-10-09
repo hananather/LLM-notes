@@ -1,0 +1,34 @@
+{
+  "all_six_selectors_two_branches_two_budgets_five_seeds_tie": true,
+  "corrected_cost_cutoff_and_preserved_original_preflight_verified": true,
+  "frozen_hashes_verified": 17,
+  "full_universe_accounting": {
+    "febrl3_candidate_misses": 1,
+    "febrl3_candidate_true_pairs": 942,
+    "febrl3_test_entities": 296,
+    "febrl3_test_records": 733,
+    "febrl3_true_pairs": 943,
+    "febrl4_candidate_misses": 0,
+    "febrl4_candidate_true_links": 781,
+    "febrl4_entities": 781,
+    "febrl4_possible_pairs": 609961
+  },
+  "graph_closure_and_one_to_one_verified": true,
+  "independently_recomputed_febrl3_result_rows": 12,
+  "independently_recomputed_febrl4_result_rows": 372,
+  "prediction_seals": {
+    "febrl3": "21de0c83aef498907860460fd1d945a79a8d6c9e0d962fb9a21e238779decf4e",
+    "febrl4": "19c79ef108442f8cd2ad55848fd3629c3638c5c7ba7eb88b6434c922f18cdff2"
+  },
+  "scope": "Independent recomputation of the frozen exploratory synthetic study; verification supplies no operational or population claim.",
+  "student_refit_max_probability_difference": 0.0,
+  "students_same_pairs_features_calibration_and_refit_verified": true,
+  "teacher_decisive_pairs": 289,
+  "teacher_insufficient_pairs": 11,
+  "teacher_training_confusion": {
+    "fn": 4,
+    "fp": 0,
+    "tn": 223,
+    "tp": 62
+  }
+}

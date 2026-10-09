@@ -12,6 +12,25 @@ contains the product, conventional-only, synthetic and unscored branches with
 their distinct evidence boundaries. Detailed grids and complete source records
 remain supporting evidence.
 
+The completed native-affiliation study tests research-output allocation on
+1,104 curated French, multilingual and multi-organization source rows. Its
+strongest control trains conventional models on 195 native rows, selects on
+212 and tests the remaining 697. Semantic selection returns 423 correct
+automatic organization sets versus 263 for the selected tree, with 44 versus
+163 false allocations and 416 versus 483 misses. It leaves 135 rows for review.
+Genuine supervised Splink, extraction followed by Splink, lexical methods and
+trained trees all retain their complete outcomes. These are public challenge
+cohorts; the experiment does not estimate national publication counts or an
+operational acceptance policy.
+
+The completed clustering study retains its null and adverse findings.
+Diagnostic acquisition policies tie a strong Splink baseline at 779 true links,
+zero false links and two misses on 781 held-out synthetic entities. A student
+trained on 300 LLM judgments loses recall. On a separate multi-record synthetic
+corpus, three false edges create 27 false co-clustered relationships. The
+notebook shows both the measured acquisition comparison and these actual graph
+bridges.
+
 On the frozen tests, GPT-6 Luna produced 593 valid annotated affiliation sets out of 644, compared with 456 for the lexical baseline. It produced 28/32 correct synthetic industry decisions versus 18/32, and 27/32 occupation decisions versus 23/32. The original affiliation comparison uses implemented lexical methods. The [9 October trained comparison](affiliation-value/README.md) adds logistic regression and a boosted tree on the same candidates: the validation-selected tree gets 492/644 annotated sets, compared with 593 for the saved LLM selections, or 546 correct LLM automatic decisions. It uses no new model API calls. The official S2AFF pipeline remains unmeasured. Coding cases are a convenience sample of authored classification boundaries, not observed survey returns.
 
 The school screen stopped model work: conventional matching was correct for all 300 records in its probability sample. A separate changed-name-and-street sample scored 72/100. These populations are reported separately. The statistical-query comparison uses 401,944 frozen observations and separates catalog discovery from planning over four known tables. Rules, one-shot planning and the iterative controller each score 29/32; the controller uses 1.85 times the one-shot tokens and returns three wrong answers without review instead of one. Catalog selection recovers 15/24 designated sources versus 9/24 for lexical first choice, reaching the fixed shortlist ceiling.
@@ -35,17 +54,22 @@ python3.11 -m venv .venv
 .venv/bin/python LLM_basics/nso-semantic-workflows/run_selection.py coding
 .venv/bin/python LLM_basics/nso-semantic-workflows/statistics.py verify
 .venv/bin/python LLM_basics/nso-semantic-workflows/analyze.py
+.venv/bin/python LLM_basics/nso-semantic-workflows/native-affiliation-study-20261009/verification.py
+.venv/bin/python LLM_basics/nso-semantic-workflows/native-affiliation-adaptation-20261009/verification.py
+.venv/bin/python LLM_basics/nso-semantic-workflows/clustering-study-20261009/verification.py
 .venv/bin/python LLM_basics/nso-semantic-workflows/run_notebook.py --html nso-results.html
 ```
 
 If `.venv` already belongs to another project, use a different environment directory. The full report uses the adjacent pinned `requirements-lock.txt`, which includes
 LOTUS, Splink and every direct dependency listed in this directory's `requirements.txt`. The latter remains sufficient only for the standalone NSO scripts. The runner creates a temporary kernel that uses its launching Python interpreter, so it requires no global kernel registration. When opening the notebook interactively, select a kernel from the same environment. The HTML export retains figure descriptions and source links.
 
-The [9 October complete-report verification](../record-linkage-tutorial/results/final-notebook-verification-20261009.json)
-records 35 successful executable cells, 12 figures and 13 mathematical expressions with descriptions, preserved
-original cells and unchanged scientific evidence. The report includes result
-charts and a dedicated clustering section with proposed comparisons; it does
-not report a measured clustering gain.
+The [research-completion verification](../record-linkage-tutorial/results/research-completion-notebook-verification-20261009.json)
+records successful complete-notebook execution, described figures and mathematics,
+preserved original cells and unchanged prior scientific evidence. The earlier
+[complete-report verification](../record-linkage-tutorial/results/final-notebook-verification-20261009.json)
+is preserved as dated evidence for the preceding revision. The new study
+[manifest](results/research-completion-20261009.json) binds the recorded outcomes
+and figures to their independently checked files. Default replay makes no model calls.
 
 `run_selection.py` checks complete saved batches without changing their measured wall time. `--split dev` checks the development runs. Its `--live` flag permits only unfinished declared cases; completed results remain unchanged. The shared ledger prevents repeating an attempted request tag. A new experimental revision requires new artifact names and an explicit protocol rather than overwriting this test.
 
@@ -57,6 +81,10 @@ not report a measured clustering gain.
 | Synthetic NAICS/NOC facts, sources and full-index comparison | [Coding protocol](protocol-coding.md) |
 | Historical affiliations and school continuity | [Linkage protocol](protocol-linkage.md) |
 | Trained same-candidate affiliation comparison | [Frozen extension and independent scoring](affiliation-value/README.md) |
+| Genuine supervised Splink on historical affiliation text | [Fellegi–Sunter control](affiliation-splink-control-20261009/README.md) |
+| Native affiliation allocation, extraction and full-universe retrieval | [Frozen comparison and offline verification](native-affiliation-study-20261009/README.md) |
+| Same-policy native training as an alternative explanation | [Matched adaptation control](native-affiliation-adaptation-20261009/README.md) |
+| Diagnostic acquisition, learned similarity and entity-cluster transfer | [Completed clustering study](clustering-study-20261009/README.md) |
 | Catalog discovery and exact statistical queries | [Statistics protocol](protocol-statistics.md) |
 | Complete paired results, corrections and regressions | [Offline analysis](results/analysis/README.md) |
 | Completed amended product holdout, costs and offline replay | [Product evidence](adversarial-2026/products/README.md#scored-comparisons) |

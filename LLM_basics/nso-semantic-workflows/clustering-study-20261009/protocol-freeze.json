@@ -1,0 +1,10 @@
+{
+  "frozen_implementation_sha256": "6762e79d8b1da64d0336664f91cebd1343620c60b88563b95a6727ab01f72022",
+  "frozen_scientific_protocol_original_sha256": "9f76ee1cf2f2eea4fbaa253d0cf9109dc30bfce543800113dfdbdc611e09aa5c",
+  "predictions_sealed_at_utc": "2026-10-09T21:38:28.821026+00:00",
+  "protocol_frozen_at_utc": "2026-10-09T21:37:38.569158+00:00",
+  "publication_protocol_sha256": "d93fc0462c669423a0020a91024a1d83d73f33297e4e813752a286306cc878e2",
+  "redaction_provenance": "redaction-provenance.json",
+  "test_predictions_sha256": "4b644d6786fcbb1818101293881b738ed4d527517ddeee657f030ce610fffcca",
+  "test_truth_unblinded_when_sealed": false
+}

@@ -1,0 +1,32 @@
+{
+  "adaptation_seal_before_main_full_evaluation_verified": true,
+  "all_method_policy_outputs_independently_verified": 151,
+  "duplicate_group_split_verified": {
+    "test": {
+      "duplicate_groups": 682,
+      "rows": 697
+    },
+    "train": {
+      "duplicate_groups": 190,
+      "rows": 195
+    },
+    "validation": {
+      "duplicate_groups": 207,
+      "rows": 212
+    }
+  },
+  "frozen_score_threshold_policy_checks": 60,
+  "heldout_candidate_retained_edges": 1548,
+  "heldout_rows": 697,
+  "heldout_true_target_edges": 1693,
+  "main_and_reference_seals_before_training_access_verified": true,
+  "paid_verification_calls": 0,
+  "paired_bootstrap_comparisons_independently_reproduced": 4,
+  "saved_model_probabilities_verified": true,
+  "semantic_and_legacy_predictions_restricted_to_identical_ids_verified": true,
+  "train_validation_only_label_access_verified": true,
+  "validation_only_champions_verified": {
+    "extracted": "extracted19_tree",
+    "raw": "raw32_tree"
+  }
+}

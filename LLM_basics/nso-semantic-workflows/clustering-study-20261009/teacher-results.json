@@ -1,0 +1,2720 @@
+{
+  "completed_utc": "2026-10-09T21:37:03.723821+00:00",
+  "jobs_sha256": "3c38fcc76adddd7061e6c0d4142ac0b6e9386f4b064bc411f7409250fd9f0b34",
+  "model": "gpt-6-luna",
+  "results": [
+    {
+      "pair_index": 1023,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different surnames, given names, street numbers, suburbs, postcodes, and social security IDs. Although the street name matches, the substantial conflicts across identifying fields support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/000"
+    },
+    {
+      "pair_index": 1205,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, given names, addresses, postcodes, and social security IDs. The shared surname alone is weak evidence and does not outweigh these multiple conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/001"
+    },
+    {
+      "pair_index": 951,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth, and social security IDs all differ substantially. Their street addresses, suburbs, and postcodes also differ; the combined discrepancies strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/002"
+    },
+    {
+      "pair_index": 1415,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different full names, dates of birth (1903 vs. 1938), and social security IDs. Their locations also differ; the shared postcode alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/003"
+    },
+    {
+      "pair_index": 1223,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1969 versus 1918), given names, street addresses, suburbs, postcodes, and social security identifiers. The shared surname alone does not support identity, and the discrepancies are too extensive to plausibly explain as transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/004"
+    },
+    {
+      "pair_index": 1041,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given names, dates of birth (1940 versus 1958), social security IDs, street addresses, postcodes, and suburbs. The shared surname alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/005"
+    },
+    {
+      "pair_index": 104,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth, and social security IDs all differ. Their addresses, postcodes, and states also conflict substantially; the combined discrepancies support different people rather than ordinary transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/006"
+    },
+    {
+      "pair_index": 1763,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth (1913 vs. 1975), social security IDs, and full addresses differ substantially. These multiple independent conflicts support different people, not ordinary transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/007"
+    },
+    {
+      "pair_index": 1597,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the surname Rankine, but the given names differ substantially (Emily vs Victoria), as do dates of birth, social security IDs, street addresses, suburbs, and postcodes. These multiple independent conflicts support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/008"
+    },
+    {
+      "pair_index": 1348,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth (nearly 47 years apart), social security IDs, and address details all differ. The combined discrepancies strongly support different people rather than transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/009"
+    },
+    {
+      "pair_index": 1913,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the given name Harry. Their surnames, dates of birth, social security IDs, and address details all differ substantially, supporting different people rather than transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/010"
+    },
+    {
+      "pair_index": 758,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1915 versus 1983), given names, social security IDs, and full addresses. The shared surname alone does not support identity; the combined discrepancies strongly indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/011"
+    },
+    {
+      "pair_index": 519,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, and social security IDs, as well as different street addresses, postcodes, states, and suburbs. The shared surname alone does not support identity; the discrepancies are too extensive to explain as ordinary transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/012"
+    },
+    {
+      "pair_index": 819,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The dates of birth differ substantially (1901 versus 1970), and the social security IDs and addresses also differ. The shared given name alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/013"
+    },
+    {
+      "pair_index": 1200,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth, social security IDs, and full address details differ substantially. The combined discrepancies strongly support different people rather than transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/014"
+    },
+    {
+      "pair_index": 505,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, surnames, social security IDs, street addresses, postcodes, and suburbs. The shared given name alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/015"
+    },
+    {
+      "pair_index": 1523,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different names, dates of birth, social security IDs, street numbers, postcodes, states, and suburbs. The shared street name alone is not meaningful identity evidence."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/016"
+    },
+    {
+      "pair_index": 868,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth, social security IDs, postcodes, states, suburbs, street numbers, and street addresses differ substantially. The combined discrepancies support different people, not ordinary transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/017"
+    },
+    {
+      "pair_index": 1061,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given names, substantially different social security IDs, and distinct addresses, postcodes, and states. Although transcription errors are possible, these multiple independent discrepancies provide strong evidence they identify different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/018"
+    },
+    {
+      "pair_index": 648,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1921 versus 1988), given names, social security IDs, and addresses. The shared surname alone does not support identity; the combined discrepancies strongly indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/019"
+    },
+    {
+      "pair_index": 478,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the common given name Jack. Their birth dates, surnames, social security IDs, postcodes, suburbs, and street addresses all differ substantially, supporting different people rather than transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/020"
+    },
+    {
+      "pair_index": 731,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the given name. Their birth dates differ by over 70 years, surnames and social security IDs differ, and the listed addresses, postcodes, suburbs, and states are inconsistent. These combined conflicts strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/021"
+    },
+    {
+      "pair_index": 193,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given names and surnames, birth dates decades apart, and different street addresses and suburbs. Their shared postcode and state are not enough to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/022"
+    },
+    {
+      "pair_index": 811,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given names, substantially different social security IDs, and distinct addresses and postcodes in different states. Although transcription errors are possible, these multiple independent discrepancies provide strong evidence they identify different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/023"
+    },
+    {
+      "pair_index": 200,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1915 versus 1938), given names (Zachary versus Aidan), and social security IDs. Their street addresses, suburbs, and postcodes also differ. The shared surname alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/024"
+    },
+    {
+      "pair_index": 706,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given names, dates of birth (1990 versus 1995), and social security IDs, as well as different street addresses and postcodes. The shared surname alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/025"
+    },
+    {
+      "pair_index": 1009,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records provide substantially conflicting dates of birth, surnames, social security IDs, and addresses. The shared given name alone does not support identity; the discrepancies are too extensive to plausibly explain as transcription errors or abbreviations."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/026"
+    },
+    {
+      "pair_index": 1022,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given names, birth dates (1919 versus 1940), social security IDs, and addresses in different states and postcodes. The shared surname alone is insufficient to suggest identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/027"
+    },
+    {
+      "pair_index": 1967,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, surnames, social security IDs, postcodes, and street addresses. Although the given name matches, that alone does not support identity; the combined discrepancies strongly indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/028"
+    },
+    {
+      "pair_index": 1195,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given names, dates of birth, postcodes, suburbs, street details, and social security IDs. The shared surname and state are insufficient to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/029"
+    },
+    {
+      "pair_index": 399,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, given names, social security IDs, and addresses, including different states and postcodes. The shared surname alone does not support identity; these discrepancies strongly indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/030"
+    },
+    {
+      "pair_index": 1753,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share the given name, but have substantially different birth dates (1999 vs. 1906), surnames, social security IDs, and addresses, postcodes, and states. These multiple independent conflicts support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/031"
+    },
+    {
+      "pair_index": 1478,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, surnames, postcodes, states, suburbs, street numbers, and social security IDs. The shared street name alone is not meaningful identity evidence."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/032"
+    },
+    {
+      "pair_index": 1791,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, given names, social security identifiers, and addresses, postcodes, and states. The shared surname alone does not support identity; the combined discrepancies strongly indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/033"
+    },
+    {
+      "pair_index": 1654,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give Sarah, but the surnames, dates of birth, and social security IDs all differ substantially. Their street addresses, suburbs, postcodes, and states also conflict. The combined independent discrepancies strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/034"
+    },
+    {
+      "pair_index": 1371,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the given name \u201cJye.\u201d Their surnames, dates of birth (1990 vs. 1951), social security IDs, and full address details all differ substantially, supporting different people rather than transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/035"
+    },
+    {
+      "pair_index": 799,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1961 versus 1921), surnames (Shepherd versus Masno), social security IDs, street addresses, and suburbs. The shared given name Amy and likely state transcription error do not outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/036"
+    },
+    {
+      "pair_index": 1704,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given names, dates of birth (1919 versus 1968), social security IDs, and addresses. The shared surname alone does not support identity; the combined discrepancies strongly indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/037"
+    },
+    {
+      "pair_index": 808,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give Sarah, but the surnames, dates of birth, and social security IDs all differ substantially. Their street addresses, suburbs, postcodes, and states also conflict, providing strong evidence these are different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/038"
+    },
+    {
+      "pair_index": 480,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, surnames, social security IDs, postcodes, states, and addresses. Only the common given name matches; the combined discrepancies strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/039"
+    },
+    {
+      "pair_index": 1115,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different full names, dates of birth, and social security IDs, as well as different street addresses and suburbs. The shared postcode alone is weak evidence and does not outweigh these multiple independent conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/040"
+    },
+    {
+      "pair_index": 491,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, distinct social security identifiers, and different addresses, postcodes, and states. The shared surname alone does not support identity; the given names also differ."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/041"
+    },
+    {
+      "pair_index": 2012,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same unusual misspelled given name, but surnames differ and the dates of birth, social security IDs, postcodes, states, suburbs, and street numbers all conflict. The combined discrepancies strongly support different people rather than ordinary transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/042"
+    },
+    {
+      "pair_index": 268,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records provide substantially different birth dates, surnames, social security IDs, and addresses, including different states and postcodes. The shared given name alone does not support identity; the discrepancies collectively indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/043"
+    },
+    {
+      "pair_index": 1946,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth, and social security IDs differ substantially. The addresses, suburbs, postcodes, and states also conflict, providing strong evidence these are different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/044"
+    },
+    {
+      "pair_index": 307,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially conflicting birth dates, surnames, social security IDs, and address details. Although both list the given name Ella, that alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/045"
+    },
+    {
+      "pair_index": 1287,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same common given name, but surnames, dates of birth, postcodes, suburbs, addresses, and social security IDs differ substantially. The combined discrepancies strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/046"
+    },
+    {
+      "pair_index": 486,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth (1955 versus 1917), given names, postcodes, states, suburbs, street addresses, and social security identifiers. The shared surname alone does not support identity, and the discrepancies are too extensive to plausibly explain as transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/047"
+    },
+    {
+      "pair_index": 2023,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, surnames, social security IDs, and addresses. The shared given name Jordan is weak evidence and does not outweigh these multiple independent conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/048"
+    },
+    {
+      "pair_index": 129,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, social security IDs, street addresses, postcodes, suburbs, and states. The shared surname alone does not support identity; the discrepancies collectively indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/049"
+    },
+    {
+      "pair_index": 1885,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records share the exact date of birth, social security ID, surname, postcode, and address_2. Given name and street/suburb details differ only by plausible transcription errors or digit transposition; the matching identifiers strongly support the same person."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/050"
+    },
+    {
+      "pair_index": 1923,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match exactly on date of birth, social security ID, surname, street number, both address lines, postcode, state, and suburb. The address lines are merely reversed; the missing given name is consistent in both."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/051"
+    },
+    {
+      "pair_index": 1567,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full name, date of birth, social security ID, street number, unit, postcode, and suburb. \u201cde little\u201d versus \u201cdelittle\u201d is a minor spacing variation in the street name."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/052"
+    },
+    {
+      "pair_index": 741,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full name, date of birth, social security ID, street number, postcode, state, and hospital address. \u201cSyreet\u201d and \u201ckingusqon\u201d are plausible transcription errors for \u201cstreet\u201d and \u201ckingston.\u201d"
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/053"
+    },
+    {
+      "pair_index": 1519,
+      "parsed": {
+        "decision": "insufficient_evidence",
+        "evidence": "Both records match on date of birth, surname, and detailed address. However, the given names differ substantially (Madeline vs Naomi), and the social security IDs differ by two digits. These conflicts prevent confidently identifying them as the same person or establishing they are different."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/054"
+    },
+    {
+      "pair_index": 899,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full date of birth, given and family names, social security ID, postcode, state, street number, and address_2. \u201cOrchard jills\u201d is a plausible transcription error for \u201cOrchard hills\u201d; the missing address_1 does not conflict."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/055"
+    },
+    {
+      "pair_index": 1932,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match exactly on full name, date of birth, social security ID, street and locality details. The differing street numbers may reflect a transcription error or address change and are outweighed by the matching identifiers."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/056"
+    },
+    {
+      "pair_index": 1963,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "All identifying fields match exactly, including full name, date of birth, social security ID, and complete address. The only difference is spacing in the institution name."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/057"
+    },
+    {
+      "pair_index": 1226,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match exactly on date of birth, social security ID, full address, postcode, and state. Given name and surname are swapped between records, consistent with a field-order or transcription error."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/058"
+    },
+    {
+      "pair_index": 906,
+      "parsed": {
+        "decision": "insufficient_evidence",
+        "evidence": "Names, postcode, suburb, street name, and social security ID match closely, supporting a possible identity. However, the birth dates differ substantially and street numbers conflict; these are significant contradictions that prevent a reliable determination."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/059"
+    },
+    {
+      "pair_index": 1661,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "All identifying fields match exactly, including full name, date of birth, social security ID, and address. The minor spelling difference \u201cwestholme\u201d versus \u201cwesnholme\u201d is consistent with a transcription error."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/060"
+    },
+    {
+      "pair_index": 1531,
+      "parsed": {
+        "decision": "insufficient_evidence",
+        "evidence": "The records match on date of birth, surname, street address, and postcode, with a likely suburb transcription error. However, the given names differ substantially and the social security IDs differ; the evidence does not resolve whether these are errors or different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/061"
+    },
+    {
+      "pair_index": 367,
+      "parsed": {
+        "decision": "insufficient_evidence",
+        "evidence": "All listed fields match exactly, including date of birth and social security ID, but the surnames conflict (Smithson versus Westbrook). Without corroboration that the surname changed or was recorded incorrectly, identity cannot be resolved."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/062"
+    },
+    {
+      "pair_index": 330,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full name, date of birth, social security ID, street, address detail, postcode, and suburb. The state abbreviation is a minor transposition, and the street numbers differ by only two, consistent with a transcription error."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/063"
+    },
+    {
+      "pair_index": 1208,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "All identifying fields match exactly, including full name, date of birth, social security ID, and address. The two address lines are merely reversed."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/064"
+    },
+    {
+      "pair_index": 1253,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records match on full name, exact date of birth, social security ID, street number, postcode, state, and second address line. \u201cgrattn lpsce\u201d is a plausible transcription error for \u201cgratton place\u201d; the missing suburb in record B is not contradictory."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/065"
+    },
+    {
+      "pair_index": 151,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records share the exact date of birth, social security ID, street number, street, and near-identical address and suburb. The given and surnames appear swapped, with minor transcription errors; postcode differs slightly."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/066"
+    },
+    {
+      "pair_index": 1416,
+      "parsed": {
+        "decision": "insufficient_evidence",
+        "evidence": "Names, date of birth, and all address details match, with the two address lines swapped. However, the social security identifiers differ substantially, leaving unresolved whether this is a transcription error or evidence of different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/067"
+    },
+    {
+      "pair_index": 1765,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records match on name, address, and social security ID, but their dates of birth differ by 18 years. This substantial conflict is unlikely to be a transcription error and supports different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/068"
+    },
+    {
+      "pair_index": 1465,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on date of birth, given name, street, street number, suburb, postcode, state, and social security ID. The surname differs only by a final letter (Ottens/Ottend), consistent with a transcription error; the missing address detail is not contradictory."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/069"
+    },
+    {
+      "pair_index": 1966,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records share the exact date of birth, social security ID, surname, street number, street name (with a minor transcription difference), postcode, state, and suburb. The differing given names may reflect an error or name variation; the extensive matching identifiers support the same person."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/070"
+    },
+    {
+      "pair_index": 1720,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on date of birth, social security ID, full surname, and all listed address and location fields. The given names are a minor transposition typo, and the differing second address lines are compatible with an address change or formatting variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/071"
+    },
+    {
+      "pair_index": 760,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Exact matches on date of birth, given name, social security ID, and both address lines, plus matching state and suburb, strongly support identity. The differing postcode and street number are plausible transcription errors; the missing surname does not contradict the match."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/072"
+    },
+    {
+      "pair_index": 259,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records share the exact date of birth, social security ID, and surname. Given name and suburb differ only by plausible transcription errors, and the street number and street-name spelling may reflect address changes or errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/073"
+    },
+    {
+      "pair_index": 1244,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full name, date of birth, social security ID, street number, street, locality, postcode, and state. The only difference is spacing in \u201cPaul Coe Crescent,\u201d consistent with formatting variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/074"
+    },
+    {
+      "pair_index": 1293,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full name, date of birth, social security ID, street number and address, postcode, state, and suburb. The minor spelling difference in address_2 is consistent with a transcription error."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/075"
+    },
+    {
+      "pair_index": 1032,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full name, date of birth, social security ID, and all address details. The minor street-name spelling difference is consistent with a transcription error."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/076"
+    },
+    {
+      "pair_index": 64,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records share the exact date of birth, social security ID, street number, address, suburb, postcode, and state. The given and surnames are swapped, and \u201csktreet\u201d is a minor transcription error, consistent with noisy records for the same person."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/077"
+    },
+    {
+      "pair_index": 1326,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on date of birth, given name, social security ID, and all address fields. The surname differs only by a likely transcription omission (\u201cwhite\u201d vs. \u201cwhte\u201d), strongly supporting the same person."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/078"
+    },
+    {
+      "pair_index": 1152,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "All identifying fields match exactly, including full name, date of birth, social security ID, and address. The minor spacing difference in address_2 is consistent with formatting noise."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/079"
+    },
+    {
+      "pair_index": 1058,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "All identifying fields match exactly, including full name, date of birth, social security ID, and address; only the order of the two address lines differs."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/080"
+    },
+    {
+      "pair_index": 860,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Date of birth, social security ID, postcode, state, street number, suburb, and surname all match. The addresses match with a minor spelling variation, and \u201cjoshzua\u201d is a plausible transcription error for \u201cjoshua.\u201d"
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/081"
+    },
+    {
+      "pair_index": 876,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "All identifying fields match exactly, including full name, date of birth, social security ID, and complete address; only the two address lines are reversed."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/082"
+    },
+    {
+      "pair_index": 990,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records share the exact date of birth, social security ID, street number, postcode, state, and address details. The surname and street-name spacing differences are consistent with transcription variation; the differing given names are outweighed by these strong matching identifiers."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/083"
+    },
+    {
+      "pair_index": 705,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Exact matches on date of birth, given name, social security ID, street number, postcode, state, and suburb. Street and subdivision names have minor spacing/transcription errors, and the surname differs by a single-letter substitution."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/084"
+    },
+    {
+      "pair_index": 632,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on date of birth, social security ID, full address, and surname. \u201cHenrya\u201d is consistent with a minor transcription error or variation of \u201cHenry.\u201d"
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/085"
+    },
+    {
+      "pair_index": 1971,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records match on full name, date of birth, social security ID, postcode, state, and address_2. The suburb differs only by a plausible transcription error (\u201ckellyville\u201d vs. \u201ckellyvglle\u201d); missing street details in record B do not contradict identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/086"
+    },
+    {
+      "pair_index": 190,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full name, date of birth, social security ID, street name, secondary address, suburb, and postcode. The differing street numbers may reflect a transcription error or address change and are outweighed by the matching identifiers."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/087"
+    },
+    {
+      "pair_index": 1576,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full name, date of birth, social security ID, and all address details except street number. The numbers 237 and 273 plausibly reflect a digit transposition."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/088"
+    },
+    {
+      "pair_index": 292,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full name, date of birth, social security ID, postcode, state, suburb, and street name. The address_2 difference is a likely transcription error, and street number 3 versus 39 may reflect truncation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/089"
+    },
+    {
+      "pair_index": 1640,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on date of birth, full address, surname, and nearly all given-name characters; \u201chayedn\u201d is a plausible transposition of \u201chayden.\u201d The differing social security IDs are a notable conflict, but may reflect transcription error given the strong matching details."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/090"
+    },
+    {
+      "pair_index": 619,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on date of birth, social security ID, surname, street number, postcode, state, and suburb. The address and given-name differences are minor transcription variations."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/091"
+    },
+    {
+      "pair_index": 156,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Names, date of birth, social security ID, street number, street, locality, state, and second address match. The postcodes differ only by transposed digits, consistent with a transcription error."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/092"
+    },
+    {
+      "pair_index": 1919,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "All fields match exactly, including full name, date of birth, and address. The social security IDs differ only by a transposition of adjacent digits, consistent with a transcription error."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/093"
+    },
+    {
+      "pair_index": 592,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full name, date of birth, social security ID, street address, suburb, and postcode. The missing state in record B is not contradictory."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/094"
+    },
+    {
+      "pair_index": 373,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on date of birth, social security ID, surname, street number, both street names, suburb, postcode, and state. The minor spelling difference in \u201cDunbar Street\u201d is consistent with a transcription error."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/095"
+    },
+    {
+      "pair_index": 328,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records share the exact date of birth, social security ID, street number, suburb, state, and surname. The street names differ only by spacing, given names differ by one letter, and postcodes may be transcribed incorrectly."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/096"
+    },
+    {
+      "pair_index": 1247,
+      "parsed": {
+        "decision": "insufficient_evidence",
+        "evidence": "The records match on date of birth, social security ID, surname, and full address, strongly suggesting a match. However, the given names Reuben and Savannah are substantially different, and the conflicting names prevent resolving identity confidently."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/097"
+    },
+    {
+      "pair_index": 1653,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full name, date of birth, social security ID, street address, suburb, and state. The one-digit postcode difference is plausibly a transcription error and does not outweigh the extensive matching identifiers."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/098"
+    },
+    {
+      "pair_index": 1375,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on date of birth, full social security ID, and detailed address. The surname differs only by a final \u201cr,\u201d consistent with a transcription error; the missing given name in record B does not conflict."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/099"
+    },
+    {
+      "pair_index": 1965,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, surnames, social security identifiers, and addresses. The shared given name alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/100"
+    },
+    {
+      "pair_index": 965,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on date of birth, social security ID, surname, address, street number, postcode, state, and suburb. The minor spelling errors in the street and given name are consistent with transcription noise."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/101"
+    },
+    {
+      "pair_index": 774,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on date of birth, given name, social security ID, full address, postcode, and state. The surname differs only by a minor spelling variation (hendricks/henricks), consistent with a transcription error."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/102"
+    },
+    {
+      "pair_index": 1614,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different surnames, substantially different social security IDs, and distinct addresses and postcodes. The shared given name Daniel alone is weak evidence; no matching birth date or other identifying detail supports a link."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/103"
+    },
+    {
+      "pair_index": 886,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1921 versus 1907), given names (April versus Lewis), social security IDs, and addresses/postcodes. The shared surname alone does not support identity; the combined discrepancies strongly indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/104"
+    },
+    {
+      "pair_index": 1369,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given names, dates of birth, social security IDs, street addresses, suburbs, postcodes, and states. The shared surname alone is insufficient to support identity, and the discrepancies are too extensive to explain as ordinary transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/105"
+    },
+    {
+      "pair_index": 192,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth, postcodes, street numbers, suburbs, and social security IDs all differ. The address details do not provide a convincing match; the combined discrepancies support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/106"
+    },
+    {
+      "pair_index": 749,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1973 versus 1907), given names, addresses, suburbs, postcodes, and social security IDs. The shared surname alone does not support identity; the combined discrepancies strongly indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/107"
+    },
+    {
+      "pair_index": 1043,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, given names, social security IDs, and addresses, postcodes, and states. The shared surname alone does not support identity; these discrepancies are too extensive to explain as ordinary transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/108"
+    },
+    {
+      "pair_index": 311,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full name, date of birth, social security ID, street address and postcode. \u201cWinston hills\u201d versus \u201cwinstonhills\u201d is a minor formatting difference; the missing second address line does not conflict."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/109"
+    },
+    {
+      "pair_index": 823,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, surnames, and social security IDs. Their street numbers, suburbs, postcodes, states, and secondary addresses also differ; the shared street name alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/110"
+    },
+    {
+      "pair_index": 408,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same common given name, but have substantially different birth dates, surnames, social security IDs, and addresses/postcodes. These multiple independent conflicts strongly support different people rather than transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/111"
+    },
+    {
+      "pair_index": 493,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records share the unusual misspelling \u201cemiily,\u201d but their dates of birth, surnames, social security IDs, and address details differ substantially. The shared given name alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/112"
+    },
+    {
+      "pair_index": 100,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, surnames, social security IDs, street addresses, postcodes, and states. The shared given name Sarah is not enough to support identity, and the discrepancies are too extensive to plausibly explain as transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/113"
+    },
+    {
+      "pair_index": 1772,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, social security IDs, street addresses, suburbs, postcodes, and states all differ. The address discrepancies are substantial, and there is no corroborating evidence to support identity despite possible transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/114"
+    },
+    {
+      "pair_index": 2026,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1983 vs. 1961), surnames, social security IDs, and addresses. The shared given name alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/115"
+    },
+    {
+      "pair_index": 1617,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially conflicting identity details: different given and surnames, dates of birth decades apart, and different states and suburbs. The shared postcode alone is weak evidence and does not outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/116"
+    },
+    {
+      "pair_index": 1028,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given and surnames, dates of birth more than 30 years apart, and different street addresses, suburbs, and states. The shared postcode alone is insufficient to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/117"
+    },
+    {
+      "pair_index": 1719,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full name, date of birth, social security ID, and all listed address fields. Record B\u2019s missing address_2 is consistent with missing data, not a contradiction."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/118"
+    },
+    {
+      "pair_index": 523,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth, and social security IDs differ substantially. Their recorded postcodes, states, and locations also conflict; the combined discrepancies support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/119"
+    },
+    {
+      "pair_index": 1228,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth, and social security IDs all differ. Their addresses and postcodes also indicate different locations. These multiple independent conflicts strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/120"
+    },
+    {
+      "pair_index": 1787,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the given name Joshua. Their surnames, dates of birth, social security IDs, and full addresses differ substantially, with no plausible transcription or abbreviation pattern linking them."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/121"
+    },
+    {
+      "pair_index": 812,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, surnames, social security IDs, and addresses, suburbs, postcodes, and states. Only the common given name matches; the combined discrepancies support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/122"
+    },
+    {
+      "pair_index": 495,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on full name, date of birth, social security ID, street, postcode, state, and suburb. The street numbers differ by two, plausibly reflecting a transcription error or address change; the missing second address line is not contradictory."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/123"
+    },
+    {
+      "pair_index": 1045,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, given names, social security IDs, street addresses, suburbs, postcodes, and states. The shared surname alone does not support identity, and the discrepancies are too extensive to plausibly explain as transcription errors or abbreviations."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/124"
+    },
+    {
+      "pair_index": 1446,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different full names, dates of birth, and social security IDs, as well as different street addresses and suburbs. The shared postcode alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/125"
+    },
+    {
+      "pair_index": 510,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "All fields match exactly, including date of birth, social security ID, full address, given name, and postcode. The surname differs only by a trailing \u201cr,\u201d consistent with a transcription error; the street spacing difference is also minor."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/126"
+    },
+    {
+      "pair_index": 202,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth (1915 versus 1990), given names, social security IDs, and addresses, postcodes, and states. The shared surname alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/127"
+    },
+    {
+      "pair_index": 1222,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on date of birth, social security ID, surname, street address and number, suburb, state, and address details. The given names differ only by a likely transcription error (\u201csarah\u201d versus \u201csarauh\u201d); the postcode difference is also plausibly a transcription error."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/128"
+    },
+    {
+      "pair_index": 1983,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given and surnames, social security IDs, street numbers, postcodes, and suburbs. The shared street name alone is insufficient to outweigh these multiple independent conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/129"
+    },
+    {
+      "pair_index": 1809,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1908 versus 1983), given names (Bethany versus Kristen), social security IDs, street addresses, postcodes, and suburbs. The shared surname alone does not support identity; the combined discrepancies strongly indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/130"
+    },
+    {
+      "pair_index": 1673,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the given name. Their birth dates, surnames, social security IDs, postcodes, and street addresses all differ, providing strong evidence they identify different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/131"
+    },
+    {
+      "pair_index": 1309,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given and surnames, and social security identifiers. Their street addresses and suburbs also differ; the shared postcode alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/132"
+    },
+    {
+      "pair_index": 273,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, birth years, social security IDs, street numbers, postcodes, and suburbs differ substantially. The shared given name alone is insufficient to outweigh these conflicting identity details."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/133"
+    },
+    {
+      "pair_index": 1394,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given names, birth dates, and social security IDs, as well as substantially different addresses and postcodes. The shared surname alone does not support identity; the combined discrepancies strongly indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/134"
+    },
+    {
+      "pair_index": 1217,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give Sarah, but surnames, dates of birth, social security IDs, and full addresses differ substantially. These multiple independent conflicts strongly support different people, rather than ordinary transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/135"
+    },
+    {
+      "pair_index": 1501,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share a likely misspelled given name, but have substantially different birth dates, surnames, social security IDs, postcodes, states, and suburbs. The combined discrepancies strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/136"
+    },
+    {
+      "pair_index": 1546,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different full names, dates of birth (1973 vs. 1918), social security IDs, street numbers, postcodes, and suburbs. The shared street name alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/137"
+    },
+    {
+      "pair_index": 502,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records match on date of birth, social security ID, and full address. The given name and surname differ only by likely transpositions, consistent with transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/138"
+    },
+    {
+      "pair_index": 833,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, social security IDs, postcodes, suburbs, and street addresses. The shared surname and state are insufficient to outweigh these multiple independent conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/139"
+    },
+    {
+      "pair_index": 1340,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share the given name and similar suburb spelling, but have substantially different dates of birth, social security IDs, postcodes, and street addresses. These multiple independent conflicts support different people; the missing surname in record A does not resolve them."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/140"
+    },
+    {
+      "pair_index": 1101,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records share the same given name, street number, state, and exact social security ID. The address components are swapped, and the surnames differ by a minor transposition consistent with transcription error. The missing birth date and differing postcodes do not outweigh this evidence."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/141"
+    },
+    {
+      "pair_index": 1423,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records match on surname, date of birth, social security ID, postcode, suburb, and address_2. Different street addresses and states may reflect relocation or transcription errors; the multiple matching identifiers strongly support the same person."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/142"
+    },
+    {
+      "pair_index": 1571,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The dates of birth differ by 39 years, and the social security IDs, street addresses, postcodes, and suburbs also differ. The shared surname is insufficient to outweigh these substantial conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/143"
+    },
+    {
+      "pair_index": 359,
+      "parsed": {
+        "decision": "insufficient_evidence",
+        "evidence": "Names and most address details match, but the street numbers and social security IDs differ. These are substantial conflicting identifiers, and the records provide no date of birth or other evidence to resolve whether this reflects errors or different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/144"
+    },
+    {
+      "pair_index": 796,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The exact shared social security ID, postcode, state, suburb, and street strongly support identity. \u201cmountview\u201d versus \u201cmount ivew\u201d is a plausible transcription error; the differing given names and birth dates may also reflect errors, though they reduce certainty."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/145"
+    },
+    {
+      "pair_index": 1950,
+      "parsed": {
+        "decision": "insufficient_evidence",
+        "evidence": "The exact birth date, surname, street name, and street number match, and \u201ckayl\u201d may be a truncation of \u201ckayla.\u201d However, the social security IDs and postcode/suburb differ substantially, so the records do not resolve identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/146"
+    },
+    {
+      "pair_index": 1922,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given and surnames, social security IDs, birth-date availability, street numbers, suburbs, postcodes, and states. The shared street name alone is insufficient to link them, and the discrepancies collectively support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/147"
+    },
+    {
+      "pair_index": 1356,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given names and surnames, substantially different dates of birth, and different social security IDs. Their state and address details also differ; the shared postcode alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/148"
+    },
+    {
+      "pair_index": 1620,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records share the exact date of birth, social security ID, and full address. The names appear swapped or inconsistently parsed: \u201cjack\u201d is given in one record and surname in the other, while the remaining name differs."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/149"
+    },
+    {
+      "pair_index": 1185,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The exact shared social security ID, full name, and street number strongly support identity. \u201cwalkercerscent\u201d plausibly transcribes \u201cwalker crescent,\u201d and \u201cwinston jills\u201d may be a typo for \u201cwinston hills.\u201d Conflicting postcodes and states are notable but may reflect administrative errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/150"
+    },
+    {
+      "pair_index": 748,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth (1973 vs. 1949), surnames (Nguyen vs. Faehse), and social security IDs. Their street addresses also differ; shared postcode and suburb are insufficient to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/151"
+    },
+    {
+      "pair_index": 130,
+      "parsed": {
+        "decision": "insufficient_evidence",
+        "evidence": "The exact birth date, postcode, state, street number, suburb, and address_2 agree. However, the names differ substantially (James Coleman versus Howie James), and the social security IDs conflict. These discrepancies prevent confidently establishing whether this is one person with errors or two people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/152"
+    },
+    {
+      "pair_index": 1830,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth (1981-04-22 vs. 1987-04-12), social security IDs, and addresses. Only the surname and state match, which are insufficient to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/153"
+    },
+    {
+      "pair_index": 1422,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth (1935 vs. 1940), different social security IDs, and different street addresses and suburbs. The shared postcode and state are not enough to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/154"
+    },
+    {
+      "pair_index": 635,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share the same social security ID and near-identical address, but have substantially different dates of birth (1942 vs. 1959). Their given and surnames are swapped, which could reflect transcription error, but the conflicting birth dates strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/155"
+    },
+    {
+      "pair_index": 1343,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but their birth dates differ by over 30 years, and their postcodes, states, and locations also conflict. The differing social security identifiers further support distinct identities; these discrepancies are too substantial to explain as ordinary transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/156"
+    },
+    {
+      "pair_index": 1618,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same common given name, but have substantially different birth dates, surnames, social security IDs, postcodes, suburbs, and street addresses. These multiple independent conflicts strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/157"
+    },
+    {
+      "pair_index": 1262,
+      "parsed": {
+        "decision": "insufficient_evidence",
+        "evidence": "Date of birth, given name, address, postcode, state, street number, and social security ID match exactly, strongly supporting a link. However, the surnames Hare and Stanley differ substantially, and the records provide no evidence explaining the discrepancy or establishing which surname is correct."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/158"
+    },
+    {
+      "pair_index": 585,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, birth dates, social security IDs, and full address details differ substantially. These independent conflicts support different people rather than ordinary transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/159"
+    },
+    {
+      "pair_index": 26,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share a full date of birth, but have different given names and surnames, substantially different addresses and postcodes, and different social security IDs. The combined discrepancies strongly support different people rather than transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/160"
+    },
+    {
+      "pair_index": 1186,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth (1919 vs. 1958), given names, surnames, and social security IDs. The shared postcode and state are weak location matches and do not outweigh these independent conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/161"
+    },
+    {
+      "pair_index": 135,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth (1988 versus 1915), surnames (Sette versus Santi), and social security IDs. Their street numbers, secondary addresses, postcodes, and suburbs also differ; the shared street name alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/162"
+    },
+    {
+      "pair_index": 847,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given and family names, social security IDs, street numbers, postcodes, and suburbs. The shared street name alone is insufficient to indicate identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/163"
+    },
+    {
+      "pair_index": 1231,
+      "parsed": {
+        "decision": "insufficient_evidence",
+        "evidence": "Birth date and detailed address match, but the names appear substantially rearranged or inconsistent, and the social security IDs differ. These conflicts prevent a reliable identity match despite the shared date and location."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/164"
+    },
+    {
+      "pair_index": 1961,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, given names, and social security IDs, along with different street numbers, postcodes, states, and suburbs. The shared street name alone is insufficient to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/165"
+    },
+    {
+      "pair_index": 133,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, street addresses, postcodes, states, and social security IDs all differ. The combined discrepancies strongly support different people; no birth date in record A is available to compare."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/166"
+    },
+    {
+      "pair_index": 649,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different addresses and postcodes, and their social security IDs differ. Record A also has a full name and birth date, while record B lacks those fields; the shared surname alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/167"
+    },
+    {
+      "pair_index": 217,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given names, substantially different social security IDs, and conflicting addresses, postcodes, states, and suburbs. The shared surname alone does not support identity; the missing birth date in one record does not resolve these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/168"
+    },
+    {
+      "pair_index": 1328,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, social security IDs, street numbers, postcodes, and states. The shared surname and street name are insufficient to outweigh these multiple independent conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/169"
+    },
+    {
+      "pair_index": 207,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, social security IDs, postcodes, states, and suburbs. The shared surname alone is insufficient to support identity, and the discrepancies are too extensive to plausibly explain as transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/170"
+    },
+    {
+      "pair_index": 1027,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth (1938 vs. 1996), given names (Aidan vs. Harry), and social security IDs. Despite sharing a surname and suburb, these independent discrepancies strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/171"
+    },
+    {
+      "pair_index": 1168,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give James and street number 47, but surnames, dates of birth, and social security IDs all differ substantially. The addresses, suburbs, postcodes, and states also conflict, providing strong evidence these are different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/172"
+    },
+    {
+      "pair_index": 797,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1915 versus 1955), social security IDs, postcodes, and addresses. The shared given name and state are weak evidence and do not outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/173"
+    },
+    {
+      "pair_index": 1100,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, given and surnames, social security IDs, street numbers, postcodes, states, and locality details. The shared street name alone is insufficient to link them."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/174"
+    },
+    {
+      "pair_index": 784,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The given and surnames are swapped, while the social security ID and full street, suburb, postcode, and state match. The differing street numbers could reflect a move or transcription error."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/175"
+    },
+    {
+      "pair_index": 1421,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1935 vs. 1915), surnames (Lowry vs. Green), and social security IDs. Their addresses and states also differ; the shared postcode alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/176"
+    },
+    {
+      "pair_index": 213,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, social security IDs, and addresses/postcodes. The shared surname alone does not support identity; the discrepancies are too extensive to explain as ordinary transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/177"
+    },
+    {
+      "pair_index": 1564,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The dates of birth differ by 35 years, and the social security IDs, street addresses, postcodes, and suburbs also differ. The shared surname alone is insufficient to support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/178"
+    },
+    {
+      "pair_index": 452,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, surnames, social security IDs, postcodes, states, and suburbs. The shared street name alone is insufficient to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/179"
+    },
+    {
+      "pair_index": 987,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given names, birth dates (1977 vs. 1992), social security IDs, street numbers, and addresses/suburbs. The shared surname and state are insufficient to outweigh these multiple independent conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/180"
+    },
+    {
+      "pair_index": 1159,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the given name Samuel. Surnames, social security IDs, street addresses, postcodes, states, and suburbs all differ; the available evidence supports different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/181"
+    },
+    {
+      "pair_index": 1990,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "The records share the unusual given name, identical social security ID, postcode, street number, and the same two address components in swapped order. The birth dates differ by a likely digit transposition, and \u201crobina\u201d/\u201crobian\u201d is a minor spelling variation; surname and state discrepancies are outweighed by the matching identifiers."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/182"
+    },
+    {
+      "pair_index": 469,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the surname. Given names, dates of birth, social security IDs, postcodes, street numbers, and street addresses all differ; the combined discrepancies strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/183"
+    },
+    {
+      "pair_index": 1119,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given and surnames, substantially different street addresses and suburbs, and conflicting state fields. Their social security IDs also differ. The shared postcode alone is weak evidence and does not outweigh these multiple discrepancies."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/184"
+    },
+    {
+      "pair_index": 1768,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1951 versus 1986), given names, social security IDs, street addresses, postcodes, and suburbs. The shared surname and state are insufficient to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/185"
+    },
+    {
+      "pair_index": 704,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same common given name, but surnames, dates of birth, postcodes, suburbs, street addresses, and social security IDs all differ substantially. The combined discrepancies strongly support different people rather than ordinary transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/186"
+    },
+    {
+      "pair_index": 250,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, distinct social security IDs, and different postcodes and suburbs. The shared surname alone is insufficient to link them; the discrepancies across multiple identifying fields support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/187"
+    },
+    {
+      "pair_index": 1376,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the common given name Joshua and street number 1. Surnames, postcodes, states, suburbs, street names, and social security IDs differ substantially; the available evidence supports different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/188"
+    },
+    {
+      "pair_index": 788,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1976 versus 1940), surnames (Yoon versus Whiten), and social security IDs. Their street addresses, suburbs, and postcodes also differ. The shared given name Lucas is insufficient to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/189"
+    },
+    {
+      "pair_index": 888,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given names, substantially different social security IDs, and conflicting address details, postcodes, and states. Although the surname matches, the combined discrepancies support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/190"
+    },
+    {
+      "pair_index": 776,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the surname Lodge, but their dates of birth differ by over 80 years, and their postcodes, states, suburbs, street numbers, and social security IDs also conflict. These multiple independent discrepancies strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/191"
+    },
+    {
+      "pair_index": 240,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Dates of birth differ substantially, and both given and surnames differ without a plausible transcription or swap explanation. Social security IDs, street addresses, suburbs, and states also differ; the shared postcode alone is weak evidence."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/192"
+    },
+    {
+      "pair_index": 344,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given and surnames, social security IDs, postcodes, states, and suburbs. The shared street name and street number are insufficient to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/193"
+    },
+    {
+      "pair_index": 733,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the given name. Their birth dates differ substantially, as do their social security IDs and full address details; record B also lacks a surname. These conflicts strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/194"
+    },
+    {
+      "pair_index": 881,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1921 versus 1952), given names (April versus Ruby), social security IDs, postcodes, and street addresses. The shared surname and state do not outweigh these multiple independent conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/195"
+    },
+    {
+      "pair_index": 2028,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth (1983 vs. 1915), surnames (Allanby vs. Gully), and social security IDs. Their street addresses and postcodes also differ. The shared given name alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/196"
+    },
+    {
+      "pair_index": 155,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the given name. Their surnames, dates of birth, social security IDs, and address details all differ substantially, supporting different people rather than transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/197"
+    },
+    {
+      "pair_index": 455,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The dates of birth differ by over 60 years, and the surnames and social security identifiers also differ. The shared postcode alone is weak evidence and does not outweigh these substantial conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/198"
+    },
+    {
+      "pair_index": 971,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given and surnames, birth dates decades apart, and different social security identifiers. Their shared postcode is weak evidence and does not outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/199"
+    },
+    {
+      "pair_index": 284,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the given name. Their dates of birth differ by about four years, social security IDs differ, and addresses and postcodes are distinct. The surname missing from record B does not resolve these substantial conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/200"
+    },
+    {
+      "pair_index": 185,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given names, substantially different social security IDs, and unrelated street addresses and postcodes. The shared surname and state are insufficient to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/201"
+    },
+    {
+      "pair_index": 1958,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth, and social security IDs all differ substantially. The address and postcode details also differ; the shared name alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/202"
+    },
+    {
+      "pair_index": 208,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, social security IDs, postcodes, states, and addresses. The shared surname alone does not support identity; the discrepancies are too extensive to explain as ordinary transcription errors or abbreviations."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/203"
+    },
+    {
+      "pair_index": 466,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1915 versus 1940), given names (Beau versus Adam), and social security IDs. Their addresses and states also differ. These multiple independent conflicts strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/204"
+    },
+    {
+      "pair_index": 882,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share a date of birth, but have different given names, surnames, and social security IDs, as well as conflicting postcodes, states, suburbs, and street numbers. The extensive independent discrepancies outweigh the shared birth date."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/205"
+    },
+    {
+      "pair_index": 1821,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The birth dates differ by over 42 years, and the social security IDs, addresses, postcodes, and states also differ. The shared surname and partial given-name overlap are insufficient to outweigh these substantial conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/206"
+    },
+    {
+      "pair_index": 1718,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the given name Connor. Surnames differ substantially, and the addresses, postcodes, and states point to different locations. The available identifiers also differ, with no matching birth date or other evidence linking the records."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/207"
+    },
+    {
+      "pair_index": 1204,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially conflicting identity details: birth dates differ by decades, given and surnames differ, and street numbers, postcodes, states, and suburbs conflict. The shared street name alone is insufficient to outweigh these discrepancies."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/208"
+    },
+    {
+      "pair_index": 107,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, surnames, and social security IDs. Their street addresses and suburbs also differ; the shared postcode alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/209"
+    },
+    {
+      "pair_index": 1764,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share a social security ID and address details, but have substantially different birth dates (1975 vs. 1998), street numbers (3 vs. 56), and surnames (Rieman vs. Sherrqiff). The birth-date conflict strongly supports different people despite the shared identifier."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/210"
+    },
+    {
+      "pair_index": 1270,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different full names, dates of birth (1953 versus 1968), and social security identifiers. Their street addresses also differ; the shared postcode and state are not enough to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/211"
+    },
+    {
+      "pair_index": 916,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records share the exact date of birth, social security ID, postcode, state, street number, and address_2. The given name and surname appear swapped, and \u201cglendsle\u201d is a plausible transcription error for \u201cglendale\u201d; differing street names are outweighed by the matching identifiers."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/212"
+    },
+    {
+      "pair_index": 1554,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different addresses, postcodes, and states, and their social security identifiers differ. The shared surname alone is weak evidence; the missing given name and birth date prevent a direct name or birth-date comparison."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/213"
+    },
+    {
+      "pair_index": 1320,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same name, but their dates of birth differ by nearly 60 years, and their social security IDs, addresses, postcodes, and states also differ. These substantial independent conflicts support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/214"
+    },
+    {
+      "pair_index": 1020,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth, and social security IDs differ. Their street addresses, postcodes, and suburbs also conflict; the shared state is weak evidence and does not outweigh these discrepancies."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/215"
+    },
+    {
+      "pair_index": 1744,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, social security IDs, and addresses, including different states and postcodes. The shared surname alone does not support identity; the discrepancies are too extensive to attribute plausibly to transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/216"
+    },
+    {
+      "pair_index": 898,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records provide substantially different dates of birth, surnames, postcodes, states, street addresses, and social security IDs. Although transcription errors are possible, the many independent conflicts strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/217"
+    },
+    {
+      "pair_index": 147,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1995 vs. 1930), surnames (Chandler vs. Mees), and social security IDs. Their street names match, but street numbers, suburbs, postcodes, and states differ, so this does not support a shared identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/218"
+    },
+    {
+      "pair_index": 1921,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records share the same full name, social security ID, street number, suburb, and state. The differing postcodes and street names may reflect transcription or address errors; they do not outweigh the matching identifiers."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/219"
+    },
+    {
+      "pair_index": 462,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth (1915 versus 1905), different social security IDs, and different addresses and postcodes. The shared surname alone is insufficient to support identity; the given names also do not plausibly match."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/220"
+    },
+    {
+      "pair_index": 1903,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given and surnames, birth dates two years apart, different street numbers, postcodes, and suburbs. Their social security identifiers also differ. The shared street name alone is insufficient to support identity, and the discrepancies collectively support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/221"
+    },
+    {
+      "pair_index": 724,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth years (1983 vs. 1923), given names, social security IDs, street addresses, postcodes, and suburbs. The shared surname and state are insufficient to outweigh these multiple independent conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/222"
+    },
+    {
+      "pair_index": 1568,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given names, birth dates (1913 versus 1959), social security IDs, street addresses, and postcodes. The shared surname alone does not support identity, and the discrepancies are too extensive to plausibly explain as transcription errors or swaps."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/223"
+    },
+    {
+      "pair_index": 269,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth (1918 versus 1997), given and surnames, and social security identifiers. The shared postcode is not enough to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/224"
+    },
+    {
+      "pair_index": 2011,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same unusual misspelling of the given name, but surnames, dates of birth, social security IDs, postcodes, suburbs, and street numbers all differ. The multiple independent conflicts strongly support different people rather than ordinary transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/225"
+    },
+    {
+      "pair_index": 1324,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth, and social security IDs differ substantially. Their address and location details also conflict; the combined discrepancies support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/226"
+    },
+    {
+      "pair_index": 650,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the common given name Daniel. Surnames differ, as do the social security IDs, addresses, postcodes, suburbs, and states. These multiple independent discrepancies support different people; no matching distinctive identifier or other evidence suggests transcription or address changes explain them."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/227"
+    },
+    {
+      "pair_index": 969,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the given name. Their surnames, dates of birth, social security IDs, and full address details all differ substantially, supporting different people rather than transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/228"
+    },
+    {
+      "pair_index": 165,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth (1940 vs. 1987), social security IDs, street addresses, postcodes, and suburbs. The shared surname alone does not support identity; the combined discrepancies strongly indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/229"
+    },
+    {
+      "pair_index": 152,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1918-03-07 vs 1924-09-05), given names, social security IDs, and address details. The shared surname and street number are insufficient to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/230"
+    },
+    {
+      "pair_index": 511,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different full names, dates of birth (over 41 years apart), and social security IDs. Their street addresses and suburbs also differ; the shared postcode alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/231"
+    },
+    {
+      "pair_index": 254,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, and social security IDs, as well as different street numbers and postcodes. The shared surname alone does not support identity; the other discrepancies are too extensive to explain as ordinary transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/232"
+    },
+    {
+      "pair_index": 1527,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, and social security IDs, as well as different street and locality details. The shared surname and street number are weak evidence and do not outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/233"
+    },
+    {
+      "pair_index": 1117,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records conflict on date of birth, given and family names, street number, postcode, state, and suburb. The shared street name alone is insufficient to outweigh these substantial discrepancies."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/234"
+    },
+    {
+      "pair_index": 1503,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share a similar given name, but have substantially different birth dates, surnames, social security IDs, postcodes, states, and addresses. The combined discrepancies strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/235"
+    },
+    {
+      "pair_index": 224,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1952 versus 1907), given names (Ruby versus Lewis), social security IDs, and addresses. The shared surname alone does not support identity; the combined discrepancies indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/236"
+    },
+    {
+      "pair_index": 67,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given names, substantially different birth dates, and different social security IDs. Their addresses, postcodes, suburbs, and states also differ. The shared surname alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/237"
+    },
+    {
+      "pair_index": 227,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given names, substantially different social security IDs, and different addresses, postcodes, and states. The shared surname alone is weak evidence; no matching birth date or other identifier supports a common identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/238"
+    },
+    {
+      "pair_index": 29,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records share the given name and street number, but have substantially different surnames, dates of birth, postcodes, suburbs, states, addresses, and social security IDs. The combined discrepancies strongly support different people rather than ordinary transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/239"
+    },
+    {
+      "pair_index": 1839,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same uncommon given name, but their birth dates differ by over 41 years, surnames differ, and the recorded social security IDs and postcodes also conflict. These multiple independent discrepancies strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/240"
+    },
+    {
+      "pair_index": 50,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, given and surnames, and social security IDs. Their postcode, state, and suburb also differ; the shared street name alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/241"
+    },
+    {
+      "pair_index": 926,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1912 versus 1958), given names (Amy versus Sophie), social security IDs, and addresses in different states. The shared surname alone does not support identity; these discrepancies are too extensive to explain as ordinary transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/242"
+    },
+    {
+      "pair_index": 1558,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records match on name, address, and social security ID, but their dates of birth differ by over three years. That substantial conflict is unlikely to be a transcription error and supports different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/243"
+    },
+    {
+      "pair_index": 154,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth, social security IDs, street addresses, postcodes, and suburbs differ substantially. The combined discrepancies strongly support different people rather than ordinary transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/244"
+    },
+    {
+      "pair_index": 1992,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different surnames, substantially different given names, and different social security IDs. Their street numbers and street names also differ. The shared postcode and state are not enough to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/245"
+    },
+    {
+      "pair_index": 63,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given and surnames, substantially different street addresses and suburbs, and different social security IDs. The shared postcode alone is weak evidence and does not outweigh these conflicts; the missing birth date in record B is inconclusive."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/246"
+    },
+    {
+      "pair_index": 10,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given names, substantially different addresses and postcodes, and different social security IDs. Although one birth date is missing and the surname matches, the combined discrepancies support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/247"
+    },
+    {
+      "pair_index": 39,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give Sarah, but the surnames, street addresses, suburbs, postcodes, and social security IDs all differ substantially. The combined discrepancies strongly support different people; no shared identifying detail beyond the common given name links them."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/248"
+    },
+    {
+      "pair_index": 1353,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given names, birth dates, and social security identifiers, as well as different postcodes and addresses. The shared surname alone does not support identity; the discrepancies are too extensive to explain as ordinary transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/249"
+    },
+    {
+      "pair_index": 1635,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1914 versus 1947), surnames (Simmonds versus Oats), social security IDs, postcodes, and street addresses. The shared given name Abbey is insufficient to outweigh these multiple independent conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/250"
+    },
+    {
+      "pair_index": 1444,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given names, dates of birth (over 35 years apart), social security IDs, street addresses, postcodes, and suburbs. The shared surname alone is insufficient to suggest identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/251"
+    },
+    {
+      "pair_index": 897,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, surnames, postcodes, suburbs, street numbers, and social security IDs. The shared street name and state are insufficient to outweigh these multiple independent conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/252"
+    },
+    {
+      "pair_index": 1829,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The birth dates differ by nearly 35 years, and the given names, social security IDs, street addresses, postcodes, and suburbs also differ. The shared surname alone does not support identity; the discrepancies are too substantial to explain as ordinary transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/253"
+    },
+    {
+      "pair_index": 746,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records match on full name, date of birth, social security ID, postcode, state, and the same two address components in swapped order. The suburb differs only by a likely transcription error; the street number discrepancy may reflect an error or address change."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/254"
+    },
+    {
+      "pair_index": 128,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given and surnames, substantially different birth dates, and different social security IDs. Their street numbers, postcodes, states, suburbs, and secondary addresses also differ; the shared street name alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/255"
+    },
+    {
+      "pair_index": 1114,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different full names, dates of birth (1906 versus 1979), and social security IDs. Their addresses and states also differ; the shared postcode alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/256"
+    },
+    {
+      "pair_index": 595,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, Social Security IDs, postcodes, street addresses, and suburbs. The shared surname alone is weak evidence and does not outweigh these multiple conflicting identifiers."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/257"
+    },
+    {
+      "pair_index": 434,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, surnames, and social security IDs, as well as different street addresses and suburbs. The shared postcode alone is insufficient to outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/258"
+    },
+    {
+      "pair_index": 1873,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1988 vs. 1946), given names, street addresses, postcodes, suburbs, and social security IDs. The shared surname alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/259"
+    },
+    {
+      "pair_index": 139,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the uncommon surname differently (Fitzpatrick versus Flatan), and their postcodes, states, suburbs, street addresses, and social security IDs all conflict. The shared given name Casey alone is insufficient to overcome these multiple independent discrepancies."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/260"
+    },
+    {
+      "pair_index": 290,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Dates of birth differ substantially, and surnames and available given-name information do not match. The social security identifiers also differ. Although the suburb spellings and postcode are similar, that alone does not outweigh the conflicting identity fields."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/261"
+    },
+    {
+      "pair_index": 921,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given and surnames, and social security IDs, as well as different states, suburbs, and street numbers. The shared postcode alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/262"
+    },
+    {
+      "pair_index": 557,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1946 versus 1976), given names (Isaac versus Jacoub), social security IDs, street addresses, and postcodes. The shared surname alone does not support identity; the discrepancies collectively indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/263"
+    },
+    {
+      "pair_index": 702,
+      "parsed": {
+        "decision": "same_person",
+        "evidence": "Both records share the exact date of birth, social security ID, street number, and state. Given and surname are swapped, address lines are reversed, and the suburb is a minor spelling variation; postcode differs slightly."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/264"
+    },
+    {
+      "pair_index": 1311,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give Chelsea Blake, but their dates of birth differ substantially, as do their social security IDs and full address details. These multiple independent conflicts support different people rather than transcription variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/265"
+    },
+    {
+      "pair_index": 1030,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the surname Bradshaw, but their given names, birth dates (1938 vs. 1915), social security IDs, postcodes, suburbs, street numbers, and street addresses differ. The multiple independent conflicts strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/266"
+    },
+    {
+      "pair_index": 590,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given names, birth dates (1967 versus 1985), social security IDs, and address details. A shared surname alone does not support identity; the discrepancies collectively indicate different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/267"
+    },
+    {
+      "pair_index": 638,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given names, surnames, dates of birth, social security IDs, street numbers, postcodes, and suburbs. The shared street name alone is insufficient to outweigh these multiple independent conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/268"
+    },
+    {
+      "pair_index": 1321,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The dates of birth differ by over 34 years, and the social security IDs, street addresses, postcodes, and suburbs also differ. The shared surname alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/269"
+    },
+    {
+      "pair_index": 153,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates (1918 versus 1985), given and surnames, street addresses, and social security IDs. The shared postcode alone is insufficient to indicate identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/270"
+    },
+    {
+      "pair_index": 1409,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth, postcodes, suburbs, street addresses, and social security IDs all differ. The extensive conflicts support different people rather than a plausible transcription or abbreviation variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/271"
+    },
+    {
+      "pair_index": 1652,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, given names, social security IDs, and address details. The shared surname alone is insufficient to outweigh these multiple independent conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/272"
+    },
+    {
+      "pair_index": 1232,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share the uncommon given name, but have substantially conflicting surnames, dates of birth, social security IDs, and addresses across different states and postcodes. The birth date in record B is invalid, but the other independent conflicts support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/273"
+    },
+    {
+      "pair_index": 507,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but their birth dates differ by nearly 37 years, and their social security IDs, addresses, postcodes, and states also differ. These substantial conflicts support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/274"
+    },
+    {
+      "pair_index": 834,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, surnames, and social security IDs, as well as different street addresses and states. The shared postcode alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/275"
+    },
+    {
+      "pair_index": 1073,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same full date of birth, but the given names, surnames, social security IDs, street addresses, suburbs, postcodes, and states all differ. The extensive independent conflicts support different people rather than a plausible transcription or abbreviation variation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/276"
+    },
+    {
+      "pair_index": 401,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the given name. Birth dates, surnames, social security IDs, street addresses, postcodes, and suburbs all differ, providing strong evidence they identify different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/277"
+    },
+    {
+      "pair_index": 1729,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, given and surnames, social security IDs, street numbers, postcodes, and suburbs. The shared street name alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/278"
+    },
+    {
+      "pair_index": 1812,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth (1985 vs. 1935), surnames (Moody vs. Nygaard), and social security IDs. Their addresses and postcodes also differ; the shared given name and state do not outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/279"
+    },
+    {
+      "pair_index": 14,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same unusual misspelling of the given name, but their surnames, dates of birth, social security IDs, street addresses, postcodes, and suburbs all differ substantially. The combined conflicts strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/280"
+    },
+    {
+      "pair_index": 1583,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but surnames, dates of birth, social security IDs, street addresses, postcodes, and suburbs all differ substantially. The combined conflicts strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/281"
+    },
+    {
+      "pair_index": 621,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name and street number, but surnames, dates of birth, postcodes, suburbs, street names, and social security IDs differ substantially. The conflicting birth dates and identifiers strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/282"
+    },
+    {
+      "pair_index": 325,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given and family names, and social security IDs. Their street addresses and states also differ; the shared postcode alone does not support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/283"
+    },
+    {
+      "pair_index": 1909,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, social security IDs, and addresses. The shared surname alone is insufficient to link them, and the discrepancies collectively support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/284"
+    },
+    {
+      "pair_index": 1158,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given names, distinct street addresses, postcodes, suburbs, and social security IDs. The shared surname and state are weak evidence and do not outweigh these substantial discrepancies."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/285"
+    },
+    {
+      "pair_index": 422,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given and surnames, social security IDs, street addresses, suburbs, and states. The shared postcode alone is weak evidence and does not outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/286"
+    },
+    {
+      "pair_index": 637,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different full names, dates of birth, and social security IDs, as well as different street numbers and suburbs. The shared postcode and state are insufficient to outweigh these independent conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/287"
+    },
+    {
+      "pair_index": 1895,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The birth dates differ by more than 67 years, and the surnames, social security IDs, postcodes, suburbs, and addresses also differ. The shared given name and state do not outweigh these substantial conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/288"
+    },
+    {
+      "pair_index": 1014,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, given names, addresses, postcodes, and social security IDs. The shared surname is weak evidence and does not outweigh these multiple independent conflicts; the state abbreviation discrepancy does not resolve them."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/289"
+    },
+    {
+      "pair_index": 1714,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same common given name, but have substantially different birth dates, surnames, social security identifiers, and addresses in different states. These multiple independent conflicts strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/290"
+    },
+    {
+      "pair_index": 232,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially conflicting names, different street addresses and numbers, different suburbs and states, and distinct social security identifiers. The shared postcode alone is weak evidence and does not outweigh these conflicts."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/291"
+    },
+    {
+      "pair_index": 382,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the given name. Their dates of birth, surnames, social security IDs, postcodes, states, suburbs, and street addresses all differ; the combined discrepancies strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/292"
+    },
+    {
+      "pair_index": 809,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records share only the common given name Sarah. Surnames, social security IDs, addresses, postcodes, and states all differ substantially; no matching birth date or other identifying detail supports a transcription or abbreviation explanation."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/293"
+    },
+    {
+      "pair_index": 1548,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different given and surnames, dates of birth, and social security IDs, as well as different street addresses and suburbs. These multiple independent conflicts strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/294"
+    },
+    {
+      "pair_index": 1685,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "Both records give the same given name, but their surnames, dates of birth, and social security IDs differ substantially. Their street numbers, suburbs, postcodes, and address details also conflict; the shared state is weak evidence and does not outweigh these discrepancies."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/295"
+    },
+    {
+      "pair_index": 1619,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, surnames, postcodes, states, suburbs, and social security IDs. Although both list the given name Jack, the combined conflicting identifiers strongly support different people."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/296"
+    },
+    {
+      "pair_index": 982,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different birth dates, given names, social security IDs, street addresses, postcodes, and suburbs. The shared surname alone does not support identity; the discrepancies are too extensive to explain as ordinary transcription errors."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/297"
+    },
+    {
+      "pair_index": 1858,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have substantially different dates of birth, given names, social security IDs, and addresses. The shared surname alone is insufficient to support identity."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/298"
+    },
+    {
+      "pair_index": 1545,
+      "parsed": {
+        "decision": "different_people",
+        "evidence": "The records have different given names, substantially different addresses and postcodes, and different social security identifiers. Although both share the surname Satterley, that alone does not support identity; the missing birth date in record B cannot resolve the conflict."
+      },
+      "status": "valid",
+      "tag": "febrl-clustering-20261009/teacher/299"
+    }
+  ],
+  "usage": {
+    "attempted_calls": 300,
+    "budget_usd": 0.5,
+    "call_elapsed_seconds_sum": 457.46128708812466,
+    "completion_tokens": 17927,
+    "estimated_token_price_usd": 0.018290299999999995,
+    "failed_calls": 0,
+    "model": "gpt-6-luna",
+    "prompt_tokens": 93268,
+    "reserved_usd": 0.07724359374999991,
+    "unresolved_attempts": 0,
+    "valid_calls": 300
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "artifact_sha256": {
+    "protocol.json": "861934faf7c92da264cf16845896f5903fe6e28956c926c599d1774f6793fb7e",
+    "results/compact-scores.json.gz": "a2780ce932b80fec066ac8910151cb33be92a92bed3e973d0af673f39a61e172",
+    "results/compact-test-splink-model.json": "0722873724b5641c543cd274f824434a607293833016d86d63bbe47637f11e94",
+    "results/compact-training.json": "8edba8aaab7dd4782d7d1ff06af934e755e3bce88739577dba01bcdd66367620",
+    "results/compact-val-splink-model.json": "6cfc5e94ffeb8eb38c1ba120cdf048906823f50d419d164ca12dfdd6cc64bf8e",
+    "results/expanded-scores.json.gz": "667990505828e862c1c3360af5f30029592bf8f4e0de20830318c69e3ff5e7f8",
+    "results/expanded-test-splink-model.json": "7aa6c32787377d940b78bbbceab2534d14e6d12e5f64f2305d964bd9e5839ddf",
+    "results/expanded-training.json": "ffd0cff9138215de22834e1c67afc80371d140d3b587306e2342db843c790f56",
+    "results/expanded-val-splink-model.json": "fbdb21ce030826929ceb1f2c710a0009c0ca9a483d8f1ffe443c060700c8c97c",
+    "results/test-predictions.json": "f03f9f0dad7383d0e3359d6df626ebfe38a9be72a5494f5083ca6dff9cb9da5a",
+    "results/validation-selection.json": "573fecccb76fafed958767ca5b6bac23feef765e387a0c68272a48a6c1a48ebe",
+    "run.py": "59af159d0fa347244fff32968d83fe782539228f72a0ee12c700ac5e01930771"
+  },
+  "paid_calls": 0,
+  "prediction_rows_per_arm": {
+    "compact": 644,
+    "expanded": 644
+  },
+  "sealed_at": "2026-10-09T21:37:03.083497+00:00",
+  "source_sha256": {
+    "affiliation-value/protocol.json": "ae1494790edd193d79c5e94436f039d4c7b65f612d1764b10484845353b955ca",
+    "affiliation-value/results/candidates.json.gz": "dfbbf56fd3b3e12fa857e20ca1153565576c5710c727c50cc616aacb8c4e4ed4",
+    "affiliation-value/results/evaluation.json": "4ec843719eb3eefd9e6dfcadae614ca4570e606c04455e2e03a9a1a638421194",
+    "affiliation-value/results/pair-features.json.gz": "97ceafae8981a4a1c8e42f3e8dcb92fadae7df957f63f1edd6296b3f81570a91",
+    "affiliation-value/results/prediction-seal.json": "e21fbba0409e6373a3e83ea9151eaecc3ef241853f3a1ad428a49c2dccd95c4f",
+    "affiliation-value/results/test-predictions.json": "cef3bd2442b61ef6036dc22fb98ccd7b81c1e9098fb6c4848675d7845f1fddae",
+    "affiliation-value/run.py": "ccad7973efafcda3677acf3be559e5b2feeb9e56d578a06d5ba08b5250b256e4",
+    "cache/linkage/gold_affiliation_annotations.csv": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+    "data/linkage/s2aff-gold.json": "dce7108da6643db4d57eb7c4401bc98dee9595eef4f18729919d058edc03ad84",
+    "data/linkage/s2aff-inputs.json": "a6911e1fddaca4f849b3fa20a7f2d97a92dc4875d3a1d7818f3001003d7730ba",
+    "linkage.py": "268138f3b84eae91dcd5c26823173c903b211d89858f67f1814ea1458aeec8c1",
+    "results/linkage/model-test-v1.json": "7b76b42fd8c50bbc06cbfb48bff25f55dc7363617d733d974fe1c1c509d205a3"
+  },
+  "test_labels_parsed_during_fit": false
+}

@@ -24,8 +24,11 @@ and [prices](https://developers.openai.com/api/docs/pricing) were checked on
 6 October 2026.
 
 The text experiments examine different relations; their scores do not rank
-identity linkage systems. Native-text identity linkage with extraction followed
-by Splink remains a proposed comparison.
+identity linkage systems. The completed [native-affiliation study](../nso-semantic-workflows/native-affiliation-study-20261009/README.md)
+compares semantic organization allocation with trained lexical methods, genuine
+supervised Splink and extraction followed by Splink. Its
+[matched native-training control](../nso-semantic-workflows/native-affiliation-adaptation-20261009/README.md)
+tests the same reference-label policy on held-out texts.
 
 ## Run or read
 
@@ -144,9 +147,10 @@ observation and the independent reference. The notebook shows the plan fields
 used here; the snapshot also retains native metadata. In LOTUS 1.2.4,
 `reduce_strategy` is unused: the reducer is a single agent over all findings.
 
-Diagnostic repairs, reusable LLM supervision and large-scale deployment remain
-research proposals summarized in the report. The repair, distillation and
-100M-by-100M studies have not been run. The supporting
+The [completed clustering study](../nso-semantic-workflows/clustering-study-20261009/README.md)
+tests diagnostic acquisition and reusable pair scoring, retaining a null
+acquisition result and adverse teacher-supervision transfer. Record embeddings,
+selective-review deployment and 100M-by-100M execution remain proposals. The supporting
 [research notes](../../research/error-guided-record-linkage/README.md) retain
 the fuller evidence review and experimental protocol.
 
@@ -172,7 +176,8 @@ the fuller evidence review and experimental protocol.
 | `results/unstructured-*.json` | Current and historical text snapshots, failed-attempt evidence and request-settings verification |
 | `results/agentic-*.json` | Agentic plan, tool calls and observations, provider usage and source checks |
 | `results/review-verification.json` | Execution, integrity and rendering checks for the reviewed revision |
-| `results/final-notebook-verification-20261009.json` | Current complete-report artifact hashes, 35 executed cells, preserved evidence and reading-copy checks |
+| `results/research-completion-notebook-verification-20261009.json` | Current completed-research notebook execution, described figures, preserved evidence and reading-copy checks |
+| `results/final-notebook-verification-20261009.json` | Preserved preceding revision: 35 executed cells and its artifact checks |
 | `results/review-verification-20261006-text.json` | Preserved verification before the agentic section was added |
 | `results/verification.json`, `results/handbook-verification.json` | Preserved verification of earlier revisions |
 

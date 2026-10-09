@@ -1,0 +1,6182 @@
+[
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7101,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7102,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7103,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7104,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "random",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 100,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "random",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "uncertainty_diversity",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "error_risk",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "shuffled_clusters",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "date_components"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "combined_address",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "name_structure"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "date_components",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  },
+  {
+    "additional_budget": 200,
+    "arm": "score_groups",
+    "groups": [
+      "name_structure",
+      "phonetic"
+    ],
+    "seed": 7105,
+    "validation_primary_loss": 0.0
+  }
+]

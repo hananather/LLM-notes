@@ -1,0 +1,233 @@
+{
+  "arm": "teacher_student_c2",
+  "components": [
+    {
+      "edges": [
+        {
+          "false": true,
+          "left": "0294b7f2532422d9ae13d57d",
+          "right": "2433583436484422cd18c78d"
+        },
+        {
+          "false": false,
+          "left": "0294b7f2532422d9ae13d57d",
+          "right": "3730c2c723ffd37f6c658566"
+        },
+        {
+          "false": false,
+          "left": "0294b7f2532422d9ae13d57d",
+          "right": "4fc1455a501c11d72b7c6364"
+        },
+        {
+          "false": false,
+          "left": "0294b7f2532422d9ae13d57d",
+          "right": "7cf17122228ef33bf1298f59"
+        },
+        {
+          "false": false,
+          "left": "0294b7f2532422d9ae13d57d",
+          "right": "852557e27e356dea28c5da1f"
+        },
+        {
+          "false": false,
+          "left": "2433583436484422cd18c78d",
+          "right": "31a792ceef8d47f800b7b59d"
+        },
+        {
+          "false": false,
+          "left": "2433583436484422cd18c78d",
+          "right": "56d7c9970e36c5b49a8feede"
+        },
+        {
+          "false": false,
+          "left": "2433583436484422cd18c78d",
+          "right": "71e9c9941b1e0140da66faac"
+        },
+        {
+          "false": false,
+          "left": "31a792ceef8d47f800b7b59d",
+          "right": "56d7c9970e36c5b49a8feede"
+        },
+        {
+          "false": false,
+          "left": "31a792ceef8d47f800b7b59d",
+          "right": "71e9c9941b1e0140da66faac"
+        },
+        {
+          "false": false,
+          "left": "3730c2c723ffd37f6c658566",
+          "right": "4fc1455a501c11d72b7c6364"
+        },
+        {
+          "false": false,
+          "left": "3730c2c723ffd37f6c658566",
+          "right": "7cf17122228ef33bf1298f59"
+        },
+        {
+          "false": false,
+          "left": "3730c2c723ffd37f6c658566",
+          "right": "852557e27e356dea28c5da1f"
+        },
+        {
+          "false": false,
+          "left": "4fc1455a501c11d72b7c6364",
+          "right": "7cf17122228ef33bf1298f59"
+        },
+        {
+          "false": false,
+          "left": "4fc1455a501c11d72b7c6364",
+          "right": "852557e27e356dea28c5da1f"
+        },
+        {
+          "false": false,
+          "left": "56d7c9970e36c5b49a8feede",
+          "right": "71e9c9941b1e0140da66faac"
+        },
+        {
+          "false": false,
+          "left": "7cf17122228ef33bf1298f59",
+          "right": "852557e27e356dea28c5da1f"
+        }
+      ],
+      "entity_members": [
+        [
+          "0294b7f2532422d9ae13d57d",
+          "3730c2c723ffd37f6c658566",
+          "4fc1455a501c11d72b7c6364",
+          "7cf17122228ef33bf1298f59",
+          "852557e27e356dea28c5da1f"
+        ],
+        [
+          "2433583436484422cd18c78d",
+          "31a792ceef8d47f800b7b59d",
+          "56d7c9970e36c5b49a8feede",
+          "71e9c9941b1e0140da66faac"
+        ]
+      ],
+      "false_relationships": 20
+    },
+    {
+      "edges": [
+        {
+          "false": true,
+          "left": "357b991a8eb849dfaa49ea62",
+          "right": "49fbb529edec812d43ef0d21"
+        },
+        {
+          "false": false,
+          "left": "49fbb529edec812d43ef0d21",
+          "right": "6974d10e8e5e73755cefa42d"
+        },
+        {
+          "false": false,
+          "left": "49fbb529edec812d43ef0d21",
+          "right": "7639f0d1f33de98c825216b5"
+        },
+        {
+          "false": false,
+          "left": "49fbb529edec812d43ef0d21",
+          "right": "8a5ca02ad47565ec3bb388c1"
+        },
+        {
+          "false": false,
+          "left": "49fbb529edec812d43ef0d21",
+          "right": "9378f3acc8831f3f0fd45b3c"
+        },
+        {
+          "false": false,
+          "left": "49fbb529edec812d43ef0d21",
+          "right": "db9d991c35ae3e9764353e13"
+        },
+        {
+          "false": false,
+          "left": "6974d10e8e5e73755cefa42d",
+          "right": "7639f0d1f33de98c825216b5"
+        },
+        {
+          "false": false,
+          "left": "6974d10e8e5e73755cefa42d",
+          "right": "8a5ca02ad47565ec3bb388c1"
+        },
+        {
+          "false": false,
+          "left": "6974d10e8e5e73755cefa42d",
+          "right": "9378f3acc8831f3f0fd45b3c"
+        },
+        {
+          "false": false,
+          "left": "6974d10e8e5e73755cefa42d",
+          "right": "db9d991c35ae3e9764353e13"
+        },
+        {
+          "false": false,
+          "left": "7639f0d1f33de98c825216b5",
+          "right": "8a5ca02ad47565ec3bb388c1"
+        },
+        {
+          "false": false,
+          "left": "7639f0d1f33de98c825216b5",
+          "right": "9378f3acc8831f3f0fd45b3c"
+        },
+        {
+          "false": false,
+          "left": "7639f0d1f33de98c825216b5",
+          "right": "db9d991c35ae3e9764353e13"
+        },
+        {
+          "false": false,
+          "left": "8a5ca02ad47565ec3bb388c1",
+          "right": "9378f3acc8831f3f0fd45b3c"
+        },
+        {
+          "false": false,
+          "left": "8a5ca02ad47565ec3bb388c1",
+          "right": "db9d991c35ae3e9764353e13"
+        },
+        {
+          "false": false,
+          "left": "9378f3acc8831f3f0fd45b3c",
+          "right": "db9d991c35ae3e9764353e13"
+        }
+      ],
+      "entity_members": [
+        [
+          "49fbb529edec812d43ef0d21",
+          "6974d10e8e5e73755cefa42d",
+          "7639f0d1f33de98c825216b5",
+          "8a5ca02ad47565ec3bb388c1",
+          "9378f3acc8831f3f0fd45b3c",
+          "db9d991c35ae3e9764353e13"
+        ],
+        [
+          "357b991a8eb849dfaa49ea62"
+        ]
+      ],
+      "false_relationships": 6
+    },
+    {
+      "edges": [
+        {
+          "false": true,
+          "left": "3e5a52110a0b6f0d6c3f31e8",
+          "right": "6bda17fc306fd29262741796"
+        }
+      ],
+      "entity_members": [
+        [
+          "3e5a52110a0b6f0d6c3f31e8"
+        ],
+        [
+          "6bda17fc306fd29262741796"
+        ]
+      ],
+      "false_relationships": 1
+    }
+  ],
+  "input_sha256": {
+    "clustering-study-20261009/febrl3-transfer/sealed-predictions.parquet": "ce77b2231dad9911392da8931c7edfe71ec9b6387d4ef0e1c3df0a409131a677",
+    "clustering-study-20261009/febrl3-transfer/source-dataset3.csv": "0e667330458ae88dd3d6b9cab39af4e7629a2fef98a810d0ea5f15e48220bdbf"
+  },
+  "selection": "Every false-merge component after evaluation; no omitted false merges",
+  "test_entities": 296,
+  "test_records": 733
+}

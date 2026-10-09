@@ -1,0 +1,19 @@
+{
+  "abstentions": "Invalid or insufficient teacher outputs retained; exclude those pairs from every comparative student's training; report coverage and identity accuracy conditional on valid judgments.",
+  "budget_usd": 0.5,
+  "conservative_runtime_reserved_usd": 0.07724359374999991,
+  "created_utc": "2026-10-09T21:35:19.231734+00:00",
+  "input_estimate_with_framing_max": 640,
+  "input_estimate_with_framing_min": 614,
+  "jobs": 300,
+  "jobs_sha256": "3c38fcc76adddd7061e6c0d4142ac0b6e9386f4b064bc411f7409250fd9f0b34",
+  "max_calls": 400,
+  "model": "gpt-6-luna",
+  "new_paid_test_calls": 0,
+  "output_token_cap_each": 256,
+  "privacy_boundary": "Only ten observed fields from public synthetic FEBRL4 discovery entities; no gold identity, score, split or record identifier in prompts.",
+  "query_set": "seed7101 fixed100common plus200uncertainty/diversity acquisitions; prospective set independent of teacher outcomes",
+  "reasoning_effort": "none",
+  "student": "Identical LogisticRegression(C=1,max_iter1000,no class weighting), frozen cheap observed diagnostics and reusable feature groups; teacher vs baseline pseudo-label vs gold labels on same valid teacher pairs. Independent common calibration selects thresholds only.",
+  "temperature": 0
+}

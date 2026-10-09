@@ -1,0 +1,11 @@
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.9.1
+joblib==1.6.0
+splink==5.0.0
+duckdb==1.5.6
+rapidfuzz==3.14.1
+tiktoken==0.14.0
+openai==2.54.0
+jsonschema==4.26.0

@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "purpose": "Offline verification of unchanged frozen source hashes using published files; no cache fallback.",
+  "frozen_source_paths": {
+    "native_observed": "../adversarial-2026/organizations/data/native-observed.jsonl",
+    "registry_observed": "../adversarial-2026/organizations/data/ror-v1.41-observed.jsonl.gz",
+    "source_manifest": "../adversarial-2026/organizations/data/source-manifest.json",
+    "old_training_validation_source": "sources/gold_affiliation_annotations.csv",
+    "runtime": "../runtime.py"
+  },
+  "published_files": [
+    {
+      "name": "gold_affiliation_annotations.csv",
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/data/gold_affiliation_annotations.csv",
+      "sha256": "2385f28c6c1275f0114cf15c33d164672af7a2a6a88d0c03178e04236c3de8c3",
+      "bytes": 271014,
+      "path": "sources/gold_affiliation_annotations.csv",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "S2AFF-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/allenai/S2AFF/ac8d6b58f42b253821c26fff8b013913317c5c72/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "path": "sources/S2AFF-LICENSE.txt",
+      "license": "Apache-2.0"
+    }
+  ],
+  "frozen_source_binding": "The unmodified S2AFF CSV has the exact old_training_validation_source SHA256 in protocol.json. The frozen experiment used the original cache location; only this additive offline verifier uses the published copy. Original test labels are skipped before label parsing."
+}

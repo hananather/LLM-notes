@@ -1,0 +1,6 @@
+{
+  "final_test_labels_saved_at_utc": "2026-10-09T22:01:59.080438+00:00",
+  "interpretation": "The saved-label timestamp follows the adapted prediction seal; final labels are accessed only by evaluation, never fitting or policy selection.",
+  "prediction_seal_sha256": "40cc7e202370e27af0eb6b2ecd5bdc6a572450e0fc3b99ecbbf0c5af6fbdd155",
+  "prediction_sealed_at_utc": "2026-10-09T22:01:19.521254+00:00"
+}

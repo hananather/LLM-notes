@@ -1,0 +1,41 @@
+{
+  "baseline": "Reuse stronger FEBRL4 ten-field Splinkm/u; dedupe_only graph; strict-rule prior estimated from observed data only",
+  "boundary": "Cross-corpus synthetic transfer, not human adjudication or NSO operational performance. New corpus split does not remove possible public model exposure.",
+  "calibration": "At most400 fixed score-stratified candidate queries; same labels for all methods; threshold only; no final-test labels",
+  "counts_by_role": {
+    "calibration": {
+      "entities": 314,
+      "records": 814
+    },
+    "test": {
+      "entities": 296,
+      "records": 733
+    },
+    "unused_development": {
+      "entities": 1390,
+      "records": 3453
+    }
+  },
+  "created_utc": "2026-10-09T21:40:07.921710+00:00",
+  "features": "Frozen FEBRL4 feature definitions and standardization; rank diagnostics retain deterministic opaque-ID orientation in dedupe, an additional transfer shift",
+  "graph": "Connected components, full implied pair errors, false merge/split entities and B-cubed precision/recall; one-to-one is inappropriate for repeated records",
+  "implementation_sha256": "152ccdd6425c264eba8978952389004d2cbcd5ea375465379fc39fd461dafeca",
+  "license": "Original FEBRL ANUOS1.2 and Splink datasets MIT; license notices retained in ../record-linkage-tutorial/data",
+  "max_entity_records": 6,
+  "observed_entity_size_counts": {
+    "1": 835,
+    "2": 368,
+    "3": 256,
+    "4": 212,
+    "5": 161,
+    "6": 168
+  },
+  "parent_config_sha256": "41fecb697d2aefc5dcd7d9e02191329bbe44f464a72210b0b0700e53c96b6ced",
+  "population": "Pinned public synthetic FEBRL3;5000rows; repeated entities with variable group sizes",
+  "primary_loss": "2FP+FN across all true within-entity pairs; sensitivityFPcost1/2/5",
+  "source_sha256": "0e667330458ae88dd3d6b9cab39af4e7629a2fef98a810d0ea5f15e48220bdbf",
+  "source_url": "https://raw.githubusercontent.com/moj-analytical-services/splink_datasets/75876d806d9eff72072d21878150ee50a96d5f41/data/febrl/dataset3.csv",
+  "students": "Frozen FEBRL4 teacher/pseudo/oracle logistic similarities; no retraining or new teacher inference",
+  "test_truth_unblinded": false,
+  "whole_entity_split": "SHA256(clustering-febrl3-transfer-v1:original_entity_digits)mod100:70-84calibration,85-99test,0-69unused development"
+}

@@ -1,0 +1,58 @@
+{
+  "audit": {
+    "all_ten": {
+      "sample_fn": 0,
+      "sample_fp": 0,
+      "sample_matches": 205,
+      "weighted_primary_loss": 0.0
+    },
+    "official_six": {
+      "sample_fn": 9,
+      "sample_fp": 0,
+      "sample_matches": 205,
+      "weighted_primary_loss": 9.0
+    }
+  },
+  "audit_cutoff_correction": "Corrected 1/3 to Bayes FP-cost-2 cutoff2/3 before final truth; original record preserved.",
+  "candidate_counts": {
+    "baseline_fit": 95323,
+    "calibration": 255,
+    "discovery": 2029,
+    "repair_validation": 241,
+    "test": 5554
+  },
+  "created_utc": "2026-10-09T21:31:01.214266+00:00",
+  "proposal_sha256": "708d7e15531314fadb3f65e209eb25501c92c6c31f19fef6475719774faba23a",
+  "selected_baseline": "all_ten",
+  "test_truth_unblinded": false,
+  "timing": {
+    "all_ten": {
+      "em": [
+        {
+          "block": "date_of_birth",
+          "iterations": 3
+        },
+        {
+          "block": "postcode",
+          "iterations": 2
+        }
+      ],
+      "fit_seconds": 7.269811249992927,
+      "total_fit_and_prediction_seconds": 8.913244791998295
+    },
+    "official_six": {
+      "em": [
+        {
+          "block": "date_of_birth",
+          "iterations": 3
+        },
+        {
+          "block": "postcode",
+          "iterations": 3
+        }
+      ],
+      "fit_seconds": 6.281614416991943,
+      "total_fit_and_prediction_seconds": 7.592123875001562
+    }
+  }
+}

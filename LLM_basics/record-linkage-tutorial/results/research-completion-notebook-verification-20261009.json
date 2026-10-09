@@ -1,0 +1,27 @@
+{
+  "status": "verified",
+  "date": "2026-10-09",
+  "python": "3.11.15",
+  "tested_platform": "macOS",
+  "notebook_sha256": "fd256c5f509b2ae68aead4a5f7e109a4dde855ce55973e0f5e9a8681702bd27d",
+  "research_manifest_sha256": "4a4ebf1122a7e412682a87df0f46e49154334eff72238ffb73053c59ab0f2fe5",
+  "reading_export_sha256_before_link_rebasing": "fba2b1c7d0231390b9f13265271671e365eea0ce9222299c2854109411f0a118",
+  "total_cells": 104,
+  "successfully_executed_code_cells": 47,
+  "prior_report_cells_retained_in_order": 84,
+  "prior_scientific_files_checked_unchanged": 607,
+  "described_figures": 20,
+  "described_math_expressions": 13,
+  "all_images_embedded": true,
+  "code_inputs_hidden_in_reading_copy": true,
+  "local_links_resolve": true,
+  "default_live_flags": false,
+  "model_calls_during_notebook_execution": 0,
+  "independent_study_verification": [
+    "native: 91 policies, 1638 metric rows, 364 allocation rows, 22 unique sealed artifacts",
+    "adaptation: 151 policy rows, 10 reconstructed fits; maximum probability difference 0",
+    "clustering: 384 policy rows, 59 publication/input hashes; student-fit maximum probability difference 0",
+    "historical supervised Splink: saved independently checked five-method outcomes"
+  ],
+  "evidence_boundary": "Native adaptation tests 697 held-out rows within the 1104 curated public affiliation rows. FEBRL identity controls are synthetic. No operational NSO accuracy, staff-time saving or record-embedding training is claimed."
+}

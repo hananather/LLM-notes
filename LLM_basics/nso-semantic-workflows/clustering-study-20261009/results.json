@@ -1,0 +1,1050 @@
+{
+  "baseline": [
+    {
+      "additional_budget": 0,
+      "arm": "baseline",
+      "assigned_b_cubed_precision": 1.0,
+      "assigned_b_cubed_recall": 0.9987195903,
+      "assigned_false_merge_components": 0,
+      "assigned_false_split_entities": 2,
+      "assigned_fn": 2,
+      "assigned_fp": 0,
+      "assigned_implied_false_pairs": 0,
+      "assigned_implied_true_pairs": 779,
+      "assigned_largest_component": 2,
+      "assigned_loss": 2,
+      "assigned_missed_true_cluster_pairs": 2,
+      "assigned_tp": 779,
+      "b_cubed_precision": 1.0,
+      "b_cubed_recall": 0.9987195903,
+      "branch": "baseline",
+      "candidate_misses": 0,
+      "candidate_recall": 1.0,
+      "candidate_true_links": 781,
+      "column": "baseline_c1",
+      "conditional_matching_recall": 0.9974391805,
+      "corrected_candidate_errors": 0,
+      "decision_loss": 2,
+      "false_merge_components": 0,
+      "false_split_entities": 2,
+      "fn": 2,
+      "fp": 0,
+      "fp_cost": 1,
+      "groups": "[]",
+      "implied_false_pairs": 0,
+      "implied_true_pairs": 779,
+      "introduced_candidate_errors": 0,
+      "largest_component": 2,
+      "missed_true_cluster_pairs": 2,
+      "precision": 1.0,
+      "recall": 0.9974391805,
+      "score_column": "baseline_probability",
+      "seed": null,
+      "tn": 609180,
+      "tp": 779,
+      "unresolved_left_records": 2
+    },
+    {
+      "additional_budget": 0,
+      "arm": "baseline",
+      "assigned_b_cubed_precision": 1.0,
+      "assigned_b_cubed_recall": 0.9987195903,
+      "assigned_false_merge_components": 0,
+      "assigned_false_split_entities": 2,
+      "assigned_fn": 2,
+      "assigned_fp": 0,
+      "assigned_implied_false_pairs": 0,
+      "assigned_implied_true_pairs": 779,
+      "assigned_largest_component": 2,
+      "assigned_loss": 2,
+      "assigned_missed_true_cluster_pairs": 2,
+      "assigned_tp": 779,
+      "b_cubed_precision": 1.0,
+      "b_cubed_recall": 0.9987195903,
+      "branch": "baseline",
+      "candidate_misses": 0,
+      "candidate_recall": 1.0,
+      "candidate_true_links": 781,
+      "column": "baseline_c2",
+      "conditional_matching_recall": 0.9974391805,
+      "corrected_candidate_errors": 0,
+      "decision_loss": 2,
+      "false_merge_components": 0,
+      "false_split_entities": 2,
+      "fn": 2,
+      "fp": 0,
+      "fp_cost": 2,
+      "groups": "[]",
+      "implied_false_pairs": 0,
+      "implied_true_pairs": 779,
+      "introduced_candidate_errors": 0,
+      "largest_component": 2,
+      "missed_true_cluster_pairs": 2,
+      "precision": 1.0,
+      "recall": 0.9974391805,
+      "score_column": "baseline_probability",
+      "seed": null,
+      "tn": 609180,
+      "tp": 779,
+      "unresolved_left_records": 2
+    },
+    {
+      "additional_budget": 0,
+      "arm": "baseline",
+      "assigned_b_cubed_precision": 1.0,
+      "assigned_b_cubed_recall": 0.9987195903,
+      "assigned_false_merge_components": 0,
+      "assigned_false_split_entities": 2,
+      "assigned_fn": 2,
+      "assigned_fp": 0,
+      "assigned_implied_false_pairs": 0,
+      "assigned_implied_true_pairs": 779,
+      "assigned_largest_component": 2,
+      "assigned_loss": 2,
+      "assigned_missed_true_cluster_pairs": 2,
+      "assigned_tp": 779,
+      "b_cubed_precision": 1.0,
+      "b_cubed_recall": 0.9987195903,
+      "branch": "baseline",
+      "candidate_misses": 0,
+      "candidate_recall": 1.0,
+      "candidate_true_links": 781,
+      "column": "baseline_c5",
+      "conditional_matching_recall": 0.9974391805,
+      "corrected_candidate_errors": 0,
+      "decision_loss": 2,
+      "false_merge_components": 0,
+      "false_split_entities": 2,
+      "fn": 2,
+      "fp": 0,
+      "fp_cost": 5,
+      "groups": "[]",
+      "implied_false_pairs": 0,
+      "implied_true_pairs": 779,
+      "introduced_candidate_errors": 0,
+      "largest_component": 2,
+      "missed_true_cluster_pairs": 2,
+      "precision": 1.0,
+      "recall": 0.9974391805,
+      "score_column": "baseline_probability",
+      "seed": null,
+      "tn": 609180,
+      "tp": 779,
+      "unresolved_left_records": 2
+    }
+  ],
+  "bootstrap_boundary": "Paired Poisson(1) entity weights; false edges use endpoint products. Same corpus and five acquisition seeds; intervals do not establish transfer. Five comparator family uses99percent intervals; costs/budgets/branches are fixed sensitivities.",
+  "candidate_misses": 0,
+  "candidate_pairs": 5554,
+  "candidate_true_links": 781,
+  "comparisons": [
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "random",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "uncertainty_diversity",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "error_risk",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "shuffled_clusters",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "score_groups",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "random",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "uncertainty_diversity",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "error_risk",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "shuffled_clusters",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "score_groups",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "random",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "uncertainty_diversity",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "error_risk",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "shuffled_clusters",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "ordinary",
+      "comparator": "score_groups",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "random",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "uncertainty_diversity",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "error_risk",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "shuffled_clusters",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "score_groups",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "random",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "uncertainty_diversity",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "error_risk",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "shuffled_clusters",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "score_groups",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "random",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "uncertainty_diversity",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "error_risk",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "shuffled_clusters",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 100,
+      "branch": "repair",
+      "comparator": "score_groups",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "random",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "uncertainty_diversity",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "error_risk",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "shuffled_clusters",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "score_groups",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "random",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "uncertainty_diversity",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "error_risk",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "shuffled_clusters",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "score_groups",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "random",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "uncertainty_diversity",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "error_risk",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "shuffled_clusters",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "ordinary",
+      "comparator": "score_groups",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "random",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "uncertainty_diversity",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "error_risk",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "shuffled_clusters",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "score_groups",
+      "fp_cost": 1,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "random",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "uncertainty_diversity",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "error_risk",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "shuffled_clusters",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "score_groups",
+      "fp_cost": 2,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "random",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "uncertainty_diversity",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "error_risk",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "shuffled_clusters",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "additional_budget": 200,
+      "branch": "repair",
+      "comparator": "score_groups",
+      "fp_cost": 5,
+      "mean_loss_reduction_from_clustering": 0.0,
+      "paired_entity_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_conservative_99_percent_interval": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "created_utc": "2026-10-09T21:41:41.065012+00:00",
+  "evidence_boundary": "Exploratory synthetic public-data pilot; prior label exposure is recorded. Oracle pair queries measure query efficiency, not human review time or accuracy.",
+  "possible_cross_source_pairs": 609961,
+  "prediction_seal_sha256": "19c79ef108442f8cd2ad55848fd3629c3638c5c7ba7eb88b6434c922f18cdff2",
+  "serialization_amendment": "Initial report export stopped on an absent baseline seed converted toNaN; CSV outcomes and frozen predictions were complete. report.py exports null safely and recomputes the same prespecified paired intervals; no learner or threshold changed.",
+  "stop": "One frozen exploratory run completed; no outcome-driven retuning or favorable-arm selection.",
+  "test_entities": 781,
+  "test_records": 1562
+}

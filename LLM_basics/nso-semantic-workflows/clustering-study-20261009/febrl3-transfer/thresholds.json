@@ -1,0 +1,58 @@
+{
+  "baseline": {
+    "1": {
+      "calibration_loss": 0.0,
+      "threshold": 0.20099813907524386
+    },
+    "2": {
+      "calibration_loss": 0.0,
+      "threshold": 0.20099813907524386
+    },
+    "5": {
+      "calibration_loss": 0.0,
+      "threshold": 0.20099813907524386
+    }
+  },
+  "oracle_student": {
+    "1": {
+      "calibration_loss": 0.0,
+      "threshold": 0.022453690571823937
+    },
+    "2": {
+      "calibration_loss": 0.0,
+      "threshold": 0.022453690571823937
+    },
+    "5": {
+      "calibration_loss": 0.0,
+      "threshold": 0.022453690571823937
+    }
+  },
+  "pseudo_student": {
+    "1": {
+      "calibration_loss": 0.0,
+      "threshold": 0.022453690571823937
+    },
+    "2": {
+      "calibration_loss": 0.0,
+      "threshold": 0.022453690571823937
+    },
+    "5": {
+      "calibration_loss": 0.0,
+      "threshold": 0.022453690571823937
+    }
+  },
+  "teacher_student": {
+    "1": {
+      "calibration_loss": 12.525510204081634,
+      "threshold": 0.03493263834771357
+    },
+    "2": {
+      "calibration_loss": 12.525510204081634,
+      "threshold": 0.03493263834771357
+    },
+    "5": {
+      "calibration_loss": 12.525510204081634,
+      "threshold": 0.03493263834771357
+    }
+  }
+}

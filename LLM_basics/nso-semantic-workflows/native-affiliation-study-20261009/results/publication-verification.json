@@ -1,0 +1,37 @@
+{
+  "verified_at": "2026-10-09T22:21:23.219047+00:00",
+  "command": "python3 -B LLM_basics/nso-semantic-workflows/native-affiliation-study-20261009/verification.py",
+  "verifier_sha256": "cc61cbd0d364d3a6f53403fe963d52cf18996c323e9a110394903dff9aaeb7a7",
+  "publication_only_fixture": true,
+  "original_cache_present": false,
+  "private_guidance_present": false,
+  "api_credentials_removed_from_environment": true,
+  "standard_library_only": true,
+  "python_version": "3.11.8",
+  "fixture_file_count": 84,
+  "fixture_file_hashes_unchanged": true,
+  "write_network_process_guards": {
+    "write_events": 0,
+    "socket_events": 0,
+    "subprocess_events": 0
+  },
+  "result": {
+    "allocation_rows_verified": 364,
+    "candidate_recall_verified": true,
+    "experimental_reruns": 0,
+    "files_written": 0,
+    "frozen_source_hashes_verified": 5,
+    "interval_scope": "Saved bootstrap intervals are retained; this verifier checks counts and source/seal bindings without resampling.",
+    "label_access_chronology_verified": true,
+    "method_policy_outputs_verified": 91,
+    "metric_view_group_rows_verified": 1638,
+    "old_training_validation_rows": 1716,
+    "paid_calls": 0,
+    "publisher_reference_rows": 1104,
+    "sealed_artifacts_verified": 22,
+    "validation_champions_verified": true,
+    "verification": "PASS",
+    "verified_at": "2026-10-09T22:21:23.161827+00:00"
+  },
+  "scientific_evidence_changed": false
+}
